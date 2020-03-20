@@ -1,0 +1,46 @@
+<!-- NAVBAR -->
+<div class="navbar-card">
+
+
+
+  <nav class="navbar navbar-expand-xl">
+    <!-- Use text-hide bootstrap in order not to loose SEO-->
+    <a class="navbar-brand mr-auto" href="/">
+      <img src="../images/cO-logo-horizontal.png" width="245px" height="auto" alt="CloudOps logo">
+    </a>
+    <a class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto list-group list-group-flush">
+        {{ range .Site.Menus.main }}
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="{{ .URL }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item list-group-item list-group-item-action" href="#">A</a>
+            <a class="dropdown-item  list-group-item list-group-item-action" href="#">B</a>
+            <a class="dropdown-item  list-group-item list-group-item-action" href="#">C</a>
+          </div>
+        </li>
+        {{ end }}
+        <li class="nav-item">
+          <button class="btn" type="submit">Contact</button>
+        </li>
+        <li>
+          {{ if .IsTranslated }}
+          {{ range .Translations }}
+
+        <li id="myDIV" class="nav-item list-group list-group-flush">
+          <a class="btn nav-link language-menu list-group-item list-group-item-action" href="/">EN</a>
+          <p class="language-menu">/</p>
+          <a class="btn nav-link language-menu list-group-item list-group-item-action" href="/fr">FR</a>
+        </li>
+        {{ end }}
+        {{ end }}
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

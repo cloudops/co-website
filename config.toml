@@ -1,0 +1,69 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "CloudOps"
+theme = ["cO-theme"]
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubDir = false
+
+[languages]
+    [languages.en]
+        languageName = "EN"
+        weight = 10
+        contentDir = "content/english"
+
+        [[languages.en.menu.main]]
+            identifier = "solutions"
+            name = "Solutions"
+            url = "/solutions"
+            weight = 20
+
+
+        [[languages.en.menu.main]]
+            identifier = "training"
+            name = "Training"
+            url = "/training"
+            weight = 40
+
+
+        [[languages.en.menu.main]]
+            identifier = "Reading"
+            name = "Reading"
+            url = "/reading"
+            weight = 60
+        
+        [[languages.en.menu.main]]
+            identifier = "company"
+            name = "Company"
+            url = "/company"
+            weight = 70
+
+    [languages.fr]
+        languageName = "FR"
+        weight = 10
+        contentDir = "content/french"
+
+        [[languages.fr.menu.main]]
+            identifier = "solutions"
+            name = "Services"
+            url = "/fr/services"
+            weight = 20
+
+        [[languages.fr.menu.main]]
+            identifier = "workshops"
+            name = "Ateliers"
+            url = "/fr/ateliers"
+            weight = 40
+
+
+        [[languages.fr.menu.main]]
+            identifier = "reading"
+            name = "Lecture"
+            url = "/fr/lecture"
+            weight = 60
+
+        [[languages.fr.menu.main]]
+            identifier = "company"
+            name = "Compagnie"
+            url = "/fr/compagnie"
+            weight = 70
