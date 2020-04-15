@@ -7,11 +7,11 @@
    {{ if .Site.IsServer }}
    {{ $cssOpts := (dict "targetPath" "css/style.css" "enableSourceMap" true ) }}
    {{ $styles := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.co.css" . | toCSS $cssOpts }}
-   <link rel=“stylesheet” as=“style” type=“text/css” href="{{ $styles.RelPermalink }}" media="screen">
+   <link rel="stylesheet" as="style" type="text/css" href="{{ $styles.RelPermalink }}" media="screen">
     {{ else }}
    {{ $cssOpts := (dict "targetPath" "css/style.css" ) }}
    {{ $styles := resources.Get "scss/style.scss" | resources.ExecuteAsTemplate "style.co.css" . | toCSS $cssOpts | minify | fingerprint }}
-   <link rel=“stylesheet” as=“style” type=“text/css” href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous" media="screen" />
+   <link rel="stylesheet" as="style" type="text/css" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous" media="screen" />
     {{ end }}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- FAVICON -->

@@ -1778,12 +1778,17 @@ a.active {
 .workshops .customers-card img {
     width: 100px;
 }
+
 .workshops .customers-card .expert-text {
     position: relative;
     left: 120px;
     top: -80px;
 }
 
+.workshops .customers-card .expert-text a {
+    color: #005D91;
+    text-decoration: underline;
+}
 .workshops .stand-out {
     background-color: #FBFBFB;
 }
@@ -1797,7 +1802,120 @@ a.active {
     min-width: 280px;
 }
 .workshops .stand-out .card-deck .card:hover {
-    box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2);
+        box-shadow: inset 0px 0px 15px rgba(98, 181, 229, 0.4);
+    }
+
+.workshops button {
+    background-color:#005D91;
+    width: 250px;
+    height: 35px;
+    border-radius: 4px;
+    box-shadow: #979797 0 2px 4px 0;
+    color: #FFF;
+    padding: 0 10px;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    transition-duration: 0.6s;
+}
+
+.workshops button:hover {
+    background-color:#fff;
+    border: 1px solid #005D91;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #005D91;
+}
+
+.workshops .brand-promises-card button .triangle-right {
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 16px;
+    border-color: transparent transparent transparent #fff;
+    vertical-align: middle;
+    transition-duration: 0.6s;
+}
+
+.workshops .brand-promises-card button .inner-triangle {
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: -14px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 10px;
+    border-color: transparent transparent transparent #005D91;
+    transition-duration: 0.6s;
+}
+
+.workshops .brand-promises-card button:hover .triangle-right {
+    border-color: transparent transparent transparent #005D91;
+    margin-left: 120px;
+    transition-duration: 0.6s;
+}
+
+.workshops .brand-promises-card button.btn:hover .inner-triangle {
+    border-color: transparent transparent transparent #fff;
+    transition-duration: 0.6s;
+}
+
+.workshops .contact-us-card .with-yellow-line {
+    padding-right: 8%;
+    border-right: solid #FFE07F 2px;
+}
+
+.workshops .contact-us-card .without-yellow-line {
+    padding-right: 8%;
+}
+
+.workshops .contact-us-card img {
+    margin-left: 0;
+}
+.workshops .contact-us-card h2 {
+    padding-bottom: 30px;
+}
+
+
+.workshops .contact-us-card button .triangle-right {
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 16px;
+    border-color: transparent transparent transparent #fff;
+    vertical-align: middle;
+    transition-duration: 0.6s;
+}
+
+.workshops .contact-us-card button .inner-triangle {
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: -14px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 10px;
+    border-color: transparent transparent transparent #005D91;
+    transition-duration: 0.6s;
+}
+
+.workshops .contact-us-card button:hover .triangle-right {
+    border-color: transparent transparent transparent #005D91;
+    margin-left: 100px;
+    transition-duration: 0.6s;
+}
+
+.workshops .contact-us-card button.btn:hover .inner-triangle {
+    border-color: transparent transparent transparent #fff;
+    transition-duration: 0.6s;
 }
 
 @media (max-width: 575.98px) {
@@ -1808,9 +1926,32 @@ a.active {
         left: 0;
         margin-bottom: 40px;
     }
-    
+
     .workshops .customers-card .expert-bio {
         margin-left: 20%;
+    }
+
+
+    .workshops .contact-us-card .with-yellow-line {
+        padding-right: 0;
+        border-right: none;
+        border-bottom: solid 2px #FFE07F;
+        padding-bottom: 50px;
+        margin-left: 30px;
+        padding-left: 0;
+    }
+
+    .workshops .contact-us-card .with-yellow-line:first-child {
+        border: none;
+    }
+    
+    .workshops .contact-us-card .without-yellow-line {
+        padding: 50px 0 0 30px;
+        
+    }
+
+    .workshops .contact-us-card img {
+        margin-bottom: 0;
     }
 }
 
@@ -1821,6 +1962,23 @@ a.active {
         top: 30px;
         left: 0;
         margin-bottom: 40px;
+    }
+
+    .workshops .contact-us-card .with-yellow-line {
+        padding-right: 0;
+        border-right: none;
+        border-bottom: solid 2px #FFE07F;
+        padding-bottom: 50px;
+    }
+    
+    .workshops .contact-us-card .without-yellow-line {
+        padding-right: 0;
+        padding-top: 50px;
+
+    }
+    .workshops .contact-us-card {
+        margin-left: 9%;
+        margin-left: 15px;
     }
 }
 
@@ -1834,6 +1992,20 @@ a.active {
     .workshops .customers-card .expert-bio {
         margin-left: 40px;
     }
+
+
+    .workshops .contact-us-card .with-yellow-line {
+        padding-right: 0;
+        border-right: none;
+        border-bottom: solid 2px #FFE07F;
+        padding-bottom: 50px;
+    }
+    
+    .workshops .contact-us-card .without-yellow-line {
+        padding-right: 0;
+        padding-top: 50px;
+
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -1841,11 +2013,16 @@ a.active {
     .jumbotron.hero img {
         left: 0px;
     }
+    .workshops .contact-us-card .with-yellow-line:first-child {
+        border: none;
+    }
     
 }
 
 @media (min-width: 1200px) {
-
+    .workshops .contact-us-card .with-yellow-line:first-child {
+        border: none;
+    }
 }
 
 
@@ -1854,7 +2031,7 @@ a.active {
 
 .solutions
 .jumbotron.hero {
-    background-image: linear-gradient(to bottom right, #005D91, #FFE07F);
+    background-image: linear-gradient(to bottom right, #005D91, #005d91);
     border-top: 3px solid #005D91;
     margin-bottom: 0;
 }
@@ -1870,6 +2047,7 @@ a.active {
     position: absolute;
     bottom: 0;
     left: 100px;
+
 }
 
 .solutions .case-studies-card h2 {
@@ -1881,7 +2059,10 @@ a.active {
 }
 
 .solutions .case-studies-card img {
-    margin-top: 150px;
+    position: relative;
+    top: 30%;
+    left: 0;
+    height: 200px;
 }
 .solutions
 .brand-promises-card {
@@ -1894,13 +2075,30 @@ a.active {
     padding-bottom: 30px;
 }
 
+.solutions .brand-promises-card img {
+    margin-top: 50px;
+}
+
 @media (max-width: 575.98px) {
     .solutions
     .jumbotron.hero img {
-        position: relative;
-        top: 30px;
-        left: 0;
-        margin-bottom: 40px;
+        position: absolute;
+        bottom: 0;
+        left: 15px;
+        width: 300px;
+    }
+
+    .solutions
+    .jumbotron.hero h1 {
+        text-align: left;
+        font-size: 59px;
+    }
+
+    .solutions
+    .jumbotron.hero h2 {
+        text-align: left;
+        padding-bottom: 200px;
+        font-size: 26px;
     }
 
     .case-studies-card {
@@ -1911,8 +2109,9 @@ a.active {
         padding: 70px 0;
     }
     
+    .solutions
     .case-studies-card h2 {
-        margin: 0 auto 50px;
+        margin: 50px auto 50px;
     }
 
     .case-studies-card .devops-case-study {
@@ -1931,14 +2130,6 @@ a.active {
         width: auto;
     }
 
-    .case-studies-card img {
-        top: 123px;
-        left: 25px;
-        position: absolute;    
-        height: 175px;  
-        width: auto;
-    }
-
     .solutions .brand-promises-card h2 {
         text-align: center;
     }
@@ -1948,11 +2139,26 @@ a.active {
 @media (min-width: 576px) and (max-width: 767.98px) {
     .solutions
     .jumbotron.hero img {
-        position: relative;
-        top: 30px;
-        left: 0;
-        margin-bottom: 40px;
+        position: absolute;
+        bottom: -500px;
+        left: 15px;
+        width: 450px;
     }
+
+    .solutions
+    .jumbotron.hero h1 {
+        text-align: left;
+        font-size: 59px;
+    }
+
+    .solutions
+    .jumbotron.hero h2 {
+        text-align: left;
+        padding-bottom: 300px;
+        font-size: 26px;
+        margin: 50px auto 50px;
+    }
+
     .case-studies-card .devops-case-study {
         margin-left: 10px;
     }
@@ -1963,22 +2169,22 @@ a.active {
         width: auto;
     }
 
-    .case-studies-card img {
-        position: absolute;    
-        height: 175px;  
-        width: auto;
-    }  
-
-    .solutions .brand-promises-card h2 {
-        text-align: center;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .solutions
     .jumbotron.hero img {
-        height: 200px;
-        width: auto;
+        left: 0px;
+        bottom: 100px;
+        width: 320px;
+    }
+    .solutions .brand-promises-card p {
+        text-align: left;
+    }
+
+    .solutions .brand-promises-card img {
+        height: 150px;
+        text-align: left;
     }
 
 }
@@ -1986,7 +2192,123 @@ a.active {
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .solutions
     .jumbotron.hero img {
-        left: 0px;
+        left: 0;
+        bottom: 50px;
+        width: 400px;
+    } 
+    
+    
+.solutions .brand-promises-card img {
+    height: 170px;
+}
+}
+
+@media (min-width: 1200px) {
+    .solutions
+    .jumbotron.hero img {
+        width: 550px;
+        left: 0;
+    }
+}
+
+
+/************  About Us page  ***************/
+
+.about-us
+.jumbotron.hero {
+    background-image: linear-gradient(to bottom right, #FFE07F, #FFE07F);
+    border-top: 3px solid #005D91;
+    margin-bottom: 0;
+    color: #404040;
+}
+
+.about-us
+.jumbotron.hero h1,
+.about-us
+.jumbotron.hero h2 {
+    text-align: right;
+    color: #404040;
+}
+.about-us
+.jumbotron.hero img {
+    position: absolute;
+    top: -140px;
+}
+
+.about-us .case-studies-card h2 {
+    margin: 150px auto 50px;
+}
+
+.about-us .case-studies-card .devops-case-study {
+    border-bottom: none;
+}
+
+.about-us .case-studies-card img {
+    margin-top: 150px;
+}
+.about-us
+.brand-promises-card {
+    background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+}
+.about-us .brand-promises-card h2 {
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 575.98px) {
+    .about-us
+    .jumbotron.hero h1 {
+        text-align: center;
+    }
+
+    .about-us
+    .jumbotron.hero h2 {
+        text-align: center;
+        padding-bottom: 300px;
+    }
+
+    .about-us
+    .jumbotron.hero img {
+        top: 360px;
+        width: 300px;
+
+    }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .about-us
+    .jumbotron.hero h2 {
+        padding-bottom: 350px;
+    }
+
+    .about-us
+    .jumbotron.hero img {
+        position: absolute;
+        top: 250px;
+        left: 25%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .about-us
+    .jumbotron.hero img {
+        left: -40px;
+        top:0;
+        width: 350px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .about-us
+    .jumbotron.hero img {
+        left: 0;
+        top: -30px;
     }
     
 }
