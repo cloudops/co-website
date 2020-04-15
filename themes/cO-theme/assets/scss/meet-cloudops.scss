@@ -1,0 +1,106 @@
+/************  About Us page  ***************/
+
+.about-us
+.jumbotron.hero {
+    background-color: #FFE07F;
+    background-image: none;
+    border-top: 3px solid #005D91;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.about-us
+.jumbotron.hero h1,
+.about-us
+.jumbotron.hero h2 {
+    text-align: right;
+    color: #404040;
+}
+
+.about-us
+.jumbotron.hero img {
+    position: absolute;
+    top: -140px;
+}
+
+.about-us .case-studies-card h2 {
+    margin: 150px auto 50px;
+}
+
+.about-us .case-studies-card .devops-case-study {
+    border-bottom: none;
+}
+
+.about-us .case-studies-card img {
+    margin-top: 150px;
+}
+.about-us
+.brand-promises-card {
+    background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+}
+.about-us .brand-promises-card h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 575.98px) {
+    .about-us
+    .jumbotron.hero h1 {
+        text-align: left;
+    }
+
+    .about-us
+    .jumbotron.hero h2 {
+        text-align: left;
+        padding-bottom: 300px;
+    }
+
+    .about-us
+    .jumbotron.hero img {
+        top: 360px;
+        width: 300px;
+
+    }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .about-us
+    .jumbotron.hero h2 {
+        padding-bottom: 350px;
+    }
+
+    .about-us
+    .jumbotron.hero img {
+        position: absolute;
+        top: 250px;
+        left: 25%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .about-us
+    .jumbotron.hero img {
+        left: -40px;
+        top:0;
+        width: 350px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .about-us
+    .jumbotron.hero img {
+        left: 0;
+        top: -30px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+
+}

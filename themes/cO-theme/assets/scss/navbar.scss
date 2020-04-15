@@ -1,0 +1,188 @@
+/************  Navbar Styles  ***************/
+
+.navbar-card {
+    margin: 5px 100px;
+}
+
+.navbar-card h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+    font-size: 20px;
+}
+
+.navbar-card .navbar .navbar-nav a {
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+    font-size: 20px;
+    padding: 2px;
+        }
+
+
+.navbar-card .navbar .navbar-nav a:hover {
+        border-top: #62B5E5 solid 2px;
+        }
+
+.navbar-card .navbar .navbar-nav a:active {
+        border-top: #005D91 solid 2px;
+        }
+
+.navbar-card .navbar .navbar-nav .nav-item {
+    margin: auto 12px;
+}
+
+.navbar-card button {
+    background-color:#005D91;
+    width: 120px;
+    height: 35px;
+    border-radius: 4px;
+    box-shadow: #979797 0 2px 4px 0;
+    color: #FFF;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    transition-duration: 0.6s;
+}
+
+.navbar-card button:hover {
+    background-color:#fff;
+    width: 120px;
+    height: 35px;
+    border: 1px solid #005D91;
+    border-radius: 4px;
+    box-shadow: #979797 0 2px 4px 0;
+    color: #005D91;
+}
+
+a.nav-link.language-menu.list-group-item.list-group-item-action {
+    display: inline;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+
+a.nav-link.language-menu.list-group-item.list-group-item-action:hover {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+a.nav-link.language-menu.list-group-item.list-group-item-action:focus {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+a.active {
+    font-weight: bold;
+}
+
+.navbar-card .navbar .navbar-nav .nav-item .language-menu .list-group-item .list-group-item-action:active {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+.navbar-card .navbar .navbar-nav .nav-item a.nav-link.language-menu .list-group-item .list-group-item-action {
+    padding: 2px;
+    display: inline;
+}
+.navbar-card .navbar .nav-item .list-group .list-group-flush {
+    display: inline;
+    border: none;
+}
+.navbar-card .navbar .navbar-nav .nav-item {
+    display: inline;
+}
+.navbar-card .navbar .navbar-nav .nav-item p {
+    display: inline;
+}
+
+
+
+@media (max-width: 575.98px) {
+    .navbar-card {
+        margin: 5px 5px;
+    }
+    .navbar-card .navbar {
+        padding: 5px 5px;
+    }
+    .navbar-card a:link {
+        margin: 0;
+    }
+
+    .navbar-card .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+    .navbar-card i {
+        color: #62B5E5;
+        font-size: 22px;
+    }
+    .navbar-card img {
+        width: 200px;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-card {
+        margin: 5px 50px;
+    }
+    .navbar-card a:link {
+        margin: 0;
+    }
+
+    .navbar-card .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+    .navbar-card i {
+        color: #62B5E5;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-card {
+        margin: 5px 50px;
+    }
+    .navbar-card a:link {
+        margin: 0;
+    }
+
+    .navbar-card .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+    .navbar-card i {
+        color: #62B5E5;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-card {
+        margin: 5px 50px;
+    }
+    .navbar-card a:link {
+        margin: 0;
+    }
+
+    .navbar-card .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+    .navbar-card i {
+        color: #62B5E5;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}

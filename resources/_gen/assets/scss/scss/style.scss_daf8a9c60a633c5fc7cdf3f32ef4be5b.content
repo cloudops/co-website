@@ -1581,10 +1581,11 @@ a.active {
 /************  About Us page  ***************/
 .about-us
 .jumbotron.hero {
-  background-image: linear-gradient(to bottom right, #FFE07F, #FFE07F);
+  background-color: #FFE07F;
+  background-image: none;
   border-top: 3px solid #005D91;
   margin-bottom: 0;
-  color: #404040; }
+  color: #fff; }
 
 .about-us
 .jumbotron.hero h1,
@@ -1614,16 +1615,16 @@ a.active {
   background-repeat: no-repeat, no-repeat; }
 
 .about-us .brand-promises-card h2 {
-  text-align: left;
+  text-align: center;
   padding-bottom: 30px; }
 
 @media (max-width: 575.98px) {
   .about-us
 .jumbotron.hero h1 {
-    text-align: center; }
+    text-align: left; }
   .about-us
 .jumbotron.hero h2 {
-    text-align: center;
+    text-align: left;
     padding-bottom: 300px; }
   .about-us
 .jumbotron.hero img {
