@@ -62,6 +62,10 @@
         width: 280px;
     }
 
+    .about-us .hero-image-container {
+        text-align: left;
+    }
+
     .about-us .case-studies-card h2 {
        text-align: left;
     }
@@ -70,9 +74,6 @@
         text-align: left;
      }
 
-    .about-us .hero-image-container {
-        text-align: left;
-    }
 
     .about-us .case-studies-card .devops-case-study h2 {
         margin-top: 0;
@@ -165,7 +166,7 @@
 
 @media (min-width: 1200px) {
     .about-us .hero-image-container {
-        text-align: right;
+        text-align: left;
     }
 
     .about-us .devops-case-study img {

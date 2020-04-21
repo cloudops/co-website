@@ -1,0 +1,356 @@
+.experts
+.jumbotron.hero {
+    background-color: #005D91;
+    background-image: none;
+    border-top: 3px solid #005D91;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.experts
+.jumbotron.hero h1,
+.experts
+.jumbotron.hero h2 {
+    text-align: left;
+}
+
+.experts
+.jumbotron.hero img {
+    position: absolute;
+    top: -140px;
+}
+
+.experts .case-studies-card h2 {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.experts .case-studies-card .devops-case-study {
+    border-bottom: none;
+}
+
+.experts .case-studies-card .devops-case-study h3 {
+    margin-top: 180px;
+}
+
+.experts .case-studies-card .devops-case-study i {
+    font-size: 30px;
+}
+
+.experts .cta-cards .card-deck .card {
+    background-color: #FFF;
+    box-shadow: 2px 2px 8px #E2E2E2;
+    border-radius: 0;
+    min-width: 220px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.experts .cta-cards .card-deck .card:hover {
+    box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2);
+}
+
+.experts .contact-us-card {
+    background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
+    background-position: 2% 30%, left bottom, right top;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.experts .contact-us-card img {
+    margin: 0 0 30px -50%;
+}
+
+.experts .contact-us-card h2 {
+    padding-right: 40px 0 0 40px;
+    text-align: left;
+}
+
+.experts .contact-us-card {
+    background-position: 25px 100px, left bottom, right top;
+}
+
+@media (max-width: 575.98px) {
+    .experts
+    .jumbotron.hero h1 {
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .experts
+    .jumbotron.hero h2 {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .experts
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 280px;
+    }
+
+    .experts .hero-image-container {
+        text-align: left;
+    }
+
+    .experts .case-studies-card h2 {
+        text-align: left;
+        padding-left: 15px;
+     }
+
+     .experts .case-studies-card h3 {
+        text-align: left;
+     }
+
+     .experts .case-studies-card h4 {
+        text-align: left;
+     }
+
+     .experts .case-studies-card p {
+         text-align: left;
+      }
+ 
+     .experts .case-studies-card h2 {
+         margin-top: 0;
+         padding-top: 0;
+     }
+
+     .experts .case-studies-card .devops-case-study h3 {
+        margin-top: 0;
+    }
+ 
+     .experts .case-studies-card .why-image-container {
+         text-align: left;
+     }
+
+     .experts .devops-case-study {
+        text-align: left;
+    }
+
+    .experts .devops-case-study i {
+        padding-bottom: 30px;
+    }
+ 
+     .experts .devops-case-study img {
+         left: 0;
+         top: 0;
+         position: relative;
+         margin: 50px 0 20px;
+     }
+
+     .experts .contact-us-card {
+         padding-left: 30px;
+     }
+
+     .experts .contact-us-card h2 {
+        padding-bottom: 30px;
+    }
+
+     .experts .contact-us-card img {
+        margin: 30px auto;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .experts
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 430px;
+    }
+
+    .experts .hero-image-container {
+        text-align: left;
+    }
+
+
+    .experts
+    .case-studies-card {
+        padding-top: 0;
+    }
+    
+    .experts .case-studies-card h2 {
+        margin-top: 0;
+    }
+
+    .experts .case-studies-card .devops-case-study h3 {
+        margin-top: 0;
+    }
+
+    .experts .devops-case-study img {
+        position: relative;
+        text-align: left;
+        margin-bottom: 50px;
+        margin-top: 100px;
+    }
+
+
+    .experts .contact-us-card {
+        background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.png");
+        background-position: 2% 30%, left bottom, right top;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        padding: 100px 0;
+    }
+    
+
+    .experts .contact-us-card {
+        background-position: 25px 100px, left bottom, right top;
+    }
+
+    .experts .contact-us-card img {
+        margin-left: 0px;
+    }
+
+    .experts .contact-us-card .contact-us-intro {
+        padding-bottom: 50px;
+    }
+        
+    .experts .cta-cards .card-deck {
+        padding-left: 30px;
+    }
+
+    .experts .cta-cards .card-deck .card {
+        min-width: 270px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .experts
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+    }
+
+    .experts .hero-image-container {
+        text-align: left;
+    }
+
+    .experts .devops-case-study img {
+        margin-top: 60%;
+        width: 120%;
+    }
+
+    .experts
+    .case-studies-card {
+        padding-top: 0;
+    }  
+    .experts .contact-us-card {
+        background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.png");
+        background-position: 2% 30%, left bottom, right top;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        padding: 100px 0;
+    }
+
+    .experts .contact-us-card {
+        background-position: 70px 100px, left bottom, right top;
+    }
+
+    .experts .contact-us-card img {
+        margin-left: 0px;
+    }
+
+    .experts .contact-us-card .contact-us-intro {
+        padding-bottom: 50px;
+    }
+    
+    .experts .cta-cards .card-deck .card {
+        min-width: 270px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .experts
+    .jumbotron.hero img {
+        left: 30px;
+        top: -100px;
+        width: 400px;
+    }
+
+    .experts .case-studies-card h2 {
+        padding-top: 0;
+    }
+    .experts .devops-case-study img {
+        margin-top: 50%;
+    }
+
+    .experts .contact-us-card {
+        background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.png");
+        background-position: 2% 30%, left bottom, right top;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        padding: 100px 0;
+    }
+
+    .experts .contact-us-card img {
+        margin-top: 50px;
+    }
+    
+    .experts .contact-us-card h2 {
+        padding: 40px 0 0 40px;
+    }
+
+
+    .experts .contact-us-card {
+        background-position: 70px 160px, left bottom, right top;
+    }
+
+    .experts .contact-us-card img {
+        margin-left: 0px;
+    }
+
+    .experts .contact-us-card .contact-us-intro {
+        padding-bottom: 50px;
+    }
+    
+    .experts .cta-cards .card-deck .card {
+        min-width: 260px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .experts .hero-image-container {
+        text-align: left;
+    }
+    .experts
+    .jumbotron.hero img {
+        left: 30px;
+        top: -150px;
+    }
+
+    .experts .devops-case-study img {
+        margin-top: 30%;
+        width: 380px;
+    }
+
+    .experts
+    .case-studies-card {
+        padding-top: 0;
+    }
+
+    .experts .contact-us-card {
+        background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
+        background-position: 2% 30%, left bottom, right top;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        padding: 100px 0;
+    }
+    .experts .contact-us-card img {
+        margin-top: 50px;
+        padding-left: 0;
+        margin-left: -58px;
+    }
+
+    .experts .contact-us-card {
+        background-position: 5% 160px, left bottom, right top;
+    }
+
+    .experts .contact-us-card h2 {
+       padding: 40px 0 0 40px;
+    }
+
+    .experts .cta-cards .card-deck .card {
+        min-width: 260px;
+    }
+}

@@ -1,8 +1,10 @@
 /************  Solutions page  ***************/
 
+
 .solutions
 .jumbotron.hero {
-    background-image: linear-gradient(to bottom right, #005D91, #005d91);
+    background-color: #005D91;
+    background-image: none;
     border-top: 3px solid #005D91;
     margin-bottom: 0;
 }
@@ -12,29 +14,15 @@
 .solutions
 .jumbotron.hero h2 {
     text-align: right;
+    color: #FFF;
 }
+
 .solutions
 .jumbotron.hero img {
     position: absolute;
-    bottom: 0;
-    left: 100px;
-
+    top: -140px;
 }
 
-.solutions .case-studies-card h2 {
-    margin: 150px auto 50px;
-}
-
-.solutions .case-studies-card .devops-case-study {
-    border-bottom: none;
-}
-
-.solutions .case-studies-card img {
-    position: relative;
-    top: 30%;
-    left: 0;
-    height: 200px;
-}
 .solutions
 .brand-promises-card {
     background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
@@ -50,112 +38,151 @@
     margin-top: 50px;
 }
 
+.solutions .case-studies-card .devops-case-study {
+    border-bottom: none;
+}
+
+.solutions .case-studies-card .devops-case-study h2 {
+    margin-top: 200px;
+}
+
+.solutions
+.brand-promises-card {
+    background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+    padding-left: 30px;
+}
+.solutions .brand-promises-card h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
 @media (max-width: 575.98px) {
     .solutions
-    .jumbotron.hero img {
-        position: absolute;
-        bottom: 0;
-        left: 15px;
-        width: 300px;
-    }
-
-    .solutions
     .jumbotron.hero h1 {
+        font-size: 50px;
         text-align: left;
-        font-size: 59px;
     }
 
     .solutions
     .jumbotron.hero h2 {
         text-align: left;
-        padding-bottom: 200px;
-        font-size: 26px;
+        font-size: 24px;
     }
 
-    .case-studies-card {
-        text-align: center;
-    }
-
-    .case-studies-card {
-        padding: 70px 0;
-    }
-    
     .solutions
-    .case-studies-card h2 {
-        margin: 50px auto 50px;
-    }
-
-    .case-studies-card .devops-case-study {
-        padding: 0 0 0 30px;
-        border-bottom: none;
-    }
-
-    .case-studies-card .client-quote {
-        padding: 0 0 100px 0;
-    }
-    .case-studies-card .client-photo {
-        top: 145px;
-        left: 45px;
-        position: absolute;    
-        height: 140px;  
-        width: auto;
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 280px;
     }
 
     .solutions .brand-promises-card h2 {
         text-align: center;
     }
 
+    .solutions .B-O-T-horizontal {
+        display: none;
+    }
+
+    .solutions .hero-image-container {
+        text-align: left;
+    }
+
+    .solutions .case-studies-card h2 {
+       text-align: left;
+    }
+
+    .solutions .case-studies-card p {
+        text-align: left;
+     }
+
+    .solutions .case-studies-card .devops-case-study h2 {
+        margin-top: 0;
+    }
+
+    .solutions .case-studies-card .why-image-container {
+        text-align: left;
+    }
+
+    .solutions .devops-case-study img {
+        left: 0;
+        top: 0;
+        position: relative;
+        width: 300px;
+        margin: 50px 0 20px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+
     .solutions
     .jumbotron.hero img {
-        position: absolute;
-        bottom: -500px;
-        left: 15px;
-        width: 450px;
+        position: relative;
+        top: 30px;
+        width: 430px;
+    }
+
+    .solutions .B-O-T-horizontal {
+        display: none;
     }
 
     .solutions
-    .jumbotron.hero h1 {
+    .case-studies-card {
+        padding-top: 0;
+    }
+    
+    .solutions .case-studies-card .devops-case-study h2 {
+        margin-top: 0;
+    }
+
+    .solutions .hero-image-container {
+        text-align: right;
+    }
+
+    .solutions .devops-case-study img {
+        position: relative;
         text-align: left;
-        font-size: 59px;
-    }
-
-    .solutions
-    .jumbotron.hero h2 {
-        text-align: left;
-        padding-bottom: 300px;
-        font-size: 26px;
-        margin: 50px auto 50px;
-    }
-
-    .case-studies-card .devops-case-study {
-        margin-left: 10px;
-    }
-
-    .case-studies-card .client-photo {
-        position: absolute;    
-        height: 140px;  
-        width: auto;
+        margin-bottom: 50px;
+        margin-top: 100px;
     }
 
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+
     .solutions
     .jumbotron.hero img {
-        left: 0px;
-        bottom: 100px;
-        width: 320px;
+        position: relative;
+        top: 30px;
     }
+
+    .solutions .B-O-T-vertical {
+        display: none;
+    }
+
+    .solutions .hero-image-container {
+        text-align: right;
+    }
+    
     .solutions .brand-promises-card p {
-        text-align: left;
+        text-align: center;
     }
 
     .solutions .brand-promises-card img {
         height: 150px;
-        text-align: left;
+        text-align: center;
+    }
+
+    .solutions .devops-case-study img {
+        margin-top: 80%;
+        width: 120%;
+    }
+
+    .solutions
+    .case-studies-card {
+        padding-top: 0;
     }
 
 }
@@ -164,20 +191,53 @@
     .solutions
     .jumbotron.hero img {
         left: 0;
-        bottom: 50px;
+        top: -40px;
         width: 400px;
-    } 
-    
-    
-.solutions .brand-promises-card img {
-    height: 170px;
+    }
+
+    .solutions .B-O-T-vertical {
+        display: none;
+    }
+
+    .solutions .brand-promises-card img {
+        height: 170px;
+    }
+
+    .solutions .brand-promises-card h2 {
+        text-align: left;
+    }
+
+    .solutions .devops-case-study img {
+        margin-top: 50%;
+    }
 }
-}
+
 
 @media (min-width: 1200px) {
     .solutions
     .jumbotron.hero img {
-        width: 550px;
         left: 0;
+        top: -120%;
+    }
+    
+    .solutions .B-O-T-vertical {
+        display: none;
+    }
+
+    .solutions .hero-image-container {
+        text-align: left;
+    }
+
+    .solutions .brand-promises-card h2 {
+        text-align: left;
+    }
+    .solutions .devops-case-study img {
+        margin-top: 50%;
+        width: 380px;
+    }
+
+    .solutions
+    .case-studies-card {
+        padding-top: 0;
     }
 }

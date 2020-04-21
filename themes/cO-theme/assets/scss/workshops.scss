@@ -2,16 +2,23 @@
 
 .workshops
 .jumbotron.hero {
-    background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
+    background: linear-gradient(to bottom right, #62B5E5, #005D91);
     border-top: 3px solid #005D91;
     margin-bottom: 0;
+    color: #fff;
+}
+
+.workshops
+.jumbotron.hero h1,
+.workshops
+.jumbotron.hero h2 {
+    text-align: left;
 }
 
 .workshops
 .jumbotron.hero img {
     position: absolute;
-    bottom: 0;
-    left: 100px;
+    top: -140px;
 }
 
 .workshops
@@ -170,11 +177,26 @@
 
 @media (max-width: 575.98px) {
     .workshops
+    .jumbotron.hero h1 {
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .workshops
+    .jumbotron.hero h2 {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .workshops
     .jumbotron.hero img {
         position: relative;
         top: 30px;
-        left: 0;
-        margin-bottom: 40px;
+        width: 280px;
+    }
+
+    .workshops .hero-image-container {
+        text-align: left;
     }
 
     .workshops .customers-card .expert-bio {
@@ -210,8 +232,11 @@
     .jumbotron.hero img {
         position: relative;
         top: 30px;
-        left: 0;
-        margin-bottom: 40px;
+        width: 430px;
+    }
+
+    .workshops .hero-image-container {
+        text-align: left;
     }
 
     .workshops .contact-us-card .with-yellow-line {
@@ -235,8 +260,12 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
     .workshops
     .jumbotron.hero img {
-        height: 200px;
-        width: auto;
+        position: relative;
+        top: 30px;
+    }
+
+    .workshops .hero-image-container {
+        text-align: left;
     }
 
     .workshops .customers-card .expert-bio {
@@ -261,7 +290,9 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .workshops
     .jumbotron.hero img {
-        left: 0px;
+        left: 30px;
+        top: -100px;
+        width: 400px;
     }
     .workshops .contact-us-card .with-yellow-line:first-child {
         border: none;
@@ -270,6 +301,14 @@
 }
 
 @media (min-width: 1200px) {
+    .workshops .hero-image-container {
+        text-align: left;
+    }
+    .workshops
+    .jumbotron.hero img {
+        left: 30px;
+        top: -200px;
+    }
     .workshops .contact-us-card .with-yellow-line:first-child {
         border: none;
     }
