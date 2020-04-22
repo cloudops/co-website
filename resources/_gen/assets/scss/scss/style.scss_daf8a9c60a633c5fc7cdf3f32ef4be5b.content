@@ -111,6 +111,82 @@ a:link {
   font-size: 18px;
   margin: 0 auto; }
 
+#hexGrid {
+  height: 17.3em;
+  width: 20em; }
+  #hexGrid .hexCrop {
+    position: relative;
+    overflow: visible; }
+  #hexGrid .hexGrid {
+    display: grid;
+    justify-items: auto;
+    align-items: auto;
+    height: 17.3em;
+    width: 20em;
+    grid-template-columns: repeat(3, 1fr 2fr) 1fr;
+    grid-template-rows: repeat(5, 3.46em); }
+    #hexGrid .hexGrid .hex {
+      display: none; }
+    #hexGrid .hexGrid .c-1, #hexGrid .hexGrid .hex:nth-child(1), #hexGrid .hexGrid .hex:nth-child(4) {
+      grid-column-start: 1;
+      grid-column-end: span 3; }
+    #hexGrid .hexGrid .c-1.r-1, #hexGrid .hexGrid .hex:nth-child(1), #hexGrid .hexGrid .c-1.hex:nth-child(2), #hexGrid .hexGrid .hex:nth-child(2):nth-child(4), #hexGrid .hexGrid .c-1.hex:nth-child(3), #hexGrid .hexGrid .hex:nth-child(3):nth-child(4), #hexGrid .hexGrid .r-1.hex:nth-child(4) {
+      grid-row-start: 1;
+      grid-row-end: span 2; }
+    #hexGrid .hexGrid .c-1.r-2, #hexGrid .hexGrid .r-2.hex:nth-child(1), #hexGrid .hexGrid .hex:nth-child(1):nth-child(5), #hexGrid .hexGrid .hex:nth-child(1):nth-child(6), #hexGrid .hexGrid .hex:nth-child(4), #hexGrid .hexGrid .c-1.hex:nth-child(5), #hexGrid .hexGrid .c-1.hex:nth-child(6) {
+      grid-row-start: 3;
+      grid-row-end: span 2; }
+    #hexGrid .hexGrid .c-2, #hexGrid .hexGrid .hex:nth-child(2), #hexGrid .hexGrid .hex:nth-child(5) {
+      grid-column-start: 3;
+      grid-column-end: span 3; }
+    #hexGrid .hexGrid .c-2.r-1, #hexGrid .hexGrid .c-2.hex:nth-child(1), #hexGrid .hexGrid .hex:nth-child(1):nth-child(5), #hexGrid .hexGrid .hex:nth-child(2), #hexGrid .hexGrid .c-2.hex:nth-child(3), #hexGrid .hexGrid .hex:nth-child(3):nth-child(5), #hexGrid .hexGrid .r-1.hex:nth-child(5) {
+      grid-row-start: 2;
+      grid-row-end: span 2; }
+    #hexGrid .hexGrid .c-2.r-2, #hexGrid .hexGrid .r-2.hex:nth-child(2), #hexGrid .hexGrid .hex:nth-child(2):nth-child(4), #hexGrid .hexGrid .hex:nth-child(2):nth-child(6), #hexGrid .hexGrid .c-2.hex:nth-child(4), #hexGrid .hexGrid .hex:nth-child(5), #hexGrid .hexGrid .c-2.hex:nth-child(6) {
+      grid-row-start: 4;
+      grid-row-end: span 2; }
+    #hexGrid .hexGrid .c-3, #hexGrid .hexGrid .hex:nth-child(3), #hexGrid .hexGrid .hex:nth-child(6) {
+      grid-column-start: 5;
+      grid-column-end: span 3; }
+    #hexGrid .hexGrid .c-3.r-1, #hexGrid .hexGrid .c-3.hex:nth-child(1), #hexGrid .hexGrid .hex:nth-child(1):nth-child(6), #hexGrid .hexGrid .c-3.hex:nth-child(2), #hexGrid .hexGrid .hex:nth-child(2):nth-child(6), #hexGrid .hexGrid .hex:nth-child(3), #hexGrid .hexGrid .r-1.hex:nth-child(6) {
+      grid-row-start: 1;
+      grid-row-end: span 2; }
+    #hexGrid .hexGrid .c-3.r-2, #hexGrid .hexGrid .r-2.hex:nth-child(3), #hexGrid .hexGrid .hex:nth-child(3):nth-child(4), #hexGrid .hexGrid .hex:nth-child(3):nth-child(5), #hexGrid .hexGrid .c-3.hex:nth-child(4), #hexGrid .hexGrid .c-3.hex:nth-child(5), #hexGrid .hexGrid .hex:nth-child(6) {
+      grid-row-start: 3;
+      grid-row-end: span 2; }
+    #hexGrid .hexGrid .hex:nth-child(1) {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    #hexGrid .hexGrid .hex:nth-child(2) {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    #hexGrid .hexGrid .hex:nth-child(3) {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    #hexGrid .hexGrid .hex:nth-child(4) {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    #hexGrid .hexGrid .hex:nth-child(5) {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    #hexGrid .hexGrid .hex:nth-child(6) {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    #hexGrid .hexGrid .hex:nth-child(1) {
+      background-image: url(none); }
+    #hexGrid .hexGrid .hex {
+      -webkit-clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+      clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+      background-color: #48a999;
+      background-size: cover;
+      margin: 0.4325em 0.5em; }
+
 /************  Navbar Styles  ***************/
 .navbar-card {
   margin: 5px 100px; }
@@ -1232,26 +1308,21 @@ a.active {
     padding-left: 10px; } }
 
 /************  Workshop page  ***************/
-.workshops
-.jumbotron.hero {
+.workshops .jumbotron.hero {
   background: linear-gradient(to bottom right, #62B5E5, #005D91);
   border-top: 3px solid #005D91;
   margin-bottom: 0;
   color: #fff; }
 
-.workshops
-.jumbotron.hero h1,
-.workshops
-.jumbotron.hero h2 {
+.workshops .jumbotron.hero h1,
+.workshops .jumbotron.hero h2 {
   text-align: left; }
 
-.workshops
-.jumbotron.hero img {
+.workshops .jumbotron.hero img {
   position: absolute;
   top: -140px; }
 
-.workshops
-.brand-promises-card {
+.workshops .brand-promises-card {
   background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
   background-position: left bottom, right top;
   background-repeat: no-repeat, no-repeat; }
@@ -1388,16 +1459,13 @@ a.active {
   transition-duration: 0.6s; }
 
 @media (max-width: 575.98px) {
-  .workshops
-.jumbotron.hero h1 {
+  .workshops .jumbotron.hero h1 {
     font-size: 50px;
     text-align: left; }
-  .workshops
-.jumbotron.hero h2 {
+  .workshops .jumbotron.hero h2 {
     text-align: left;
     font-size: 24px; }
-  .workshops
-.jumbotron.hero img {
+  .workshops .jumbotron.hero img {
     position: relative;
     top: 30px;
     width: 280px; }
@@ -1420,8 +1488,7 @@ a.active {
     margin-bottom: 0; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .workshops
-.jumbotron.hero img {
+  .workshops .jumbotron.hero img {
     position: relative;
     top: 30px;
     width: 430px; }
@@ -1440,8 +1507,7 @@ a.active {
     margin-left: 15px; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .workshops
-.jumbotron.hero img {
+  .workshops .jumbotron.hero img {
     position: relative;
     top: 30px; }
   .workshops .hero-image-container {
@@ -1458,8 +1524,7 @@ a.active {
     padding-top: 50px; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .workshops
-.jumbotron.hero img {
+  .workshops .jumbotron.hero img {
     left: 30px;
     top: -100px;
     width: 400px; }
@@ -1469,35 +1534,29 @@ a.active {
 @media (min-width: 1200px) {
   .workshops .hero-image-container {
     text-align: left; }
-  .workshops
-.jumbotron.hero img {
+  .workshops .jumbotron.hero img {
     left: 30px;
     top: -200px; }
   .workshops .contact-us-card .with-yellow-line:first-child {
     border: none; } }
 
 /************  Solutions page  ***************/
-.solutions
-.jumbotron.hero {
+.solutions .jumbotron.hero {
   background-color: #005D91;
   background-image: none;
   border-top: 3px solid #005D91;
   margin-bottom: 0; }
 
-.solutions
-.jumbotron.hero h1,
-.solutions
-.jumbotron.hero h2 {
+.solutions .jumbotron.hero h1,
+.solutions .jumbotron.hero h2 {
   text-align: right;
   color: #FFF; }
 
-.solutions
-.jumbotron.hero img {
+.solutions .jumbotron.hero img {
   position: absolute;
   top: -140px; }
 
-.solutions
-.brand-promises-card {
+.solutions .brand-promises-card {
   background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
   background-position: left bottom, right top;
   background-repeat: no-repeat, no-repeat; }
@@ -1574,8 +1633,7 @@ a.active {
   border-color: transparent transparent transparent #fff;
   transition-duration: 0.6s; }
 
-.solutions
-.brand-promises-card {
+.solutions .brand-promises-card {
   background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
   background-position: left bottom, right top;
   background-repeat: no-repeat, no-repeat;
@@ -1586,16 +1644,13 @@ a.active {
   padding-bottom: 30px; }
 
 @media (max-width: 575.98px) {
-  .solutions
-.jumbotron.hero h1 {
+  .solutions .jumbotron.hero h1 {
     font-size: 50px;
     text-align: left; }
-  .solutions
-.jumbotron.hero h2 {
+  .solutions .jumbotron.hero h2 {
     text-align: left;
     font-size: 24px; }
-  .solutions
-.jumbotron.hero img {
+  .solutions .jumbotron.hero img {
     position: relative;
     top: 30px;
     width: 280px; }
@@ -1621,15 +1676,13 @@ a.active {
     margin: 50px 0 20px; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .solutions
-.jumbotron.hero img {
+  .solutions .jumbotron.hero img {
     position: relative;
     top: 30px;
     width: 430px; }
   .solutions .B-O-T-horizontal {
     display: none; }
-  .solutions
-.case-studies-card {
+  .solutions .case-studies-card {
     padding-top: 0; }
   .solutions .case-studies-card .devops-case-study h2 {
     margin-top: 0; }
@@ -1642,8 +1695,7 @@ a.active {
     margin-top: 100px; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .solutions
-.jumbotron.hero img {
+  .solutions .jumbotron.hero img {
     position: relative;
     top: 30px; }
   .solutions .B-O-T-vertical {
@@ -1658,13 +1710,11 @@ a.active {
   .solutions .devops-case-study img {
     margin-top: 80%;
     width: 120%; }
-  .solutions
-.case-studies-card {
+  .solutions .case-studies-card {
     padding-top: 0; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .solutions
-.jumbotron.hero img {
+  .solutions .jumbotron.hero img {
     left: 0;
     top: -40px;
     width: 400px; }
@@ -1678,8 +1728,7 @@ a.active {
     margin-top: 50%; } }
 
 @media (min-width: 1200px) {
-  .solutions
-.jumbotron.hero img {
+  .solutions .jumbotron.hero img {
     left: 0;
     top: -120%; }
   .solutions .B-O-T-vertical {
@@ -1691,28 +1740,23 @@ a.active {
   .solutions .devops-case-study img {
     margin-top: 50%;
     width: 380px; }
-  .solutions
-.case-studies-card {
+  .solutions .case-studies-card {
     padding-top: 0; } }
 
 /************  About Us page  ***************/
-.about-us
-.jumbotron.hero {
+.about-us .jumbotron.hero {
   background-color: #FFE07F;
   background-image: none;
   border-top: 3px solid #005D91;
   margin-bottom: 0;
   color: #fff; }
 
-.about-us
-.jumbotron.hero h1,
-.about-us
-.jumbotron.hero h2 {
+.about-us .jumbotron.hero h1,
+.about-us .jumbotron.hero h2 {
   text-align: right;
   color: #404040; }
 
-.about-us
-.jumbotron.hero img {
+.about-us .jumbotron.hero img {
   position: absolute;
   top: -140px; }
 
@@ -1722,8 +1766,7 @@ a.active {
 .about-us .case-studies-card .devops-case-study h2 {
   margin-top: 200px; }
 
-.about-us
-.brand-promises-card {
+.about-us .brand-promises-card {
   background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
   background-position: left bottom, right top;
   background-repeat: no-repeat, no-repeat; }
@@ -1733,16 +1776,13 @@ a.active {
   padding-bottom: 30px; }
 
 @media (max-width: 575.98px) {
-  .about-us
-.jumbotron.hero h1 {
+  .about-us .jumbotron.hero h1 {
     font-size: 50px;
     text-align: left; }
-  .about-us
-.jumbotron.hero h2 {
+  .about-us .jumbotron.hero h2 {
     text-align: left;
     font-size: 24px; }
-  .about-us
-.jumbotron.hero img {
+  .about-us .jumbotron.hero img {
     position: relative;
     top: 30px;
     width: 280px; }
@@ -1764,11 +1804,9 @@ a.active {
     margin: 50px 0 20px; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .about-us
-.case-studies-card {
+  .about-us .case-studies-card {
     padding-top: 0; }
-  .about-us
-.jumbotron.hero img {
+  .about-us .jumbotron.hero img {
     position: relative;
     top: 30px;
     width: 430px; }
@@ -1783,8 +1821,7 @@ a.active {
     margin-top: 100px; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .about-us
-.jumbotron.hero img {
+  .about-us .jumbotron.hero img {
     position: relative;
     top: 30px; }
   .about-us .hero-image-container {
@@ -1792,15 +1829,13 @@ a.active {
   .about-us .devops-case-study img {
     margin-top: 80%;
     width: 120%; }
-  .about-us
-.case-studies-card {
+  .about-us .case-studies-card {
     padding-top: 0; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .about-us .devops-case-study img {
     margin-top: 50%; }
-  .about-us
-.jumbotron.hero img {
+  .about-us .jumbotron.hero img {
     left: 0;
     top: -40px;
     width: 400px; } }
@@ -1811,26 +1846,21 @@ a.active {
   .about-us .devops-case-study img {
     margin-top: 50%;
     width: 380px; }
-  .about-us
-.case-studies-card {
+  .about-us .case-studies-card {
     padding-top: 0; } }
 
-.experts
-.jumbotron.hero {
+.experts .jumbotron.hero {
   background-color: #005D91;
   background-image: none;
   border-top: 3px solid #005D91;
   margin-bottom: 0;
   color: #fff; }
 
-.experts
-.jumbotron.hero h1,
-.experts
-.jumbotron.hero h2 {
+.experts .jumbotron.hero h1,
+.experts .jumbotron.hero h2 {
   text-align: left; }
 
-.experts
-.jumbotron.hero img {
+.experts .jumbotron.hero img {
   position: absolute;
   top: -140px; }
 
@@ -1876,16 +1906,13 @@ a.active {
   background-position: 25px 100px, left bottom, right top; }
 
 @media (max-width: 575.98px) {
-  .experts
-.jumbotron.hero h1 {
+  .experts .jumbotron.hero h1 {
     font-size: 50px;
     text-align: left; }
-  .experts
-.jumbotron.hero h2 {
+  .experts .jumbotron.hero h2 {
     text-align: left;
     font-size: 24px; }
-  .experts
-.jumbotron.hero img {
+  .experts .jumbotron.hero img {
     position: relative;
     top: 30px;
     width: 280px; }
@@ -1924,15 +1951,13 @@ a.active {
     margin: 30px auto; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .experts
-.jumbotron.hero img {
+  .experts .jumbotron.hero img {
     position: relative;
     top: 30px;
     width: 430px; }
   .experts .hero-image-container {
     text-align: left; }
-  .experts
-.case-studies-card {
+  .experts .case-studies-card {
     padding-top: 0; }
   .experts .case-studies-card h2 {
     margin-top: 0; }
@@ -1960,8 +1985,7 @@ a.active {
     min-width: 270px; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .experts
-.jumbotron.hero img {
+  .experts .jumbotron.hero img {
     position: relative;
     top: 30px; }
   .experts .hero-image-container {
@@ -1969,8 +1993,7 @@ a.active {
   .experts .devops-case-study img {
     margin-top: 60%;
     width: 120%; }
-  .experts
-.case-studies-card {
+  .experts .case-studies-card {
     padding-top: 0; }
   .experts .contact-us-card {
     background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.png");
@@ -1987,8 +2010,7 @@ a.active {
     min-width: 270px; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .experts
-.jumbotron.hero img {
+  .experts .jumbotron.hero img {
     left: 30px;
     top: -100px;
     width: 400px; }
@@ -2017,15 +2039,13 @@ a.active {
 @media (min-width: 1200px) {
   .experts .hero-image-container {
     text-align: left; }
-  .experts
-.jumbotron.hero img {
+  .experts .jumbotron.hero img {
     left: 30px;
     top: -150px; }
   .experts .devops-case-study img {
     margin-top: 30%;
     width: 380px; }
-  .experts
-.case-studies-card {
+  .experts .case-studies-card {
     padding-top: 0; }
   .experts .contact-us-card {
     background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
@@ -2043,27 +2063,22 @@ a.active {
   .experts.cta-cards .card-deck .card {
     min-width: 260px; } }
 
-.using-cloud
-.jumbotron.hero {
+.using-cloud .jumbotron.hero {
   background-color: #005D91;
   background-image: none;
   border-top: 3px solid #005D91;
   margin-bottom: 0;
   color: #fff; }
 
-.using-cloud
-.jumbotron.hero h1,
-.using-cloud
-.jumbotron.hero h2 {
+.using-cloud .jumbotron.hero h1,
+.using-cloud .jumbotron.hero h2 {
   text-align: left; }
 
-.using-cloud
-.jumbotron.hero img {
+.using-cloud .jumbotron.hero img {
   position: absolute;
   top: -140px; }
 
-.using-cloud
-.brand-promises-card {
+.using-cloud .brand-promises-card {
   padding: 100px 0;
   background-color: #FBFBFB;
   background-image: url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg"), url("../images/dotted-triangles-yellow.svg"), url("../images/dotted-triangles-yellow.svg");
@@ -2175,16 +2190,13 @@ a.active {
   background-position: 25px 100px, left bottom, right top; }
 
 @media (max-width: 575.98px) {
-  .using-cloud
-.jumbotron.hero h1 {
+  .using-cloud .jumbotron.hero h1 {
     font-size: 50px;
     text-align: left; }
-  .using-cloud
-.jumbotron.hero h2 {
+  .using-cloud .jumbotron.hero h2 {
     text-align: left;
     font-size: 24px; }
-  .using-cloud
-.jumbotron.hero img {
+  .using-cloud .jumbotron.hero img {
     position: relative;
     top: 30px;
     width: 280px; }
@@ -2223,8 +2235,7 @@ a.active {
     margin: 50px 150px 50px 10px; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .using-cloud
-.jumbotron.hero img {
+  .using-cloud .jumbotron.hero img {
     position: relative;
     top: 30px;
     width: 430px; }
@@ -2237,8 +2248,7 @@ a.active {
     background-position: left bottom, right top;
     background-repeat: no-repeat, no-repeat;
     text-align: center; }
-  .using-cloud
-.case-studies-card {
+  .using-cloud .case-studies-card {
     padding-top: 0; }
   .using-cloud .case-studies-card .devops-case-study h2 {
     margin-top: 0; }
@@ -2268,8 +2278,7 @@ a.active {
     margin: 50px 150px 50px 10px; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .using-cloud
-.jumbotron.hero img {
+  .using-cloud .jumbotron.hero img {
     position: relative;
     top: 30px; }
   .using-cloud .hero-image-container {
@@ -2283,8 +2292,7 @@ a.active {
   .using-cloud .devops-case-study img {
     margin-top: 60%;
     width: 120%; }
-  .using-cloud
-.case-studies-card {
+  .using-cloud .case-studies-card {
     padding-top: 0; }
   .using-cloud .contact-us-card {
     background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.png");
@@ -2303,8 +2311,7 @@ a.active {
     margin: 50px 70px 50px 50%; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .using-cloud
-.jumbotron.hero img {
+  .using-cloud .jumbotron.hero img {
     left: 30px;
     top: -100px;
     width: 400px; }
@@ -2333,15 +2340,13 @@ a.active {
 @media (min-width: 1200px) {
   .using-cloud .hero-image-container {
     text-align: left; }
-  .using-cloud
-.jumbotron.hero img {
+  .using-cloud .jumbotron.hero img {
     left: 30px;
     top: -150px; }
   .using-cloud .devops-case-study img {
     margin-top: 50%;
     width: 380px; }
-  .using-cloud
-.case-studies-card {
+  .using-cloud .case-studies-card {
     padding-top: 0; }
   .using-cloud .contact-us-card {
     background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
