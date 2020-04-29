@@ -1,0 +1,121 @@
+.why-cloudops
+.jumbotron.hero {
+    background-color: #FFE07F;
+    border-top: 3px solid #005D91;
+    background-image: none;
+    margin-bottom: 0;
+}
+
+.why-cloudops
+.jumbotron.hero h1 {
+    text-align: left;
+    color: black;
+}
+
+.why-cloudops
+.jumbotron.hero img {
+    position: absolute;
+    top: -140px;
+}
+
+.why-cloudops
+.brand-promises-card h2 {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.why-cloudops
+.brand-promises-card .where-we-help-graph {
+    text-align: center;
+}
+
+.why-cloudops
+.design-build-transform-card h2 {
+    margin-bottom: 50px;
+}
+
+.why-cloudops
+.design-build-transform-card .big-lettered-p {
+    font-family: 'Montserrat', sans-serif;
+    color: #005D91;
+    font-size: 24px;
+    line-height: 1.8;
+}
+
+.why-cloudops
+.design-build-transform-card .card-deck .card .card-body {
+    padding: 70px 100px;
+}
+
+@media (max-width: 575.98px) {
+    .why-cloudops
+    .jumbotron.hero h1 {
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .why-cloudops
+    .jumbotron.hero h2 {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .why-cloudops
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 280px;
+    }
+
+    .why-cloudops .hero-image-container {
+        text-align: left;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .why-cloudops
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 430px;
+    }
+
+    .why-cloudops .hero-image-container {
+        text-align: left;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .why-cloudops
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+    }
+
+    .why-cloudops .hero-image-container {
+        text-align: left;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .why-cloudops
+    .jumbotron.hero img {
+        left: 30px;
+        top: -100px;
+        width: 400px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .why-cloudops .hero-image-container {
+        text-align: left;
+    }
+    .why-cloudops
+    .jumbotron.hero img {
+        left: 30px;
+        top: -200px;
+    }
+}
