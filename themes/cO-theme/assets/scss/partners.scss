@@ -1,0 +1,196 @@
+.partners 
+.jumbotron.hero {
+    background-color: #005D91;
+    background-image: none;
+    border-top: 3px solid #005D91;
+    margin-bottom: 0;
+}
+
+.partners
+.jumbotron.hero h1,
+.partners
+.jumbotron.hero h2 {
+    text-align: right;
+    color: #FFF;
+}
+
+.partners
+.jumbotron.hero img {
+    position: absolute;
+    top: -140px;
+}
+
+.partners .stand-out {
+    background-color: #F2F5F7;
+    background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+    text-align: center;
+}
+
+.partners .stand-out h2 {
+    text-align: center;
+}
+
+.partners .stand-out .card-deck .card {
+    background-color: #FFF;
+    box-shadow: 2px 2px 8px #E2E2E2;
+    border-radius: 0;
+    min-width: 250px;
+    max-width: 250px;
+    border: 1px solid rgba(0,0,0,.125);
+    text-align: center;
+    vertical-align: middle;
+    margin: 15px auto;
+    float: none;
+}
+
+.partners .stand-out .card-deck .card:hover {
+    box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2);
+}
+
+.partners .stand-out .card-deck .card img {
+    width: 170px;
+    padding: 50px 0;
+}
+
+.partners .membership {
+    background-color: #fbfbfb;
+    background-image: url("../images/four-arrow-lines.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 70px 0 100px;
+}
+
+.partners .membership h2 {
+    padding: 0 0 20px;
+}
+
+.partners .membership .card-deck .card {
+    background-color: #FFF;
+    box-shadow: 2px 2px 8px #E2E2E2;
+    border-radius: 0;
+    border: 1px solid rgba(0,0,0,.125);
+    margin: 15px auto;
+    float: none;
+}
+
+.partners .membership .card-deck .card img {
+    width: 200px;
+    padding: 50px 0;
+}
+
+.partners .affiliated {
+    background-color: #FBFBFB;
+    background-image: url("../images/stars.svg");
+    background-position: left center;
+    background-repeat: repeat;
+    padding: 100px 0;
+}
+
+.partners .affiliated .affiliated-intro {
+    border-bottom: 2px solid #FFE07F;
+    margin-left: 16.666667%;
+    margin-right: 16.666667%;
+}
+.partners .affiliated .affiliated-intro .affiliated-intro-text {
+    padding: 0 0 30px;
+}
+
+.partners .affiliated h2 {
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+.partners .affiliated h3 {
+    padding-top: 100px;
+}
+
+.partners .affiliated h6 {
+    padding-bottom: 20px;
+}
+
+.partners .affiliated img {
+    width: 200px;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 145px;
+}
+
+@media (max-width: 575.98px) {
+    .partners
+    .jumbotron.hero h1 {
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .partners
+    .jumbotron.hero h2 {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .partners
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 280px;
+    }
+
+    .partners .hero-image-container {
+        text-align: left;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .partners
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 430px;
+    }
+
+    .partners .hero-image-container {
+        text-align: right;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .partners
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+    }
+
+    .partners .hero-image-container {
+        text-align: right;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .partners
+    .jumbotron.hero img {
+        left: 0;
+        top: -40px;
+        width: 400px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .partners
+    .jumbotron.hero img {
+        left: 0;
+        top: -120%;
+    }
+
+    .partners .hero-image-container {
+        text-align: right;
+    }
+}

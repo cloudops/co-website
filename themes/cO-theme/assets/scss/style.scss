@@ -73,14 +73,14 @@ body h2 {
 body h3 {
     font-family: 'Open Sans', sans-serif;
     color: #005D91;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 body h4 {
     font-family: 'Open Sans', sans-serif;
     color: #005D91;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 0;
 }
@@ -88,7 +88,7 @@ body h4 {
 body h5 {
     font-family: 'Open Sans', sans-serif;
     color: #404040;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 0;
 }
 
@@ -101,7 +101,7 @@ body h6 {
 body p {
     font-family: 'Open Sans', sans-serif;
     color: #404040;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.4;
 }
 
@@ -134,7 +134,6 @@ a:link {
     color: #005D91;
     font-size: 18px;
     margin: 0 auto;
-    text-decoration: underline;
 }
 
 a:visited {
@@ -142,7 +141,6 @@ a:visited {
     color: #005D91;
     font-size: 18px;
     margin: 0 auto;
-    text-decoration: underline;
 }
 
 ul {
@@ -163,3 +161,4 @@ ul li {
 @import '/experts.scss';
 @import '/using-cloud.scss';
 @import '/individual-workshops.scss';
+@import '/partners.scss';
