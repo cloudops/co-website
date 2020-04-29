@@ -7,7 +7,7 @@ class_name: "docker-k8s-page"
 
     <div class="hero jumbotron jumbotron-fluid">
         <div class="container-fluid">
-            <div class="row nav-buttons">
+            <div class="row nav-buttons back-foward in-banner">
                 <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
                     <a href="#"><button class="btn">
                         <div class="triangle-left">
@@ -98,31 +98,48 @@ class_name: "docker-k8s-page"
 
     <div class="row">
         <div class="col-xl-4 offset-xl-2">
-            <button>Calendar</button>
+                <button class="btn" id="calendar-button">
+                        Calendar
+                        <div class="triangle-right">
+                            <div class="inner-triangle"></div>
+                        </div>
+                </button>
         </div>
         <div class="col-xl-4 offset-xl-0">
-            <button>Request more info</button>
+                <button class="btn" id="more-info-button">
+                        Request more info
+                        <div class="triangle-right">
+                            <div class="inner-triangle"></div>
+                        </div>
+                </button>
         </div>
     </div>
 
 
-    <div class="row">
-        <div class="col-xl-4 offset-xl-2">
-            <a>Previous Workshop</a>
+    <div class="row nav-buttons back-foward in-content">
+            <div class="col-xl-12">
+                <a href="#"><button class="btn">
+                    <div class="triangle-left">
+                            <div class="inner-left-triangle"></div>
+                        </div>Previous Workshop
+                </button></a>
+                <a href="#">
+                    <button class="btn">
+                    Next Workshop<div class="triangle-right">
+                        <div class="inner-triangle"></div>
+                    </div>
+                </button></a>
+            </div>
         </div>
-        <div class="col-xl-4 offset-xl-0">
-            <a>Next Workshop</a>
+
+
+
+
+    <div class="row exam-cta">
+        <div class="col-xl-3">
+            <img src="../images/k8-admin-logos.png">
         </div>
-    </div>
-
-
-
-
-    <div class="row">
-        <div class="col-xl-2 offset-xl-2">
-            <img>
-        </div>
-        <div class="col-xl-6 offset-xl-0">
+        <div class="col-xl-8 offset-xl-0">
             <h2>CKA/CKAD Exams</h2>
             <p>Our three day bundle workshop is training for the CKA/CKAD exams, in addition to a one-day prep session
                 per exam. <a href="#">Contact us for more details.</a></p>

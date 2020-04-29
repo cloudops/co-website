@@ -111,7 +111,15 @@ a:link {
   font-family: 'Open Sans';
   color: #005D91;
   font-size: 18px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-decoration: underline; }
+
+a:visited {
+  font-family: 'Open Sans';
+  color: #005D91;
+  font-size: 18px;
+  margin: 0 auto;
+  text-decoration: underline; }
 
 ul {
   padding-left: 0; }
@@ -3065,20 +3073,21 @@ a.active {
   background-repeat: no-repeat, no-repeat;
   background-color: #005D91;
   border-top: 3px solid #005D91;
+  background-size: auto;
   margin-bottom: 0;
   color: #fff; }
 
-.docker-k8s-page .jumbotron.hero .nav-buttons button {
+.docker-k8s-page .back-foward.nav-buttons button {
   background-color: transparent;
   border: none;
   color: #fff;
   box-shadow: none;
   width: auto; }
 
-.docker-k8s-page .jumbotron.hero .nav-buttons button:hover {
+.docker-k8s-page .back-foward.nav-buttons button:hover {
   text-decoration: underline; }
 
-.docker-k8s-page .jumbotron.hero .nav-buttons button .triangle-right {
+.docker-k8s-page .back-foward.nav-buttons button .triangle-right {
   display: inline-block;
   position: relative;
   margin-left: 20px;
@@ -3090,7 +3099,7 @@ a.active {
   vertical-align: middle;
   margin-bottom: 3px; }
 
-.docker-k8s-page .jumbotron.hero .nav-buttons button .inner-triangle {
+.docker-k8s-page .back-foward.nav-buttons.nav-buttons button .inner-triangle {
   display: inline-block;
   position: absolute;
   top: -6px;
@@ -3103,15 +3112,15 @@ a.active {
   transition-duration: 0.6s;
   margin-bottom: 3px; }
 
-.docker-k8s-page .jumbotron.hero .nav-buttons button:hover .triangle-right {
+.docker-k8s-page .back-foward.nav-buttons button:hover .triangle-right {
   border-color: transparent transparent transparent #fff;
   transition-duration: 0.2s; }
 
-.docker-k8s-page .jumbotron.hero .nav-buttons button.btn:hover .inner-triangle {
+.docker-k8s-page .back-foward.nav-buttons button.btn:hover .inner-triangle {
   border-color: transparent transparent transparent #fff;
   transition-duration: 0.2s; }
 
-.docker-k8s-page .jumbotron.hero .nav-buttons button .triangle-left {
+.docker-k8s-page .back-foward.nav-buttons button .triangle-left {
   display: inline-block;
   position: relative;
   margin-right: 20px;
@@ -3123,7 +3132,7 @@ a.active {
   vertical-align: middle;
   margin-bottom: 3px; }
 
-.docker-k8s-page .jumbotron.hero .nav-buttons button .inner-left-triangle {
+.docker-k8s-page .back-foward.nav-buttons button .inner-left-triangle {
   display: inline-block;
   position: absolute;
   top: -6px;
@@ -3136,11 +3145,11 @@ a.active {
   transition-duration: 0.6s;
   margin-bottom: 3px; }
 
-.docker-k8s-page .jumbotron.hero .nav-buttons button:hover .triangle-left {
+.docker-k8s-page .back-foward.nav-buttons button:hover .triangle-left {
   border-color: transparent #fff transparent transparent;
   transition-duration: 0.2s; }
 
-.docker-k8s-page .jumbotron.hero .nav-buttons button.btn:hover .inner-left-triangle {
+.docker-k8s-page .back-foward.nav-buttons button.btn:hover .inner-left-triangle {
   border-color: transparent #fff transparent transparent;
   transition-duration: 0.2s; }
 
@@ -3235,6 +3244,79 @@ a.active {
 .docker-k8s-page .workshop-description .course-outline h2 {
   text-align: center;
   padding-top: 50px;
+  padding-bottom: 30px; }
+
+.docker-k8s-page button {
+  background-color: #005D91;
+  width: 250px;
+  height: 35px;
+  border-radius: 4px;
+  box-shadow: #979797 0 2px 4px 0;
+  color: #FFF;
+  padding: 0 10px;
+  text-align: left;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  transition-duration: 0.6s;
+  margin-top: 20px;
+  margin-bottom: 40px; }
+
+.docker-k8s-page button:hover {
+  background-color: #fff;
+  border: 1px solid #005D91;
+  border-radius: 4px;
+  box-shadow: none;
+  color: #005D91; }
+
+.docker-k8s-page button#calendar-button .triangle-right {
+  margin-left: 70px; }
+
+.docker-k8s-page button#calendar-button:hover .triangle-right {
+  margin-left: 130px; }
+
+.docker-k8s-page button#more-info-button .triangle-right {
+  margin-left: 20px; }
+
+.docker-k8s-page button#more-info-button:hover .triangle-right {
+  margin-left: 50px; }
+
+.docker-k8s-page .back-foward.in-content.nav-buttons {
+  text-align: center; }
+
+.docker-k8s-page .back-foward.in-content.nav-buttons button {
+  color: #005D91; }
+
+.docker-k8s-page .back-foward.in-content.nav-buttons button .triangle-right {
+  border-color: transparent transparent transparent #005D91; }
+
+.docker-k8s-page .back-foward.in-content.nav-buttons.nav-buttons button .inner-triangle {
+  border-color: transparent transparent transparent #fff; }
+
+.docker-k8s-page .back-foward.in-content.nav-buttons button:hover .triangle-right {
+  border-color: transparent transparent transparent #005D91; }
+
+.docker-k8s-page .back-foward.in-content.nav-buttons button.btn:hover .inner-triangle {
+  border-color: transparent transparent transparent #005D91; }
+
+.docker-k8s-page .back-foward.in-content.nav-buttons button .triangle-left {
+  border-color: transparent #005D91 transparent transparent; }
+
+.docker-k8s-page .back-foward.in-content.nav-buttons button .inner-left-triangle {
+  border-color: transparent #fff transparent transparent; }
+
+.docker-k8s-page .back-foward.in-content.nav-buttons button:hover .triangle-left {
+  border-color: transparent #005D91 transparent transparent; }
+
+.docker-k8s-page .back-foward.in-content.nav-buttons button.btn:hover .inner-left-triangle {
+  border-color: transparent #005D91 transparent transparent; }
+
+.docker-k8s-page .workshop-description .exam-cta {
+  border-top: 2px solid #FFE07F;
+  padding-top: 70px;
+  margin-left: 16.666667%;
+  margin-right: 16.666667%; }
+
+.docker-k8s-page .workshop-description .exam-cta h2 {
   padding-bottom: 30px; }
 
 /*# sourceMappingURL=style.css.map */
