@@ -1,0 +1,319 @@
+/************  Workshop page  ***************/
+
+.workshops
+.jumbotron.hero {
+    background: linear-gradient(to bottom right, #62B5E5, #005D91);
+    border-top: 3px solid #005D91;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.workshops
+.jumbotron.hero h1,
+.workshops
+.jumbotron.hero h2 {
+    text-align: left;
+}
+
+.workshops
+.jumbotron.hero img {
+    position: absolute;
+    top: -140px;
+}
+
+.workshops
+.brand-promises-card {
+    background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.workshops .customers-card {
+    margin-bottom: 100px;
+}
+
+.workshops .customers-card img {
+    width: 100px;
+}
+
+.workshops .customers-card .expert-text {
+    position: relative;
+    left: 120px;
+    top: -80px;
+}
+
+.workshops .customers-card .expert-text a {
+    color: #005D91;
+    text-decoration: underline;
+}
+.workshops .stand-out {
+    background-color: #FBFBFB;
+}
+
+.workshops .stand-out h2 {
+    text-align: center;
+}
+
+.workshops .stand-out .card-deck .card {
+    box-shadow: 2px 2px 8px #E2E2E2;
+    min-width: 280px;
+}
+.workshops .stand-out .card-deck .card:hover {
+        box-shadow: inset 0px 0px 15px rgba(98, 181, 229, 0.4);
+    }
+
+.workshops button {
+    background-color:#005D91;
+    width: 250px;
+    height: 35px;
+    border-radius: 4px;
+    box-shadow: #979797 0 2px 4px 0;
+    color: #FFF;
+    padding: 0 10px;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    transition-duration: 0.6s;
+}
+
+.workshops button:hover {
+    background-color:#fff;
+    border: 1px solid #005D91;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #005D91;
+}
+
+.workshops .brand-promises-card button .triangle-right {
+    display: inline-block;
+    position: relative;
+    margin-left: 90px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 16px;
+    border-color: transparent transparent transparent #fff;
+    vertical-align: middle;
+    transition-duration: 0.6s;
+    margin-bottom: 3px;
+}
+
+.workshops .brand-promises-card button .inner-triangle {
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: -14px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 10px;
+    border-color: transparent transparent transparent #005D91;
+    transition-duration: 0.6s;
+    margin-bottom: 3px;
+}
+
+.workshops .brand-promises-card button:hover .triangle-right {
+    border-color: transparent transparent transparent #005D91;
+    margin-left: 130px;
+    transition-duration: 0.6s;
+}
+
+.workshops .brand-promises-card button.btn:hover .inner-triangle {
+    border-color: transparent transparent transparent #fff;
+    transition-duration: 0.6s;
+}
+
+.workshops .contact-us-card .with-yellow-line {
+    padding-right: 8%;
+    border-right: solid #FFE07F 2px;
+}
+
+.workshops .contact-us-card .without-yellow-line {
+    padding-right: 8%;
+}
+
+.workshops .contact-us-card img {
+    margin-left: 0;
+}
+.workshops .contact-us-card h2 {
+    padding-bottom: 30px;
+}
+
+
+.workshops .contact-us-card button .triangle-right {
+    display: inline-block;
+    position: relative;
+    margin-left: 80px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 16px;
+    border-color: transparent transparent transparent #fff;
+    vertical-align: middle;
+    transition-duration: 0.6s;
+    margin-bottom: 3px;
+}
+
+.workshops .contact-us-card button .inner-triangle {
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: -14px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 10px;
+    border-color: transparent transparent transparent #005D91;
+    transition-duration: 0.6s;
+    margin-bottom: 3px;
+}
+
+.workshops .contact-us-card button:hover .triangle-right {
+    border-color: transparent transparent transparent #005D91;
+    margin-left:  115px;
+    transition-duration: 0.6s;
+}
+
+.workshops .contact-us-card button.btn:hover .inner-triangle {
+    border-color: transparent transparent transparent #fff;
+    transition-duration: 0.6s;
+}
+
+@media (max-width: 575.98px) {
+    .workshops
+    .jumbotron.hero h1 {
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .workshops
+    .jumbotron.hero h2 {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .workshops
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 280px;
+    }
+
+    .workshops .hero-image-container {
+        text-align: left;
+    }
+
+    .workshops .customers-card .expert-bio {
+        margin-left: 20%;
+    }
+
+
+    .workshops .contact-us-card .with-yellow-line {
+        padding-right: 0;
+        border-right: none;
+        border-bottom: solid 2px #FFE07F;
+        padding-bottom: 50px;
+        margin-left: 30px;
+        padding-left: 0;
+    }
+
+    .workshops .contact-us-card .with-yellow-line:first-child {
+        border: none;
+    }
+    
+    .workshops .contact-us-card .without-yellow-line {
+        padding: 50px 0 0 30px;
+        
+    }
+
+    .workshops .contact-us-card img {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .workshops
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 430px;
+    }
+
+    .workshops .hero-image-container {
+        text-align: left;
+    }
+
+    .workshops .contact-us-card .with-yellow-line {
+        padding-right: 0;
+        border-right: none;
+        border-bottom: solid 2px #FFE07F;
+        padding-bottom: 50px;
+    }
+    
+    .workshops .contact-us-card .without-yellow-line {
+        padding-right: 0;
+        padding-top: 50px;
+
+    }
+    .workshops .contact-us-card {
+        margin-left: 9%;
+        margin-left: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .workshops
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+    }
+
+    .workshops .hero-image-container {
+        text-align: left;
+    }
+
+    .workshops .customers-card .expert-bio {
+        margin-left: 40px;
+    }
+
+
+    .workshops .contact-us-card .with-yellow-line {
+        padding-right: 0;
+        border-right: none;
+        border-bottom: solid 2px #FFE07F;
+        padding-bottom: 50px;
+    }
+    
+    .workshops .contact-us-card .without-yellow-line {
+        padding-right: 0;
+        padding-top: 50px;
+
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .workshops
+    .jumbotron.hero img {
+        left: 30px;
+        top: -100px;
+        width: 400px;
+    }
+    .workshops .contact-us-card .with-yellow-line:first-child {
+        border: none;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .workshops .hero-image-container {
+        text-align: left;
+    }
+    .workshops
+    .jumbotron.hero img {
+        left: 30px;
+        top: -200px;
+    }
+    .workshops .contact-us-card .with-yellow-line:first-child {
+        border: none;
+    }
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 382.6 257.8" style="enable-background:new 0 0 382.6 257.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFE07F;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0.5;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#005D91;fill-opacity:0.5;}
+	.st3{fill:url(#SVGID_1_);}
+	.st4{fill:#62B5E5;}
+	.st5{fill:#005D91;}
+	.st6{fill:#002F49;}
+	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#C1C6C8;fill-opacity:0.2;}
+</style>
+<g>
+	<polygon id="Fill-10_180_" class="st0" points="162.4,250.5 235.8,213.2 162.4,177.1 	"/>
+	<polygon id="Fill-10_179_" class="st0" points="0,118.1 73.4,80.7 0,44.7 	"/>
+	<polygon id="Fill-10_175_" class="st1" points="235.8,250.5 309.2,213.2 235.8,177.1 	"/>
+	<polygon id="Fill-10_173_" class="st1" points="73.4,118.1 146.8,80.7 73.4,44.7 	"/>
+	<polygon id="Fill-10_207_" class="st2" points="235.8,250.5 309.2,213.2 235.8,177.1 	"/>
+	<polygon id="Fill-10_174_" class="st2" points="73.4,122.1 146.8,80.7 73.4,44.7 	"/>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="139.3393" y1="53.4358" x2="303.7642" y2="217.8608" gradientTransform="matrix(1 0 0 -1 0 260)">
+		<stop  offset="0" style="stop-color:#ECEEEE"/>
+		<stop  offset="0.5326" style="stop-color:#EAECED"/>
+		<stop  offset="0.7244" style="stop-color:#E3E6E7"/>
+		<stop  offset="0.8611" style="stop-color:#D8DBDC"/>
+		<stop  offset="0.9709" style="stop-color:#C7CBCD"/>
+		<stop  offset="1" style="stop-color:#C1C6C8"/>
+	</linearGradient>
+	<path class="st3" d="M375.6,132.5c0-24.7-20-44.7-44.7-44.7c-2.9,0-5.8,0.3-8.5,0.8c0.8-3,1.3-6.2,1.3-9.5
+		c0-20.7-16.7-37.4-37.4-37.4c-9.2,0-17.5,3.3-24,8.8C253.6,21.3,226.6,0,194.6,0c-39,0-70.6,31.6-70.6,70.6c0,3,0.2,6,0.6,8.9
+		c-24.4,2.9-43.3,23.6-43.3,48.7c0,27.1,21.9,49,49,49H339C359.2,172.9,375.6,154,375.6,132.5z"/>
+	<g>
+		<g>
+			<polygon class="st4" points="253.9,105.8 81.8,257.8 0,118.1 			"/>
+			<polygon class="st5" points="219.4,117.2 39.4,185.4 26,162.5 			"/>
+			<polygon class="st5" points="26,162.5 26,222.5 39.4,185.4 			"/>
+		</g>
+		<polygon class="st6" points="39.4,185.2 26,222.4 55.1,212.1 		"/>
+	</g>
+	<polygon id="Fill-10_177_" class="st7" points="309.2,250.5 382.6,213.2 309.2,177.1 	"/>
+</g>
+</svg>

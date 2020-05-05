@@ -1,0 +1,309 @@
+/************  Solutions page  ***************/
+
+
+.solutions
+.jumbotron.hero {
+    background-color: #005D91;
+    background-image: none;
+    border-top: 3px solid #005D91;
+    margin-bottom: 0;
+}
+
+.solutions
+.jumbotron.hero h1,
+.solutions
+.jumbotron.hero h2 {
+    text-align: right;
+    color: #FFF;
+}
+
+.solutions
+.jumbotron.hero img {
+    position: absolute;
+    top: -140px;
+}
+
+.solutions
+.brand-promises-card {
+    background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+}
+.solutions .brand-promises-card h2 {
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.solutions .brand-promises-card img {
+    margin-top: 50px;
+}
+
+.solutions .case-studies-card .devops-case-study {
+    border-bottom: none;
+}
+
+.solutions .case-studies-card .devops-case-study h2 {
+    margin-top: 200px;
+}
+
+.solutions .cta {
+    padding-left: 0;
+    text-align: left;
+}
+
+.solutions button {
+    background-color:#005D91;
+    width: 250px;
+    height: 35px;
+    border-radius: 4px;
+    box-shadow: #979797 0 2px 4px 0;
+    color: #FFF;
+    padding: 0 10px;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    transition-duration: 0.6s;
+}
+
+.solutions button:hover {
+    background-color:#fff;
+    border: 1px solid #005D91;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #005D91;
+}
+
+.solutions button .triangle-right {
+    display: inline-block;
+    position: relative;
+    margin-left: 90px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 16px;
+    border-color: transparent transparent transparent #fff;
+    vertical-align: middle;
+    transition-duration: 0.6s;
+    margin-bottom: 3px;
+}
+
+.solutions button .inner-triangle {
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: -14px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 10px;
+    border-color: transparent transparent transparent #005D91;
+    transition-duration: 0.6s;
+    margin-bottom: 3px;
+}
+
+.solutions button:hover .triangle-right {
+    border-color: transparent transparent transparent #005D91;
+    margin-left: 130px;
+    transition-duration: 0.6s;
+}
+
+.solutions button.btn:hover .inner-triangle {
+    border-color: transparent transparent transparent #fff;
+    transition-duration: 0.6s;
+}
+
+.solutions
+.brand-promises-card {
+    background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+    padding-left: 30px;
+}
+.solutions .brand-promises-card h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 575.98px) {
+    .solutions
+    .jumbotron.hero h1 {
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .solutions
+    .jumbotron.hero h2 {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .solutions
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 280px;
+    }
+
+    .solutions .brand-promises-card h2 {
+        text-align: center;
+    }
+
+    .solutions .B-O-T-horizontal {
+        display: none;
+    }
+
+    .solutions .hero-image-container {
+        text-align: left;
+    }
+
+    .solutions .case-studies-card h2 {
+       text-align: left;
+    }
+
+    .solutions .case-studies-card p {
+        text-align: left;
+     }
+
+    .solutions .case-studies-card .devops-case-study h2 {
+        margin-top: 0;
+    }
+
+    .solutions .case-studies-card .why-image-container {
+        text-align: left;
+    }
+
+    .solutions .devops-case-study img {
+        left: 0;
+        top: 0;
+        position: relative;
+        width: 300px;
+        margin: 50px 0 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .solutions
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 430px;
+    }
+
+    .solutions .B-O-T-horizontal {
+        display: none;
+    }
+
+    .solutions
+    .case-studies-card {
+        padding-top: 0;
+    }
+    
+    .solutions .case-studies-card .devops-case-study h2 {
+        margin-top: 0;
+    }
+
+    .solutions .hero-image-container {
+        text-align: right;
+    }
+
+    .solutions .devops-case-study img {
+        position: relative;
+        text-align: left;
+        margin-bottom: 50px;
+        margin-top: 100px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .solutions
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+    }
+
+    .solutions .B-O-T-vertical {
+        display: none;
+    }
+
+    .solutions .hero-image-container {
+        text-align: right;
+    }
+    
+    .solutions .brand-promises-card p {
+        text-align: center;
+    }
+
+    .solutions .brand-promises-card img {
+        height: 150px;
+        text-align: center;
+    }
+
+    .solutions .devops-case-study img {
+        margin-top: 80%;
+        width: 120%;
+    }
+
+    .solutions
+    .case-studies-card {
+        padding-top: 0;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .solutions
+    .jumbotron.hero img {
+        left: 0;
+        top: -40px;
+        width: 400px;
+    }
+
+    .solutions .B-O-T-vertical {
+        display: none;
+    }
+
+    .solutions .brand-promises-card img {
+        height: 170px;
+    }
+
+    .solutions .brand-promises-card h2 {
+        text-align: left;
+    }
+
+    .solutions .devops-case-study img {
+        margin-top: 50%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .solutions
+    .jumbotron.hero img {
+        left: 0;
+        top: -120%;
+    }
+    
+    .solutions .B-O-T-vertical {
+        display: none;
+    }
+
+    .solutions .hero-image-container {
+        text-align: left;
+    }
+
+    .solutions .brand-promises-card h2 {
+        text-align: left;
+    }
+    .solutions .devops-case-study img {
+        margin-top: 50%;
+        width: 380px;
+    }
+
+    .solutions
+    .case-studies-card {
+        padding-top: 0;
+    }
+}

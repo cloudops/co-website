@@ -1,0 +1,235 @@
+/************  Footer Styles  ***************/
+
+.footer {
+    background-color: #005D91;
+    background-image: url("../images/footer-bkgd-logo.svg");
+    background-size: 700px;
+    background-position: 105% 150%;
+    background-repeat: no-repeat;
+    padding: 50px 0 0 0;
+}
+
+.footer .logo {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.footer i {
+    font-size: 20pt;
+    color: #62B5E5;
+    padding-right: 16px;
+    padding-bottom: 10px;
+}
+
+.footer h5 {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 20px;
+    margin: 0 0 10px;
+    position: absolute; 
+    top: 50px;
+    left: 17px;
+}
+
+.footer h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #62B5E5;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+
+.footer ul {
+    list-style-type: none;
+    padding: 15px 0 0 0;
+}
+
+.footer a {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    line-height: 2.0;
+    font-size: 18px;
+
+}
+
+.footer .footer-nav a:hover {
+    color: #FFF;
+    border-bottom: solid 2px #62B5E5;
+    text-decoration: none;
+}
+
+.footer p {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    line-height: 2.0;
+    font-size: 8pt;
+    text-align: center;
+}
+
+.footer .hs-richtext {
+    display: none;
+}
+
+.footer .newsletter-form ::placeholder {
+    color:#FFF;
+    opacity: 1;
+    font-size: 16px;
+  }
+
+
+.footer .newsletter-form .hs-button {
+    width: 150px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #ffff;
+    text-align: center;
+    color: #005D91;
+}
+
+.footer .newsletter-form .hs-button:hover {
+    width: 150px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #005D91;
+    border-color: #62B5E5;
+    text-align: center;
+    color: #FFF;
+    transition-duration: 0.6s;
+}
+
+
+.footer .newsletter-form input {
+    background-color: transparent;
+    border: 1px solid #62B5E5;
+    padding: 4px 10px;
+    color: #FFF;
+    font-size: 16px;
+    text-align: left;
+}
+
+
+
+.footer .newsletter-form  input[type=text],
+.footer .newsletter-form  input[type=email] {
+    width: 350px;
+}
+
+.footer .newsletter-form .hs-firstname {
+    height: 50px;
+    margin-top: 40px;
+}
+
+
+.footer .newsletter-form input {
+    margin-top: 12px;
+}
+
+
+.footer .footer-nav {
+    padding-left: 85px;
+}
+
+.footer .copyright {
+    padding-top: 80px;
+}
+
+
+
+
+@media (max-width: 575.98px) {
+    .footer {
+        text-align: center;
+        background-size: 300px;
+        background-position: 103% 103%;
+    }
+
+    .footer .footer-nav {
+        padding-left: 0;
+        padding-top: 40px;
+    }
+
+    .footer .newsletter-form {
+        padding-bottom: 40px;
+    } 
+
+    .footer h5 {
+        position: relative; 
+        left: 0;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .footer {
+        text-align: center;
+        background-size: 500px;
+        background-position: 105% 105%;
+    }
+
+    .footer .footer-nav {
+        padding-left: 0;
+        padding-top: 40px;
+    }
+
+    .footer .newsletter-form {
+        padding-bottom: 30px;
+    }
+
+    .footer h5 {
+        position: relative; 
+        left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .footer {
+        text-align: center;
+        background-size: 700px;
+        background-position: 105% 110%;
+    }
+    .footer h5 {
+        position: relative; 
+        left: 0;
+    }
+    .footer .newsletter-form {
+        text-align: center;
+    }
+    .footer .newsletter-form  input[type=text],
+    .footer .newsletter-form  input[type=email] {
+        width: 250px;
+        margin-left: 15px;
+    }
+
+    .footer .footer-nav {
+        padding-left: 0;
+        padding-top: 40px;
+    }
+    .footer .newsletter-form .input{
+        margin-top: 0;   
+    }  
+    .footer .newsletter-form {
+        padding-bottom: 40px;    
+    }  
+    
+    .footer .footer-content p {
+        padding-top: 0;    
+    } 
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .footer .newsletter-form  input[type=text],
+    .footer .newsletter-form  input[type=email] {
+        width: 300px;
+    }
+
+    .footer .footer-content {
+        padding-left: 10px;    
+    }
+    
+}
+
+@media (min-width: 1200px) {
+
+}
