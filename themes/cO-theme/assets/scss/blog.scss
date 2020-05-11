@@ -1,0 +1,343 @@
+.post h1 {
+    color: #005D91;
+    font-size: 34px;
+}
+
+.post h2 {
+    color: #005D91;
+    fon-size: 24px;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post p {
+    line-height: 1.6;
+    padding: 10px 0;
+}
+
+.post pre {
+    background-color: #D8D8D8;
+    margin: 30px 16.6666%;
+    padding: 0 15px;
+    border: solid 1px #979797;
+    border-radius: 8px;
+    color: #404040;
+    font-size: 16px;
+}
+
+.post ul li {
+    font-size: 18px;
+    line-height: 2;
+    color: #404040;
+    padding-left: 8%;
+}
+
+.post .tabbed-text {
+    padding-left: 8%;
+}
+
+.post .cta-image {
+    width: 100%;
+    padding:0; 
+}
+
+.post .cta-image img {
+    margin-left: 15px;
+}
+.post
+.back-foward.nav-buttons button {
+    background-color: transparent;
+    border:none;
+    color: #fff;
+    box-shadow: none;
+    width: auto;
+}
+
+
+.post
+.back-foward.nav-buttons button:hover {
+    text-decoration: underline;
+}
+
+
+.post
+.back-foward.nav-buttons button .triangle-right {
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 16px;
+    border-color: transparent transparent transparent #fff;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+
+.post
+.back-foward.nav-buttons.nav-buttons button .inner-triangle {
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: -14px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 10px;
+    border-color: transparent transparent transparent #005D91;
+    transition-duration: 0.6s;
+    margin-bottom: 3px;
+}
+
+.post
+.back-foward.nav-buttons button:hover .triangle-right {
+    border-color: transparent transparent transparent #fff;
+    transition-duration: 0.2s;
+}
+
+.post
+.back-foward.nav-buttons button.btn:hover .inner-triangle {
+    border-color: transparent transparent transparent #fff;
+    transition-duration: 0.2s;
+}
+
+.post
+.back-foward.nav-buttons button .triangle-left {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 16px 10px 0;
+    border-color: transparent #fff transparent transparent;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+
+.post 
+.back-foward.nav-buttons button .inner-left-triangle {
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: 4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 10px 6px 0;
+    border-color: transparent #005D91 transparent transparent;
+    transition-duration: 0.6s;
+    margin-bottom: 3px;
+}
+
+.post 
+.back-foward.nav-buttons button:hover .triangle-left {
+    border-color: transparent #fff transparent transparent;
+    transition-duration: 0.2s;
+}
+
+.post 
+.back-foward.nav-buttons button.btn:hover .inner-left-triangle {
+    border-color: transparent #fff transparent transparent;
+    transition-duration: 0.2s;
+}
+
+
+.post
+.back-foward.in-content.nav-buttons {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.post
+.back-foward.in-content.nav-buttons button {
+    color: #005D91;
+}
+
+.post
+.back-foward.in-content.nav-buttons button .triangle-right {
+    border-color: transparent transparent transparent #005D91;
+}
+
+.post
+.back-foward.in-content.nav-buttons.nav-buttons button .inner-triangle {
+    border-color: transparent transparent transparent #fff;
+}
+
+.post
+.back-foward.in-content.nav-buttons button:hover .triangle-right {
+    border-color: transparent transparent transparent #005D91;
+}
+
+.post
+.back-foward.in-content.nav-buttons button.btn:hover .inner-triangle {
+    border-color: transparent transparent transparent #005D91;
+}
+
+.post
+.back-foward.in-content.nav-buttons button .triangle-left {
+    border-color: transparent #005D91 transparent transparent;
+}
+
+.post 
+.back-foward.in-content.nav-buttons button .inner-left-triangle {
+    border-color: transparent #fff transparent transparent;
+}
+
+.post 
+.back-foward.in-content.nav-buttons button:hover .triangle-left {
+    border-color: transparent #005D91 transparent transparent;
+}
+
+.post 
+.back-foward.in-content.nav-buttons button.btn:hover .inner-left-triangle {
+    border-color: transparent #005D91 transparent transparent;
+}
+
+.post 
+.back-foward.in-content.nav-buttons .back-button {
+    text-align: left;
+}
+
+.post 
+.back-foward.in-content.nav-buttons .foward-button {
+    text-align: right;
+    padding-right: 0;
+}
+
+.post .social {
+    border-top: solid 2px #FFE07F;
+    border-bottom: solid 2px #FFE07F;
+    padding: 35px 0;
+    margin: 0 16.6666% 200px;
+
+}
+
+.post .social i {
+    color: #005D91;
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.post .cta-cards .card-deck .card {
+    background-color: #FFF;
+    box-shadow: 2px 2px 8px #E2E2E2;
+    border-radius: 0;
+    min-width: 220px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.post .cta-cards .card-deck .card:hover {
+    box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2);
+}
+
+.post .contact-us-card {
+    background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+    background-position: 2% 30%, left bottom, right top;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.post .contact-us-card img {
+    margin: 0 0 30px -50%;
+}
+
+.post .contact-us-card h2 {
+    padding-right: 40px 0 0 40px;
+    text-align: left;
+}
+
+.post .contact-us-card {
+    background-position: 25px 100px, left bottom, right top;
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .experts .contact-us-card {
+        background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.png");
+        background-position: 2% 30%, left bottom, right top;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        padding: 100px 0;
+    }
+
+    .experts .contact-us-card {
+        background-position: 70px 100px, left bottom, right top;
+    }
+
+    .experts .contact-us-card img {
+        margin-left: 0px;
+    }
+
+    .experts .contact-us-card .contact-us-intro {
+        padding-bottom: 50px;
+    }
+    
+    .experts .cta-cards .card-deck .card {
+        min-width: 270px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    .experts .contact-us-card {
+        background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+        background-position: 2% 30%, left bottom, right top;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        padding: 100px 0;
+    }
+
+    .experts .contact-us-card img {
+        margin-top: 50px;
+    }
+    
+    .experts .contact-us-card h2 {
+        padding: 40px 0 0 40px;
+    }
+
+
+    .experts .contact-us-card {
+        background-position: 70px 160px, left bottom, right top;
+    }
+
+    .experts .contact-us-card img {
+        margin-left: 0px;
+    }
+
+    .experts .contact-us-card .contact-us-intro {
+        padding-bottom: 50px;
+    }
+    
+    .experts .cta-cards .card-deck .card {
+        min-width: 260px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .experts .contact-us-card {
+        background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
+        background-position: 2% 30%, left bottom, right top;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        padding: 100px 0;
+    }
+    .experts .contact-us-card img {
+        margin-top: 50px;
+        padding-left: 0;
+        margin-left: -58px;
+    }
+
+    .experts .contact-us-card {
+        background-position: 5% 160px, left bottom, right top;
+    }
+
+    .experts .contact-us-card h2 {
+       padding: 40px 0 0 40px;
+    }
+
+    .experts.cta-cards .card-deck .card {
+        min-width: 260px;
+    }
+}
