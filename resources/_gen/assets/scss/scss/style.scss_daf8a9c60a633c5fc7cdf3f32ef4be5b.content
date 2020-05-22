@@ -970,6 +970,13 @@ a.active {
 .navbar-card .navbar .navbar-nav .nav-item p {
   display: inline; }
 
+.navbar-expand-xl .navbar-nav .dropdown-menu {
+  width: 1000px;
+  left: -50%;
+  margin-left: -500px;
+  top: 60px;
+  border-radius: 0; }
+
 @media (max-width: 575.98px) {
   .navbar-card {
     margin: 5px 5px; }
@@ -1037,11 +1044,14 @@ a.active {
 
 .jumbotron.hero .card {
   background-color: transparent;
-  border: 2px solid #62B5E5;
+  border: 2px solid #FFF;
   border-radius: 0;
   position: absolute;
   bottom: 0;
   right: 0; }
+
+.jumbotron.hero .card .corner-triangle {
+  border-color: transparent transparent #FFF transparent; }
 
 .jumbotron.hero .card h5 {
   font-family: 'Montserrat', sans-serif;
@@ -1288,6 +1298,10 @@ a.active {
     margin: 70px 75px; } }
 
 /************  Customers Styles  ***************/
+.customers-card {
+  text-align: center;
+  padding: 50px 0; }
+
 .customers-card h2 {
   font-family: 'Montserrat', sans-serif;
   color: #005D91;
@@ -1296,6 +1310,20 @@ a.active {
   text-transform: uppercase;
   text-align: center;
   margin: 50px auto; }
+
+.customers-card img {
+  vertical-align: middle;
+  width: 200px;
+  margin: 30px; }
+
+.customers-card .zuora-logo {
+  width: 140px; }
+
+.customers-card .liberty-logo {
+  width: 90px; }
+
+.customers-card .row .customers-row {
+  padding: 40px 0; }
 
 /************  Design-build-transform Styles  ***************/
 .design-build-transform-card .row {
@@ -1615,7 +1643,7 @@ a.active {
     color: #FFF;
     line-height: .01;
     font-size: 16pt; }
-  .contact-us-card .general-contact-form .hs-button {
+  .contact-us-card .general-contact-form input.hs-button.primary.large {
     background-color: #005D91;
     width: 150px;
     height: 35px;
@@ -1665,7 +1693,7 @@ a.active {
     color: #FFF;
     line-height: .01;
     font-size: 16pt; }
-  .contact-us-card .general-contact-form .hs-button {
+  .contact-us-card .general-contact-form input.hs-button.primary.large {
     background-color: #005D91;
     width: 150px;
     height: 35px;
@@ -1715,7 +1743,7 @@ a.active {
     color: #FFF;
     line-height: .01;
     font-size: 16pt; }
-  .contact-us-card .general-contact-form .hs-button {
+  .contact-us-card .general-contact-form input.hs-button.primary.large {
     background-color: #005D91;
     width: 150px;
     height: 35px;
@@ -1767,7 +1795,7 @@ a.active {
     color: #FFF;
     line-height: .01;
     font-size: 16pt; }
-  .contact-us-card .general-contact-form .hs-button {
+  .contact-us-card .general-contact-form input.hs-button.primary.large {
     background-color: #005D91;
     width: 150px;
     height: 35px;
@@ -1806,7 +1834,9 @@ a.active {
     border-bottom: #404040 1px solid; }
   .contact-us-card .general-contact-form ::placeholder {
     color: #404040;
-    opacity: 1; }
+    opacity: 1;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif; }
   .contact-us-card .general-contact-form ul {
     list-style-type: none;
     padding: 15px 0 0 0; }
@@ -1814,8 +1844,8 @@ a.active {
     font-family: 'Open Sans', sans-serif;
     color: #FFF;
     line-height: .01;
-    font-size: 16pt; }
-  .contact-us-card .general-contact-form .hs-button {
+    font-size: 16px; }
+  .contact-us-card .general-contact-form input.hs-button.primary.large {
     background-color: #005D91;
     width: 150px;
     height: 35px;
@@ -1829,6 +1859,20 @@ a.active {
     color: #005D91;
     border: solid 1px #005D91;
     transition-duration: 0.6s; }
+  .contact-us-card .general-contact-form .hs-form-required {
+    display: none; }
+  .contact-us-card .general-contact-form .hs-error-msg {
+    font-size: 10px;
+    color: #404040;
+    position: absolute; }
+  .contact-us-card .general-contact-form textarea {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 25px;
+    border-bottom: 1px #404040 solid; }
   .contact-us-card {
     background-position: 5% 160px, left bottom, right top; }
   .contact-us-card h2 {
@@ -2004,7 +2048,7 @@ a.active {
 
 /************  Workshop page  ***************/
 .workshops .jumbotron.hero {
-  background: linear-gradient(to bottom right, #62B5E5, #005D91);
+  background-image: linear-gradient(to bottom right, #7AAA43, #2C893D);
   border-top: 3px solid #005D91;
   margin-bottom: 0;
   color: #fff; }
@@ -2237,8 +2281,7 @@ a.active {
 
 /************  Solutions page  ***************/
 .solutions .jumbotron.hero {
-  background-color: #005D91;
-  background-image: none;
+  background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
   border-top: 3px solid #005D91;
   margin-bottom: 0; }
 
@@ -2440,8 +2483,7 @@ a.active {
 
 /************  About Us page  ***************/
 .about-us .jumbotron.hero {
-  background-color: #FFE07F;
-  background-image: none;
+  background-image: linear-gradient(to bottom right, #FFE07F, #FFD44C);
   border-top: 3px solid #005D91;
   margin-bottom: 0;
   color: #fff; }
@@ -2545,8 +2587,7 @@ a.active {
     padding-top: 0; } }
 
 .experts .jumbotron.hero {
-  background-color: #005D91;
-  background-image: none;
+  background-image: linear-gradient(to bottom right, #7AAA43, #2C893D);
   border-top: 3px solid #005D91;
   margin-bottom: 0;
   color: #fff; }
@@ -2759,8 +2800,7 @@ a.active {
     min-width: 260px; } }
 
 .using-cloud .jumbotron.hero {
-  background-color: #005D91;
-  background-image: none;
+  background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
   border-top: 3px solid #005D91;
   margin-bottom: 0;
   color: #fff; }
@@ -2786,19 +2826,14 @@ a.active {
   line-height: 1.8;
   font-weight: 400; }
 
-.using-cloud .cta {
-  padding-left: 0;
-  text-align: left; }
-
 .using-cloud button {
   background-color: #005D91;
   width: 230px;
   height: 35px;
   border-radius: 4px;
-  box-shadow: #979797 0 2px 4px 0;
+  box-shadow: none;
   color: #FFF;
   padding: 0 10px;
-  text-align: left;
   font-family: 'Open Sans';
   font-size: 18px;
   transition-duration: 0.6s; }
@@ -2810,51 +2845,17 @@ a.active {
   box-shadow: none;
   color: #005D91; }
 
-.using-cloud button .triangle-right {
-  display: inline-block;
-  position: relative;
-  margin-left: 80px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 10px 0 10px 16px;
-  border-color: transparent transparent transparent #fff;
-  vertical-align: middle;
-  transition-duration: 0.6s;
-  margin-bottom: 3px; }
+.using-cloud .cta {
+  padding-left: 0; }
 
-.using-cloud button .inner-triangle {
-  display: inline-block;
-  position: absolute;
-  top: -6px;
-  left: -14px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 6px 0 6px 10px;
-  border-color: transparent transparent transparent #005D91;
-  transition-duration: 0.6s;
-  margin-bottom: 3px; }
-
-.using-cloud button:hover .triangle-right {
-  border-color: transparent transparent transparent #005D91;
-  margin-left: 110px;
-  transition-duration: 0.6s; }
-
-.using-cloud button.btn:hover .inner-triangle {
-  border-color: transparent transparent transparent #fff;
-  transition-duration: 0.6s; }
+.using-cloud .triple-cta-button .cta .btn {
+  margin: 15px 0; }
 
 .using-cloud .case-studies-card .devops-case-study {
   border-bottom: none; }
 
 .using-cloud .case-studies-card .devops-case-study h2 {
   margin-top: 200px; }
-
-.using-cloud .triple-cta {
-  border-top: 2px solid #FFE07F;
-  margin: 50px 230px;
-  padding-top: 50px; }
 
 .using-cloud .cta-cards .card-deck .card {
   background-color: #FFF;
@@ -2925,9 +2926,7 @@ a.active {
   .using-cloud .contact-us-card h2 {
     padding-bottom: 30px; }
   .using-cloud .contact-us-card img {
-    margin: 30px auto; }
-  .using-cloud .triple-cta {
-    margin: 50px 150px 50px 10px; } }
+    margin: 30px auto; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .using-cloud .jumbotron.hero img {
@@ -2968,9 +2967,7 @@ a.active {
   .using-cloud .cta-cards .card-deck {
     padding-left: 30px; }
   .using-cloud .cta-cards .card-deck .card {
-    min-width: 270px; }
-  .using-cloud .triple-cta {
-    margin: 50px 150px 50px 10px; } }
+    min-width: 270px; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .using-cloud .jumbotron.hero img {
@@ -3001,9 +2998,7 @@ a.active {
   .using-cloud .contact-us-card .contact-us-intro {
     padding-bottom: 50px; }
   .using-cloud .cta-cards .card-deck .card {
-    min-width: 270px; }
-  .using-cloud .triple-cta {
-    margin: 50px 70px 50px 50%; } }
+    min-width: 270px; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .using-cloud .jumbotron.hero img {
@@ -3028,9 +3023,7 @@ a.active {
   .using-cloud .contact-us-card .contact-us-intro {
     padding-bottom: 50px; }
   .using-cloud .cta-cards .card-deck .card {
-    min-width: 260px; }
-  .using-cloud .triple-cta {
-    margin: 50px 100px; } }
+    min-width: 260px; } }
 
 @media (min-width: 1200px) {
   .using-cloud .hero-image-container {
@@ -3057,19 +3050,13 @@ a.active {
   .using-cloud .contact-us-card h2 {
     padding: 40px 0 0 40px; }
   .using-cloud.cta-cards .card-deck .card {
-    min-width: 260px; }
-  .using-cloud .triple-cta img {
-    transform: rotate(90deg);
-    margin-bottom: 90px;
-    margin-left: -35px; }
-  .using-cloud .triple-cta {
-    border: none; } }
+    min-width: 260px; } }
 
 .docker-k8s-page .jumbotron.hero {
   background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+  background-image: linear-gradient(to bottom right, #7AAA43, #2C893D);
   background-position: left bottom, right top;
   background-repeat: no-repeat, no-repeat;
-  background-color: #005D91;
   border-top: 3px solid #005D91;
   background-size: auto;
   margin-bottom: 0;
@@ -3106,7 +3093,7 @@ a.active {
   height: 0;
   border-style: solid;
   border-width: 6px 0 6px 10px;
-  border-color: transparent transparent transparent #005D91;
+  border-color: transparent transparent transparent #7AAA43;
   transition-duration: 0.6s;
   margin-bottom: 3px; }
 
@@ -3139,7 +3126,7 @@ a.active {
   height: 0;
   border-style: solid;
   border-width: 6px 10px 6px 0;
-  border-color: transparent #005D91 transparent transparent;
+  border-color: transparent #7AAA43 transparent transparent;
   transition-duration: 0.6s;
   margin-bottom: 3px; }
 
@@ -3318,15 +3305,14 @@ a.active {
   padding-bottom: 30px; }
 
 .partners .jumbotron.hero {
-  background-color: #005D91;
-  background-image: none;
+  background-image: linear-gradient(to bottom right, #FFE07F, #FFD44C);
   border-top: 3px solid #005D91;
   margin-bottom: 0; }
 
 .partners .jumbotron.hero h1,
 .partners .jumbotron.hero h2 {
   text-align: right;
-  color: #FFF; }
+  color: black; }
 
 .partners .jumbotron.hero img {
   position: absolute;
@@ -3458,10 +3444,10 @@ a.active {
     text-align: right; } }
 
 .why-cloudops .jumbotron.hero {
-  background-color: #FFE07F;
+  background-image: linear-gradient(to bottom right, #FFE07F, #FFD44C);
   border-top: 3px solid #005D91;
-  background-image: none;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding: 100px 0; }
 
 .why-cloudops .jumbotron.hero h1 {
   text-align: left;
@@ -3473,7 +3459,12 @@ a.active {
 
 .why-cloudops .brand-promises-card h2 {
   text-align: left;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  margin-left: 30px; }
+
+.why-cloudops .brand-promises-card p {
+  padding-bottom: 30px;
+  margin-left: 30px; }
 
 .why-cloudops .brand-promises-card .where-we-help-graph {
   text-align: center; }
@@ -3512,8 +3503,15 @@ a.active {
     position: relative;
     top: 30px;
     width: 280px; }
+  .why-cloudops .brand-promises-card h2 {
+    text-align: center; }
+  .why-cloudops .brand-promises-card .where-we-help-graph {
+    width: 270px;
+    margin: auto; }
   .why-cloudops .hero-image-container {
     text-align: left; }
+  .why-cloudops .image-for-desktop {
+    display: none; }
   .why-cloudops .case-studies-card img {
     position: relative;
     width: 260px;
@@ -3532,6 +3530,10 @@ a.active {
     width: 430px; }
   .why-cloudops .hero-image-container {
     text-align: left; }
+  .why-cloudops .brand-promises-card h2 {
+    text-align: center; }
+  .why-cloudops .image-for-desktop {
+    display: none; }
   .why-cloudops .case-studies-card img {
     position: relative;
     width: 300px;
@@ -3547,6 +3549,10 @@ a.active {
     top: 30px; }
   .why-cloudops .hero-image-container {
     text-align: left; }
+  .why-cloudops .image-for-mobile {
+    display: none; }
+  .why-cloudops .brand-promises-card h2 {
+    text-align: center; }
   .why-cloudops .case-studies-card img {
     width: 260px; } }
 
@@ -3554,14 +3560,18 @@ a.active {
   .why-cloudops .jumbotron.hero img {
     left: 30px;
     top: -225px;
-    width: 360px; } }
+    width: 360px; }
+  .why-cloudops .image-for-mobile {
+    display: none; } }
 
 @media (min-width: 1200px) {
   .why-cloudops .hero-image-container {
     text-align: left; }
   .why-cloudops .jumbotron.hero img {
     left: 30px;
-    top: -200px; } }
+    top: -200px; }
+  .why-cloudops .image-for-mobile {
+    display: none; } }
 
 .post h1 {
   color: #005D91;
@@ -3806,5 +3816,157 @@ a.active {
     padding: 40px 0 0 40px; }
   .experts.cta-cards .card-deck .card {
     min-width: 260px; } }
+
+.contact-us .jumbotron.hero {
+  background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+  background-position: left bottom, right top;
+  background-repeat: no-repeat, no-repeat;
+  background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
+  border-top: 3px solid #005D91;
+  background-size: auto;
+  margin-bottom: 0;
+  color: #fff; }
+
+.cloud-migration .jumbotron.hero {
+  background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
+  border-top: 3px solid #005D91;
+  padding: 130px 0;
+  margin-bottom: 0; }
+
+.cloud-migration .jumbotron.hero h1 {
+  text-align: left; }
+
+.cloud-migration .jumbotron.hero img {
+  position: absolute;
+  top: -140px; }
+
+.cloud-migration .brand-promises-card {
+  background-image: url("../images/blue-dots-LEFT.png"), url("../images/yellow-dots-LEFT.png"), url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
+  background-position: left top, left top, right top, right top;
+  background-repeat: repeat-y, repeat-y, repeat-y, repeat-y; }
+
+.cloud-migration .brand-promises-card h2 {
+  text-align: left;
+  padding-bottom: 10px; }
+
+.cloud-migration .brand-promises-card .where-we-help-graph {
+  text-align: center; }
+
+@media (max-width: 575.98px) {
+  .cloud-migration .jumbotron.hero h1 {
+    font-size: 50px;
+    text-align: left; }
+  .cloud-migration .jumbotron.hero h2 {
+    text-align: left;
+    font-size: 24px; }
+  .cloud-migration .jumbotron.hero img {
+    position: relative;
+    top: 30px;
+    width: 280px; }
+  .cloud-migration .hero-image-container {
+    text-align: left; } }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .cloud-migration .jumbotron.hero img {
+    position: relative;
+    top: 30px;
+    width: 430px; }
+  .cloud-migration .hero-image-container {
+    text-align: left; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .cloud-migration .jumbotron.hero img {
+    position: relative;
+    top: 30px; }
+  .cloud-migration .hero-image-container {
+    text-align: left; } }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .cloud-migration .jumbotron.hero img {
+    left: 30px;
+    top: -225px;
+    width: 360px; } }
+
+@media (min-width: 1200px) {
+  .cloud-migration .hero-image-container {
+    text-align: left; }
+  .cloud-migration .jumbotron.hero img {
+    left: 30px;
+    top: -200px; } }
+
+.cloud-native-consulting .jumbotron.hero {
+  background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
+  border-top: 3px solid #005D91;
+  margin-bottom: 0; }
+
+.cloud-native-consulting .jumbotron.hero h1 {
+  text-align: left;
+  color: #FFF; }
+
+.cloud-native-consulting .jumbotron.hero img {
+  position: absolute;
+  top: -140px; }
+
+.cloud-native-consulting .brand-promises-card {
+  background-image: url("../images/blue-dots-LEFT.png"), url("../images/yellow-dots-LEFT.png"), url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
+  background-position: left top, left top, right top, right top;
+  background-repeat: repeat-y, repeat-y, repeat-y, repeat-y; }
+
+.cloud-native-consulting .brand-promises-card h2 {
+  text-align: left;
+  padding-bottom: 10px; }
+
+.cloud-native-consulting .brand-promises-card .where-we-help-graph {
+  text-align: center; }
+
+@media (max-width: 575.98px) {
+  .cloud-native-consulting .jumbotron.hero h1 {
+    font-size: 50px;
+    text-align: left; }
+  .cloud-native-consulting .jumbotron.hero h2 {
+    text-align: left;
+    font-size: 24px; }
+  .cloud-native-consulting .jumbotron.hero img {
+    position: relative;
+    top: 30px;
+    width: 280px; }
+  .cloud-native-consulting .hero-image-container {
+    text-align: left; } }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .cloud-native-consulting .jumbotron.hero img {
+    position: relative;
+    top: 30px;
+    width: 430px; }
+  .cloud-native-consulting .hero-image-container {
+    text-align: left; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .cloud-native-consulting .jumbotron.hero img {
+    position: relative;
+    top: 30px; }
+  .cloud-native-consulting .hero-image-container {
+    text-align: left; } }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .cloud-native-consulting .jumbotron.hero img {
+    left: 30px;
+    top: -225px;
+    width: 360px; } }
+
+@media (min-width: 1200px) {
+  .cloud-native-consulting .hero-image-container {
+    text-align: left; }
+  .cloud-native-consulting .jumbotron.hero img {
+    left: 30px;
+    top: -200px; } }
+
+.blog-main .hero.jumbotron {
+  background-image: linear-gradient(to bottom right, #47B7AF, #009187); }
+
+.blog-main .hero.jumbotron img {
+  margin-top: -90px;
+  margin-left: 30px;
+  width: 400px; }
 
 /*# sourceMappingURL=style.css.map */

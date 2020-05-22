@@ -1,0 +1,14 @@
+
+.contact-us
+.jumbotron.hero {
+    background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+    background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
+    border-top: 3px solid #005D91;
+    background-size: auto;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+

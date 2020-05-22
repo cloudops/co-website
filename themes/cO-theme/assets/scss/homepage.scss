@@ -20,13 +20,16 @@
 
 .jumbotron.hero .card {
     background-color: transparent;
-    border: 2px solid #62B5E5;
+    border: 2px solid #FFF;
     border-radius: 0;
     position: absolute;
     bottom: 0;
     right: 0;
 }
 
+.jumbotron.hero .card .corner-triangle {
+    border-color: transparent transparent #FFF transparent;
+}
 
 .jumbotron.hero .card h5 {
     font-family: 'Montserrat', sans-serif;
@@ -364,6 +367,10 @@
 
 /************  Customers Styles  ***************/
 
+.customers-card {
+    text-align: center;
+    padding: 50px 0;
+}
 .customers-card h2 {
     font-family: 'Montserrat', sans-serif;
     color: #005D91;
@@ -373,6 +380,25 @@
     text-align: center;
     margin: 50px auto;
 }
+
+.customers-card img {
+    vertical-align: middle;
+    width: 200px;
+    margin: 30px;
+}
+
+.customers-card .zuora-logo {
+    width: 140px;
+}
+
+.customers-card .liberty-logo {
+    width: 90px;
+}
+
+.customers-card .row .customers-row {
+    padding: 40px 0;
+}
+
 
 @media (min-width: 576px) and (max-width: 767.98px) {
 
@@ -850,7 +876,7 @@
         font-size: 16pt;
     }
     
-    .contact-us-card .general-contact-form .hs-button {
+    .contact-us-card .general-contact-form input.hs-button.primary.large {
         background-color: #005D91;
         width: 150px;
         height: 35px;
@@ -926,7 +952,7 @@
         font-size: 16pt;
     }
     
-    .contact-us-card .general-contact-form .hs-button {
+    .contact-us-card .general-contact-form input.hs-button.primary.large {
         background-color: #005D91;
         width: 150px;
         height: 35px;
@@ -1001,7 +1027,7 @@
         font-size: 16pt;
     }
     
-    .contact-us-card .general-contact-form .hs-button {
+    .contact-us-card .general-contact-form input.hs-button.primary.large {
         background-color: #005D91;
         width: 150px;
         height: 35px;
@@ -1080,7 +1106,7 @@
         font-size: 16pt;
     }
     
-    .contact-us-card .general-contact-form .hs-button {
+    .contact-us-card .general-contact-form input.hs-button.primary.large  {
         background-color: #005D91;
         width: 150px;
         height: 35px;
@@ -1135,8 +1161,9 @@
     .contact-us-card .general-contact-form ::placeholder {
         color:#404040;
         opacity: 1;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
       }
-    
     
       .contact-us-card .general-contact-form ul {
         list-style-type: none;
@@ -1147,10 +1174,10 @@
         font-family: 'Open Sans', sans-serif;
         color: #FFF;
         line-height: .01;
-        font-size: 16pt;
+        font-size: 16px;
     }
     
-    .contact-us-card .general-contact-form .hs-button {
+    .contact-us-card .general-contact-form input.hs-button.primary.large {
         background-color: #005D91;
         width: 150px;
         height: 35px;
@@ -1166,6 +1193,26 @@
         color: #005D91;
         border: solid 1px #005D91;
         transition-duration: 0.6s;
+    }
+
+    .contact-us-card .general-contact-form .hs-form-required {
+        display: none;
+    }
+
+    .contact-us-card .general-contact-form .hs-error-msg {
+        font-size: 10px;
+        color: #404040;
+        position: absolute;
+    }
+
+    .contact-us-card .general-contact-form textarea {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 25px;
+        border-bottom: 1px #404040 solid;
     }
 
     .contact-us-card {

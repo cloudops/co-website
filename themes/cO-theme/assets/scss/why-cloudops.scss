@@ -1,9 +1,9 @@
 .why-cloudops
 .jumbotron.hero {
-    background-color: #FFE07F;
+    background-image: linear-gradient(to bottom right, #FFE07F, #FFD44C);
     border-top: 3px solid #005D91;
-    background-image: none;
     margin-bottom: 0;
+    padding: 100px 0;
 }
 
 .why-cloudops
@@ -22,8 +22,13 @@
 .brand-promises-card h2 {
     text-align: left;
     padding-bottom: 10px;
+    margin-left: 30px;
 }
 
+.why-cloudops .brand-promises-card p {
+    padding-bottom: 30px;
+    margin-left: 30px;
+}
 .why-cloudops
 .brand-promises-card .where-we-help-graph {
     text-align: center;
@@ -81,8 +86,22 @@
         width: 280px;
     }
 
+    .why-cloudops .brand-promises-card h2 {
+        text-align: center;
+    }
+
+    .why-cloudops
+    .brand-promises-card .where-we-help-graph {
+        width: 270px;
+        margin: auto;
+    }
+
     .why-cloudops .hero-image-container {
         text-align: left;
+    }
+
+    .why-cloudops .image-for-desktop {
+        display: none;
     }
 
     .why-cloudops .case-studies-card img {
@@ -113,6 +132,14 @@
         text-align: left;
     }
 
+    .why-cloudops .brand-promises-card h2 {
+        text-align: center;
+    }
+
+    .why-cloudops .image-for-desktop {
+        display: none;
+    }
+
     .why-cloudops .case-studies-card img {
         position: relative;
         width: 300px;
@@ -138,6 +165,14 @@
         text-align: left;
     }
 
+    .why-cloudops .image-for-mobile {
+        display: none;
+    }
+
+    .why-cloudops .brand-promises-card h2 {
+        text-align: center;
+    }
+
     .why-cloudops .case-studies-card img {
         width: 260px;
     }
@@ -150,6 +185,10 @@
         left: 30px;
         top: -225px;
         width: 360px;
+    }
+
+    .why-cloudops .image-for-mobile {
+        display: none;
     }
     
 }
@@ -164,4 +203,9 @@
         left: 30px;
         top: -200px;
     }
+
+    .why-cloudops .image-for-mobile {
+        display: none;
+    }
+
 }

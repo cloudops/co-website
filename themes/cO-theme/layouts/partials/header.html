@@ -15,13 +15,28 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto list-group list-group-flush">
         {{ range .Site.Menus.main }}
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown text-center">
           <a class="nav-link" href="{{ .URL }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">{{ .Name }}</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <div class="row">
+            <div class="col-xl-3">
+              <img src="/images/test.svg">
+              <h2>CTA</h2>
+              <p>bdfknjfdnkaj akn fjbfa qkjfd bakdbf akbda bak bakb abd akbd abjdkjd bakjbd  abkjdajbd kab kabdabdakbd</p>
+            </div>
+            <div class="col-xl-6">
+              <button href="/solutions">Solutions Overview</button>
             <a class="dropdown-item list-group-item list-group-item-action" href="#">A</a>
             <a class="dropdown-item  list-group-item list-group-item-action" href="#">B</a>
             <a class="dropdown-item  list-group-item list-group-item-action" href="#">C</a>
+          </div>
+            <div class="col-xl-3">
+                <img src="/images/test.svg">
+                <h2>CTA</h2>
+                <p>bdfknjfdnkaj akn fjbfa qkjfd bakdbf akbda bak bakb abd akbd abjdkjd bakjbd  abkjdajbd kab kabdabdakbd</p>
+              </div>
+          </div>
           </div>
         </li>
         {{ end }}

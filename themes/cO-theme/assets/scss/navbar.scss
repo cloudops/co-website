@@ -102,6 +102,14 @@ a.active {
     display: inline;
 }
 
+.navbar-expand-xl .navbar-nav .dropdown-menu {
+    width: 1000px;
+    left: -50%;
+    margin-left: -500px;
+    top: 60px;
+    border-radius: 0;
+}
+
 
 
 @media (max-width: 575.98px) {
