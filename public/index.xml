@@ -6,26 +6,110 @@
     <description>Recent content in Homepage on CloudOps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>About Us</title>
+      <title>How to Create and Inspect Kubernetes Deployments</title>
+      <link>/blog/patate/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/patate/</guid>
+      <description>If you’re looking to get started with Kubernetes, this blog post will teach you the basics of deployments.
+What is a Kubernetes deployment? A deployment is one of the many Kubernetes objects. In technical terms, it currently encapsulates the following (which we will be covering below):
+ Pod specification Replica count Deployment strategy  In practical terms, you can think of a deployment as an instance of an application with it’s associated configuration.</description>
+    </item>
+    
+    <item>
+      <title>About CloudOps | Own Your Destiny in the Cloud™</title>
       <link>/about-us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about-us/</guid>
-      <description>Meet CloudOps   CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps       History Launched in 2005 by Ian Rae to meet the infrastructure needs of software-focused organizations, CloudOps has grown steadily and organically from an operations managed services shop to a leader in cloud computing, cloud networking, and DevOps solutions. The services we provide help customers use and build cloud platforms, with an emphasis on operational success and networking connectivity.</description>
+      <description>Meet CloudOps   CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking, and DevOps.       History Launched in 2005 by Ian Rae to meet the infrastructure needs of software-focused organizations, CloudOps has grown steadily and organically from an operations managed services shop to a leader in cloud computing, cloud networking, and DevOps solutions. The services we provide help customers use and build cloud platforms, with an emphasis on operational success and networking connectivity.</description>
     </item>
     
     <item>
-      <title>Company</title>
-      <link>/company/</link>
+      <title>blog2</title>
+      <link>/blog/post2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/company/</guid>
+      <guid>/blog/post2/</guid>
+      <description>blog bost example</description>
+    </item>
+    
+    <item>
+      <title>blog3</title>
+      <link>/blog/post3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/post3/</guid>
+      <description>blog bost example</description>
+    </item>
+    
+    <item>
+      <title>Careers</title>
+      <link>/careers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/careers/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Building Consulting</title>
+      <link>/cloud-building-consulting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cloud-building-consulting/</guid>
+      <description>Cloud Building Consulting   Cloud native technologies and DevOps practices are complex. Modernize existing applications and enable new operational models. We help you throughout your journey.      We partner with our customers to meet business, cultural, and technical requirements. CloudOps prides itself on being platform and tool agnostic but opinionated when building, operating, and equipping teams to support successful cloud strategies. This allows our customers to own their destiny with a mix of open source software, partner, DevOps tools, and our own automation workflows.</description>
+    </item>
+    
+    <item>
+      <title>Cloud Migration</title>
+      <link>/cloud-migration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cloud-migration/</guid>
+      <description>Cloud Migration    Migrating workloads to the cloud doesn’t have to be overwhelming. CloudOps will partner with you to plan your move step-by-step, execute it with care, and set you up for operational success.       You&#39;re ready to move to the cloud Since 2005, CloudOps has been learning what works and what doesn’t, and building systems to deliver rapid time-to-value for your organization. Our customer engagements across various industries   Why cloud?</description>
+    </item>
+    
+    <item>
+      <title>Cloud Native Consulting</title>
+      <link>/cloud-native-consulting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cloud-native-consulting/</guid>
+      <description>Cloud Native Consulting   vsknvj KFNwk fRFI EHUF kefIF oif FC p opIGHRo oFHo oE Ff L Orfhdbdhsjsdv ad fsheflhadaklbnjc sdfkqhbfkabjdcjkad ncskdbfak      You&#39;re ready to move to the cloud Since 2005, CloudOps has been learning what works and what doesn’t, and building systems to deliver rapid time-to-value for your organization. Our customer engagements across various industries   You&#39;re ready to move to the cloud Since 2005, CloudOps has been learning what works and what doesn’t, and building systems to deliver rapid time-to-value for your organization.</description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>/contact-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact-us/</guid>
+      <description>Contact Us     Send us a submission form     hbspt.forms.create({ portalId: &#34;732832&#34;, formId: &#34;1cf544ad-f04a-4de0-abec-c7a59dca11ce&#34; });   1-514-447-3456 (Montreal) 1-855-652-5683 (Toll-Free) 1-514-312-5288 (Fax)  info@cloudops.com    Our Offices  Montreal (Head Office): 200-423 rue Saint-Nicolas
+Montreal, QC, Canada
+H2Y 2P4
+  Toronto: 700-56 Temperance Street
+Toronto, On, Canada
+M5H 3V5
+  Boston: 201 Sommerville
+Sommerville, MA, USA
+02143
+  Miami: 429 Lenox Avenue</description>
+    </item>
+    
+    <item>
+      <title>Delivering Cloud</title>
+      <link>/delivering-cloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/delivering-cloud/</guid>
+      <description>Delivering Cloud   Cloud native technologies and DevOps practices are complex. Modernize existing applications and enable new operational models. We help you throughout your journey.      We partner with our customers to meet business, cultural, and technical requirements. CloudOps prides itself on being platform and tool agnostic but opinionated when building, operating, and equipping teams to support successful cloud strategies. This allows our customers to own their destiny with a mix of open source software, partner, DevOps tools, and our own automation workflows.</description>
     </item>
     
     <item>
@@ -34,10 +118,17 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/docker-k8s/</guid>
-      <description>Back
- Next Workshop
-   Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     CloudOps’ flagship workshop covers architecture principles of microservices, then gets in to the mechanics of container tooling – now a key model for application development.
+      <description>Back  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     CloudOps’ flagship workshop covers architecture principles of microservices, then gets in to the mechanics of container tooling – now a key model for application development.
 Our workshops are Linux-based. If you are interested in Docker and Kubernetes training on Windows, please let us know here.</description>
+    </item>
+    
+    <item>
+      <title>Expert Solutions for Using the Cloud</title>
+      <link>/using-cloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/using-cloud/</guid>
+      <description>Using Cloud   CloudOps helps you define your cloud goals and solve complex problems. We empower your team, regardless of where you are at in your journey and the cloud platforms you use.       Our team solves for the best ways to reach your business, cultural, and technical objectives in using the cloud. Along the way, we equip you with all the knowledge you need to operationalize your technology stack.</description>
     </item>
     
     <item>
@@ -50,13 +141,30 @@ Our workshops are Linux-based. If you are interested in Docker and Kubernetes tr
     </item>
     
     <item>
+      <title>Managed services and Augmented support</title>
+      <link>/managed-services-augmented-support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/managed-services-augmented-support/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Partners</title>
       <link>/partners/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/partners/</guid>
-      <description>Get up to speed with CloudOps workshops   Our training provides technical know-how and business value on DevOps in day - not months.      DevOps Workshops   Using the Cloud Guidance in selecting the ideal cloud platforms and tools for your application, building a DevOps toolchain, and operating it 24/7.
-  Cloud Building Become a cloud resource provider for internal teams or external customers.</description>
+      <description>Our Partners   CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps      Partners                                                             Memberships and Certifications                  Affiliated companies Workshops for all skill levels, standalone or as part of your DevOps transformation.</description>
+    </item>
+    
+    <item>
+      <title>Reading</title>
+      <link>/reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/reading/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -65,25 +173,43 @@ Our workshops are Linux-based. If you are interested in Docker and Kubernetes tr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/solutions/</guid>
-      <description>Cloud Services and Products   CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps      We partner with our customers to meet business, cultural, and technical requirements. CloudOps prides itself on being platform and tool agnostic but opinionated when building, operating, and equipping teams to support successful cloud strategies. This allows our customers to own their destiny with a mix of open source software, partner, DevOps tools, and our own automation workflows.</description>
+      <description>Cloud Services and Products   Cloud native technologies and DevOps practices are complex. Modernize existing applications and enable new operational models. We help you throughout your journey.      We partner with our customers to meet business, cultural, and technical requirements. CloudOps prides itself on being platform and tool agnostic but opinionated when building, operating, and equipping teams to support successful cloud strategies. This allows our customers to own their destiny with a mix of open source software, partner, DevOps tools, and our own automation workflows.</description>
     </item>
     
     <item>
-      <title>Using cloud</title>
-      <link>/using-cloud/</link>
+      <title>Transformations</title>
+      <link>/transformations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/using-cloud/</guid>
-      <description>Using Cloud   Our team works tirelessly to build, maintain, and deliver up-to-date, practical content on a variety of subjects and tools.       Our team finds the best ways to help and support your business, cultural, and technical objectives. Along the way, we equip you with all the knowledge you need to control your technology stack. CloudOps builds, operates, and can fully transfer and support the solutions it builds, allowing you to own your destiny in the cloud™ and fuel your innovation.</description>
+      <guid>/transformations/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Workshops</title>
+      <title>Why CloudOps</title>
+      <link>/why-cloudops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/why-cloudops/</guid>
+      <description>Why CloudOps?         CloudOps helps organizations succeed in the cloud.   When adopting new cloud technologies, it is easy for organizations to get lost down a rabbit hole of searching for the right cloud solutions, attempting to upskill technical teams, changing culture, and defining new lines of business.  Before you know it, your team can be distracted by these new projects, not delivering on your organization’s core business value.</description>
+    </item>
+    
+    <item>
+      <title>Workshop Calendar</title>
+      <link>/workshop-calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/workshop-calendar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workshops for DevOps, cloud native, and tooling</title>
       <link>/workshops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/workshops/</guid>
-      <description>Get up to speed with CloudOps workshops   Our training provides technical know-how and business value on DevOps in days - not months.      The how and why of our workshops.     Who should attend?  Developers Operators DevOps practicioners Technical desicion makers    Why should I attend?  Get started bla bla bla bla bla bla bla Get started bla bla bla bla bla bla bla Get started bla bla bla bla bla bla bla Get started bla bla bla bla bla bla bla     Calendar       - Meet our experts -     Name title &amp;gt; Background    Name title &amp;gt; Background    Name title &amp;gt; Background     DevOps Workshops   Using the Cloud Guidance in selecting the ideal cloud platforms and tools for your application, building a DevOps toolchain, and operating it 24/7.</description>
+      <description>Upskill your team with CloudOps workshops   Our workshops get your team up to speed on DevOps, and cloud native tooling, on any cloud in days—not months.      Empower your team with our hands-on workshops     Who can benefit?  Developers Operators DevOps practicioners Technical desicion makers    Why attend?  Start using containers in development and production Deliver code faster, more efficiently Deepen your knowledge on specific tools Build technical skills with hands-on workshops Learn the business value of new methods Learn to navigate the complex cloud native ecosystem     Calendar      - Meet our experts -     Michael Foster Cloud Solution Architect    Samira Barouti Cloud Software Architect    Syed Ahmed Lead Cloud Architect    Learn more about our experts      DevOps Workshops   Microservices, Docker &amp; Basic Kubernetes (3 days) CloudOps’ flagship workshop covers microservices architecture principles and the mechanics of container tooling; now a key model for application development.</description>
     </item>
     
   </channel>

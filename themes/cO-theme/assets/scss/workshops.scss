@@ -28,24 +28,69 @@
     background-repeat: no-repeat, no-repeat;
 }
 
+.workshops
+.brand-promises-card .cta h3 {
+    display: inline;
+    color: #005D91;
+}
+
 .workshops .customers-card {
     margin-bottom: 100px;
+}
+
+.workshops .expert-bio .expert-text h4 {
+    color: #404040;
+}
+
+.workshops .customers-card .expert-bio {
+    text-align: left;
 }
 
 .workshops .customers-card img {
     width: 100px;
 }
 
-.workshops .customers-card .expert-text {
-    position: relative;
-    left: 120px;
-    top: -80px;
+
+.workshops .customers-card a h3.card-title {
+    display: inline;
 }
 
-.workshops .customers-card .expert-text a {
-    color: #005D91;
-    text-decoration: underline;
+.workshops .customers-card .cta .triangle-right {
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 16px;
+    border-color: transparent transparent transparent #005D91;
+    vertical-align: middle;
 }
+
+.workshops .customers-card .inner-triangle {
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: -14px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 10px;
+    border-color: transparent transparent transparent #fff;
+}
+
+.workshops .customers-card .cta:hover .inner-triangle {
+    border-color: transparent transparent transparent #005D91;
+    transition-duration: 0.6s;
+}
+
+.workshops .customers-card .expert-text {
+    position: relative;
+    left: 140px;
+    top: -90px;
+}
+
+
 .workshops .stand-out {
     background-color: #FBFBFB;
 }
@@ -84,99 +129,27 @@
     color: #005D91;
 }
 
-.workshops .brand-promises-card button .triangle-right {
-    display: inline-block;
-    position: relative;
-    margin-left: 90px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px 0 10px 16px;
-    border-color: transparent transparent transparent #fff;
-    vertical-align: middle;
-    transition-duration: 0.6s;
-    margin-bottom: 3px;
-}
-
-.workshops .brand-promises-card button .inner-triangle {
-    display: inline-block;
-    position: absolute;
-    top: -6px;
-    left: -14px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 6px 0 6px 10px;
-    border-color: transparent transparent transparent #005D91;
-    transition-duration: 0.6s;
-    margin-bottom: 3px;
-}
-
-.workshops .brand-promises-card button:hover .triangle-right {
-    border-color: transparent transparent transparent #005D91;
-    margin-left: 130px;
-    transition-duration: 0.6s;
-}
-
-.workshops .brand-promises-card button.btn:hover .inner-triangle {
-    border-color: transparent transparent transparent #fff;
-    transition-duration: 0.6s;
-}
-
 .workshops .contact-us-card .with-yellow-line {
-    padding-right: 8%;
     border-right: solid #FFE07F 2px;
 }
 
 .workshops .contact-us-card .without-yellow-line {
-    padding-right: 8%;
+    padding-left: 40px;   
 }
 
 .workshops .contact-us-card img {
     margin-left: 0;
 }
+
 .workshops .contact-us-card h2 {
     padding-bottom: 30px;
 }
 
-
-.workshops .contact-us-card button .triangle-right {
-    display: inline-block;
-    position: relative;
-    margin-left: 80px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px 0 10px 16px;
-    border-color: transparent transparent transparent #fff;
-    vertical-align: middle;
-    transition-duration: 0.6s;
-    margin-bottom: 3px;
-}
-
-.workshops .contact-us-card button .inner-triangle {
-    display: inline-block;
-    position: absolute;
-    top: -6px;
-    left: -14px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 6px 0 6px 10px;
-    border-color: transparent transparent transparent #005D91;
-    transition-duration: 0.6s;
-    margin-bottom: 3px;
-}
-
-.workshops .contact-us-card button:hover .triangle-right {
-    border-color: transparent transparent transparent #005D91;
-    margin-left:  115px;
-    transition-duration: 0.6s;
-}
-
-.workshops .contact-us-card button.btn:hover .inner-triangle {
-    border-color: transparent transparent transparent #fff;
-    transition-duration: 0.6s;
+.workshops .contact-us-card form {
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 }
 
 @media (max-width: 575.98px) {
@@ -217,13 +190,9 @@
         padding-left: 0;
     }
 
-    .workshops .contact-us-card .with-yellow-line:first-child {
-        border: none;
-    }
     
     .workshops .contact-us-card .without-yellow-line {
-        padding: 50px 0 0 30px;
-        
+        padding: 50px 0 0 30px;   
     }
 
     .workshops .contact-us-card img {
@@ -254,10 +223,6 @@
         padding-right: 0;
         padding-top: 50px;
 
-    }
-    .workshops .contact-us-card {
-        margin-left: 9%;
-        margin-left: 15px;
     }
 }
 
@@ -298,9 +263,6 @@
         top: -100px;
         width: 400px;
     }
-    .workshops .contact-us-card .with-yellow-line:first-child {
-        border: none;
-    }
     
 }
 
@@ -313,7 +275,5 @@
         left: 30px;
         top: -200px;
     }
-    .workshops .contact-us-card .with-yellow-line:first-child {
-        border: none;
-    }
+
 }

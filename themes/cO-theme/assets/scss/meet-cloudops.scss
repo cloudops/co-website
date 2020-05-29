@@ -41,6 +41,44 @@
     padding-bottom: 30px;
 }
 
+.about-us .case-studies-card {
+    text-align: center;
+}
+
+.about-us .case-studies-card p {
+    text-align: left;
+}
+
+.about-us .case-studies-card img {
+    width: 230px;
+    padding-bottom: 40px;
+}
+
+.about-us.case-studies-card .all-content-row {
+    height: 470px;
+}
+.about-us .case-studies-card .affiliated-companies-row {
+    position: relative;
+    padding-top: 390px;
+}
+
+.about-us .case-studies-card .affiliated-companies-row .affiliated-companies-first-col {
+    position: absolute;
+    bottom: 0;
+}
+
+.about-us .case-studies-card .affiliated-companies-row .affiliated-companies-second-col {
+    position: absolute;
+    bottom: 0;
+    right: 33%;
+}
+
+.about-us .case-studies-card .affiliated-companies-row .affiliated-companies-last-col {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 @media (max-width: 575.98px) {
     .about-us
     .jumbotron.hero h1 {

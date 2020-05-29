@@ -269,14 +269,12 @@
 
 .brand-promises-card .cta a p:active {
     color: #005D91;
-    text-decoration: none;
-    border-bottom: #005D91 solid 2px;
+    text-decoration: underline;
 }
 
 .brand-promises-card .cta a p:hover {
     color: #005D91;
-    text-decoration: none;
-    border-bottom: #005D91 solid 2px;
+    text-decoration: underline;
 }
 
 .brand-promises-card .cta a:visited {
@@ -515,10 +513,6 @@
 /************  Community Styles  ***************/
 
 .community-card {
-    background-image: url("../images/community.png");
-    background-position: 77px 180px;
-    background-size: 350px;
-    background-repeat: no-repeat;
     padding: 100px 0;
 }
 
@@ -531,14 +525,9 @@
     display: inline-block;
 }
 
-
-.community-card .meetups {
-    border-left: 2px #FFE07F solid;
-    border-right: 2px #FFE07F solid;
-    height: 230px;
-    vertical-align: middle;
+.community-card img {
+    width: 100%;
 }
-
 
 .community-card .corner-triangle {
     position: absolute;
@@ -570,6 +559,10 @@
     border-color: transparent transparent transparent #fff;
 }
 
+.community-card .events {
+    border-right: 2px solid #FFE07F;
+
+}
 
 .community-card .events:hover .inner-triangle {
     border-color: transparent;
@@ -584,116 +577,72 @@
 }
 
 .community-card .events,
-.community-card .meetups,
 .community-card .blog {
-    padding-top: 55px;
+    padding: 25px;
 }
 .community-card .events:hover,
-.community-card .meetups:hover,
 .community-card .blog:hover {
     cursor: pointer;
 }
 .community-card .events:hover .card-title,
-.community-card .meetups:hover .card-title,
 .community-card .blog:hover .card-title {
-    border-bottom: #005D91 solid 2px;
+    text-decoration: underline;
     }
 
 @media (max-width: 575.98px) {
     .community-card {
-        background-position: center 240px;
-        background-size: 270px auto;
-    }
-    .community-card .meetups {
-        border-left: 0px transparent solid;
-        border-right: 0px transparent solid;
-        border-top: 2px #FFE07F solid;
-        border-bottom: 2px #FFE07F solid;
-        height: auto;
-    }
-
-    .community-card h2 {
         text-align: center;
-        margin: 0 auto 40px;
     }
 
-    .community-card {
-        margin-left: 30px;
+    .community-card img {
+        max-width: 200px;
+        padding: 0 0 50px;
     }
+
     .community-card .events {
-        margin-top: 170px;
-    }
-    .community-card .events,
-    .community-card .meetups,
-    .community-card .blog {
-        padding-top: 30px;
-        padding-left: 0;
+        border-right: none;
+        border-bottom: 2px solid #FFE07F;
+        margin-bottom: 5px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-
     .community-card {
-        background-position: center 190px;
-        background-size: 270px auto;
-    }
-    .community-card .meetups {
-        border-left: 0px transparent solid;
-        border-right: 0px transparent solid;
-        border-top: 2px #FFE07F solid;
-        border-bottom: 2px #FFE07F solid;
-        height: auto;
-    }
-
-    .community-card h2 {
         text-align: center;
-        margin: 0 auto 40px;
     }
 
-    .community-card {
-        margin-left: 30px;
+    .community-card img {
+        max-width: 200px;
+        padding: 0 0 50px;
     }
 
     .community-card .events {
-        margin-top: 200px;
-    } 
-    .community-card .events,
-    .community-card .meetups,
-    .community-card .blog {
-        padding: 15px;
+        border-right: none;
+        border-bottom: 2px solid #FFE07F;
+        margin-bottom: 5px;
     }
+
+
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .community-card {
-        background-position: center 200px;;
-        background-size: 340px auto;
+        text-align: center;
     }
-    .community-card .row .offset-md-2 {
-        margin-left: 13%;
+
+    .community-card h2 {
+        margin-bottom: 50px;
     }
-    .community-card .events,
-    .community-card .meetups,
-    .community-card .blog {
-        margin-top: 255px;
-        padding: 40px 20px;
+
+    .community-card img {
+        max-width: 300px;
+        padding: 0 0 50px;
     }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .community-card {
-        background-position: center 180px;;
-        background-size: 340px auto;
-    }
-    .community-card .row .offset-lg-2 {
-        margin-left: 13%;
-    }
-    .community-card .events,
-    .community-card .meetups,
-    .community-card .blog {
-        margin-top: 255px;
-        padding: 40px 20px;
-    }
 }
 
 @media (min-width: 1200px) {
@@ -887,7 +836,7 @@
         border: none;
     }
 
-    .contact-us-card .general-contact-form .hs-button:hover {
+    .contact-us-card .general-contact-form button:hover input.hs-button.primary.large {
         background-color: #FFF;
         color: #005D91;
         border: solid 1px #005D91;
@@ -963,7 +912,7 @@
         border: none;
     }
 
-    .contact-us-card .general-contact-form .hs-button:hover {
+    .contact-us-card .general-contact-form button:hover input.hs-button.primary.large {
         background-color: #FFF;
         color: #005D91;
         border: solid 1px #005D91;
@@ -1038,7 +987,7 @@
         border: none; 
     }
 
-    .contact-us-card .general-contact-form .hs-button:hover {
+    .contact-us-card .general-contact-form button:hover input.hs-button.primary.large {
         background-color: #FFF;
         color: #005D91;
         border: solid 1px #005D91;
@@ -1117,7 +1066,7 @@
         border: none; 
     }
 
-    .contact-us-card .general-contact-form .hs-button:hover {
+    .contact-us-card .general-contact-form button:hover input.hs-button.primary.large {
         background-color: #FFF;
         color: #005D91;
         border: solid 1px #005D91;
@@ -1177,7 +1126,7 @@
         font-size: 16px;
     }
     
-    .contact-us-card .general-contact-form input.hs-button.primary.large {
+    .contact-us-card .general-contact-form input.hs-button {
         background-color: #005D91;
         width: 150px;
         height: 35px;
@@ -1188,7 +1137,7 @@
         border: none; 
     }
 
-    .contact-us-card .general-contact-form .hs-button:hover {
+    .contact-us-card .general-contact-form input.hs-button:hover {
         background-color: #FFF;
         color: #005D91;
         border: solid 1px #005D91;

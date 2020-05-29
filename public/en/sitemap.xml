@@ -3,7 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/</loc>
+    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url>
+  
+  <url>
+    <loc>/blog/patate/</loc>
+    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/about-us/</loc>
+  </url>
+  
+  <url>
+    <loc>/blog/post2/</loc>
+  </url>
+  
+  <url>
+    <loc>/blog/post3/</loc>
+  </url>
+  
+  <url>
+    <loc>/careers/</loc>
   </url>
   
   <url>
@@ -21,7 +58,23 @@
   </url>
   
   <url>
-    <loc>/company/</loc>
+    <loc>/cloud-building-consulting/</loc>
+  </url>
+  
+  <url>
+    <loc>/cloud-migration/</loc>
+  </url>
+  
+  <url>
+    <loc>/cloud-native-consulting/</loc>
+  </url>
+  
+  <url>
+    <loc>/contact-us/</loc>
+  </url>
+  
+  <url>
+    <loc>/delivering-cloud/</loc>
   </url>
   
   <url>
@@ -29,25 +82,23 @@
   </url>
   
   <url>
+    <loc>/using-cloud/</loc>
+  </url>
+  
+  <url>
     <loc>/experts/</loc>
   </url>
   
   <url>
-    <loc>/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
+    <loc>/managed-services-augmented-support/</loc>
   </url>
   
   <url>
     <loc>/partners/</loc>
+  </url>
+  
+  <url>
+    <loc>/reading/</loc>
   </url>
   
   <url>
@@ -69,7 +120,15 @@
   </url>
   
   <url>
-    <loc>/using-cloud/</loc>
+    <loc>/transformations/</loc>
+  </url>
+  
+  <url>
+    <loc>/why-cloudops/</loc>
+  </url>
+  
+  <url>
+    <loc>/workshop-calendar/</loc>
   </url>
   
   <url>
