@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "CloudOps"
 theme = ["cO-theme"]
 
+[markup.goldmark.renderer]
+unsafe= true
+
 defaultContentLanguage = "en"
 defaultContentLanguageInSubDir = false
 
