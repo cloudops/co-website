@@ -8,10 +8,6 @@
     fon-size: 24px;
 }
 
-.post img {
-    width: 100%;
-}
-
 .post p {
     line-height: 1.6;
     padding: 10px 0;
@@ -340,4 +336,9 @@
     .experts.cta-cards .card-deck .card {
         min-width: 260px;
     }
+}
+
+.alignleft {
+    padding: 0 10px 10px 0;
+    float: left;
 }
