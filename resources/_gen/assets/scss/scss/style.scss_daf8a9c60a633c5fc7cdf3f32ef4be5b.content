@@ -1026,13 +1026,6 @@ a.active {
 .navbar-card .navbar .navbar-nav .nav-item p {
   display: inline; }
 
-.navbar-expand-xl .navbar-nav .dropdown-menu {
-  width: 1000px;
-  top: 60px;
-  border-radius: 0;
-  left: -50%;
-  margin-left: -1000px; }
-
 @media (max-width: 575.98px) {
   .navbar-card {
     margin: 5px 5px; }
@@ -1081,6 +1074,11 @@ a.active {
     height: 1em; }
   .navbar-card i {
     color: #62B5E5; } }
+
+@media (min-width: 1200px) {
+  .navbar-expand-xl .navbar-nav .dropdown-menu {
+    width: 1000px;
+    border-radius: 0; } }
 
 /************  Hero Styles  ***************/
 .jumbotron.hero {
@@ -1177,7 +1175,8 @@ a.active {
   margin: 10px; }
 
 .stand-out .card-deck .card > a {
-  cursor: pointer; }
+  cursor: pointer;
+  text-decoration: none; }
 
 .stand-out .card-deck .card:hover {
   box-shadow: inset 0px 0px 15px rgba(98, 181, 229, 0.4); }
@@ -1401,6 +1400,10 @@ a.active {
 
 .design-build-transform-card .card-deck .card:hover {
   box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2); }
+
+.design-build-transform-card .card-deck .card > a {
+  cursor: pointer;
+  text-decoration: none; }
 
 @media (max-width: 575.98px) {
   .design-build-transform-card {
@@ -2094,6 +2097,14 @@ a.active {
 .workshops .customers-card a h3.card-title {
   display: inline; }
 
+.workshops .stand-out .card-deck .card h3 {
+  margin-bottom: 0; }
+
+.workshops .stand-out .card-deck .card h4 {
+  font-weight: normal;
+  padding-top: 5px;
+  padding-bottom: 20px; }
+
 .workshops .customers-card .cta .triangle-right {
   display: inline-block;
   position: relative;
@@ -2168,10 +2179,11 @@ a.active {
   margin-left: 0; }
 
 .workshops .contact-us-card h2 {
-  padding-bottom: 30px; }
+  padding-bottom: 5px;
+  padding-top: 5px; }
 
 .workshops .contact-us-card form {
-  max-width: max-content;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px; }
@@ -3160,6 +3172,7 @@ a.active {
   line-height: 1.8; }
 
 .docker-k8s-page button {
+  text-align: center;
   background-color: #005D91;
   width: 250px;
   height: 35px;
@@ -3167,7 +3180,6 @@ a.active {
   box-shadow: #979797 0 2px 4px 0;
   color: #FFF;
   padding: 0 10px;
-  text-align: left;
   font-family: 'Open Sans';
   font-size: 18px;
   transition-duration: 0.6s;
@@ -3181,40 +3193,12 @@ a.active {
   box-shadow: none;
   color: #005D91; }
 
-.docker-k8s-page button .triangle-right {
-  display: inline-block;
-  position: relative;
-  margin-left: 90px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 10px 0 10px 16px;
-  border-color: transparent transparent transparent #fff;
-  vertical-align: middle;
-  transition-duration: 0.6s;
-  margin-bottom: 3px; }
+.docker-k8s-page .double-button-row {
+  margin: 70px 0 30px; }
 
-.docker-k8s-page button .inner-triangle {
-  display: inline-block;
-  position: absolute;
-  top: -6px;
-  left: -14px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 6px 0 6px 10px;
-  border-color: transparent transparent transparent #005D91;
-  transition-duration: 0.6s;
-  margin-bottom: 3px; }
-
-.docker-k8s-page button:hover .triangle-right {
-  border-color: transparent transparent transparent #005D91;
-  margin-left: 150px;
-  transition-duration: 0.6s; }
-
-.docker-k8s-page button.btn:hover .inner-triangle {
-  border-color: transparent transparent transparent #fff;
-  transition-duration: 0.6s; }
+.docker-k8s-page .double-button-row button {
+  text-align: center;
+  margin: 0 30px; }
 
 .docker-k8s-page .workshop-description .general-workshop-info {
   border-bottom: 2px solid #FFE07F;
@@ -3326,7 +3310,7 @@ a.active {
 .partners .jumbotron.hero h1,
 .partners .jumbotron.hero h2 {
   text-align: right;
-  color: black; }
+  color: #005D91; }
 
 .partners .jumbotron.hero img {
   position: absolute;
@@ -3360,6 +3344,10 @@ a.active {
 .partners .stand-out .card-deck .card img {
   width: 170px;
   padding: 30px 0; }
+
+.partners .stand-out .card-deck .card > a {
+  margin-top: auto;
+  margin-bottom: auto; }
 
 .partners .membership {
   background-color: #fbfbfb;
@@ -3416,7 +3404,7 @@ a.active {
   width: 200px;
   text-align: center;
   margin-left: 60px;
-  margin-top: 145px; }
+  margin-top: 115px; }
 
 @media (max-width: 575.98px) {
   .partners .jumbotron.hero h1 {
@@ -3468,7 +3456,7 @@ a.active {
 
 .why-cloudops .jumbotron.hero h1 {
   text-align: left;
-  color: black; }
+  color: #005D91; }
 
 .why-cloudops .jumbotron.hero img {
   position: absolute;

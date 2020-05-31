@@ -55,6 +55,16 @@
     display: inline;
 }
 
+.workshops .stand-out .card-deck .card h3 {
+    margin-bottom: 0;
+}
+
+.workshops .stand-out .card-deck .card h4 {
+    font-weight: normal;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
 .workshops .customers-card .cta .triangle-right {
     display: inline-block;
     position: relative;
@@ -142,11 +152,12 @@
 }
 
 .workshops .contact-us-card h2 {
-    padding-bottom: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .workshops .contact-us-card form {
-    max-width: max-content;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;

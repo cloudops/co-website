@@ -172,14 +172,6 @@ a.active {
     display: inline;
 }
 
-.navbar-expand-xl .navbar-nav .dropdown-menu {
-    width: 1000px;
-    top: 60px;
-    border-radius: 0;
-    left: -50%;
-    margin-left: -1000px;
-}
-
 
 
 @media (max-width: 575.98px) {
@@ -262,5 +254,8 @@ a.active {
 }
 
 @media (min-width: 1200px) {
-
+    .navbar-expand-xl .navbar-nav .dropdown-menu {
+        width: 1000px;
+        border-radius: 0;
+    }
 }

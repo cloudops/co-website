@@ -129,6 +129,7 @@
 
 .stand-out .card-deck .card > a {
     cursor: pointer;
+    text-decoration: none;
 }
 
 .stand-out .card-deck .card:hover {
@@ -443,7 +444,14 @@
 
 .design-build-transform-card .card-deck .card:hover {
     box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2);
+
 }
+
+.design-build-transform-card .card-deck .card > a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
 
 @media (max-width: 575.98px) {
     .design-build-transform-card {
