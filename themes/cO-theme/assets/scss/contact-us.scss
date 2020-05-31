@@ -1,0 +1,430 @@
+
+.contact-us
+.jumbotron.hero {
+    background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+    background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
+    border-top: 3px solid #005D91;
+    background-size: auto;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.contact-us .contact-us-main {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.contact-us .phone-numbers {
+    padding: 30px 0;
+    border-bottom: solid 2px #FFE07F;
+}
+
+.contact-us .phone-numbers a {
+    padding: 5px 0;
+    display: block;
+    color: #404040;
+}
+
+.contact-us .phone-numbers a:hover {
+    text-decoration: none;
+    color: #404040;
+}
+
+.contact-us .alternative-contact {
+    color: #005D91;
+    padding-top: 30px;
+}
+
+.contact-us .alternative-contact a:hover {
+    color: #005D91;
+}
+
+.contact-us
+.locations {
+    border-top: solid 2px#FFE07F;
+    margin-top: 100px;
+    margin-left: 16.666667%;
+    margin-right: 16.666667%;
+}
+
+.contact-us .locations h2 {
+    text-align: center;
+    padding: 40px 0 0;
+}
+
+.contact-us .locations h6 {   
+    padding-top: 40px;
+}
+
+.contact-us .locations p {
+    line-height: 1.8;
+    margin: 0;
+}
+
+.contact-us .locations a:hover {
+    text-decoration: none;
+}
+@media (max-width: 575.98px) {
+    .contact-us {
+        background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
+        background-position: 2% 30%, left bottom, right top;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        padding: 100px 0;
+        text-align: center;
+    }
+    
+    .contact-us h2 {
+        padding-right: 40px;
+    }
+    
+    .contact-us .general-contact-form input {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        background-color: transparent;
+        border: solid transparent 1px;
+        border-bottom: #404040 1px solid;
+    }
+    
+    .contact-us .general-contact-form ::placeholder {
+        color:#404040;
+        opacity: 1;
+      }
+    
+    
+      .contact-us .general-contact-form ul {
+        list-style-type: none;
+        padding: 15px 0 0 0;
+    }
+    
+    .contact-us .general-contact-form  li {
+        font-family: 'Open Sans', sans-serif;
+        color: #FFF;
+        line-height: .01;
+        font-size: 16pt;
+    }
+    
+    .contact-us .general-contact-form input.hs-button.primary.large {
+        background-color: #005D91;
+        width: 150px;
+        height: 35px;
+        color: #FFF;
+        border-radius: 4px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        border: none;
+    }
+
+    .contact-us .general-contact-form .hs-button:hover {
+        background-color: #FFF;
+        color: #005D91;
+        border: solid 1px #005D91;
+        transition-duration: 0.6s;
+    }
+
+    .contact-us .general-contact-form fieldset {
+        margin: auto;
+    }
+
+    .contact-us .general-contact-form {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .contact-us {
+        background-position: 25px 100px, left bottom, right top;
+    }
+
+    .contact-us h2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    .contact-us h2 {
+        padding-right: 40px;
+    }
+    
+    .contact-us .general-contact-form input {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        background-color: transparent;
+        border: solid transparent 1px;
+        border-bottom: #404040 1px solid;
+    }
+    
+    .contact-us .general-contact-form ::placeholder {
+        color:#404040;
+        opacity: 1;
+      }
+    
+    
+      .contact-us .general-contact-form ul {
+        list-style-type: none;
+        padding: 15px 0 0 0;
+    }
+    
+    .contact-us .general-contact-form  li {
+        font-family: 'Open Sans', sans-serif;
+        color: #FFF;
+        line-height: .01;
+        font-size: 16pt;
+    }
+    
+    .contact-us .general-contact-form input.hs-button.primary.large {
+        background-color: #005D91;
+        width: 150px;
+        height: 35px;
+        color: #FFF;
+        border-radius: 4px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        border: none;
+    }
+
+    .contact-us .general-contact-form .hs-button:hover {
+        background-color: #FFF;
+        color: #005D91;
+        border: solid 1px #005D91;
+        transition-duration: 0.6s;
+    }
+
+    .contact-us .general-contact-form fieldset {
+        margin: auto;
+    }
+
+    .contact-us .general-contact-form {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .contact-us {
+        background-position: 25px 100px, left bottom, right top;
+    }
+
+    .contact-us h2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .contact-us h2 {
+        padding-right: 40px;
+    }
+    
+    .contact-us .general-contact-form input {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        background-color: transparent;
+        border: solid transparent 1px;
+        border-bottom: #404040 1px solid;
+    }
+    
+    .contact-us .general-contact-form ::placeholder {
+        color:#404040;
+        opacity: 1;
+      }
+    
+    
+      .contact-us .general-contact-form ul {
+        list-style-type: none;
+        padding: 15px 0 0 0;
+    }
+    
+    .contact-us .general-contact-form  li {
+        font-family: 'Open Sans', sans-serif;
+        color: #FFF;
+        line-height: .01;
+        font-size: 16pt;
+    }
+    
+    .contact-us .general-contact-form input.hs-button.primary.large {
+        background-color: #005D91;
+        width: 150px;
+        height: 35px;
+        color: #FFF;
+        border-radius: 4px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        border: none; 
+    }
+
+    .contact-us .general-contact-form .hs-button:hover {
+        background-color: #FFF;
+        color: #005D91;
+        border: solid 1px #005D91;
+        transition-duration: 0.6s;
+    }
+
+    .contact-us .general-contact-form fieldset {
+        margin: auto;
+    }
+
+    .contact-us .general-contact-form {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .contact-us {
+        background-position: 70px 100px, left bottom, right top;
+    }
+
+    .contact-us h2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .contact-us img {
+        margin-top: 50px;
+    }
+    
+    .contact-us h2 {
+        padding-right: 40px;
+    }
+    
+    .contact-us .general-contact-form input {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        background-color: transparent;
+        border: solid transparent 1px;
+        border-bottom: #404040 1px solid;
+    }
+    
+    .contact-us .general-contact-form ::placeholder {
+        color:#404040;
+        opacity: 1;
+      }
+    
+    
+      .contact-us .general-contact-form ul {
+        list-style-type: none;
+        padding: 15px 0 0 0;
+    }
+    
+    .contact-us .general-contact-form  li {
+        font-family: 'Open Sans', sans-serif;
+        color: #FFF;
+        line-height: .01;
+        font-size: 16pt;
+    }
+    
+    .contact-us .general-contact-form input.hs-button.primary.large  {
+        background-color: #005D91;
+        width: 150px;
+        height: 35px;
+        color: #FFF;
+        border-radius: 4px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        border: none; 
+    }
+
+    .contact-us .general-contact-form .hs-button:hover {
+        background-color: #FFF;
+        color: #005D91;
+        border: solid 1px #005D91;
+        transition-duration: 0.6s;
+    }
+
+    .contact-us {
+        background-position: 70px 160px, left bottom, right top;
+    }
+
+    .contact-us h2 {
+       padding: 40px 0 0 0;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .contact-us img {
+        margin-top: 50px;
+        padding-left: 0;
+    }
+    
+    .contact-us h2 {
+        padding-right: 40px;
+    }
+    
+    .contact-us .general-contact-form input {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        background-color: transparent;
+        border: solid transparent 1px;
+        border-bottom: #404040 1px solid;
+    }
+    
+    .contact-us .general-contact-form ::placeholder {
+        color:#404040;
+        opacity: 1;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+      }
+    
+      .contact-us .general-contact-form ul {
+        list-style-type: none;
+        padding: 15px 0 0 0;
+    }
+    
+    .contact-us .general-contact-form  li {
+        font-family: 'Open Sans', sans-serif;
+        color: #FFF;
+        line-height: .01;
+        font-size: 16px;
+    }
+    
+    .contact-us .general-contact-form input.hs-button.primary.large {
+        background-color: #005D91;
+        width: 150px;
+        height: 35px;
+        color: #FFF;
+        border-radius: 4px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        border: none; 
+    }
+
+    .contact-us .general-contact-form .hs-button:hover {
+        background-color: #FFF;
+        color: #005D91;
+        border: solid 1px #005D91;
+        transition-duration: 0.6s;
+    }
+
+    .contact-us .general-contact-form .hs-form-required {
+        display: none;
+    }
+
+    .contact-us .general-contact-form .hs-error-msg {
+        font-size: 10px;
+        color: #404040;
+        position: absolute;
+    }
+
+    .contact-us .general-contact-form textarea {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 25px;
+        border-bottom: 1px #404040 solid;
+    }
+
+    .contact-us {
+        background-position: 5% 160px, left bottom, right top;
+    }
+
+    .contact-us h2 {
+       padding: 40px 0 0 0;
+    }
+}

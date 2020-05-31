@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="171px" height="59px" viewBox="0 0 171 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>arrows</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage---Wireframe" transform="translate(-273.000000, -121.000000)">
+            <g id="Company" transform="translate(234.000000, 84.000000)">
+                <g id="CTA-left" transform="translate(1.000000, 1.000000)">
+                    <g id="arrows" transform="translate(38.000000, 36.000000)">
+                        <polygon id="Fill-1" fill="#FFE07F" points="1.77635684e-15 1.77635684e-15 1.77635684e-15 28.39175 28.39175 13.93775"></polygon>
+                        <polygon id="Fill-2" fill-opacity="0.5" fill="#62B5E5" points="28.5 1.77635684e-15 28.5 28.39175 56.8915 13.93775"></polygon>
+                        <polygon id="Fill-3" fill-opacity="0.5" fill="#FFFFFF" points="57 1.77635684e-15 57 28.39175 85.39175 13.93775"></polygon>
+                        <polygon id="Fill-4" fill="#004972" points="85.5 1.77635684e-15 85.5 28.39175 113.89175 13.93775"></polygon>
+                        <polygon id="Fill-5" fill-opacity="0.3" fill="#62B5E5" points="114 1.77635684e-15 114 28.39175 142.392 13.93775"></polygon>
+                        <polygon id="Fill-6" fill="#FFE07F" points="142.50875 1.77635684e-15 142.50875 28.39175 170.9005 13.93775"></polygon>
+                        <polygon id="Fill-7" fill="#004972" points="1.15463195e-13 58.575825 28.39175 44.121825 1.15463195e-13 30.184075"></polygon>
+                        <polygon id="Fill-8" fill-opacity="0.5" fill="#FFFFFF" points="28.5 58.575825 56.89175 44.121825 28.5 30.184075"></polygon>
+                        <polygon id="Fill-9" fill-opacity="0.3" fill="#62B5E5" points="57 58.575825 85.39175 44.121825 57 30.184075"></polygon>
+                        <polygon id="Fill-10" fill="#1D76AA" points="85.5 58.575825 113.8915 44.121825 85.5 30.184075"></polygon>
+                        <polygon id="Fill-10-Copy" fill-opacity="0.5" fill="#005D91" points="114 58.575825 142.3915 44.121825 114 30.184075"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -9,6 +9,7 @@ unsafe= true
 defaultContentLanguage = "en"
 defaultContentLanguageInSubDir = false
 
+
 [languages]
     [languages.en]
         languageName = "EN"
@@ -27,7 +28,7 @@ defaultContentLanguageInSubDir = false
             name = "Training"
             url = "/training"
             weight = 40
-
+            
 
         [[languages.en.menu.main]]
             identifier = "Reading"

@@ -3,8 +3,7 @@
 
 .solutions
 .jumbotron.hero {
-    background-color: #005D91;
-    background-image: none;
+    background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
     border-top: 3px solid #005D91;
     margin-bottom: 0;
 }
@@ -59,7 +58,7 @@
     box-shadow: #979797 0 2px 4px 0;
     color: #FFF;
     padding: 0 10px;
-    text-align: left;
+    text-align: center;
     font-family: 'Open Sans';
     font-size: 18px;
     transition-duration: 0.6s;
@@ -71,45 +70,6 @@
     border-radius: 4px;
     box-shadow: none;
     color: #005D91;
-}
-
-.solutions button .triangle-right {
-    display: inline-block;
-    position: relative;
-    margin-left: 90px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px 0 10px 16px;
-    border-color: transparent transparent transparent #fff;
-    vertical-align: middle;
-    transition-duration: 0.6s;
-    margin-bottom: 3px;
-}
-
-.solutions button .inner-triangle {
-    display: inline-block;
-    position: absolute;
-    top: -6px;
-    left: -14px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 6px 0 6px 10px;
-    border-color: transparent transparent transparent #005D91;
-    transition-duration: 0.6s;
-    margin-bottom: 3px;
-}
-
-.solutions button:hover .triangle-right {
-    border-color: transparent transparent transparent #005D91;
-    margin-left: 130px;
-    transition-duration: 0.6s;
-}
-
-.solutions button.btn:hover .inner-triangle {
-    border-color: transparent transparent transparent #fff;
-    transition-duration: 0.6s;
 }
 
 .solutions

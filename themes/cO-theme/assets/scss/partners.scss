@@ -1,7 +1,6 @@
 .partners 
 .jumbotron.hero {
-    background-color: #005D91;
-    background-image: none;
+    background-image: linear-gradient(to bottom right, #FFE07F, #FFD44C);
     border-top: 3px solid #005D91;
     margin-bottom: 0;
 }
@@ -11,7 +10,7 @@
 .partners
 .jumbotron.hero h2 {
     text-align: right;
-    color: #FFF;
+    color: #005D91;
 }
 
 .partners
@@ -51,9 +50,13 @@
 
 .partners .stand-out .card-deck .card img {
     width: 170px;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
+.partners .stand-out .card-deck .card > a {
+    margin-top: auto;
+    margin-bottom: auto;
+}
 .partners .membership {
     background-color: #fbfbfb;
     background-image: url("../images/four-arrow-lines.png");
@@ -76,9 +79,13 @@
     float: none;
 }
 
+.partners .membership .membership-img-container {
+    margin: auto;
+}
+
 .partners .membership .card-deck .card img {
     width: 200px;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 .partners .affiliated {
@@ -115,7 +122,7 @@
     width: 200px;
     text-align: center;
     margin-left: 60px;
-    margin-top: 145px;
+    margin-top: 115px;
 }
 
 @media (max-width: 575.98px) {

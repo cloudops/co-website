@@ -1,9 +1,9 @@
 .docker-k8s-page
 .jumbotron.hero {
     background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+    background-image: linear-gradient(to bottom right, #7AAA43, #2C893D);
     background-position: left bottom, right top;
     background-repeat: no-repeat, no-repeat;
-    background-color: #005D91;
     border-top: 3px solid #005D91;
     background-size: auto;
     margin-bottom: 0;
@@ -50,7 +50,7 @@
     height: 0;
     border-style: solid;
     border-width: 6px 0 6px 10px;
-    border-color: transparent transparent transparent #005D91;
+    border-color: transparent transparent transparent #7AAA43;
     transition-duration: 0.6s;
     margin-bottom: 3px;
 }
@@ -91,7 +91,7 @@
     height: 0;
     border-style: solid;
     border-width: 6px 10px 6px 0;
-    border-color: transparent #005D91 transparent transparent;
+    border-color: transparent #7AAA43 transparent transparent;
     transition-duration: 0.6s;
     margin-bottom: 3px;
 }
@@ -117,6 +117,7 @@
 }
 
 .docker-k8s-page button {
+    text-align: center;
     background-color:#005D91;
     width: 250px;
     height: 35px;
@@ -124,7 +125,6 @@
     box-shadow: #979797 0 2px 4px 0;
     color: #FFF;
     padding: 0 10px;
-    text-align: left;
     font-family: 'Open Sans';
     font-size: 18px;
     transition-duration: 0.6s;
@@ -140,43 +140,13 @@
     color: #005D91;
 }
 
-.docker-k8s-page button .triangle-right {
-    display: inline-block;
-    position: relative;
-    margin-left: 90px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px 0 10px 16px;
-    border-color: transparent transparent transparent #fff;
-    vertical-align: middle;
-    transition-duration: 0.6s;
-    margin-bottom: 3px;
+.docker-k8s-page .double-button-row {
+    margin: 70px 0 30px;
 }
 
-.docker-k8s-page button .inner-triangle {
-    display: inline-block;
-    position: absolute;
-    top: -6px;
-    left: -14px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 6px 0 6px 10px;
-    border-color: transparent transparent transparent #005D91;
-    transition-duration: 0.6s;
-    margin-bottom: 3px;
-}
-
-.docker-k8s-page button:hover .triangle-right {
-    border-color: transparent transparent transparent #005D91;
-    margin-left: 150px;
-    transition-duration: 0.6s;
-}
-
-.docker-k8s-page button.btn:hover .inner-triangle {
-    border-color: transparent transparent transparent #fff;
-    transition-duration: 0.6s;
+.docker-k8s-page .double-button-row button{
+    text-align: center;
+    margin: 0 30px;
 }
 
 .docker-k8s-page .workshop-description .general-workshop-info {

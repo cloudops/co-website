@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on CloudOps</title>
+    <link>/blog/</link>
+    <description>Recent content in Blog on CloudOps</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Create and Inspect Kubernetes Deployments</title>
+      <link>/blog/patate/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/patate/</guid>
+      <description>If you’re looking to get started with Kubernetes, this blog post will teach you the basics of deployments.
+What is a Kubernetes deployment? A deployment is one of the many Kubernetes objects. In technical terms, it currently encapsulates the following (which we will be covering below):
+ Pod specification Replica count Deployment strategy  In practical terms, you can think of a deployment as an instance of an application with it’s associated configuration.</description>
+    </item>
+    
+    <item>
+      <title>blog2</title>
+      <link>/blog/post2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/post2/</guid>
+      <description>blog bost example</description>
+    </item>
+    
+    <item>
+      <title>blog3</title>
+      <link>/blog/post3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/post3/</guid>
+      <description>blog bost example</description>
+    </item>
+    
+  </channel>
+</rss>
