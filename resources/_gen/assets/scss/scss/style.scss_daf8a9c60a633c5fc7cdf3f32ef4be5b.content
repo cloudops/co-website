@@ -891,6 +891,12 @@ ul li {
   color: #404040;
   font-size: 20px; }
 
+#main-nav > .navbar {
+  position: static; }
+
+#main-nav > .navbar .nav-item {
+  position: static; }
+
 .navbar-card .dropdown-menu {
   padding: 0; }
 
@@ -904,6 +910,9 @@ ul li {
 .navbar-card .nav-cta h2 {
   color: #005D91;
   padding: 30px 0 0 0; }
+
+.navbar-card .nav-cta.horizontal-nav-cta h2 {
+  padding-top: 0; }
 
 .navbar-card .nav-cta p {
   color: #005D91;
@@ -934,19 +943,41 @@ ul li {
 .navbar-card .dropdown .nav-main-section .sub-nav-items img {
   margin-top: 10px; }
 
-.navbar-card .dropdown .nav-main-section .list-group-item {
+.navbar-card .navbar .navbar-nav .dropdown a.dropdown-item {
   text-align: left;
   color: #005D91;
   font-size: 18px;
   border: none;
   padding: 5px; }
 
-.navbar-card .dropdown .nav-main-section .list-group-item:hover {
+.navbar-card .navbar .navbar-nav .dropdown h3.dropdown-item {
+  text-align: left;
+  color: #005D91;
+  font-size: 18px;
+  border: none;
+  padding: 5px;
+  font-weight: bold;
+  margin-bottom: 0; }
+
+.navbar-card .navbar .navbar-nav .dropdown .dropdown-item:hover {
   background-color: transparent; }
 
-.navbar-card .dropdown .nav-main-section .list-group-item:active {
+.navbar-card .navbar .navbar-nav .dropdown .training-dropdown-items-group {
+  text-align: center; }
+
+.navbar-card .navbar .navbar-nav .dropdown .training-dropdown-items-group h3 {
+  text-align: center; }
+
+.navbar-card .navbar .navbar-nav .dropdown .solutions-dropdown-items-group {
+  padding-bottom: 25px; }
+
+.navbar-card .navbar .navbar-nav .dropdown h3.dropdown-item:active {
   background-color: transparent;
   text-decoration: underline; }
+
+.navbar-card .navbar .navbar-nav .dropdown .solutions-dropdown-row {
+  padding-top: 50px;
+  padding-bottom: 40px; }
 
 .navbar-card .navbar .navbar-nav a {
   font-family: 'Open Sans', sans-serif;
@@ -1078,7 +1109,12 @@ a.active {
 @media (min-width: 1200px) {
   .navbar-expand-xl .navbar-nav .dropdown-menu {
     width: 1000px;
-    border-radius: 0; } }
+    border-radius: 0;
+    position: absolute;
+    top: 88px;
+    left: 50%;
+    margin-left: -500px;
+    margin-top: 0; } }
 
 /************  Hero Styles  ***************/
 .jumbotron.hero {
@@ -3578,16 +3614,19 @@ a.active {
   .why-cloudops .image-for-mobile {
     display: none; } }
 
+.post {
+  border-top: 2px solid #005D91; }
+
 .post h1 {
   color: #005D91;
   font-size: 34px; }
 
+.post .main-blog-image {
+  width: 60%; }
+
 .post h2 {
   color: #005D91;
   fon-size: 24px; }
-
-.post img {
-  width: 100%; }
 
 .post p {
   line-height: 1.6;
@@ -3613,10 +3652,8 @@ a.active {
 
 .post .cta-image {
   width: 100%;
-  padding: 0; }
-
-.post .cta-image img {
-  margin-left: 15px; }
+  padding: 40px 0;
+  text-align: center; }
 
 .post .back-foward.nav-buttons button {
   background-color: transparent;
@@ -3741,86 +3778,12 @@ a.active {
 .post .social i {
   color: #005D91;
   font-size: 30px;
-  padding: 0 10px; }
+  padding: 0 5px;
+  vertical-align: top; }
 
-.post .cta-cards .card-deck .card {
-  background-color: #FFF;
-  box-shadow: 2px 2px 8px #E2E2E2;
-  border-radius: 0;
-  min-width: 220px;
-  margin-bottom: 30px;
-  text-align: left; }
-
-.post .cta-cards .card-deck .card:hover {
-  box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2); }
-
-.post .contact-us-card {
-  background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
-  background-position: 2% 30%, left bottom, right top;
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  padding: 100px 0;
-  text-align: center; }
-
-.post .contact-us-card img {
-  margin: 0 0 30px -50%; }
-
-.post .contact-us-card h2 {
-  padding-right: 40px 0 0 40px;
-  text-align: left; }
-
-.post .contact-us-card {
-  background-position: 25px 100px, left bottom, right top; }
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .experts .contact-us-card {
-    background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.png");
-    background-position: 2% 30%, left bottom, right top;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    padding: 100px 0; }
-  .experts .contact-us-card {
-    background-position: 70px 100px, left bottom, right top; }
-  .experts .contact-us-card img {
-    margin-left: 0px; }
-  .experts .contact-us-card .contact-us-intro {
-    padding-bottom: 50px; }
-  .experts .cta-cards .card-deck .card {
-    min-width: 270px; } }
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .experts .contact-us-card {
-    background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
-    background-position: 2% 30%, left bottom, right top;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    padding: 100px 0; }
-  .experts .contact-us-card img {
-    margin-top: 50px; }
-  .experts .contact-us-card h2 {
-    padding: 40px 0 0 40px; }
-  .experts .contact-us-card {
-    background-position: 70px 160px, left bottom, right top; }
-  .experts .contact-us-card img {
-    margin-left: 0px; }
-  .experts .contact-us-card .contact-us-intro {
-    padding-bottom: 50px; }
-  .experts .cta-cards .card-deck .card {
-    min-width: 260px; } }
-
-@media (min-width: 1200px) {
-  .experts .contact-us-card {
-    background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
-    background-position: 2% 30%, left bottom, right top;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    padding: 100px 0; }
-  .experts .contact-us-card img {
-    margin-top: 50px;
-    padding-left: 0;
-    margin-left: -58px; }
-  .experts .contact-us-card {
-    background-position: 5% 160px, left bottom, right top; }
-  .experts .contact-us-card h2 {
-    padding: 40px 0 0 40px; }
-  .experts.cta-cards .card-deck .card {
-    min-width: 260px; } }
+.alignleft {
+  padding: 0 10px 10px 0;
+  float: left; }
 
 .contact-us .jumbotron.hero {
   background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");

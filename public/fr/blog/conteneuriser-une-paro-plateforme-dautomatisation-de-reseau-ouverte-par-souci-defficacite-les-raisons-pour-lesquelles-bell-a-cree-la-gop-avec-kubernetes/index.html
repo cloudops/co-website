@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html><head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   
+   
+   
+   
+   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.59e13ecfd6092f4628a0e91db8c7286f09c98a010015fa1f6f7da22fe7292cb8.css" integrity="sha256-WeE&#43;z9YJL0YooOkduMcobwnJigEAFfofb32iL&#43;cpLLg=" crossorigin="anonymous" media="screen" />
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="icon no-follow" href="/images/favicon.ico" type="image/x-icon">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,600i,700|Open+Sans:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8b2e2ddb4.js" crossorigin="anonymous"></script>
+
+
+    
+        <title>CloudOps - Conteneuriser une PARO (Plateforme d’automatisation de réseau ouverte) par souci d’efficacité : les raisons pour lesquelles Bell a créé la GOP avec Kubernetes</title>
+    
+</head><body>
+            
+            
+<div class="navbar-card" id="main-nav">
+  <nav class="navbar navbar-expand-xl">
+    
+    <a class="navbar-brand mr-auto" href="/">
+      <img src="/images/cO-logo-horizontal.png" width="245px" height="auto" alt="CloudOps logo">
+    </a>
+    <a class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto list-group list-group-flush">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="/solutions" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Solutions</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-12 nav-main-section">
+                <button href="/solutions">Solutions Overview</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 offset-xl-1 solutions-dropdown-items-group">
+                <a href="/using-cloud"><h3 class="dropdown-item list-group-item list-group-item-action">Using Cloud</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/cloud-native-consulting">Cloud Native Consulting</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/cloud-migration">Cloud Migration</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/managed-services-augmented-support">Managed Services <br> Augmented Support</a>
+
+
+
+              </div>
+              <div class="col-xl-3 offset-xl-0 solutions-dropdown-items-group">
+                <a href="/delivering-cloud"><h3 class="dropdown-item list-group-item list-group-item-action">Delivering Cloud</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/delivering-cloud-consulting">Consulting</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/managed-services-augmented-support">Managed Services <br> Augmented Support</a>
+              </div>
+
+              <div class="col-xl-3 offset-xl-0 solutions-dropdown-items-group">
+                <a href=""><h3 class="dropdown-item list-group-item list-group-item-action">Transformations</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="#">DevOps Transformation</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="#">CloudOps Transformation</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="#">NetDevOps Transformation</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+              </div>
+              <div class="col-xl-9 nav-cta horizontal-nav-cta">
+                  <a href="https://cdn2.hubspot.net/hubfs/732832/Branded%20Images/EN_CloudOps_OP_Services_.pdf" target="_blank"><h2>Meet business goals more efficiently</h2>
+                <p>Tips on how to transform your business by evolving team culture and tooling while adopting cloud native practices.</p><div class="triangle-right">
+                    <div class="inner-triangle"></div></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="/training" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row solutions-dropdown-row">
+              <div class="col-xl-4 training-dropdown-items-group">
+                <img src="/images/fish-circle.png" width="70px">
+                <a class="dropdown-item list-group-item list-group-item-action" href="/workshops"><h3>Workshops</h3></a>
+              </div>
+              <div class="col-xl-4 training-dropdown-items-group">
+                <img src="/images/fish-circle.png" width="70px">
+                <a class="dropdown-item list-group-item list-group-item-action" href="/experts"><h3>Our Experts</h3></a>
+              </div>
+              <div class="col-xl-4 training-dropdown-items-group">
+                <img src="/images/fish-circle.png" width="70px">
+                <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar"><h3>Calendar</h3></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+              </div>
+              <div class="col-xl-9 nav-cta horizontal-nav-cta">
+                <a href="/images/ressources/infographics/kubernetes-distribution-3-1.pdf" target="_blank">
+                <h2>Are you a Kubernetes unicorn?</h2>
+                <p>Take our quiz to find out</p>
+              </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown reading-dropdown">
+          <a class="nav-link" href="/reading" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            data-reference="parent" data-offset="50%,20" aria-haspopup="true" aria-expanded="false">Reading</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="https://cdn2.hubspot.net/hubfs/732832/Gated%20Content/WP_Securing%20Your%20DevOps%20Platform%20Enterprise_2019.pdf" target="_blank">
+                <h2>Secure your DevOps platform</h2>
+                <p>White paper highlighting how to handle security challenges faced by enterprises</p>
+                </a>
+              </div>
+              <div class="col-xl-9">
+                <div class="row sub-nav-items">
+                  <div class="col-xl-12 nav-main-section">
+                    <button href="/solutions">Solutions Overview</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-2 offset-xl-1">
+                    <img src="/images/fish-circle.png" width="70px">
+                  </div>
+                  <div class="col-xl-3">
+                    <h3 class="dropdown-item list-group-item list-group-item-action">Blog</h3>
+                  </div>
+                  <div class="col-xl-2 offset-xl-0">
+                    <img src="/images/fish-circle.png" width="70px">
+                  </div>
+                  <div class="col-xl-3">
+                    <a><h3 class="dropdown-item list-group-item list-group-item-action">Ressources</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#">White Papers</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#">Case Studies</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#">Infographics</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#">One Pagers</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </li>
+        <li class="nav-item dropdown company-dropdown">
+          <a class="nav-link" href="/company" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            data-reference="parent" data-offset="50%,20" aria-haspopup="true" aria-expanded="false">Company</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="/blog/cloudops-manifesto/" target="_blank">
+                <h2>The CloudOps Manifetso</h2>
+                <p>11 key success factors we have learned from our adventures in the cloud</p>
+              </div>
+              <div class="col-xl-6 nav-main-section">
+                <button href="/why-cloudops">Why choose CloudOps</button>
+                <div class="row sub-nav-items">
+                  <div class="col-xl-3 offset-xl-0">
+                    <img src="/images/fish-circle.png" width="70px">
+                  </div>
+                  <div class="col-xl-6">
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/about-us">About Us</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/partners">Our Partners</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="">Careers</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="">Events Calendar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="blog/staff-augmentation-vs-project-based-services-for-devops-and-cloud-projects/">
+                <h2>Accelerate your software release cycles</h2>
+                <p>Comparing staff augmentation to project-based services for DevOps and cloud projects</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <button class="btn" type="submit">Contact</button>
+        </li>
+        <li>
+          
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div><div class="container-fluid main-content">
+
+<main class="post">
+    <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
+            <article>
+                <header>
+                    <h1>Conteneuriser une PARO (Plateforme d’automatisation de réseau ouverte) par souci d’efficacité : les raisons pour lesquelles Bell a créé la GOP avec Kubernetes</h1>
+                    <div> March 20, 2018 / Katharine Mikula </div>
+                </header>
+                <p><img src="/images/blog/post/kubernetes-logo-copy.png" class="main-blog-image"></p>
+
+<p>Les entreprises qui souhaitent demeurer pertinentes numériquement adoptent des architectures orientées logiciels et, afin d’orchestrer les charges de travail de manière agile, plusieurs transitent leur service des TI de machines virtuelles (MV) vers les conteneurs. Bien que les MV procurent un certain niveau d’agilité et de souplesse en abstrayant le système informatique dans des images de machines virtuelles, elles apportent aussi certaines des limites des systèmes d’exploitation traditionnels (OS) par VM, comme leur architecture monolithique nécessitant beaucoup de ressources. En revanche, les conteneurs allègent cette dépendance en permettant aux développeurs d’abstraire le système d’exploitation pour créer des applications complètement autonomes et couplées de façon lâche qui peuvent être déployées, testées et mises à jour individuellement. Ensuite, <a href="https://www.cloudops.com/fr/2018/02/perdus-en-mer-comment-naviguer-sur-les-eaux-complexes-de-kubernetes-2/" target="_blank">Kubernetes</a> groupe les conteneurs qui composent les applications en « pods », ce sont des unités logiques qui accomplissent des fonctions spécifiques, facilitent la gestion et la découverte et permettent la gestion à l’échelle des conteneurs Docker. En tant que technologies de source libre, Docker et Kubernetes procurent une viabilité à long terme en normalisant la conception d’applications en microservices modulaires et portatifs qui peuvent être déployés sur de multiples plateformes infonuagiques. Refaire leur plateforme applicative en utilisant les technologies de conteneurs devient alors nécessaire pour les entreprises, peu importe leur taille, surtout si elles désirent demeurer concurrentielles dans l’environnement actuel au rythme accéléré, hautement dynamique et de plus en plus compétitif.</p><p>Bell Canada porte les conteneurs vers de nouveaux sommets en devenant le premier fournisseur de télécommunications à déployer une version de source libre d’une Plateforme d’automatisation de réseau ouverte (PARO) pour automatiser l’approvisionnement en réseau de son centre de données. La PARO fournit des capacités de conception, de création, d’orchestration, de surveillance et de gestion de cycle de vie des fonctions des réseaux virtuels et des réseaux SDN, en apportant simultanément l’agilité et une réduction des coûts significative aux services de réseaux. Le plan de contrôle de la PARO demande d’importants investissements en infrastructure et en ressources afin de le déployer et de l’exploiter. Bell a collaboré à la création d’une nouvelle façon d’exécuter et d’exploiter une PARO, appelée Gestion des opérations de plateforme d’automatisation de réseau ouverte (GOP), qui reconditionne, avec Kubernetes, les instances de plan de contrôle de PARO dans des conteneurs. En réalisant cet exploit, la plateforme GOP de Bell répond au besoin d’une méthode constante, et à l’échelle de la plateforme, pour gérer les composantes du logiciel et réduire la taille de leurs ressources de quatre-vingts pour cent. De plus, elle améliore l’efficacité, la rapidité, la portabilité, le niveau d’indépendance infonuagique, le nombre d’instances de PARO et l’automatisation au sein de leurs opérations.</p><p><strong>Efficacité</strong></p><p> La création de GOP, par Bell, rend la PARO beaucoup plus compacte. Voici un exemple : un déploiement basé sur une MV de PARO nécessite 29 MVs, 148 vCPUs, 336 Go de mémoire vive, 3 To de stockage et 29 adresses IP flottantes. Par opposition, la même méthode de déploiement avec GOP nécessite seulement 16 MVs, 52 vCPUs, 152 Go de mémoire vive, 980 Go de stockage et 15 adresses IP flottantes. Par ailleurs, la majorité de l’espace d’une GOP est utilisé par les composantes DCAE (Data Collection, Analytics and Events) qui fonctionnent toujours sur des MV. Les composantes DCAE utilisent elles-mêmes actuellement 15 MVs, 44 vCPUs, 88 Go de mémoire vive, 880 Go de stockage et 15 adresses IP flottantes. Le fait de refaire la plateforme réduit les besoins en divers types d’équipement et le delta diminue les CapEx et la complexité opérationnelle. La GOP a l’intention d’offrir aux fournisseurs de services un seul tableau de bord et interface utilisateur (IU) desquels se fait l’opération complète ou partielle de la plateforme (PARO), d’où l’on peut voir les instances en gestion et l’état de chacun de leurs composants, et d’où l’on peut surveiller les actions à l’intérieur d’une boucle de contrôle pour déclencher des mesures correctives.</p><p><strong>Rapidité</strong></p><p> Une plus grande efficacité se traduit indéniablement par une plus grande rapidité ; la refonte de la plateforme donne lieu à un délai de lancement plus court. Le fait d’être dix fois plus léger que les conteneurs de MV engendre dix fois plus de rapidité. Avec la GOP, la PARO peut être déployée en moins de huit minutes tandis que le même déploiement sur une MV peut facilement s’étendre sur des dizaines de minutes. Les étapes de gestion du cycle de vie subséquentes sont alors accélérées, diminuant les OpEx.</p><p><strong>Indépendance infonuagique</strong></p><p> Il est primordial pour une entreprise désirant rester concurrentielle et innovatrice d’éviter l’enfermement à un fournisseur en maintenant ses applications portatives. En partageant système d’exploitation principal sur la machine physique, les conteneurs permettent la portabilité complète des applications entre les serveurs et les fournisseurs infonuagiques. Par ailleurs, elles peuvent être déployées sur des serveurs traditionnels, des serveurs virtuels, des nuages privés ou publics, offrant ainsi à l’entreprise plus de souplesse, en plus de la capacité d’évoluer et d’innover de manière autonome. La refonte de la plateforme de Bell découple la fonction du réseau dans le logiciel de l’infrastructure de soutien dans le matériel, permettant ainsi la migration aisée entre les nuages.</p><p><strong>Instances de PARO multiples</strong></p><p> La création de « pods » de conteneurs facilite l’isolement des applications, ce qui les rend plus faciles à créer, à modifier ou à démanteler, selon les circonstances. Tandis que la PARO permet le déploiement de toute la plateforme d’un seul coup, la GOP s’attaque aux défis qui découlent des conteneurs doublons et des dépendances de conteneurs. Cela donne de multiples exigences de déploiement Kubernetes, permettant à la même grappe Kubernetes de développer, de tester, de mettre en œuvre et de produire des environnements d’un seul coup, minimisant ainsi le temps de déploiement et réduisant les CapEx en optimisant les ressources.</p><p><strong>Automatisation plus riche</strong></p><p> L’automatisation est un avantage significatif qu’offre Kubernetes par rapport aux outils d’orchestration basés sur des MV. Par exemple, Kubernetes facilite la communication des services entre eux en utilisant des espaces de noms, ce qui permet aux « pods » sous-jacents qui fournissent les services, d’évoluer horizontalement sans avoir recours à une configuration IP supplémentaire pour livrer la capacité ajoutée. Donc, même si les services de Kubernetes sont encore liés à des adresses IP, une plus grande automatisation est maintenant possible grâce à leur communication améliorée.</p><p> En résumé, le succès de la refonte de la plateforme par Bell sert d’exemple aux entreprises de télécommunications qui cherchent à tirer profit du pouvoir de la source libre et qui choisissent d’être maîtres de leur destin infonuagique. La simplification de la PARO par la GOP avec Kubernetes démontre le dynamisme des technologies de source libre et les avantages des plateformes de conteneurs. Par ailleurs, cela témoigne de l’étendue des options d’utilisation des déploiements de Kubernetes, tant en types d’organisations qu’en charges de travail. Que ce soit une société, une grande organisation, une PME ou une entreprise agile, la refonte de sa plateforme en conteneurs est devenue base de référence ; peu importe la charge de travail.</p><p>L’infrastructure de réseau infonuagique offre de nombreux avantages mais elle pose aussi des problèmes qui demandent, pour les régler, une expertise et de grandes connaissances techniques. La migration vers une plateforme de réseau complètement virtualisée doit coexister avec l’utilisation de plateformes de réseau matérielles personnalisées, associées à la transition des anciennes pratiques BSS et OSS, vers une approche DevOps. Un autre enjeu important est l’assurance d’un niveau de protection adéquat contre les attaques, les mauvaises configurations ou contre les pannes matérielles ou logicielles. Finalement, l’enfermement à un fournisseur est aussi une préoccupation et les entreprises qui cherchent à migrer leurs services entre les fournisseurs doivent réussir à intégrer le matériel et les appareils virtuels provenant de divers fournisseurs. Afin de déployer et de tirer profit des applications avec Kubernetes, il est indispensable d’avoir une expertise technique, cette dernière peut être obtenue en participant à des <a href="https://www.cloudops.com/fr/ateliers-docker-kubernetes/" target="_blank">ateliers</a> pertinents donnés par des fournisseurs certifiés de services Kubernetes (Certified Kubernetes Service Providers ou CKSP) comme CloudOps, ainsi que par d’autres organisations.</p><p>&nbsp;</p><p>Ressources</p><p>Résumé de la Solution GOP (OOM Solution Brief) en anglais. ONAP Operations Manager Utilizes Kubernetes for ONAP Lifecycle Management:<br> <small>https://www.onap.org/wp-content/uploads/sites/20/2017/12/ONAP_CaseSolution_OOM_1217.pdf</small></p><p>AT&amp;T Vision Alignment Challenge Technology Survey:<br> <small>https://www.att.com/Common/about_us/pdf/AT&amp;T%20Domain%202.0%20Vision%20White%20Paper.pdf</small></p><p>Why You Should Make the Move to Docker Containers from VM, par Lee Forkenbrock: Developpement<br> <small>https://www.loadsys.com/why-you-should-make-the-move-to-docker-containers/</small></p>
+
+            </article>
+        </div>
+    </div>
+
+
+    <div class="row nav-buttons back-foward in-content">
+        <div class="col-xl-4 offset-xl-2 back-button">
+            <a href="/fr/blog/comment-deployer-un-serveur-de-developpement-vault-vers-kubernetes-avec-helm/"><button class="btn">
+                    <div class="triangle-left">
+                        <div class="inner-left-triangle"></div>
+                    </div>Previous Post
+                </button></a>
+        </div>
+        <div class="col-xl-4 foward-button">
+            <a href="/fr/blog/les-problemes-relatifs-a-la-securite-auxquels-font-face-les-entreprises-saas/">
+                <button class="btn">
+                    Next Post<div class="triangle-right">
+                        <div class="inner-triangle"></div>
+                    </div>
+                </button></a>
+        </div>
+    </div>
+
+    <div class="social">
+        
+
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+position: relative;
+text-align: left; 
+height: 36px; 
+float: left; 
+text-align: center;
+}
+#share-buttons > div > svg {height: 36px; fill: #005D91; margin-top: 0;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.facebook > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.twitter > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.linkedin > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.mail > svg {height: 30px; margin: auto 5px;}
+</style>
+
+<div id="share-buttons">
+<div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=\/fr\/blog\/conteneuriser-une-paro-plateforme-dautomatisation-de-reseau-ouverte-par-souci-defficacite-les-raisons-pour-lesquelles-bell-a-cree-la-gop-avec-kubernetes\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
+<div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/home?status=\/fr\/blog\/conteneuriser-une-paro-plateforme-dautomatisation-de-reseau-ouverte-par-souci-defficacite-les-raisons-pour-lesquelles-bell-a-cree-la-gop-avec-kubernetes\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
+<div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=\/fr\/blog\/conteneuriser-une-paro-plateforme-dautomatisation-de-reseau-ouverte-par-souci-defficacite-les-raisons-pour-lesquelles-bell-a-cree-la-gop-avec-kubernetes\/&title=&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
+<div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body=\/fr\/blog\/conteneuriser-une-paro-plateforme-dautomatisation-de-reseau-ouverte-par-souci-defficacite-les-raisons-pour-lesquelles-bell-a-cree-la-gop-avec-kubernetes\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
+</div>
+
+        <i class="far fa-copy copy-page-link"></i>
+    </div>
+
+
+    </div>
+</main>
+
+        </div><div class="footer">
+    <div class="row logo">
+        <div class="col-sm-12">
+            <a href="/"><img class="cloudops-logo" src="/images/cO-logo-horizontal.png"
+                    height="56px" width="auto"></a>
+        </div>
+    </div>
+
+    <div class="row footer-content">
+        <div class="col-xl-3 offset-xl-2 col-lg-3 offset-lg-0 col-md-12">
+
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-facebook-f"></i>
+            <h5>Newsletter Signup</h5>
+            <div class="newsletter-form">
+                    <div class="newsletter-form">
+
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "732832",
+	formId: "25575fb9-f01b-43a6-b9cd-2c154efad9f4"
+});
+</script>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-12 col-sm-12 footer-nav">
+            <h6>Services</h6>
+            <ul>
+                <li><a href="/cloud-native-consulting">Cloud Native Consulting</a></li>
+                <li><a href="/transformations">Transformations</a></li>
+                <li><a href="/managed-services-augmented-support">Support</a></li>
+                <li><a href="/delivering-cloud">Cloud Delivery</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-12 footer-nav">
+            <h6>Learning</h6>
+            <ul>
+                <li><a href="/workshops">Workshops</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/workshops-calendar">Events</a></li>
+                <li><a href="/reading/ressources/#case-studies">Case Studies</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-12 footer-nav">
+            <h6>Company</h6>
+            <ul>
+                <li><a href="/about-us">About Us</a></li>
+                <li><a href="/careers">Careers</a></li>
+                <li><a href="/partners">Partners</a></li>
+                <li><a href="/why-cloudops">Why Cloudops</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row copyright">
+        <div class="col-sm-12">
+            <p>&copy; CloudOps. Tous droits réservés.</p>
+        </div>
+    </div>
+</div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
+        <script src="/js/main.js"></script>
+
+        </body>
+</html>

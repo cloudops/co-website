@@ -1,6 +1,14 @@
+.post {
+    border-top: 2px solid #005D91;
+}
+
 .post h1 {
     color: #005D91;
     font-size: 34px;
+}
+
+.post .main-blog-image {
+    width: 60%;
 }
 
 .post h2 {
@@ -36,12 +44,10 @@
 
 .post .cta-image {
     width: 100%;
-    padding:0; 
+    padding: 40px 0; 
+    text-align: center;
 }
 
-.post .cta-image img {
-    margin-left: 15px;
-}
 .post
 .back-foward.nav-buttons button {
     background-color: transparent;
@@ -214,129 +220,11 @@
 .post .social i {
     color: #005D91;
     font-size: 30px;
-    padding: 0 10px;
+    padding: 0 5px;
+    vertical-align: top;
+
 }
 
-.post .cta-cards .card-deck .card {
-    background-color: #FFF;
-    box-shadow: 2px 2px 8px #E2E2E2;
-    border-radius: 0;
-    min-width: 220px;
-    margin-bottom: 30px;
-    text-align: left;
-}
-
-.post .cta-cards .card-deck .card:hover {
-    box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2);
-}
-
-.post .contact-us-card {
-    background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
-    background-position: 2% 30%, left bottom, right top;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    padding: 100px 0;
-    text-align: center;
-}
-
-.post .contact-us-card img {
-    margin: 0 0 30px -50%;
-}
-
-.post .contact-us-card h2 {
-    padding-right: 40px 0 0 40px;
-    text-align: left;
-}
-
-.post .contact-us-card {
-    background-position: 25px 100px, left bottom, right top;
-}
-
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .experts .contact-us-card {
-        background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.png");
-        background-position: 2% 30%, left bottom, right top;
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        padding: 100px 0;
-    }
-
-    .experts .contact-us-card {
-        background-position: 70px 100px, left bottom, right top;
-    }
-
-    .experts .contact-us-card img {
-        margin-left: 0px;
-    }
-
-    .experts .contact-us-card .contact-us-intro {
-        padding-bottom: 50px;
-    }
-    
-    .experts .cta-cards .card-deck .card {
-        min-width: 270px;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    
-    .experts .contact-us-card {
-        background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
-        background-position: 2% 30%, left bottom, right top;
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        padding: 100px 0;
-    }
-
-    .experts .contact-us-card img {
-        margin-top: 50px;
-    }
-    
-    .experts .contact-us-card h2 {
-        padding: 40px 0 0 40px;
-    }
-
-
-    .experts .contact-us-card {
-        background-position: 70px 160px, left bottom, right top;
-    }
-
-    .experts .contact-us-card img {
-        margin-left: 0px;
-    }
-
-    .experts .contact-us-card .contact-us-intro {
-        padding-bottom: 50px;
-    }
-    
-    .experts .cta-cards .card-deck .card {
-        min-width: 260px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .experts .contact-us-card {
-        background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
-        background-position: 2% 30%, left bottom, right top;
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        padding: 100px 0;
-    }
-    .experts .contact-us-card img {
-        margin-top: 50px;
-        padding-left: 0;
-        margin-left: -58px;
-    }
-
-    .experts .contact-us-card {
-        background-position: 5% 160px, left bottom, right top;
-    }
-
-    .experts .contact-us-card h2 {
-       padding: 40px 0 0 40px;
-    }
-
-    .experts.cta-cards .card-deck .card {
-        min-width: 260px;
-    }
-}
 
 .alignleft {
     padding: 0 10px 10px 0;

@@ -1,7 +1,7 @@
 ---
 title: "Remote Sensing, Data Pipelines, Kubernetes, and Neural Networks in Ecology"
 lastmod: "2020-01-27"
-author: "CloudOps"
+author: "Tristan Kosciuch"
 class_name: "blog post"
 ---
 
