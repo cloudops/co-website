@@ -6,6 +6,11 @@
     margin-bottom: 0;
 }
 
+.cloud-migration .case-studies-card h2 {
+    text-align: center;
+}
+
+
 .cloud-migration
 .jumbotron.hero h1 {
     text-align: left;
@@ -14,7 +19,50 @@
 .cloud-migration
 .jumbotron.hero img {
     position: absolute;
-    top: -140px;
+    top: -120px;
+    left: 70px;
+}
+
+.cloud-migration .case-studies-card img {
+    position: static;
+    height: 200px;
+    width: auto;
+    padding-bottom: 25px;
+}
+
+.cloud-migration .case-studies-card img.image-for-mobile {
+    position: static;
+    width: 100px;
+    height: auto;
+}
+
+.cloud-migration .case-studies-card img.icons {
+    width: 30px;
+    height: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: inline;
+}
+
+.cloud-migration .bot-img {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+}
+
+.cloud-migration .case-studies-card .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.cloud-migration .case-studies-card .with-bottom-line {
+    border-bottom: 2px solid #FFE07F;
+    margin-left: 16.666667%;
+    margin-right: 16.666667%;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .cloud-migration .brand-promises-card {
@@ -53,11 +101,25 @@
         position: relative;
         top: 30px;
         width: 280px;
+        left: 0;
     }
 
     .cloud-migration .hero-image-container {
         text-align: left;
     }
+
+    .cloud-migration .case-studies-card img {
+        height: 150px;
+        width: auto;
+    }
+    .cloud-migration .image-for-desktop {
+        display: none;
+    }
+
+    .cloud-migration .bot-img {
+        text-align: center;
+    }
+    
 }
 
 
@@ -67,10 +129,23 @@
         position: relative;
         top: 30px;
         width: 430px;
+        left: 0;
     }
 
     .cloud-migration .hero-image-container {
         text-align: left;
+    }
+
+    .cloud-migration .case-studies-card img {
+        height: 170px;
+        width: auto;
+    }   
+    .cloud-migration .image-for-desktop {
+        display: none;
+    } 
+
+    .cloud-migration .bot-img {
+        text-align: center;
     }
 
 }
@@ -81,10 +156,20 @@
     .jumbotron.hero img {
         position: relative;
         top: 30px;
+        left: 0;
     }
 
     .cloud-migration .hero-image-container {
         text-align: left;
+    }
+
+    .cloud-migration .case-studies-card img {
+        height: 175px;
+        width: auto;
+    }
+    
+    .cloud-migration .image-for-mobile {
+        display: none;
     }
 
 }
@@ -92,9 +177,11 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .cloud-migration
     .jumbotron.hero img {
-        left: 30px;
-        top: -225px;
         width: 360px;
+    }
+
+    .cloud-migration .image-for-mobile {
+        display: none;
     }
     
 }
@@ -106,7 +193,11 @@
 
     .cloud-migration
     .jumbotron.hero img {
-        left: 30px;
-        top: -200px;
+        left: 20px;
+        top: -120px;
+    }
+
+    .cloud-migration .image-for-mobile {
+        display: none;
     }
 }

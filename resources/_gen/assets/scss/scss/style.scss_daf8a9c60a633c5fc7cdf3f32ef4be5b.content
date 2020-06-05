@@ -3555,7 +3555,7 @@ a.active {
 
 .post h2 {
   color: #005D91;
-  fon-size: 24px; }
+  font-size: 24px; }
 
 .post p {
   line-height: 1.6;
@@ -4032,12 +4032,51 @@ a.active {
   padding: 130px 0;
   margin-bottom: 0; }
 
+.cloud-migration .case-studies-card h2 {
+  text-align: center; }
+
 .cloud-migration .jumbotron.hero h1 {
   text-align: left; }
 
 .cloud-migration .jumbotron.hero img {
   position: absolute;
-  top: -140px; }
+  top: -120px;
+  left: 70px; }
+
+.cloud-migration .case-studies-card img {
+  position: static;
+  height: 200px;
+  width: auto;
+  padding-bottom: 25px; }
+
+.cloud-migration .case-studies-card img.image-for-mobile {
+  position: static;
+  width: 100px;
+  height: auto; }
+
+.cloud-migration .case-studies-card img.icons {
+  width: 30px;
+  height: auto;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  display: inline; }
+
+.cloud-migration .bot-img {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 25px; }
+
+.cloud-migration .case-studies-card .row {
+  margin-left: 0;
+  margin-right: 0; }
+
+.cloud-migration .case-studies-card .with-bottom-line {
+  border-bottom: 2px solid #FFE07F;
+  margin-left: 16.666667%;
+  margin-right: 16.666667%;
+  margin-bottom: 100px;
+  padding-bottom: 100px; }
 
 .cloud-migration .brand-promises-card {
   background-image: url("../images/blue-dots-LEFT.png"), url("../images/yellow-dots-LEFT.png"), url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
@@ -4061,37 +4100,61 @@ a.active {
   .cloud-migration .jumbotron.hero img {
     position: relative;
     top: 30px;
-    width: 280px; }
+    width: 280px;
+    left: 0; }
   .cloud-migration .hero-image-container {
-    text-align: left; } }
+    text-align: left; }
+  .cloud-migration .case-studies-card img {
+    height: 150px;
+    width: auto; }
+  .cloud-migration .image-for-desktop {
+    display: none; }
+  .cloud-migration .bot-img {
+    text-align: center; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .cloud-migration .jumbotron.hero img {
     position: relative;
     top: 30px;
-    width: 430px; }
+    width: 430px;
+    left: 0; }
   .cloud-migration .hero-image-container {
-    text-align: left; } }
+    text-align: left; }
+  .cloud-migration .case-studies-card img {
+    height: 170px;
+    width: auto; }
+  .cloud-migration .image-for-desktop {
+    display: none; }
+  .cloud-migration .bot-img {
+    text-align: center; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .cloud-migration .jumbotron.hero img {
     position: relative;
-    top: 30px; }
+    top: 30px;
+    left: 0; }
   .cloud-migration .hero-image-container {
-    text-align: left; } }
+    text-align: left; }
+  .cloud-migration .case-studies-card img {
+    height: 175px;
+    width: auto; }
+  .cloud-migration .image-for-mobile {
+    display: none; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .cloud-migration .jumbotron.hero img {
-    left: 30px;
-    top: -225px;
-    width: 360px; } }
+    width: 360px; }
+  .cloud-migration .image-for-mobile {
+    display: none; } }
 
 @media (min-width: 1200px) {
   .cloud-migration .hero-image-container {
     text-align: left; }
   .cloud-migration .jumbotron.hero img {
-    left: 30px;
-    top: -200px; } }
+    left: 20px;
+    top: -120px; }
+  .cloud-migration .image-for-mobile {
+    display: none; } }
 
 .cloud-native-consulting .jumbotron.hero {
   background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
@@ -4119,22 +4182,36 @@ a.active {
   padding: 70px 100px; }
 
 .cloud-native-consulting .case-studies-card h2 {
-  text-align: center;
-  margin-bottom: 100px; }
+  text-align: center; }
 
 .cloud-native-consulting .case-studies-card img {
-  display: inherit;
+  position: static;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 30px; }
+  height: 180px;
+  margin-bottom: 25px; }
+
+.cloud-native-consulting .case-studies-card .with-bottom-line p.image-caption {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  padding-bottom: 15px; }
+
+.cloud-native-consulting .case-studies-card .with-bottom-line {
+  text-align: center; }
+
+.cloud-native-consulting .case-studies-card .without-bottom-line {
+  margin-left: 0;
+  margin-right: 0; }
+
+.cloud-native-consulting .case-studies-card .with-bottom-line p {
+  text-align: left; }
 
 .cloud-native-consulting .case-studies-card .with-bottom-line {
   border-bottom: 2px solid #FFE07F;
   margin-left: 16.666667%;
   margin-right: 16.666667%;
   margin-bottom: 100px;
-  padding-bottom: 100px; }
+  padding-bottom: 80px; }
 
 @media (max-width: 575.98px) {
   .cloud-native-consulting .jumbotron.hero h1 {
@@ -4151,16 +4228,19 @@ a.active {
     text-align: left; }
   .cloud-native-consulting .image-for-desktop {
     display: none; }
-  .cloud-native-consulting .case-studies-card img {
-    position: relative;
-    width: 260px;
-    height: auto;
-    top: 0;
-    left: 0; }
   .cloud-native-consulting .case-studies-card .with-bottom-line {
     border-bottom: 2px solid #FFE07F;
     margin-left: 15px;
-    margin-right: 15px; } }
+    margin-right: 15px; }
+  .cloud-native-consulting .case-studies-card .with-bottom-line p {
+    text-align: center; }
+  .cloud-native-consulting .image-for-desktop {
+    display: none; }
+  .cloud-native-consulting .cncf-for-desktop {
+    display: none; }
+  .cloud-native-consulting .case-studies-card img.with-without-us-mobile.image-for-mobile {
+    height: 200px;
+    width: auto; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .cloud-native-consulting .jumbotron.hero img {
@@ -4171,14 +4251,18 @@ a.active {
     text-align: left; }
   .cloud-native-consulting .image-for-desktop {
     display: none; }
-  .cloud-native-consulting .case-studies-card img {
-    position: relative;
-    width: 300px;
-    height: auto; }
+  .cloud-native-consulting .cncf-for-mobile {
+    display: none; }
   .cloud-native-consulting .case-studies-card .with-bottom-line {
     border-bottom: 2px solid #FFE07F;
     margin-left: 15px;
-    margin-right: 15px; } }
+    margin-right: 15px; }
+  .cloud-native-consulting .case-studies-card img.image-for-mobile {
+    width: 350px;
+    height: auto; }
+  .cloud-native-consulting .case-studies-card img.cncf-for-desktop {
+    height: auto;
+    width: 100%; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .cloud-native-consulting .jumbotron.hero img {
@@ -4190,8 +4274,15 @@ a.active {
     display: none; }
   .cloud-native-consulting .brand-promises-card h2 {
     text-align: center; }
-  .cloud-native-consulting .case-studies-card img {
-    width: 260px; } }
+  .cloud-native-consulting .image-for-mobile {
+    display: none; }
+  .cloud-native-consulting .cncf-for-mobile {
+    display: none; }
+  .cloud-native-consulting .case-studies-card img.image-for-desktop {
+    height: 280px; }
+  .cloud-native-consulting .case-studies-card img.cncf-for-desktop {
+    height: auto;
+    width: 100%; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .cloud-native-consulting .jumbotron.hero img {
@@ -4199,7 +4290,14 @@ a.active {
     top: -225px;
     width: 360px; }
   .cloud-native-consulting .image-for-mobile {
-    display: none; } }
+    display: none; }
+  .cloud-native-consulting .cncf-for-mobile {
+    display: none; }
+  .cloud-native-consulting .case-studies-card img.image-for-desktop {
+    height: 320px; }
+  .cloud-native-consulting .case-studies-card img.cncf-for-desktop {
+    height: auto;
+    width: 100%; } }
 
 @media (min-width: 1200px) {
   .cloud-native-consulting .hero-image-container {
@@ -4208,7 +4306,14 @@ a.active {
     left: 30px;
     top: -200px; }
   .cloud-native-consulting .image-for-mobile {
-    display: none; } }
+    display: none; }
+  .cloud-native-consulting .cncf-for-mobile {
+    display: none; }
+  .cloud-native-consulting .case-studies-card img.image-for-desktop {
+    height: 350px; }
+  .cloud-native-consulting .case-studies-card img.cncf-for-desktop {
+    height: auto;
+    width: 100%; } }
 
 .blog-main .hero.jumbotron {
   background-image: linear-gradient(to bottom right, #47B7AF, #009187); }

@@ -38,15 +38,34 @@
 
 .cloud-native-consulting .case-studies-card h2 {
     text-align: center;
-    margin-bottom: 100px;
 }
 
+
 .cloud-native-consulting .case-studies-card img {
-    display: inherit;
+    position: static;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 30px;
+    height: 180px;
+    margin-bottom: 25px;
+}
+
+.cloud-native-consulting .case-studies-card .with-bottom-line p.image-caption {
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+.cloud-native-consulting .case-studies-card .with-bottom-line {
+    text-align: center;
+}
+
+.cloud-native-consulting .case-studies-card .without-bottom-line {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.cloud-native-consulting .case-studies-card .with-bottom-line p {
+    text-align: left;
 }
 
 .cloud-native-consulting .case-studies-card .with-bottom-line {
@@ -54,7 +73,7 @@
     margin-left: 16.666667%;
     margin-right: 16.666667%;
     margin-bottom: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 
@@ -88,18 +107,27 @@
         display: none;
     }
 
-    .cloud-native-consulting .case-studies-card img {
-        position: relative;
-        width: 260px;
-        height: auto;
-        top: 0;
-        left: 0;
-    }
-
     .cloud-native-consulting .case-studies-card .with-bottom-line {
         border-bottom: 2px solid #FFE07F;
         margin-left: 15px;
         margin-right: 15px;
+    }
+
+    .cloud-native-consulting .case-studies-card .with-bottom-line p {
+        text-align: center;
+    }
+
+    .cloud-native-consulting .image-for-desktop {
+        display: none;
+    }
+
+    .cloud-native-consulting .cncf-for-desktop {
+        display: none;
+    }
+
+    .cloud-native-consulting .case-studies-card img.with-without-us-mobile.image-for-mobile {
+        height: 200px;
+        width: auto;
     }
 }
 
@@ -120,16 +148,25 @@
         display: none;
     }
 
-    .cloud-native-consulting .case-studies-card img {
-        position: relative;
-        width: 300px;
-        height: auto;
+    .cloud-native-consulting .cncf-for-mobile {
+        display: none;
     }
+
 
     .cloud-native-consulting .case-studies-card .with-bottom-line {
         border-bottom: 2px solid #FFE07F;
         margin-left: 15px;
         margin-right: 15px;
+    }
+
+    .cloud-native-consulting .case-studies-card img.image-for-mobile {
+        width: 350px;
+        height: auto;
+    }
+
+    .cloud-native-consulting .case-studies-card img.cncf-for-desktop {
+        height: auto;
+        width: 100%;
     }
 
 }
@@ -154,8 +191,21 @@
         text-align: center;
     }
 
-    .cloud-native-consulting .case-studies-card img {
-        width: 260px;
+    .cloud-native-consulting .image-for-mobile {
+        display: none;
+    }
+
+    .cloud-native-consulting .cncf-for-mobile {
+        display: none;
+    }
+
+    .cloud-native-consulting .case-studies-card img.image-for-desktop {
+        height: 280px;
+    }
+
+    .cloud-native-consulting .case-studies-card img.cncf-for-desktop {
+        height: auto;
+        width: 100%;
     }
 
 }
@@ -170,6 +220,19 @@
 
     .cloud-native-consulting .image-for-mobile {
         display: none;
+    }
+
+    .cloud-native-consulting .cncf-for-mobile {
+        display: none;
+    }
+
+    .cloud-native-consulting .case-studies-card img.image-for-desktop {
+        height: 320px;
+    }
+
+    .cloud-native-consulting .case-studies-card img.cncf-for-desktop {
+        height: auto;
+        width: 100%;
     }
     
 }
@@ -187,5 +250,18 @@
 
     .cloud-native-consulting .image-for-mobile {
         display: none;
+    }
+
+    .cloud-native-consulting .cncf-for-mobile {
+        display: none;
+    }
+
+    .cloud-native-consulting .case-studies-card img.image-for-desktop {
+        height: 350px;
+    }
+
+    .cloud-native-consulting .case-studies-card img.cncf-for-desktop {
+        height: auto;
+        width: 100%;
     }
 }
