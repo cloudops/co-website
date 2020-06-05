@@ -143,6 +143,7 @@
         text-align: center;
         background-size: 300px;
         background-position: 103% 103%;
+        padding-left: 15px;
     }
 
     .footer .footer-nav {
@@ -158,6 +159,11 @@
         position: relative; 
         left: 0;
     }
+
+    .footer .newsletter-form  input[type=text],
+    .footer .newsletter-form  input[type=email] {
+    width: 310px;
+}
 
 }
 

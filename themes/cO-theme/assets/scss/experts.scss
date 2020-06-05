@@ -1,7 +1,6 @@
 .experts
 .jumbotron.hero {
-    background-color: #005D91;
-    background-image: none;
+    background-image: linear-gradient(to bottom right, #7AAA43, #2C893D);
     border-top: 3px solid #005D91;
     margin-bottom: 0;
     color: #fff;
@@ -22,7 +21,8 @@
 
 .experts .case-studies-card h2 {
     text-align: center;
-    padding-top: 80px;
+    padding: 80px 0 0;
+    margin-bottom: 0;
 }
 
 .experts .case-studies-card .devops-case-study {
@@ -35,6 +35,67 @@
 
 .experts .case-studies-card .devops-case-study i {
     font-size: 30px;
+}
+
+.experts
+.back-foward.nav-buttons button {
+    background-color: transparent;
+    border:none;
+    color: #005D91;
+    box-shadow: none;
+    width: auto;
+    padding-top: 70px;
+}
+
+.experts
+.back-foward.nav-buttons .back-button-container {
+    text-align: center;
+}
+
+.experts
+.back-foward.nav-buttons button:hover {
+    text-decoration: underline;
+}
+
+.experts
+.back-foward.nav-buttons button .triangle-left {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 16px 10px 0;
+    border-color: transparent #005D91 transparent transparent;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+
+.experts
+.back-foward.nav-buttons button .inner-left-triangle {
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: 4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 10px 6px 0;
+    border-color: transparent #FFF transparent transparent;
+    transition-duration: 0.6s;
+    margin-bottom: 3px;
+}
+
+.experts
+.back-foward.nav-buttons button:hover .triangle-left {
+    border-color: transparent #005D91 transparent transparent;
+    transition-duration: 0.2s;
+}
+
+.experts
+.back-foward.nav-buttons button.btn:hover .inner-left-triangle {
+    border-color: transparent #005D91 transparent transparent;
+    transition-duration: 0.2s;
 }
 
 .experts .cta-cards .card-deck .card {

@@ -93,7 +93,7 @@ body h5 {
 }
 
 body h6 {
-    color: black;
+    color: #404040;
     font-size: 18px;
     font-weight: bold;
 }
@@ -150,7 +150,6 @@ ul li {
     list-style: none;
 }
 
-
 @import '/_hex-style.scss';
 @import '/navbar.scss';
 @import '/homepage.scss';
@@ -163,3 +162,10 @@ ul li {
 @import '/individual-workshops.scss';
 @import '/partners.scss';
 @import '/why-cloudops.scss';
+@import '/blog.scss';
+@import '/contact-us.scss';
+@import '/delivering-cloud.scss';
+@import '/delivering-cloud-consulting.scss';
+@import '/cloud-migration.scss';
+@import '/cloud-native-consulting.scss';
+@import '/blog-main.scss';

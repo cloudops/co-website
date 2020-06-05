@@ -1,0 +1,22 @@
+---
+title: "Why the cloud is (and needs to be) like Minecraft"
+lastmod: "2013-03-09"
+author: "CloudOps"
+class_name: "blog post"
+---
+
+<img src="/images/blog/post/minecraft.jpg" class="main-blog-image">
+
+<div><em>by Pierre-Luc Bisaillon</em></div>
+
+<div>If&nbsp;you have a young kid (or are a kid at heart), Minecraft doesn’t need any introduction. At last count 10M people had bought the game and at least 5 times as many are playing the demo or some mobile version. For the uninitiated, this seems odd. The graphics are awful, and it’s not even a real “game” – in other words, there’s no mission or objective to achieve and “win”.</div>
+
+<div>Yet seen another way, it has everything – it gives you the ability to create your own world, dig for resources, build house, complex structures, even complex machines (a mineral called “Red Stone” mimics electrical wires, and with switches and torches, players have built in-world binary machines such as calculators – here’s one of many <a href="http://www.youtube.com/watch?v=PiKWqpnqY7o">examples</a>).</div>
+
+<div>If it’s not obvious, I believe cloud is like Minecraft “for the real world” – in other works, it gives developers everything they want at their fingertips to build some really cool stuff. Sometimes as a business, sometimes <em>just because they can</em>. In a way it fulfils at least one of the three fundamental tenets of intrinsic motivations highlighted by Dan Pink in “Drive”: mastery (the desire and freedom to get better at stuff), autonomy (do what we want when we want, how we want) and a sense of purpose. Maybe the cloud (and Minecraft) actually cater to these three dimensions more than we think.</div>
+
+<div>This has important consequences for the markets of IaaS and PaaS that are catering to these developers. AWS continues to be the leader, and one of the reason is they have understood this and are providing developers with the right building blocks – first the basics (virtual machines) and then more and more services that run on these virtual machines (e.g. dB as a service).</div>
+
+<div>At the other extremes, some players leapfrogged the IaaS principles and offered a black-box PaaS. Microsoft Azure was probably the first to market, although they were so far ahead that the market (or at least, I) really understand what they were doing until the industry caught up with better definitions. Similarly Google first launched App Engine but realized that people don’t want the finished product – they want to see the building blocks, and then they are ok if these are grouped and automated for them. And so it adjusted and is now growing a Google Compute offering.</div>
+
+<div>Developers want mastery, autonomy and a sense of purpose, and they want easy-access to infrastructure resources that will let them build great apps. If that’s what they need to build better, more scalable and more profitable apps faster – shouldn’t we give them what they want?</div>

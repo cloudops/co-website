@@ -1,7 +1,6 @@
 .using-cloud
 .jumbotron.hero {
-    background-color: #005D91;
-    background-image: none;
+    background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
     border-top: 3px solid #005D91;
     margin-bottom: 0;
     color: #fff;
@@ -36,20 +35,14 @@
     font-weight: 400;
 }
 
-.using-cloud .cta {
-    padding-left: 0;
-    text-align: left;
-}
-
 .using-cloud button {
     background-color:#005D91;
     width: 230px;
     height: 35px;
     border-radius: 4px;
-    box-shadow: #979797 0 2px 4px 0;
+    box-shadow: none;
     color: #FFF;
     padding: 0 10px;
-    text-align: left;
     font-family: 'Open Sans';
     font-size: 18px;
     transition-duration: 0.6s;
@@ -63,43 +56,12 @@
     color: #005D91;
 }
 
-.using-cloud button .triangle-right {
-    display: inline-block;
-    position: relative;
-    margin-left: 80px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px 0 10px 16px;
-    border-color: transparent transparent transparent #fff;
-    vertical-align: middle;
-    transition-duration: 0.6s;
-    margin-bottom: 3px;
+.using-cloud .cta {
+    padding-left: 0;
 }
 
-.using-cloud button .inner-triangle {
-    display: inline-block;
-    position: absolute;
-    top: -6px;
-    left: -14px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 6px 0 6px 10px;
-    border-color: transparent transparent transparent #005D91;
-    transition-duration: 0.6s;
-    margin-bottom: 3px;
-}
-
-.using-cloud button:hover .triangle-right {
-    border-color: transparent transparent transparent #005D91;
-    margin-left: 110px;
-    transition-duration: 0.6s;
-}
-
-.using-cloud button.btn:hover .inner-triangle {
-    border-color: transparent transparent transparent #fff;
-    transition-duration: 0.6s;
+.using-cloud .triple-cta-button .cta .btn {
+    margin: 15px 0;
 }
 
 .using-cloud .case-studies-card .devops-case-study {
@@ -108,12 +70,6 @@
 
 .using-cloud .case-studies-card .devops-case-study h2 {
     margin-top: 200px;
-}
-
-.using-cloud .triple-cta {
-    border-top: 2px solid #FFE07F;
-    margin: 50px 230px;
-    padding-top: 50px;
 }
 
 .using-cloud .cta-cards .card-deck .card {
@@ -222,10 +178,6 @@
         margin: 30px auto;
     }
 
-    .using-cloud .triple-cta {
-        margin: 50px 150px 50px 10px;
-    }
-
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -296,10 +248,6 @@
     .using-cloud .cta-cards .card-deck .card {
         min-width: 270px;
     }
-
-    .using-cloud .triple-cta {
-        margin: 50px 150px 50px 10px;
-    }
 }
 
 
@@ -354,9 +302,6 @@
         min-width: 270px;
     }
 
-    .using-cloud .triple-cta {
-        margin: 50px 70px 50px 50%;
-    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -403,9 +348,6 @@
         min-width: 260px;
     }
 
-    .using-cloud .triple-cta {
-        margin: 50px 100px;
-    }
 }
 
 @media (min-width: 1200px) {
@@ -450,16 +392,5 @@
 
     .using-cloud.cta-cards .card-deck .card {
         min-width: 260px;
-    }
-
-   
-    .using-cloud .triple-cta img {
-        transform: rotate(90deg);
-        margin-bottom: 90px;
-        margin-left: -35px;
-    }
-
-    .using-cloud .triple-cta {
-        border: none;
     }
 }

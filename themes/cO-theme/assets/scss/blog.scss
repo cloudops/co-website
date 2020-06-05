@@ -1,0 +1,270 @@
+.post {
+    border-top: 2px solid #005D91;
+}
+
+.post h1 {
+    color: #005D91;
+    font-size: 34px;
+}
+
+.post .main-blog-image {
+    width: 80%;
+}
+
+.post h2 {
+    color: #005D91;
+    font-size: 24px;
+}
+
+.post p {
+    line-height: 1.6;
+    padding: 10px 0;
+}
+
+.post pre {
+    background-color: #D8D8D8;
+    margin: 30px 16.6666%;
+    padding: 0 15px;
+    border: solid 1px #979797;
+    border-radius: 8px;
+    color: #404040;
+    font-size: 16px;
+}
+
+.post ul li {
+    font-size: 18px;
+    line-height: 2;
+    color: #404040;
+    padding-left: 8%;
+}
+
+.post .tabbed-text {
+    padding-left: 8%;
+}
+
+.post .cta-image {
+    width: 100%;
+    padding: 40px 0; 
+    text-align: center;
+}
+
+.post
+.back-foward.nav-buttons button {
+    background-color: transparent;
+    border:none;
+    color: #fff;
+    box-shadow: none;
+    width: auto;
+}
+
+
+.post
+.back-foward.nav-buttons button:hover {
+    text-decoration: underline;
+}
+
+
+.post
+.back-foward.nav-buttons button .triangle-right {
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 16px;
+    border-color: transparent transparent transparent #fff;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+
+.post
+.back-foward.nav-buttons.nav-buttons button .inner-triangle {
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: -14px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 6px 10px;
+    border-color: transparent transparent transparent #005D91;
+    transition-duration: 0.6s;
+    margin-bottom: 3px;
+}
+
+.post
+.back-foward.nav-buttons button:hover .triangle-right {
+    border-color: transparent transparent transparent #fff;
+    transition-duration: 0.2s;
+}
+
+.post
+.back-foward.nav-buttons button.btn:hover .inner-triangle {
+    border-color: transparent transparent transparent #fff;
+    transition-duration: 0.2s;
+}
+
+.post
+.back-foward.nav-buttons button .triangle-left {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 16px 10px 0;
+    border-color: transparent #fff transparent transparent;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+
+.post 
+.back-foward.nav-buttons button .inner-left-triangle {
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    left: 4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 10px 6px 0;
+    border-color: transparent #005D91 transparent transparent;
+    transition-duration: 0.6s;
+    margin-bottom: 3px;
+}
+
+.post 
+.back-foward.nav-buttons button:hover .triangle-left {
+    border-color: transparent #fff transparent transparent;
+    transition-duration: 0.2s;
+}
+
+.post 
+.back-foward.nav-buttons button.btn:hover .inner-left-triangle {
+    border-color: transparent #fff transparent transparent;
+    transition-duration: 0.2s;
+}
+
+
+.post
+.back-foward.in-content.nav-buttons {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.post
+.back-foward.in-content.nav-buttons button {
+    color: #005D91;
+}
+
+.post
+.back-foward.in-content.nav-buttons button .triangle-right {
+    border-color: transparent transparent transparent #005D91;
+}
+
+.post
+.back-foward.in-content.nav-buttons.nav-buttons button .inner-triangle {
+    border-color: transparent transparent transparent #fff;
+}
+
+.post
+.back-foward.in-content.nav-buttons button:hover .triangle-right {
+    border-color: transparent transparent transparent #005D91;
+}
+
+.post
+.back-foward.in-content.nav-buttons button.btn:hover .inner-triangle {
+    border-color: transparent transparent transparent #005D91;
+}
+
+.post
+.back-foward.in-content.nav-buttons button .triangle-left {
+    border-color: transparent #005D91 transparent transparent;
+}
+
+.post 
+.back-foward.in-content.nav-buttons button .inner-left-triangle {
+    border-color: transparent #fff transparent transparent;
+}
+
+.post 
+.back-foward.in-content.nav-buttons button:hover .triangle-left {
+    border-color: transparent #005D91 transparent transparent;
+}
+
+.post 
+.back-foward.in-content.nav-buttons button.btn:hover .inner-left-triangle {
+    border-color: transparent #005D91 transparent transparent;
+}
+
+.post 
+.back-foward.in-content.nav-buttons .back-button {
+    text-align: left;
+}
+
+.post 
+.back-foward.in-content.nav-buttons .foward-button {
+    text-align: right;
+    padding-right: 0;
+}
+
+.post .social {
+    border-top: solid 2px #FFE07F;
+    border-bottom: solid 2px #FFE07F;
+    padding: 35px 0;
+    margin: 0 16.6666% 200px;
+    text-align: center;
+
+}
+
+.post .social i {
+    color: #005D91;
+    font-size: 30px;
+    padding: 0 5px;
+    vertical-align: top;
+
+}
+
+
+.alignleft {
+    padding: 0 10px 10px 0;
+    float: left;
+}
+
+
+
+@media (max-width: 575.98px) {
+
+    .post {
+        margin-left: 15px;
+    }
+
+    .post 
+    .back-foward.in-content.nav-buttons .back-button {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    
+    .post 
+    .back-foward.in-content.nav-buttons .foward-button {
+        text-align: center;
+    }
+
+    .post img {
+        max-width: 100%;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .post {
+        margin-left: 15px;
+    }
+
+    .post img {
+        max-width: 100%;
+    }
+
+}
