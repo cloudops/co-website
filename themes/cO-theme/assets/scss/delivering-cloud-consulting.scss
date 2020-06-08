@@ -1,0 +1,191 @@
+.delivering-cloud-consulting
+.jumbotron.hero {
+    background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
+    border-top: 3px solid #005D91;
+    padding: 130px 0;
+    margin-bottom: 0;
+}
+
+.delivering-cloud-consulting .case-studies-card h2 {
+    text-align: center;
+}
+
+.delivering-cloud-consulting
+.jumbotron.hero h1 {
+    text-align: left;
+}
+
+.delivering-cloud-consulting
+.jumbotron.hero img {
+    position: absolute;
+    top: -120px;
+    left: 70px;
+}
+
+.delivering-cloud-consulting .case-studies-card img {
+    position: static;
+    height: 200px;
+    width: auto;
+    padding-bottom: 25px;
+}
+
+.delivering-cloud-consulting .case-studies-card img.image-for-mobile {
+    position: static;
+    width: 100px;
+    height: auto;
+}
+
+.delivering-cloud-consulting .case-studies-card img.icons {
+    width: 30px;
+    height: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: inline;
+}
+
+.delivering-cloud-consulting .bot-img {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+}
+
+.delivering-cloud-consulting .case-studies-card .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.delivering-cloud-consulting .case-studies-card .with-bottom-line {
+    border-bottom: 2px solid #FFE07F;
+    margin-left: 16.666667%;
+    margin-right: 16.666667%;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+.delivering-cloud-consulting .case-studies-card .without-bottom-line .devops-case-study {
+    border-bottom: none;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+
+@media (max-width: 575.98px) {
+    .delivering-cloud-consulting
+    .jumbotron.hero h1 {
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .delivering-cloud-consulting
+    .jumbotron.hero h2 {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .delivering-cloud-consulting
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 280px;
+        left: 0;
+    }
+
+    .delivering-cloud-consulting .hero-image-container {
+        text-align: left;
+    }
+
+    .delivering-cloud-consulting .case-studies-card img {
+        height: 150px;
+        width: auto;
+    }
+    .delivering-cloud-consulting .image-for-desktop {
+        display: none;
+    }
+
+    .delivering-cloud-consulting .bot-img {
+        text-align: center;
+    }
+    
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .delivering-cloud-consulting
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 430px;
+        left: 0;
+    }
+
+    .delivering-cloud-consulting .hero-image-container {
+        text-align: left;
+    }
+
+    .delivering-cloud-consulting .case-studies-card img {
+        height: 170px;
+        width: auto;
+    }   
+    .delivering-cloud-consulting .image-for-desktop {
+        display: none;
+    } 
+
+    .delivering-cloud-consulting .bot-img {
+        text-align: center;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .delivering-cloud-consulting
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        left: 0;
+    }
+
+    .delivering-cloud-consulting .hero-image-container {
+        text-align: left;
+    }
+
+    .delivering-cloud-consulting .case-studies-card img {
+        height: 175px;
+        width: auto;
+    }
+    
+    .delivering-cloud-consulting .image-for-mobile {
+        display: none;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .delivering-cloud-consulting
+    .jumbotron.hero img {
+        width: 360px;
+    }
+
+    .delivering-cloud-consulting .image-for-mobile {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .delivering-cloud-consulting .hero-image-container {
+        text-align: left;
+    }
+
+    .delivering-cloud-consulting
+    .jumbotron.hero img {
+        left: 20px;
+        top: -120px;
+    }
+
+    .delivering-cloud-consulting .image-for-mobile {
+        display: none;
+    }
+}
