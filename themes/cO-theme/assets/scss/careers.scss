@@ -1,0 +1,200 @@
+/************  About Us page  ***************/
+
+.careers
+.jumbotron.hero {
+    background-image: linear-gradient(to bottom right, #FFE07F, #FFD44C);
+    border-top: 3px solid #005D91;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.careers
+.jumbotron.hero h1,
+.careers
+.jumbotron.hero h2 {
+    text-align: right;
+    color: #404040;
+}
+
+.careers
+.jumbotron.hero img {
+    position: absolute;
+    top: -170px;
+}
+
+.careers .case-studies-card .with-bottom-line {
+    border-bottom: 2px solid #FFE07F;
+    margin-left: 16.666667%;
+    margin-right: 16.666667%;
+    margin-bottom: 100px;
+    padding-bottom: 80px;
+}
+
+.careers .case-studies-card h2 {
+    text-align: center;
+}
+
+.careers .case-studies-card .main-content-col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.careers .case-studies-card img {
+    position: static;
+}
+
+.careers .case-studies-card .cloudops-values {
+    text-align: center;
+}
+
+.careers .case-studies-card .cloudops-values img {
+    width: auto;
+    height: 230px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.careers .case-studies-card .cloudops-values h4 {
+    margin-bottom: 8px;
+}
+
+
+.careers .case-studies-card .work-from-home h2 {
+    text-align: left;
+}
+
+.careers .case-studies-card .col-for-careers-grid {
+    overflow: hidden;
+}
+
+.careers .case-studies-card .all-content-row {
+    text-align: center;
+}
+
+.careers .social-following {
+    text-align: center;
+}
+
+.careers .social-following i {
+    font-size: 40px;
+    color: #62B5E5;
+    margin: 20px 10px 0 10px;
+}
+
+.careers .lever-integration {
+    margin-right: 0;
+}
+
+.careers .lever-integration .card-deck .card {
+    background-color: #FFF;
+    box-shadow: 2px 2px 8px #E2E2E2;
+    border-radius: 0;
+    border: 1px solid rgba(0,0,0,.125);
+    margin: 15px auto;
+    float: none;
+}
+
+.careers #lever-jobs-container .lever-department-title {
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.careers #lever-jobs-container .lever-team-title {
+font-family: 'Open Sans', sans-serif;
+color: #404040;
+font-size: 18px;
+font-weight: bold;
+}
+
+.careers #lever-jobs-container .lever-job-tag {
+    display: none;
+}
+
+.careers #lever-jobs-container .lever-job-title {
+    display: block;
+    text-decoration: none;
+    color: #005D91;
+}
+
+.careers #lever-jobs-container .lever-job-title:hover {
+    text-decoration: underline;
+    color: #005D91;
+}
+
+.careers #lever-jobs-container li.lever-job {
+    display: block;
+    text-align: left;
+}
+
+
+@media (max-width: 575.98px) {
+    .careers
+    .jumbotron.hero h1 {
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .careers
+    .jumbotron.hero h2 {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .careers
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 280px;
+    }
+
+    .careers .hero-image-container {
+        text-align: left;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .careers
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 430px;
+    }
+
+    .careers .hero-image-container {
+        text-align: right;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .careers
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+    }
+
+    .careers .hero-image-container {
+        text-align: right;
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .careers
+    .jumbotron.hero img {
+        left: 0;
+        top: -40px;
+        width: 400px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .careers .hero-image-container {
+        text-align: left;
+    }
+}

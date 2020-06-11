@@ -50,33 +50,31 @@
 }
 
 .about-us .case-studies-card img {
+    position: static;
     width: 230px;
+    height: auto;
     padding-bottom: 40px;
 }
 
-.about-us.case-studies-card .all-content-row {
-    height: 470px;
-}
-.about-us .case-studies-card .affiliated-companies-row {
-    position: relative;
-    padding-top: 390px;
+.about-us .case-studies-card .all-content-row {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 100px;
 }
 
-.about-us .case-studies-card .affiliated-companies-row .affiliated-companies-first-col {
-    position: absolute;
-    bottom: 0;
+.about-us .case-studies-card .all-content-row img {
+    height: 90px;
+    width: auto;
 }
 
-.about-us .case-studies-card .affiliated-companies-row .affiliated-companies-second-col {
-    position: absolute;
-    bottom: 0;
-    right: 33%;
+
+.about-us .brand-promises-card .promise img {
+    margin: 35px 0 25px;
 }
 
-.about-us .case-studies-card .affiliated-companies-row .affiliated-companies-last-col {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+.about-us .affiliated-companies {
+    padding-left: 25px;
+    padding-right: 0;
 }
 
 @media (max-width: 575.98px) {
@@ -127,6 +125,10 @@
         width: 300px;
         margin: 50px 0 20px;
     }
+
+    .about-us .case-studies-card .all-content-row {
+        padding-top: 0;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -153,9 +155,7 @@
     }
 
     .about-us .devops-case-study img {
-        position: relative;
         text-align: left;
-        margin-bottom: 50px;
         margin-top: 100px;
     }
 

@@ -111,6 +111,7 @@
 .docker-k8s-page .workshop-description {
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-left: 15px;
 }
 .docker-k8s-page .workshop-description p {
     line-height: 1.8;
@@ -142,9 +143,10 @@
 
 .docker-k8s-page .double-button-row {
     margin: 70px 0 30px;
+    text-align: center;
 }
 
-.docker-k8s-page .double-button-row button{
+.docker-k8s-page .double-button-row button {
     text-align: center;
     margin: 0 30px;
 }
@@ -181,8 +183,7 @@
 
 .docker-k8s-page .workshop-description .course-outline h2 {
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding: 50px 30px 30px;
 }
 
 
@@ -208,22 +209,6 @@
     border-radius: 4px;
     box-shadow: none;
     color: #005D91;
-}
-
-.docker-k8s-page button#calendar-button .triangle-right {
-    margin-left: 70px;
-}
-
-.docker-k8s-page button#calendar-button:hover .triangle-right {
-    margin-left: 130px;
-}
-
-.docker-k8s-page button#more-info-button .triangle-right {
-    margin-left: 20px;
-}
-
-.docker-k8s-page button#more-info-button:hover .triangle-right {
-    margin-left: 50px;
 }
 
 .docker-k8s-page
@@ -286,4 +271,60 @@
 
 .docker-k8s-page .workshop-description .exam-cta h2 {
     padding-bottom: 30px;
+}
+
+
+@media (max-width: 575.98px) {
+    .docker-k8s-page .course-outline {
+        text-align: center;
+    }
+
+.docker-k8s-page #calendar-button {
+    margin-bottom: 15px;
+}
+
+.docker-k8s-page .double-button-row button {
+    margin: 0 30px 0 10px;
+}
+
+.docker-k8s-page
+.back-foward.in-content.nav-buttons button {
+    margin-bottom: 0;
+}
+
+.docker-k8s-page
+.back-foward.nav-buttons button {
+    margin-bottom: 0;
+}
+
+.docker-k8s-page .jumbotron.hero h1 {
+    font-size: 50px;
+}
+
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+.docker-k8s-page .course-outline {
+    text-align: center;
+}
+
+.docker-k8s-page #calendar-button {
+    margin-bottom: 15px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .docker-k8s-page .course-outline {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 1200px) {
+
 }
