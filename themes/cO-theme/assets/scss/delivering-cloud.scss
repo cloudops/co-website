@@ -1,0 +1,242 @@
+/************  Solutions page  ***************/
+
+
+.delivering-cloud
+.jumbotron.hero {
+    background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
+    border-top: 3px solid #005D91;
+    margin-bottom: 0;
+}
+
+.delivering-cloud
+.jumbotron.hero h1 {
+    text-align: right;
+}
+
+.delivering-cloud
+.jumbotron.hero img {
+    position: absolute;
+}
+
+.delivering-cloud
+.brand-promises-card {
+    background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png"), url("../images/triangledots-left.svg"), url("../images/triangledots-left.svg");
+    background-position: left bottom, right top, left top, right top;
+    background-repeat: no-repeat, no-repeat, repeat-y, repeat-y;
+}
+
+.delivering-cloud .brand-promises-card h2 {
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.delivering-cloud .brand-promises-card img {
+    margin-top: 50px;
+}
+
+.delivering-cloud .case-studies-card .devops-case-study {
+    border-bottom: none;
+}
+
+.delivering-cloud .case-studies-card .devops-case-study h2 {
+    margin-top: 200px;
+}
+
+.delivering-cloud .cta {
+    padding-left: 0;
+    text-align: left;
+}
+
+.delivering-cloud button {
+    background-color:#005D91;
+    width: 250px;
+    height: 35px;
+    border-radius: 4px;
+    box-shadow: #979797 0 2px 4px 0;
+    color: #FFF;
+    padding: 0 10px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    transition-duration: 0.6s;
+}
+
+.delivering-cloud button:hover {
+    background-color:#fff;
+    border: 1px solid #005D91;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #005D91;
+}
+
+.delivering-cloud .brand-promises-card h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 575.98px) {
+    .delivering-cloud
+    .jumbotron.hero h1 {
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .delivering-cloud
+    .jumbotron.hero h2 {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .delivering-cloud
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 280px;
+    }
+
+    .delivering-cloud .brand-promises-card h2 {
+        text-align: center;
+    }
+
+    .delivering-cloud .hero-image-container {
+        text-align: left;
+    }
+
+    .delivering-cloud .case-studies-card h2 {
+       text-align: left;
+    }
+
+    .delivering-cloud .case-studies-card p {
+        text-align: left;
+     }
+
+    .delivering-cloud .case-studies-card .devops-case-study h2 {
+        margin-top: 0;
+    }
+
+    .delivering-cloud .case-studies-card .why-image-container {
+        text-align: left;
+    }
+
+    .delivering-cloud .devops-case-study img {
+        left: 0;
+        top: 0;
+        position: relative;
+        width: 300px;
+        margin: 50px 0 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .delivering-cloud
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 430px;
+    }
+
+    .delivering-cloud
+    .case-studies-card {
+        padding-top: 0;
+    }
+    
+    .delivering-cloud .case-studies-card .devops-case-study h2 {
+        margin-top: 0;
+    }
+
+    .delivering-cloud .hero-image-container {
+        text-align: right;
+    }
+
+    .delivering-cloud .devops-case-study img {
+        position: relative;
+        text-align: left;
+        margin-bottom: 50px;
+        margin-top: 100px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .delivering-cloud
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+    }
+
+    .delivering-cloud .hero-image-container {
+        text-align: right;
+    }
+    
+    .delivering-cloud .brand-promises-card p {
+        text-align: center;
+    }
+
+    .delivering-cloud .brand-promises-card img {
+        height: 150px;
+        text-align: center;
+    }
+
+    .delivering-cloud .devops-case-study img {
+        margin-top: 80%;
+        width: 120%;
+    }
+
+    .delivering-cloud
+    .case-studies-card {
+        padding-top: 0;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .delivering-cloud
+    .jumbotron.hero img {
+        left: 0;
+        top: -40px;
+        width: 400px;
+    }
+
+
+    .delivering-cloud .brand-promises-card h2 {
+        text-align: left;
+    }
+
+    .delivering-cloud .devops-case-study img {
+        margin-top: 50%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .delivering-cloud
+    .jumbotron.hero img {
+        left: 0;
+        top: -250px;
+    }
+
+    .delivering-cloud .hero-image-container {
+        text-align: left;
+    }
+
+    .delivering-cloud .brand-promises-card h2 {
+        text-align: left;
+    }
+    .delivering-cloud .devops-case-study img {
+        margin-top: 50%;
+        width: 380px;
+    }
+
+    .delivering-cloud
+    .case-studies-card {
+        padding-top: 0;
+    }
+}
+
+
+
+.delivering-cloud .btn {
+    width: max-content;
+}
