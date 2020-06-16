@@ -194,12 +194,12 @@
         padding-bottom: 30px;
     }
  
-     .experts .devops-case-study img {
-         left: 0;
-         top: 0;
-         position: relative;
-         margin: 50px 0 20px;
-     }
+    .experts .devops-case-study img {
+        position: static;
+        text-align: left;
+        margin-bottom: 30px;
+        margin-top: 45px;
+    }
 
      .experts .contact-us-card {
          padding-left: 30px;
@@ -241,12 +241,12 @@
     }
 
     .experts .devops-case-study img {
-        position: relative;
+        position: static;
         text-align: left;
-        margin-bottom: 50px;
-        margin-top: 100px;
+        margin-bottom: 30px;
+        margin-top: 45px;
     }
-
+s
 
     .experts .contact-us-card {
         background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.png");
@@ -290,8 +290,7 @@
     }
 
     .experts .devops-case-study img {
-        margin-top: 60%;
-        width: 120%;
+        margin-top: 20%;
     }
 
     .experts
@@ -334,7 +333,7 @@
         padding-top: 0;
     }
     .experts .devops-case-study img {
-        margin-top: 50%;
+        margin-top: 20%;
     }
 
     .experts .contact-us-card {
@@ -382,7 +381,6 @@
 
     .experts .devops-case-study img {
         margin-top: 30%;
-        width: 380px;
     }
 
     .experts

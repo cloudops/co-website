@@ -148,6 +148,10 @@ ul {
 }
 ul li {
     list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+    font-size: 18px;
+    line-height: 1.4;
 }
 
 @import '/_hex-style.scss';
@@ -170,3 +174,4 @@ ul li {
 @import '/cloud-native-consulting.scss';
 @import '/blog-main.scss';
 @import '/careers.scss';
+@import '/managed-services.scss';
