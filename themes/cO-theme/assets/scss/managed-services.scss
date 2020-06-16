@@ -1,0 +1,186 @@
+.managed-services
+.jumbotron.hero {
+    background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
+    border-top: 3px solid #005D91;
+    margin-bottom: 0;
+}
+
+.managed-services
+.jumbotron.hero h1 {
+    text-align: left;
+    color: #FFF;
+}
+
+.managed-services
+.jumbotron.hero img {
+    position: absolute;
+    top: -140px;
+}
+
+.managed-services .case-studies-card img {
+    position: static;
+    height: 200px;
+    width: auto;
+    padding-bottom: 25px;
+}
+
+.managed-services .case-studies-card .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.managed-services .case-studies-card {
+    background-image: url("../images/blue-dots-LEFT.png"), url("../images/yellow-dots-LEFT.png"), url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
+    background-position: left top, left top, right top, right top;
+    background-repeat: repeat-y, repeat-y, repeat-y, repeat-y;
+}
+
+.managed-services .three-round-images {
+    text-align: center;
+}
+
+
+.managed-services .stand-out {
+    background-color: #F2F5F7;
+    background-image: none;
+    text-align: center;
+
+}
+
+.managed-services .stand-out h2 {
+    text-align: center;
+}
+
+.managed-services .stand-out h3.chart-row-title {
+    background-color: #005D91;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.4;
+    font-weight: 200;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+.managed-services .stand-out .card-deck .card {
+    background-color: #FFF;
+    box-shadow: 2px 2px 8px #E2E2E2;
+    border-radius: 0;
+    border: 1px solid rgba(0,0,0,.125);
+    vertical-align: middle;
+    float: none;
+    height: 130px;
+    min-width: 230px;
+    max-width: 230px;
+    margin: 10px 20px 10px 0;
+}
+
+.managed-services .stand-out .card-deck {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.managed-services .stand-out .card-deck .card:hover {
+    box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2);
+}
+
+.managed-services .stand-out .card-deck .card img {
+    width: 170px;
+    padding: 30px 0;
+}
+
+.managed-services .stand-out .card-deck .card > a {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+@media (max-width: 575.98px) {
+    .managed-services
+    .jumbotron.hero h1 {
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .managed-services
+    .jumbotron.hero h2 {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .managed-services
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 280px;
+    }
+
+    .managed-services .hero-image-container {
+        text-align: left;
+    }
+
+    .managed-services .case-studies-card img {
+        height: 150px;
+        width: auto;
+    }
+
+    .managed-services .case-studies-card .challenges-card h6 {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .managed-services
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 430px;
+    }
+
+    .managed-services .hero-image-container {
+        text-align: left;
+    }
+
+    .managed-services .case-studies-card img {
+        height: 170px;
+        width: auto;
+    }   
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .managed-services
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+    }
+
+    .managed-services .hero-image-container {
+        text-align: left;
+    }
+    .managed-services .case-studies-card img {
+        height: 175px;
+        width: auto;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .managed-services
+    .jumbotron.hero img {
+        left: 30px;
+        top: -225px;
+        width: 360px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .managed-services .hero-image-container {
+        text-align: left;
+    }
+
+    .managed-services
+    .jumbotron.hero img {
+        left: 30px;
+        top: -200px;
+    }
+}

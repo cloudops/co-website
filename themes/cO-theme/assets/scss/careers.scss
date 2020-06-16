@@ -22,6 +22,13 @@
     top: -170px;
 }
 
+.careers
+.jumbotron.hero .framed-image {
+    border: 15px solid #fff;
+    box-shadow: 0px 0px 10px 3px rgba(65,65,65,0.3);
+    transform: rotate(-5deg);
+}
+
 .careers .case-studies-card .with-bottom-line {
     border-bottom: 2px solid #FFE07F;
     margin-left: 16.666667%;
@@ -32,6 +39,11 @@
 
 .careers .case-studies-card h2 {
     text-align: center;
+}
+
+.careers .case-studies-card .col-for-careers-grid img {
+    width: 311px;
+    height: auto;
 }
 
 .careers .case-studies-card .main-content-col {

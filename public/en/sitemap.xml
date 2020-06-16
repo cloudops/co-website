@@ -748,42 +748,31 @@
   </url>
   
   <url>
-    <loc>/advanced-containers-kubernetes/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/ci-cd/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/devops-monitoring/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/infrastructure-as-code/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/kubernetes-machine-learning/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/openshift/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/secrets-mananagement/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/about-us/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/about-us/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/about-us/"
+                />
+  </url>
+  
+  <url>
+    <loc>/advanced-docker-kubernetes/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/advanced-docker-kubernetes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/advanced-docker-kubernetes/"
+                />
   </url>
   
   <url>
@@ -805,7 +794,17 @@
   </url>
   
   <url>
-    <loc>/delivering-cloud-consulting/</loc>
+    <loc>/ci-cd/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/ci-cd/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/ci-cd/"
+                />
   </url>
   
   <url>
@@ -825,7 +824,49 @@
   </url>
   
   <url>
+    <loc>/delivering-cloud-consulting/</loc>
+  </url>
+  
+  <url>
+    <loc>/devops-monitoring/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/devops-monitoring/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/devops-monitoring/"
+                />
+  </url>
+  
+  <url>
     <loc>/docker-kubernetes/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/docker-kubernetes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docker-kubernetes/"
+                />
+  </url>
+  
+  <url>
+    <loc>/infrastructure-as-code/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/infrastructure-as-code/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/infrastructure-as-code/"
+                />
   </url>
   
   <url>
@@ -837,7 +878,39 @@
   </url>
   
   <url>
+    <loc>/kubernetes-machine-learning/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/kubernetes-machine-learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/kubernetes-machine-learning/"
+                />
+  </url>
+  
+  <url>
     <loc>/managed-services-augmented-support/</loc>
+  </url>
+  
+  <url>
+    <loc>/monolith-microservices/</loc>
+  </url>
+  
+  <url>
+    <loc>/openshift/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/openshift/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/openshift/"
+                />
   </url>
   
   <url>
@@ -846,6 +919,20 @@
   
   <url>
     <loc>/reading/</loc>
+  </url>
+  
+  <url>
+    <loc>/secrets-mananagement/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/secrets-mananagement/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/secrets-mananagement/"
+                />
   </url>
   
   <url>

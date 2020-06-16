@@ -890,5 +890,94 @@ Cloud n’est pas encore bien défini
 De nombreux intervenants se sont tout simplement lancés dans des présentations des nuages et des&amp;nbsp;slides&amp;nbsp;sur le marché sans définition claire de ce qu’ils voulaient dire par les nuages.</description>
     </item>
     
+    <item>
+      <title>Atelier Apprentissage automatique et Kubernetes</title>
+      <link>/fr/kubernetes-machine-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/kubernetes-machine-learning/</guid>
+      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     Au cours de cet atelier, vous apprendrez:
+ À exécuter des déploiements de flux de travail d’apprentissage automatique sur Kubernetes afin de les rendre simples, portables et évolutifs à l’aide d’outils libres.  Atelier indépendant 2 jours: 4000 $ / participant (minimum 6 participants)</description>
+    </item>
+    
+    <item>
+      <title>Atelier Docker et Kubernetes</title>
+      <link>/fr/docker-kubernetes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/docker-kubernetes/</guid>
+      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     Cet atelier phare de CloudOps couvre les principes d’architecture des microservices, puis aborde la mécanique de l’outillage de conteneur, qui constitue désormais un modèle clé pour le développement d’applications.
+Nos ateliers sont basés sur Linux.</description>
+    </item>
+    
+    <item>
+      <title>Atelier Gestion des secrets</title>
+      <link>/fr/secrets-mananagement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/secrets-mananagement/</guid>
+      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     Au cours de cet atelier, vous apprendrez:
+ À utiliser Hashicorp Vault, un outil fiable pour la gestion des secrets et la protection des données; Quels sont les composants opérationnels et techniques pour intégrer des secrets Vault dans des applications.</description>
+    </item>
+    
+    <item>
+      <title>Atelier Infrastructure en tant que code</title>
+      <link>/fr/infrastructure-as-code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/infrastructure-as-code/</guid>
+      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     Au cours de cet atelier, vous apprendrez:
+ Comment Hashicorp Terraform de Hashicorp est un outil d’infrastructure multi-plateformes qui vous permet d’utiliser le même outillage sur plusieurs plateformes afin d’automatiser l’infrastructure; Comment Ansible peut être utilisé pour gérer les configurations d’applications distantes et les installations de machines virtuelles bâties sur votre déploiement de l’infrastructure Terraform.</description>
+    </item>
+    
+    <item>
+      <title>Atelier OpenShift</title>
+      <link>/fr/openshift/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/openshift/</guid>
+      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     Au cours de cet atelier, vous apprendrez:
+À installer, gérer et utiliser la plateforme de conteneur Red Hat OpenShift pour déployer vos applications d’entreprise. Durée: 2 ou 3 jours
+OpenShift en deux jours: 2500 $ / participant (minimum de 6 participants)</description>
+    </item>
+    
+    <item>
+      <title>Atelier Opérations Docker et Kubernetes – Niveau avancé</title>
+      <link>/fr/advanced-docker-kubernetes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/advanced-docker-kubernetes/</guid>
+      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     Au cours de cet atelier, vous apprendrez:
+ - Opérations quotidiennes et bonnes pratiques de Kubernetes; - Concepts avancés à propos de la haute disponibilité, la sécurisation, la journalisation et la surveillance de Kubernetes.</description>
+    </item>
+    
+    <item>
+      <title>Atelier Surveillance des DevOps</title>
+      <link>/fr/devops-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/devops-monitoring/</guid>
+      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     Dans cet atelier, nous explorons les outils de surveillance des applications et des infrastructures (libres et propriétaires), les configurations, la surveillance des performances d’application (“APM”), ainsi que la modification et la visualisation des données à l’aide de travaux pratiques.</description>
+    </item>
+    
+    <item>
+      <title>Formation CI/CD</title>
+      <link>/fr/ci-cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/ci-cd/</guid>
+      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     Au cours de cet atelier, vous apprendrez:
+Quels sont les outils et les bonnes pratiques pour créer, tester et livrer des logiciels et pour améliorer et automatiser votre pipeline de livraison. Durée: 1 jour</description>
+    </item>
+    
+    <item>
+      <title>À propos de CloudOps | Soyez maître de votre destin dans le nuage™</title>
+      <link>/fr/about-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/about-us/</guid>
+      <description>À propos de CloudOps   CloudOps est une entreprise de consultation, de services gérés et de logiciels en infonuagique axée sur la source libre, les plateformes en nuage natif, la mise en réseau et le DevOps.        Historique Fondée en 2005 par Ian Rae afin de répondre aux besoins d&#39;infrastructure des organisations axées sur les logiciels, CloudOps a connu une croissance constante et organique, passant d&#39;une boutique de services gérés d’opérations à un leader des solutions infonuagiques, des mises en réseau sur le nuage et du DevOps.</description>
+    </item>
+    
   </channel>
 </rss>

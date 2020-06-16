@@ -1,4 +1,3 @@
-/************  Solutions page  ***************/
 
 
 .delivering-cloud
@@ -9,7 +8,9 @@
 }
 
 .delivering-cloud
-.jumbotron.hero h1 {
+.jumbotron.hero h1,
+.delivering-cloud
+.jumbotron.hero h2 {
     text-align: right;
 }
 
@@ -21,7 +22,7 @@
 .delivering-cloud
 .brand-promises-card {
     background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png"), url("../images/triangledots-left.svg"), url("../images/triangledots-left.svg");
-    background-position: left bottom, right top, left top, right top;
+    background-position: left bottom, right top, 5% 0%, 95% 0%;
     background-repeat: no-repeat, no-repeat, repeat-y, repeat-y;
 }
 
@@ -32,6 +33,13 @@
 
 .delivering-cloud .brand-promises-card img {
     margin-top: 50px;
+}
+
+.delivering-cloud
+.case-studies-card {
+    background-image: url("../images/blue-dots-LEFT.png"), url("../images/yellow-dots-LEFT.png"), url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
+    background-position: left top, left top, right top, right top;
+    background-repeat: repeat-y, repeat-y, repeat-y, repeat-y;
 }
 
 .delivering-cloud .case-studies-card .devops-case-study {
@@ -75,6 +83,22 @@
 }
 
 @media (max-width: 575.98px) {
+    .delivering-cloud
+    .brand-promises-card {
+        background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+        background-position: left bottom, right top;
+        background-repeat: no-repeat, no-repeat;
+        padding-left: 15px;
+
+    }
+
+    .delivering-cloud
+    .case-studies-card {
+    background-image: url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
+    background-position: right top, right top;
+    background-repeat: repeat-y, repeat-y;
+    }
+
     .delivering-cloud
     .jumbotron.hero h1 {
         font-size: 50px;
@@ -129,11 +153,20 @@
 
 @media (min-width: 576px) and (max-width: 767.98px) {
 
+
+.delivering-cloud
+.brand-promises-card {
+    background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+    padding-left: 30px;
+}
+
     .delivering-cloud
     .jumbotron.hero img {
         position: relative;
         top: 30px;
-        width: 430px;
+        width: 300px;
     }
 
     .delivering-cloud
@@ -150,16 +183,36 @@
     }
 
     .delivering-cloud .devops-case-study img {
-        position: relative;
+        position: static;
         text-align: left;
-        margin-bottom: 50px;
-        margin-top: 100px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .delivering-cloud
+    .case-studies-card {
+    background-image: url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
+    background-position: right top, right top;
+    background-repeat: repeat-y, repeat-y;
     }
 
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
+    .delivering-cloud
+    .brand-promises-card {
+    background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+    }
+
+    .delivering-cloud
+    .case-studies-card {
+    background-image: url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
+    background-position: right top, right top;
+    background-repeat: repeat-y, repeat-y;
+    }
     .delivering-cloud
     .jumbotron.hero img {
         position: relative;
@@ -181,7 +234,7 @@
 
     .delivering-cloud .devops-case-study img {
         margin-top: 80%;
-        width: 120%;
+        width: 100%;
     }
 
     .delivering-cloud
@@ -195,8 +248,8 @@
     .delivering-cloud
     .jumbotron.hero img {
         left: 0;
-        top: -40px;
-        width: 400px;
+        top: -400px;
+        width: 300px;
     }
 
 
@@ -213,8 +266,9 @@
 @media (min-width: 1200px) {
     .delivering-cloud
     .jumbotron.hero img {
-        left: 0;
-        top: -250px;
+        left: 100px;
+        top: -300px;
+        width: 350px;
     }
 
     .delivering-cloud .hero-image-container {
@@ -233,10 +287,4 @@
     .case-studies-card {
         padding-top: 0;
     }
-}
-
-
-
-.delivering-cloud .btn {
-    width: max-content;
 }

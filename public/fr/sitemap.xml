@@ -508,6 +508,104 @@
   </url>
   
   <url>
+    <loc>/fr/kubernetes-machine-learning/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/kubernetes-machine-learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/kubernetes-machine-learning/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/docker-kubernetes/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/docker-kubernetes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/docker-kubernetes/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/secrets-mananagement/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/secrets-mananagement/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/secrets-mananagement/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/infrastructure-as-code/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/infrastructure-as-code/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/infrastructure-as-code/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/openshift/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/openshift/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/openshift/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/advanced-docker-kubernetes/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/advanced-docker-kubernetes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/advanced-docker-kubernetes/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/devops-monitoring/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/devops-monitoring/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/devops-monitoring/"
+                />
+  </url>
+  
+  <url>
     <loc>/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -522,6 +620,20 @@
   </url>
   
   <url>
+    <loc>/fr/ci-cd/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/ci-cd/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/ci-cd/"
+                />
+  </url>
+  
+  <url>
     <loc>/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -532,6 +644,20 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/about-us/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/about-us/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/about-us/"
                 />
   </url>
   

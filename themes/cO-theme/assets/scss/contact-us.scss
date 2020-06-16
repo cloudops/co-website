@@ -115,8 +115,16 @@
     margin: auto;
 }
 
+.contact-us .alternative-contact img {
+    display: block;
+}
+
 @media (max-width: 575.98px) {
-    
+
+    .contact-us .general-contact-form .hs-submit {
+        text-align: center;
+    }
+
     .contact-us h2 {
         padding-right: 40px;
     }
@@ -167,6 +175,14 @@
 
     .contact-us .general-contact-form .hs-submit {
         margin-left: 0;
+    }
+
+    .contact-us .phone-col .alternative-contact img {
+        display: block;
+        text-align: center;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -267,10 +283,28 @@
     .contact-us .alternative-contact {
         padding-top: 0;
     }
+
+    .contact-us .phone-col .alternative-contact img {
+        display: block;
+        text-align: center;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     
+
+    .contact-us .phone-col .alternative-contact img {
+        display: block;
+        text-align: center;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
     .contact-us h2 {
         padding-right: 40px;
     }

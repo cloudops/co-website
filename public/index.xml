@@ -1401,69 +1401,6 @@ My favourite quote is probably one I heard at INTEROP Las Vegas last spring: “
     </item>
     
     <item>
-      <title></title>
-      <link>/advanced-containers-kubernetes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/advanced-containers-kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/ci-cd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/ci-cd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/devops-monitoring/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/devops-monitoring/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/infrastructure-as-code/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/infrastructure-as-code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/kubernetes-machine-learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/kubernetes-machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/openshift/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/openshift/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/secrets-mananagement/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/secrets-mananagement/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>About CloudOps | Own Your Destiny in the Cloud™</title>
       <link>/about-us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1473,21 +1410,33 @@ My favourite quote is probably one I heard at INTEROP Las Vegas last spring: “
     </item>
     
     <item>
+      <title>Advanced Docker and Kubernetes</title>
+      <link>/advanced-docker-kubernetes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/advanced-docker-kubernetes/</guid>
+      <description>Workshops Home  Next Workshop     Advanced Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     During this workshop you will learn:
+ Day to day operations and best practices around Kubernetes; Concepts around HA, securing, logging and monitoring of Kubernetes.  This workshop is available on Azure, GCP and AWS.</description>
+    </item>
+    
+    <item>
       <title>Careers</title>
       <link>/careers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/careers/</guid>
-      <description></description>
+      <description>Careers   CloudOps is a company at the leading edge of the ever-changing cloud industry. Our growing Team of Teams gets the unique chance to work with, learn, and collaborate on the best tools and platforms in the market.      Join the CloudOps Team of Teams Whether you are fascinated by new cloud technologies, passionate about finding the best solution for a customer’s problem, or driven by getting hands-on into the code, CloudOps and its affiliated companies, have a wide variety of career paths to offer.</description>
     </item>
     
     <item>
-      <title>Cloud Building Consulting</title>
-      <link>/delivering-cloud-consulting/</link>
+      <title>CI/CD Training</title>
+      <link>/ci-cd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/delivering-cloud-consulting/</guid>
-      <description>Cloud Building Consulting   Cloud native technologies and DevOps practices are complex. Modernize existing applications and enable new operational models. We help you throughout your journey.      We partner with our customers to meet business, cultural, and technical requirements. CloudOps prides itself on being platform and tool agnostic but opinionated when building, operating, and equipping teams to support successful cloud strategies. This allows our customers to own their destiny with a mix of open source software, partner, DevOps tools, and our own automation workflows.</description>
+      <guid>/ci-cd/</guid>
+      <description>Workshops Home  Next Workshop     CI / CD CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     During this workshop you will learn:
+ Tools and best practices to build, test, and ship software as well as enhance and automate your delivery pipeline.  Duration: 1 day
+On Premise: $1500/attendee (minimum 6 attendees)</description>
     </item>
     
     <item>
@@ -1496,7 +1445,7 @@ My favourite quote is probably one I heard at INTEROP Las Vegas last spring: “
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/cloud-migration/</guid>
-      <description>Cloud Migration    Migrating workloads to the cloud doesn’t have to be overwhelming. CloudOps will partner with you to plan your move step-by-step, execute it with care, and set you up for operational success.       You&#39;re ready to move to the cloud Since 2005, CloudOps has been learning what works and what doesn’t, and building systems to deliver rapid time-to-value for your organization. Our customer engagements across various industries   Why cloud?</description>
+      <description>Cloud Migration    Migrating workloads to the cloud doesn’t have to be overwhelming. CloudOps will partner with you to plan your move step-by-step, execute it with care, and set you up for operational success.       You&#39;re ready to move to the cloud You understand the business advantages that come with a cloud operational model. The wider market does too. In fact, this year some 83% of enterprise workloads will already be in the cloud.</description>
     </item>
     
     <item>
@@ -1505,7 +1454,7 @@ My favourite quote is probably one I heard at INTEROP Las Vegas last spring: “
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/cloud-native-consulting/</guid>
-      <description>Cloud Native Consulting   vsknvj KFNwk fRFI EHUF kefIF oif FC p opIGHRo oFHo oE Ff L Orfhdbdhsjsdv ad fsheflhadaklbnjc sdfkqhbfkabjdcjkad ncskdbfak      You&#39;re ready to move to the cloud Since 2005, CloudOps has been learning what works and what doesn’t, and building systems to deliver rapid time-to-value for your organization. Our customer engagements across various industries   You&#39;re ready to move to the cloud Since 2005, CloudOps has been learning what works and what doesn’t, and building systems to deliver rapid time-to-value for your organization.</description>
+      <description>Cloud Native Consulting   Speed up your cloud native project with CloudOps’ expert advice and implementation. We help you navigate the ever-changing cloud native landscape to find the best solutions for your needs.      Getting to cloud native A cloud native application is built to live in the cloud. It auto-provisions, auto-scales, and is auto-resilient, delivering maximum value to a business and its end users. The more successfully an application lives in the cloud without causing lock-in to one provider, the more cloud native it is.</description>
     </item>
     
     <item>
@@ -1514,7 +1463,7 @@ My favourite quote is probably one I heard at INTEROP Las Vegas last spring: “
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/contact-us/</guid>
-      <description>Contact Us     Send us a submission form     hbspt.forms.create({ portalId: &#34;732832&#34;, formId: &#34;1cf544ad-f04a-4de0-abec-c7a59dca11ce&#34; });   1-514-447-3456 (Montreal) 1-855-652-5683 (Toll-Free) 1-514-312-5288 (Fax)  info@cloudops.com    Our Offices  Montreal (Head Office): 200-423 rue Saint-Nicolas
+      <description>Contact Us     Let&#39;s talk!     hbspt.forms.create({ portalId: &#34;732832&#34;, formId: &#34;1cf544ad-f04a-4de0-abec-c7a59dca11ce&#34; });   1-514-447-3456 (Montreal) 1-855-652-5683 (Toll-Free) 1-514-312-5288 (Fax)  info@cloudops.com    Our Offices  Montreal (Head Office): 200-423 rue Saint-Nicolas
 Montreal, QC, Canada
 H2Y 2P4
   Toronto: 700-56 Temperance Street
@@ -1532,7 +1481,28 @@ Sommerville, MA, USA
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/delivering-cloud/</guid>
-      <description>Delivering Cloud   Cloud native technologies and DevOps practices are complex. Modernize existing applications and enable new operational models. We help you throughout your journey.      We partner with our customers to meet business, cultural, and technical requirements. CloudOps prides itself on being platform and tool agnostic but opinionated when building, operating, and equipping teams to support successful cloud strategies. This allows our customers to own their destiny with a mix of open source software, partner, DevOps tools, and our own automation workflows.</description>
+      <description>Delivering Cloud       CloudOps enables telecoms and managed service providers to deliver and monetize cloud and network service offerings with certified expertise, training, and CloudMC – an Edge Orchestration Platform. Today’s telecom service providers are looking for new ways to grow revenue. Meanwhile, the enterprise service market has a growing need for integrated commercial offerings that include: edge computing, cloud native technologies, hybrid multi-cloud infrastructures, data sovereign storage solutions, SD-WAN, and more.</description>
+    </item>
+    
+    <item>
+      <title>Delivering Cloud Consulting</title>
+      <link>/delivering-cloud-consulting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/delivering-cloud-consulting/</guid>
+      <description>Consulting - build    CloudOps helps empower telecoms and MSPs in their delivery and monetization of differentiated cloud and network service offerings.       A changing landscape Telecoms are only seeing modest growth prospects for their traditional lines of business. Where hosting customer workloads was once enough, today’s enterprise IT users want integrated commercial offerings that include: edge computing, cloud native technologies, hybrid multi-cloud infrastructures, data sovereign storage solutions, SD-WAN, and more.</description>
+    </item>
+    
+    <item>
+      <title>DevOps Monitoring Workshop</title>
+      <link>/devops-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/devops-monitoring/</guid>
+      <description>Workshops Home  Next Workshop     DevOps Monitoring CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     In this workshop, we explore app and infrastructure monitoring tools (open source and not), configurations, APM, altering and visualizing data with hands-on labs.
+Duration: 2 days
+On Premise: $2500/attendee (minimum 6 attendees)
+ Prerequisites: Experience using Linux CLI and a general understanding of DevOps concepts</description>
     </item>
     
     <item>
@@ -1543,6 +1513,16 @@ Sommerville, MA, USA
       <guid>/docker-kubernetes/</guid>
       <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     CloudOps’ flagship workshop covers architecture principles of microservices, then gets in to the mechanics of container tooling – now a key model for application development.
 Our workshops are Linux-based. If you are interested in Docker and Kubernetes training on Windows, please let us know here.</description>
+    </item>
+    
+    <item>
+      <title>Docker and Kubernetes Workshop</title>
+      <link>/infrastructure-as-code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/infrastructure-as-code/</guid>
+      <description>Workshops Home  Next Workshop     Infrastructure as Code CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     During this workshop you will learn:
+ How Hashicorp Terraform by Hashicorp works as a cross platform, infrastructure tool enabling you to use the same tooling over multiple platforms for infrastructure automation; How Ansible can be used to manage remote application configurations and VM installations built on top of your Terraform infrastructure deployment.</description>
     </item>
     
     <item>
@@ -1564,12 +1544,44 @@ Our workshops are Linux-based. If you are interested in Docker and Kubernetes tr
     </item>
     
     <item>
-      <title>Managed services and Augmented support</title>
+      <title>Machine Learning and Kubernetes Workshop</title>
+      <link>/kubernetes-machine-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/kubernetes-machine-learning/</guid>
+      <description>Workshops Home  Next Workshop     Kubernetes and Machine Learning CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     During this workshop you will learn:
+ How to run deployments of machine learning (ML) workflows on Kubernetes to make them simple, portable and scalable with open source tools.  Standalone 2 days: $4,000/attendee (minimum 6 attendees)</description>
+    </item>
+    
+    <item>
+      <title>Managed Services and Augmented Support</title>
       <link>/managed-services-augmented-support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/managed-services-augmented-support/</guid>
-      <description></description>
+      <description> Managed Services and Augmented Support   Cloud operations are complex. We&#39;re here to help      </description>
+    </item>
+    
+    <item>
+      <title>Monolith to Microservices Workshop</title>
+      <link>/monolith-microservices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/monolith-microservices/</guid>
+      <description>Workshops Home  Next Workshop     Monolith to microservices CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     During this workshop you will learn:
+ How to migrate an existing legacy JavaTM EE app to Red Hat JBoss Enterprise Application Platform on OpenShift How to use modern frameworks like Spring Boot, Wildfly Swarm, Eclipse Vert.</description>
+    </item>
+    
+    <item>
+      <title>OpenShift Workshop</title>
+      <link>/openshift/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/openshift/</guid>
+      <description>Workshops Home  Next Workshop     OpenShift CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     During this workshop you will learn:
+How to install, administer and use Red Hat OpenShift container platform to deploy your enterprise applications. Duration: 2 or 3 days
+Two day OpenShift: $2500/attendee (minimum 6 attendees)
+Three day Docker &amp; Kubernetes bundle: $3000/attendee (min.</description>
     </item>
     
     <item>
@@ -1588,6 +1600,16 @@ Our workshops are Linux-based. If you are interested in Docker and Kubernetes tr
       
       <guid>/reading/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Secrets Management Workshop</title>
+      <link>/secrets-mananagement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/secrets-mananagement/</guid>
+      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     During this workshop you will learn:
+ How to use Hashicorp Vault as a reliable tool for secrets management and data protection; Operational components and techniques for integrating Vault secrets into applications.  Duration: ½ day</description>
     </item>
     
     <item>
