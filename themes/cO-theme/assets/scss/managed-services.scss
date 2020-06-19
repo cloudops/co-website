@@ -17,19 +17,19 @@
     top: -140px;
 }
 
-.managed-services .case-studies-card img {
+.managed-services .case-studies-card.intro-to-managed img {
     position: static;
     height: 200px;
     width: auto;
     padding-bottom: 25px;
 }
 
-.managed-services .case-studies-card .row {
+.managed-services .case-studies-card.intro-to-managed .row {
     margin-left: 0;
     margin-right: 0;
 }
 
-.managed-services .case-studies-card {
+.managed-services .case-studies-card.intro-to-managed {
     background-image: url("../images/blue-dots-LEFT.png"), url("../images/yellow-dots-LEFT.png"), url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
     background-position: left top, left top, right top, right top;
     background-repeat: repeat-y, repeat-y, repeat-y, repeat-y;
@@ -39,12 +39,15 @@
     text-align: center;
 }
 
+.managed-services .three-round-images img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
 
 .managed-services .stand-out {
     background-color: #F2F5F7;
     background-image: none;
     text-align: center;
-
 }
 
 .managed-services .stand-out h2 {
@@ -95,7 +98,118 @@
 }
 
 
+.managed-services .case-studies-card.second-managed-card {
+    background-image: url("../images/grey-organized-dots.svg"), url("../images/grey-organized-dots.svg");
+    background-position: left top, right top;
+    background-repeat: repeat-y, repeat-y;
+}
+
+.managed-services .case-studies-card h2 {
+    text-align: center;
+}
+
+.managed-services .case-studies-card img {
+    position: static;
+    text-align: center;
+    height: 180px;
+    margin-bottom: 25px;
+}
+
+.managed-services .case-studies-card .with-bottom-line p.image-caption {
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+.managed-services .case-studies-card .with-bottom-line {
+    text-align: center;
+}
+
+.managed-services .case-studies-card .without-bottom-line {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.managed-services .case-studies-card .with-bottom-line p {
+    text-align: left;
+}
+
+.managed-services .case-studies-card .with-bottom-line {
+    border-bottom: 2px solid #FFE07F;
+    margin-left: 16.666667%;
+    margin-right: 16.666667%;
+    margin-bottom: 100px;
+    padding-bottom: 80px;
+}
+
+
+.managed-services .case-studies-card .table {
+    box-shadow: 2px 2px 8px #E2E2E2;
+    border-collapse: collapse;
+    background-color: #FFF;
+}
+
+.managed-services .case-studies-card .table img {
+    width: 80px;
+    height: auto;
+    vertical-align: middle;
+    margin-bottom: 0;
+
+}
+
+.managed-services .case-studies-card .table thead {
+    background-color: #005D91;
+    font-family: 'Open Sans', sans-serif;
+}
+.managed-services .case-studies-card .table thead>tr>th {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 200;
+    vertical-align: middle;
+    border-bottom: 2px #005D91 solid;
+    border-top: 2px #005D91 solid;
+}
+
+
+.managed-services .case-studies-card .table tbody>tr>th {
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.managed-services tbody td {
+    vertical-align: middle;
+    position: relative;
+
+    &::after {
+        content: " ";
+        position: absolute;
+        width: 5px;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(169, 175, 179, 0.2);
+    }
+}
+
+.managed-services tbody tr {
+    border-bottom: 3px solid rgba(0, 93, 145, 0.6);
+}
+
 @media (max-width: 575.98px) {
+
+    .managed-services .no-padding-sides {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .managed-services
     .jumbotron.hero h1 {
         font-size: 50px;
@@ -119,13 +233,37 @@
         text-align: left;
     }
 
-    .managed-services .case-studies-card img {
+    .managed-services .case-studies-card.intro-to-managed img {
         height: 150px;
         width: auto;
     }
 
-    .managed-services .case-studies-card .challenges-card h6 {
+    .managed-services .case-studies-card.intro-to-managed .challenges-card h6 {
         margin-top: 0;
+    }
+
+    .managed-services .three-round-images img {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .managed-services .stand-out .card-deck {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cloud-native-consulting .case-studies-card .with-bottom-line {
+        border-bottom: 2px solid #FFE07F;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .cloud-native-consulting .case-studies-card .with-bottom-line p {
+        text-align: center;
+    }
+
+    .cloud-native-consulting .image-for-desktop {
+        display: none;
     }
 }
 
@@ -137,14 +275,37 @@
         width: 430px;
     }
 
+    .managed-services .no-padding-sides {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .managed-services .hero-image-container {
         text-align: left;
     }
 
-    .managed-services .case-studies-card img {
+    .managed-services .case-studies-card.intro-to-managed img {
         height: 170px;
         width: auto;
     }   
+
+    .managed-services .three-round-images img {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .managed-services .stand-out .card-deck {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cloud-native-consulting .case-studies-card .with-bottom-line {
+        border-bottom: 2px solid #FFE07F;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -154,12 +315,23 @@
         top: 30px;
     }
 
+    .managed-services .no-padding-sides {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .managed-services .hero-image-container {
         text-align: left;
     }
-    .managed-services .case-studies-card img {
+    .managed-services .case-studies-card.intro-to-managed img {
         height: 175px;
         width: auto;
+    }
+
+    .cloud-native-consulting .case-studies-card img.image-for-desktop {
+        height: 280px;
     }
 
 }
@@ -170,6 +342,10 @@
         left: 30px;
         top: -225px;
         width: 360px;
+    }
+
+    .cloud-native-consulting .case-studies-card img.image-for-desktop {
+        height: 320px;
     }
 }
 
@@ -182,5 +358,9 @@
     .jumbotron.hero img {
         left: 30px;
         top: -200px;
+    }
+
+    .cloud-native-consulting .case-studies-card img.image-for-desktop {
+        height: 350px;
     }
 }

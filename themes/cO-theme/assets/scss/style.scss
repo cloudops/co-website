@@ -145,9 +145,9 @@ a:visited {
 
 ul {
     padding-left: 0;
+    list-style: none;
 }
 ul li {
-    list-style: none;
     font-family: 'Open Sans', sans-serif;
     color: #404040;
     font-size: 18px;
@@ -175,3 +175,5 @@ ul li {
 @import '/blog-main.scss';
 @import '/careers.scss';
 @import '/managed-services.scss';
+@import '/transformations.scss';
+@import '/workshops-calendar.scss';

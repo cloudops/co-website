@@ -1463,16 +1463,16 @@ On Premise: $1500/attendee (minimum 6 attendees)</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/contact-us/</guid>
-      <description>Contact Us     Let&#39;s talk!     hbspt.forms.create({ portalId: &#34;732832&#34;, formId: &#34;1cf544ad-f04a-4de0-abec-c7a59dca11ce&#34; });   1-514-447-3456 (Montreal) 1-855-652-5683 (Toll-Free) 1-514-312-5288 (Fax)  info@cloudops.com    Our Offices  Montreal (Head Office): 200-423 rue Saint-Nicolas
+      <description>Contact Us     Let&#39;s talk!     hbspt.forms.create({ portalId: &#34;732832&#34;, formId: &#34;1cf544ad-f04a-4de0-abec-c7a59dca11ce&#34; });   1-514-447-3456 (Montreal) 1-855-652-5683 (toll-free) 1-514-312-5288 (fax)  info@cloudops.com    Our Offices  Montreal (Head Office) 200-423 rue Saint-Nicolas
 Montreal, QC, Canada
 H2Y 2P4
-  Toronto: 700-56 Temperance Street
-Toronto, On, Canada
+  Toronto 700-56 Temperance Street
+Toronto, ON, Canada
 M5H 3V5
-  Boston: 201 Sommerville
+  Boston 201 Sommerville
 Sommerville, MA, USA
 02143
-  Miami: 429 Lenox Avenue</description>
+  Miami 429 Lenox Avenue</description>
     </item>
     
     <item>
@@ -1481,7 +1481,7 @@ Sommerville, MA, USA
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/delivering-cloud/</guid>
-      <description>Delivering Cloud       CloudOps enables telecoms and managed service providers to deliver and monetize cloud and network service offerings with certified expertise, training, and CloudMC – an Edge Orchestration Platform. Today’s telecom service providers are looking for new ways to grow revenue. Meanwhile, the enterprise service market has a growing need for integrated commercial offerings that include: edge computing, cloud native technologies, hybrid multi-cloud infrastructures, data sovereign storage solutions, SD-WAN, and more.</description>
+      <description>Delivering Cloud CloudOps enables telecoms and managed service providers to deliver and monetize cloud and network service offerings with certified expertise, training, and CloudMC – an Edge Orchestration Platform.       Today’s telecom service providers are looking for new ways to grow revenue. Meanwhile, the enterprise service market has a growing need for integrated commercial offerings that include: edge computing, cloud native technologies, hybrid multi-cloud infrastructures, data sovereign storage solutions, SD-WAN, and more.</description>
     </item>
     
     <item>
@@ -1559,7 +1559,8 @@ Our workshops are Linux-based. If you are interested in Docker and Kubernetes tr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/managed-services-augmented-support/</guid>
-      <description> Managed Services and Augmented Support   Cloud operations are complex. We&#39;re here to help      </description>
+      <description>Managed Services and Augmented Support   Cloud operations are complex. We&#39;re here to help.      We know you feel it—the pressure to transform your organization digitally, to release new features at a faster pace, to innovate. Software is eating the world and you need to set yourself up to bring software-based solutions to your industry.
+The problem? Building and running a DevOps-ready cloud operations team is hard.</description>
     </item>
     
     <item>
@@ -1627,7 +1628,8 @@ Three day Docker &amp; Kubernetes bundle: $3000/attendee (min.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/transformations/</guid>
-      <description></description>
+      <description>Transformations    Accelerate your transformation to unlock new business models with new technologies. We provide consulting, culture and skills training, and custom blueprints for change.       Whether you’re beginning a digital transformation for the first time or working hard to get it right, we understand the challenges that come with making such a complex set of changes.
+CloudOps supports you in a number of transformations: DevOps transformations to innovate at a faster pace, CloudOps transformations to unlock a cloud service provider business model, and DevNetOps transformations to leverage network-as-code.</description>
     </item>
     
     <item>
@@ -1645,7 +1647,8 @@ Three day Docker &amp; Kubernetes bundle: $3000/attendee (min.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/workshops-calendar/</guid>
-      <description></description>
+      <description>Calendar   Our workshops get your team up to speed on DevOps, and cloud native tooling, on any cloud in days—not months.      Workshops  Events   Upcoming Workshops   DevOps Monitoring We will explore app and infrastructure monitoring tools (open source and not), configurations, APM, altering and visualizing data with hands-on labs.
+Course details     April 15-16, 2020 Montreal, Quebec   Sign Up    DevOps Monitoring We will explore app and infrastructure monitoring tools (open source and not), configurations, APM, altering and visualizing data with hands-on labs.</description>
     </item>
     
     <item>
