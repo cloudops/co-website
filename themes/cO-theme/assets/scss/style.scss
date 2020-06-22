@@ -177,3 +177,95 @@ ul li {
 @import '/managed-services.scss';
 @import '/transformations.scss';
 @import '/workshops-calendar.scss';
+
+
+
+.general-stylings-more-content .cta-cards .card-deck .card {
+    background-color: #FFF;
+    box-shadow: 2px 2px 8px #E2E2E2;
+    border-radius: 0;
+    min-width: 220px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.general-stylings-more-content .cta-cards .card-deck .card:hover {
+    box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2);
+}
+
+.general-stylings-more-content.contact-us-card {
+    background-image: url("/images/bottom-left-yellow-swoosh.png"), url("/images/top-right-yellow-swoosh.svg");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.general-stylings-more-content.contact-us-card img {
+    margin: 0 0 30px -50%;
+}
+
+.general-stylings-more-content.contact-us-card h2 {
+    padding-right: 40px 0 0 40px;
+    text-align: left;
+}
+
+.general-stylings-more-content.contact-us-card a:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 575.98px) {
+    .general-stylings-more-content.contact-us-card {
+        padding-left: 30px;
+    }
+
+    .general-stylings-more-content.contact-us-card h2 {
+       padding-bottom: 30px;
+   }  
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .general-stylings-more-content .cta-cards .card-deck {
+        padding-left: 30px;
+    }
+
+    .general-stylings-more-content .cta-cards .card-deck .card {
+        min-width: 270px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .general-stylings-more-content .contact-us-card .contact-us-intro {
+        padding-bottom: 50px;
+    }
+    
+    .general-stylings-more-content .cta-cards .card-deck .card {
+        min-width: 270px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   .general-stylings-more-content.contact-us-card h2 {
+        padding: 40px 0 0 40px;
+    }
+
+    .general-stylings-more-content.contact-us-card .contact-us-intro {
+        padding-bottom: 50px;
+    }
+    
+    .general-stylings-more-content .cta-cards .card-deck .card {
+        min-width: 260px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .general-stylings-more-content .contact-us-card h2 {
+        padding: 40px 0 0 40px;
+     }
+ 
+     .general-stylings-more-content .cta-cards .card-deck .card {
+         min-width: 260px;
+     }
+}

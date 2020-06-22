@@ -9,7 +9,7 @@
 .why-cloudops
 .jumbotron.hero h1 {
     text-align: left;
-    color: #005D91;
+    color: #404040;
 }
 
 .why-cloudops
@@ -104,6 +104,10 @@
         display: none;
     }
 
+    .why-cloudops .image-for-mobile {
+        position: static;
+    }
+
     .why-cloudops .case-studies-card img {
         position: relative;
         width: 260px;
@@ -116,6 +120,10 @@
         border-bottom: 2px solid #FFE07F;
         margin-left: 15px;
         margin-right: 15px;
+    }
+
+    .why-cloudops .design-build-transform-card .card-deck .card .card-body {
+        padding: 70px 30px;
     }
 
 }
@@ -140,10 +148,15 @@
         display: none;
     }
 
+    .why-cloudops .image-for-mobile {
+        position: static;
+    }
+
     .why-cloudops .case-studies-card img {
-        position: relative;
-        width: 300px;
+        position: static;
+        width: 200px;
         height: auto;
+        margin-bottom: 30px;
     }
 
     .why-cloudops .case-studies-card .with-bottom-line {
@@ -169,6 +182,10 @@
         display: none;
     }
 
+    .why-cloudops .image-for-desktop {
+        position: static;
+    }
+
     .why-cloudops .brand-promises-card h2 {
         text-align: center;
     }
@@ -190,6 +207,9 @@
     .why-cloudops .image-for-mobile {
         display: none;
     }
+    .why-cloudops .image-for-desktop {
+        position: static;
+    }
     
 }
 
@@ -206,6 +226,11 @@
 
     .why-cloudops .image-for-mobile {
         display: none;
+    }
+
+
+    .why-cloudops .image-for-desktop {
+        position: static;
     }
 
 }

@@ -72,40 +72,6 @@
     margin-top: 200px;
 }
 
-.using-cloud .cta-cards .card-deck .card {
-    background-color: #FFF;
-    box-shadow: 2px 2px 8px #E2E2E2;
-    border-radius: 0;
-    min-width: 220px;
-    margin-bottom: 30px;
-    text-align: left;
-}
-
-.using-cloud .cta-cards .card-deck .card:hover {
-    box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2);
-}
-
-.using-cloud .contact-us-card {
-    background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
-    background-position: 2% 30%, left bottom, right top;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    padding: 100px 0;
-    text-align: center;
-}
-
-.using-cloud .contact-us-card img {
-    margin: 0 0 30px -50%;
-}
-
-.using-cloud .contact-us-card h2 {
-    padding-right: 40px 0 0 40px;
-    text-align: left;
-}
-
-.using-cloud .contact-us-card {
-    background-position: 25px 100px, left bottom, right top;
-}
-
 @media (max-width: 575.98px) {
     .using-cloud
     .jumbotron.hero h1 {
@@ -129,6 +95,7 @@
     .using-cloud .hero-image-container {
         text-align: left;
     }
+
     .using-cloud .brand-promises-card {
         padding: 100px 0;
         background-color: #FBFBFB;
@@ -165,18 +132,7 @@
          width: 300px;
          margin: 50px 0 20px;
      }
- 
-     .using-cloud .contact-us-card {
-         padding-left: 30px;
-     }
 
-     .using-cloud .contact-us-card h2 {
-        padding-bottom: 30px;
-    }
-
-     .using-cloud .contact-us-card img {
-        margin: 30px auto;
-    }
 
 }
 
@@ -220,34 +176,7 @@
         margin-bottom: 50px;
         margin-top: 100px;
     }
-
-    .using-cloud .contact-us-card {
-        background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.png");
-        background-position: 2% 30%, left bottom, right top;
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        padding: 100px 0;
-    }
-    
-
-    .using-cloud .contact-us-card {
-        background-position: 25px 100px, left bottom, right top;
-    }
-
-    .using-cloud .contact-us-card img {
-        margin-left: 0px;
-    }
-
-    .using-cloud .contact-us-card .contact-us-intro {
-        padding-bottom: 50px;
-    }
         
-    .using-cloud .cta-cards .card-deck {
-        padding-left: 30px;
-    }
-
-    .using-cloud .cta-cards .card-deck .card {
-        min-width: 270px;
-    }
 }
 
 
@@ -279,29 +208,6 @@
         padding-top: 0;
     }
 
-    .using-cloud .contact-us-card {
-        background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.png");
-        background-position: 2% 30%, left bottom, right top;
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        padding: 100px 0;
-    }
-
-    .using-cloud .contact-us-card {
-        background-position: 70px 100px, left bottom, right top;
-    }
-
-    .using-cloud .contact-us-card img {
-        margin-left: 0px;
-    }
-
-    .using-cloud .contact-us-card .contact-us-intro {
-        padding-bottom: 50px;
-    }
-    
-    .using-cloud .cta-cards .card-deck .card {
-        min-width: 270px;
-    }
-
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -314,38 +220,6 @@
 
     .using-cloud .devops-case-study img {
         margin-top: 50%;
-    }
-
-    .using-cloud .contact-us-card {
-        background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.png");
-        background-position: 2% 30%, left bottom, right top;
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        padding: 100px 0;
-    }
-
-    .using-cloud .contact-us-card img {
-        margin-top: 50px;
-    }
-    
-    .using-cloud .contact-us-card h2 {
-        padding: 40px 0 0 40px;
-    }
-
-
-    .using-cloud .contact-us-card {
-        background-position: 70px 160px, left bottom, right top;
-    }
-
-    .using-cloud .contact-us-card img {
-        margin-left: 0px;
-    }
-
-    .using-cloud .contact-us-card .contact-us-intro {
-        padding-bottom: 50px;
-    }
-    
-    .using-cloud .cta-cards .card-deck .card {
-        min-width: 260px;
     }
 
 }
@@ -368,29 +242,5 @@
     .using-cloud
     .case-studies-card {
         padding-top: 0;
-    }
-
-    .using-cloud .contact-us-card {
-        background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
-        background-position: 2% 30%, left bottom, right top;
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        padding: 100px 0;
-    }
-    .using-cloud .contact-us-card img {
-        margin-top: 50px;
-        padding-left: 0;
-        margin-left: -58px;
-    }
-
-    .using-cloud .contact-us-card {
-        background-position: 5% 160px, left bottom, right top;
-    }
-
-    .using-cloud .contact-us-card h2 {
-       padding: 40px 0 0 40px;
-    }
-
-    .using-cloud.cta-cards .card-deck .card {
-        min-width: 260px;
     }
 }

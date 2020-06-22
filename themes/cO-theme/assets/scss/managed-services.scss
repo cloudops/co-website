@@ -29,6 +29,11 @@
     margin-right: 0;
 }
 
+
+.managed-services .case-studies-card ul {
+    margin-top: 30px;
+    text-align: left;
+}
 .managed-services .case-studies-card.intro-to-managed {
     background-image: url("../images/blue-dots-LEFT.png"), url("../images/yellow-dots-LEFT.png"), url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
     background-position: left top, left top, right top, right top;

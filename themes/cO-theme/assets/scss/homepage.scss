@@ -99,6 +99,7 @@
         bottom: 0;
         right: 0;
     }
+
 }
 
 
@@ -301,6 +302,12 @@
         background-repeat: no-repeat, no-repeat;
         text-align: center;
     }
+
+    .brand-promises-card h2 {
+        margin-right: -15px;
+        margin-left: 15px;
+    }
+
     .brand-promises-card .card-title {
         margin-top: 20px;
         padding-top: 10px;
@@ -403,7 +410,10 @@
 
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-
+.customers-card h2 {
+        margin-right: -15px;
+        margin-left: 15px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -603,6 +613,11 @@
 @media (max-width: 575.98px) {
     .community-card {
         text-align: center;
+    }
+
+    .community-card {
+        margin-left: 30px;
+        margin-right: 0;
     }
 
     .community-card img {
@@ -840,13 +855,15 @@
 
 
 .contact-us-card {
-    background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
-    background-position: 2% 30%, left bottom, right top;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-image: url("/images/bottom-left-yellow-swoosh.png"), url("/images/top-right-yellow-swoosh.svg");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
     padding: 100px 0;
 }
 .contact-us-card img {
     margin-top: 35px;
+    width: 100%;
+    padding-bottom: 50px;
 }
 
 .contact-us-card h2 {
@@ -927,14 +944,18 @@
 @media (max-width: 575.98px) {
    .contact-us-card h2 {
         text-align: center;
+        margin-left: 15px;
+        margin-right: -15px;
    }
    .contact-us-card {
     text-align: center;
 }
 
-.contact-us .general-contact-form {
+.contact-us-card .general-contact-form {
     margin-left: auto;
     margin-right: auto;
+    padding-right: 0;
+    padding-left: 30px;
     }
 
 .general-contact-form .hs-submit {
