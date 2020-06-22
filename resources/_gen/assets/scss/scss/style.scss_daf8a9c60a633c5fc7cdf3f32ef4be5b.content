@@ -2266,12 +2266,21 @@ a.active {
   background-position: left bottom, right top;
   background-repeat: no-repeat, no-repeat; }
 
+.workshops .brand-promises-card ul li {
+  margin-left: 30px; }
+
+.workshops .brand-promises-card ul li:before {
+  content: '-';
+  position: absolute;
+  margin-left: -20px; }
+
 .workshops .brand-promises-card .cta h3 {
   display: inline;
   color: #005D91; }
 
 .workshops .customers-card {
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  padding-bottom: 0; }
 
 .workshops .expert-bio .expert-text h4 {
   color: #404040; }
@@ -2281,6 +2290,10 @@ a.active {
 
 .workshops .customers-card img {
   width: 100px; }
+
+.workshops .stand-out h2 {
+  padding-top: 0;
+  padding-bottom: 30px; }
 
 .workshops .customers-card a h3.card-title {
   display: inline; }
@@ -4505,8 +4518,11 @@ a.active {
   padding: 130px 0;
   margin-bottom: 0; }
 
+.delivering-cloud-consulting .brand-promises-card h2 {
+  padding-bottom: 30px; }
+
 .delivering-cloud-consulting .case-studies-card h2 {
-  text-align: left; }
+  text-align: center; }
 
 .delivering-cloud-consulting .jumbotron.hero h1 {
   text-align: left; }
@@ -5033,6 +5049,14 @@ a.active {
 .careers .case-studies-card .all-content-row {
   text-align: center; }
 
+.careers .case-studies-card ul li {
+  margin-left: 30px; }
+
+.careers .case-studies-card ul li:before {
+  content: '-';
+  position: absolute;
+  margin-left: -20px; }
+
 .careers .case-studies-card .zoom-patchwork img {
   width: inherit;
   height: auto; }
@@ -5149,9 +5173,25 @@ a.active {
   margin-left: 0;
   margin-right: 0; }
 
+.managed-services p.word-in-partner-box {
+  margin-top: -20px; }
+
+.managed-services .case-studies-card ul li {
+  margin-left: 30px; }
+
+.managed-services .case-studies-card ul li:before {
+  content: '-';
+  position: absolute;
+  margin-left: -20px; }
+
 .managed-services .case-studies-card ul {
-  margin-top: 30px;
-  text-align: left; }
+  text-align: left;
+  padding-top: 20px; }
+
+.managed-services .case-studies-card h3 {
+  padding-bottom: 20px;
+  color: #404040;
+  padding-top: 30px; }
 
 .managed-services .case-studies-card.intro-to-managed {
   background-image: url("../images/blue-dots-LEFT.png"), url("../images/yellow-dots-LEFT.png"), url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");

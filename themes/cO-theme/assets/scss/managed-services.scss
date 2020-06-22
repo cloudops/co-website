@@ -28,12 +28,32 @@
     margin-left: 0;
     margin-right: 0;
 }
+.managed-services p.word-in-partner-box {
+    margin-top: -20px;
+}
 
+.managed-services .case-studies-card ul li{
+    margin-left: 30px;
+  }
+  
+.managed-services .case-studies-card ul li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -20px;
+  }
 
 .managed-services .case-studies-card ul {
-    margin-top: 30px;
     text-align: left;
+    padding-top: 20px;
 }
+
+.managed-services .case-studies-card h3 {
+    padding-bottom: 20px;
+    color: hsl(0, 0%, 25%);
+    padding-top: 30px;
+}
+
+
 .managed-services .case-studies-card.intro-to-managed {
     background-image: url("../images/blue-dots-LEFT.png"), url("../images/yellow-dots-LEFT.png"), url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
     background-position: left top, left top, right top, right top;

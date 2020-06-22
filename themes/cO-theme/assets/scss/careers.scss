@@ -82,6 +82,17 @@
     text-align: center;
 }
 
+.careers .case-studies-card ul li{
+    margin-left: 30px;
+  }
+  
+.careers .case-studies-card ul li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -20px;
+  }
+
+
 .careers .case-studies-card .zoom-patchwork img {
     width: inherit;
     height: auto;

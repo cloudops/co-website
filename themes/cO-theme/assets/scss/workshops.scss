@@ -28,6 +28,16 @@
     background-repeat: no-repeat, no-repeat;
 }
 
+.workshops .brand-promises-card ul li{
+    margin-left: 30px;
+  }
+  
+  .workshops .brand-promises-card ul li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -20px;
+  }
+
 .workshops
 .brand-promises-card .cta h3 {
     display: inline;
@@ -36,6 +46,7 @@
 
 .workshops .customers-card {
     margin-bottom: 100px;
+    padding-bottom: 0;
 }
 
 .workshops .expert-bio .expert-text h4 {
@@ -50,6 +61,10 @@
     width: 100px;
 }
 
+.workshops .stand-out h2 {
+    padding-top: 0;
+    padding-bottom: 30px;
+}
 
 .workshops .customers-card a h3.card-title {
     display: inline;

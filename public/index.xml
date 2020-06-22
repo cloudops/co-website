@@ -13,10 +13,10 @@
     
     <item>
       <title>How to Create and Inspect Kubernetes Deployments</title>
-      <link>/blog/patate/</link>
+      <link>/blog/how-to-create-and-inspect-kubernetes-deployments/</link>
       <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/patate/</guid>
+      <guid>/blog/how-to-create-and-inspect-kubernetes-deployments/</guid>
       <description>If you’re looking to get started with Kubernetes, this blog post will teach you the basics of deployments.
 What is a Kubernetes deployment? A deployment is one of the many Kubernetes objects. In technical terms, it currently encapsulates the following (which we will be covering below):
  Pod specification Replica count Deployment strategy  In practical terms, you can think of a deployment as an instance of an application with it’s associated configuration.</description>
@@ -1490,7 +1490,7 @@ Sommerville, MA, USA
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/delivering-cloud-consulting/</guid>
-      <description>Consulting - build    CloudOps helps empower telecoms and MSPs in their delivery and monetization of differentiated cloud and network service offerings.       A changing landscape Telecoms are only seeing modest growth prospects for their traditional lines of business. Where hosting customer workloads was once enough, today’s enterprise IT users want integrated commercial offerings that include: edge computing, cloud native technologies, hybrid multi-cloud infrastructures, data sovereign storage solutions, SD-WAN, and more.</description>
+      <description>Delivering Cloud Consulting    CloudOps helps empower telecoms and MSPs in their delivery and monetization of differentiated cloud and network service offerings.       A changing landscape Telecoms are only seeing modest growth prospects for their traditional lines of business. Where hosting customer workloads was once enough, today’s enterprise IT users want integrated commercial offerings that include: edge computing, cloud native technologies, hybrid multi-cloud infrastructures, data sovereign storage solutions, SD-WAN, and more.</description>
     </item>
     
     <item>
@@ -1647,7 +1647,7 @@ CloudOps supports you in a number of transformations: DevOps transformations to 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/workshops-calendar/</guid>
-      <description>Calendar   Our workshops get your team up to speed on DevOps, and cloud native tooling, on any cloud in days—not months.      Workshops  Events   Upcoming Workshops   DevOps Monitoring We will explore app and infrastructure monitoring tools (open source and not), configurations, APM, altering and visualizing data with hands-on labs.
+      <description>Calendar   Our workshops get your team up to speed on DevOps, and cloud native tooling, on any cloud in days—not months.      Workshops  Events  --  Upcoming Workshops   DevOps Monitoring We will explore app and infrastructure monitoring tools (open source and not), configurations, APM, altering and visualizing data with hands-on labs.
 Course details     April 15-16, 2020 Montreal, Quebec   Sign Up    DevOps Monitoring We will explore app and infrastructure monitoring tools (open source and not), configurations, APM, altering and visualizing data with hands-on labs.</description>
     </item>
     
