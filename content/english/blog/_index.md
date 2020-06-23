@@ -22,5 +22,4 @@ class_name: "blog"
                 </div>
             </div>
         </div>
-    </div>
-</div>  
+    </div> 

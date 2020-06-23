@@ -8,7 +8,7 @@
    
    
    
-   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.5b7a60d1f9af3710ac3eea462905ca8ce64543c9ca0d3e49290cab58322d3088.css" integrity="sha256-W3pg0fmvNxCsPupGKQXKjOZFQ8nKDT5JKQyrWDItMIg=" crossorigin="anonymous" media="screen" />
+   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.327efa154395d5263420d4016d271e3d8dce40b68f73ec04dc319d6c3d27302a.css" integrity="sha256-Mn76FUOV1SY0INQBbScePY3OQLaPc&#43;wE3DGdbD0nMCo=" crossorigin="anonymous" media="screen" />
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
@@ -81,21 +81,24 @@
             </div>
           </div>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown" id="training-dropdown-menu">
           <a class="nav-link" href="/training" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <div class="row solutions-dropdown-row">
               <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops">
                 <img src="/images/nav-workshops.svg" height="70px">
-                <a class="dropdown-item list-group-item list-group-item-action" href="/workshops"><h3>Workshops</h3></a>
+                <h3>Workshops</h3></a>
               </div>
               <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/experts">
                 <img src="/images/nav-experts.svg" height="70px">
-                <a class="dropdown-item list-group-item list-group-item-action" href="/experts"><h3>Our Experts</h3></a>
+                <h3>Our Experts</h3></a>
               </div>
               <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar">
                 <img src="/images/nav-calendar.svg" height="70px">
-                <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar"><h3>Calendar</h3></a>
+                <h3>Calendar</h3></a>
               </div>
             </div>
             <div class="row">
@@ -103,7 +106,7 @@
                 <img src="/images/navbar-arrows.svg">
               </div>
               <div class="col-xl-9 nav-cta horizontal-nav-cta">
-                <a href="/images/ressources/infographics/kubernetes-distribution-3-1.pdf" target="_blank">
+                <a href="/blog/quiz-are-you-a-kubernetes-unicorn/" target="_blank">
                 <h2>Are you a Kubernetes unicorn?</h2>
                 <p>Take our quiz to find out</p>
               </a>
@@ -124,23 +127,18 @@
                 </a>
               </div>
               <div class="col-xl-9">
-                <div class="row sub-nav-items">
-                  <div class="col-xl-12 nav-main-section">
-                    <button href="/solutions">Solutions Overview</button>
-                  </div>
-                </div>
-                <div class="row">
+                <div class="row solutions-dropdown-row">
                   <div class="col-xl-2 offset-xl-1">
-                    <img src="/images/nav-blog.svg" height="70px">
+                      <a href="/blog"><img src="/images/nav-blog.svg" height="70px"></a>
                   </div>
                   <div class="col-xl-3">
                       <a href="/blog"><h3 class="dropdown-item list-group-item list-group-item-action">Blog</h3></a>
                   </div>
                   <div class="col-xl-2 offset-xl-0">
-                    <img src="/images/nav-resources.svg" height="70px">
+                      <a href="/resources"><img src="/images/nav-resources.svg" height="70px"></a>
                   </div>
                   <div class="col-xl-3">
-                    <a><h3 class="dropdown-item list-group-item list-group-item-action">Resources</h3></a>
+                    <a href="/resources"><h3 class="dropdown-item list-group-item list-group-item-action">Resources</h3></a>
                     <a class="dropdown-item list-group-item list-group-item-action" href="#">White Papers</a>
                     <a class="dropdown-item list-group-item list-group-item-action" href="#">Case Studies</a>
                     <a class="dropdown-item list-group-item list-group-item-action" href="#">Infographics</a>
@@ -289,9 +287,9 @@ text-align: center;
     <div class="row footer-content">
         <div class="col-xl-3 offset-xl-2 col-lg-3 offset-lg-0 col-md-12">
 
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-linkedin-in"></i>
-            <i class="fab fa-facebook-f"></i>
+            <a href="https://twitter.com/CloudOps_" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/cloudops" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/Cloud0ps/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <h5>Newsletter Signup</h5>
             <div class="newsletter-form">
                     <div class="newsletter-form">
@@ -321,8 +319,8 @@ text-align: center;
             <ul>
                 <li><a href="/workshops">Workshops</a></li>
                 <li><a href="/blog">Blog</a></li>
-                <li><a href="/workshops-calendar">Events</a></li>
-                <li><a href="/reading/ressources/#case-studies">Case Studies</a></li>
+                <li><a href="/resources">White Papers</a></li>
+                <li><a href="/resources">Case Studies</a></li>
             </ul>
         </div>
 

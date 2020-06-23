@@ -61,13 +61,34 @@
     background-color: #005D91;
     color: #FFF;
     margin-bottom: 0;
+    border-bottom: 1px solid #005D91;
+    padding-left: 16.6666%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+
 }
 
-.workshops-calendar .nav.nav-tabs.secondary-nav .nav-link:active {
+.workshops-calendar .nav-tabs .nav-link {
     background-color: #005D91;
     color: #FFF;
-
+    border: none;
+    font-weight: normal;
+    text-decoration: none;
 }
+
+.workshops-calendar .nav-tabs .nav-link.active {
+    background-color: #005D91;
+    color: #FFF;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.workshops-calendar .nav-tabs .nav-link:hover {
+    text-decoration: underline;
+}
+
 
 @media (max-width: 575.98px) {
     .workshops-calendar

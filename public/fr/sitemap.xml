@@ -537,16 +537,6 @@
   
   <url>
     <loc>/fr/secrets-mananagement/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/secrets-mananagement/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/secrets-mananagement/"
-                />
   </url>
   
   <url>

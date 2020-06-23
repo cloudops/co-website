@@ -42,6 +42,13 @@
     padding-bottom: 30px;
 }
 
+
+.about-us .brand-promises-card .promises-explained p {
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+
 .about-us .case-studies-card {
     text-align: center;
 }
@@ -69,12 +76,17 @@
 }
 
 .about-us .brand-promises-card .promise img {
-    margin: 35px 0 25px;
+    margin: 35px 0 35px;
 }
 
 .about-us .affiliated-companies {
     padding-left: 25px;
     padding-right: 0;
+}
+
+
+.about-us .affiliated-companies img {
+    width: 200px;
 }
 
 .about-us .case-studies-card .devops-case-study .background-to-an-image {

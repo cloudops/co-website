@@ -6,6 +6,26 @@
     margin-bottom: 0;
 }
 
+.cloud-migration
+.brand-promises-card {
+    padding: 100px 0;
+    background-color: #FBFBFB;
+    background-image: url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg"), url("../images/dotted-triangles-yellow.svg"), url("../images/dotted-triangles-yellow.svg");
+    background-position: left bottom, right top, left center, right center;
+    background-repeat: no-repeat, no-repeat, repeat-y, repeat-y;
+}
+
+.cloud-migration .brand-promises-card h5 {
+    color: #005D91;
+    font-size: 28px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.cloud-migration .brand-promises-card h5 a {
+    font-size: 28px;
+}
+
 .cloud-migration .case-studies-card h2 {
     text-align: center;
 }
@@ -80,23 +100,6 @@
     padding-bottom: 100px;
 }
 
-.cloud-migration .brand-promises-card {
-    background-image: url("../images/blue-dots-LEFT.png"), url("../images/yellow-dots-LEFT.png"), url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
-    background-position: left top, left top, right top, right top;
-    background-repeat: repeat-y, repeat-y, repeat-y, repeat-y;
-}
-
-
-.cloud-migration
-.brand-promises-card h2 {
-    text-align: left;
-    padding-bottom: 10px;
-}
-
-.cloud-migration
-.brand-promises-card .where-we-help-graph {
-    text-align: center;
-}
 
 @media (max-width: 575.98px) {
     .cloud-migration

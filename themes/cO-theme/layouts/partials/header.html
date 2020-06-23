@@ -56,21 +56,24 @@
             </div>
           </div>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown" id="training-dropdown-menu">
           <a class="nav-link" href="/training" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <div class="row solutions-dropdown-row">
               <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops">
                 <img src="/images/nav-workshops.svg" height="70px">
-                <a class="dropdown-item list-group-item list-group-item-action" href="/workshops"><h3>Workshops</h3></a>
+                <h3>Workshops</h3></a>
               </div>
               <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/experts">
                 <img src="/images/nav-experts.svg" height="70px">
-                <a class="dropdown-item list-group-item list-group-item-action" href="/experts"><h3>Our Experts</h3></a>
+                <h3>Our Experts</h3></a>
               </div>
               <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar">
                 <img src="/images/nav-calendar.svg" height="70px">
-                <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar"><h3>Calendar</h3></a>
+                <h3>Calendar</h3></a>
               </div>
             </div>
             <div class="row">
@@ -78,7 +81,7 @@
                 <img src="/images/navbar-arrows.svg">
               </div>
               <div class="col-xl-9 nav-cta horizontal-nav-cta">
-                <a href="/images/ressources/infographics/kubernetes-distribution-3-1.pdf" target="_blank">
+                <a href="/blog/quiz-are-you-a-kubernetes-unicorn/" target="_blank">
                 <h2>Are you a Kubernetes unicorn?</h2>
                 <p>Take our quiz to find out</p>
               </a>
@@ -99,23 +102,18 @@
                 </a>
               </div>
               <div class="col-xl-9">
-                <div class="row sub-nav-items">
-                  <div class="col-xl-12 nav-main-section">
-                    <button href="/solutions">Solutions Overview</button>
-                  </div>
-                </div>
-                <div class="row">
+                <div class="row solutions-dropdown-row">
                   <div class="col-xl-2 offset-xl-1">
-                    <img src="/images/nav-blog.svg" height="70px">
+                      <a href="/blog"><img src="/images/nav-blog.svg" height="70px"></a>
                   </div>
                   <div class="col-xl-3">
                       <a href="/blog"><h3 class="dropdown-item list-group-item list-group-item-action">Blog</h3></a>
                   </div>
                   <div class="col-xl-2 offset-xl-0">
-                    <img src="/images/nav-resources.svg" height="70px">
+                      <a href="/resources"><img src="/images/nav-resources.svg" height="70px"></a>
                   </div>
                   <div class="col-xl-3">
-                    <a><h3 class="dropdown-item list-group-item list-group-item-action">Resources</h3></a>
+                    <a href="/resources"><h3 class="dropdown-item list-group-item list-group-item-action">Resources</h3></a>
                     <a class="dropdown-item list-group-item list-group-item-action" href="#">White Papers</a>
                     <a class="dropdown-item list-group-item list-group-item-action" href="#">Case Studies</a>
                     <a class="dropdown-item list-group-item list-group-item-action" href="#">Infographics</a>

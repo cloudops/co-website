@@ -84,6 +84,7 @@
 
 .navbar-card .dropdown .nav-main-section .sub-nav-items img {
     margin-top: 10px;
+    text-align: center;
 }
 
 .navbar-card .navbar .navbar-nav .dropdown a.dropdown-item {
@@ -92,6 +93,10 @@
     font-size: 18px;
     border: none;
     padding: 5px;
+}
+
+.navbar-card .navbar .navbar-nav .dropdown#training-dropdown-menu a.dropdown-item {
+    text-align: center;
 }
 
 .navbar-card .navbar .navbar-nav .dropdown h3.dropdown-item {

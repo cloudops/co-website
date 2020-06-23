@@ -35,13 +35,18 @@
     background-color: #FFF;
     box-shadow: 2px 2px 8px #E2E2E2;
     border-radius: 0;
-    min-width: 250px;
-    max-width: 250px;
     border: 1px solid rgba(0,0,0,.125);
-    text-align: center;
     vertical-align: middle;
-    margin: 15px auto;
     float: none;
+    height: 130px;
+    min-width: 230px;
+    max-width: 230px;
+    margin: 10px 20px 10px 0;
+}
+
+.partners .stand-out .card-deck {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .partners .stand-out .card-deck .card:hover {
@@ -151,6 +156,11 @@
 
     .partners .stand-out .membership .card-deck {
         margin-left: 15px;
+    }
+
+    .partners .stand-out .card-deck .card {
+        min-width: 150px;
+        max-width: 150px;
     }
 }
 

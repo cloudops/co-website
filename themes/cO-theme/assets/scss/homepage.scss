@@ -892,10 +892,17 @@
 
 .contact-us-card .general-contact-form  li {
     font-family: 'Open Sans', sans-serif;
-    color: #FFF;
-    line-height: .01;
+    color: #404040;
+    line-height: 1.2;
     font-size: 16px;
+    padding-bottom: 2px;
 }
+
+
+.contact-us-card .general-contact-form  li span {
+    margin-left: 5px;
+}
+
 
 .contact-us-card .general-contact-form input.hs-button {
     background-color: #005D91;
@@ -908,6 +915,10 @@
     border: none; 
 }
 
+.contact-us-card .general-contact-form  li.hs-form-booleancheckbox .hs-form-booleancheckbox-display .hs-input {
+    width: 25px;
+    height: 25px;
+}
 .contact-us-card .general-contact-form input.hs-button:hover {
     background-color: #FFF;
     color: #005D91;

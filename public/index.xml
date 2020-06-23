@@ -1445,7 +1445,7 @@ On Premise: $1500/attendee (minimum 6 attendees)</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/cloud-migration/</guid>
-      <description>Cloud Migration    Migrating workloads to the cloud doesn’t have to be overwhelming. CloudOps will partner with you to plan your move step-by-step, execute it with care, and set you up for operational success.       You&#39;re ready to move to the cloud You understand the business advantages that come with a cloud operational model. The wider market does too. In fact, this year some 83% of enterprise workloads will already be in the cloud.</description>
+      <description>Cloud Migration    Migrating workloads to the cloud doesn’t have to be overwhelming. CloudOps will partner with you to plan your move step-by-step, execute it with care, and set you up for operational success.       You&#39;re ready to move to the cloudYou understand the business advantages that come with a cloud operational model. The wider market does too. In fact, this year some 83% of enterprise workloads will already be in the cloud.</description>
     </item>
     
     <item>
@@ -1596,20 +1596,20 @@ Three day Docker &amp; Kubernetes bundle: $3000/attendee (min.</description>
     
     <item>
       <title>Reading</title>
-      <link>/reading/</link>
+      <link>/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/reading/</guid>
+      <guid>/resources/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Secrets Management Workshop</title>
-      <link>/secrets-mananagement/</link>
+      <link>/secrets-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/secrets-mananagement/</guid>
-      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     During this workshop you will learn:
+      <guid>/secrets-management/</guid>
+      <description>Workshops Home  Next Workshop     Secrets Management CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     During this workshop you will learn:
  How to use Hashicorp Vault as a reliable tool for secrets management and data protection; Operational components and techniques for integrating Vault secrets into applications.  Duration: ½ day</description>
     </item>
     
@@ -1647,8 +1647,8 @@ CloudOps supports you in a number of transformations: DevOps transformations to 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/workshops-calendar/</guid>
-      <description>Calendar   Our workshops get your team up to speed on DevOps, and cloud native tooling, on any cloud in days—not months.      Workshops  Events  --  Upcoming Workshops   DevOps Monitoring We will explore app and infrastructure monitoring tools (open source and not), configurations, APM, altering and visualizing data with hands-on labs.
-Course details     April 15-16, 2020 Montreal, Quebec   Sign Up    DevOps Monitoring We will explore app and infrastructure monitoring tools (open source and not), configurations, APM, altering and visualizing data with hands-on labs.</description>
+      <description>Calendar   Our workshops get your team up to speed on DevOps, and cloud native tooling, on any cloud in days—not months.      Workshops  Events   Upcoming Workshops   Docker and Kubernetes CloudOps’ flagship workshop covers architecture principles of microservices, then gets in to the mechanics of container tooling – now a key model for application development.
+Course details     July 14-16, 2020 Online   Sign Up     DevOps Monitoring We will explore app and infrastructure monitoring tools (open source and not), configurations, APM, altering and visualizing data with hands-on labs.</description>
     </item>
     
     <item>
@@ -1657,7 +1657,7 @@ Course details     April 15-16, 2020 Montreal, Quebec   Sign Up    DevOps Monito
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/workshops/</guid>
-      <description>Upskill your team with CloudOps workshops   Our workshops get your team up to speed on DevOps, and cloud native tooling, on any cloud in days—not months.      Empower your team with our hands-on workshops     Who can benefit?  Developers Operators DevOps practicioners Technical desicion makers    Why attend?  Start using containers in development and production Deliver code faster, more efficiently Deepen your knowledge on specific tools Build technical skills with hands-on workshops Learn the business value of new methods Learn to navigate the complex cloud native ecosystem     Calendar      - Meet our experts -     Michael Foster Cloud Solution Architect    Samira Barouti Cloud Software Architect    Syed Ahmed Lead Cloud Architect    Learn more about our experts      DevOps Workshops  Microservices, Docker &amp; Basic Kubernetes 3 days CloudOps’ flagship workshop covers microservices architecture principles and the mechanics of container tooling; now a key model for application development.</description>
+      <description>Upskill your team with CloudOps workshops   Our workshops get your team up to speed on DevOps, and cloud native tooling, on any cloud in days—not months.      Empower your team with our hands-on workshops     Who can benefit?  Developers Operators DevOps practicioners Technical desicion makers    Why attend?  Start using containers in development and production Deliver code faster, more efficiently Deepen your knowledge on specific tools Build technical skills with hands-on workshops Learn the business value of new methods Learn to navigate the complex cloud native ecosystem     Calendar       - Meet our experts -      Michael Foster Cloud Solution Architect      Samira Barouti Cloud Software Architect      Syed Ahmed Lead Cloud Architect     Learn more about our experts       DevOps Workshops  Microservices, Docker &amp; Basic Kubernetes 3 days CloudOps’ flagship workshop covers microservices architecture principles and the mechanics of container tooling; now a key model for application development.</description>
     </item>
     
   </channel>

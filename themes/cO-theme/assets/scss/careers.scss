@@ -29,6 +29,10 @@
     transform: rotate(-5deg);
 }
 
+
+.careers .brand-promises-card h2 {
+    padding-bottom: 30px;
+}
 .careers .case-studies-card .with-bottom-line {
     border-bottom: 2px solid #FFE07F;
     margin-left: 16.666667%;
@@ -69,6 +73,10 @@
     margin-bottom: 8px;
 }
 
+.careers .case-studies-card .cloudops-values p {
+    text-align: left;
+}
+
 
 .careers .case-studies-card .work-from-home h2 {
     text-align: left;
@@ -86,7 +94,7 @@
     margin-left: 30px;
   }
   
-.careers .case-studies-card ul li:before {
+.careers .case-studies-card  ul.dashes li:before {
     content: '-';
     position: absolute;
     margin-left: -20px;
@@ -124,6 +132,20 @@
     border: 1px solid rgba(0,0,0,.125);
     margin: 15px auto;
     float: none;
+    text-align: center;
+}
+
+.careers .lever-integration .card-deck .card-body {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.careers #lever-jobs-container {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .careers #lever-jobs-container .lever-department-title {
@@ -147,6 +169,7 @@ font-weight: bold;
     display: block;
     text-decoration: none;
     color: #005D91;
+    text-align: center;
 }
 
 .careers #lever-jobs-container .lever-job-title:hover {
@@ -219,9 +242,9 @@ font-weight: bold;
 
     .careers
     .jumbotron.hero img {
-        left: 0;
+        left: -30px;
         top: -40px;
-        width: 400px;
+        width: 370px;
     }
     
 }

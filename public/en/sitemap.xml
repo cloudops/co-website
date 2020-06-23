@@ -918,21 +918,11 @@
   </url>
   
   <url>
-    <loc>/reading/</loc>
+    <loc>/resources/</loc>
   </url>
   
   <url>
-    <loc>/secrets-mananagement/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/secrets-mananagement/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/secrets-mananagement/"
-                />
+    <loc>/secrets-management/</loc>
   </url>
   
   <url>
