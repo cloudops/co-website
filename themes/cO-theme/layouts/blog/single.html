@@ -1,5 +1,4 @@
 {{ define "main" }}
-
 <main class="post">
     <div class="row">
         <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
@@ -8,6 +7,13 @@
                     <h1>{{.Title}}</h1>
                     <div> {{.Lastmod.Format "January 2, 2006"}} / {{ $.Param "author" }} </div>
                 </header>
+                {{ with .Resources.Match "thumbnail" }}
+                {{ range . }}
+                {{ $img := .Resize "1000x100" }}
+                <img src="{{  $img.RelPermalink }}" />
+                {{ end }}
+                {{ end }}
+                123123
                 {{.Content}}
             </article>
         </div>
@@ -15,7 +21,8 @@
 
 
     <div class="row nav-buttons back-foward in-content">
-        <div class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-xs-2 back-button">
+        <div
+            class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-xs-2 back-button">
             <a href="{{ (.Site.Pages.ByWeight.Prev .).Permalink }}"><button class="btn">
                     <div class="triangle-left">
                         <div class="inner-left-triangle"></div>

@@ -1,36 +1,43 @@
 {{ define "main" }}
 <main>
-    <article>
-        <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
-        {{.Content}}
-        <!-- stand out -->
-<div class="stand-out">
-        <div class="row">
-          <div class="col-xl-12">
-            <h2>Blog</h2>
-          </div>
+  <article>
+    <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
+    {{.Content}}
+    <!-- stand out -->
+    <div class="stand-out">
+      <div class="row">
+        <div class="col-xl-12">
+          <h2>Blog</h2>
         </div>
-        <div class="row">
-          <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
-            <div class="card-deck">
-                    <!-- Ranges through content/posts/*.md -->
-                    {{ range .Pages }}
-                <div class="card">
-                    <a href="{{.Permalink}}">
+      </div>
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
+          <div class="card-deck">
+            <!-- Ranges through content/posts/*.md -->
+            {{ range .Pages }}
+            <div class="card">
+              <a href="{{.Permalink}}">
                 <div class="card-body">
+                  {{ with .Resources.Match "thumbnail" }}
+                    {{ range . }}
+                      {{ $img := .Resize "100x100" }}
+                      {{ $img = $img.Filter (images.GaussianBlur 6) }}
+                      <img src="{{  $img.RelPermalink }}" />
+                    {{ end }}
+                  {{ end }}
                   <h3 class="card-title">{{.Title}}</h3>
                   <p class="card-text">{{.Lastmod.Format "January 2, 2006"}}</p>
-                  <p>{{ $.Param "author" }}</p>
-                  </div>
-                  <div class="corner-triangle"></div>
-                </a>
-              </div>
-              {{ end }}      
+                  <p>{{ .Param "author" }}</p>
+                </div>
+                <div class="corner-triangle"></div>
+              </a>
             </div>
+            {{ end }}
           </div>
         </div>
       </div>
-    </article>
-    <ul>
+    </div>
+  </article>
+  <ul>
 </main>
 {{ end }}
