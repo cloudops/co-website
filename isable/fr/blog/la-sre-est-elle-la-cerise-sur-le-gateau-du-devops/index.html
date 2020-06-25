@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html><head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   
+   
+   
+   
+   <link rel="stylesheet" as="style" type="text/css" href="/css/style.css" media="screen">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="icon no-follow" href="/images/favicon.ico" type="image/x-icon">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,600i,700|Open+Sans:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8b2e2ddb4.js" crossorigin="anonymous"></script>
+
+
+    
+        <title>CloudOps - La SRE est-elle la cerise sur le gâteau du DevOps?</title>
+    
+</head><body>
+            
+            
+<div class="navbar-card" id="main-nav">
+  <nav class="navbar navbar-expand-xl">
+    
+    <a class="navbar-brand mr-auto" href="/">
+      <img src="/images/cO-logo-horizontal.png" width="245px" height="auto" alt="CloudOps logo">
+    </a>
+    <a class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto list-group list-group-flush">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="/solutions" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Solutions</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-12 nav-main-section">
+                <a href="/solutions"><button>Solutions Overview</button></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-0 solutions-dropdown-items-group">
+                <a href="/using-cloud"><h3 class="dropdown-item list-group-item list-group-item-action">Using Cloud</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/cloud-native-consulting">Cloud Native Consulting</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/cloud-migration">Cloud Migration</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/managed-services-augmented-support">Managed Services <br> Augmented Support</a>
+
+
+
+              </div>
+              <div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-1 solutions-dropdown-items-group">
+                <a href="/delivering-cloud"><h3 class="dropdown-item list-group-item list-group-item-action">Delivering Cloud</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/delivering-cloud-consulting">Consulting</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/managed-services-augmented-support">Managed Services <br> Augmented Support</a>
+              </div>
+
+              <div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-1 solutions-dropdown-items-group">
+                <a href="/transformations"><h3 class="dropdown-item list-group-item list-group-item-action">Transformations</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#devops-transformation">DevOps Transformation</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#cloudops-transformation">CloudOps Transformation</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#devnetops">DevNetOps Transformation</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+              </div>
+              <div class="col-xl-9 nav-cta horizontal-nav-cta">
+                  <a href="https://cdn2.hubspot.net/hubfs/732832/Branded%20Images/EN_CloudOps_OP_Services_.pdf" target="_blank"><h2>Meet business goals more efficiently</h2>
+                <p>Services one-pager highlighting how to transform your business by evolving team culture and tooling while adopting cloud native practices.</p><div class="triangle-right">
+                    <div class="inner-triangle"></div></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown" id="training-dropdown-menu">
+          <a class="nav-link" href="/training" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row solutions-dropdown-row">
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops">
+                <img src="/images/nav-workshops.svg" height="70px">
+                <h3>Workshops</h3></a>
+              </div>
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/experts">
+                <img src="/images/nav-experts.svg" height="70px">
+                <h3>Our Experts</h3></a>
+              </div>
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar">
+                <img src="/images/nav-calendar.svg" height="70px">
+                <h3>Calendar</h3></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+              </div>
+              <div class="col-xl-9 nav-cta horizontal-nav-cta">
+                <a href="/blog/quiz-are-you-a-kubernetes-unicorn/" target="_blank">
+                <h2>Are you a Kubernetes unicorn?</h2>
+                <p>Take our quiz to find out</p>
+              </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown reading-dropdown">
+          <a class="nav-link" href="/reading" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            data-reference="parent" data-offset="50%,20" aria-haspopup="true" aria-expanded="false">Reading</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="https://cdn2.hubspot.net/hubfs/732832/Gated%20Content/WP_Securing%20Your%20DevOps%20Platform%20Enterprise_2019.pdf" target="_blank">
+                <h2>Secure your DevOps platform</h2>
+                <p>White paper highlighting how to handle security challenges faced by enterprises</p>
+                </a>
+              </div>
+              <div class="col-xl-9">
+                <div class="row solutions-dropdown-row">
+                  <div class="col-xl-2 offset-xl-1">
+                      <a href="/blog"><img src="/images/nav-blog.svg" height="70px"></a>
+                  </div>
+                  <div class="col-xl-3">
+                      <a href="/blog"><h3 class="dropdown-item list-group-item list-group-item-action">Blog</h3></a>
+                  </div>
+                  <div class="col-xl-2 offset-xl-0">
+                      <a href="/resources"><img src="/images/nav-resources.svg" height="70px"></a>
+                  </div>
+                  <div class="col-xl-3">
+                    <a href="/resources"><h3 class="dropdown-item list-group-item list-group-item-action">Resources</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#">White Papers</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#">Case Studies</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#">Infographics</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#">One Pagers</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </li>
+        <li class="nav-item dropdown company-dropdown">
+          <a class="nav-link" href="/company" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            data-reference="parent" data-offset="50%,20" aria-haspopup="true" aria-expanded="false">Company</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="/blog/cloudops-manifesto/" target="_blank">
+                <h2>The CloudOps Manifetso</h2>
+                <p>11 key success factors we have learned from our adventures in the cloud</p></a>
+              </div>
+              <div class="col-xl-6 nav-main-section">
+                <a href="/why-cloudops"><button>Why choose CloudOps</button></a>
+                <div class="row sub-nav-items">
+                  <div class="col-xl-3 offset-xl-2">
+                    <img src="/images/description-logo.svg" width="70px">
+                  </div>
+                  <div class="col-xl-6">
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/about-us">About Us</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/partners">Our Partners</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/careers">Careers</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar">Events Calendar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="blog/staff-augmentation-vs-project-based-services-for-devops-and-cloud-projects/">
+                <h2>Accelerate your software release cycles</h2>
+                <p>Comparing staff augmentation to project-based services for DevOps and cloud projects</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="/contact-us"><button class="btn" type="submit">Contact</button></a>
+        </li>
+        <li>
+          
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div><div class="container-fluid main-content">
+<main class="post">
+    <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
+            <article>
+                <header>
+                    <h1>La SRE est-elle la cerise sur le gâteau du DevOps?</h1>
+                    <div> July 18, 2018 / Will Stevens </div>
+                </header>
+                
+                123123
+                <p><img src="/images/blog/post/BROWNIE.png" class="main-blog-image"></p>
+
+<p><span style="font-weight: 400;">C’est Google qui, en 2003, a introduit le terme &nbsp;» Site Reliability Engineering &nbsp;» (SRE) se traduisant par Ingénierie de la fiabilité de site. Aujourd’hui, l’entreprise emploie plus de 1500 ingénieurs de la fiabilité de site qui exploitent des systèmes à grande échelle dans un cycle continu de développement et de lancement de fonctionnalités. L’ingénierie de la fiabilité de site cherche à améliorer le modèle DevOps traditionnel en transférant les responsabilités opérationnelles vers les développeurs de logiciels. </span></p><p><b>DevOps</b></p><p><span style="font-weight: 400;">Le DevOps est une philosophie ayant pour but d’unir les rôles de développement (Dev) et des opérations (Ops). Préconisant une infrastructure partagée et hautement automatisée, le DevOps demande un pipeline de logiciel fluide avec une collaboration active entre le développement et les opérations, intégrée dans toutes les étapes du cycle de vie de la livraison. La méthodologie de travail qui en découle est légère, agile et son rythme de lancement des fonctionnalités se trouve grandement accéléré.</span></p><p><span style="font-weight: 400;">Le DevOps aborde le conflit d’intérêts existant entre le développement et les opérations et qui mène vers une absence de responsabilité de la part des deux équipes face aux problèmes qui pourraient survenir. Tandis que les développeurs veulent lancer des fonctionnalités de façon continue, les opérateurs doivent s’assurer d’un fonctionnement optimal. Plus le lancement des fonctionnalités est rapide, plus les risques sont grands ; l’exploitation d’une application à long terme peut alors devenir problématique. Les opérateurs et les développeurs n’ont aucun pouvoir sur le domaine de l’autre, il se crée alors une boucle de délégation de responsabilité menant éventuellement à la stagnation.</span></p><p><span style="font-weight: 400;">En intégrant les deux disciplines et en faisant la promotion d’une collaboration croisée, le DevOps aspire à résoudre ce conflit d’intérêts. Les développeurs sont alors plus enclins à prévenir les problèmes opérationnels futurs, car ils canalisent leur passion pour l’automatisation afin de résoudre les problèmes à l’échelle. Bien que ces pratiques aient un potentiel de mise à l’échelle illimité, le modèle peut éventuellement s’effondrer sous le poids de sa propre agilité et de sa complexité, au fur et à mesure qu’il accumule des dettes techniques.</span></p><p><b>SRE : Ingénierie de la fiabilité de site </b></p><p><span style="font-weight: 400;">Une SRE est en quelque sorte, une police d’assurance contre ce rythme de changement accéléré, limitant les dettes techniques engendrées par les pratiques DevOps. Un ingénieur de la fiabilité de site est responsable de la gestion de ce rythme de changement, il est également responsable de maintenir la stabilité de la performance de l’utilisateur final ainsi que la qualité et la fiabilité des éléments livrés. C’est l’ingénieur qui détient les accords de niveaux de services (ANS) d’une application et qui fournit les paramètres d’introduction des changements. La SRE délègue les responsabilités lorsque surviennent les problèmes, prévenant le lancement de nouvelles fonctionnalités avant que les problèmes opérationnels ne soient résolus. La délégation de responsabilités renforce la collaboration entre les développeurs et les opérateurs, ce qui améliore les capacités de surveillance, de gestion et de mise à l’échelle d’une application.</span></p><p>Essentiellement, l’ingénierie de la fiabilité de site gouverne la collaboration entre le Dev et les Ops au cœur d’une application Web, celle-ci étant découplée du pipeline DevOps, ce qui met en relief les protocoles de surveillance comme moyen de simplifier la collaboration. Ainsi, la SRE prolonge le modèle DevOps en y surimposant une couche de responsabilité englobant le modèle en entier, réduisant ainsi la dépendance sur la robustesse du pipeline et rendant l’équipe du Dev plus disponible aux Ops.</p><p><span style="font-weight: 400;">Une SRE est responsable de la fiabilité de l’application Web qui est essentielle au modèle commercial d’une organisation, mais qui est généralement là où se manifestent les problèmes techniques. Par conséquent, l’expérience de l’utilisateur final est vue comme le paramètre principal de la conformité aux ANS. Cela place la SRE dans une position idéale pour déléguer les responsabilités et atténuer les problèmes affectant les ANS et ainsi restaurer le comportement prévu de l’application Web. De cette façon, le rôle de la SRE facilite la résolution rapide des problèmes tout en préservant les objectifs de l’entreprise.</span></p><p><a href="https://landing.google.com/sre/interview/ben-treynor.html"><span style="font-weight: 400;">Ben Treynor</span></a><span style="font-weight: 400;"> est l’auteur du terme « SRE » (Ingénierie de la fiabilité de site) chez Google, il a compilé un </span><a href="https://landing.google.com/sre/book/index.html"><span style="font-weight: 400;">guide</span></a><span style="font-weight: 400;"> d’implantation de rôles SRE. Il cite cinq piliers des fondements d’une structure DevOps, expliquant comment une SRE peut aider les organisations à mettre ces piliers en œuvre.</span></p><p><b>Décloisonner les services</b><span style="font-weight: 400;"> – </span><span style="font-weight: 400;">la SRE élimine les barrières entre le Dev et les Ops grâce à une couche superposée et aide à combler l’écart entre l’équipe de développement qui souhaite livrer le plus rapidement possible et l’équipe des opérations qui veut éviter le désastre à l’étape de production. Ben Treynor décrit le rôle d’une SRE comme « ce qui arrive lorsque l’on demande à un ingénieur de logiciel de concevoir la fonction opérationnelle ».</span></p><p><b><span style="font-weight: 400;">Il s’agit de consacrer une équipe d’opérateurs à la supervision de la fiabilité du produit et de donner aux développeurs de logiciels la responsabilité des opérations quotidiennes de leurs applications en production.</span></b></p><p><b>Tirer profit de l’outillage et de l’automatisation</b><span style="font-weight: 400;"> – </span><span style="font-weight: 400;">l’automatisation fait déjà partie intégrante des pratiques DevOps, mais elle est préconisée davantage par une SRE</span><span style="font-weight: 400;">.</span><span style="font-weight: 400;"> Elle utilise l’expérience d’un développeur dans l’automatisation de problèmes à l’échelle ; une tâche habituellement réservée aux opérations. Ainsi, l’automatisation est accrue au-delà des paramètres habituels des développeurs et se répand à travers toute l’application.</span></p><p><b>Tout mesurer </b><span style="font-weight: 400;">– une SRE se concentre sur la capacité de surveillance d’une application comme moyen de cibler les problèmes dans le pipeline afin de déléguer les responsabilités. Tandis qu’un modèle DevOps traditionnel implique l’écriture de code, une SRE instrumente le code, le poussant au sein de l’application Web et l’exposant à la visibilité.</span></p><p><b>Accepter les échecs</b><span style="font-weight: 400;"> – </span><span style="font-weight: 400;">le rôle d’une SRE est d’atténuer les dettes techniques qui surviennent à cause de l’agilité accrue d’un modèle DevOps</span><span style="font-weight: 400;">.</span><span style="font-weight: 400;"> L’échec fait donc partie du quotidien, car on ne peut prévenir tous les problèmes, et puis les améliorations sont mises en œuvre de façon itérative.</span></p><p><b>Implémentation graduelle des changements </b><span style="font-weight: 400;">– </span><span style="font-weight: 400;">une SRE a pour but de réduire le coût de l’échec ; elle doit donc mettre en place les changements de façon graduelle afin qu’ils puissent</span> <span style="font-weight: 400;">être surveillés. Elle doit s’adapter elle-même, ainsi que son équipe, aux besoins uniques de l’organisation en question et créer, au fur et à mesure, sa description d’emploi. Ainsi, une SRE peut véritablement avoir son propre système de surveillance du pipeline DevOps et atténuer les risques au cours du processus.</span></p><p><span style="font-weight: 400;">Le DevOps a transformé la façon dont nous déployons les applications. Son accent sur la collaboration a accéléré, au sein de nombreuses entreprises, le lancement de fonctionnalités et la propagation de l’automatisation. Une SRE peut être une bonne solution pour pallier l’ambiguïté de la responsabilité face aux problèmes qui surviennent dans l’application Web. C’est un prolongement des pratiques DevOps, amenant les fonctions opérationnelles entre les mains des développeurs et responsabilisant les opérations grâce à l’atténuation du risque. </span><a href="https://www.ibm.com/blogs/bluemix/2017/08/site-reliability-engineering-cloud-approach-operations/"><span style="font-weight: 400;">Steve Strutt </span></a><span style="font-weight: 400;">a qualifié une</span> <span style="font-weight: 400;">SRE « d’approche infonuagique pour les opérations ». </span></p><p><span style="font-weight: 400;">Pour en apprendre plus sur la façon d’intégrer les pratiques exemplaires DevOps au sein de votre organisation, </span><span style="font-weight: 400;">demandez un</span><span style="font-weight: 400;">e </span><a href="https://www.cloudops.com/fr/services-2/services-professionnels/architecture-infonuagique/"><span style="font-weight: 400;">évaluation de plateforme applicative</span></a><span style="font-weight: 400;">.</span></p>
+
+            </article>
+        </div>
+    </div>
+
+
+    <div class="row nav-buttons back-foward in-content">
+        <div
+            class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-xs-2 back-button">
+            <a href="//localhost:1313/fr/blog/cloudops-est-maintenant-partenaire-de-la-plateforme-applicative-redhat/"><button class="btn">
+                    <div class="triangle-left">
+                        <div class="inner-left-triangle"></div>
+                    </div>Previous Post
+                </button></a>
+        </div>
+        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-xs-2 foward-button">
+            <a href="//localhost:1313/fr/blog/creation-dune-iac-la-troisieme-etape-vers-lautomatisation-devops/">
+                <button class="btn">
+                    Next Post<div class="triangle-right">
+                        <div class="inner-triangle"></div>
+                    </div>
+                </button></a>
+        </div>
+    </div>
+
+    <div class="social">
+        
+
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+position: relative;
+text-align: left; 
+height: 36px; 
+float: left; 
+text-align: center;
+}
+#share-buttons > div > svg {height: 36px; fill: #005D91; margin-top: 0;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.facebook > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.twitter > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.linkedin > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.mail > svg {height: 30px; margin: auto 5px;}
+</style>
+
+<div id="share-buttons">
+<div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=\/\/localhost:1313\/fr\/blog\/la-sre-est-elle-la-cerise-sur-le-gateau-du-devops\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
+<div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/home?status=\/\/localhost:1313\/fr\/blog\/la-sre-est-elle-la-cerise-sur-le-gateau-du-devops\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
+<div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=\/\/localhost:1313\/fr\/blog\/la-sre-est-elle-la-cerise-sur-le-gateau-du-devops\/&title=&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
+<div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body=\/\/localhost:1313\/fr\/blog\/la-sre-est-elle-la-cerise-sur-le-gateau-du-devops\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
+</div>
+
+        <i class="far fa-copy copy-page-link"></i>
+    </div>
+
+
+    </div>
+</main>
+
+        </div><div class="footer">
+    <div class="row logo">
+        <div class="col-sm-12">
+            <a href="/"><img class="cloudops-logo" src="/images/cO-logo-horizontal.png"
+                    height="45px" width="auto"></a>
+        </div>
+    </div>
+
+    <div class="row footer-content">
+        <div class="col-xl-3 offset-xl-2 col-lg-3 offset-lg-0 col-md-12">
+
+            <a href="https://twitter.com/CloudOps_" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/cloudops" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/Cloud0ps/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <h5>Newsletter Signup</h5>
+            <div class="newsletter-form">
+                    <div class="newsletter-form">
+
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "732832",
+	formId: "25575fb9-f01b-43a6-b9cd-2c154efad9f4"
+});
+</script>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-12 col-sm-12 footer-nav">
+            <h6>Services</h6>
+            <ul>
+                <li><a href="/cloud-native-consulting">Cloud Native Consulting</a></li>
+                <li><a href="/transformations">Transformations</a></li>
+                <li><a href="/managed-services-augmented-support">Support</a></li>
+                <li><a href="/delivering-cloud">Cloud Delivery</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-12 footer-nav">
+            <h6>Learning</h6>
+            <ul>
+                <li><a href="/workshops">Workshops</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/resources">White Papers</a></li>
+                <li><a href="/resources">Case Studies</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-12 footer-nav">
+            <h6>Company</h6>
+            <ul>
+                <li><a href="/about-us">About Us</a></li>
+                <li><a href="/careers">Careers</a></li>
+                <li><a href="/partners">Partners</a></li>
+                <li><a href="/why-cloudops">Why Cloudops</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row copyright">
+        <div class="col-sm-12">
+            <p>&copy; CloudOps. Tous droits réservés. // <a href="/privacy-policy">Privacy Policy</a></p>
+        </div>
+    </div>
+</div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
+        <script src="/js/main.js"></script>
+
+        <script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10&v=2"></' + 'script>')</script></body>
+</html>

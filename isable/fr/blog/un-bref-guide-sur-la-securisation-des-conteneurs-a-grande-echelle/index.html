@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html><head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   
+   
+   
+   
+   <link rel="stylesheet" as="style" type="text/css" href="/css/style.css" media="screen">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="icon no-follow" href="/images/favicon.ico" type="image/x-icon">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,600i,700|Open+Sans:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8b2e2ddb4.js" crossorigin="anonymous"></script>
+
+
+    
+        <title>CloudOps - Un bref guide sur la sécurisation des conteneurs à grande échelle</title>
+    
+</head><body>
+            
+            
+<div class="navbar-card" id="main-nav">
+  <nav class="navbar navbar-expand-xl">
+    
+    <a class="navbar-brand mr-auto" href="/">
+      <img src="/images/cO-logo-horizontal.png" width="245px" height="auto" alt="CloudOps logo">
+    </a>
+    <a class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto list-group list-group-flush">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="/solutions" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Solutions</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-12 nav-main-section">
+                <a href="/solutions"><button>Solutions Overview</button></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-0 solutions-dropdown-items-group">
+                <a href="/using-cloud"><h3 class="dropdown-item list-group-item list-group-item-action">Using Cloud</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/cloud-native-consulting">Cloud Native Consulting</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/cloud-migration">Cloud Migration</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/managed-services-augmented-support">Managed Services <br> Augmented Support</a>
+
+
+
+              </div>
+              <div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-1 solutions-dropdown-items-group">
+                <a href="/delivering-cloud"><h3 class="dropdown-item list-group-item list-group-item-action">Delivering Cloud</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/delivering-cloud-consulting">Consulting</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/managed-services-augmented-support">Managed Services <br> Augmented Support</a>
+              </div>
+
+              <div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-1 solutions-dropdown-items-group">
+                <a href="/transformations"><h3 class="dropdown-item list-group-item list-group-item-action">Transformations</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#devops-transformation">DevOps Transformation</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#cloudops-transformation">CloudOps Transformation</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#devnetops">DevNetOps Transformation</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+              </div>
+              <div class="col-xl-9 nav-cta horizontal-nav-cta">
+                  <a href="https://cdn2.hubspot.net/hubfs/732832/Branded%20Images/EN_CloudOps_OP_Services_.pdf" target="_blank"><h2>Meet business goals more efficiently</h2>
+                <p>Services one-pager highlighting how to transform your business by evolving team culture and tooling while adopting cloud native practices.</p><div class="triangle-right">
+                    <div class="inner-triangle"></div></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown" id="training-dropdown-menu">
+          <a class="nav-link" href="/training" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row solutions-dropdown-row">
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops">
+                <img src="/images/nav-workshops.svg" height="70px">
+                <h3>Workshops</h3></a>
+              </div>
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/experts">
+                <img src="/images/nav-experts.svg" height="70px">
+                <h3>Our Experts</h3></a>
+              </div>
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar">
+                <img src="/images/nav-calendar.svg" height="70px">
+                <h3>Calendar</h3></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+              </div>
+              <div class="col-xl-9 nav-cta horizontal-nav-cta">
+                <a href="/blog/quiz-are-you-a-kubernetes-unicorn/" target="_blank">
+                <h2>Are you a Kubernetes unicorn?</h2>
+                <p>Take our quiz to find out</p>
+              </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown reading-dropdown">
+          <a class="nav-link" href="/reading" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            data-reference="parent" data-offset="50%,20" aria-haspopup="true" aria-expanded="false">Reading</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="https://cdn2.hubspot.net/hubfs/732832/Gated%20Content/WP_Securing%20Your%20DevOps%20Platform%20Enterprise_2019.pdf" target="_blank">
+                <h2>Secure your DevOps platform</h2>
+                <p>White paper highlighting how to handle security challenges faced by enterprises</p>
+                </a>
+              </div>
+              <div class="col-xl-9">
+                <div class="row solutions-dropdown-row">
+                  <div class="col-xl-2 offset-xl-1">
+                      <a href="/blog"><img src="/images/nav-blog.svg" height="70px"></a>
+                  </div>
+                  <div class="col-xl-3">
+                      <a href="/blog"><h3 class="dropdown-item list-group-item list-group-item-action">Blog</h3></a>
+                  </div>
+                  <div class="col-xl-2 offset-xl-0">
+                      <a href="/resources"><img src="/images/nav-resources.svg" height="70px"></a>
+                  </div>
+                  <div class="col-xl-3">
+                    <a href="/resources"><h3 class="dropdown-item list-group-item list-group-item-action">Resources</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#">White Papers</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#">Case Studies</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#">Infographics</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#">One Pagers</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </li>
+        <li class="nav-item dropdown company-dropdown">
+          <a class="nav-link" href="/company" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            data-reference="parent" data-offset="50%,20" aria-haspopup="true" aria-expanded="false">Company</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="/blog/cloudops-manifesto/" target="_blank">
+                <h2>The CloudOps Manifetso</h2>
+                <p>11 key success factors we have learned from our adventures in the cloud</p></a>
+              </div>
+              <div class="col-xl-6 nav-main-section">
+                <a href="/why-cloudops"><button>Why choose CloudOps</button></a>
+                <div class="row sub-nav-items">
+                  <div class="col-xl-3 offset-xl-2">
+                    <img src="/images/description-logo.svg" width="70px">
+                  </div>
+                  <div class="col-xl-6">
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/about-us">About Us</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/partners">Our Partners</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/careers">Careers</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar">Events Calendar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="blog/staff-augmentation-vs-project-based-services-for-devops-and-cloud-projects/">
+                <h2>Accelerate your software release cycles</h2>
+                <p>Comparing staff augmentation to project-based services for DevOps and cloud projects</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="/contact-us"><button class="btn" type="submit">Contact</button></a>
+        </li>
+        <li>
+          
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div><div class="container-fluid main-content">
+<main class="post">
+    <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
+            <article>
+                <header>
+                    <h1>Un bref guide sur la sécurisation des conteneurs à grande échelle</h1>
+                    <div> January 29, 2019 / Michael Wojcikiewicz </div>
+                </header>
+                
+                123123
+                <p><img src="/images/blog/post/ContainerSecurity.png" class="main-blog-image"></p>
+
+<p>Les conteneurs ont changé la façon dont nous exécutons les applications, permettant d’augmenter grandement leur vitesse, leur évolutivité et leur efficacité. Ils sont une forme de virtualisation de système d’exploitation combinée à un empaquetage de logiciels d’application permettant d’assembler et d’exécuter des applications par des méthodes portables, réutilisables et automatisables. Depuis que Kubernetes, le système d’orchestration de conteneurs, a été mis en libre accès en 2015, le paysage des technologies infonuagiques natives a explosé parallèlement à une adoption commerciale étendue.</p><p>Mais les technologies de conteneurs se sont développées à un rythme tel que leur sécurité n’a souvent pas eu le temps de suivre. En conséquence, de nombreux professionnels de la cybersécurité ont affirmé que <a href="https://www.csoonline.com/article/3273347/security/containers-are-here-what-about-container-security.html">la croissance rapide et la prolifération des conteneurs d’applications avaient entraîné de nombreux problèmes de sécurité.</a> La sécurité des conteneurs est souvent perçue comme une eau trouble, et <a href="https://www.csoonline.com/article/2984543/vulnerabilities/as-containers-take-off-so-do-security-concerns.html">plus de 60% des entreprises qui utilisent des conteneurs à des fins de développement et de test citent la sécurité comme un obstacle majeur</a> à l’adoption de conteneurs en production. Les conteneurs n’ont pas la longévité des machines virtuelles et ne semblent donc pas avoir autant de bonnes pratiques éprouvées pour maintenir la sécurité.</p><p>Mais vous pouvez sécuriser votre pipeline à grande échelle avec des conteneurs si vous modifiez votre approche de la sécurité. Les pratiques traditionnelles de sécurisation des machines virtuelles ne s’appliquent pas aux environnements conteneurisés. Comparés aux machines virtuelles, les conteneurs ont beaucoup plus d’instances, changent plus rapidement et ont une mise en réseau beaucoup plus éphémère. Par exemple, les conteneurs changent fréquemment d’adresses IP, ce qui signifie qu’ils ne peuvent pas être sécurisés par des techniques traditionnelles reposant sur les adresses IP statiques généralement utilisées dans les serveurs de machines virtuelles ou sans système d’exploitation (« bare metal »). La sécurité doit donc être repensée dans les environnements conteneurisés.</p><p>En 2017, l’Institut national des normes et de la technologie (NIST) a publié le <a href="https://csrc.nist.gov/CSRC/media/Publications/sp/800-190/draft/documents/sp800-190-draft.pdf"><em>Guide de sécurité des conteneurs d’applications</em></a><em>.</em> Il décrit les problèmes de sécurité potentiels liés à l’utilisation de conteneurs et fournit des recommandations.</p><h2><strong>Transférez à gauche</strong></h2><p>Les conteneurs encouragent le transfert de la responsabilité des opérations vers le développement. Cette stratégie est nécessaire pour les pipelines dynamiques d’intégration continue et de livraison continue (CI/CD) qui sont caractéristiques des pratiques DevOps. Les conteneurs sont construits directement à partir d’images créées par les développeurs, qui sont responsables de l’application des correctifs dans les images et fournissent de nouvelles versions des images à exécuter. Repenser la sécurité des conteneurs signifie d’intégrer les opérations au développement à l’aide d’une boucle de rétroaction continue.</p><p>L’approche DevSecOps–la philosophie d’intégration de la sécurité dans les processus de DevOps–augmentera la sécurité opérationnelle en permettant à celle-ci de devenir aussi portable que les conteneurs protégés. Cette approche encouragera l’adoption de techniques et d’outils libres capables de fonctionner sur plusieurs plate-formes et environnements. Les configurations de compilation sécurisées sont automatisées afin de rester cohérentes tout au long de la conception, des tests et du déploiement. La sécurité des conteneurs signifie que la sécurité doit faire partie intégrante de tous les cycles de version au lieu d’être une préoccupation secondaire que l’équipe d’opérations devra reprendre en main en cours de route.</p><h2><strong>Réduisez les surfaces d’attaque</strong></h2><p>Les applications conteneurisées contiennent plus d’instances que les applications roulant sur des machines virtuelles. Cette surface d’attaque plus large signifie qu’il existe beaucoup plus de vulnérabilités pouvant être exploitées par des pirates. Ces surfaces d’attaque peuvent être réduites en remplaçant les systèmes d’exploitation génériques par des équivalents spécifiques aux conteneurs, comme CoreOS, qui désactivent les services et fonctionnalités non nécessaires à l’exécution des conteneurs. Comme le système d’exploitation est tout en bas de la pile technologique, toute défaillance de votre système d’exploitation aura un impact sur tous les conteneurs et applications exécutées sur les machines hôtes. Construisez petit, construisez peu et ne construisez que ce dont vous avez besoin.</p><h2><strong>Adoptez pour les images des outils et des processus gérant les vulnérabilités spécifiques aux conteneurs</strong></h2><p>Adoptez des outils qui encouragent l’approche de compilation basée sur un pipeline et respectent la nature immuable des conteneurs. Les outils spécifiques aux conteneurs, tels que <a href="https://t.sidekickopen75.com/s1t/c/5/f18dQhb0S7lM8dDMPbW2n0x6l2B9nMJN7t5X-FdSD1CW7fRVsP3MPb0nV19DCW3QqW6x103?t=http%3A%2F%2Fgithub.com%2Faquasecurity%2Fmicroscanner&amp;si=7000000000395463&amp;pi=f4aeb9b1-196d-49e1-f943-4bbee4cbd32c">Microscanner</a> (scanner de vulnérabilité d’image gratuit offert par Aqua Security), seront plus en mesure de comprendre le trafic des réseaux distribués et d’appliquer les politiques de sécurité. Ils ne feront aucune hypothèse sur la durabilité de l’hôte, les mécanismes et fréquences de mise à jour des applications, les fournisseurs de nuages spécifiques, les systèmes d’exploitation de l’hôte, les topologies de réseau ou les environnements d’exécution susceptibles de changer. Repenser la sécurité des environnements conteneurisés implique de surmonter les incohérences dans l’outillage et d’éviter les solutions étroites. Les processus d’une organisation et les outils qu’elle utilise doivent soutenir les nouvelles méthodes de développement, d’exécution et de support des applications rendues possibles par la conteneurisation.</p><h2><strong>Regroupez les conteneurs par sensibilité relative et limitez les accès aux réseaux ouverts</strong></h2><p>Les conteneurs sont mieux répartis mais moins isolés que les machines virtuelles. Les conteneurs appartenant à des réseaux ouverts peuvent accéder les uns aux autres ainsi qu’à leurs hôtes. À partir du moment où un conteneur est exploité, tous les autres conteneurs de son noyau sont également compromis. Le rayon de déflagration des brèches peut être minimisé en isolant les conteneurs groupés en fonction de leur sensibilité relative sur différents noyaux du système d’exploitation hôte. Pour réduire ce rayon de déflagration encore plus ou empêcher complètement les exploitations, la sécurité réseau de Kubernetes et les politiques de sécurité des pods peuvent empêcher l’accès aux réseaux ouverts. Les solutions commerciales, telles que <a href="https://t.sidekickopen75.com/s1t/c/5/f18dQhb0S7lM8dDMPbW2n0x6l2B9nMJN7t5X-FdSD1CW7fRVsP3MPb0nV19DCW3QqW6x103?t=http%3A%2F%2Faquasec.com%2F&amp;si=7000000000395463&amp;pi=f4aeb9b1-196d-49e1-f943-4bbee4cbd32c">le CSP d’Aqua</a>, peuvent le faire en limitant le comportement du réseau, les exécutables et l’accès aux fichiers.</p><h2><strong>Automatisez les configurations d’exécution</strong></h2><p>Vous pouvez grandement faciliter la surveillance en créant des normes pour chaque type d’exécution de conteneur et en automatisant leur configuration. Les repères CIS pour Docker et Kubernetes fournissent des conseils sur les bonnes pratiques spécifiques aux conteneurs. L’outil libre <a href="https://t.sidekickopen75.com/s1t/c/5/f18dQhb0S7lM8dDMPbW2n0x6l2B9nMJN7t5X-FdSD1CW7fRVsP3MPb0nV19DCW3QqW6x103?t=http%3A%2F%2Fgithub.com%2Faquasecurity%2Fkube-bench&amp;si=7000000000395463&amp;pi=f4aeb9b1-196d-49e1-f943-4bbee4cbd32c">kube-bench</a> automatise les tests de conformité en utilisant les repères CIS de Kubernetes. Cette approche vous permettra de réagir aux vulnérabilités plus rapidement et avec un fardeau opérationnel moindre. Cela devrait être une extension naturelle du transfert à gauche de la responsabilité dans la mesure où cela fait partie de l’automatisation des opérations dans la phase de développement.</p><p>Les conteneurs ne sont pas moins sécurisés que les machines virtuelles, mais leur sécurité peut nécessiter des processus et outils complètement différents. La sécurité doit faire partie d’une pratique plus large de DevOps qui déplace la responsabilité vers la gauche, réduit les surfaces d’attaque, utilise des outils spécifiques aux conteneurs, regroupe les conteneurs et automatise autant que possible.</p><p>Concevoir vos déploiements autour de bonnes pratiques spécifiques aux conteneurs est essentiel pour sécuriser votre application conteneurisée. Cette approche vous donnera des possibilités de sécuriser vos pipelines de livraison de logiciels à grande échelle et de mieux aligner vos pratiques opérationnelles avec les objectifs spécifiques à votre organisation.</p><p>Les certifications, comme le <a href="https://www.cloudops.com/2018/05/overcoming-compliance-confusion-why-you-need-a-soc-2-foundation/">SOC 2</a>, peuvent ouvrir la voie à des procédures d’audit suffisantes pour détecter et résoudre les vulnérabilités. Outre les bonnes pratiques de DevOps, cela peut donner à votre organisation tout ce qui est nécessaire pour protéger vos conteneurs des pirates informatiques.</p><p>Pour doter vos équipes des compétences techniques et des processus opérationnels nécessaires pour tirer parti des opportunités de sécurité offertes par la conteneurisation, <a href="https://www.cloudops.com/workshops/">découvrez nos ateliers DevOps</a>. Pour comprendre où se trouvent vos équipes techniques avec leurs processus et outils de sécurité, laissez les processus certifiés SOC-2 de CloudOps vous guider dans la bonne direction grâce à une <a href="https://www.cloudops.com/devops-platform-and-practices-assessment/">plate-forme DevOps et à une évaluation des pratiques</a>.</p><p><!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-1e2208b8-99d7-4ecd-ac6f-83ccc1f262ed"><span class="hs-cta-node hs-cta-1e2208b8-99d7-4ecd-ac6f-83ccc1f262ed" id="hs-cta-1e2208b8-99d7-4ecd-ac6f-83ccc1f262ed" style="visibility: visible;" data-hs-drop="true"><a id="cta_button_732832_aebe9676-70ac-4719-ace1-42aae0b2b420" class="cta_button " href="https://info.cloudops.com/cs/c/?cta_guid=aebe9676-70ac-4719-ace1-42aae0b2b420&amp;placement_guid=1e2208b8-99d7-4ecd-ac6f-83ccc1f262ed&amp;portal_id=732832&amp;canon=https%3A%2F%2Fwww.cloudops.com%2Ffr%2F2019%2F01%2Fun-bref-guide-sur-la-securisation-des-conteneurs-a-grande-echelle%2F&amp;redirect_url=APefjpFxBL-zXJEsk6D6eZFP5wTygJf3sZLFJjBgx07PURN3ohr_kxQfzIVTkTFiHZ9z7zNAg1ggHFTgwcBt_LHMd5zAcbZDMMxp3fjMxNm6wOuZ-vdnPTZOrbwZ77JoIoDIZG_XBIgfyf1P4uF_hWxExiBsTWfPzbFjsb3PwADuxtB8Cwa_bbMFISSC7pG1bWaJQtdTxAZ3Kj9V_ndXqUps2qxZLK0icXxESLi1yLk42i03SerJ8ROEat6Mz60Ti1w2G0_crrovthEs9fkVVM-i71PM7S9UX8TJdtYmKTdLhWRzf5KpkJgCYCCj_yxt-tuI7yC7WSToEL-Pq3TDoGOJaUuINkqX0-FwooaGRx4iY209ADiSjF4&amp;click=06407a8d-bf33-4e4e-aa08-d9a12bfbb932&amp;hsutk=87c014ad1b8ef7afaaf23068a42614b6&amp;signature=AAH58kGcr40V7Z9q7WEN8VjP5vQWFoExbw&amp;utm_referrer=https%3A%2F%2Fwww.cloudops.com%2Ffr%2Fcategory%2Fblogue%2Fpage%2F5%2F&amp;__hstc=52875767.87c014ad1b8ef7afaaf23068a42614b6.1588082535461.1590775246632.1590780275758.18&amp;__hssc=52875767.20.1590780275758&amp;__hsfp=2009260798&amp;contentType=blog-post" target="_blank" style="" cta_dest_link="https://info.cloudops.com/azure-kubernetes-services-la-securite-des-conteneurs-pour-un-monde-infonuagique" title="Téléchargez le livre">Téléchargez le livre</a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript">hbspt.cta.load(732832, '1e2208b8-99d7-4ecd-ac6f-83ccc1f262ed', {});</script></span><!-- end HubSpot Call-to-Action Code --></p>
+
+            </article>
+        </div>
+    </div>
+
+
+    <div class="row nav-buttons back-foward in-content">
+        <div
+            class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-xs-2 back-button">
+            <a href="//localhost:1313/fr/blog/pourquoi-jai-rejoint-cloudops/"><button class="btn">
+                    <div class="triangle-left">
+                        <div class="inner-left-triangle"></div>
+                    </div>Previous Post
+                </button></a>
+        </div>
+        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-xs-2 foward-button">
+            <a href="//localhost:1313/fr/blog/infographie-guide-pour-mieux-comprendre-les-distributions-kubernetes/">
+                <button class="btn">
+                    Next Post<div class="triangle-right">
+                        <div class="inner-triangle"></div>
+                    </div>
+                </button></a>
+        </div>
+    </div>
+
+    <div class="social">
+        
+
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+position: relative;
+text-align: left; 
+height: 36px; 
+float: left; 
+text-align: center;
+}
+#share-buttons > div > svg {height: 36px; fill: #005D91; margin-top: 0;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.facebook > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.twitter > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.linkedin > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.mail > svg {height: 30px; margin: auto 5px;}
+</style>
+
+<div id="share-buttons">
+<div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=\/\/localhost:1313\/fr\/blog\/un-bref-guide-sur-la-securisation-des-conteneurs-a-grande-echelle\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
+<div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/home?status=\/\/localhost:1313\/fr\/blog\/un-bref-guide-sur-la-securisation-des-conteneurs-a-grande-echelle\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
+<div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=\/\/localhost:1313\/fr\/blog\/un-bref-guide-sur-la-securisation-des-conteneurs-a-grande-echelle\/&title=&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
+<div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body=\/\/localhost:1313\/fr\/blog\/un-bref-guide-sur-la-securisation-des-conteneurs-a-grande-echelle\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
+</div>
+
+        <i class="far fa-copy copy-page-link"></i>
+    </div>
+
+
+    </div>
+</main>
+
+        </div><div class="footer">
+    <div class="row logo">
+        <div class="col-sm-12">
+            <a href="/"><img class="cloudops-logo" src="/images/cO-logo-horizontal.png"
+                    height="45px" width="auto"></a>
+        </div>
+    </div>
+
+    <div class="row footer-content">
+        <div class="col-xl-3 offset-xl-2 col-lg-3 offset-lg-0 col-md-12">
+
+            <a href="https://twitter.com/CloudOps_" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/cloudops" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/Cloud0ps/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <h5>Newsletter Signup</h5>
+            <div class="newsletter-form">
+                    <div class="newsletter-form">
+
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "732832",
+	formId: "25575fb9-f01b-43a6-b9cd-2c154efad9f4"
+});
+</script>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-12 col-sm-12 footer-nav">
+            <h6>Services</h6>
+            <ul>
+                <li><a href="/cloud-native-consulting">Cloud Native Consulting</a></li>
+                <li><a href="/transformations">Transformations</a></li>
+                <li><a href="/managed-services-augmented-support">Support</a></li>
+                <li><a href="/delivering-cloud">Cloud Delivery</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-12 footer-nav">
+            <h6>Learning</h6>
+            <ul>
+                <li><a href="/workshops">Workshops</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/resources">White Papers</a></li>
+                <li><a href="/resources">Case Studies</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-12 footer-nav">
+            <h6>Company</h6>
+            <ul>
+                <li><a href="/about-us">About Us</a></li>
+                <li><a href="/careers">Careers</a></li>
+                <li><a href="/partners">Partners</a></li>
+                <li><a href="/why-cloudops">Why Cloudops</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row copyright">
+        <div class="col-sm-12">
+            <p>&copy; CloudOps. Tous droits réservés. // <a href="/privacy-policy">Privacy Policy</a></p>
+        </div>
+    </div>
+</div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
+        <script src="/js/main.js"></script>
+
+        <script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10&v=2"></' + 'script>')</script></body>
+</html>
