@@ -1,0 +1,118 @@
+.landing-page .main-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.landing-page
+.jumbotron.hero.learning-landing {
+    background-image: linear-gradient(to bottom right, #7AAA43, #2C893D);
+    border-top: 3px solid #005D91;
+    background-size: auto;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.landing-page
+.jumbotron.hero.solutions-landing {
+    background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
+    border-top: 3px solid #005D91;
+    background-size: auto;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+
+.landing-page h2 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+
+.landing-page .with-bottom-line {
+    padding-bottom: 50px;
+    border-bottom: 2px solid #FFE07F;
+    margin-left: 16.666667%;
+    margin-right: 16.66667%;
+}
+
+.landing-page .without-bottom-line {
+    padding-bottom: 50px;
+    margin-left: 16.666667%;
+    margin-right: 16.66667%;
+}
+
+.landing-page .main-content {
+    background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.landing-page .main-content img {
+    width: 160px;
+    margin-top: 50px;
+}
+
+
+.landing-page
+.brand-promises-card {
+    padding: 100px 0;
+    background-color: #FBFBFB;
+    background-image: url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg"), url("../images/dotted-triangles-yellow.svg"), url("../images/dotted-triangles-yellow.svg");
+    background-position: left bottom, right top, left center, right center;
+    background-repeat: no-repeat, no-repeat, repeat-y, repeat-y;
+}
+
+.landing-page .brand-promises-card h5 {
+    color: #005D91;
+    font-size: 28px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.landing-page .main-content h6 {
+    padding-bottom: 30px;
+}
+
+.landing-page .main-content ul li {
+    margin-left: 30px;
+  }
+  
+.landing-page .main-content ul.dashes li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -20px;
+}
+
+.landing-page .main-content .added-padding-bottom {
+    padding-bottom: 50px;
+}
+
+@media (max-width: 575.98px) {
+
+    .landing-page .brand-promises-card {
+        padding: 100px 0;
+        background-color: #FBFBFB;
+        background-image: url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
+        background-position: left bottom, right top;
+        background-repeat: no-repeat, no-repeat;
+        text-align: center;
+    }
+
+    .landing-page .brand-promises-card h5 {
+        padding-left: 30px;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    .landing-page .brand-promises-card {
+        padding: 100px 0;
+        background-color: #FBFBFB;
+        background-image: url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
+        background-position: left bottom, right top;
+        background-repeat: no-repeat, no-repeat;
+        text-align: center;
+    }
+}

@@ -946,6 +946,25 @@
     border-bottom: 1px #404040 solid;
 }
 
+.contact-us-card .general-contact-form ul.inputs-list.multi-container {
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.contact-us-card .general-contact-form .input select {
+    margin-bottom: 30px;
+    color: #404040;
+}
+
+.contact-us-card .general-contact-form ul.inputs-list {
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.contact-us-card .general-contact-form fieldset.form-columns-1 .hs-fieldtype-checkbox.field.hs-form-field>label {
+    margin-top: 30px;
+    color: #404040;
+}
 
 .contact-us-card h2 {
    padding: 40px 0 0 0;

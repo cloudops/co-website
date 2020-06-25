@@ -16,6 +16,10 @@
     padding-bottom: 100px;
 }
 
+.contact-us .contact-us-main h2 {
+    padding-bottom: 30px
+}
+
 .contact-us .phone-numbers {
     padding: 30px 0;
     border-bottom: solid 2px #FFE07F;
@@ -111,13 +115,14 @@
     transition-duration: 0.6s;
 }
 
-.contact-us .general-contact-form fieldset {
-    margin: auto;
-}
-
 .contact-us .alternative-contact img {
     display: block;
 }
+
+.contact-us .general-contact-form .actions {
+    text-align: left;
+}
+
 
 @media (max-width: 575.98px) {
 
@@ -461,10 +466,6 @@
     .contact-us h2 {
        padding: 40px 0 0 0;
     }
-
-    .contact-us .general-contact-form .actions {
-        text-align: center;
-    }
 }
 
 @media (min-width: 1200px) {
@@ -549,10 +550,6 @@
 
     .contact-us h2 {
        padding: 40px 0 0 0;
-    }
-
-    .contact-us .general-contact-form .actions {
-        text-align: center;
     }
 
     .contact-us .general-contact-form {
