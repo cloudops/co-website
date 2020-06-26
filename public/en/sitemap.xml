@@ -38,6 +38,11 @@
   </url>
   
   <url>
+    <loc>/blog/test-blog/</loc>
+    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/3-ways-to-prepare-remote-teams-for-devops-adoption/</loc>
     <lastmod>2020-05-21T00:00:00+00:00</lastmod>
   </url>
@@ -203,7 +208,7 @@
   </url>
   
   <url>
-    <loc>/blog/9591/</loc>
+    <loc>/blog/become-cloud-native-how-to-migrate-your-applications-into-the-cloud/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -808,6 +813,10 @@
   </url>
   
   <url>
+    <loc>/cka-ckad-exams/</loc>
+  </url>
+  
+  <url>
     <loc>/cloud-migration/</loc>
   </url>
   
@@ -839,6 +848,10 @@
                 hreflang="en"
                 href="/devops-monitoring/"
                 />
+  </url>
+  
+  <url>
+    <loc>/dppa/</loc>
   </url>
   
   <url>

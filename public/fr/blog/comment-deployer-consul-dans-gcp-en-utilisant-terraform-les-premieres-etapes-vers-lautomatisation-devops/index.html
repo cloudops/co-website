@@ -8,7 +8,7 @@
    
    
    
-   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.327efa154395d5263420d4016d271e3d8dce40b68f73ec04dc319d6c3d27302a.css" integrity="sha256-Mn76FUOV1SY0INQBbScePY3OQLaPc&#43;wE3DGdbD0nMCo=" crossorigin="anonymous" media="screen" />
+   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.784f6b40a268a8164cdff2cac79c8ff15b414c5139d9187360adcc8e4f2e05ce.css" integrity="sha256-eE9rQKJoqBZM3/LKx5yP8VtBTFE52RhzYK3Mjk8uBc4=" crossorigin="anonymous" media="screen" />
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
@@ -193,7 +193,6 @@
     </div>
   </nav>
 </div><div class="container-fluid main-content">
-
 <main class="post">
     <div class="row">
         <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
@@ -202,6 +201,8 @@
                     <h1>Créer une infrastructure en tant que code dans GCP avec Consul et Terraform : Les premières étapes vers l’automatisation DevOps</h1>
                     <div> February 28, 2018 / Stacy Véronneau </div>
                 </header>
+                
+                123123
                 <p><img src="/images/blog/post/Meme1final.png" class="main-blog-image"></p>
 
 <p>L’infrastructure en tant que code (IaC) a attiré beaucoup d’attention ces derniers temps. Elle prend le code pour gérer la configuration et l’automatisation de l’infrastructure de votre application afin de libérer des ressources et ainsi réduire les risques, les dettes techniques et les erreurs. L’IaC prend de plus en plus d’importance dans la réussite des pratiques DevOps. Terraform, par Hashicorp est un outil d’infrastructure multi-plate-forme qui vous permet d’automatiser votre infrastructure en utilisant les mêmes outils sur plusieurs plateformes. L’outil Ansible peut être utilisé pour bâtir et gérer les configurations d’applications à distances et les installations de MV conçues sur votre déploiement d’infrastructure Terraform.</p><p>Étant moi-même accro à Terraform, je suis vraiment emballé par le fait qu’il puisse faire progresser les pratiques DevOps et IaC. Je publie cet article dans le but d’expliquer comment utiliser Terraform pour déployer une instance dans GCP tout en utilisant Ansible pour provisionner Consul de HashiCorp. L’idée m’est venue au meetup des utilisateurs Hashicorp (HashiCorp User Group : HUG) qui fut organisé par CloudOps, partenaire de HashiCorp, à Montréal le 16 janvier dernier. Après avoir discuté avec une personne qui désirait faire une démonstration de faisabilité dans GCP, j’ai réalisé à quel point il serait approprié d’utiliser Terraform ou Packer avec Ansible sur GCP.</p><p>Terraform a la qualité d’être idempotent, cela signifie que l’on obtient toujours les mêmes résultats, chaque fois que l’on exécute le script, permettant ainsi de bâtir une infrastructure complètement immuable pour soutenir les configurations. Les étapes suivantes démontrent comment obtenir un processus complètement automatisé pour lancer des instances dans GCP. Ce processus implique le lancement d’une instance sur GCP, via Terraform, déclenchant alors un playbook Ansible qui installe pour vous, dans l’instance, la version 1.0.6 de Consul. Lorsque vous entrez à nouveau dans votre instance, le processus s’y trouve déjà et vous vous trouvez devant une page blanche à configurer comme bon vous semble.</p><p><strong>Étape 1</strong> – Assurez-vous d’avoir un projet GCP et une clé SSH à l’échelle de tout le projet, car vous en aurez besoin pour accéder à votre instance. Les instructions à cet effet se trouvent <a href="https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys" target="_blank">ici</a>, vous devriez être dirigés vers une page qui ressemble à ceci:</p><p><img style="width:100%;" src="/images/blog/post/step1.jpg
@@ -215,7 +216,8 @@
 
 
     <div class="row nav-buttons back-foward in-content">
-        <div class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-xs-2 back-button">
+        <div
+            class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-xs-2 back-button">
             <a href="/fr/blog/informatique-sans-serveur-on-aime-ou-pas%e2%80%89-2/"><button class="btn">
                     <div class="triangle-left">
                         <div class="inner-left-triangle"></div>
@@ -332,7 +334,7 @@ text-align: center;
 
     <div class="row copyright">
         <div class="col-sm-12">
-            <p>&copy; CloudOps. Tous droits réservés.</p>
+            <p>&copy; CloudOps. Tous droits réservés. // <a href="/privacy-policy">Privacy Policy</a></p>
         </div>
     </div>
 </div>

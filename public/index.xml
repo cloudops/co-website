@@ -335,10 +335,10 @@ AWS has since continued growing its offering and currently boasts the highest ma
     
     <item>
       <title>Become Cloud Native: How to Migrate your Applications into the Cloud</title>
-      <link>/blog/9591/</link>
+      <link>/blog/become-cloud-native-how-to-migrate-your-applications-into-the-cloud/</link>
       <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/blog/9591/</guid>
+      <guid>/blog/become-cloud-native-how-to-migrate-your-applications-into-the-cloud/</guid>
       <description>Carefully thinking about what kind of cloud platform will suit your business and technical requirements will let you own your destiny in the cloud. To learn more about how you can analyze your technology stack, read our white paper, ‘A Checklist for your Cloud Migration Strategy.’
   </description>
     </item>
@@ -1440,6 +1440,17 @@ On Premise: $1500/attendee (minimum 6 attendees)</description>
     </item>
     
     <item>
+      <title>CKA &amp; CKAD Exams</title>
+      <link>/cka-ckad-exams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cka-ckad-exams/</guid>
+      <description>CKA &amp; CKAD Exams      CKA exam Certification is a key step in developing the Kubernetes ecosystem and for professional growth. The exam is based on the latest version of Kubernetes and issued by the CNCF and the Linux Foundation. CloudOps&#39; 3-day Docker and Kubernetes workshop plus one day exam prep (focused on operations) will get you certification ready!
+The CKA exam covers:
+  Application Lifecycle Management 8% Installation, Configuration &amp; Validation Core Concepts Networking Scheduling    Security Cluster Maintenance Logging / Monitoring Storage Troubleshooting      CKAD exam This exam is for developers who design, build, configure, and expose cloud native applications for Kubernetes.</description>
+    </item>
+    
+    <item>
       <title>Cloud Migration</title>
       <link>/cloud-migration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1463,16 +1474,9 @@ On Premise: $1500/attendee (minimum 6 attendees)</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/contact-us/</guid>
-      <description>Contact Us     Let&#39;s talk!     hbspt.forms.create({ portalId: &#34;732832&#34;, formId: &#34;1cf544ad-f04a-4de0-abec-c7a59dca11ce&#34; });   1-514-447-3456 (Montreal) 1-855-652-5683 (toll-free) 1-514-312-5288 (fax)  info@cloudops.com    Our Offices  Montreal (Head Office) 200-423 rue Saint-Nicolas
-Montreal, QC, Canada
-H2Y 2P4
-  Toronto 700-56 Temperance Street
-Toronto, ON, Canada
-M5H 3V5
-  Boston 201 Sommerville
-Sommerville, MA, USA
-02143
-  Miami 429 Lenox Avenue</description>
+      <description>Contact Us     Let&#39;s talk! We can help you on your journey with the cloud.
+Contact us using the form below and someone from our team will get back to you within the next business day.
+    hbspt.forms.create({ portalId: &#34;732832&#34;, formId: &#34;1cf544ad-f04a-4de0-abec-c7a59dca11ce&#34; });   1-514-447-3456 (Montreal) 1-855-652-5683 (toll-free) 1-514-312-5288 (fax)  info@cloudops.com    Our Offices  Montreal (Head Office) 200-423 rue Saint-Nicolas</description>
     </item>
     
     <item>
@@ -1503,6 +1507,15 @@ Sommerville, MA, USA
 Duration: 2 days
 On Premise: $2500/attendee (minimum 6 attendees)
  Prerequisites: Experience using Linux CLI and a general understanding of DevOps concepts</description>
+    </item>
+    
+    <item>
+      <title>DevOps Platform and Practices Assessment</title>
+      <link>/dppa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/dppa/</guid>
+      <description>DevOps Platform and Practices Assessment      Whether your team already works in a DevOps manner or if you are just beginning the journey, CloudOps can help pave the way. We provide an objective report of the application portfolio, business impact, technical risks, and the path (and gaps) to DevOps best practices and cloud native development and delivery.      Who is it for?: Organizations evaluating cloud platforms DevOps teams looking to maximize efficiency Any organizations who run business critical applications, who care about speed to market and modernization of their applications, and looking to adopt DevOps        Understand the real issues Our assessment report provides suggested scope of any next steps.</description>
     </item>
     
     <item>

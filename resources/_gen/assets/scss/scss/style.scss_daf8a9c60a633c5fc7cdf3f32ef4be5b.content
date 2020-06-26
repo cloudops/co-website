@@ -1095,8 +1095,16 @@ ul li {
       margin-top: 80px; } }
 
 /************  Navbar Styles  ***************/
+.navbar-card .navbar {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.navbar-card .navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0; }
+
 .navbar-card {
-  margin: 5px 100px; }
+  margin: 0 100px; }
 
 .navbar-card h2 {
   font-family: 'Open Sans', sans-serif;
