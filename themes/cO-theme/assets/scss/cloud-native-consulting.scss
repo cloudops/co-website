@@ -98,6 +98,7 @@
         position: relative;
         top: 30px;
         width: 280px;
+        padding-bottom: 30px;
     }
 
     .cloud-native-consulting .hero-image-container {
@@ -210,8 +211,8 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .cloud-native-consulting
     .jumbotron.hero img {
-        left: 30px;
-        top: -225px;
+        left: 60px;
+        top: -100px;
         width: 360px;
     }
 

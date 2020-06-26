@@ -2306,6 +2306,12 @@ a.active {
   background-position: left bottom, right top;
   background-repeat: no-repeat, no-repeat; }
 
+.workshops .brand-promises-card .promise ul {
+  text-align: left; }
+
+.workshops .brand-promises-card .promise h3 {
+  text-align: left; }
+
 .workshops .brand-promises-card ul li {
   margin-left: 30px; }
 
@@ -2457,12 +2463,20 @@ a.active {
     border-right: none;
     border-bottom: solid 2px #FFE07F;
     padding-bottom: 50px;
-    margin-left: 30px;
     padding-left: 0; }
   .workshops .contact-us-card .without-yellow-line {
-    padding: 50px 0 0 30px; }
+    padding: 50px 0 0 0; }
+  .workshops .contact-us-card h2 {
+    margin-left: 15px;
+    margin-right: 15px; }
   .workshops .contact-us-card img {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+  .workshops .contact-us-card .general-contact-form {
+    padding-left: 0; }
+  .workshops .general-contact-form .legal-consent-container .hs-form-booleancheckbox-display p {
+    text-align: left; }
+  .workshops .general-contact-form label .hs-fieldtype-checkbox {
+    text-align: left; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .workshops .jumbotron.hero img {
@@ -2588,7 +2602,8 @@ a.active {
   .solutions .jumbotron.hero img {
     position: relative;
     top: 30px;
-    width: 280px; }
+    width: 280px;
+    padding-bottom: 30px; }
   .solutions .brand-promises-card {
     padding-left: 0; }
   .solutions .brand-promises-card h2 {
@@ -2772,7 +2787,8 @@ a.active {
   .about-us .jumbotron.hero img {
     position: relative;
     top: 30px;
-    width: 280px; }
+    width: 280px;
+    padding-bottom: 30px; }
   .about-us .hero-image-container {
     text-align: left; }
   .about-us .case-studies-card h2 {
@@ -3290,7 +3306,7 @@ a.active {
     left: 30px;
     top: -150px; }
   .using-cloud .devops-case-study img {
-    margin-top: 50%;
+    margin-top: 200px;
     width: 380px; }
   .using-cloud .case-studies-card {
     padding-top: 0; } }
@@ -3717,7 +3733,8 @@ a.active {
   font-family: 'Montserrat', sans-serif;
   color: #005D91;
   font-size: 24px;
-  line-height: 1.8; }
+  line-height: 1.8;
+  text-align: center; }
 
 .why-cloudops .design-build-transform-card .card-deck .card .card-body {
   padding: 70px 100px; }
@@ -3733,7 +3750,18 @@ a.active {
   margin-bottom: 100px;
   padding-bottom: 100px; }
 
+.why-cloudops .design-build-transform-card h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #005D91;
+  font-size: 15pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 50px auto; }
+
 @media (max-width: 575.98px) {
+  .why-cloudops .case-studies-card {
+    text-align: left; }
   .why-cloudops .jumbotron.hero h1 {
     font-size: 50px;
     text-align: left; }
@@ -3753,15 +3781,21 @@ a.active {
     text-align: left; }
   .why-cloudops .case-studies-card .image-for-desktop {
     display: none; }
-  .why-cloudops .image-for-mobile {
+  .why-cloudops .case-studies-card .image-for-mobile {
     position: static;
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px; }
+  .why-cloudops .case-studies-card .long-image .image-for-mobile {
+    width: 160px; }
   .why-cloudops .case-studies-card img {
     position: relative;
     width: 260px;
     height: auto;
     top: 0;
     left: 0; }
+  .why-cloudops .case-studies-card .center-aligned {
+    text-align: center; }
   .why-cloudops .case-studies-card .with-bottom-line {
     border-bottom: 2px solid #FFE07F;
     margin-left: 15px;
@@ -3783,14 +3817,17 @@ a.active {
     text-align: center; }
   .why-cloudops .image-for-desktop {
     display: none; }
+  .why-cloudops .case-studies-card .center-aligned {
+    text-align: center; }
   .why-cloudops .case-studies-card .image-for-mobile {
     position: static;
-    text-align: center; }
+    padding-bottom: 30px;
+    padding-top: 30px; }
   .why-cloudops .case-studies-card img {
     position: static;
     width: 200px;
     height: auto;
-    margin-bottom: 30px; }
+    margin-bottom: 0; }
   .why-cloudops .case-studies-card .with-bottom-line {
     border-bottom: 2px solid #FFE07F;
     margin-left: 15px;
@@ -4543,7 +4580,8 @@ a.active {
   .delivering-cloud .jumbotron.hero img {
     position: relative;
     top: 30px;
-    width: 280px; }
+    width: 280px;
+    padding-bottom: 30px; }
   .delivering-cloud .brand-promises-card h2 {
     text-align: center; }
   .delivering-cloud .hero-image-container {
@@ -4752,6 +4790,9 @@ a.active {
     left: 0; }
   .delivering-cloud-consulting .hero-image-container {
     text-align: left; }
+  .delivering-cloud-consulting .brand-promises-card {
+    padding-left: 15px;
+    padding-right: 15px; }
   .delivering-cloud-consulting .case-studies-card {
     text-align: center; }
   .delivering-cloud-consulting .case-studies-card img {
@@ -5021,7 +5062,8 @@ a.active {
   .cloud-native-consulting .jumbotron.hero img {
     position: relative;
     top: 30px;
-    width: 280px; }
+    width: 280px;
+    padding-bottom: 30px; }
   .cloud-native-consulting .hero-image-container {
     text-align: left; }
   .cloud-native-consulting .image-for-desktop {
@@ -5084,8 +5126,8 @@ a.active {
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .cloud-native-consulting .jumbotron.hero img {
-    left: 30px;
-    top: -225px;
+    left: 60px;
+    top: -100px;
     width: 360px; }
   .cloud-native-consulting .image-for-mobile {
     display: none; }
@@ -5502,7 +5544,8 @@ a.active {
   .managed-services .jumbotron.hero img {
     position: relative;
     top: 30px;
-    width: 280px; }
+    width: 280px;
+    padding-bottom: 30px; }
   .managed-services .hero-image-container {
     text-align: left; }
   .managed-services .case-studies-card.intro-to-managed img {
@@ -5685,7 +5728,8 @@ a.active {
     width: 280px;
     left: 0; }
   .transformations .brand-promises-card {
-    padding-left: 15px; }
+    padding-left: 15px;
+    text-align: left; }
   .transformations .hero-image-container {
     text-align: left; }
   .transformations .case-studies-card img {
@@ -5699,7 +5743,9 @@ a.active {
     padding: 0;
     margin: 0; }
   .transformations .case-studies-card img {
-    padding-top: 40px; } }
+    padding-top: 40px; }
+  .transformations .case-studies-card .left-aligned {
+    text-align: left; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .transformations .jumbotron.hero img {
@@ -5710,6 +5756,9 @@ a.active {
   .transformations .jumbotron.hero h1 {
     font-size: 60px; }
   .transformations .hero-image-container {
+    text-align: left; }
+  .transformations .brand-promises-card {
+    padding-left: 15px;
     text-align: left; }
   .transformations .case-studies-card {
     text-align: center; }
@@ -5723,6 +5772,8 @@ a.active {
   .transformations .case-studies-card .without-bottom-line .devops-case-study {
     padding: 0;
     margin: 0; }
+  .transformations .case-studies-card .left-aligned {
+    text-align: left; }
   .transformations .case-studies-card img {
     padding-top: 40px;
     text-align: center; } }
@@ -5737,6 +5788,8 @@ a.active {
   .transformations .case-studies-card img {
     height: 175px;
     width: auto; }
+  .transformations .brand-promises-card {
+    text-align: left; }
   .transformations .image-for-mobile {
     display: none; }
   .transformations .case-studies-card .without-bottom-line .devops-case-study {

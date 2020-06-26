@@ -135,6 +135,7 @@
     .transformations
     .brand-promises-card {
         padding-left: 15px;
+        text-align: left;
     }
 
 
@@ -162,6 +163,10 @@
     .transformations .case-studies-card img {
         padding-top: 40px;
     }
+
+    .transformations .case-studies-card .left-aligned {
+        text-align: left;
+    }
     
 }
 
@@ -181,6 +186,12 @@
     }
 
     .transformations .hero-image-container {
+        text-align: left;
+    }
+
+    .transformations
+    .brand-promises-card {
+        padding-left: 15px;
         text-align: left;
     }
 
@@ -204,6 +215,10 @@
     .transformations .case-studies-card .without-bottom-line .devops-case-study {
         padding: 0;
         margin: 0;
+    }
+
+    .transformations .case-studies-card .left-aligned {
+        text-align: left;
     }
 
     .transformations .case-studies-card img {
@@ -231,6 +246,10 @@
         width: auto;
     }
     
+    .transformations
+    .brand-promises-card {
+        text-align: left;
+    }
 
     .transformations .image-for-mobile {
         display: none;

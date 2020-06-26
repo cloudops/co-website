@@ -28,7 +28,15 @@
     background-repeat: no-repeat, no-repeat;
 }
 
-.workshops .brand-promises-card ul li{
+.workshops .brand-promises-card .promise ul {
+    text-align: left;
+}
+
+.workshops .brand-promises-card .promise h3 {
+    text-align: left;
+}
+
+.workshops .brand-promises-card ul li {
     margin-left: 30px;
   }
   
@@ -219,17 +227,33 @@
         border-right: none;
         border-bottom: solid 2px #FFE07F;
         padding-bottom: 50px;
-        margin-left: 30px;
         padding-left: 0;
     }
 
     
     .workshops .contact-us-card .without-yellow-line {
-        padding: 50px 0 0 30px;   
+        padding: 50px 0 0 0;   
+    }
+
+    .workshops .contact-us-card h2 {
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     .workshops .contact-us-card img {
         margin-bottom: 0;
+    }
+
+    .workshops .contact-us-card .general-contact-form {
+        padding-left: 0;
+    }
+
+    .workshops .general-contact-form .legal-consent-container .hs-form-booleancheckbox-display p {
+        text-align: left;
+    }
+
+    .workshops .general-contact-form label .hs-fieldtype-checkbox {
+        text-align: left;
     }
 }
 
