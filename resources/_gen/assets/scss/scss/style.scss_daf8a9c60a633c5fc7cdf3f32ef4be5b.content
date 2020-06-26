@@ -1606,7 +1606,7 @@ a.active {
     margin: 20px auto; }
   .brand-promises-card .cta {
     margin-left: 30px;
-    padding: 5% 15%; } }
+    padding: 5% 1%; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .brand-promises-card {
@@ -2589,8 +2589,15 @@ a.active {
     position: relative;
     top: 30px;
     width: 280px; }
+  .solutions .brand-promises-card {
+    padding-left: 0; }
   .solutions .brand-promises-card h2 {
-    text-align: center; }
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px; }
+  .solutions .brand-promises-card p {
+    padding-right: 15px;
+    padding-left: 15px; }
   .solutions .B-O-T-horizontal {
     display: none; }
   .solutions .hero-image-container {
@@ -2647,7 +2654,7 @@ a.active {
     text-align: center; }
   .solutions .devops-case-study img {
     margin-top: 80%;
-    width: 120%; }
+    width: 110%; }
   .solutions .case-studies-card {
     padding-top: 0; } }
 
@@ -3448,7 +3455,7 @@ a.active {
   box-shadow: #979797 0 2px 4px 0;
   color: #FFF;
   padding: 0 10px;
-  text-align: left;
+  text-align: center;
   font-family: 'Open Sans';
   font-size: 18px;
   transition-duration: 0.6s;
@@ -3561,10 +3568,6 @@ a.active {
   max-width: 230px;
   margin: 10px 20px 10px 0; }
 
-.partners .stand-out .card-deck {
-  margin-left: 0;
-  margin-right: 0; }
-
 .partners .stand-out .card-deck .card:hover {
   box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2); }
 
@@ -3647,10 +3650,7 @@ a.active {
   .partners .hero-image-container {
     text-align: left; }
   .partners .stand-out .membership .card-deck {
-    margin-left: 15px; }
-  .partners .stand-out .card-deck .card {
-    min-width: 150px;
-    max-width: 150px; } }
+    margin-left: 15px; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .partners .jumbotron.hero img {
@@ -3754,7 +3754,8 @@ a.active {
   .why-cloudops .case-studies-card .image-for-desktop {
     display: none; }
   .why-cloudops .image-for-mobile {
-    position: static; }
+    position: static;
+    text-align: center; }
   .why-cloudops .case-studies-card img {
     position: relative;
     width: 260px;
@@ -3783,7 +3784,8 @@ a.active {
   .why-cloudops .image-for-desktop {
     display: none; }
   .why-cloudops .case-studies-card .image-for-mobile {
-    position: static; }
+    position: static;
+    text-align: center; }
   .why-cloudops .case-studies-card img {
     position: static;
     width: 200px;
@@ -3807,7 +3809,8 @@ a.active {
     display: none; }
   .why-cloudops .case-studies-card .image-for-desktop {
     position: static;
-    width: 80%; }
+    width: 100%;
+    height: 200px; }
   .why-cloudops .brand-promises-card h2 {
     text-align: center; }
   .why-cloudops .case-studies-card img {
@@ -3822,7 +3825,8 @@ a.active {
     display: none; }
   .why-cloudops .image-for-desktop {
     position: static;
-    width: 80%; } }
+    width: 80%;
+    height: 250px; } }
 
 @media (min-width: 1200px) {
   .why-cloudops .hero-image-container {
@@ -3834,7 +3838,8 @@ a.active {
     display: none; }
   .why-cloudops .case-studies-card .image-for-desktop {
     position: static;
-    width: 80%; } }
+    width: 80%;
+    height: 300px; } }
 
 .post {
   border-top: 2px solid #005D91; }
@@ -4718,8 +4723,12 @@ a.active {
     top: 30px;
     width: 280px;
     left: 0; }
+  .delivering-cloud-consulting .brand-promises-card h2 {
+    margin-left: 0;
+    margin-right: 0; }
   .delivering-cloud-consulting .brand-promises-card {
-    padding-left: 15px; }
+    padding-left: 15px;
+    padding-right: 15px; }
   .delivering-cloud-consulting .hero-image-container {
     text-align: left; }
   .delivering-cloud-consulting .case-studies-card img {

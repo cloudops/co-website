@@ -108,8 +108,17 @@
         width: 280px;
     }
 
+    .solutions .brand-promises-card {
+        padding-left: 0;
+    }
     .solutions .brand-promises-card h2 {
         text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .solutions .brand-promises-card p {
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
     .solutions .B-O-T-horizontal {
@@ -212,7 +221,7 @@
 
     .solutions .devops-case-study img {
         margin-top: 80%;
-        width: 120%;
+        width: 110%;
     }
 
     .solutions
