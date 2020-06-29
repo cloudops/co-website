@@ -2,6 +2,9 @@
 title: "CloudOps est maintenant partenaire de la plateforme applicative RedHat"
 lastmod: "2018-07-03"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

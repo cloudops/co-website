@@ -2,6 +2,9 @@
 title: Evolving towards a Cloud Centre of Excellence in AWS
 lastmod: "2019-09-11"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

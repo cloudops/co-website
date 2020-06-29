@@ -94,16 +94,19 @@
     background-position: left center;
     background-repeat: repeat;
     padding: 100px 0;
+    margin-left: 15px;
 }
 
 .partners .affiliated .affiliated-intro {
     border-bottom: 2px solid #FFE07F;
-    margin-left: 16.666667%;
-    margin-right: 16.666667%;
+    margin-right: 15px;
 }
-.partners .affiliated .affiliated-intro .affiliated-intro-text {
-    padding: 0 0 30px;
+
+.partners .affiliated .affiliated-intro-text {
+    padding-left: 0;
+    padding-right: 0;
 }
+
 
 .partners .affiliated h2 {
    text-align: center;
@@ -152,6 +155,17 @@
     .partners .stand-out .membership .card-deck {
         margin-left: 15px;
     }
+
+    .partners .stand-out .membership .card-deck .card .card-body {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .partners .affiliated img {
+        width: 200px;
+        margin-left: 0;
+        margin-top: 0;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -169,6 +183,17 @@
 
     .partners .stand-out .membership .card-deck {
         margin-left: 15px;
+    }
+
+    .partners .stand-out .membership .card-deck .card-body {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .partners .affiliated img {
+        width: 200px;
+        margin-left: 0;
+        margin-top: 0;
     }
 
 
@@ -190,6 +215,11 @@
         margin-left: 15px;
     }
 
+
+    .partners .stand-out .membership .card-deck .card-body {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -211,5 +241,9 @@
 
     .partners .hero-image-container {
         text-align: right;
+    }
+
+    .partners .stand-out h2 {
+        padding-bottom: 30px;
     }
 }

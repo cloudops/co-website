@@ -2,6 +2,9 @@
 title: "Install Apache Cloudstack with Chef"
 lastmod: "2013-03-07"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

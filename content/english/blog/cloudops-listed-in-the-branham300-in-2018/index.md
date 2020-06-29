@@ -2,6 +2,9 @@
 title: "CloudOps listed in the Branham300 in 2018"
 lastmod: "2018-06-27"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

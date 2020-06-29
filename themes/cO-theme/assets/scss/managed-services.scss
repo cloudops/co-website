@@ -194,7 +194,6 @@
     font-weight: 200;
     vertical-align: middle;
     border-bottom: 2px #005D91 solid;
-    border-top: 2px #005D91 solid;
 }
 
 
@@ -218,7 +217,67 @@
         height: 100%;
         top: 0;
         left: 0;
-        background-color: rgba(169, 175, 179, 0.2);
+        background-color: #e4e6e7;
+    }
+}
+
+.managed-services tr th.first-managed-service {
+    vertical-align: middle;
+    position: relative;
+
+    &::after {
+        content: " ";
+        position: absolute;
+        width: 5px;
+        height: 110%;
+        top: 0;
+        left: 0;
+        background-color: #e4e6e7;
+    }
+}
+
+.managed-services tr th.augmented-support {
+    vertical-align: middle;
+    position: relative;
+
+    &::after {
+        content: " ";
+        position: absolute;
+        width: 5px;
+        height: 110%;
+        top: 0;
+        left: 0;
+        background-color: #e4e6e7;
+    }
+}
+
+.managed-services tr th.managed-service-double-col {
+    vertical-align: middle;
+    position: relative;
+
+    &::after {
+        content: " ";
+        position: absolute;
+        width: 5px;
+        height: 110%;
+        top: 0;
+        left: 0;
+        background-color: #e4e6e7;
+    }
+}
+
+.managed-services tr th.empty-above-augmented-support {
+    vertical-align: middle;
+    position: relative;
+
+    &::after {
+        content: " ";
+        position: absolute;
+        width: 5px;
+        height: 110%;
+        top: 0;
+        left: 0;
+        background-color: #e4e6e7;
     }
 }
 
@@ -227,6 +286,16 @@
 }
 
 @media (max-width: 575.98px) {
+
+    .managed-services .case-studies-card.intro-to-managed {
+        background-image: url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
+        background-position: right top, right top;
+        background-repeat: repeat-y, repeat-y;
+    }
+
+    .managed-services .case-studies-card.second-managed-card {
+        background-image: none;
+    }
 
     .managed-services .no-padding-sides {
         padding-left: 0;
@@ -278,22 +347,29 @@
         margin-right: auto;
     }
 
-    .cloud-native-consulting .case-studies-card .with-bottom-line {
+    .managed-services .case-studies-card .with-bottom-line {
         border-bottom: 2px solid #FFE07F;
         margin-left: 15px;
         margin-right: 15px;
     }
 
-    .cloud-native-consulting .case-studies-card .with-bottom-line p {
-        text-align: center;
+    .managed-services .case-studies-card .with-bottom-line p {
+        text-align: left;
     }
 
-    .cloud-native-consulting .image-for-desktop {
+    .managed-services .image-for-desktop {
         display: none;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+    .managed-services .case-studies-card.intro-to-managed {
+        background-image: url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
+        background-position: right top, right top;
+        background-repeat: repeat-y, repeat-y;
+    }
+
     .managed-services
     .jumbotron.hero img {
         position: relative;
@@ -326,7 +402,7 @@
         margin-right: auto;
     }
 
-    .cloud-native-consulting .case-studies-card .with-bottom-line {
+    .managed-services .case-studies-card .with-bottom-line {
         border-bottom: 2px solid #FFE07F;
         margin-left: 15px;
         margin-right: 15px;
@@ -335,6 +411,12 @@
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .managed-services .case-studies-card.intro-to-managed {
+        background-image: url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
+        background-position: right top, right top;
+        background-repeat: repeat-y, repeat-y;
+    }
+
     .managed-services
     .jumbotron.hero img {
         position: relative;
@@ -356,7 +438,7 @@
         width: auto;
     }
 
-    .cloud-native-consulting .case-studies-card img.image-for-desktop {
+    .managed-services .case-studies-card img.image-for-desktop {
         height: 280px;
     }
 
@@ -370,7 +452,7 @@
         width: 360px;
     }
 
-    .cloud-native-consulting .case-studies-card img.image-for-desktop {
+    .managed-services .case-studies-card img.image-for-desktop {
         height: 320px;
     }
 }
@@ -386,7 +468,7 @@
         top: -200px;
     }
 
-    .cloud-native-consulting .case-studies-card img.image-for-desktop {
+    .managed-services .case-studies-card img.image-for-desktop {
         height: 350px;
     }
 }

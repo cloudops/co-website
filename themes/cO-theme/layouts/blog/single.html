@@ -9,11 +9,10 @@
                 </header>
                 {{ with .Resources.Match "thumbnail" }}
                 {{ range . }}
-                {{ $img := .Resize "1000x100" }}
+                {{ $img := .Resize "1000x" }}
                 <img src="{{  $img.RelPermalink }}" />
                 {{ end }}
                 {{ end }}
-                123123
                 {{.Content}}
             </article>
         </div>

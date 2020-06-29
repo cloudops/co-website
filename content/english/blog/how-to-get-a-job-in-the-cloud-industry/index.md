@@ -2,6 +2,9 @@
 title: "How to get a job in the cloud industry"
 lastmod: "2013-02-27"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

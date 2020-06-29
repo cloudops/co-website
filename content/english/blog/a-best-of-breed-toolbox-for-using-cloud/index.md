@@ -2,6 +2,9 @@
 title: A Best-of-Breed Toolbox for Using Cloud
 lastmod: "2019-10-29"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

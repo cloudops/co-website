@@ -2,6 +2,9 @@
 title: "Meetups Kubernetes et outils ‘cloud native’: Kubernetes 1.13 et AKS"
 lastmod: "2018-12-07"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

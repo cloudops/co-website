@@ -2,6 +2,9 @@
 title: "Incohérences de conformité – Commencez par SOC 2"
 lastmod: "2018-06-04"
 author: "RJ Stangle"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

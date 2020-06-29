@@ -2,6 +2,9 @@
 title: "Docker and Kubernetes: What is the Value of Containerization?"
 lastmod: "2017-07-28"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

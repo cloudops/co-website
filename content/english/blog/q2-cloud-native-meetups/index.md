@@ -2,6 +2,9 @@
 title: "Cloud Native Meetup: K8s 1.10 Update, K8s Image Admittance, Rancher 2.0 Cluster Management, KubeVirt, Stateful Sets, Rook & Jaeger"
 lastmod: "2018-05-19"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

@@ -2,6 +2,9 @@
 title: "Podcast: Cloud, Innovation, and Updates from Google Next 2018"
 lastmod: "2018-09-11"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

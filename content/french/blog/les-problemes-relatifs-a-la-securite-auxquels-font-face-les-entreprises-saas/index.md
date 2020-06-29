@@ -2,6 +2,9 @@
 title: "Les problèmes relatifs à la sécurité auxquels font face les entreprises SaaS"
 lastmod: "2018-03-22"
 author: "Katharine Mikula"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

@@ -2,6 +2,9 @@
 title: "Évaluation du succès avec le radar de la santé DevOps"
 lastmod: "2019-11-18"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

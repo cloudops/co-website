@@ -2,6 +2,9 @@
 title: "Citrix renoue avec Openstack"
 lastmod: "2015-05-22"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

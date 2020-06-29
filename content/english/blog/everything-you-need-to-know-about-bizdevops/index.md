@@ -2,6 +2,9 @@
 title: Everything You Need to Know About BizDevOps
 lastmod: "2019-10-08"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

@@ -2,6 +2,9 @@
 title: "Comment choisir un fournisseur infonuagique : 6 éléments sur lesquels se concentrer lors de la migration vers un nuage"
 lastmod: "2018-08-01"
 author: "Robert Pepin"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

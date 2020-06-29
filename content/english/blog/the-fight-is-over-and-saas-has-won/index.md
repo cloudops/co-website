@@ -2,6 +2,9 @@
 title: "The Fight Is Over, and SaaS Has Won"
 lastmod: "2014-07-08"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

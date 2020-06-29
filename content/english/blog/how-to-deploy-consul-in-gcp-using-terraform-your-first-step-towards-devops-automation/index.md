@@ -2,6 +2,9 @@
 title: "How to Create Infrastructure as Code with Terraform in GCP: Your first step towards DevOps automation"
 lastmod: "2018-02-14"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

@@ -2,6 +2,9 @@
 title: "You’re Always Wrong About Your IT Needs and Here Is Why"
 lastmod: "2019-12-02"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

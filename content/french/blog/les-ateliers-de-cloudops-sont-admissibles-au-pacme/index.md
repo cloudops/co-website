@@ -2,6 +2,9 @@
 title: "Les ateliers de CloudOps sont admissibles au PACME"
 lastmod: "2020-05-07"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

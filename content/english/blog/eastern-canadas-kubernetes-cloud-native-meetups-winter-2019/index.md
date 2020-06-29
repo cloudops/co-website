@@ -2,6 +2,9 @@
 title: "Eastern Canada’s Kubernetes + Cloud Native Meetups – Winter 2019"
 lastmod: "2019-12-19"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

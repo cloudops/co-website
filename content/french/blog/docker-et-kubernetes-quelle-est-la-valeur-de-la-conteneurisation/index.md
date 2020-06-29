@@ -2,6 +2,9 @@
 title: "Docker et Kubernetes Quelle est la valeur de la conteneurisation ?"
 lastmod: "2018-08-03"
 author: "Marc Pare"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

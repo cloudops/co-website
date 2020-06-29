@@ -2,6 +2,9 @@
 title: "CloudOps is Named One of Canada’s Top Growing Companies."
 lastmod: "2019-09-27"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

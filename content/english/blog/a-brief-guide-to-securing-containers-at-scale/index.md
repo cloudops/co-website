@@ -2,6 +2,9 @@
 title: "A Brief Guide to Securing Containers at Scale"
 lastmod: "2019-01-29"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

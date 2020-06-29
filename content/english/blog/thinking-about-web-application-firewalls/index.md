@@ -1,7 +1,10 @@
 ---
 title: "Thinking About Web Application Firewalls"
 lastmod: "2013-01-28"
-author: "by François Gaudreault"
+author: "François Gaudreault"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

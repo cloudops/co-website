@@ -2,6 +2,9 @@
 title: "Entretiens avec des ambassadeurs de la CNCF: Points à retenir de KubeCon et prévisions pour 2019"
 lastmod: "2019-01-17"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

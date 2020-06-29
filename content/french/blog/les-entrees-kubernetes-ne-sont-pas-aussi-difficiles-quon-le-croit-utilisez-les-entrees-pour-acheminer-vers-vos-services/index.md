@@ -2,6 +2,9 @@
 title: "Les entrées Kubernetes ne sont pas aussi difficiles qu’on le croit : utilisez les entrées pour acheminer vers vos services"
 lastmod: "2018-06-19"
 author: "Evan McIlroy"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

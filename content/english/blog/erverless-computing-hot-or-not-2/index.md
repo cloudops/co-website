@@ -2,6 +2,9 @@
 title: "Serverless Computing: Hot or Not?"
 lastmod: "2018-02-07"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

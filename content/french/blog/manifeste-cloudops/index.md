@@ -2,6 +2,9 @@
 title: "Manifeste Infonuagique"
 lastmod: "2020-12-02"
 author: "Ian Rae"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

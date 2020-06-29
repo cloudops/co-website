@@ -2,6 +2,9 @@
 title: "Remote Sensing, Data Pipelines, Kubernetes, and Neural Networks in Ecology"
 lastmod: "2020-01-27"
 author: "Tristan Kosciuch"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

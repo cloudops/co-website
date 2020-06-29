@@ -2,6 +2,9 @@
 title: "CloudOps is a Microsoft DevOps Competency Partner"
 lastmod: "2019-04-14"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

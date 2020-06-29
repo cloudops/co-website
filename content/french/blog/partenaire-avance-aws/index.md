@@ -2,6 +2,9 @@
 title: "Partenaire avancé d’AWS"
 lastmod: "2019-04-29"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

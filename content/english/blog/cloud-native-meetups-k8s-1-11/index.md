@@ -2,6 +2,9 @@
 title: "Cloud Native Meetups: K8s 1.11, Helm, PostgreSQL, and Traefik"
 lastmod: "2018-07-20"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

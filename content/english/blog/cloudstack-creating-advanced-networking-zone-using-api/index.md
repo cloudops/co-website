@@ -2,6 +2,9 @@
 title: "CloudStack: Creating advanced networking zone using API"
 lastmod: "2014-03-28"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

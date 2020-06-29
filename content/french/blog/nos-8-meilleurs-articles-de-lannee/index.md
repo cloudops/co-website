@@ -2,6 +2,9 @@
 title: "Nos 8 meilleurs articles de l’année"
 lastmod: "2019-12-18"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

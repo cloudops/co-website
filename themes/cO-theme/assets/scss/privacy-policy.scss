@@ -1,0 +1,97 @@
+.privacy-policy
+.jumbotron.hero {
+    background-image: none;
+    background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
+    border-top: 3px solid #005D91;
+    background-size: auto;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.privacy-policy .main-privacy-policy {
+    padding: 100px 0;
+    background-image: url("../images/blue-dots-LEFT.png"), url("../images/yellow-dots-LEFT.png"), url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
+    background-position: left top, left top, right top, right top;
+    background-repeat: repeat-y, repeat-y, repeat-y, repeat-y;
+    margin: 0;
+}
+
+.privacy-policy .main-privacy-policy h2 {
+    border-top: 2px solid #FFE07F;
+    padding-top: 70px;
+    margin-top: 70px;
+}
+
+.privacy-policy .main-privacy-policy h2:first-child {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.privacy-policy .main-privacy-policy .contact-legal {
+    padding-left: 10%;
+}
+
+.privacy-policy .main-privacy-policy .contact-legal h6 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.privacy-policy .main-privacy-policy .contact-legal p {
+    margin-bottom: 0;
+}
+
+.privacy-policy .main-privacy-policy .contact-legal .divide {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.privacy-policy .main-privacy-policy .copyright {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.privacy-policy .main-privacy-policy .copyright p {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+@media (max-width: 575.98px) {
+    .privacy-policy .main-privacy-policy {
+        padding-left: 15px;
+        padding-right: 15px;
+        background-image: url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
+        background-position: right top, right top;
+        background-repeat: repeat-y, repeat-y;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .privacy-policy .main-privacy-policy {
+        padding-left: 15px;
+        padding-right: 15px;
+        background-image: url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
+        background-position: right top, right top;
+        background-repeat: repeat-y, repeat-y;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .privacy-policy .main-privacy-policy {
+        padding-left: 15px;
+        padding-right: 15px;
+        background-image: url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
+        background-position: right top, right top;
+        background-repeat: repeat-y, repeat-y;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

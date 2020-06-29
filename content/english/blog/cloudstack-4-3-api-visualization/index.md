@@ -2,6 +2,9 @@
 title: "CloudStack 4.3 API Visualization"
 lastmod: "2014-05-29"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

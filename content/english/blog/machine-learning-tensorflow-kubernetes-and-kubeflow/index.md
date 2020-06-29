@@ -2,6 +2,9 @@
 title: "The Containerization of Machine Learning: TensorFlow, Kubernetes and Kubeflow"
 lastmod: "2018-09-05"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

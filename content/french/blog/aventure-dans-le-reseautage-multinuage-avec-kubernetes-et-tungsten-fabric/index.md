@@ -2,6 +2,9 @@
 title: "Aventure dans le réseautage multinuage avec Kubernetes et Tungsten Fabric"
 lastmod: "2019-04-03"
 author: "Will Stevens"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

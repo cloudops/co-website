@@ -2,6 +2,9 @@
 title: "How to Create Infrastructure as Code with Packer and Terraform on GCP: Your second step towards DevOps automation"
 lastmod: "2018-03-16"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

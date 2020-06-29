@@ -2,6 +2,9 @@
 title: "The Value of OpenShift for the Enterprise Software Transformation"
 lastmod: "2018-03-27"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

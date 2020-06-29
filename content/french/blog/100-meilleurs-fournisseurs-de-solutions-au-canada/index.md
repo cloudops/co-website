@@ -2,6 +2,9 @@
 title: "100 meilleurs fournisseurs de solutions au Canada"
 lastmod: "2019-04-26"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

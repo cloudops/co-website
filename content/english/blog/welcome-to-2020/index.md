@@ -2,6 +2,9 @@
 title: Welcome to 2020!
 lastmod: "2020-02-12"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

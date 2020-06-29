@@ -2,6 +2,9 @@
 title: Our Top 8 Blog Posts from 2019
 lastmod: "2019-12-18"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

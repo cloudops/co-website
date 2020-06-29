@@ -2,6 +2,9 @@
 title: "Partnership with NetApp Propels CloudMC and cloud.ca"
 lastmod: "2017-09-13"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

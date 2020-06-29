@@ -2,6 +2,9 @@
 title: "Conteneuriser une PARO (Plateforme d’automatisation de réseau ouverte) par souci d’efficacité : les raisons pour lesquelles Bell a créé la GOP avec Kubernetes"
 lastmod: "2018-03-20"
 author: "Katharine Mikula"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

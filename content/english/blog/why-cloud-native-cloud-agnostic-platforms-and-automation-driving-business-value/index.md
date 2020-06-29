@@ -2,6 +2,9 @@
 title: "Why Cloud Native: Cloud Agnostic Platforms and Automation Driving Business Value"
 lastmod: "2018-11-21"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

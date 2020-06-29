@@ -2,6 +2,9 @@
 title: "Announcing Will Stevens As The New Apache™ CloudStack Vice-President"
 lastmod: "2016-05-27"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

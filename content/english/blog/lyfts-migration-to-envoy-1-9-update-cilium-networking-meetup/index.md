@@ -2,6 +2,9 @@
 title: "Cloud Native Meetup: K8s 1.9 Update, Lyft’s Migration to Envoy, and Cilium Networking"
 lastmod: "2018-02-02"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

@@ -2,6 +2,9 @@
 title: "CloudOps is a Member of the Linux Foundation, the LFN, and the CNCF"
 lastmod: "2018-03-08"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

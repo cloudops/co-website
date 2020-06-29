@@ -3,6 +3,9 @@ title: "Meetups Kubernetes et outils ‘cloud native’: Kubernetes 1.11, Helm, 
 lastmod: "2018-08-20"
 author: "CloudOps"
 class_name: "blog post"
+resources:
+- name: "thumbnail"
+  src: ""
 ---
 
 <img src="/images/blog/post/meetup-pic2.png" class="main-blog-image">

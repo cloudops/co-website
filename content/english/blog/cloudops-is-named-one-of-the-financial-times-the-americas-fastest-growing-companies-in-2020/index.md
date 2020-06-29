@@ -2,6 +2,9 @@
 title: "CloudOps is Named One of The Financial Times The Americas’ Fastest Growing Companies in 2020"
 lastmod: "2020-04-08"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

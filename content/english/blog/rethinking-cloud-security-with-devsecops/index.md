@@ -2,6 +2,9 @@
 title: Rethinking Cloud Security with DevSecOps
 lastmod: "2019-07-03"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

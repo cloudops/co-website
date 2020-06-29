@@ -2,6 +2,9 @@
 title: "7 Things CloudOps is Betting on in 2018…"
 lastmod: "2018-02-05"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

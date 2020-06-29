@@ -1,7 +1,10 @@
 ---
 title: "CloudOps figure au palmarès Branham300 pour la deuxième année consécutive"
 lastmod: "2017-06-06"
-author: "Julia Simon "
+author: "Julia Simon"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

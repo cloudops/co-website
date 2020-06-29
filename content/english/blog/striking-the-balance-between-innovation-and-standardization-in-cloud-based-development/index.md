@@ -2,6 +2,9 @@
 title: "Striking the Balance Between Innovation and Standardization in Cloud-Based Development"
 lastmod: "2012-10-03"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

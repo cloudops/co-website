@@ -2,6 +2,9 @@
 title: "CloudOps a été reconnue par The Financial Times comme l’une des entreprises d’Amérique en croissance des plus rapides de 2020"
 lastmod: "2020-04-08"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

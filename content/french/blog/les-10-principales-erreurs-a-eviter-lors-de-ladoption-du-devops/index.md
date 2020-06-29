@@ -2,6 +2,9 @@
 title: "Les 10 principales erreurs à éviter lors de l’adoption du DevOps"
 lastmod: "2020-01-13"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

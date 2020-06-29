@@ -2,6 +2,9 @@
 title: "À la recherche de bêta-testeurs pour cloud.ca"
 lastmod: "2014-09-03"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

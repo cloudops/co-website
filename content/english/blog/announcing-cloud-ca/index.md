@@ -2,6 +2,9 @@
 title: "Announcing cloud.ca – enterprise cloud in Canada"
 lastmod: "2014-05-03"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

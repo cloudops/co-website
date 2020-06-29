@@ -2,6 +2,9 @@
 title: "Choosing the Right OpenStack Distribution"
 lastmod: "2016-09-13"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

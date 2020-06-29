@@ -2,6 +2,9 @@
 title: "Lost at Sea: Navigating the Complexities of Kubernetes"
 lastmod: "2018-01-24"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

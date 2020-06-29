@@ -2,6 +2,9 @@
 title: "CloudOps is Named One of Canada’s Top ICT Companies by Branham300"
 lastmod: "2016-04-20"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

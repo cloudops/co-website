@@ -2,6 +2,9 @@
 title: "Hosting vs. Cloud & Humans vs. Machines"
 lastmod: "2015-03-26"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

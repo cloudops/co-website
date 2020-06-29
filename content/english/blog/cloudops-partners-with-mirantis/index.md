@@ -2,6 +2,9 @@
 title: "CloudOps Partners with Mirantis"
 lastmod: "2015-11-19"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

@@ -2,6 +2,9 @@
 title: "CloudOps’ Commitment to Enhance Your Business Throughout COVID-19"
 lastmod: "2020-03-18"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

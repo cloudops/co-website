@@ -2,6 +2,9 @@
 title: "CloudOps is a Red Hat Application Platform Partner"
 lastmod: "2018-06-28"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

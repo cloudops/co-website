@@ -2,6 +2,9 @@
 title: "Clouds are like airlines"
 lastmod: "2014-04-08"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

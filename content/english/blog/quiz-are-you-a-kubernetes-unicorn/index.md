@@ -2,6 +2,9 @@
 title: "Quiz: Are you a Kubernetes Unicorn?"
 lastmod: "2019-08-19"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

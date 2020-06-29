@@ -2,6 +2,9 @@
 title: "Why Kubernetes Ingresses aren’t as Difficult as You Think"
 lastmod: "2018-06-08"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

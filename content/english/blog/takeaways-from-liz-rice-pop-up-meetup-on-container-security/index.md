@@ -2,6 +2,9 @@
 title: "Takeaways from Liz Rice: Pop-Up Meetup on Container Security"
 lastmod: "2018-10-09"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

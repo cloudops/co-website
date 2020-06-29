@@ -147,8 +147,9 @@
         left: 0;
         top: 0;
         position: relative;
-        width: 300px;
+        width: 350px;
         margin: 50px 0 20px;
+
     }
 }
 
@@ -188,6 +189,7 @@
         text-align: left;
         margin-bottom: 30px;
         margin-top: 50px;
+        width: 250px;
     }
 
     .delivering-cloud
@@ -195,6 +197,7 @@
     background-image: url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
     background-position: right top, right top;
     background-repeat: repeat-y, repeat-y;
+    padding: 50px 15px 0;
     }
 
 }
@@ -234,7 +237,7 @@
     }
 
     .delivering-cloud .devops-case-study img {
-        margin-top: 80%;
+        margin-top: 100px;
         width: 100%;
     }
 
@@ -259,7 +262,7 @@
     }
 
     .delivering-cloud .devops-case-study img {
-        margin-top: 50%;
+        margin-top: 100px;
     }
 }
 
@@ -280,7 +283,7 @@
         text-align: left;
     }
     .delivering-cloud .devops-case-study img {
-        margin-top: 50%;
+        margin-top: 100px;
         width: 380px;
     }
 

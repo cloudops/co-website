@@ -2,6 +2,9 @@
 title: "CloudOps Ranks No. 204 on the 2015 PROFIT 500"
 lastmod: "2015-09-17"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

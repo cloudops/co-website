@@ -2,6 +2,9 @@
 title: "Harmonisez vos services avec Istio : Résoudre les problèmes de complexité au niveau du réseau"
 lastmod: "2018-05-04"
 author: "Katharine Mikula"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

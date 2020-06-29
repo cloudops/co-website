@@ -2,6 +2,9 @@
 title: "What is your favourite cloud computing quote?"
 lastmod: "2012-09-03"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

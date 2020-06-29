@@ -2,6 +2,9 @@
 title: "Un bref guide sur la sécurisation des conteneurs à grande échelle"
 lastmod: "2019-01-29"
 author: "Michael Wojcikiewicz"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

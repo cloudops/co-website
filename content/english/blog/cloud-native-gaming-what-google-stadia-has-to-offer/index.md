@@ -2,6 +2,9 @@
 title: "Cloud Native Gaming: What Google Stadia has to offer"
 lastmod: "2019-03-26"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

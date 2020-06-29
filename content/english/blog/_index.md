@@ -18,7 +18,7 @@ class_name: "blog"
                             variety of subjects and tools.</h2>
                 </div>
                 <div class="hero-image-container col-xl-2 offset-xl-0 col-lg-2 offset-lg-0 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-xs-12">
-                    <img src="/images/solutions-using-cloud.svg" width="500px">
+                    <img src="/images/nav-blog.svg" width="400px">
                 </div>
             </div>
         </div>

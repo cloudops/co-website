@@ -2,6 +2,9 @@
 title: "A DevOps Sundae: Is SRE the Cherry on Top?"
 lastmod: "2018-06-10"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

@@ -2,6 +2,9 @@
 title: "Comparing Service Meshes: Istio, Linkerd and Consul Connect"
 lastmod: "2019-03-28"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

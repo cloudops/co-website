@@ -24,6 +24,7 @@
 
 .cloud-migration .brand-promises-card h5 a {
     font-size: 28px;
+    text-decoration: underline;
 }
 
 .cloud-migration .case-studies-card h2 {
@@ -126,6 +127,15 @@
         text-align: left;
     }
 
+    .cloud-migration
+    .brand-promises-card {
+        padding: 100px 15px;
+        background-color: #FBFBFB;
+        background-image: url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
+        background-position: left bottom, right top;
+        background-repeat: no-repeat, no-repeat;
+}
+
     .cloud-migration .case-studies-card img {
         height: 150px;
         width: auto;
@@ -158,6 +168,15 @@
         text-align: left;
     }
 
+    .cloud-migration
+    .brand-promises-card {
+        padding: 100px 15px;
+        background-color: #FBFBFB;
+        background-image: url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
+        background-position: left bottom, right top;
+        background-repeat: no-repeat, no-repeat;
+    }
+    
     .cloud-migration .case-studies-card img {
         height: 170px;
         width: auto;

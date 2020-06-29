@@ -129,7 +129,7 @@
          left: 0;
          top: 0;
          position: relative;
-         width: 300px;
+         width: 250px;
          margin: 50px 0 20px;
      }
 
@@ -160,6 +160,7 @@
     .using-cloud
     .case-studies-card {
         padding-top: 0;
+        padding-left: 15px;
     }
     
     .using-cloud .case-studies-card .devops-case-study h2 {
@@ -175,6 +176,7 @@
         text-align: left;
         margin-bottom: 50px;
         margin-top: 100px;
+        width: 250px;
     }
         
 }
@@ -199,8 +201,8 @@
     }
 
     .using-cloud .devops-case-study img {
-        margin-top: 60%;
-        width: 120%;
+        margin-top: 200px;
+        width: 100%;
     }
 
     .using-cloud
@@ -219,7 +221,7 @@
     }
 
     .using-cloud .devops-case-study img {
-        margin-top: 50%;
+        margin-top: 200px;
     }
 
 }

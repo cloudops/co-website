@@ -2,6 +2,9 @@
 title: "Augmentation de la vitesse de fonctionnalité par le changement culturel: le DevOps place la philosophie avant la technologie"
 lastmod: "2019-02-28"
 author: "Jesse Hurkens"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

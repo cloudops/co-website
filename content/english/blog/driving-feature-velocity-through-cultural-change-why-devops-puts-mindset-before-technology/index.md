@@ -2,6 +2,9 @@
 title: "Driving Feature Velocity through Cultural Change: Why DevOps puts Mindset before Technology"
 lastmod: "2019-02-28"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

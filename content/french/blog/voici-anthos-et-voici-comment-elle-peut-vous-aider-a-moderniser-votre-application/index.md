@@ -2,6 +2,9 @@
 title: "Voici Anthos et voici comment elle peut vous aider à moderniser votre application"
 lastmod: "2020-03-31"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

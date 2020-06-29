@@ -2,6 +2,9 @@
 title: "What does GDPR mean for your Cloud Application?"
 lastmod: "2018-06-14"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

@@ -2,6 +2,9 @@
 title: "Interop Enterprise Cloud Summit"
 lastmod: "2012-05-07"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

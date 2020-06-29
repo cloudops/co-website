@@ -2,6 +2,9 @@
 title: A Cloud Operations Manifesto
 lastmod: "2015-12-03"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

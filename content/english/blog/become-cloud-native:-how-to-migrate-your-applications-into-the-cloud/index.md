@@ -2,6 +2,9 @@
 title: "Become Cloud Native: How to Migrate your Applications into the Cloud"
 lastmod: "2019-09-05"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

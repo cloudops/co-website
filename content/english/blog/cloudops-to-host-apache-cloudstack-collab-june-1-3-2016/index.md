@@ -2,6 +2,9 @@
 title: "CloudOps to host Apache CloudStack Collab June 1-3 2016"
 lastmod: "2016-04-15"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

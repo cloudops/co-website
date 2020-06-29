@@ -2,6 +2,9 @@
 title: "Does the Service Mesh spell the end for Middleware?"
 lastmod: "2018-09-24"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

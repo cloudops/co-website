@@ -2,6 +2,9 @@
 title: "Overcoming Compliance Confusion: Why You Need a SOC 2 Foundation"
 lastmod: "2018-05-10"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

@@ -2,6 +2,9 @@
 title: "Parlons-en Cloud 2014: some topics"
 lastmod: "2014-04-17"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

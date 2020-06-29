@@ -2,6 +2,9 @@
 title: "Java’s Got a New Release Train: Are you on it or under it?"
 lastmod: "2018-03-19"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

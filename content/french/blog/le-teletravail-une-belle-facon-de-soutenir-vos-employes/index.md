@@ -2,6 +2,9 @@
 title: "Le télétravail : une belle façon de soutenir vos employés"
 lastmod: "2020-03-27"
 author: "Carlo De La Fuente"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

@@ -2,6 +2,9 @@
 title: "Bringing HR into the Cloud: The Remote Future of Interviewing"
 lastmod: "2020-04-14"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

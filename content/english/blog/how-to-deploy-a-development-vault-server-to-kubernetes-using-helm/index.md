@@ -2,6 +2,9 @@
 title: "How to Generate and Use Dynamic Secrets for AWS IAM with Vault using Kubernetes & Helm"
 lastmod: "2018-03-20"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

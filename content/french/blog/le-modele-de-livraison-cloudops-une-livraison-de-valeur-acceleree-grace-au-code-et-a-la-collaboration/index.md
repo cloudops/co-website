@@ -2,6 +2,9 @@
 title: "Le modèle de livraison CloudOps – Une livraison de valeur accélérée grâce au code et à la collaboration"
 lastmod: "2019-05-21"
 author: "Marc Pare"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

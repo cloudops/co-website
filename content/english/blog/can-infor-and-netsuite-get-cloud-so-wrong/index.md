@@ -2,6 +2,9 @@
 title: "Can Infor and NetSuite Get “Cloud” So Wrong?"
 lastmod: "2014-11-17"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

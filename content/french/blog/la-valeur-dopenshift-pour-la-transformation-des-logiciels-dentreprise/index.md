@@ -2,6 +2,9 @@
 title: "La valeur d’OpenShift pour la transformation des logiciels d’entreprise"
 lastmod: "2018-05-10"
 author: "Marc Pare"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

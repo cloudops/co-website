@@ -2,6 +2,9 @@
 title: "Why the cloud is (and needs to be) like Minecraft"
 lastmod: "2013-03-09"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

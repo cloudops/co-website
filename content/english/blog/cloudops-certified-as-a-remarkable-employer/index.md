@@ -2,6 +2,9 @@
 title: "CloudOps Certified as a Remarkable Employer"
 lastmod: "2017-06-14"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

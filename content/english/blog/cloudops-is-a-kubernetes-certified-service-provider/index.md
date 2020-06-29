@@ -2,6 +2,9 @@
 title: "CloudOps is a Kubernetes Certified Service Provider"
 lastmod: "2018-01-12"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

@@ -2,6 +2,9 @@
 title: "Staff Augmentation vs. Project-Based Services for DevOps and Cloud Projects"
 lastmod: "2020-02-25"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

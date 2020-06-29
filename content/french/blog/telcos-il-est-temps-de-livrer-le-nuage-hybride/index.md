@@ -2,6 +2,9 @@
 title: "Telcos, il est temps de livrer le nuage hybride"
 lastmod: "2019-05-28"
 author: "Maddison Long"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

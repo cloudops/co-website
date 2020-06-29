@@ -35,11 +35,6 @@
 }
 
 .why-cloudops
-.design-build-transform-card h2 {
-    margin-bottom: 50px;
-}
-
-.why-cloudops
 .design-build-transform-card .big-lettered-p {
     font-family: 'Montserrat', sans-serif;
     color: #005D91;
@@ -73,7 +68,12 @@
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    margin: 50px auto;
+    margin: 0 auto;
+}
+
+.why-cloudops .design-build-transform-card .card-deck .card:hover {
+    box-shadow: 2px 2px 8px #E2E2E2;
+    cursor: auto;
 }
 
 
@@ -256,7 +256,8 @@
     .why-cloudops .image-for-desktop {
         position: static;
         width: 80%;
-        height: 250px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     
 }
@@ -280,7 +281,8 @@
     .why-cloudops .case-studies-card .image-for-desktop {
         position: static;
         width: 80%;
-        height: 300px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
 }

@@ -2,6 +2,9 @@
 title: "CloudOps à l’ ApacheCon 2018"
 lastmod: "2018-09-27"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

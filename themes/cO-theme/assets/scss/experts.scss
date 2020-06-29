@@ -156,11 +156,6 @@
         text-align: left;
     }
 
-    .experts .case-studies-card h2 {
-        text-align: left;
-        padding-left: 15px;
-     }
-
      .experts .case-studies-card h3 {
         text-align: left;
      }
@@ -201,6 +196,11 @@
         margin-top: 45px;
     }
 
+    .experts .case-studies-card h2 {
+        padding-left: 0;
+        text-align: center;
+    }
+
      .experts .contact-us-card {
          padding-left: 30px;
      }
@@ -230,6 +230,7 @@
     .experts
     .case-studies-card {
         padding-top: 0;
+        margin-left: 15px;
     }
     
     .experts .case-studies-card h2 {
@@ -290,7 +291,7 @@ s
     }
 
     .experts .devops-case-study img {
-        margin-top: 20%;
+        margin-top: 180px;
     }
 
     .experts
@@ -333,7 +334,7 @@ s
         padding-top: 0;
     }
     .experts .devops-case-study img {
-        margin-top: 20%;
+        margin-top: 180px;
     }
 
     .experts .contact-us-card {
@@ -380,7 +381,7 @@ s
     }
 
     .experts .devops-case-study img {
-        margin-top: 30%;
+        margin-top: 180px;
     }
 
     .experts

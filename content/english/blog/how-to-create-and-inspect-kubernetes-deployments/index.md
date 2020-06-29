@@ -2,6 +2,9 @@
 title: How to Create and Inspect Kubernetes Deployments
 lastmod: "2020-06-06"
 author: "Carine Daoust"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

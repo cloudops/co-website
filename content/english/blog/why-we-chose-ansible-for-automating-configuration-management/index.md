@@ -2,6 +2,9 @@
 title: "Why We Chose Ansible for Automating Configuration Management"
 lastmod: "2018-06-18"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

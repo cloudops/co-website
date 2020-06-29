@@ -2,6 +2,9 @@
 title: "An Adventure in Multi-Cloud Networking with Kubernetes and Tungsten Fabric"
 lastmod: "2019-04-03"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

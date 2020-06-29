@@ -2,6 +2,9 @@
 title: "Migrating to Citrix NetScaler from Cisco ACE? CloudOps Can Help"
 lastmod: "2012-10-31"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

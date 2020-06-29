@@ -2,6 +2,9 @@
 title: "CloudOps’ Workshops are Eligible for the PACME Program"
 lastmod: "2020-05-07"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

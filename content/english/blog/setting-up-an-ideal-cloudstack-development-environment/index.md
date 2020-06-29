@@ -1,7 +1,10 @@
 ---
 title: "Setting Up an Ideal CloudStack Development Environment"
 lastmod: "2013-02-05"
-author: "by Marc-André Jutras"
+author: "Marc-André Jutras"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

@@ -2,6 +2,9 @@
 title: Why I Joined CloudOps
 lastmod: "2019-01-18"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

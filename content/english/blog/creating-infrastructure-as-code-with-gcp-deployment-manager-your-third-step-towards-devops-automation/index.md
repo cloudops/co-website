@@ -2,6 +2,9 @@
 title: "How to Create Infrastructure as Code with GCP Deployment Manager: Your third step towards DevOps automation"
 lastmod: "2018-07-26"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

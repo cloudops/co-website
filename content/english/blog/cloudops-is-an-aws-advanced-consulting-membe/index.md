@@ -2,6 +2,9 @@
 title: "CloudOps is an AWS Advanced Consulting Member"
 lastmod: "2019-04-29"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

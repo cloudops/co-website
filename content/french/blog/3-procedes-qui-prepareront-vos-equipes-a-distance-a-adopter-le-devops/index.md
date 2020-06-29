@@ -2,6 +2,9 @@
 title: "3 procédés qui prépareront vos équipes à distance à adopter le DevOps"
 lastmod: "2020-05-22"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

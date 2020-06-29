@@ -2,6 +2,9 @@
 title: "Use a Palo Alto Networks firewall with CloudStack"
 lastmod: "2019-12-02"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

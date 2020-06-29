@@ -2,6 +2,9 @@
 title: The CloudOps Delivery Model – Accelerated Value Delivery through Code and Collaboration
 lastmod: "2019-05-14"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

@@ -2,6 +2,9 @@
 title: "Perdus en mer : Comment naviguer sur les eaux complexes de Kubernetes"
 lastmod: "2018-02-21"
 author: "Will Stevens"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

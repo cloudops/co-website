@@ -2,6 +2,9 @@
 title: "Évolution vers un centre infonuagique d’excellence dans AWS"
 lastmod: "2019-09-11"
 author: "Katharine Mikula"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

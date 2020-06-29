@@ -2,6 +2,9 @@
 title: "Questionnaire : Êtes-vous une « perle rare » Kubernetes ?"
 lastmod: "2019-08-23"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

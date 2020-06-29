@@ -2,6 +2,9 @@
 title: A Cloud(Ops) Story
 lastmod: "2013-03-28"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

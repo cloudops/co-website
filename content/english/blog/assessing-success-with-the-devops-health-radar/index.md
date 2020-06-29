@@ -2,6 +2,9 @@
 title: Assessing Success with the DevOps Health Radar
 lastmod: "2019-11-12"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

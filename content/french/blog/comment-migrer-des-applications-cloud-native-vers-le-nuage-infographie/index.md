@@ -2,6 +2,9 @@
 title: "Comment migrer des applications Cloud Native vers le nuage : Infographie"
 lastmod: "2019-09-05"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

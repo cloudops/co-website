@@ -1,7 +1,10 @@
 ---
 title: "Working with the CloudStack API"
 lastmod: "2013-01-18"
-author: "by Will Stevens"
+author: "Will Stevens"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

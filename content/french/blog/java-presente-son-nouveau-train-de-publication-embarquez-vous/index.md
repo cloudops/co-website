@@ -2,6 +2,9 @@
 title: "Java présente son nouveau train de publication : Embarquez-vous"
 lastmod: "2018-05-23"
 author: "Nick Maiorano"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

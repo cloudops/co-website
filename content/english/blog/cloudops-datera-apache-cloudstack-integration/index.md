@@ -2,6 +2,9 @@
 title: "CloudOps and Datera Announce Apache CloudStack Integration for Web-Scale Storage Service"
 lastmod: "2017-05-15"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

@@ -2,6 +2,9 @@
 title: "Containerizing ONAP for Efficiency: Why Bell created OOM using Kubernetes"
 lastmod: "2018-01-19"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

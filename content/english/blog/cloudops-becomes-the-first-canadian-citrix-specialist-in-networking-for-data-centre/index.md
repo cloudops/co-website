@@ -2,6 +2,9 @@
 title: "CloudOps Becomes the First Canadian Citrix Specialist in Networking for Data Centre"
 lastmod: "2015-07-17"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

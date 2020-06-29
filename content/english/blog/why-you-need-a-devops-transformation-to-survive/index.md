@@ -2,6 +2,9 @@
 title: "Why you Need a DevOps Transformation to Survive"
 lastmod: "2019-01-07"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

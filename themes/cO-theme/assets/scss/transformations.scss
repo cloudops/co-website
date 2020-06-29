@@ -143,6 +143,11 @@
         text-align: left;
     }
 
+    .transformations .case-studies-card {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .transformations .case-studies-card img {
         height: 150px;
         width: auto;
@@ -168,6 +173,10 @@
         text-align: left;
     }
     
+    .transformations .case-studies-card .with-bottom-line {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }
 
 

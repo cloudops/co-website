@@ -2,6 +2,9 @@
 title: "CloudOps est une entreprise canadienne avec la plus forte croissance"
 lastmod: "2019-09-27"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

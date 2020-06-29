@@ -2,11 +2,11 @@
 title: "3 Ways to Prepare Remote Teams for DevOps Adoption"
 lastmod: "2020-05-21"
 author: "CloudOps"
-featured_image: "/images/blog/post/WorkingRemoteBlog.png"
+resources:
+- name: "thumbnail"
+  src: "WorkingRemoteBlog.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/WorkingRemoteBlog.png" class="main-blog-image">
 
 <p>DevOps is a combination of cultural philosophies, practices, and tools that increase an organization’s ability to deliver applications and services at high velocity. But it cannot be achieved simply by containerizing applications and hiring a few DevOps engineers. The adoption of bleeding-edge tools is not enough on its own to deliver the benefits of DevOps. This is especially true for today’s remote workforce. There are <a href="https://www.cloudops.com/2020/01/top-10-mistakes-to-avoid-when-adopting-devops/">several mistakes</a> that are all too common for organizations trying to adopt DevOps, but chief among them is the failure to properly structure teams.&nbsp;</p>
 

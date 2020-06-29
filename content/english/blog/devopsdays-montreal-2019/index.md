@@ -2,6 +2,9 @@
 title: "DevOpsDays Montreal 2019"
 lastmod: "2019-11-19"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

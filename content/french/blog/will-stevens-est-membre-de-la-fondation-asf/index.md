@@ -2,6 +2,9 @@
 title: "Will Stevens est récemment devenu membre de la fondation ASF"
 lastmod: "2019-04-15"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

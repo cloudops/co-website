@@ -2,6 +2,9 @@
 title: "Montreal Cloud Native Day 2019"
 lastmod: "2018-06-21"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

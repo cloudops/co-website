@@ -2,6 +2,9 @@
 title: "CloudOps Named One of Deloitte’s Technology Fast 50TM Companies"
 lastmod: "2015-11-12"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

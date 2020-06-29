@@ -2,6 +2,9 @@
 title: "Anthos: Application Modernization for Hybrid and Multi-Cloud Environments"
 lastmod: "2020-03-31"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

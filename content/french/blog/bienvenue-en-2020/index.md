@@ -2,6 +2,9 @@
 title: "Bienvenue en 2020 !"
 lastmod: "2020-02-12"
 author: "Ian Rae"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

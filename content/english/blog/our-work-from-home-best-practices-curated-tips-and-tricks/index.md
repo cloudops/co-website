@@ -2,6 +2,9 @@
 title: "Our Work from Home Best Practices: Curated Tips and Tricks"
 lastmod: "2020-05-06"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

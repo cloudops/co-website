@@ -2,6 +2,9 @@
 title: "CloudOps CEO Featured in KPMG’s The Next Million"
 lastmod: "2015-11-05"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

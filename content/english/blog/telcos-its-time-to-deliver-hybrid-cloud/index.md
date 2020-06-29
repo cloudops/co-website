@@ -2,6 +2,9 @@
 title: Telcos, It’s Time to Deliver Hybrid Cloud
 lastmod: "2019-05-28"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

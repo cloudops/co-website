@@ -2,6 +2,9 @@
 title: "CloudStack vs. OpenStack: My Experience"
 lastmod: "2013-02-10"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

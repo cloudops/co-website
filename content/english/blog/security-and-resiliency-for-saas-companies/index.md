@@ -2,6 +2,9 @@
 title: "Security and Resiliency for SaaS Companies"
 lastmod: "2018-01-12"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

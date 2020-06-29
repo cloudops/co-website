@@ -2,6 +2,9 @@
 title: "Choosing a Cloud Provider as part of your Migration Strategy"
 lastmod: "2018-08-01"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

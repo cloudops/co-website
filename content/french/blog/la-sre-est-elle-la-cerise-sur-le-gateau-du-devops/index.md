@@ -2,6 +2,9 @@
 title: "La SRE est-elle la cerise sur le gâteau du DevOps?"
 lastmod: "2018-07-18"
 author: "Will Stevens"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

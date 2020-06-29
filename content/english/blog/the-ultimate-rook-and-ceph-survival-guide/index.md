@@ -2,6 +2,9 @@
 title: "The Ultimate Rook and Ceph Survival Guide"
 lastmod: "2019-05-07"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

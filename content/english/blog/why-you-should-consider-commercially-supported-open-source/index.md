@@ -2,6 +2,9 @@
 title: "Why You Should Consider Commercially Supported Open Source"
 lastmod: "2012-11-06"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

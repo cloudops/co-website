@@ -2,6 +2,9 @@
 title: "Will Stevens is a Member of the Apache Software Foundation"
 lastmod: "2019-04-11"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

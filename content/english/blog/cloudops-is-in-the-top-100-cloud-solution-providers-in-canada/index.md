@@ -2,6 +2,9 @@
 title: "CloudOps is in the Top 100 Cloud Solution Providers in Canada"
 lastmod: "2019-04-26"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

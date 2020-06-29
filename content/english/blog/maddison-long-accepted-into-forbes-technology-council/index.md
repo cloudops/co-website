@@ -2,6 +2,9 @@
 title: "Maddison Long accepted into Forbes Technology Council"
 lastmod: "2019-03-06"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

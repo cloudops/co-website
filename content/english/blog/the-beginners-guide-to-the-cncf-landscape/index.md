@@ -2,6 +2,9 @@
 title: "The Beginner’s Guide to the CNCF Landscape"
 lastmod: "2018-10-26"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

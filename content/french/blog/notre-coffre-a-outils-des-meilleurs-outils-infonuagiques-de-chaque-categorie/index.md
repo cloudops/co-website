@@ -2,6 +2,9 @@
 title: "Notre coffre à outils des meilleurs outils infonuagiques de chaque catégorie."
 lastmod: "2019-10-31"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

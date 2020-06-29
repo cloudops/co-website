@@ -2,6 +2,9 @@
 title: "CNCF Ambassador Spill: Takeaways from KubeCon + CloudNativeCon"
 lastmod: "2019-01-17"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

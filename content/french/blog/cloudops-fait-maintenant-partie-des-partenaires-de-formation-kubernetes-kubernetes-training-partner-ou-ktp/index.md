@@ -2,6 +2,9 @@
 title: "CloudOps fait maintenant partie des Partenaires de formation Kubernetes (Kubernetes Training Partner ou KTP)"
 lastmod: "2018-05-23"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

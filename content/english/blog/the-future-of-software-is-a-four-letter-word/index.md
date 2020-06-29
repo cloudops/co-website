@@ -2,6 +2,9 @@
 title: "The Future of Software Is a Four Letter Word"
 lastmod: "2014-07-18"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

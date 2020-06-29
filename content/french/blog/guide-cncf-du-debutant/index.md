@@ -2,6 +2,9 @@
 title: "Guide CNCF du débutant"
 lastmod: "2018-10-26"
 author: "Ayrat Khayretdinov"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

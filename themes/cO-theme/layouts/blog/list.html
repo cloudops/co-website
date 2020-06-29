@@ -20,8 +20,7 @@
                 <div class="card-body">
                   {{ with .Resources.Match "thumbnail" }}
                     {{ range . }}
-                      {{ $img := .Resize "100x100" }}
-                      {{ $img = $img.Filter (images.GaussianBlur 6) }}
+                      {{ $img := .Fill "176x176" }}
                       <img src="{{  $img.RelPermalink }}" />
                     {{ end }}
                   {{ end }}

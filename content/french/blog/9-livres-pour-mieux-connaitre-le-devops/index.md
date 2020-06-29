@@ -2,6 +2,9 @@
 title: "9 livres pour mieux connaître le DevOps"
 lastmod: "2019-09-19"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

@@ -1456,7 +1456,7 @@ The CKA exam covers:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/cloud-migration/</guid>
-      <description>Cloud Migration    Migrating workloads to the cloud doesn’t have to be overwhelming. CloudOps will partner with you to plan your move step-by-step, execute it with care, and set you up for operational success.       You&#39;re ready to move to the cloudYou understand the business advantages that come with a cloud operational model. The wider market does too. In fact, this year some 83% of enterprise workloads will already be in the cloud.</description>
+      <description>Cloud Migration    Migrating workloads to the cloud doesn’t have to be overwhelming. CloudOps will partner with you to plan your move step-by-step, execute it with care, and set you up for operational success.       You&#39;re ready to move to the cloud. You understand the business advantages that come with a cloud operational model. The wider market does too. In fact, this year some 83% of enterprise workloads will already be in the cloud.</description>
     </item>
     
     <item>
@@ -1476,7 +1476,7 @@ The CKA exam covers:
       <guid>/contact-us/</guid>
       <description>Contact Us     Let&#39;s talk! We can help you on your journey with the cloud.
 Contact us using the form below and someone from our team will get back to you within the next business day.
-    hbspt.forms.create({ portalId: &#34;732832&#34;, formId: &#34;1cf544ad-f04a-4de0-abec-c7a59dca11ce&#34; });   1-514-447-3456 (Montreal) 1-855-652-5683 (toll-free) 1-514-312-5288 (fax)  info@cloudops.com    Our Offices  Montreal (Head Office) 200-423 rue Saint-Nicolas</description>
+    hbspt.forms.create({ portalId: &#34;732832&#34;, formId: &#34;5ea8cd78-739b-4936-97b8-973ec0dc01ee&#34; });   1-514-447-3456 (Montreal) 1-855-652-5683 (toll-free) 1-514-312-5288 (fax)  info@cloudops.com    Our Offices  Montreal (Head Office) 200-423 rue Saint-Nicolas</description>
     </item>
     
     <item>
@@ -1605,6 +1605,16 @@ Three day Docker &amp; Kubernetes bundle: $3000/attendee (min.</description>
       
       <guid>/partners/</guid>
       <description>Our Partners   CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps      Partners                                                             Memberships and Certifications                         Affiliated companies CloudOps has some special partnerships that we use to provide neighbouring and complementary cloud solutions.</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/privacy-policy/</guid>
+      <description>Privacy Policy (Last modified on January 18, 2018)     Introduction, Definitions, Modifications and Acceptance Welcome to CloudOps. This Privacy Policy (the “Policy”) may cover several different situations, so please refer to the following definitions for clarification:
+“CloudOps” refers to CloudOps Inc., a duly incorporated company in the Province of Quebec, Canada. Where the present Policy refers to “CloudOps”, it may refer to CloudOps Inc. and / or its affiliates, subsidiaries, employees, officers, directors, subcontractors, agents, partners or representatives, depending on the context.</description>
     </item>
     
     <item>

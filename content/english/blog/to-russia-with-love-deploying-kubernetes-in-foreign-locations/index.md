@@ -2,6 +2,9 @@
 title: "To Russia with Love: Deploying Kubernetes in Foreign Locations"
 lastmod: "2019-03-20"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

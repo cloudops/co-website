@@ -2,6 +2,9 @@
 title: "CloudStack vs. OpenStack: Is There Really a Winner?"
 lastmod: "2015-07-29"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

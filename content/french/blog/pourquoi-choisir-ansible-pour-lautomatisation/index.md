@@ -2,6 +2,9 @@
 title: "Pourquoi choisir Ansible pour l’automatisation"
 lastmod: "2018-06-26"
 author: "Marc Pare"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

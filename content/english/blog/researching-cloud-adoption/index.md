@@ -2,6 +2,9 @@
 title: "Researching cloud adoption"
 lastmod: "2014-04-15"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

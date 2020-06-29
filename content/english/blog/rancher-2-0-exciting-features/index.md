@@ -2,6 +2,9 @@
 title: "Rancher 2.0: Exciting Features You Should Know About"
 lastmod: "2018-07-24"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

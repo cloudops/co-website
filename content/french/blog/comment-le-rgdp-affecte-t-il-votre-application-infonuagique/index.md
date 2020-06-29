@@ -2,6 +2,9 @@
 title: "Comment le RGDP affecte-t-il votre application infonuagique?"
 lastmod: "2018-06-26"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

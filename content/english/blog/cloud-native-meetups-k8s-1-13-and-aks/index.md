@@ -2,6 +2,9 @@
 title: "Cloud Native Meetups: K8s 1.13 and AKS"
 lastmod: "2018-12-08"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

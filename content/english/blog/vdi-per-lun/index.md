@@ -2,6 +2,9 @@
 title: "Supplemental Pack for XenServer allows for VDI per LUN Functionality"
 lastmod: "2016-03-22"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 

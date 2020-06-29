@@ -2,6 +2,9 @@
 title: "Quiz: How Secure are your Containers in Azure?"
 lastmod: "2019-04-25"
 author: "CloudOps"
+resources:
+- name: "thumbnail"
+  src: ""
 class_name: "blog post"
 ---
 
