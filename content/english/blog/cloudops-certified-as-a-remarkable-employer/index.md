@@ -4,11 +4,9 @@ lastmod: "2017-06-14"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "remarkable_employer.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/remarkable_employer.png" class="main-blog-image">
 
 <p>As CloudOps grows and matures as a business we look for ways to measure employee satisfaction, both as a means to understand the needs of the people who work here and as a means of comparison with the wider industry. To this end we commissioned <a href="http://www.groupeambition.ca/" target="_blank">Groupe Ambition</a> to conduct their independent certification program. Through an organizational survey of their own design, they have assessed the quality of our internal business relationships as perceived by our employees. We are pleased to announce that the results of that survey mean that CloudOps meets the standard of a <a href="https://www.bnq.qc.ca/en/certification/health-at-work/remarkable-employer.html" target="_blank">Remarkable Employer.</a></p>
 

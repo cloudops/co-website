@@ -38,11 +38,6 @@
   </url>
   
   <url>
-    <loc>/blog/test-blog/</loc>
-    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/blog/3-ways-to-prepare-remote-teams-for-devops-adoption/</loc>
     <lastmod>2020-05-21T00:00:00+00:00</lastmod>
   </url>
@@ -767,17 +762,7 @@
   </url>
   
   <url>
-    <loc>/advanced-docker-kubernetes/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/advanced-docker-kubernetes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/advanced-docker-kubernetes/"
-                />
+    <loc>/advanced-containers-kubernetes/</loc>
   </url>
   
   <url>
@@ -817,6 +802,10 @@
   </url>
   
   <url>
+    <loc>/cloud-building/</loc>
+  </url>
+  
+  <url>
     <loc>/cloud-migration/</loc>
   </url>
   
@@ -851,21 +840,7 @@
   </url>
   
   <url>
-    <loc>/dppa/</loc>
-  </url>
-  
-  <url>
-    <loc>/docker-kubernetes/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/docker-kubernetes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/docker-kubernetes/"
-                />
+    <loc>/devops-platform-practices-assessment/</loc>
   </url>
   
   <url>
@@ -891,6 +866,10 @@
   </url>
   
   <url>
+    <loc>/workshops-information/</loc>
+  </url>
+  
+  <url>
     <loc>/kubernetes-machine-learning/</loc>
     <xhtml:link
                 rel="alternate"
@@ -909,7 +888,11 @@
   </url>
   
   <url>
-    <loc>/monolith-microservices/</loc>
+    <loc>/microservices-docker-kubernetes/</loc>
+  </url>
+  
+  <url>
+    <loc>/networking/</loc>
   </url>
   
   <url>

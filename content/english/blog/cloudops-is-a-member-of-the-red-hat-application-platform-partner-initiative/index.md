@@ -4,11 +4,9 @@ lastmod: "2018-06-28"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "Red-Hat-Logo.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/Red-Hat-Logo.png" class="main-blog-image">
 
 <p>CloudOps is pleased to become a member of the Red Hat Application Platform Partner Initiative (<a href="https://www.redhat.com/en/about/press-releases/red-hat-introduces-new-application-platform-partner-initiative" target="_blank">APP</a>). Consisting of partners focused on application platforms with emerging technologies, the APP Initiative encourages deeper collaboration between Red Hat and its partners in helping organizations modernise their application platforms.</p>
 

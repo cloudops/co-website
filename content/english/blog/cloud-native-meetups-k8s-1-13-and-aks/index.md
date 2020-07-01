@@ -4,11 +4,10 @@ lastmod: "2018-12-08"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "AyratMeetup-1.jpg"
 class_name: "blog post"
 ---
 
-<img src="/images/blog/post/AyratMeetup-1.jpg" class="main-blog-image">
 
 <p>This year’s final set of Kubernetes and Cloud Native meetups just took place. They kicked off in Kitchener-Waterloo on November 29<sup>th</sup>, and continued in Montreal December 3<sup>rd</sup>, Ottawa December 4<sup>th</sup>, Toronto December 5<sup>th</sup>, and Quebec December 6<sup>th</sup>. In preparation for the upcoming KubeCon and CloudNativeCon in Seattle, a wide range of open source solutions were discussed and, as always, beer and pizza provided.</p>
 

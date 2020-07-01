@@ -1410,13 +1410,16 @@ My favourite quote is probably one I heard at INTEROP Las Vegas last spring: “
     </item>
     
     <item>
-      <title>Advanced Docker and Kubernetes</title>
-      <link>/advanced-docker-kubernetes/</link>
+      <title>Advanced Containers and Kubernetes</title>
+      <link>/advanced-containers-kubernetes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/advanced-docker-kubernetes/</guid>
-      <description>Workshops Home  Next Workshop     Advanced Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     During this workshop you will learn:
- Day to day operations and best practices around Kubernetes; Concepts around HA, securing, logging and monitoring of Kubernetes.  This workshop is available on Azure, GCP and AWS.</description>
+      <guid>/advanced-containers-kubernetes/</guid>
+      <description>Workshops Home  Next Workshop     Advanced Containers and Kubernetes     During this workshop you will learn:
+Day to day operations and best practices around Kubernetes; Concepts around HA, securing, logging and monitoring of Kubernetes.  This workshop is available on Azure, GCP and AWS.
+Duration: 2 days
+$3000/attendee (minimum 3 attendees)
+ Prerequisites: Experience using Linux CLI and a general understanding of virtualization and container technology; Good understanding of Docker and Kubernetes concepts and features.</description>
     </item>
     
     <item>
@@ -1434,9 +1437,10 @@ My favourite quote is probably one I heard at INTEROP Las Vegas last spring: “
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/ci-cd/</guid>
-      <description>Workshops Home  Next Workshop     CI / CD CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     During this workshop you will learn:
- Tools and best practices to build, test, and ship software as well as enhance and automate your delivery pipeline.  Duration: 1 day
-On Premise: $1500/attendee (minimum 6 attendees)</description>
+      <description>Workshops Home  Next Workshop     CI/CD     During this workshop you will learn the tools and best practices to build, test, and ship software as well as enhance and automate your delivery pipeline.
+Duration: 1 day
+$1500/attendee (minimum 6 attendees)
+ Prerequisites: Experience using Linux CLI, good understanding of Source Code Management (SCM) systems such as Git, experience using Docker and Kubernetes, a general understanding of CI/CD process is a plus Technical Requirements: Mac, Linux OS or Windows laptop with SSH client (putty, cygwin), web browser supporting HTML5</description>
     </item>
     
     <item>
@@ -1448,6 +1452,15 @@ On Premise: $1500/attendee (minimum 6 attendees)</description>
       <description>CKA &amp; CKAD Exams      CKA exam Certification is a key step in developing the Kubernetes ecosystem and for professional growth. The exam is based on the latest version of Kubernetes and issued by the CNCF and the Linux Foundation. CloudOps&#39; 3-day Docker and Kubernetes workshop plus one day exam prep (focused on operations) will get you certification ready!
 The CKA exam covers:
   Application Lifecycle Management 8% Installation, Configuration &amp; Validation Core Concepts Networking Scheduling    Security Cluster Maintenance Logging / Monitoring Storage Troubleshooting      CKAD exam This exam is for developers who design, build, configure, and expose cloud native applications for Kubernetes.</description>
+    </item>
+    
+    <item>
+      <title>Cloud Building</title>
+      <link>/cloud-building/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cloud-building/</guid>
+      <description>Cloud Building      With more than 10 years experience building cloud infrastructures for service providers, CloudOps is the expert you need to help you build a regional, edge, or hybrid cloud. CloudOps’ is an advocate of open source and cloud native projects, and opinionated when it comes to best-of-breed software-defined technologies. Our consulting services begin with the strategic goals of the business, to ensure that any hybrid multi-cloud solution supports future growth or the organization.</description>
     </item>
     
     <item>
@@ -1503,29 +1516,20 @@ Contact us using the form below and someone from our team will get back to you w
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/devops-monitoring/</guid>
-      <description>Workshops Home  Next Workshop     DevOps Monitoring CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     In this workshop, we explore app and infrastructure monitoring tools (open source and not), configurations, APM, altering and visualizing data with hands-on labs.
+      <description>Workshops Home  Next Workshop     DevOps Monitoring     In this workshop, we explore app and infrastructure monitoring tools (open source and proprietary), configurations, APM, altering and visualizing data with hands-on labs.
 Duration: 2 days
-On Premise: $2500/attendee (minimum 6 attendees)
- Prerequisites: Experience using Linux CLI and a general understanding of DevOps concepts</description>
+$2500/attendee (minimum 6 attendees)
+ Prerequisites: Experience using Linux CLI and a general understanding of DevOps concepts
+Technical Requirements: Mac, Linux OS or Windows laptop with SSH client (putty, cygwin), web browser supporting HTML5</description>
     </item>
     
     <item>
       <title>DevOps Platform and Practices Assessment</title>
-      <link>/dppa/</link>
+      <link>/devops-platform-practices-assessment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/dppa/</guid>
+      <guid>/devops-platform-practices-assessment/</guid>
       <description>DevOps Platform and Practices Assessment      Whether your team already works in a DevOps manner or if you are just beginning the journey, CloudOps can help pave the way. We provide an objective report of the application portfolio, business impact, technical risks, and the path (and gaps) to DevOps best practices and cloud native development and delivery.      Who is it for?: Organizations evaluating cloud platforms DevOps teams looking to maximize efficiency Any organizations who run business critical applications, who care about speed to market and modernization of their applications, and looking to adopt DevOps        Understand the real issues Our assessment report provides suggested scope of any next steps.</description>
-    </item>
-    
-    <item>
-      <title>Docker and Kubernetes Workshop</title>
-      <link>/docker-kubernetes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/docker-kubernetes/</guid>
-      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     CloudOps’ flagship workshop covers architecture principles of microservices, then gets in to the mechanics of container tooling – now a key model for application development.
-Our workshops are Linux-based. If you are interested in Docker and Kubernetes training on Windows, please let us know here.</description>
     </item>
     
     <item>
@@ -1534,8 +1538,8 @@ Our workshops are Linux-based. If you are interested in Docker and Kubernetes tr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/infrastructure-as-code/</guid>
-      <description>Workshops Home  Next Workshop     Infrastructure as Code CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     During this workshop you will learn:
- How Hashicorp Terraform by Hashicorp works as a cross platform, infrastructure tool enabling you to use the same tooling over multiple platforms for infrastructure automation; How Ansible can be used to manage remote application configurations and VM installations built on top of your Terraform infrastructure deployment.</description>
+      <description>Workshops Home  Next Workshop     Infrastructure as Code     During this workshop you will learn:
+How Hashicorp Terraform by Hashicorp works as a cross platform, infrastructure tool enabling you to use the same tooling over multiple platforms for infrastructure automation; How Ansible can be used to manage remote application configurations and VM installations built on top of your Terraform infrastructure deployment.  Duration: 1 day</description>
     </item>
     
     <item>
@@ -1557,13 +1561,24 @@ Our workshops are Linux-based. If you are interested in Docker and Kubernetes tr
     </item>
     
     <item>
+      <title>Information request about workshops</title>
+      <link>/workshops-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/workshops-information/</guid>
+      <description>Request information about our workshops     Our hands-on workshops will set you on the path to becoming a DevOps expert.  Take them à la carte or as part of a wider DevOps transformation. CloudOps offers these online workshops privately to teams of six or more people.   Our workshops can also be white labeled or re-sold.          Tell us what you need Request more information about how our workshops can help your team acquire the skills they need to succeed.</description>
+    </item>
+    
+    <item>
       <title>Machine Learning and Kubernetes Workshop</title>
       <link>/kubernetes-machine-learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/kubernetes-machine-learning/</guid>
-      <description>Workshops Home  Next Workshop     Kubernetes and Machine Learning CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     During this workshop you will learn:
- How to run deployments of machine learning (ML) workflows on Kubernetes to make them simple, portable and scalable with open source tools.  Standalone 2 days: $4,000/attendee (minimum 6 attendees)</description>
+      <description>Workshops Home  Next Workshop     Kubernetes and Machine Learning     During this workshop you will learn how to run deployments of machine learning (ML) workflows on Kubernetes to make them simple, portable and scalable with open source tools.
+Duration: 2 days
+$4,000/attendee (minimum 6 attendees)
+ Prerequisites: CloudOps Docker and Kubernetes Workshop or good knowledge of these tools. Experience using Linux CLI and a general understanding of virtualization and container technology.</description>
     </item>
     
     <item>
@@ -1577,13 +1592,24 @@ The problem? Building and running a DevOps-ready cloud operations team is hard.<
     </item>
     
     <item>
-      <title>Monolith to Microservices Workshop</title>
-      <link>/monolith-microservices/</link>
+      <title>Microservices, Docker and Basic Kubernetes Workshop</title>
+      <link>/microservices-docker-kubernetes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/monolith-microservices/</guid>
-      <description>Workshops Home  Next Workshop     Monolith to microservices CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     During this workshop you will learn:
- How to migrate an existing legacy JavaTM EE app to Red Hat JBoss Enterprise Application Platform on OpenShift How to use modern frameworks like Spring Boot, Wildfly Swarm, Eclipse Vert.</description>
+      <guid>/microservices-docker-kubernetes/</guid>
+      <description>Workshops Home  Next Workshop     Microservices, Docker and Basic Kubernetes     CloudOps’ flagship workshop covers architecture principles of microservices, then gets in to the mechanics of container tooling – now a key model for application development.
+Our workshops are Linux-based. If you are interested in Docker and Kubernetes training on Windows, please let us know here.
+This workshop is available on Azure, GCP and AWS.</description>
+    </item>
+    
+    <item>
+      <title>Networking</title>
+      <link>/networking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/networking/</guid>
+      <description>Networking      Networking is often the hardest part of cloud. There are numerous load-balancing, application delivery controller, and service mesh solutions in the market. Selecting and operating the right hardware and networking tools can be complex and time consuming. CloudOps can help you decide which ones are right for you.
+                           Let us help you!</description>
     </item>
     
     <item>
@@ -1592,10 +1618,11 @@ The problem? Building and running a DevOps-ready cloud operations team is hard.<
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/openshift/</guid>
-      <description>Workshops Home  Next Workshop     OpenShift CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     During this workshop you will learn:
-How to install, administer and use Red Hat OpenShift container platform to deploy your enterprise applications. Duration: 2 or 3 days
-Two day OpenShift: $2500/attendee (minimum 6 attendees)
-Three day Docker &amp; Kubernetes bundle: $3000/attendee (min.</description>
+      <description>Workshops Home  Next Workshop     OpenShift     During this workshop you will learn how to install, administer, and use Red Hat OpenShift container platform to deploy your enterprise applications.
+Duration: 2 days
+$2500/attendee (minimum 6 attendees)
+ Prerequisites: Experience using Linux CLI and a general understanding of virtualization and container technology
+Technical Requirements: Mac, Linux OS or Windows laptop with SSH client (putty, cygwin), web browser supporting HTML5</description>
     </item>
     
     <item>
@@ -1613,7 +1640,7 @@ Three day Docker &amp; Kubernetes bundle: $3000/attendee (min.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/privacy-policy/</guid>
-      <description>Privacy Policy (Last modified on January 18, 2018)     Introduction, Definitions, Modifications and Acceptance Welcome to CloudOps. This Privacy Policy (the “Policy”) may cover several different situations, so please refer to the following definitions for clarification:
+      <description>Privacy Policy     Introduction, Definitions, Modifications and Acceptance Welcome to CloudOps. This Privacy Policy (the “Policy”) may cover several different situations, so please refer to the following definitions for clarification:
 “CloudOps” refers to CloudOps Inc., a duly incorporated company in the Province of Quebec, Canada. Where the present Policy refers to “CloudOps”, it may refer to CloudOps Inc. and / or its affiliates, subsidiaries, employees, officers, directors, subcontractors, agents, partners or representatives, depending on the context.</description>
     </item>
     
@@ -1632,8 +1659,10 @@ Three day Docker &amp; Kubernetes bundle: $3000/attendee (min.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/secrets-management/</guid>
-      <description>Workshops Home  Next Workshop     Secrets Management CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     During this workshop you will learn:
- How to use Hashicorp Vault as a reliable tool for secrets management and data protection; Operational components and techniques for integrating Vault secrets into applications.  Duration: ½ day</description>
+      <description>Workshops Home  Next Workshop     Secrets Management     During this workshop you will learn:
+How to use Hashicorp Vault as a reliable tool for secrets management and data protection; Operational components and techniques for integrating Vault secrets into applications.  Duration: ½ day
+$1000/attendee (minimum 6 attendees)
+ Prerequisites: This workshop is ideal for Vault administrators, as well as developers writing applications using Vault secrets.</description>
     </item>
     
     <item>

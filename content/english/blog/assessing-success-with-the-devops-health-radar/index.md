@@ -4,11 +4,9 @@ lastmod: "2019-11-12"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "DevOps-Radar-blog.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/DevOps-Radar-blog.png" class="main-blog-image">
 
 <p>DevOps increases an organization’s ability to deliver applications and services at high velocity, evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. This is accomplished by redesigning processes so development and operations tasks are no longer fully separated by silos.</p>
 

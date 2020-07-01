@@ -4,11 +4,9 @@ lastmod: "2019-04-29"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "AWS-Advanced-Partner.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/AWS-Advanced-Partner.png" class="main-blog-image">
 
 <p>CloudOps is pleased to become an Advanced member of the AWS Partner Network (APN). As a consulting partner of AWS, CloudOps helps companies build or expand their businesses in AWS’ public cloud offering.</p>
 

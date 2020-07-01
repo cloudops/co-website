@@ -4,11 +4,9 @@ lastmod: "2017-09-15"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "PROFIT-500-Logo-2017-BLUE.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/PROFIT-500-Logo-2017-BLUE.png" class="main-blog-image">
 
 <p>– Canadian Business unveils 29th annual list of Canada’s Fastest-Growing Companies –</p>
 

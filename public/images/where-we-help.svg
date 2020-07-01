@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 504.6 273.4" style="enable-background:new 0 0 504.6 273.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#C1C6C8;stroke-width:8.1978;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:#4B4F54;}
+	.st2{font-family:'OpenSans-Semibold';}
+	.st3{font-size:12px;}
+	.st4{fill:#404040;}
+	.st5{font-family:'OpenSans-Bold';}
+	.st6{font-size:18.8794px;}
+	.st7{fill:#D93963;}
+	.st8{fill:none;stroke:#FFFFFF;stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;}
+	.st9{fill:#FFFFFF;stroke:#5AA9DA;stroke-width:8.1978;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st10{fill:#81AA43;}
+	.st11{fill-rule:evenodd;clip-rule:evenodd;fill:#FFD46F;}
+	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:#005E8A;fill-opacity:0.5;}
+	.st13{fill:#FBFBFB;}
+	.st14{fill:none;stroke:#C1C6C8;stroke-width:8.1978;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st15{fill:none;stroke:#5AA9DA;stroke-width:8.1978;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<rect x="88.9" y="4.1" class="st0" width="411.1" height="75"/>
+<g>
+	<text transform="matrix(1 0 0 1 165.4655 33.3833)" class="st1 st2 st3">differentiated</text>
+	<g>
+		<text transform="matrix(1 0 0 1 165.4658 55.8139)" class="st4 st5 st6">Application Development / Code</text>
+	</g>
+	<circle class="st7" cx="129.7" cy="41.6" r="20.8"/>
+	<line class="st8" x1="122.2" y1="49.1" x2="137.1" y2="34.1"/>
+	<line class="st8" x1="122.2" y1="34.1" x2="137.1" y2="49.1"/>
+</g>
+<rect x="88.9" y="99.2" class="st9" width="411.1" height="75"/>
+<g>
+	<text transform="matrix(1 0 0 1 165.4655 152.511)" class="st4 st5 st6">DevOps Platform / Toolchain</text>
+	<text transform="matrix(1 0 0 1 165.4655 130.1507)" class="st1 st2 st3">Undifferentiated</text>
+	<circle class="st10" cx="129.7" cy="136.2" r="20.8"/>
+	<polyline class="st8" points="120.5,135.2 126.6,142.3 138.9,130.1 	"/>
+</g>
+<g>
+	<polygon id="Fill-10_35_" class="st11" points="0,153.8 34.2,136.4 0,119.6 	"/>
+	<polygon id="Fill-10_33_" class="st12" points="34.2,153.8 68.5,136.4 34.2,119.6 	"/>
+</g>
+<rect x="89.4" y="194.3" class="st9" width="411.1" height="75"/>
+<g>
+	<text transform="matrix(1 0 0 1 165.4655 224.0701)" class="st1 st2 st3">Undifferentiated</text>
+	<text transform="matrix(1 0 0 1 165.4658 246.5953)" class="st4 st5 st6">Infrastructure</text>
+	<circle class="st10" cx="129.7" cy="231.8" r="20.8"/>
+	<polyline class="st8" points="120.5,231.3 126.6,238.5 138.9,226.2 	"/>
+</g>
+<g>
+	<polygon id="Fill-10_9_" class="st11" points="0,249 34.2,231.6 0,214.7 	"/>
+	<polygon id="Fill-10_5_" class="st12" points="34.2,249 68.5,231.6 34.2,214.7 	"/>
+</g>
+</svg>

@@ -4,11 +4,9 @@ lastmod: "2016-04-20"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "2016-Branham300-logo.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/2016-Branham300-logo.png" class="main-blog-image">
 
 <p><b>Montreal, April 20th 2016</b><span style="font-weight: 400;">: CloudOps is named one of Canada’s top ICT companies by Branham300, ranking at 221 on this year’s list of Canada’s most-profitable companies. This recognition comes at a pivotal time for CloudOps, as it is poised for hyper growth over the next year. </span><span style="font-weight: 400;">CloudOps is thrilled to be recognized for its growth and profitability even as it accelerates its investment in the next generation of cloud computing solutions for software companies, telecom, and enterprise shared services.</span></p>
 

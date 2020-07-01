@@ -21,6 +21,11 @@
     color: #fff;
 }
 
+.landing-page
+.jumbotron.hero img {
+
+}
+
 
 .landing-page h2 {
     padding-top: 50px;
@@ -88,7 +93,52 @@
     padding-bottom: 50px;
 }
 
+.landing-page .main-content .card-deck .card {
+    background-color: #FFF;
+    box-shadow: 2px 2px 8px #E2E2E2;
+    border-radius: 0;
+    border: 1px solid rgba(0,0,0,.125);
+    vertical-align: middle;
+    float: none;
+    height: 130px;
+    min-width: 230px;
+    max-width: 230px;
+    margin: 10px 20px 10px 0;
+}
+
+.landing-page .main-content .card-deck {
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 70px;
+}
+
+.landing-page .main-content .card-deck .card:hover {
+    box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2);
+}
+
+.landing-page .main-content .card-deck .card img {
+    padding: 30px 0;
+    margin-top: 0;
+}
+
+.landing-page .main-content .card-deck .card > a {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 @media (max-width: 575.98px) {
+
+.landing-page
+.jumbotron.hero h1 {
+        font-size: 48px;
+    }
+
+.landing-page
+.jumbotron.hero img {
+    width: 260px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
     .landing-page .brand-promises-card {
         padding: 100px 0;

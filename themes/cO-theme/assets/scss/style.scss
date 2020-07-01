@@ -193,9 +193,9 @@ ul li {
 }
 
 .general-stylings-more-content.contact-us-card {
-    background-image: url("/images/bottom-left-yellow-swoosh.png"), url("/images/top-right-yellow-swoosh.svg");
-    background-position: left bottom, right top;
-    background-repeat: no-repeat, no-repeat;
+    background-image: url("/images/bottom-left-yellow-swoosh.png"), url("/images/top-right-yellow-swoosh.svg"), url("/images/tinydots-horizontal.svg");
+    background-position: left bottom, right top, left bottom 20%;
+    background-repeat: no-repeat, no-repeat , repeat-x;
     padding: 100px 0;
     text-align: center;
 }
@@ -213,6 +213,7 @@ ul li {
     text-decoration: none;
 }
 
+
 @media (max-width: 575.98px) {
     .general-stylings-more-content.contact-us-card {
         padding-left: 30px;
@@ -221,6 +222,12 @@ ul li {
     .general-stylings-more-content.contact-us-card h2 {
        padding-bottom: 30px;
    }  
+
+   .general-stylings-more-content.contact-us-card p {
+    padding-top: 0;
+    margin-left: 0;
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -231,6 +238,10 @@ ul li {
 
     .general-stylings-more-content .cta-cards .card-deck .card {
         min-width: 270px;
+    }
+
+    .general-stylings-more-content .contact-us-card p {
+        padding-top: 0;
     }
 }
 

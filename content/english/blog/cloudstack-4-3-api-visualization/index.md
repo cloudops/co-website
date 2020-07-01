@@ -4,11 +4,9 @@ lastmod: "2014-05-29"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "vis_43.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/vis_43.png" class="main-blog-image">
 
 <p>Click the image to interact with the visualization…..</p>
 

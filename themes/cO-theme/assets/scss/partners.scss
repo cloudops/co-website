@@ -129,6 +129,12 @@
 }
 
 @media (max-width: 575.98px) {
+
+    .partners
+    .jumbotron.hero {
+        padding-bottom: 70px;
+    }
+
     .partners
     .jumbotron.hero h1 {
         font-size: 50px;
@@ -152,11 +158,8 @@
         text-align: left;
     }
 
-    .partners .stand-out .membership .card-deck {
-        margin-left: 15px;
-    }
 
-    .partners .stand-out .membership .card-deck .card .card-body {
+    .partners .membership .card-deck .card .card-body {
         padding-top: 0;
         padding-bottom: 0;
     }
@@ -181,11 +184,7 @@
         text-align: right;
     }
 
-    .partners .stand-out .membership .card-deck {
-        margin-left: 15px;
-    }
-
-    .partners .stand-out .membership .card-deck .card-body {
+    .partners .membership .card-deck .card-body {
         padding-top: 0;
         padding-bottom: 0;
     }
@@ -211,12 +210,8 @@
         text-align: right;
     }
 
-    .partners .stand-out .membership .card-deck {
-        margin-left: 15px;
-    }
 
-
-    .partners .stand-out .membership .card-deck .card-body {
+    .partners .membership .card-deck .card-body {
         padding-top: 0;
         padding-bottom: 0;
     }

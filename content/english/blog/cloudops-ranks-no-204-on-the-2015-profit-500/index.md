@@ -4,11 +4,9 @@ lastmod: "2015-09-17"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "P500-Logo-2015-ADS-Blue.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/P500-Logo-2015-ADS-Blue.jpg" class="main-blog-image">
 
 <p><i><span style="font-weight: 400;">– PROFIT magazine unveils 27</span></i><i><span style="font-weight: 400;">th</span></i><i><span style="font-weight: 400;"> annual list of Canada’s Fastest-Growing Companies –</span></i></p>
 

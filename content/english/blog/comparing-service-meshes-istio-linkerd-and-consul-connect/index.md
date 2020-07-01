@@ -4,11 +4,9 @@ lastmod: "2019-03-28"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "ComparingServiceMesh.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/ComparingServiceMesh.jpg" class="main-blog-image">
 
 <p>The use of microservice-based architectures has skyrocketed in the past few years, highlighting their ability to make applications more scalable, portable, and resilient than their monolithic predecessors. But the volatile and ephemeral environments that microservices encourage can make networking inherently problematic.</p>
 

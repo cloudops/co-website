@@ -73,11 +73,6 @@
     margin-bottom: 8px;
 }
 
-.careers .case-studies-card .cloudops-values p {
-    text-align: left;
-}
-
-
 .careers .case-studies-card .work-from-home h2 {
     text-align: left;
 }
@@ -184,6 +179,12 @@ font-weight: bold;
 
 
 @media (max-width: 575.98px) {
+
+    .careers
+    .jumbotron.hero {
+        padding-bottom: 80px;
+    }
+
     .careers
     .jumbotron.hero h1 {
         font-size: 50px;
@@ -200,6 +201,7 @@ font-weight: bold;
     .jumbotron.hero img {
         position: relative;
         top: 30px;
+        left: 10px;
         width: 280px;
     }
 

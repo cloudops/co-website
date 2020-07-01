@@ -297,6 +297,11 @@
         background-image: none;
     }
 
+    .managed-services .case-studies-card.case-studies-card.second-managed-card ul {
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+
     .managed-services .no-padding-sides {
         padding-left: 0;
         padding-right: 0;
@@ -331,6 +336,13 @@
     .managed-services .case-studies-card.intro-to-managed img {
         height: 150px;
         width: auto;
+    }
+
+    .managed-services .case-studies-card img {
+        height: 150px;
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 30px;
     }
 
     .managed-services .case-studies-card.intro-to-managed .challenges-card h6 {
@@ -375,6 +387,11 @@
         position: relative;
         top: 30px;
         width: 430px;
+    }
+
+    .managed-services .case-studies-card.case-studies-card.second-managed-card ul {
+        margin-bottom: 0;
+        padding-top: 0;
     }
 
     .managed-services .no-padding-sides {
@@ -430,6 +447,11 @@
         margin-right: 0;
     }
 
+    .managed-services .case-studies-card.case-studies-card.second-managed-card ul {
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+    
     .managed-services .hero-image-container {
         text-align: left;
     }

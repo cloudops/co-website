@@ -63,12 +63,17 @@
     height: auto;
 }
 
+.cloud-migration .case-studies-card .icons-container {
+    text-align: right;
+}
+
 .cloud-migration .case-studies-card img.icons {
     width: 30px;
     height: auto;
     padding: 5px 0;
     display: inline;
     margin-top: 30px;
+    text-align: right;
 }
 
 .cloud-migration .case-studies-card .no-side-padding {
@@ -103,6 +108,12 @@
 
 
 @media (max-width: 575.98px) {
+    .cloud-migration
+    .jumbotron.hero {
+    padding: 0 0 80px;
+
+}
+
     .cloud-migration
     .jumbotron.hero h1 {
         font-size: 50px;
@@ -139,6 +150,7 @@
     .cloud-migration .case-studies-card img {
         height: 150px;
         width: auto;
+        margin-top: 30px;
     }
 
     .cloud-migration .case-studies-card .challenges-card h6 {
@@ -149,6 +161,10 @@
     }
 
     .cloud-migration .bot-img {
+        text-align: center;
+    }
+
+    .cloud-migration .case-studies-card .icons-container {
         text-align: center;
     }
     
@@ -180,6 +196,7 @@
     .cloud-migration .case-studies-card img {
         height: 170px;
         width: auto;
+        margin-top: 30px;
     }   
     .cloud-migration .image-for-desktop {
         display: none;

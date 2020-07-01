@@ -4,11 +4,10 @@ lastmod: "2020-04-23"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "Cut-Costs-in-the-Cloud.png"
 class_name: "blog post"
 ---
 
-<img src="/images/blog/post/Cut-Costs-in-the-Cloud.png" class="main-blog-image">
 
 <p>People leverage the cloud for many reasons. More often than not, the need to cut costs ranks high among them. And while the cloud does offer significant benefits that include cost-efficiency, some organizations have found out the hard way that this isn’t necessarily true as they scale. Cloud native infrastructures are complex entities that must be managed properly to scale cost-effectively. In this blog, we identify eight ways that can help your organization optimize its cloud usage.</p>
 

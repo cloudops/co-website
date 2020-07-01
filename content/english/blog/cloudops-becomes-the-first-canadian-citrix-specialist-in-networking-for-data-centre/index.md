@@ -4,11 +4,9 @@ lastmod: "2015-07-17"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "CTX_Specialist_Gold_Solution-Advisor_Flat_RGB-copy1.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/CTX_Specialist_Gold_Solution-Advisor_Flat_RGB-copy1.png" class="main-blog-image">
 
 <p><strong>As Citrix launches its new partner specialist program, CloudOps receives prestigious designation</strong></p>
 

@@ -523,16 +523,6 @@
   
   <url>
     <loc>/fr/docker-kubernetes/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/docker-kubernetes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/docker-kubernetes/"
-                />
   </url>
   
   <url>
@@ -569,16 +559,6 @@
   
   <url>
     <loc>/fr/advanced-docker-kubernetes/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/advanced-docker-kubernetes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/advanced-docker-kubernetes/"
-                />
   </url>
   
   <url>

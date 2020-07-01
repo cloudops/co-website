@@ -4,11 +4,9 @@ lastmod: "2019-04-03"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "WillStevens.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/WillStevens.png" class="main-blog-image">
 
 <p>With a couple weeks before KubeCon and an impending presentation, I embarked on a small adventure to try networking together two different Kubernetes clusters with Tungsten Fabric, the goal being to do a live demo at the Tungsten Fabric Developers Summit.</p>
 

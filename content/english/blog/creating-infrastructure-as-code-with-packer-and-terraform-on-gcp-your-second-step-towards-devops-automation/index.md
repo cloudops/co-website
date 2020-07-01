@@ -4,11 +4,9 @@ lastmod: "2018-03-16"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "Meme2-1.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/Meme2-1.jpg" class="main-blog-image">
 
 <p>Everyone wants to adopt Infrastructure as Code to configure and automate the infrastructure of their application as it embraces DevOps best practices. Figuring out ways to automate your CI/CD pipeline is at the heart of this transition, and is a huge interest of mine.</p>
 

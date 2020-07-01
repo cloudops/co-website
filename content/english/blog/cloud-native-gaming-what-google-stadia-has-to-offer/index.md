@@ -4,11 +4,9 @@ lastmod: "2019-03-26"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "GoogleStadia.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/GoogleStadia.png" class="main-blog-image">
 
 <h4><strong><em>Gamers and developers alike are finally getting a glimpse of the not-too-distant future of cloud gaming</em></strong></h4>
 

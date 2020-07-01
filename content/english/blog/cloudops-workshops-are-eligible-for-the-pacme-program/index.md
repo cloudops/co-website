@@ -4,11 +4,9 @@ lastmod: "2020-05-07"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "PACME-img.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/PACME-img.png" class="main-blog-image">
 
 <p>Thursday, May 7, 2020 – CloudOps is pleased to announce participation in the <em>Programme actions concertées pour le maintien en emploi </em>(PACME) offered by the Government of Quebec.</p>
 

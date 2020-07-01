@@ -4,11 +4,9 @@ lastmod: "2016-04-15"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "image-22.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/image-22.png" class="main-blog-image">
 
 <p><span style="font-weight: 400;">For Immediate Release</span></p>
 

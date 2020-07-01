@@ -111,6 +111,12 @@
 }
 
 @media (max-width: 575.98px) {
+
+    .transformations
+    .jumbotron.hero {
+    padding: 0 0 80px;
+}
+
     .transformations
     .jumbotron.hero h1 {
         font-size: 40px;

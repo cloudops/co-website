@@ -4,11 +4,10 @@ lastmod: "2019-09-19"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "bookblogpost.jpg"
 class_name: "blog post"
 ---
 
-<img src="/images/blog/post/bookblogpost.jpg" class="main-blog-image">
 
 <p>Interested in learning more about DevOps but don’t know where to start? We’ve got you covered.</p> <p>We asked some people on our team for their favourite books on DevOps. Here are a few that explain how DevOps can truly transform the way technology serves your business.</p>
 

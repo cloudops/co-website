@@ -4,11 +4,9 @@ lastmod: "2020-03-31"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "Anthos.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/Anthos.png" class="main-blog-image">
 
 <p>Anthos is an open hybrid- and multi-cloud application platform pioneered by Google. It is built on open source technologies including Kubernetes, <a href="https://www.cloudops.com/2018/02/mesh-your-services-with-istio-solving-complexity-at-the-network-layer/">Istio</a>, and Knative. It is the logical extension of GKE on-prem, as it augments Google’s first entrance into the enterprise data center with a suite of open source solutions that cover areas including networking, storage, registry, logging, and monitoring. Anthos brings multiple services together to facilitate scalability, interoperability, containerization, data sovereignty, and security.</p>
 

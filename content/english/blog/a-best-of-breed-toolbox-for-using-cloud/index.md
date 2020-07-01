@@ -4,11 +4,9 @@ lastmod: "2019-10-29"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "Toolbox-Blog.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/Toolbox-Blog.jpg" class="main-blog-image">
 
 <p>The number of tools in the cloud native landscape has exploded in the past few years, and it can be difficult to know which tool is right for which job. Cloud native technology stacks are comprised of several layers, each of which requires in-depth knowledge to optimize.</p>
 

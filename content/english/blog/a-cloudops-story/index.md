@@ -4,11 +4,10 @@ lastmod: "2013-03-28"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "cloudops.jpg"
 class_name: "blog post"
 ---
 
-<img src="/images/blog/post/cloudops.jpg" class="main-blog-image">
 
 <p dir="ltr">As a web operations firm in 2005, we were privileged to experience the emergence of cloud computing. At the time, our customers were exclusively e-commerce, SaaS, and advertising-driven publishing businesses. Amazon Web Services (AWS) unlocked what was essentially an unsolved problem — how to right-size your infrastructure to meet the needs of your business — and our AWS solutions provided our customers with just-in-time (JIT) infrastructure.</p>
 

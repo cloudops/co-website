@@ -84,6 +84,11 @@
 
 @media (max-width: 575.98px) {
     .delivering-cloud
+    .jumbotron.hero {
+        padding-bottom: 80px;
+    }
+
+    .delivering-cloud
     .brand-promises-card {
         background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
         background-position: left bottom, right top;
@@ -115,7 +120,7 @@
     .jumbotron.hero img {
         position: relative;
         top: 30px;
-        width: 280px;
+        width: 260px;
         padding-bottom: 30px;
     }
 

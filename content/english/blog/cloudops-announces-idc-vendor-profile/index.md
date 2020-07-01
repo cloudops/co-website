@@ -4,11 +4,9 @@ lastmod: "2016-05-09"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "IDC.jpeg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/IDC.jpeg" class="main-blog-image">
 
 <p><span style="font-weight: 400;">CloudOps is pleased to announce that IDC has created a vendor profile which gives a unique glimpse into a company experiencing phenomenal growth. CloudOps is poised, as the report concludes, to continue its expansion in the market over the next few years.</span></p>
 

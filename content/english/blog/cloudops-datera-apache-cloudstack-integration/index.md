@@ -4,11 +4,9 @@ lastmod: "2017-05-15"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "image1-1.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/image1-1.jpg" class="main-blog-image">
 
 <div><h2>Software-Defined, Automated, Shared Storage Infrastructure Made Accessible to Open Source CloudStack Community<p></p></h2><h2></h2></div>
 

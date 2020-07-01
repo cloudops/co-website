@@ -1297,17 +1297,25 @@ a.active {
     width: 1em;
     height: 1em; }
   .navbar-card button.btn {
-    margin: 5px 0 10px; }
+    margin: 20px 0 10px; }
   .navbar-card .nav-cta {
     display: none; }
   .navbar-card .nav-main-section {
     text-align: left;
     padding: 30px 0 20px 15px; }
   .navbar-card i {
-    color: #62B5E5;
+    color: #005D91;
     font-size: 22px; }
   .navbar-card img {
-    width: 200px; } }
+    width: 200px; }
+  .navbar-card .dropdown-menu img {
+    display: none; }
+  .navbar-card .navbar .navbar-nav .dropdown .training-dropdown-items-group h3 {
+    text-align: left; }
+  .navbar-card .navbar .navbar-nav .dropdown a.dropdown-item {
+    padding-left: 25px; }
+  .navbar-card .navbar .navbar-nav .dropdown .reading-dropdown h3 {
+    margin-bottom: 10px; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .navbar-card {
@@ -1318,14 +1326,22 @@ a.active {
     width: 1em;
     height: 1em; }
   .navbar-card button.btn {
-    margin: 5px 0 10px; }
+    margin: 20px 0 10px; }
   .navbar-card .nav-cta {
     display: none; }
   .navbar-card .nav-main-section {
     text-align: left;
     padding: 30px 0 20px 15px; }
   .navbar-card i {
-    color: #62B5E5; } }
+    color: #005D91; }
+  .navbar-card .dropdown-menu img {
+    display: none; }
+  .navbar-card .navbar .navbar-nav .dropdown .training-dropdown-items-group h3 {
+    text-align: left; }
+  .navbar-card .navbar .navbar-nav .dropdown a.dropdown-item {
+    padding-left: 25px; }
+  .navbar-card .navbar .navbar-nav .dropdown .reading-dropdown-row h3 {
+    margin-bottom: 10px; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .navbar-card {
@@ -1336,14 +1352,22 @@ a.active {
     width: 1em;
     height: 1em; }
   .navbar-card button.btn {
-    margin: 5px 0 10px; }
+    margin: 20px 0 10px; }
   .navbar-card .nav-cta {
     display: none; }
   .navbar-card .nav-main-section {
     text-align: left;
     padding: 30px 0 20px 15px; }
   .navbar-card i {
-    color: #62B5E5; } }
+    color: #005D91; }
+  .navbar-card .dropdown-menu img {
+    display: none; }
+  .navbar-card .navbar .navbar-nav .dropdown .training-dropdown-items-group h3 {
+    text-align: left; }
+  .navbar-card .navbar .navbar-nav .dropdown a.dropdown-item {
+    padding-left: 25px; }
+  .navbar-card .navbar .navbar-nav .dropdown .reading-dropdown-row h3 {
+    margin-bottom: 10px; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .navbar-card {
@@ -1354,11 +1378,13 @@ a.active {
     width: 1em;
     height: 1em; }
   .navbar-card button.btn {
-    margin: 5px 0 10px; }
+    margin: 20px 0 10px; }
   .navbar-card .nav-cta {
     display: none; }
   .navbar-card i {
-    color: #62B5E5; } }
+    color: #005D91; }
+  .navbar-card .navbar .navbar-nav .dropdown .training-dropdown-items-group h3 {
+    margin-top: 15px; } }
 
 @media (min-width: 1200px) {
   .navbar-expand-xl .navbar-nav .dropdown-menu {
@@ -1368,7 +1394,9 @@ a.active {
     top: 88px;
     left: 50%;
     margin-left: -500px;
-    margin-top: 0; } }
+    margin-top: 0; }
+  .navbar-card .navbar .navbar-nav .dropdown .training-dropdown-items-group h3 {
+    margin-top: 15px; } }
 
 /************  Hero Styles  ***************/
 .jumbotron.hero {
@@ -2002,8 +2030,12 @@ a.active {
   font-size: 16px;
   padding-bottom: 2px; }
 
+.contact-us-card .general-contact-form li a {
+  font-size: 16px; }
+
 .contact-us-card .general-contact-form li span {
-  margin-left: 5px; }
+  margin-left: 5px;
+  padding-top: 15px; }
 
 .contact-us-card .general-contact-form input.hs-button {
   background-color: #005D91;
@@ -2016,14 +2048,15 @@ a.active {
   border: none; }
 
 .contact-us-card .general-contact-form li.hs-form-booleancheckbox .hs-form-booleancheckbox-display .hs-input {
+  margin-top: 15px;
   width: 25px;
-  height: 25px;
-  margin-top: 30px; }
+  height: 25px; }
 
 .contact-us-card .general-contact-form .legal-consent-container .hs-form-booleancheckbox-display p {
-  padding-top: 30px;
+  padding-left: 30px;
   display: block;
-  text-align: left; }
+  text-align: left;
+  font-size: 16px; }
 
 .contact-us-card .general-contact-form input.hs-button:hover {
   background-color: #FFF;
@@ -2054,7 +2087,18 @@ a.active {
 
 .contact-us-card .general-contact-form .input select {
   margin-bottom: 30px;
-  color: #404040; }
+  color: #404040;
+  font-size: 16px; }
+
+.contact-us-card .general-contact-form li.hs-form-checkbox {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top; }
+
+.contact-us-card .general-contact-form li.hs-form-checkbox > span {
+  display: block;
+  margin-top: -20px;
+  margin-left: 20px; }
 
 .contact-us-card .general-contact-form ul.inputs-list {
   padding-top: 0;
@@ -2062,7 +2106,8 @@ a.active {
 
 .contact-us-card .general-contact-form fieldset.form-columns-1 .hs-fieldtype-checkbox.field.hs-form-field > label {
   margin-top: 30px;
-  color: #404040; }
+  color: #404040;
+  font-size: 16px; }
 
 .contact-us-card h2 {
   padding: 40px 0 0 0; }
@@ -2072,8 +2117,10 @@ a.active {
     text-align: center;
     margin-left: 15px;
     margin-right: -15px; }
+  .contact-us-card p.under-title {
+    padding-top: 40px; }
   .contact-us-card {
-    text-align: center; }
+    text-align: left; }
   .contact-us-card .general-contact-form {
     margin-left: auto;
     margin-right: auto;
@@ -2085,13 +2132,22 @@ a.active {
   .contact-us-card p {
     margin-left: 15px;
     margin-right: -15px;
-    text-align: left; } }
+    text-align: left; }
+  .contact-us-card .general-contact-form li.hs-form-checkbox {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top; }
+  .contact-us-card .general-contact-form .hbspt-form {
+    padding-left: 15px;
+    padding-right: 15px; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .contact-us-card h2 {
     text-align: center; }
+  .contact-us-card p.under-title {
+    padding-top: 40px; }
   .contact-us-card {
-    text-align: center; }
+    text-align: left; }
   .contact-us .general-contact-form {
     margin-left: auto;
     margin-right: auto; }
@@ -2448,6 +2504,8 @@ a.active {
   margin-top: 30px; }
 
 @media (max-width: 575.98px) {
+  .workshops .jumbotron.hero {
+    padding-bottom: 80px; }
   .workshops .jumbotron.hero h1 {
     font-size: 50px;
     text-align: left; }
@@ -3012,6 +3070,8 @@ a.active {
   background-position: 25px 100px, left bottom, right top; }
 
 @media (max-width: 575.98px) {
+  .experts .jumbotron.hero {
+    padding-bottom: 80px; }
   .experts .jumbotron.hero h1 {
     font-size: 50px;
     text-align: left; }
@@ -3418,10 +3478,8 @@ a.active {
 .docker-k8s-page .workshop-description {
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 15px; }
-
-.docker-k8s-page .workshop-description p {
-  line-height: 1.8; }
+  padding-left: 15px;
+  padding-right: 15px; }
 
 .docker-k8s-page button {
   text-align: center;
@@ -3472,6 +3530,14 @@ a.active {
 .docker-k8s-page .workshop-description p {
   font-size: 18px; }
 
+.docker-k8s-page ul li {
+  margin-left: 30px; }
+
+.docker-k8s-page ul.dashes li:before {
+  content: '-';
+  position: absolute;
+  margin-left: -20px; }
+
 .docker-k8s-page .workshop-description .course-outline {
   border-top: 2px solid #FFE07F;
   margin-left: 16.666667%;
@@ -3479,7 +3545,7 @@ a.active {
 
 .docker-k8s-page .workshop-description .course-outline h2 {
   text-align: center;
-  padding: 50px 30px 30px; }
+  padding: 50px 0 30px; }
 
 .docker-k8s-page button {
   background-color: #005D91;
@@ -3672,6 +3738,8 @@ a.active {
   margin-top: 115px; }
 
 @media (max-width: 575.98px) {
+  .partners .jumbotron.hero {
+    padding-bottom: 70px; }
   .partners .jumbotron.hero h1 {
     font-size: 50px;
     text-align: left; }
@@ -3684,9 +3752,7 @@ a.active {
     width: 280px; }
   .partners .hero-image-container {
     text-align: left; }
-  .partners .stand-out .membership .card-deck {
-    margin-left: 15px; }
-  .partners .stand-out .membership .card-deck .card .card-body {
+  .partners .membership .card-deck .card .card-body {
     padding-top: 0;
     padding-bottom: 0; }
   .partners .affiliated img {
@@ -3701,9 +3767,7 @@ a.active {
     width: 430px; }
   .partners .hero-image-container {
     text-align: right; }
-  .partners .stand-out .membership .card-deck {
-    margin-left: 15px; }
-  .partners .stand-out .membership .card-deck .card-body {
+  .partners .membership .card-deck .card-body {
     padding-top: 0;
     padding-bottom: 0; }
   .partners .affiliated img {
@@ -3717,9 +3781,7 @@ a.active {
     top: 30px; }
   .partners .hero-image-container {
     text-align: right; }
-  .partners .stand-out .membership .card-deck {
-    margin-left: 15px; }
-  .partners .stand-out .membership .card-deck .card-body {
+  .partners .membership .card-deck .card-body {
     padding-top: 0;
     padding-bottom: 0; } }
 
@@ -3752,17 +3814,16 @@ a.active {
   position: absolute;
   top: -140px; }
 
+.why-cloudops .brand-promises-card {
+  text-align: center; }
+
 .why-cloudops .brand-promises-card h2 {
-  text-align: left;
-  padding-bottom: 10px;
-  margin-left: 30px; }
+  text-align: center;
+  padding-bottom: 10px; }
 
 .why-cloudops .brand-promises-card p {
   padding-bottom: 30px;
-  margin-left: 30px; }
-
-.why-cloudops .brand-promises-card .where-we-help-graph {
-  text-align: center; }
+  text-align: left; }
 
 .why-cloudops .design-build-transform-card .big-lettered-p {
   font-family: 'Montserrat', sans-serif;
@@ -3785,20 +3846,34 @@ a.active {
   margin-bottom: 100px;
   padding-bottom: 100px; }
 
-.why-cloudops .design-build-transform-card h2 {
+.why-cloudops h2.uppercase-title {
   font-family: 'Montserrat', sans-serif;
   color: #005D91;
   font-size: 15pt;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-bottom: 50px; }
 
 .why-cloudops .design-build-transform-card .card-deck .card:hover {
   box-shadow: 2px 2px 8px #E2E2E2;
   cursor: auto; }
 
+.why-cloudops .brand-promises-card img {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 70%; }
+
+.why-cloudops .case-studies-card .center-aligned {
+  text-align: center; }
+
 @media (max-width: 575.98px) {
+  .why-cloudops .jumbotron.hero {
+    padding: 0 0 80px; }
+  .why-cloudops .brand-promises-card {
+    padding-left: 15px;
+    padding-right: 15px; }
   .why-cloudops .case-studies-card {
     text-align: left; }
   .why-cloudops .jumbotron.hero h1 {
@@ -3812,10 +3887,9 @@ a.active {
     top: 30px;
     width: 280px; }
   .why-cloudops .brand-promises-card h2 {
-    text-align: center; }
-  .why-cloudops .brand-promises-card .where-we-help-graph {
-    width: 270px;
-    margin: auto; }
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0; }
   .why-cloudops .hero-image-container {
     text-align: left; }
   .why-cloudops .case-studies-card .image-for-desktop {
@@ -3833,8 +3907,6 @@ a.active {
     height: auto;
     top: 0;
     left: 0; }
-  .why-cloudops .case-studies-card .center-aligned {
-    text-align: center; }
   .why-cloudops .case-studies-card .with-bottom-line {
     border-bottom: 2px solid #FFE07F;
     margin-left: 15px;
@@ -3843,13 +3915,18 @@ a.active {
     padding: 70px 30px; }
   .why-cloudops .case-studies-card .without-bottom-line {
     margin-left: 0;
-    margin-right: 0; } }
+    margin-right: 0; }
+  .why-cloudops .brand-promises-card img {
+    width: 100%; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .why-cloudops .jumbotron.hero img {
     position: relative;
     top: 30px;
     width: 430px; }
+  .why-cloudops .brand-promises-card {
+    padding-left: 15px;
+    padding-right: 15px; }
   .why-cloudops .hero-image-container {
     text-align: left; }
   .why-cloudops .brand-promises-card h2 {
@@ -3868,12 +3945,12 @@ a.active {
     height: auto;
     margin-bottom: 0; }
   .why-cloudops .case-studies-card .with-bottom-line {
-    border-bottom: 2px solid #FFE07F;
-    margin-left: 15px;
-    margin-right: 15px; }
+    border-bottom: 2px solid #FFE07F; }
   .why-cloudops .case-studies-card .without-bottom-line {
     margin-left: 0;
-    margin-right: 0; } }
+    margin-right: 0; }
+  .why-cloudops .brand-promises-card img {
+    width: 90%; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .why-cloudops .jumbotron.hero img {
@@ -3890,7 +3967,9 @@ a.active {
   .why-cloudops .brand-promises-card h2 {
     text-align: center; }
   .why-cloudops .case-studies-card img {
-    width: 260px; } }
+    width: 260px; }
+  .why-cloudops .brand-promises-card img {
+    width: 90%; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .why-cloudops .jumbotron.hero img {
@@ -3903,7 +3982,9 @@ a.active {
     position: static;
     width: 80%;
     margin-top: 30px;
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+  .why-cloudops .brand-promises-card img {
+    width: 80%; } }
 
 @media (min-width: 1200px) {
   .why-cloudops .hero-image-container {
@@ -4263,19 +4344,16 @@ a.active {
   text-align: left; }
 
 @media (max-width: 575.98px) {
-  .contact-us .general-contact-form .hs-submit {
-    text-align: center; }
-  .contact-us h2 {
-    padding-right: 40px; }
-  .contact-us .general-contact-form {
-    padding-right: 0;
-    text-align: center;
-    max-width: none; }
+  .contact-us .jumbotron.hero h1 {
+    font-size: 48px; }
   .contact-us {
     background-position: 25px 100px, left bottom, right top; }
-  .contact-us h2 {
-    padding-left: 0;
-    padding-right: 0; }
+  .contact-us .contact-us-main h2 {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .contact-us .contact-us-main p {
+    padding-left: 15px;
+    padding-right: 15px; }
   .contact-us .phone-col {
     text-align: center;
     margin-top: 30px; }
@@ -4291,11 +4369,6 @@ a.active {
     text-align: center; }
   .contact-us .alternative-contact {
     padding-top: 0; }
-  .contact-us .general-contact-form {
-    padding-left: 35px;
-    text-align: left; }
-  .contact-us .general-contact-form .hs-submit {
-    margin-left: 0; }
   .contact-us .phone-col .alternative-contact img {
     display: block;
     text-align: center;
@@ -4304,51 +4377,8 @@ a.active {
     margin-right: auto; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .contact-us h2 {
-    padding-right: 40px; }
-  .contact-us .general-contact-form input {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    background-color: transparent;
-    border: solid transparent 1px;
-    border-bottom: #404040 1px solid; }
-  .contact-us .general-contact-form ::placeholder {
-    color: #404040;
-    opacity: 1; }
-  .contact-us .general-contact-form ul {
-    list-style-type: none;
-    padding: 15px 0 0 0; }
-  .contact-us .general-contact-form li {
-    font-family: 'Open Sans', sans-serif;
-    color: #FFF;
-    line-height: .01;
-    font-size: 16pt; }
-  .contact-us .general-contact-form input.hs-button.primary.large {
-    background-color: #005D91;
-    width: 150px;
-    height: 35px;
-    color: #FFF;
-    border-radius: 4px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    border: none; }
-  .contact-us .general-contact-form .hs-button:hover {
-    background-color: #FFF;
-    color: #005D91;
-    border: solid 1px #005D91;
-    transition-duration: 0.6s; }
-  .contact-us .general-contact-form fieldset {
-    margin: auto; }
-  .contact-us .general-contact-form {
-    padding-right: 0;
-    text-align: center; }
-  .contact-us .general-contact-form .actions {
-    text-align: center; }
   .contact-us {
     background-position: 25px 100px, left bottom, right top; }
-  .contact-us h2 {
-    padding-left: 0;
-    padding-right: 0; }
   .contact-us .phone-col {
     text-align: center;
     margin-top: 30px; }
@@ -4380,42 +4410,6 @@ a.active {
     margin-right: auto; }
   .contact-us h2 {
     padding-right: 40px; }
-  .contact-us .general-contact-form input {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    background-color: transparent;
-    border: solid transparent 1px;
-    border-bottom: #404040 1px solid; }
-  .contact-us .general-contact-form ::placeholder {
-    color: #404040;
-    opacity: 1; }
-  .contact-us .general-contact-form ul {
-    list-style-type: none;
-    padding: 15px 0 0 0; }
-  .contact-us .general-contact-form li {
-    font-family: 'Open Sans', sans-serif;
-    color: #FFF;
-    line-height: .01;
-    font-size: 16pt; }
-  .contact-us .general-contact-form input.hs-button.primary.large {
-    background-color: #005D91;
-    width: 150px;
-    height: 35px;
-    color: #FFF;
-    border-radius: 4px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    border: none; }
-  .contact-us .general-contact-form .hs-button:hover {
-    background-color: #FFF;
-    color: #005D91;
-    border: solid 1px #005D91;
-    transition-duration: 0.6s; }
-  .contact-us .general-contact-form fieldset {
-    margin: auto; }
-  .contact-us .general-contact-form {
-    padding-right: 0;
-    text-align: center; }
   .contact-us {
     background-position: 70px 100px, left bottom, right top; }
   .contact-us h2 {
@@ -4434,46 +4428,13 @@ a.active {
   .contact-us .locations {
     margin-top: 50px; }
   .contact-us .alternative-contact {
-    padding-top: 0; }
-  .contact-us .general-contact-form .actions {
-    text-align: center; } }
+    padding-top: 0; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .contact-us img {
     margin-top: 50px; }
   .contact-us h2 {
     padding-right: 40px; }
-  .contact-us .general-contact-form input {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    background-color: transparent;
-    border: solid transparent 1px;
-    border-bottom: #404040 1px solid; }
-  .contact-us .general-contact-form ::placeholder {
-    color: #404040;
-    opacity: 1; }
-  .contact-us .general-contact-form ul {
-    list-style-type: none;
-    padding: 15px 0 0 0; }
-  .contact-us .general-contact-form li {
-    font-family: 'Open Sans', sans-serif;
-    color: #FFF;
-    line-height: .01;
-    font-size: 16pt; }
-  .contact-us .general-contact-form input.hs-button.primary.large {
-    background-color: #005D91;
-    width: 150px;
-    height: 35px;
-    color: #FFF;
-    border-radius: 4px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    border: none; }
-  .contact-us .general-contact-form .hs-button:hover {
-    background-color: #FFF;
-    color: #005D91;
-    border: solid 1px #005D91;
-    transition-duration: 0.6s; }
   .contact-us {
     background-position: 70px 160px, left bottom, right top; }
   .contact-us h2 {
@@ -4485,60 +4446,140 @@ a.active {
     padding-left: 0; }
   .contact-us h2 {
     padding-right: 40px; }
-  .contact-us .general-contact-form input {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    background-color: transparent;
-    border: solid transparent 1px;
-    border-bottom: #404040 1px solid; }
-  .contact-us .general-contact-form ::placeholder {
-    color: #404040;
-    opacity: 1;
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif; }
-  .contact-us .general-contact-form ul {
-    list-style-type: none;
-    padding: 15px 0 0 0; }
-  .contact-us .general-contact-form li {
-    font-family: 'Open Sans', sans-serif;
-    color: #FFF;
-    line-height: .01;
-    font-size: 16px; }
-  .contact-us .general-contact-form input.hs-button.primary.large {
-    background-color: #005D91;
-    width: 150px;
-    height: 35px;
-    color: #FFF;
-    border-radius: 4px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    border: none; }
-  .contact-us .general-contact-form .hs-button:hover {
-    background-color: #FFF;
-    color: #005D91;
-    border: solid 1px #005D91;
-    transition-duration: 0.6s; }
-  .contact-us .general-contact-form .hs-form-required {
-    display: none; }
-  .contact-us .general-contact-form .hs-error-msg {
-    font-size: 10px;
-    color: #404040;
-    position: absolute; }
-  .contact-us .general-contact-form textarea {
-    margin-top: 10px;
-    margin-bottom: 30px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    height: 25px;
-    border-bottom: 1px #404040 solid; }
   .contact-us {
     background-position: 5% 160px, left bottom, right top; }
   .contact-us h2 {
-    padding: 40px 0 0 0; }
+    padding: 40px 0 0 0; } }
+
+/************  FORM Styles  ***************/
+.contact-us-main .general-contact-form input {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: transparent;
+  border: solid transparent 1px;
+  border-bottom: #404040 1px solid; }
+
+.contact-us-main .general-contact-form ::placeholder {
+  color: #404040;
+  opacity: 1;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif; }
+
+.contact-us-main .general-contact-form ul {
+  list-style-type: none;
+  padding: 15px 0 0 0; }
+
+.contact-us-main .general-contact-form li {
+  font-family: 'Open Sans', sans-serif;
+  color: #404040;
+  line-height: 1.2;
+  font-size: 16px;
+  padding-bottom: 2px; }
+
+.contact-us-main .general-contact-form li span {
+  margin-left: 5px; }
+
+.contact-us-main .general-contact-form input.hs-button {
+  background-color: #005D91;
+  width: 150px;
+  height: 35px;
+  color: #FFF;
+  border-radius: 4px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  border: none; }
+
+.contact-us-main .general-contact-form li.hs-form-booleancheckbox .hs-form-booleancheckbox-display .hs-input {
+  margin-top: 15px;
+  width: 25px;
+  height: 25px; }
+
+.contact-us-main .general-contact-form .legal-consent-container .hs-form-booleancheckbox-display p {
+  padding-top: 15px;
+  padding-left: 30px;
+  display: block;
+  text-align: left;
+  font-size: 16px; }
+
+.contact-us-main .general-contact-form input.hs-button:hover {
+  background-color: #FFF;
+  color: #005D91;
+  border: solid 1px #005D91;
+  transition-duration: 0.6s; }
+
+.contact-us-main .general-contact-form .hs-form-required {
+  display: none; }
+
+.contact-us-main .general-contact-form .hs-error-msg {
+  font-size: 10px;
+  color: #404040;
+  position: absolute; }
+
+.contact-us-main .general-contact-form textarea {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 25px;
+  border-bottom: 1px #404040 solid; }
+
+.contact-us-main .general-contact-form ul.inputs-list.multi-container {
+  padding-top: 0;
+  margin-bottom: 0; }
+
+.contact-us-main .general-contact-form .input select {
+  margin-bottom: 30px;
+  color: #404040;
+  font-size: 16px; }
+
+.contact-us-main .general-contact-form li.hs-form-checkbox {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top; }
+
+.contact-us-main .general-contact-form ul.inputs-list {
+  padding-top: 0;
+  margin-bottom: 0; }
+
+.contact-us-main .general-contact-form fieldset.form-columns-1 .hs-fieldtype-checkbox.field.hs-form-field > label {
+  margin-top: 30px;
+  color: #404040;
+  font-size: 16px; }
+
+@media (max-width: 575.98px) {
+  .contact-us-main {
+    text-align: left; }
+  .contact-us-main .general-contact-form {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;
+    padding-left: 30px; }
+  .general-contact-form .hs-submit {
+    text-align: left;
+    margin-left: 15px; }
+  .contact-us-main .general-contact-form li.hs-form-checkbox {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top; }
+  .contact-us-main .general-contact-form .hbspt-form {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contact-us-main {
+    text-align: left; }
   .contact-us .general-contact-form {
-    padding-left: 0;
-    padding-right: 0; } }
+    margin-left: auto;
+    margin-right: auto; }
+  .general-contact-form .hs-submit {
+    text-align: left;
+    margin-left: 15px; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .general-contact-form {
+    margin-left: auto;
+    margin-right: auto; } }
 
 .delivering-cloud .jumbotron.hero {
   background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
@@ -4604,6 +4645,8 @@ a.active {
   padding-bottom: 30px; }
 
 @media (max-width: 575.98px) {
+  .delivering-cloud .jumbotron.hero {
+    padding-bottom: 80px; }
   .delivering-cloud .brand-promises-card {
     background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
     background-position: left bottom, right top;
@@ -4622,7 +4665,7 @@ a.active {
   .delivering-cloud .jumbotron.hero img {
     position: relative;
     top: 30px;
-    width: 280px;
+    width: 260px;
     padding-bottom: 30px; }
   .delivering-cloud .brand-promises-card h2 {
     text-align: center; }
@@ -4779,6 +4822,9 @@ a.active {
   margin-bottom: 100px;
   padding-bottom: 100px; }
 
+.delivering-cloud-consulting .case-studies-card .with-bottom-line.no-padding-bottom {
+  padding-bottom: 0; }
+
 .delivering-cloud-consulting .case-studies-card .without-bottom-line .devops-case-study {
   border-bottom: none;
   margin-bottom: 50px;
@@ -4794,6 +4840,8 @@ a.active {
   text-align: center; }
 
 @media (max-width: 575.98px) {
+  .delivering-cloud-consulting .jumbotron.hero {
+    padding: 0 0 80px; }
   .delivering-cloud-consulting .jumbotron.hero h1 {
     font-size: 50px;
     text-align: left; }
@@ -4938,12 +4986,16 @@ a.active {
   width: 130px;
   height: auto; }
 
+.cloud-migration .case-studies-card .icons-container {
+  text-align: right; }
+
 .cloud-migration .case-studies-card img.icons {
   width: 30px;
   height: auto;
   padding: 5px 0;
   display: inline;
-  margin-top: 30px; }
+  margin-top: 30px;
+  text-align: right; }
 
 .cloud-migration .case-studies-card .no-side-padding {
   padding-left: 0;
@@ -4970,6 +5022,8 @@ a.active {
   padding-bottom: 100px; }
 
 @media (max-width: 575.98px) {
+  .cloud-migration .jumbotron.hero {
+    padding: 0 0 80px; }
   .cloud-migration .jumbotron.hero h1 {
     font-size: 50px;
     text-align: left; }
@@ -4991,12 +5045,15 @@ a.active {
     background-repeat: no-repeat, no-repeat; }
   .cloud-migration .case-studies-card img {
     height: 150px;
-    width: auto; }
+    width: auto;
+    margin-top: 30px; }
   .cloud-migration .case-studies-card .challenges-card h6 {
     margin-top: 0; }
   .cloud-migration .image-for-desktop {
     display: none; }
   .cloud-migration .bot-img {
+    text-align: center; }
+  .cloud-migration .case-studies-card .icons-container {
     text-align: center; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -5015,7 +5072,8 @@ a.active {
     background-repeat: no-repeat, no-repeat; }
   .cloud-migration .case-studies-card img {
     height: 170px;
-    width: auto; }
+    width: auto;
+    margin-top: 30px; }
   .cloud-migration .image-for-desktop {
     display: none; }
   .cloud-migration .bot-img {
@@ -5275,9 +5333,6 @@ a.active {
 .careers .case-studies-card .cloudops-values h4 {
   margin-bottom: 8px; }
 
-.careers .case-studies-card .cloudops-values p {
-  text-align: left; }
-
 .careers .case-studies-card .work-from-home h2 {
   text-align: left; }
 
@@ -5362,6 +5417,8 @@ a.active {
   text-align: left; }
 
 @media (max-width: 575.98px) {
+  .careers .jumbotron.hero {
+    padding-bottom: 80px; }
   .careers .jumbotron.hero h1 {
     font-size: 50px;
     text-align: left; }
@@ -5371,6 +5428,7 @@ a.active {
   .careers .jumbotron.hero img {
     position: relative;
     top: 30px;
+    left: 10px;
     width: 280px; }
   .careers .hero-image-container {
     text-align: left; } }
@@ -5638,6 +5696,9 @@ a.active {
     background-repeat: repeat-y, repeat-y; }
   .managed-services .case-studies-card.second-managed-card {
     background-image: none; }
+  .managed-services .case-studies-card.case-studies-card.second-managed-card ul {
+    margin-bottom: 0;
+    padding-top: 0; }
   .managed-services .no-padding-sides {
     padding-left: 0;
     padding-right: 0;
@@ -5659,6 +5720,11 @@ a.active {
   .managed-services .case-studies-card.intro-to-managed img {
     height: 150px;
     width: auto; }
+  .managed-services .case-studies-card img {
+    height: 150px;
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 30px; }
   .managed-services .case-studies-card.intro-to-managed .challenges-card h6 {
     margin-top: 0; }
   .managed-services .three-round-images img {
@@ -5685,6 +5751,9 @@ a.active {
     position: relative;
     top: 30px;
     width: 430px; }
+  .managed-services .case-studies-card.case-studies-card.second-managed-card ul {
+    margin-bottom: 0;
+    padding-top: 0; }
   .managed-services .no-padding-sides {
     padding-left: 0;
     padding-right: 0;
@@ -5719,6 +5788,9 @@ a.active {
     padding-right: 0;
     margin-left: 0;
     margin-right: 0; }
+  .managed-services .case-studies-card.case-studies-card.second-managed-card ul {
+    margin-bottom: 0;
+    padding-top: 0; }
   .managed-services .hero-image-container {
     text-align: left; }
   .managed-services .case-studies-card.intro-to-managed img {
@@ -5832,6 +5904,8 @@ a.active {
   text-align: center; }
 
 @media (max-width: 575.98px) {
+  .transformations .jumbotron.hero {
+    padding: 0 0 80px; }
   .transformations .jumbotron.hero h1 {
     font-size: 40px;
     text-align: left; }
@@ -6167,7 +6241,41 @@ a.active {
 .landing-page .main-content .added-padding-bottom {
   padding-bottom: 50px; }
 
+.landing-page .main-content .card-deck .card {
+  background-color: #FFF;
+  box-shadow: 2px 2px 8px #E2E2E2;
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  vertical-align: middle;
+  float: none;
+  height: 130px;
+  min-width: 230px;
+  max-width: 230px;
+  margin: 10px 20px 10px 0; }
+
+.landing-page .main-content .card-deck {
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: 70px; }
+
+.landing-page .main-content .card-deck .card:hover {
+  box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2); }
+
+.landing-page .main-content .card-deck .card img {
+  padding: 30px 0;
+  margin-top: 0; }
+
+.landing-page .main-content .card-deck .card > a {
+  margin-top: auto;
+  margin-bottom: auto; }
+
 @media (max-width: 575.98px) {
+  .landing-page .jumbotron.hero h1 {
+    font-size: 48px; }
+  .landing-page .jumbotron.hero img {
+    width: 260px;
+    margin-bottom: 20px;
+    margin-top: 20px; }
   .landing-page .brand-promises-card {
     padding: 100px 0;
     background-color: #FBFBFB;
@@ -6271,9 +6379,9 @@ a.active {
   box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2); }
 
 .general-stylings-more-content.contact-us-card {
-  background-image: url("/images/bottom-left-yellow-swoosh.png"), url("/images/top-right-yellow-swoosh.svg");
-  background-position: left bottom, right top;
-  background-repeat: no-repeat, no-repeat;
+  background-image: url("/images/bottom-left-yellow-swoosh.png"), url("/images/top-right-yellow-swoosh.svg"), url("/images/tinydots-horizontal.svg");
+  background-position: left bottom, right top, left bottom 20%;
+  background-repeat: no-repeat, no-repeat , repeat-x;
   padding: 100px 0;
   text-align: center; }
 
@@ -6291,13 +6399,18 @@ a.active {
   .general-stylings-more-content.contact-us-card {
     padding-left: 30px; }
   .general-stylings-more-content.contact-us-card h2 {
-    padding-bottom: 30px; } }
+    padding-bottom: 30px; }
+  .general-stylings-more-content.contact-us-card p {
+    padding-top: 0;
+    margin-left: 0; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .general-stylings-more-content .cta-cards .card-deck {
     padding-left: 30px; }
   .general-stylings-more-content .cta-cards .card-deck .card {
-    min-width: 270px; } }
+    min-width: 270px; }
+  .general-stylings-more-content .contact-us-card p {
+    padding-top: 0; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .general-stylings-more-content .contact-us-card .contact-us-intro {
