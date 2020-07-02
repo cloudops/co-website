@@ -4,7 +4,7 @@ lastmod: "2018-03-19"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "Java-train-1.png"
 class_name: "blog post"
 ---
 

@@ -4,11 +4,9 @@ lastmod: "2019-05-14"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "CodeCollaboration.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/CodeCollaboration.png" class="main-blog-image">
 
 <p>DevOps aligns cultural change with the speed and flexibility of cloud, containers, and modernized architectures. Successfully implemented, its combination of practices and tools will increase the delivery of applications and services at high velocity. DevOps allows organizations to pivot when needed and respond to market changes as part of finding digital solutions to their industry’s problems.</p>
 

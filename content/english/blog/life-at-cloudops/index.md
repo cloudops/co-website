@@ -1,14 +1,12 @@
 ---
-title: What We Promise Our Customers
+title: Life at CloudOps
 lastmod: "2019-08-02"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "life-atcloudops.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/life-atcloudops.jpg" class="main-blog-image">
 
 At CloudOps, we are always looking for excellent candidates to join our tight-knit team of experts as we work and play with the latest and greatest technologies. Our culture is a shared repository of technical knowledge with which we navigate the increasingly complex cloud native landscape. We sat down with a few of our team members to ask them why they love coming into work every day. Here’s what they said about life at CloudOps.
 

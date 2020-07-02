@@ -4,11 +4,9 @@ lastmod: "2019-08-05"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "Kubernetes-Distribution-3-1.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/Kubernetes-Distribution-3-1.jpg" class="main-blog-image">
 
 <p>Our <a href="https://www.cloudops.com/workshops/" target="blank_" rel="noopener noreferrer">DevOps workshops</a> will set you on the path to application to modernization. Sign your technical teams up for one of our three-day, hands-on Docker and Kubernetes workshops to learn the basis of microservices and containers.</p>
 

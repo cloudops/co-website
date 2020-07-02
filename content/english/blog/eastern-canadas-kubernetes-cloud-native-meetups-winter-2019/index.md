@@ -4,11 +4,9 @@ lastmod: "2019-12-19"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "Montrealmeetupblog.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/Montrealmeetupblog.jpg" class="main-blog-image">
 
 <p>The last series of Kubernetes + Cloud Native meetups in 2019 have come to a close. Our roadshow took us to Ottawa, Toronto, Kitchener-Waterloo, Montreal, and Quebec. Each meetup began with <a href="https://www.youtube.com/watch?v=zrFPakVTWms&amp;feature=youtu.be">a recap of the KubeCon San Diego</a> as well as news about the recent releases of Kubernetes 1.16 and 1.17, Istio 1.3 and 1.4, and Helm 3. A variety of subjects were then discussed, and we were excited to see such active participation from Eastern Canada’s communities.</p>
 

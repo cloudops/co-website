@@ -4,11 +4,9 @@ lastmod: "2020-01-27"
 author: "Tristan Kosciuch"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "Blog98.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/Blog98.png" class="main-blog-image">
 
 <p>The GitHub repo for this project can be found at: <a href="https://github.com/TristansCloud/YellowstonesVegitiation">https://github.com/TristansCloud/YellowstonesVegitiation</a></p>
 

@@ -140,6 +140,9 @@
     font-size: 8pt;
 }
 
+.footer .legal-consent-container .hs-form-booleancheckbox-display > span {
+    margin-top: 5px;
+}
 
 
 
@@ -148,7 +151,6 @@
         text-align: center;
         background-size: 300px;
         background-position: 103% 103%;
-        padding-left: 15px;
     }
 
     .footer .footer-nav {
@@ -158,6 +160,9 @@
 
     .footer .newsletter-form {
         padding-bottom: 40px;
+        max-width: max-content;
+        margin-left: auto;
+        margin-right: auto;
     } 
 
     .footer h5 {
@@ -167,9 +172,12 @@
 
     .footer .newsletter-form  input[type=text],
     .footer .newsletter-form  input[type=email] {
-    width: 310px;
-}
+        width: 280px;
+    }
 
+    .footer .newsletter-form .legal-consent-container {
+        text-align: left;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -185,7 +193,14 @@
     }
 
     .footer .newsletter-form {
-        padding-bottom: 30px;
+        padding-bottom: 40px;
+        max-width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+
+    .footer .newsletter-form .legal-consent-container {
+        text-align: left;
     }
 
     .footer h5 {
@@ -207,9 +222,10 @@
     .footer .newsletter-form {
         text-align: center;
     }
+
     .footer .newsletter-form  input[type=text],
     .footer .newsletter-form  input[type=email] {
-        width: 250px;
+        width: 300px;
         margin-left: 15px;
     }
 
@@ -217,12 +233,20 @@
         padding-left: 0;
         padding-top: 40px;
     }
-    .footer .newsletter-form .input{
+    .footer .newsletter-form .input {
         margin-top: 0;   
     }  
     .footer .newsletter-form {
-        padding-bottom: 40px;    
-    }  
+        padding-bottom: 40px;
+        max-width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+
+    .footer .newsletter-form .legal-consent-container {
+        text-align: left;
+        margin-left: 15px;
+    } 
     
     .footer .footer-content p {
         padding-top: 0;    
@@ -237,10 +261,11 @@
 
     .footer .footer-content {
         padding-left: 10px;    
-    }
-    
+    }    
 }
 
 @media (min-width: 1200px) {
-
+    .footer .newsletter-form .hs-form-booleancheckbox-display {
+        margin-left: 0;
+    }
 }

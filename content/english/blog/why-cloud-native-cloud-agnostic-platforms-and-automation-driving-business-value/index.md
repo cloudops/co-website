@@ -4,11 +4,9 @@ lastmod: "2018-11-21"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "CloudNative-2.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/CloudNative-2.png" class="main-blog-image">
 
 <p><i>As the benefits of the cloud become increasingly evident, more and more organizations are migrating their workloads. Yet taking full advantage of what the cloud has to offer can require altering your application to make it cloud native.</i></p>
 

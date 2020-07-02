@@ -1460,7 +1460,7 @@ The CKA exam covers:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/cloud-building/</guid>
-      <description>Cloud Building      With more than 10 years experience building cloud infrastructures for service providers, CloudOps is the expert you need to help you build a regional, edge, or hybrid cloud. CloudOps’ is an advocate of open source and cloud native projects, and opinionated when it comes to best-of-breed software-defined technologies. Our consulting services begin with the strategic goals of the business, to ensure that any hybrid multi-cloud solution supports future growth or the organization.</description>
+      <description>Cloud Building      Cloud infrastructure for service providers With more than 10 years experience building cloud infrastructures for service providers, CloudOps is the expert you need to help you build a regional, edge, or hybrid cloud. CloudOps is an advocate of open source and cloud native projects, and opinionated when it comes to best-of-breed software-defined technologies. Our consulting services begin with the strategic goals of the business, to ensure that any hybrid multi-cloud solution supports future growth or the organization.</description>
     </item>
     
     <item>
@@ -1566,7 +1566,9 @@ How Hashicorp Terraform by Hashicorp works as a cross platform, infrastructure t
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/workshops-information/</guid>
-      <description>Request information about our workshops     Our hands-on workshops will set you on the path to becoming a DevOps expert.  Take them à la carte or as part of a wider DevOps transformation. CloudOps offers these online workshops privately to teams of six or more people.   Our workshops can also be white labeled or re-sold.          Tell us what you need Request more information about how our workshops can help your team acquire the skills they need to succeed.</description>
+      <description>Request information about our workshops     Our hands-on workshops will set you on the path to becoming a DevOps expert. Take them à la carte or as part of a wider DevOps transformation. CloudOps offers these online workshops privately to teams of six or more people.
+Our workshops can also be white labeled or re-sold.
+        Tell us what you need Request more information about how our workshops can help your team acquire the skills they need to succeed.</description>
     </item>
     
     <item>

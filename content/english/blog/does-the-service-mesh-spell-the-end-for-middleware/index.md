@@ -4,11 +4,9 @@ lastmod: "2018-09-24"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "servicemesh-1.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/servicemesh-1.jpg" class="main-blog-image">
 
 <p>Middleware is perhaps fading away in the place of the service mesh as Istio and related technologies continue to garner momentum. They both oversee communication between various applications and services, but can differ substantially in operations as well as paradigms. Prominent in service-oriented architectures, could middleware become irrelevant in today’s container-focused world?</p>
 

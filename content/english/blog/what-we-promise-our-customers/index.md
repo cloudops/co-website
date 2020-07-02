@@ -4,12 +4,10 @@ lastmod: "2019-12-02"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "Promises.png"
 class_name: "blog post"
 ---
 
-<img src="/images/blog/post/Promises.png" class="main-blog-image">
-&nbsp;
 <h4>Own your destiny in the cloud.</h4>
 
 <p>At CloudOps, we believe that the successful adoption of DevOps is required to survive, even thrive, in today’s software-differentiated economy. By evolving their tools, processes, and cultures, our customers can embark on a journey towards delivering great products faster.</p>

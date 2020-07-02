@@ -4,11 +4,9 @@ lastmod: "2018-03-20"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "vault.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/vault.jpg" class="main-blog-image">
 
 <h2>Your first step to securely store, access, and deploy sensitive application information</h2>
 

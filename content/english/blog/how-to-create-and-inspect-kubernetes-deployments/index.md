@@ -4,11 +4,9 @@ lastmod: "2020-06-06"
 author: "Carine Daoust"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "k8s-blue-containers.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/k8s-blue-containers.jpg" class="main-blog-image">
 
 <p>If you’re looking to get started with Kubernetes, this blog post will teach you the basics of deployments.</p>
 

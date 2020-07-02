@@ -4,11 +4,9 @@ lastmod: "2018-06-10"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "SRECherry.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/SRECherry.jpg" class="main-blog-image">
 
 <p><span style="font-weight: 400;">Google first introduced Site Reliability Engineering, or SRE, to the world in 2003. Today, they have over 1,500 site reliability engineers supporting their large-scale systems amidst a continuous development and release cycle of features. The practice of site reliability engineering seeks to extend the traditional DevOps model, moving operational responsibilities into the hands of software developers. SREs build the platform that will be used by developers and operated by operators, and they require an <a href="https://www.cloudops.com/workshops/" target="_blank" rel="noopener noreferrer">in-depth knowledge of the DevOps and cloud native landscapes</a>.</span></p>
 

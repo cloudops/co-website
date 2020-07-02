@@ -4,11 +4,9 @@ lastmod: "2019-02-28"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "DevOps-Culture.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/DevOps-Culture.png" class="main-blog-image">
 
 <p>DevOps accelerates the delivery of stable, high-quality software from concept to customer by creating dynamic pipelines of continuous integration and delivery (CI/CD). <em>A combination of cultural philosophies, practices, and tools, <a href="https://www.cloudops.com/2019/01/why-you-need-a-devops-transformation-to-survive/">DevOps</a> can increase an organization’s ability to deliver applications and services at high velocity. </em>It can modernize <a href="https://blogs.wsj.com/riskandcompliance/2018/12/05/businesses-predict-digital-transformation-to-be-biggest-risk-factors-in-2019/">operations and legacy technology infrastructures</a> that limit the ability of many companies to compete in today’s data-driven software economy.</p>
 

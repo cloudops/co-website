@@ -4,11 +4,9 @@ lastmod: "2019-01-07"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "DevOpsUnicornBlessing-1.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/DevOpsUnicornBlessing-1.png" class="main-blog-image">
 
 <p><strong>Software is eating the world</strong> and organizations are continuously moving towards software-based solutions to their industry’s problems. They are doing so as part of digital transformations that allow them to deliver stronger financial performances.</p>
 

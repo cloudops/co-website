@@ -4,11 +4,9 @@ lastmod: "2017-09-13"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "netapp.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/netapp.png" class="main-blog-image">
 
 <p>We are pleased to announce that CloudOps and NetApp have solidified a partnership that will provide all-flash, multi-tiered storage for our IaaS portal, <a href="https://www.cloudops.com/cloudmc/" target="_blank">CloudMC</a>. CloudMC is CloudOps’ software for productizing and delivering cloud resources for telcos and shared services providers. The goal of having such high quality storage as part of our solution is to facilitate scalability, performance, and QoS for organizations leveraging CloudMC to monetize their cloud offering. The key advantages are APIs and automation to make the integration rapid and seamless.</p>
 

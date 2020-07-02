@@ -4,11 +4,9 @@ lastmod: "2018-06-14"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "EasternCanadaMeetups.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/EasternCanadaMeetups.png" class="main-blog-image">
 
 <p>With summer right around the corner, CloudOps held a series of Kubernetes and Cloud Native meetups in Montreal, Kitchener-Waterloo, Ottawa, Toronto, and Quebec City. In the wake of KubeCon in Barcelona, updates on the Kubernetes and cloud native ecosystem were given by Ayrat Khayretdinov, our very own CNCF ambassador.</p>
 

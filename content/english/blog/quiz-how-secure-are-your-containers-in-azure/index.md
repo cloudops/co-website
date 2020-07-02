@@ -4,11 +4,9 @@ lastmod: "2019-04-25"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "Container_Social_1200x627_EN_V3.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/Container_Social_1200x627_EN_V3.jpg" class="main-blog-image">
 
 <p>
 <div class="smcx-widget smcx-embed smcx-show smcx-widget-dark"><div style="width: 100%; max-width: 700px; height: 465px;" class="smcx-iframe-container"><iframe width="100%" height="100%" frameborder="0" allowtransparency="true" src="https://www.surveymonkey.com/r/HYG2BSG?embedded=1"></iframe></div><div class="smcx-widget-footer smcx-embed-footer"><a class="smcx-branding" href="https://www.surveymonkey.com/?ut_source=powered_by&amp;ut_source2=new_website_collector" target="_blank"><span class="smcx-powered-by">powered by</span></a></div></div></p>

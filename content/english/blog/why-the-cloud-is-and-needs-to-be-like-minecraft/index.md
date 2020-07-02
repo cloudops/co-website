@@ -1,16 +1,12 @@
 ---
 title: "Why the cloud is (and needs to be) like Minecraft"
 lastmod: "2013-03-09"
-author: "CloudOps"
+author: "Pierre-Luc Bisaillon"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "minecraft.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/minecraft.jpg" class="main-blog-image">
-
-<div><em>by Pierre-Luc Bisaillon</em></div>
 
 <div>If&nbsp;you have a young kid (or are a kid at heart), Minecraft doesn’t need any introduction. At last count 10M people had bought the game and at least 5 times as many are playing the demo or some mobile version. For the uninitiated, this seems odd. The graphics are awful, and it’s not even a real “game” – in other words, there’s no mission or objective to achieve and “win”.</div>
 

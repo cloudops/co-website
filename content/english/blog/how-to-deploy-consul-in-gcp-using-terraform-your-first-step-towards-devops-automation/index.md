@@ -4,11 +4,9 @@ lastmod: "2018-02-14"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "Meme1final.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/Meme1final.png" class="main-blog-image">
 
 <p>Infrastructure as Code (IaC) has gotten a lot of attention recently. It uses code to manage the configuration and automation of your application’s infrastructure in order to free up resources and reduce risk, technical debt, and mistakes. IaC is becoming more and more important for successful DevOps practices. As a cross-platform infrastructure tool, HashiCorp’s Terraform enables you to automate your infrastructure using the same tooling over multiple platforms. Ansible can be used to build and manage remote application configurations and VM installations on top of your Terraform infrastructure deployment.</p>
 

@@ -4,11 +4,9 @@ lastmod: "2020-03-27"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "RemoteWork.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/RemoteWork.png" class="main-blog-image">
 
 <p>From the first day I started working as the office manager at CloudOps it felt like I was working from home all the time because that’s what CloudOps became to me; my second home. I immediately became friends with everybody at work. I felt welcomed with open arms and supported. People would ask me how my first week was going. Eventually, as time passed, people began to ask me how they could support me or if they could help me with something, especially when they saw me struggling to reach the top shelves in the kitchen (I’m four feet and eleven inches tall). For over a year now, I’ve considered CloudOps my second home and its people, my family, or as I call them “my office children”. They always made me feel needed and truly appreciated. Everything was going great, my job fit me like a glove, and I was happy to always feel needed.&nbsp;</p>
 

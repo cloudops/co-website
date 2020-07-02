@@ -1700,11 +1700,6 @@ a.active {
 .customers-card .row .customers-row {
   padding: 40px 0; }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .customers-card h2 {
-    margin-right: -15px;
-    margin-left: 15px; } }
-
 /************  Design-build-transform Styles  ***************/
 .design-build-transform-card .row {
   margin-left: 0; }
@@ -2281,23 +2276,30 @@ a.active {
   color: #fff;
   font-size: 8pt; }
 
+.footer .legal-consent-container .hs-form-booleancheckbox-display > span {
+  margin-top: 5px; }
+
 @media (max-width: 575.98px) {
   .footer {
     text-align: center;
     background-size: 300px;
-    background-position: 103% 103%;
-    padding-left: 15px; }
+    background-position: 103% 103%; }
   .footer .footer-nav {
     padding-left: 0;
     padding-top: 40px; }
   .footer .newsletter-form {
-    padding-bottom: 40px; }
+    padding-bottom: 40px;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto; }
   .footer h5 {
     position: relative;
     left: 0; }
   .footer .newsletter-form input[type=text],
   .footer .newsletter-form input[type=email] {
-    width: 310px; } }
+    width: 280px; }
+  .footer .newsletter-form .legal-consent-container {
+    text-align: left; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .footer {
@@ -2308,7 +2310,12 @@ a.active {
     padding-left: 0;
     padding-top: 40px; }
   .footer .newsletter-form {
-    padding-bottom: 30px; }
+    padding-bottom: 40px;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto; }
+  .footer .newsletter-form .legal-consent-container {
+    text-align: left; }
   .footer h5 {
     position: relative;
     left: 0; } }
@@ -2325,7 +2332,7 @@ a.active {
     text-align: center; }
   .footer .newsletter-form input[type=text],
   .footer .newsletter-form input[type=email] {
-    width: 250px;
+    width: 300px;
     margin-left: 15px; }
   .footer .footer-nav {
     padding-left: 0;
@@ -2333,7 +2340,13 @@ a.active {
   .footer .newsletter-form .input {
     margin-top: 0; }
   .footer .newsletter-form {
-    padding-bottom: 40px; }
+    padding-bottom: 40px;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto; }
+  .footer .newsletter-form .legal-consent-container {
+    text-align: left;
+    margin-left: 15px; }
   .footer .footer-content p {
     padding-top: 0; } }
 
@@ -2343,6 +2356,10 @@ a.active {
     width: 300px; }
   .footer .footer-content {
     padding-left: 10px; } }
+
+@media (min-width: 1200px) {
+  .footer .newsletter-form .hs-form-booleancheckbox-display {
+    margin-left: 0; } }
 
 /************  Workshop page  ***************/
 .workshops .jumbotron.hero {
@@ -2994,21 +3011,14 @@ a.active {
 .experts .case-studies-card .devops-case-study i {
   font-size: 30px; }
 
-.experts .back-foward.nav-buttons button {
-  background-color: transparent;
-  border: none;
-  color: #005D91;
-  box-shadow: none;
+.experts .back-foward.nav-buttons {
   width: auto;
   padding-top: 70px; }
 
-.experts .back-foward.nav-buttons .back-button-container {
+.experts .back-foward.nav-buttons.back-button-container {
   text-align: center; }
 
-.experts .back-foward.nav-buttons button:hover {
-  text-decoration: underline; }
-
-.experts .back-foward.nav-buttons button .triangle-left {
+.experts .back-foward.nav-buttons .triangle-left {
   display: inline-block;
   position: relative;
   margin-right: 20px;
@@ -3020,7 +3030,7 @@ a.active {
   vertical-align: middle;
   margin-bottom: 3px; }
 
-.experts .back-foward.nav-buttons button .inner-left-triangle {
+.experts .back-foward.nav-buttons .inner-left-triangle {
   display: inline-block;
   position: absolute;
   top: -6px;
@@ -3033,13 +3043,16 @@ a.active {
   transition-duration: 0.6s;
   margin-bottom: 3px; }
 
-.experts .back-foward.nav-buttons button:hover .triangle-left {
+.experts .back-foward.nav-buttons:hover .triangle-left {
   border-color: transparent #005D91 transparent transparent;
   transition-duration: 0.2s; }
 
-.experts .back-foward.nav-buttons button.btn:hover .inner-left-triangle {
+.experts .back-foward.nav-buttons:hover .inner-left-triangle {
   border-color: transparent #005D91 transparent transparent;
   transition-duration: 0.2s; }
+
+.experts .back-foward.in-content.nav-buttons {
+  color: #005D91; }
 
 .experts .cta-cards .card-deck .card {
   background-color: #FFF;
@@ -3114,7 +3127,9 @@ a.active {
   .experts .contact-us-card h2 {
     padding-bottom: 30px; }
   .experts .contact-us-card img {
-    margin: 30px auto; } }
+    margin: 30px auto; }
+  .experts .back-foward.nav-buttons button {
+    color: #005D91; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .experts .jumbotron.hero img {
@@ -5797,7 +5812,11 @@ a.active {
     height: 175px;
     width: auto; }
   .managed-services .case-studies-card img.image-for-desktop {
-    height: 280px; } }
+    height: 280px; }
+  .managed-services .stand-out .partners-chart {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .managed-services .jumbotron.hero img {
@@ -5805,7 +5824,11 @@ a.active {
     top: -225px;
     width: 360px; }
   .managed-services .case-studies-card img.image-for-desktop {
-    height: 320px; } }
+    height: 320px; }
+  .managed-services .stand-out .partners-chart {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto; } }
 
 @media (min-width: 1200px) {
   .managed-services .hero-image-container {
@@ -5814,7 +5837,11 @@ a.active {
     left: 30px;
     top: -200px; }
   .managed-services .case-studies-card img.image-for-desktop {
-    height: 350px; } }
+    height: 350px; }
+  .managed-services .stand-out .partners-chart {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto; } }
 
 .transformations .jumbotron.hero {
   background-image: linear-gradient(to bottom right, #62B5E5, #005D91);

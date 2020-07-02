@@ -4,11 +4,9 @@ lastmod: "2019-07-03"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "RethinkingCloudSecurity.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/RethinkingCloudSecurity.png" class="main-blog-image">
 
 <p>DevOps is the combination of cultural philosophies, practices, and tools that increase an organization’s ability to deliver applications and services at high velocity. By removing traditional separations between development and operations, it creates dynamic pipelines of continuous integration and delivery (CI/CD) that release software in faster cycles and smaller batches. DevOps helps modernize legacy technology systems, allowing organizations to better compete in today’s data-driven software economy.</p>
 

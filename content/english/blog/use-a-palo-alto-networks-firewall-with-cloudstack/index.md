@@ -4,11 +4,9 @@ lastmod: "2019-12-02"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "Promises.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/Promises.png" class="main-blog-image">
 
 <p>Today we added a setup guide to the official Apache CloudStack documentation for the new features we developed to integrate the Palo Alto Networks firewall into CloudStack as a service provider.</p>
 

@@ -4,11 +4,9 @@ lastmod: "2013-01-28"
 author: "François Gaudreault"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "WAF.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/WAF.jpg" class="main-blog-image">
 
 <p>Web Application Firewalls (WAFs) are growing in the market, providing many benefits including the prevention zero-day exploits.</p>
 

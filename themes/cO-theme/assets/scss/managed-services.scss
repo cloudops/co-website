@@ -464,6 +464,13 @@
         height: 280px;
     }
 
+
+    .managed-services .stand-out .partners-chart {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -476,6 +483,12 @@
 
     .managed-services .case-studies-card img.image-for-desktop {
         height: 320px;
+    }
+
+    .managed-services .stand-out .partners-chart {
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -492,5 +505,11 @@
 
     .managed-services .case-studies-card img.image-for-desktop {
         height: 350px;
+    }
+
+    .managed-services .stand-out .partners-chart {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

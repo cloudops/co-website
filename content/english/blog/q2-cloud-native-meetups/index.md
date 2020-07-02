@@ -4,11 +4,9 @@ lastmod: "2018-05-19"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "Kitchenerfinal.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/Kitchenerfinal.png" class="main-blog-image">
 
 <p>In the wake of the recent KubeCon, we held an exciting series of Q2 cloud native meetups in Montreal, Kitchener-Waterloo, Ottawa, Toronto, and Quebec City. Featuring a range of topics, we enjoyed discussing all things cloud native with the community.</p>
 

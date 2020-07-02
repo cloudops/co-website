@@ -4,11 +4,9 @@ lastmod: "2019-12-18"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "TopBlogPostsfrom2019.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/TopBlogPostsfrom2019.png" class="main-blog-image">
 
 <p>As 2019 comes to a close, here are our top 8 blog posts from the year. We hope they’ll give you a glimpse into the state of the information technology industry and its future.&nbsp;</p>
 

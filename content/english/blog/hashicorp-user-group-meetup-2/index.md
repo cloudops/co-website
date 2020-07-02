@@ -4,11 +4,9 @@ lastmod: "2019-01-17"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "HUG-1-1.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/HUG-1-1.jpg" class="main-blog-image">
 
 <p> CloudOps was pleased to collaborate with <a href="https://www.meetup.com/Montreal-HashiCorp-User-Group/" target="_blank">Hashicorp User Group</a>, fondly known as HUG, for its second DevOps Montreal meetup last night. Hosted at espace cloud.ca, the event began with beer, pizza, and mingling, before moving onto more substantive talks.</p>
 

@@ -4,11 +4,9 @@ lastmod: "2018-12-02"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "EasternCanadaMeetupsWinterEdition.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/EasternCanadaMeetupsWinterEdition.png" class="main-blog-image">
 
 <p>This year’s first set of Kubernetes and Cloud Native Meetups in Eastern Canada just took place from February 25<sup>th</sup> to March 6<sup>th</sup>, happening in Quebec City, Ottawa, Montreal, Kitchener-Waterloo, and Toronto. A wide array of topics were discussed, and CloudOps was excited to see such active participation from Eastern Canada’s cloud native communities.</p>
 

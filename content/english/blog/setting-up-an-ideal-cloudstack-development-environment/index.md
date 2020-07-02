@@ -4,11 +4,9 @@ lastmod: "2013-02-05"
 author: "Marc-André Jutras"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "code.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/code.jpg" class="main-blog-image">
 
 <p>In this, my first article, I answer a question that I often get asked: How do I set up and prepare my development environment for CloudStack? True, there are many articles and wiki pages available on this subject, but here is my method.</p>
 

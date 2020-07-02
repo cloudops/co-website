@@ -38,27 +38,18 @@
 }
 
 .experts
-.back-foward.nav-buttons button {
-    background-color: transparent;
-    border:none;
-    color: #005D91;
-    box-shadow: none;
+.back-foward.nav-buttons {
     width: auto;
     padding-top: 70px;
 }
 
 .experts
-.back-foward.nav-buttons .back-button-container {
+.back-foward.nav-buttons.back-button-container {
     text-align: center;
 }
 
 .experts
-.back-foward.nav-buttons button:hover {
-    text-decoration: underline;
-}
-
-.experts
-.back-foward.nav-buttons button .triangle-left {
+.back-foward.nav-buttons .triangle-left {
     display: inline-block;
     position: relative;
     margin-right: 20px;
@@ -72,7 +63,7 @@
 }
 
 .experts
-.back-foward.nav-buttons button .inner-left-triangle {
+.back-foward.nav-buttons .inner-left-triangle {
     display: inline-block;
     position: absolute;
     top: -6px;
@@ -87,15 +78,20 @@
 }
 
 .experts
-.back-foward.nav-buttons button:hover .triangle-left {
+.back-foward.nav-buttons:hover .triangle-left {
     border-color: transparent #005D91 transparent transparent;
     transition-duration: 0.2s;
 }
 
 .experts
-.back-foward.nav-buttons button.btn:hover .inner-left-triangle {
+.back-foward.nav-buttons:hover .inner-left-triangle {
     border-color: transparent #005D91 transparent transparent;
     transition-duration: 0.2s;
+}
+
+.experts
+.back-foward.in-content.nav-buttons {
+    color: #005D91;
 }
 
 .experts .cta-cards .card-deck .card {
@@ -217,6 +213,11 @@
 
      .experts .contact-us-card img {
         margin: 30px auto;
+    }
+
+    .experts
+    .back-foward.nav-buttons button {
+        color: #005D91;
     }
 
 }

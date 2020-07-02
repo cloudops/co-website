@@ -4,11 +4,9 @@ lastmod: "2018-10-17"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "carolwall.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/carolwall.png" class="main-blog-image">
 
 <p><span style="font-weight: 400;">CloudOps was pleased to sponsor <a href="https://www.devopsdays.org/" target="_blank" rel="noopener noreferrer">DevOpsDays</a> Montreal, which took place on October 10th and 11th. Featuring a wide range of speakers and activities, the event brought together DevOps practitioners throughout Montreal.</span></p>
 

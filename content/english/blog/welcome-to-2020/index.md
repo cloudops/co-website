@@ -4,11 +4,9 @@ lastmod: "2020-02-12"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "MagicDove.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/MagicDove.jpg" class="main-blog-image">
 
 <blockquote class="wp-block-quote">
     <p><strong>“Any sufficiently advanced technology is indistinguishable from magic.”</strong></p>

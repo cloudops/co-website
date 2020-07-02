@@ -4,11 +4,9 @@ lastmod: "2018-10-09"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "LizRice.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/LizRice.png" class="main-blog-image">
 
 <p>Last night’s pop-up meetup featured <a href="https://twitter.com/lizrice" target="_blank" rel="noopener noreferrer">Liz Rice</a>, a renowned expert in container security and technical evangelist at <a href="https://www.aquasec.com/" target="_blank" rel="noopener noreferrer">Aqua Security</a>. As an active participant of the CNCF and as co-chair of KubeCon and CloudNativeCon, Liz was able to share her extensive experience with cloud native technologies. The event took place on October 4th at Complexe Desjardins. <a href="https://speakerdeck.com/lizrice/securing-your-code-when-you-dont-even-know-where-its-running" target="_blank" rel="noopener noreferrer">View&nbsp;Liz’s slide deck here.</a></p>
 

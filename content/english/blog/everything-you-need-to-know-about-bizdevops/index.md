@@ -4,11 +4,9 @@ lastmod: "2019-10-08"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "BizDevOps.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/BizDevOps.png" class="main-blog-image">
 
 <p>It’s proven that DevOps increases the ability of an organization to deliver services at high velocity.&nbsp;</p>
 
