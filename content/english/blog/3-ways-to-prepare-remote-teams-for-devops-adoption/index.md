@@ -2,6 +2,7 @@
 title: "3 Ways to Prepare Remote Teams for DevOps Adoption"
 lastmod: "2020-05-21"
 author: "CloudOps"
+keywords: [devops, cloudops]
 resources:
 - name: "thumbnail"
   src: "WorkingRemoteBlog.png"

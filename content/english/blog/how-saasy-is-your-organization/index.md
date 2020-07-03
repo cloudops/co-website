@@ -1,6 +1,6 @@
 ---
 title: "How SaaSy Is Your Organization?"
-lastmod: "2014-07-14"
+lastmod: "2014-07-23"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

@@ -1,6 +1,6 @@
 ---
 title: "Hashicorp User Group Meetup #2"
-lastmod: "2019-01-17"
+lastmod: "2018-01-17"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

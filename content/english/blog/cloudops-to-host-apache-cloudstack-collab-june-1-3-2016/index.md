@@ -1,7 +1,7 @@
 ---
 title: "CloudOps to host Apache CloudStack Collab June 1-3 2016"
 lastmod: "2016-04-15"
-author: "CloudOps"
+author: "Gillian Sonin"
 resources:
 - name: "thumbnail"
   src: "image-22.png"

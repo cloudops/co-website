@@ -1,6 +1,6 @@
 ---
 title: "CloudOps is Now a Kubernetes Training Partner"
-lastmod: "2019-12-02"
+lastmod: "2018-05-17"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

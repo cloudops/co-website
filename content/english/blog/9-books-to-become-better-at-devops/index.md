@@ -2,6 +2,7 @@
 title: 9 Books to Become Better at DevOps
 lastmod: "2019-09-19"
 author: "CloudOps"
+keywords: [devops, cloudops]
 resources:
 - name: "thumbnail"
   src: "bookblogpost.jpg"

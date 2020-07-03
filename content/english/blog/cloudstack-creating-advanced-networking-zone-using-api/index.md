@@ -1,7 +1,7 @@
 ---
 title: "CloudStack: Creating advanced networking zone using API"
 lastmod: "2014-03-28"
-author: "CloudOps"
+author: "Pierre-Luc Dion"
 resources:
 - name: "thumbnail"
   src: "CS-logo-sm.png"

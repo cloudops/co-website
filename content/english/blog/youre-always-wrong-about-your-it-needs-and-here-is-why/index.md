@@ -1,7 +1,7 @@
 ---
 title: "You’re Always Wrong About Your IT Needs and Here Is Why"
-lastmod: "2019-12-02"
-author: "CloudOps"
+lastmod: "2015-05-06"
+author: "Ian Rae"
 resources:
 - name: "thumbnail"
   src: "cloud-helps-you-be-wrong.jpg"

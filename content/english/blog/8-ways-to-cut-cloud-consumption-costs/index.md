@@ -2,6 +2,7 @@
 title: "8 Ways to Cut Cloud Consumption Costs"
 lastmod: "2020-04-23"
 author: "CloudOps"
+keywords: [devops, cloudops]
 resources:
 - name: "thumbnail"
   src: "Cut-Costs-in-the-Cloud.png"

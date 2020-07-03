@@ -1,6 +1,6 @@
 ---
 title: "Why private cloud matters"
-lastmod: "2019-12-02"
+lastmod: "2013-02-22"
 author: "Pierre-Luc Bisaillon"
 resources:
 - name: "thumbnail"

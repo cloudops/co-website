@@ -1,7 +1,7 @@
 ---
 title: A Cloud Operations Manifesto
 lastmod: "2015-12-03"
-author: "CloudOps"
+author: "Ian Rae"
 resources:
 - name: "thumbnail"
   src: "manifesto.png"

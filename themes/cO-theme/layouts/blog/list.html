@@ -15,18 +15,17 @@
           <div class="card-deck">
             <!-- Ranges through content/posts/*.md -->
             {{ range .Pages }}
-            <div class="card">
+            <div class="card mx-auto">
               <a href="{{.Permalink}}">
                 <div class="card-body">
                   {{ with .Resources.Match "thumbnail" }}
                     {{ range . }}
-                      {{ $img := .Fill "176x176" }}
+                      {{ $img := .Fill "206x206 Smart" }}
                       <img src="{{  $img.RelPermalink }}" />
                     {{ end }}
                   {{ end }}
                   <h3 class="card-title">{{.Title}}</h3>
-                  <p class="card-text">{{.Lastmod.Format "January 2, 2006"}}</p>
-                  <p>{{ .Param "author" }}</p>
+                  <p class="card-text">{{.Lastmod.Format "January 2, 2006"}} <br> {{ .Param "author" }}</p>
                 </div>
                 <div class="corner-triangle"></div>
               </a>

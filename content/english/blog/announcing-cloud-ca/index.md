@@ -1,7 +1,7 @@
 ---
 title: "Announcing cloud.ca – enterprise cloud in Canada"
 lastmod: "2014-05-03"
-author: "CloudOps"
+author: "Marc Paré"
 resources:
 - name: "thumbnail"
   src: ""

@@ -8,7 +8,7 @@
    
    
    
-   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.a1673214199e07110b0c912d35b0a401f9438e10ef4f36e2a540a4ed7cf96fa7.css" integrity="sha256-oWcyFBmeBxELDJEtNbCkAflDjhDvTzbipUCk7Xz5b6c=" crossorigin="anonymous" media="screen" />
+   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.8033a9c0f110fc5ef79695838fbed695fdc413859862c5ece641bcd5c92ec482.css" integrity="sha256-gDOpwPEQ/F73lpWDj77Wlf3EE4WYYsXs5kG81ckuxII=" crossorigin="anonymous" media="screen" />
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
@@ -204,7 +204,7 @@
                 
                 
                 
-                <img src="/blog/creating-infrastructure-as-code-with-gcp-deployment-manager-your-third-step-towards-devops-automation/memeFINAL2_huff92647341d847c81721cab2d3c190ad_50417_1000x0_resize_box_2.png" />
+                <img src="/blog/creating-infrastructure-as-code-with-gcp-deployment-manager-your-third-step-towards-devops-automation/memeFINAL2_huff92647341d847c81721cab2d3c190ad_50417_400x0_resize_box_2.png" />
                 
                 
                 <div class="post-content"><p><span style="font-weight: 400;">Geeking out at </span><a href="https://cloud.withgoogle.com/next18/sf/" target="_blank"><span style="font-weight: 400;">Google Next 18</span></a><span style="font-weight: 400;"> this week in California, I grabbed a Chromebook from the Grab-and-Go team (awesome initiative) and decided to finish this Infrastructure as Code trilogy.</span></p><p><span style="font-weight: 400;">In the previous two posts we focused on Infrastructure as Code, viewing Terraform as our multi-cloud capable swiss army knife.&nbsp;But what if you just want to leverage a specific cloud infrastructure deployment service?</span></p><p><span style="font-weight: 400;">Google Cloud Platform (GCP) has such a tool and it’s called Deployment Manager.&nbsp;Deployment Manager bases its execution on config files (YAML) and templates (JINJA2 or PYTHON) and allows you to define your resources. Deployment Manager is a GCP-only tool and as such allows you to access both Beta and Alpha features.</span></p><p><span style="font-weight: 400;">In this blog post I will show you a small Deployment Manager template, just like I did in the first blog post, but I will also review the deployment manager version of my bigger Terraform template from blog post #2. All of this will be running in the NorthAmerica-NorthEast-1 region.</span></p><h3>Prerequisite:</h3><p><span style="font-weight: 400;">NOTHING!!!!&nbsp;Just use the GCP Cloud Shell to run all of these </span><span style="font-weight: 400;">blog post examples in Google Cloud.</span></p><p><img src="/images/blog/post/GCP3.1.png" alt="GCP" width="100%"></p><h3>Simple but working</h3><p>Create a single instance in NorthAmerica-NorthEast1-a based on the latest Ubuntu-1804-LTS image, an external IP.</p><pre>resources:
@@ -240,19 +240,23 @@ gcloud deployment-manager deployments create healthcheck --config hc.yaml
     <div class="row nav-buttons back-foward in-content">
         <div
             class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-xs-2 back-button">
+            
             <a href="/blog/rancher-2-0-exciting-features/"><button class="btn">
                     <div class="triangle-left">
                         <div class="inner-left-triangle"></div>
                     </div>Previous Post
                 </button></a>
+            
         </div>
         <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-xs-2 foward-button">
+                
             <a href="/blog/how-to-choose-a-cloud-provider-6-factors-to-think-about-when-migrating-to-the-cloud/">
                 <button class="btn">
                     Next Post<div class="triangle-right">
                         <div class="inner-triangle"></div>
                     </div>
                 </button></a>
+                
         </div>
     </div>
 
@@ -291,6 +295,54 @@ text-align: center;
         <i class="far fa-copy copy-page-link"></i>
     </div>
 
+    
+
+    <div class="contact-us-card general-stylings-more-content">
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-cards">
+                    <div class="card-deck">
+                        <div class="card">
+                            <a
+                                href="https://cdn2.hubspot.net/hubfs/732832/CloudOps%20White%20Paper%20-%20A%20PreFlight%20Checklist%20for%20Cloud%20Migration.pdf">
+                                <div class="card-body">
+                                    <h3 class="card-title">A checklist for your cloud migration</h3>
+                                    <p class="card-text">Download the white paper to get a step by step guide to a successful migration strategy.</p>
+                                </div>
+                                <div class="corner-triangle"></div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a
+                                href="/blog/the-cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration">
+                                <div class="card-body">
+                                    <h3 class="card-title"> Accelerated value delivery</h3>
+                                    <p class="card-text">Read more on how to maximize value through our unique delivery model.</p>
+                                    <div class="corner-triangle"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="https://cdn2.hubspot.net/hubfs/732832/Cloud-Ops_Cloud-Migration_v3.pdf">
+                            <div class="card-body">
+                                <h3 class="card-title">Cloud migration one-pager</h3>
+                                <p class="card-text">
+                                    Everything you need to know about how our services can help get your cloud journey started.
+                                    <div class="corner-triangle"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="/contact-us">
+                            <div class="card-body">
+                                <h3 class="card-title">Networking is the hardest part</h3>
+                                <p class="card-text">Contact us to learn more about our hardware and software-defined networking solutions.</p>
+                                <div class="corner-triangle"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 </main>

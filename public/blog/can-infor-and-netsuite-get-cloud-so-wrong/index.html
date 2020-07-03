@@ -8,7 +8,7 @@
    
    
    
-   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.a1673214199e07110b0c912d35b0a401f9438e10ef4f36e2a540a4ed7cf96fa7.css" integrity="sha256-oWcyFBmeBxELDJEtNbCkAflDjhDvTzbipUCk7Xz5b6c=" crossorigin="anonymous" media="screen" />
+   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.8033a9c0f110fc5ef79695838fbed695fdc413859862c5ece641bcd5c92ec482.css" integrity="sha256-gDOpwPEQ/F73lpWDj77Wlf3EE4WYYsXs5kG81ckuxII=" crossorigin="anonymous" media="screen" />
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
@@ -199,12 +199,12 @@
             <article>
                 <header>
                     <h1>Can Infor and NetSuite Get “Cloud” So Wrong?</h1>
-                    <div> November 17, 2014 / CloudOps </div>
+                    <div> November 17, 2014 / Marc Paré </div>
                 </header>
                 
                 
                 
-                <img src="/blog/can-infor-and-netsuite-get-cloud-so-wrong/6415460111_dff858ea87_z_hu9baa49625ba51247856490b3628be44f_83535_1000x0_resize_q75_box.jpg" />
+                <img src="/blog/can-infor-and-netsuite-get-cloud-so-wrong/6415460111_dff858ea87_z_hu9baa49625ba51247856490b3628be44f_83535_400x0_resize_q75_box.jpg" />
                 
                 
                 <p>This article might be a good example of why software as a service (SaaS) should not be called “cloud.” Equating a subscription software delivery model to cloud masks its&nbsp;true value.</p><p><a href="http://diginomica.com/2014/11/12/infor-hits-back-criticism-decision-use-aws-cloudsuite/" target="_blank">http://diginomica.com/2014/11/12/infor-hits-back-criticism-decision-use-aws-cloudsuite/</a></p><p>Let’s start with the old analogy of comparing cloud computing to an electrical utility. NetSuite is adamant that building and maintaining its own power plants is important, when what customers really value is their software.</p><p>Also, the author of the article appears to be saying that Infor requires that its clients use Amazon Web Services (AWS).</p><p>If this is so, it’s amazing that these two “cloud” companies have got it so wrong.</p><p>The author raises questions about how “SaaSy” Infor’s applications really are for multi-tenant, security, and automation. The real questions related to running on AWS are: did they “re-design for failure,” and will their customers care about data sovereignty?</p><h3>Cloud-Native (Design for Failure)</h3><p>NetSuite’s CEO has been quoted as saying: ” From a service standpoint, if AWS goes down, what’s the first set of servers they’re going to bring up? I don’t think they’re Infor’s. It might be Netflix.” That shows how poorly he understands cloud and AWS: he confuses hosting with cloud. AWS does not get their customers servers back up, the customers do. The ones that are using AWS right let their software handle the failures gracefully. Applications that handle failures gracefully have been built with “design for failure” in mind and are considered “cloud-native.” Very few business-critical applications can be ported from traditional design, where they trust hardware not to fail, versus AWS’s cloud model, where it is the norm to have failures, and they have frequent brownouts that don’t count towards the 99.95% SLA. AWS’s scheduled or unscheduled maintenance and outages that last less than five minutes are not considered downtime. To be deemed as suffering an outage, Amazon EC2 customers need all of their running instances to be unreachable in more than one availability zone within the same region, with no ability to launch replacement instances. The 99.95% SLA means expecting 4.38 hours of unscheduled infrastructure downtime to affect an entire availability zone, lasting more than five minutes. Performance degradation, brownouts, and system reboots do not count as downtime! And if the software is designed to handle that type of unreliable system, it’s no harm, no foul.</p><h3>Data Sovereignty and Clouds</h3><p>Regulations and laws on data sovereignty should be carefully considered before selecting a cloud service provider. In the case of Infor’s customer base, it probably makes more sense to partner with regional providers that are owned and operated by residents of the country. Laws that mandate a company to keep a customer’s data in that customer’s home country are being promoted in countries around the world, especially since Edward Snowden’s revelations. A key consideration driving data sovereignty and the growth of regional clouds worldwide is the prevention of data from being subpoenaed by a foreign power. In September 2014, the US government ordered Microsoft to hand over data stored in its cloud in Dublin. While this violates Irish law, Microsoft’s not complying would mean breaking US law. Legitimate concerns such as this that are unresolved in the courts are driving the uncertainty around using foreign-owned public clouds.</p><p>After looking at Infor’s website, I think the author may have the wrong impression about Infor’s CloudSuite. It looks to me like Infor can run anywhere based on its customers’ technical and business requirements.</p><p>I doubt that Infor will lock itself into only delivering on AWS.</p><p>We built <a href="https://www.cloud.ca" target="_blank">cloud.ca</a> to handle both cloud-native and traditional workloads. It is a Canadian owned and operated virtual private cloud. Check it out today!</p>
@@ -217,19 +217,23 @@
     <div class="row nav-buttons back-foward in-content">
         <div
             class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-xs-2 back-button">
+            
             <a href="/blog/moving-to-your-new-saasy-reality/"><button class="btn">
                     <div class="triangle-left">
                         <div class="inner-left-triangle"></div>
                     </div>Previous Post
                 </button></a>
+            
         </div>
         <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-xs-2 foward-button">
-            <a href="/blog/hosting-vs-clouds-humans-vs-machines/">
+                
+            <a href="/blog/use-a-palo-alto-networks-firewall-with-cloudstack/">
                 <button class="btn">
                     Next Post<div class="triangle-right">
                         <div class="inner-triangle"></div>
                     </div>
                 </button></a>
+                
         </div>
     </div>
 
@@ -268,6 +272,54 @@ text-align: center;
         <i class="far fa-copy copy-page-link"></i>
     </div>
 
+    
+
+    <div class="contact-us-card general-stylings-more-content">
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-cards">
+                    <div class="card-deck">
+                        <div class="card">
+                            <a
+                                href="https://cdn2.hubspot.net/hubfs/732832/CloudOps%20White%20Paper%20-%20A%20PreFlight%20Checklist%20for%20Cloud%20Migration.pdf">
+                                <div class="card-body">
+                                    <h3 class="card-title">A checklist for your cloud migration</h3>
+                                    <p class="card-text">Download the white paper to get a step by step guide to a successful migration strategy.</p>
+                                </div>
+                                <div class="corner-triangle"></div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a
+                                href="/blog/the-cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration">
+                                <div class="card-body">
+                                    <h3 class="card-title"> Accelerated value delivery</h3>
+                                    <p class="card-text">Read more on how to maximize value through our unique delivery model.</p>
+                                    <div class="corner-triangle"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="https://cdn2.hubspot.net/hubfs/732832/Cloud-Ops_Cloud-Migration_v3.pdf">
+                            <div class="card-body">
+                                <h3 class="card-title">Cloud migration one-pager</h3>
+                                <p class="card-text">
+                                    Everything you need to know about how our services can help get your cloud journey started.
+                                    <div class="corner-triangle"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="/contact-us">
+                            <div class="card-body">
+                                <h3 class="card-title">Networking is the hardest part</h3>
+                                <p class="card-text">Contact us to learn more about our hardware and software-defined networking solutions.</p>
+                                <div class="corner-triangle"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 </main>

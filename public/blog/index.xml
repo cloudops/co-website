@@ -6,21 +6,10 @@
     <description>Recent content in Blog on CloudOps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>How to Create and Inspect Kubernetes Deployments</title>
-      <link>/blog/how-to-create-and-inspect-kubernetes-deployments/</link>
-      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/how-to-create-and-inspect-kubernetes-deployments/</guid>
-      <description>If you’re looking to get started with Kubernetes, this blog post will teach you the basics of deployments.
-What is a Kubernetes deployment? A deployment is one of the many Kubernetes objects. In technical terms, it currently encapsulates the following (which we will be covering below):
- Pod specification Replica count Deployment strategy  In practical terms, you can think of a deployment as an instance of an application with it’s associated configuration.</description>
-    </item>
     
     <item>
       <title>3 Ways to Prepare Remote Teams for DevOps Adoption</title>
@@ -57,6 +46,17 @@ The purpose of the PACME program is to support businesses that have experienced 
       
       <guid>/blog/8-ways-to-cut-cloud-consumption-costs/</guid>
       <description>People leverage the cloud for many reasons. More often than not, the need to cut costs ranks high among them. And while the cloud does offer significant benefits that include cost-efficiency, some organizations have found out the hard way that this isn’t necessarily true as they scale. Cloud native infrastructures are complex entities that must be managed properly to scale cost-effectively. In this blog, we identify eight ways that can help your organization optimize its cloud usage.</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes Deployments 101</title>
+      <link>/blog/kubernetes-deployments-101/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/kubernetes-deployments-101/</guid>
+      <description>If you’re looking to get started with Kubernetes, this blog post will teach you the basics of deployments.
+What is a Kubernetes deployment? A deployment is one of the many Kubernetes objects. In technical terms, it currently encapsulates the following (which we will be covering below):
+ Pod specification Replica count Deployment strategy  In practical terms, you can think of a deployment as an instance of an application with it’s associated configuration.</description>
     </item>
     
     <item>
@@ -139,6 +139,15 @@ It’s the lazy persons data collection. The ‘scan the entire world every day�
     </item>
     
     <item>
+      <title>Top 10 Mistakes To Avoid When Adopting DevOps</title>
+      <link>/blog/top-10-mistakes-to-avoid-when-adopting-devops/</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/top-10-mistakes-to-avoid-when-adopting-devops/</guid>
+      <description>A CIO decides it’s time for their organization to adopt DevOps. They hire a team of digital unicorns, adopt an array of cutting-edge tools, and are disappointed when they don’t see results. All the ideas, projects, products, and teams being introduced are held back by increasingly outdated cultural norms, processes, infrastructure, and skills. Nothing is aligned with the new operational models and technologies being introduced, and the digital unicorns are locked behind a dam along with their potential.</description>
+    </item>
+    
+    <item>
       <title>Eastern Canada’s Kubernetes &#43; Cloud Native Meetups – Winter 2019</title>
       <link>/blog/eastern-canadas-kubernetes-cloud-native-meetups-winter-2019/</link>
       <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
@@ -158,96 +167,13 @@ Comparing Service Meshes: Istio, Linkerd, and Consul Connect Service meshes have
     </item>
     
     <item>
-      <title>CloudOps is Now a Kubernetes Training Partner</title>
-      <link>/blog/cloudops-is-now-a-kubernetes-training-partner/</link>
-      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/cloudops-is-now-a-kubernetes-training-partner/</guid>
-      <description>CloudOps is happy to announce membership of the newly-founded Kubernetes Training Partner (KTP) program. Run by the Cloud Native Computing Foundation (CNCF), the KTP program focuses on furthering the educational efforts of Kubernetes Certified Service Providers (KCSP). CloudOps provides support, consulting, professional services, as well as training for organizations seeking to embrace cloud native solutions. As Dan Kohn, Executive Director of CNCF said:
-“CloudOps has demonstrated a deep knowledge of Kubernetes, as well as noteworthy community initiative around cloud native technologies.</description>
-    </item>
-    
-    <item>
-      <title>CloudOps Listed on Branham300 for Second Consecutive Year</title>
-      <link>/blog/cloudops-branham300-second-consecutive-year/</link>
-      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/cloudops-branham300-second-consecutive-year/</guid>
-      <description>Montreal, June 6, 2017: CloudOps has once again been listed on the Branham300, ranking at number 227 among Canada’s most-profitable public and private technology companies. The prestigious list ranks companies based on revenue and profitability. CloudOps is pleased and honoured to be part of this elite group for a second year. This reinforces CloudOps’ strategic plans in cloud platform management, telco and enterprise shared services sectors, all of which are steadily growing with the adoption of cloud services.</description>
-    </item>
-    
-    <item>
-      <title>DevOps Realms – Own your Destiny in the Cloud</title>
-      <link>/blog/podcast-own-your-destiny-in-the-cloud-episode-1-devops-realms/</link>
-      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/podcast-own-your-destiny-in-the-cloud-episode-1-devops-realms/</guid>
-      <description>In this first episode of ‘Own your Destiny in the Cloud,’ Marc Paré, Chief Commercial Officer at CloudOps, discussed DevOps realms with Jesse Hurkens, VP of Consulting and Transformation Services at CloudOps. They spoke about how DevOps impacts business value and how it can be found in three different realms of a technology stack.
-
-TranscriptMP – We hear a lot today about DevOps adoption in the industry, and its value is being understood both by technical teams and business executives.</description>
-    </item>
-    
-    <item>
-      <title>The Future of Cloud Native Telcos – Own your Destiny in the Cloud</title>
-      <link>/blog/the-future-of-cloud-native-telcos-own-your-destiny-in-the-cloud/</link>
-      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/the-future-of-cloud-native-telcos-own-your-destiny-in-the-cloud/</guid>
-      <description>Ian Rae and Maddison Long discussed the future of the telecommunication industry. They focused on the impact of open source adoption, increased competition between cloud providers, and the ability of cloud native telcos to provide differentiated cloud and networking services in their target markets. Listen to the podcast below.
-
-TranscriptML – What would you like a telco to take away from this conversation if you were to personify them as a person?</description>
-    </item>
-    
-    <item>
-      <title>Top 10 Mistakes To Avoid When Adopting DevOps</title>
-      <link>/blog/top-10-mistakes-to-avoid-when-adopting-devops/</link>
-      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/top-10-mistakes-to-avoid-when-adopting-devops/</guid>
-      <description>A CIO decides it’s time for their organization to adopt DevOps. They hire a team of digital unicorns, adopt an array of cutting-edge tools, and are disappointed when they don’t see results. All the ideas, projects, products, and teams being introduced are held back by increasingly outdated cultural norms, processes, infrastructure, and skills. Nothing is aligned with the new operational models and technologies being introduced, and the digital unicorns are locked behind a dam along with their potential.</description>
-    </item>
-    
-    <item>
-      <title>Use a Palo Alto Networks firewall with CloudStack</title>
-      <link>/blog/use-a-palo-alto-networks-firewall-with-cloudstack/</link>
-      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/use-a-palo-alto-networks-firewall-with-cloudstack/</guid>
-      <description>Today we added a setup guide to the official Apache CloudStack documentation for the new features we developed to integrate the Palo Alto Networks firewall into CloudStack as a service provider.
-Check out the documentation…
-Start taking advantage of the Palo Alto Networks firewall orchestration in CloudStack by following the simple setup guide. Once the initial setup is done, CloudStack takes over and does all of the orchestration of the firewall.</description>
-    </item>
-    
-    <item>
       <title>What We Promise Our Customers</title>
       <link>/blog/what-we-promise-our-customers/</link>
       <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/blog/what-we-promise-our-customers/</guid>
-      <description>&amp;nbsp; Own your destiny in the cloud.
-At CloudOps, we believe that the successful adoption of DevOps is required to survive, even thrive, in today’s software-differentiated economy. By evolving their tools, processes, and cultures, our customers can embark on a journey towards delivering great products faster.
+      <description>Own your destiny in the cloud. At CloudOps, we believe that the successful adoption of DevOps is required to survive, even thrive, in today’s software-differentiated economy. By evolving their tools, processes, and cultures, our customers can embark on a journey towards delivering great products faster.
 Our approach to DevOps is highlighted in our mission statement, to help customers own their destinies in the cloud. We empower our customers with DevOps, so they can make informed technology choices that reduce the risk of their investments and give them optionality and leverage over their suppliers.</description>
-    </item>
-    
-    <item>
-      <title>Why private cloud matters</title>
-      <link>/blog/why-private-cloud-matters/</link>
-      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/why-private-cloud-matters/</guid>
-      <description>by Pierre-Luc Bisaillon
-I read a recent Gartner insight that predicts that the use of the word cloud will drop off in 2013, to be replaced by better descriptors of business value. Whether or not we use it less, we will continue to use it a lot.
-These days when I define what I mean by cloud, I return to the NIST definition, and use the following table to illustrate the options:</description>
-    </item>
-    
-    <item>
-      <title>You’re Always Wrong About Your IT Needs and Here Is Why</title>
-      <link>/blog/youre-always-wrong-about-your-it-needs-and-here-is-why/</link>
-      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/youre-always-wrong-about-your-it-needs-and-here-is-why/</guid>
-      <description>One of the hardest things I have learned over my career in IT is that no matter how diligently you work to understand and meet business requirements, you almost always end up with too many or too few resources, too early or too late.
-While the problem is often due to poor delivery of IT projects and product capabilities, even more frequently it is because either the anticipated business demand isn’t there (and you’re left with greatly under-utilized assets) or, the level of demand is hugely underestimated and the project becomes a victim of its own success.</description>
     </item>
     
     <item>
@@ -364,7 +290,7 @@ Check out our blog post on Kubernetes vanilla tools, distributions, and managed 
     </item>
     
     <item>
-      <title>What We Promise Our Customers</title>
+      <title>Life at CloudOps</title>
       <link>/blog/life-at-cloudops/</link>
       <pubDate>Fri, 02 Aug 2019 00:00:00 +0000</pubDate>
       
@@ -383,6 +309,17 @@ The Branham300 ranking is based on revenue and consists of Canada’s most profi
     </item>
     
     <item>
+      <title>The Future of Cloud Native Telcos – Own your Destiny in the Cloud</title>
+      <link>/blog/the-future-of-cloud-native-telcos-own-your-destiny-in-the-cloud/</link>
+      <pubDate>Fri, 19 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/the-future-of-cloud-native-telcos-own-your-destiny-in-the-cloud/</guid>
+      <description>Ian Rae and Maddison Long discussed the future of the telecommunication industry. They focused on the impact of open source adoption, increased competition between cloud providers, and the ability of cloud native telcos to provide differentiated cloud and networking services in their target markets. Listen to the podcast below.
+
+TranscriptML – What would you like a telco to take away from this conversation if you were to personify them as a person?</description>
+    </item>
+    
+    <item>
       <title>Rethinking Cloud Security with DevSecOps</title>
       <link>/blog/rethinking-cloud-security-with-devsecops/</link>
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
@@ -393,12 +330,14 @@ The adoption of DevOps tools and practices has exploded as a result, and the per
     </item>
     
     <item>
-      <title>Telcos, It’s Time to Deliver Hybrid Cloud</title>
-      <link>/blog/telcos-its-time-to-deliver-hybrid-cloud/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      <title>DevOps Realms – Own your Destiny in the Cloud</title>
+      <link>/blog/podcast-own-your-destiny-in-the-cloud-episode-1-devops-realms/</link>
+      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/blog/telcos-its-time-to-deliver-hybrid-cloud/</guid>
-      <description>“Everyone wants hybrid multi-cloud” – This is what we heard from both the head of open source strategy for Google Cloud Platform and a principal program manager (in the office of the CTO) for Microsoft Azure, at the Linux Foundation’s Open Source Leadership Summit, as the overwhelmingly clear message they’re hearing from their many customers. That is to say, end users want to leverage multiple hyperscale public clouds, and regional edge computing resources, while continuing to leverage their on-prem infrastructure within their IT environments.</description>
+      <guid>/blog/podcast-own-your-destiny-in-the-cloud-episode-1-devops-realms/</guid>
+      <description>In this first episode of ‘Own your Destiny in the Cloud,’ Marc Paré, Chief Commercial Officer at CloudOps, discussed DevOps realms with Jesse Hurkens, VP of Consulting and Transformation Services at CloudOps. They spoke about how DevOps impacts business value and how it can be found in three different realms of a technology stack.
+
+TranscriptMP – We hear a lot today about DevOps adoption in the industry, and its value is being understood both by technical teams and business executives.</description>
     </item>
     
     <item>
@@ -560,16 +499,6 @@ People People are the most significant challenge and opportunity when it comes t
       
       <guid>/blog/cncf-ambassador-spill-takeaways-from-kubecon-cloudnativecon/</guid>
       <description>Over 8,000 people attended KubeCon + CloudNativeCon in Seattle last month. They were there to celebrate the exponential growth of Kubernetes, the open source software for orchestrating containers. Since the first KubeCon in 2015, the cloud native community has mushroomed in size and success. As Janet Kuo stated in her keynote address, “Kubernetes is now very, very boring” – it has become an exceptionally stable platform that has reached mass commercial adoption.</description>
-    </item>
-    
-    <item>
-      <title>Hashicorp User Group Meetup #2</title>
-      <link>/blog/hashicorp-user-group-meetup-2/</link>
-      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/hashicorp-user-group-meetup-2/</guid>
-      <description>CloudOps was pleased to collaborate with Hashicorp User Group, fondly known as HUG, for its second DevOps Montreal meetup last night. Hosted at espace cloud.ca, the event began with beer, pizza, and mingling, before moving onto more substantive talks.
-cloud.ca’s very own Clément Contini began by speaking about leveraging Hashicorp’s Terraform to create Kubernetes clusters on public clouds using the kubeadm toolkit. Additionally, he showed how to balance Terraform with the cloud.</description>
     </item>
     
     <item>
@@ -810,6 +739,16 @@ Each meetup started with a 1.10 update of KubeCon by our very own Mike Wojcikiew
     </item>
     
     <item>
+      <title>CloudOps is Now a Kubernetes Training Partner</title>
+      <link>/blog/cloudops-is-now-a-kubernetes-training-partner/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/cloudops-is-now-a-kubernetes-training-partner/</guid>
+      <description>CloudOps is happy to announce membership of the newly-founded Kubernetes Training Partner (KTP) program. Run by the Cloud Native Computing Foundation (CNCF), the KTP program focuses on furthering the educational efforts of Kubernetes Certified Service Providers (KCSP). CloudOps provides support, consulting, professional services, as well as training for organizations seeking to embrace cloud native solutions. As Dan Kohn, Executive Director of CNCF said:
+“CloudOps has demonstrated a deep knowledge of Kubernetes, as well as noteworthy community initiative around cloud native technologies.</description>
+    </item>
+    
+    <item>
       <title>Overcoming Compliance Confusion: Why You Need a SOC 2 Foundation</title>
       <link>/blog/overcoming-compliance-confusion-why-you-need-a-soc-2-foundation/</link>
       <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>
@@ -888,10 +827,10 @@ Developed in collaboration between Google and IBM, Istio is an open source techn
     
     <item>
       <title>Serverless Computing: Hot or Not?</title>
-      <link>/blog/erverless-computing-hot-or-not-2/</link>
+      <link>/blog/serverless-computing-hot-or-not-2/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/erverless-computing-hot-or-not-2/</guid>
+      <guid>/blog/serverless-computing-hot-or-not-2/</guid>
       <description>There has been a remarkable increase in serverless computing platforms over the past few years. While few production-ready solutions have been released, the ecosystem has nonetheless matured substantially. You may even have some immediate use cases in your environment or pipeline to consider for a serverless deployment.
 Serverless architecture allows web application logic to be processed independently of physical servers, virtual machines, containers, or operating systems. It frees the entity owning the computing system from the obligation to purchase, rent, or obtain servers or virtual machines for the back-end code to run on.</description>
     </item>
@@ -934,6 +873,16 @@ While the efficiency and long-term viability of Kubernetes are apparent, it has 
       
       <guid>/blog/containerizing-onap-for-efficiency-why-bell-created-oom-using-kubernetes/</guid>
       <description>Companies determined to stay digitally relevant are adopting software-centric architectures. Many are transitioning their IT departments from VMs to containers in order to orchestrate workloads in an agile fashion. Although VMs have brought some degree of agility and flexibility by abstracting the computer system into virtual machine images, they also bring with them some of the limitations of traditional operating system (OS) per VM, such as their resource-heavy and monolithic architecture.</description>
+    </item>
+    
+    <item>
+      <title>Hashicorp User Group Meetup #2</title>
+      <link>/blog/hashicorp-user-group-meetup-2/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/hashicorp-user-group-meetup-2/</guid>
+      <description>CloudOps was pleased to collaborate with Hashicorp User Group, fondly known as HUG, for its second DevOps Montreal meetup last night. Hosted at espace cloud.ca, the event began with beer, pizza, and mingling, before moving onto more substantive talks.
+cloud.ca’s very own Clément Contini began by speaking about leveraging Hashicorp’s Terraform to create Kubernetes clusters on public clouds using the kubeadm toolkit. Additionally, he showed how to balance Terraform with the cloud.</description>
     </item>
     
     <item>
@@ -990,6 +939,15 @@ CloudOps made the 2017 PROFIT 500 list with five-year revenue growth of 193%, up
       
       <guid>/blog/cloudops-certified-as-a-remarkable-employer/</guid>
       <description>As CloudOps grows and matures as a business we look for ways to measure employee satisfaction, both as a means to understand the needs of the people who work here and as a means of comparison with the wider industry. To this end we commissioned Groupe Ambition to conduct their independent certification program. Through an organizational survey of their own design, they have assessed the quality of our internal business relationships as perceived by our employees.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps Listed on Branham300 for Second Consecutive Year</title>
+      <link>/blog/cloudops-branham300-second-consecutive-year/</link>
+      <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/cloudops-branham300-second-consecutive-year/</guid>
+      <description>Montreal, June 6, 2017: CloudOps has once again been listed on the Branham300, ranking at number 227 among Canada’s most-profitable public and private technology companies. The prestigious list ranks companies based on revenue and profitability. CloudOps is pleased and honoured to be part of this elite group for a second year. This reinforces CloudOps’ strategic plans in cloud platform management, telco and enterprise shared services sectors, all of which are steadily growing with the adoption of cloud services.</description>
     </item>
     
     <item>
@@ -1155,6 +1113,16 @@ The new certification program was announced in early 2015 and allows for a partn
     </item>
     
     <item>
+      <title>You’re Always Wrong About Your IT Needs and Here Is Why</title>
+      <link>/blog/youre-always-wrong-about-your-it-needs-and-here-is-why/</link>
+      <pubDate>Wed, 06 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/youre-always-wrong-about-your-it-needs-and-here-is-why/</guid>
+      <description>One of the hardest things I have learned over my career in IT is that no matter how diligently you work to understand and meet business requirements, you almost always end up with too many or too few resources, too early or too late.
+While the problem is often due to poor delivery of IT projects and product capabilities, even more frequently it is because either the anticipated business demand isn’t there (and you’re left with greatly under-utilized assets) or, the level of demand is hugely underestimated and the project becomes a victim of its own success.</description>
+    </item>
+    
+    <item>
       <title>Hosting vs. Cloud &amp; Humans vs. Machines</title>
       <link>/blog/hosting-vs-clouds-humans-vs-machines/</link>
       <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
@@ -1162,6 +1130,17 @@ The new certification program was announced in early 2015 and allows for a partn
       <guid>/blog/hosting-vs-clouds-humans-vs-machines/</guid>
       <description>As VP of Sales and Marketing at CloudOps, I am often explaining the difference between cloud and hosting. My goal is to effectively guide clients to get the maximum business value out of cloud infrastructure services. The greatest business value from cloud is the business agility and efficiency it can enable. I have laid out four items I would want to know if I were starting to use cloud.
 Continuously right-size ITWith cloud, you are only paying for what you need, when you need it, instead of wasting money on unused capacity.</description>
+    </item>
+    
+    <item>
+      <title>Use a Palo Alto Networks firewall with CloudStack</title>
+      <link>/blog/use-a-palo-alto-networks-firewall-with-cloudstack/</link>
+      <pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/use-a-palo-alto-networks-firewall-with-cloudstack/</guid>
+      <description>Today we added a setup guide to the official Apache CloudStack documentation for the new features we developed to integrate the Palo Alto Networks firewall into CloudStack as a service provider.
+Check out the documentation…
+Start taking advantage of the Palo Alto Networks firewall orchestration in CloudStack by following the simple setup guide. Once the initial setup is done, CloudStack takes over and does all of the orchestration of the firewall.</description>
     </item>
     
     <item>
@@ -1187,6 +1166,17 @@ Different metrics will matter: Moz began by looking at traffic and churn, but to
     </item>
     
     <item>
+      <title>How SaaSy Is Your Organization?</title>
+      <link>/blog/how-saasy-is-your-organization/</link>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/how-saasy-is-your-organization/</guid>
+      <description>Ultimately, switching from ISV to SaaS means switching from a strict development role to one of development and operations. This isn’t just writing new code, it’s retooling the organization.
+Security is no longer about making sure that the codebase is private and virus-free; it’s ensuring that production servers don’t get hacked and that support personnel are briefed against social engineering.
+Payment moves from the finance department to become an operational concern involving gateways and automation.</description>
+    </item>
+    
+    <item>
       <title>The Future of Software Is a Four Letter Word</title>
       <link>/blog/the-future-of-software-is-a-four-letter-word/</link>
       <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
@@ -1194,17 +1184,6 @@ Different metrics will matter: Moz began by looking at traffic and churn, but to
       <guid>/blog/the-future-of-software-is-a-four-letter-word/</guid>
       <description>There are many reasons the future of software is service-based.THE JOURNEY FROM ISV TO ASP TO SAAS…continued!
 Economic motivationsOne of the most tempting things about SaaS is that it generates recurring revenues, As long as you deliver a valuable product and avoid customer churn, you build a “war chest” of future revenues that increases the value of the company. You don’t have to re-sell customers every purchase cycle. Clients aren’t depreciating your license over time.</description>
-    </item>
-    
-    <item>
-      <title>How SaaSy Is Your Organization?</title>
-      <link>/blog/how-saasy-is-your-organization/</link>
-      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/how-saasy-is-your-organization/</guid>
-      <description>Ultimately, switching from ISV to SaaS means switching from a strict development role to one of development and operations. This isn’t just writing new code, it’s retooling the organization.
-Security is no longer about making sure that the codebase is private and virus-free; it’s ensuring that production servers don’t get hacked and that support personnel are briefed against social engineering.
-Payment moves from the finance department to become an operational concern involving gateways and automation.</description>
     </item>
     
     <item>
@@ -1262,7 +1241,7 @@ Yet there are still plenty of reasons why companies fail to embrace clouds, from
     <item>
       <title>Clouds are like airlines</title>
       <link>/blog/clouds-are-like-airlines/</link>
-      <pubDate>Tue, 08 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>/blog/clouds-are-like-airlines/</guid>
       <description>If you’ve read Nic Carr’s book The Big Switch, you’ll have heard the analogy that cloud computing is like eletricity: we’re moving from computers to computing, just as we moved from generators to generation.
@@ -1277,6 +1256,16 @@ Certainly, clouds (at least, big public ones like Amazon Web Services and Google
       <guid>/blog/cloudstack-creating-advanced-networking-zone-using-api/</guid>
       <description>In the process of automating CloudStack installation, we’ve been through a challenging part: Creating an Entire Advanced networking Zone from the API. Production and test system that we deploy don’t have building tools such as mavin in order to create zones, pod,networks,… So the usual process is to use the Web UI and follow the “Add Zone” wizard. Well, not anymore!
 To create an entire zone using API we are using Ruby with Chip’s cloudstack_ruby_client.</description>
+    </item>
+    
+    <item>
+      <title>Install Apache Cloudstack with Chef</title>
+      <link>/blog/install-apache-cloudstack-with-chef/</link>
+      <pubDate>Fri, 07 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/install-apache-cloudstack-with-chef/</guid>
+      <description>Installation of Apache CloudStack and is dependencies using Opscode Chef&amp;nbsp;community cookbooks.
+To create a lab, a test environment or to just try CloudStack, you could install it using the installation documentation which is clean and fairly straight forward, but you can also install it with Chef and not worry about subtleties. Here is a quick way of installing CloudStack, MySQL server and NFS service into a single server to provide what’s required to setup a CloudStack lab.</description>
     </item>
     
     <item>
@@ -1295,17 +1284,7 @@ Most folks outside the industry are unaware that what started as an online books
       <pubDate>Sat, 09 Mar 2013 00:00:00 +0000</pubDate>
       
       <guid>/blog/why-the-cloud-is-and-needs-to-be-like-minecraft/</guid>
-      <description>by Pierre-Luc Bisaillon If&amp;nbsp;you have a young kid (or are a kid at heart), Minecraft doesn’t need any introduction. At last count 10M people had bought the game and at least 5 times as many are playing the demo or some mobile version. For the uninitiated, this seems odd. The graphics are awful, and it’s not even a real “game” – in other words, there’s no mission or objective to achieve and “win”.</description>
-    </item>
-    
-    <item>
-      <title>Install Apache Cloudstack with Chef</title>
-      <link>/blog/install-apache-cloudstack-with-chef/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/install-apache-cloudstack-with-chef/</guid>
-      <description>Installation of Apache CloudStack and is dependencies using Opscode Chef&amp;nbsp;community cookbooks.
-To create a lab, a test environment or to just try CloudStack, you could install it using the installation documentation which is clean and fairly straight forward, but you can also install it with Chef and not worry about subtleties. Here is a quick way of installing CloudStack, MySQL server and NFS service into a single server to provide what’s required to setup a CloudStack lab.</description>
+      <description>If&amp;nbsp;you have a young kid (or are a kid at heart), Minecraft doesn’t need any introduction. At last count 10M people had bought the game and at least 5 times as many are playing the demo or some mobile version. For the uninitiated, this seems odd. The graphics are awful, and it’s not even a real “game” – in other words, there’s no mission or objective to achieve and “win”. Yet seen another way, it has everything – it gives you the ability to create your own world, dig for resources, build house, complex structures, even complex machines (a mineral called “Red Stone” mimics electrical wires, and with switches and torches, players have built in-world binary machines such as calculators – here’s one of many examples).</description>
     </item>
     
     <item>
@@ -1314,10 +1293,20 @@ To create a lab, a test environment or to just try CloudStack, you could install
       <pubDate>Wed, 27 Feb 2013 00:00:00 +0000</pubDate>
       
       <guid>/blog/how-to-get-a-job-in-the-cloud-industry/</guid>
-      <description>by Pierre-Luc Bisaillon
-After a few weeks of career days, wine and cheese, and interviews, I wanted to summarize a few key findings and give some tips to students (and grown-ups) looking for a job with CloudOps — or anywhere in the cloud industry, for that matter.
+      <description>After a few weeks of career days, wine and cheese, and interviews, I wanted to summarize a few key findings and give some tips to students (and grown-ups) looking for a job with CloudOps — or anywhere in the cloud industry, for that matter.
 Try AWS — for free
 Amazon Web Services is the industry leader and has enough capacity to offer every new customer a free tier, which enables you to get an amount of resources on the public cloud service for free, including:</description>
+    </item>
+    
+    <item>
+      <title>Why private cloud matters</title>
+      <link>/blog/why-private-cloud-matters/</link>
+      <pubDate>Fri, 22 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/why-private-cloud-matters/</guid>
+      <description>I read a recent Gartner insight that predicts that the use of the word cloud will drop off in 2013, to be replaced by better descriptors of business value. Whether or not we use it less, we will continue to use it a lot.
+These days when I define what I mean by cloud, I return to the NIST definition, and use the following table to illustrate the options:
+Service ModelPrivatePublicSaaSN/Ae.</description>
     </item>
     
     <item>
@@ -1326,8 +1315,7 @@ Amazon Web Services is the industry leader and has enough capacity to offer ever
       <pubDate>Sun, 10 Feb 2013 00:00:00 +0000</pubDate>
       
       <guid>/blog/cloudstack-vs-openstack-a-personal-experience/</guid>
-      <description>by François Gaudreault
-Before anyone starts to rant or panic, a few disclaimers:
+      <description>Before anyone starts to rant or panic, a few disclaimers:
  We love both CloudStack and OpenStack. In fact, we wrote and shared a connector to allow OpenStack Swift to authenticate against CloudStack.We are a Citrix CloudAdvisor and have deep expertise with the Citrix CloudPlatform and Cloud Portal Business Manager products, and by extension, CloudStack.We want to continue to provide our customers with the best solutions on the market to achieve their business goals as fast as possible.</description>
     </item>
     

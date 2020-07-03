@@ -1,6 +1,6 @@
 ---
 title: "DevOps Realms – Own your Destiny in the Cloud"
-lastmod: "2019-12-02"
+lastmod: "2019-05-16"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

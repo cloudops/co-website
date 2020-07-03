@@ -9,7 +9,7 @@
                 </header>
                 {{ with .Resources.Match "thumbnail" }}
                 {{ range . }}
-                {{ $img := .Resize "1000x" }}
+                {{ $img := .Resize "400x" }}
                 <img src="{{  $img.RelPermalink }}" />
                 {{ end }}
                 {{ end }}
@@ -22,19 +22,23 @@
     <div class="row nav-buttons back-foward in-content">
         <div
             class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-xs-2 back-button">
-            <a href="{{ (.Site.Pages.ByWeight.Prev .).Permalink }}"><button class="btn">
+            {{ with .PrevInSection }}
+            <a href="{{ .Permalink }}"><button class="btn">
                     <div class="triangle-left">
                         <div class="inner-left-triangle"></div>
                     </div>Previous Post
                 </button></a>
+            {{ end }}
         </div>
         <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-xs-2 foward-button">
-            <a href="{{ (.Site.Pages.ByWeight.Next .).Permalink }}">
+                {{ with .NextInSection }}
+            <a href="{{ .Permalink }}">
                 <button class="btn">
                     Next Post<div class="triangle-right">
                         <div class="inner-triangle"></div>
                     </div>
                 </button></a>
+                {{ end }}
         </div>
     </div>
 
@@ -43,6 +47,53 @@
         <i class="far fa-copy copy-page-link"></i>
     </div>
 
+    {{ partial "related.html" . }}
+    <div class="contact-us-card general-stylings-more-content">
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-cards">
+                    <div class="card-deck">
+                        <div class="card">
+                            <a
+                                href="https://cdn2.hubspot.net/hubfs/732832/CloudOps%20White%20Paper%20-%20A%20PreFlight%20Checklist%20for%20Cloud%20Migration.pdf">
+                                <div class="card-body">
+                                    <h3 class="card-title">A checklist for your cloud migration</h3>
+                                    <p class="card-text">Download the white paper to get a step by step guide to a successful migration strategy.</p>
+                                </div>
+                                <div class="corner-triangle"></div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a
+                                href="/blog/the-cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration">
+                                <div class="card-body">
+                                    <h3 class="card-title"> Accelerated value delivery</h3>
+                                    <p class="card-text">Read more on how to maximize value through our unique delivery model.</p>
+                                    <div class="corner-triangle"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="https://cdn2.hubspot.net/hubfs/732832/Cloud-Ops_Cloud-Migration_v3.pdf">
+                            <div class="card-body">
+                                <h3 class="card-title">Cloud migration one-pager</h3>
+                                <p class="card-text">
+                                    Everything you need to know about how our services can help get your cloud journey started.
+                                    <div class="corner-triangle"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="/contact-us">
+                            <div class="card-body">
+                                <h3 class="card-title">Networking is the hardest part</h3>
+                                <p class="card-text">Contact us to learn more about our hardware and software-defined networking solutions.</p>
+                                <div class="corner-triangle"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 </main>

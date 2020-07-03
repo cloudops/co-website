@@ -1,6 +1,6 @@
 ---
 title: Top 10 Mistakes To Avoid When Adopting DevOps
-lastmod: "2019-12-02"
+lastmod: "2020-01-13"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

@@ -1,7 +1,7 @@
 ---
 title: "Install Apache Cloudstack with Chef"
-lastmod: "2013-03-07"
-author: "CloudOps"
+lastmod: "2014-03-07"
+author: "Pierre-Luc Dion"
 resources:
 - name: "thumbnail"
   src: ""

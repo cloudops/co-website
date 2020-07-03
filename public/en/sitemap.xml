@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/3-ways-to-prepare-remote-teams-for-devops-adoption/</loc>
+    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/</loc>
-    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -19,7 +24,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -30,16 +35,6 @@
                 hreflang="en"
                 href="/"
                 />
-  </url>
-  
-  <url>
-    <loc>/blog/how-to-create-and-inspect-kubernetes-deployments/</loc>
-    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/3-ways-to-prepare-remote-teams-for-devops-adoption/</loc>
-    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -55,6 +50,11 @@
   <url>
     <loc>/blog/8-ways-to-cut-cloud-consumption-costs/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/kubernetes-deployments-101/</loc>
+    <lastmod>2020-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -98,6 +98,11 @@
   </url>
   
   <url>
+    <loc>/blog/top-10-mistakes-to-avoid-when-adopting-devops/</loc>
+    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/eastern-canadas-kubernetes-cloud-native-meetups-winter-2019/</loc>
     <lastmod>2019-12-19T00:00:00+00:00</lastmod>
   </url>
@@ -108,47 +113,7 @@
   </url>
   
   <url>
-    <loc>/blog/cloudops-is-now-a-kubernetes-training-partner/</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/cloudops-branham300-second-consecutive-year/</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/podcast-own-your-destiny-in-the-cloud-episode-1-devops-realms/</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/the-future-of-cloud-native-telcos-own-your-destiny-in-the-cloud/</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/top-10-mistakes-to-avoid-when-adopting-devops/</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/use-a-palo-alto-networks-firewall-with-cloudstack/</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/blog/what-we-promise-our-customers/</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/why-private-cloud-matters/</loc>
-    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/youre-always-wrong-about-your-it-needs-and-here-is-why/</loc>
     <lastmod>2019-12-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -228,13 +193,18 @@
   </url>
   
   <url>
+    <loc>/blog/the-future-of-cloud-native-telcos-own-your-destiny-in-the-cloud/</loc>
+    <lastmod>2019-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/rethinking-cloud-security-with-devsecops/</loc>
     <lastmod>2019-07-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/telcos-its-time-to-deliver-hybrid-cloud/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <loc>/blog/podcast-own-your-destiny-in-the-cloud-episode-1-devops-realms/</loc>
+    <lastmod>2019-05-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -314,11 +284,6 @@
   
   <url>
     <loc>/blog/cncf-ambassador-spill-takeaways-from-kubecon-cloudnativecon/</loc>
-    <lastmod>2019-01-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/hashicorp-user-group-meetup-2/</loc>
     <lastmod>2019-01-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -453,6 +418,11 @@
   </url>
   
   <url>
+    <loc>/blog/cloudops-is-now-a-kubernetes-training-partner/</loc>
+    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/overcoming-compliance-confusion-why-you-need-a-soc-2-foundation/</loc>
     <lastmod>2018-05-10T00:00:00+00:00</lastmod>
   </url>
@@ -493,7 +463,7 @@
   </url>
   
   <url>
-    <loc>/blog/erverless-computing-hot-or-not-2/</loc>
+    <loc>/blog/serverless-computing-hot-or-not-2/</loc>
     <lastmod>2018-02-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -515,6 +485,11 @@
   <url>
     <loc>/blog/containerizing-onap-for-efficiency-why-bell-created-oom-using-kubernetes/</loc>
     <lastmod>2018-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/hashicorp-user-group-meetup-2/</loc>
+    <lastmod>2018-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -545,6 +520,11 @@
   <url>
     <loc>/blog/cloudops-certified-as-a-remarkable-employer/</loc>
     <lastmod>2017-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/cloudops-branham300-second-consecutive-year/</loc>
+    <lastmod>2017-06-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -628,8 +608,18 @@
   </url>
   
   <url>
+    <loc>/blog/youre-always-wrong-about-your-it-needs-and-here-is-why/</loc>
+    <lastmod>2015-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/hosting-vs-clouds-humans-vs-machines/</loc>
     <lastmod>2015-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/use-a-palo-alto-networks-firewall-with-cloudstack/</loc>
+    <lastmod>2014-12-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -643,13 +633,13 @@
   </url>
   
   <url>
-    <loc>/blog/the-future-of-software-is-a-four-letter-word/</loc>
-    <lastmod>2014-07-18T00:00:00+00:00</lastmod>
+    <loc>/blog/how-saasy-is-your-organization/</loc>
+    <lastmod>2014-07-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/how-saasy-is-your-organization/</loc>
-    <lastmod>2014-07-14T00:00:00+00:00</lastmod>
+    <loc>/blog/the-future-of-software-is-a-four-letter-word/</loc>
+    <lastmod>2014-07-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -679,12 +669,17 @@
   
   <url>
     <loc>/blog/clouds-are-like-airlines/</loc>
-    <lastmod>2014-04-08T00:00:00+00:00</lastmod>
+    <lastmod>2014-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/blog/cloudstack-creating-advanced-networking-zone-using-api/</loc>
     <lastmod>2014-03-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/install-apache-cloudstack-with-chef/</loc>
+    <lastmod>2014-03-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -698,13 +693,13 @@
   </url>
   
   <url>
-    <loc>/blog/install-apache-cloudstack-with-chef/</loc>
-    <lastmod>2013-03-07T00:00:00+00:00</lastmod>
+    <loc>/blog/how-to-get-a-job-in-the-cloud-industry/</loc>
+    <lastmod>2013-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/how-to-get-a-job-in-the-cloud-industry/</loc>
-    <lastmod>2013-02-27T00:00:00+00:00</lastmod>
+    <loc>/blog/why-private-cloud-matters/</loc>
+    <lastmod>2013-02-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -748,6 +743,10 @@
   </url>
   
   <url>
+    <loc>/resources/case-studies/a/</loc>
+  </url>
+  
+  <url>
     <loc>/about-us/</loc>
     <xhtml:link
                 rel="alternate"
@@ -767,6 +766,10 @@
   
   <url>
     <loc>/careers/</loc>
+  </url>
+  
+  <url>
+    <loc>/resources/case-studies/</loc>
   </url>
   
   <url>
@@ -866,6 +869,10 @@
   </url>
   
   <url>
+    <loc>/resources/infographics/</loc>
+  </url>
+  
+  <url>
     <loc>/workshops-information/</loc>
   </url>
   
@@ -896,6 +903,10 @@
   </url>
   
   <url>
+    <loc>/resources/one-pagers/</loc>
+  </url>
+  
+  <url>
     <loc>/openshift/</loc>
     <xhtml:link
                 rel="alternate"
@@ -915,6 +926,10 @@
   
   <url>
     <loc>/privacy-policy/</loc>
+  </url>
+  
+  <url>
+    <loc>/resources/</loc>
   </url>
   
   <url>
@@ -945,6 +960,10 @@
   
   <url>
     <loc>/transformations/</loc>
+  </url>
+  
+  <url>
+    <loc>/resources/white-papers/</loc>
   </url>
   
   <url>

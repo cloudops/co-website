@@ -1,7 +1,7 @@
 ---
 title: "CloudOps CEO Featured in KPMG’s The Next Million"
 lastmod: "2015-11-05"
-author: "CloudOps"
+author: "Julia Simon"
 resources:
 - name: "thumbnail"
   src: "Ian-next-million.jpg"

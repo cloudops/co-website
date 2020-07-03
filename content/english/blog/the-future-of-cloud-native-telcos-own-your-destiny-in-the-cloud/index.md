@@ -1,6 +1,6 @@
 ---
 title: "The Future of Cloud Native Telcos – Own your Destiny in the Cloud"
-lastmod: "2019-12-02"
+lastmod: "2019-07-19"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

@@ -1,6 +1,6 @@
 ---
 title: "Clouds are like airlines"
-lastmod: "2014-04-08"
+lastmod: "2014-04-07"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

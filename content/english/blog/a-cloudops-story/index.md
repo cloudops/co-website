@@ -1,7 +1,7 @@
 ---
 title: A Cloud(Ops) Story
 lastmod: "2013-03-28"
-author: "CloudOps"
+author: "Ian Rae"
 resources:
 - name: "thumbnail"
   src: "cloudops.jpg"

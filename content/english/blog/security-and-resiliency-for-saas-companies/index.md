@@ -1,7 +1,7 @@
 ---
 title: "Security and Resiliency for SaaS Companies"
 lastmod: "2018-01-12"
-author: "CloudOps"
+author: "Katharine Mikula"
 resources:
 - name: "thumbnail"
   src: "cybersecurity.png"

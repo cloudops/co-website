@@ -1,7 +1,7 @@
 ---
 title: "CloudOps Becomes the First Canadian Citrix Specialist in Networking for Data Centre"
 lastmod: "2015-07-17"
-author: "CloudOps"
+author: "Julia Simon"
 resources:
 - name: "thumbnail"
   src: "CTX_Specialist_Gold_Solution-Advisor_Flat_RGB-copy1.png"

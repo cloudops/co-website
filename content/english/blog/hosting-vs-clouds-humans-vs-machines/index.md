@@ -1,7 +1,7 @@
 ---
 title: "Hosting vs. Cloud & Humans vs. Machines"
 lastmod: "2015-03-26"
-author: "CloudOps"
+author: "Marc Paré"
 resources:
 - name: "thumbnail"
   src: "machine-vs-human-pic.jpg"

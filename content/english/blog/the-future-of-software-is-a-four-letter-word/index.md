@@ -4,8 +4,8 @@ lastmod: "2014-07-18"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
-class_name: "4letters.png"
+  src: "4letters.png"
+class_name: "blog post"
 ---
 
 

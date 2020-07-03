@@ -1,7 +1,7 @@
 ---
 title: "CloudStack 4.3 API Visualization"
 lastmod: "2014-05-29"
-author: "CloudOps"
+author: "Will Stevens"
 resources:
 - name: "thumbnail"
   src: "vis_43.png"

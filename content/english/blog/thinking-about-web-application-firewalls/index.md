@@ -46,4 +46,4 @@ class_name: "blog post"
 <p>SQL query encoding using Hex</p>
 <p>Packet fragmentation</p>
 <p>URI Encoding (Unicode)</p>
-</div
+</div>
