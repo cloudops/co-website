@@ -3,4 +3,4 @@ title: Community News
 type: subpage-resources
 ---
 
-community news
+<div class="blog-main">

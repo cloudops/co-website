@@ -1386,7 +1386,11 @@ a.active {
   .navbar-card i {
     color: #005D91; }
   .navbar-card .navbar .navbar-nav .dropdown .training-dropdown-items-group h3 {
-    margin-top: 15px; } }
+    margin-top: 15px; }
+  .navbar-card .nav-item.list-group.list-group-flush #multi-language-menu {
+    position: absolute;
+    top: 30px;
+    right: 100px; } }
 
 @media (min-width: 1200px) {
   .navbar-expand-xl .navbar-nav .dropdown-menu {

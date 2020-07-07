@@ -2,4 +2,5 @@
 title: CloudOps Press
 type: subpage-resources
 ---
-cloudops press
+
+<div class="blog-main">

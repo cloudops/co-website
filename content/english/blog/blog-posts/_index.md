@@ -1,5 +1,7 @@
 ---
 title: Blog Posts
+type: subpage-resources
 ---
 
-blog posts
+
+<div class="blog-main">

@@ -29,17 +29,17 @@ class_name: "blog"
                 <div class="row row-of-three">
                     <div class="col-xl-3 offset-xl-1 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <img src="/images/blog-posts.svg">
-                        <a href="#blog"><h3>Blog Posts</h3></a>
+                        <a href="/blog/blog-posts"><h3>Blog Posts</h3></a>
                         <p>The cloud native and DevOps ecosystems are complex and changing fast. <a href="#">Our monthly newsletter</a> will keep you up to date on the latest industry trends.</p>
                     </div>
                     <div class="col-xl-3 offset-xl-1 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <img src="/images/community-news.svg">
-                        <a href="#community-news"><h3>Community News</h3></a>
+                        <a href="/blog/community-news"><h3>Community News</h3></a>
                         <p><a href="#">Sign up for our cloud native newsletter</a> to hear about upcoming meetups and ways to deepen your open source skillset. Whether you were an early adopter or are new to the cloud native community, everyone is welcome.</p>
                     </div>
                     <div class="col-xl-3 offset-xl-1 col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <img src="/images/cloudops-news.svg">
-                        <a href="#press"><h3>CloudOps Press</h3></a>
+                        <a href="/blog/cloudops-press"><h3>CloudOps Press</h3></a>
                         <p>CloudOps is always evolving to meet market needs. Visit our News page to read our latest press releases.</p>
                     </div>
                 </div>

@@ -17,7 +17,7 @@
         <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
           <div class="card-deck">
             <!-- Ranges through content/posts/*.md -->
-            {{ range first 3 .Pages }}
+            {{ range first 7 .Pages }}
             <div class="card mx-auto">
               <a href="{{.Permalink}}">
                 <div class="card-body">
@@ -38,7 +38,7 @@
             <div class="card mx-auto">
                 <a href="{{.Permalink}}">
                   <div class="card-body">
-                    <h3 class="card-title">More like this...</h3>
+                    <h3 class="card-title">View all {{.Title}}</h3>
                   </div>
                   <div class="corner-triangle"></div>
                 </a>
