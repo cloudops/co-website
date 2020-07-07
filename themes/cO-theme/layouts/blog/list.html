@@ -22,10 +22,10 @@
               <a href="{{.Permalink}}">
                 <div class="card-body">
                   {{ with .Resources.Match "thumbnail" }}
-                    {{ range . }}
-                      {{ $img := .Fill "176x176 Smart" }}
-                      <img src="{{  $img.RelPermalink }}" />
-                    {{ end }}
+                  {{ range . }}
+                  {{ $img := .Fill "176x176 Smart" }}
+                  <img src="{{  $img.RelPermalink }}" />
+                  {{ end }}
                   {{ end }}
                   <h3 class="card-title">{{.Title}}</h3>
                   <p class="card-text">{{.Lastmod.Format "January 2, 2006"}}</p>
@@ -36,62 +36,63 @@
             </div>
             {{ end }}
             <div class="card mx-auto">
-                <a href="{{.Permalink}}">
-                  <div class="card-body">
-                    <h3 class="card-title">View all {{.Title}}</h3>
-                  </div>
-                  <div class="corner-triangle"></div>
-                </a>
-              </div>
+              <a href="{{.Permalink}}">
+                <div class="card-body">
+                  <h3 class="card-title">View all {{.Title}}</h3>
+                </div>
+                <div class="corner-triangle"></div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-{{ end }}
- <!-- contact us -->
- <div class="contact-us-card general-stylings-more-content">
-  <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-cards">
+    {{ end }}
+    <!-- contact us -->
+    <div class="contact-us-card general-stylings-more-content">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-cards">
           <div class="card-deck">
-              <div class="card">
-                  <a href="/blog/the-cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration">
-                  <div class="card-body">
-                      <h3 class="card-title">White Papers</h3>
-                      <p class="card-text"></p>
-                  </div>
-                  <div class="corner-triangle"></div>
+            <div class="card">
+              <a href="/blog/the-cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration">
+                <div class="card-body">
+                  <h3 class="card-title">White Papers</h3>
+                  <p class="card-text"></p>
+                </div>
+                <div class="corner-triangle"></div>
               </a>
+            </div>
+            <div class="card">
+              <a
+                href="https://cdn2.hubspot.net/hubfs/732832/Gated%20Content/WP_The%20Beginners%20Guide%20to%20Kubernetes_2020.pdf">
+                <div class="card-body">
+                  <h3 class="card-title">One Pagers</h3>
+                  <p class="card-text"></p>
+                  <div class="corner-triangle"></div>
+                </div>
+              </a>
+            </div>
+          <div class="card">
+            <a href="/managed-services-augmented-support">
+              <div class="card-body">
+                <h3 class="card-title">Case Studies</h3>
+                <p class="card-text"></p>
+                <div class="corner-triangle"></div>
               </div>
-              <div class="card">
-                      <a href="https://cdn2.hubspot.net/hubfs/732832/Gated%20Content/WP_The%20Beginners%20Guide%20to%20Kubernetes_2020.pdf">
-                  <div class="card-body">
-                      <h3 class="card-title">One Pagers</h3>
-                      <p class="card-text"></p>
-                      <div class="corner-triangle"></div>
-                      </a>
-                  </div>
-              </div>
-              <div class="card">
-                      <a href="/managed-services-augmented-support">
-                  <div class="card-body">
-                      <h3 class="card-title">Case Studies</h3>
-                      <p class="card-text"></p>
-                              <div class="corner-triangle"></div>
-                  </div>
-                  </a>
-              </div>
-              <div class="card">
-                  <a href="/blog/staff-augmentation-vs-project-based-services-for-devops-and-cloud-projects">
-                  <div class="card-body">
-                      <h3 class="card-title">CloudOps Solutions</h3>
-                      <p class="card-text"></p>
-                      <div class="corner-triangle"></div>
-                  </div>
-                  </a>
-              </div>
+            </a>
           </div>
+          <div class="card">
+            <a href="/blog/staff-augmentation-vs-project-based-services-for-devops-and-cloud-projects">
+              <div class="card-body">
+                <h3 class="card-title">CloudOps Solutions</h3>
+                <p class="card-text"></p>
+                <div class="corner-triangle"></div>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
-  </div>
-</article>
+    </div>
+  </article>
 </main>
 {{ end }}
