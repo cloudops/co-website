@@ -1,14 +1,57 @@
 {{ define "main" }}
-<ul>
-        {{ range .Pages }}
-        <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-            <ul>
-                {{ range first 4 .Pages }}
-                <li>{{ .Title }}</li>
-                {{ end }}
-            </ul>
-        </li>
-        {{ end }}
-    </ul> 
+<main>
+  <article>
+    <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
+    {{.Content}}
+    <!-- stand out -->
+    {{ range .Pages }}
+    <div class="stand-out">
+      <div class="row">
+        <div class="col-xl-12">
+          <a href="{{.Permalink}}"><h2>{{ .Title }}</h2></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
+          <div class="card-deck">
+            <!-- Ranges through content/posts/*.md -->
+            {{ range first 3 .Pages }}
+            <div class="card mx-auto">
+              {{ if .Params.ExternalLink }}
+              <a href="{{.Params.ExternalLink}}" target="{{.Params.ExternalLinkTarget}}">
+              {{ else }}
+              <a href="{{.Permalink}}">
+              {{ end }}
+
+                <div class="card-body">
+                  {{ with .Resources.Match "thumbnail" }}
+                    {{ range . }}
+                      {{ $img := .Fill "176x176 Smart" }}
+                      <img src="{{  $img.RelPermalink }}" />
+                    {{ end }}
+                  {{ end }}
+                  <h3 class="card-title">{{.Title}}</h3>
+                  <p class="card-text">{{.Lastmod.Format "January 2, 2006"}}</p>
+                  <p>{{ .Param "author" }}</p>
+                </div>
+                <div class="corner-triangle"></div>
+              </a>
+            </div>
+            {{ end }}
+            <div class="card mx-auto">
+                <a href="{{.Permalink}}">
+                  <div class="card-body">
+                    <h3 class="card-title">More like this...</h3>
+                  </div>
+                  <div class="corner-triangle"></div>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
 {{ end }}
+  </article>
+</main>
+{{ end }}
+

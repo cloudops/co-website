@@ -193,6 +193,7 @@ a.nav-link.language-menu.list-group-item.list-group-item-action {
     text-decoration: none;
     background-color: transparent;
     border: none;
+    padding: 0;
 }
 
 a.nav-link.language-menu.list-group-item.list-group-item-action:hover {
@@ -232,6 +233,7 @@ a.active {
 }
 .navbar-card .navbar .navbar-nav .nav-item p {
     display: inline;
+    vertical-align: top;
 }
 
 

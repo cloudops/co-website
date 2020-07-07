@@ -662,30 +662,45 @@
         padding: 0 0 50px;
     }
 
+    .community-card .events {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+
+    .community-card .blog {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .community-card .events {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
 
     .community-card .blog {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
 }
 
 @media (min-width: 1200px) {
 
     .community-card .events {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .community-card .blog {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 }
 

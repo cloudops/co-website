@@ -1250,7 +1250,8 @@ a.nav-link.language-menu.list-group-item.list-group-item-action {
   display: inline;
   text-decoration: none;
   background-color: transparent;
-  border: none; }
+  border: none;
+  padding: 0; }
 
 a.nav-link.language-menu.list-group-item.list-group-item-action:hover {
   text-decoration: underline;
@@ -1284,7 +1285,8 @@ a.active {
   display: inline; }
 
 .navbar-card .navbar .navbar-nav .nav-item p {
-  display: inline; }
+  display: inline;
+  vertical-align: top; }
 
 @media (max-width: 575.98px) {
   .navbar-card {
@@ -1866,23 +1868,33 @@ a.active {
     margin-bottom: 50px; }
   .community-card img {
     max-width: 300px;
-    padding: 0 0 50px; } }
+    padding: 0 0 50px; }
+  .community-card .events {
+    padding-left: 25px !important;
+    padding-right: 25px !important; }
+  .community-card .blog {
+    padding-left: 25px !important;
+    padding-right: 25px !important; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .community-card .events {
-    padding-left: 15px;
-    padding-right: 15px; }
+    padding-left: 15px !important;
+    padding-right: 15px !important; }
   .community-card .blog {
-    padding-left: 15px;
-    padding-right: 15px; } }
+    padding-left: 15px !important;
+    padding-right: 15px !important; } }
 
 @media (min-width: 1200px) {
   .community-card .events {
-    padding-left: 15px;
-    padding-right: 15px; }
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 25px;
+    padding-bottom: 25px; }
   .community-card .blog {
-    padding-left: 15px;
-    padding-right: 15px; } }
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 25px;
+    padding-bottom: 25px; } }
 
 /************  Case studies Styles  ***************/
 .case-studies-card {
@@ -5337,19 +5349,51 @@ a.active {
 .blog-main .stand-out .card-deck .card .card-title {
   margin-top: 15px; }
 
+.blog-main .blog-classifications {
+  padding: 100px 0;
+  background-image: url(/images/top-right-swoosh.png), url(/images/triangles-contact-us.svg), url(/images/triangles-contact-us.svg), url(/images/bottom-left-swoosh.png);
+  background-position: top right, left center, right center, bottom left;
+  background-repeat: no-repeat;
+  background-size: auto, 280px auto, 280px auto, auto;
+  margin: 0; }
+
+.blog-main .blog-classifications h2 {
+  text-align: center;
+  padding-bottom: 50px; }
+
+.blog-main .blog-classifications img {
+  height: 170px;
+  margin-bottom: 30px; }
+
 @media (max-width: 575.98px) {
   .blog-main .stand-out {
     padding: 80px 0; }
+  .blog-main .stand-out h1 {
+    font-size: 48px; }
   .blog-main .stand-out h2 {
-    padding: 0 0 30px; } }
+    padding: 0 0 30px; }
+  .blog-main .hero.jumbotron img {
+    margin-top: 50px;
+    margin-left: 0;
+    width: 260px; }
+  .blog-main .hero.jumbotron {
+    padding-bottom: 40px; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .blog-main .stand-out h2 {
-    padding: 0 0 30px; } }
+    padding: 0 0 30px; }
+  .blog-main .hero.jumbotron img {
+    margin-top: 50px;
+    margin-left: 0;
+    width: 400px; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .blog-main .stand-out h2 {
-    padding: 0 0 40px; } }
+    padding: 0 0 40px; }
+  .blog-main .hero.jumbotron img {
+    margin-top: 50px;
+    margin-left: 0;
+    width: 400px; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .blog-main .stand-out {

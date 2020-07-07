@@ -66,13 +66,48 @@
     margin-top: 15px;
 }
 
+.blog-main .blog-classifications {
+    padding: 100px 0;
+    background-image: url(/images/top-right-swoosh.png), url(/images/triangles-contact-us.svg), url(/images/triangles-contact-us.svg), url(/images/bottom-left-swoosh.png);
+    background-position: top right, left center, right center, bottom left;
+    background-repeat: no-repeat;
+    background-size: auto, 280px auto, 280px auto, auto;
+    margin: 0;
+}
+
+.blog-main .blog-classifications h2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.blog-main .blog-classifications img {
+    height: 170px;
+    margin-bottom: 30px;
+}
+
 @media (max-width: 575.98px) {
     .blog-main .stand-out {
         padding: 80px 0;
     }
+
+    .blog-main .stand-out h1 {
+        font-size: 48px;
+    }
     
     .blog-main .stand-out h2 {
         padding: 0 0 30px;
+    }
+
+    .blog-main 
+    .hero.jumbotron img {
+        margin-top: 50px;
+        margin-left: 0;
+        width: 260px;
+    }
+
+    .blog-main 
+    .hero.jumbotron {
+        padding-bottom: 40px;
     }
 }
 
@@ -80,15 +115,30 @@
     .blog-main .stand-out h2 {
         padding: 0 0 30px;
     }
+
+    .blog-main 
+    .hero.jumbotron img {
+        margin-top: 50px;
+        margin-left: 0;
+        width: 400px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .blog-main .stand-out h2 {
         padding: 0 0 40px;
     }
+
+    .blog-main 
+    .hero.jumbotron img {
+        margin-top: 50px;
+        margin-left: 0;
+        width: 400px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
     .blog-main .stand-out {
         padding: 100px 0;
     }
