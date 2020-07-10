@@ -1,25 +1,18 @@
 ---
 title: One Pagers
+type: subpage-resources
 ---
 
-https://cdn2.hubspot.net/hubfs/732832/One-pagers/CloudOps_ApplicationPlatformServices_General_8.5x11_WEB.pdf
-
-
-https://cdn2.hubspot.net/hubfs/732832/One-pagers/CloudOps_DevOps-As-A-Service_Solution_Brief.pdf
-
-https://cdn2.hubspot.net/hubfs/732832/EN_CloudOps_OP_Managed-Services-Solution-Brief_20-01-02.pdf
-
-https://cdn2.hubspot.net/hubfs/732832/Cloud-Ops_Cloud-Migration_v3.pdf
-
-https://cdn2.hubspot.net/hubfs/732832/One-pagers/EN_CloudOps_OP_DevOps%20Platform%20and%20Practices%20Assessment_20-03-18.pdf
-
-https://cdn2.hubspot.net/hubfs/732832/One-pagers/CloudCa_DataSheet_EN_v3%20(1).pdf
-
-https://cdn2.hubspot.net/hubfs/732832/One-pagers/EN_CloudOps_OP_Services%20on%20GCP_20-04-06-2.pdf
-
-https://cdn2.hubspot.net/hubfs/732832/One-pagers/Customer%20One%20Pager_CloudOps%20Services%20for%20DevOps%20Adoption.pdf
-
-https://cdn2.hubspot.net/hubfs/732832/One-pagers/EN_CloudOps_OP_Services_.pdf
-
-https://cdn2.hubspot.net/hubfs/732832/One-pagers/EN_DevOps-Transformation_Solution_Brief.pdf
-
+<div class="blog-main subpage-resources">
+<div class="hero jumbotron jumbotron-fluid">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-5 offset-xl-2 col-lg-7 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-xs-12">
+                        <h1 class="display-4">One Pagers</h1>
+                </div>
+                <div class="hero-image-container col-xl-3 offset-xl-0 col-lg-2 offset-lg-0 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-xs-12">
+                    <img src="/images/resources-landing.svg" width="200px">
+                </div>
+            </div>
+        </div>
+        </div>

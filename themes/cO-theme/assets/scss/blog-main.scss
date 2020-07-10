@@ -5,7 +5,7 @@
 
 .blog-main 
 .hero.jumbotron img {
-    margin-top: -90px;
+    margin-top: -100px;
     margin-left: 30px;
     width: 400px;
 }
@@ -85,6 +85,15 @@
     margin-bottom: 30px;
 }
 
+
+.blog-main.subpage-resources 
+.hero.jumbotron img {
+    margin-top: 0;
+    margin-left: 0;
+    width: 300px;
+}
+
+
 @media (max-width: 575.98px) {
     .blog-main .stand-out {
         padding: 80px 0;
@@ -109,6 +118,11 @@
     .blog-main 
     .hero.jumbotron {
         padding-bottom: 40px;
+    }
+
+    .blog-main.subpage-resources 
+    .hero.jumbotron img {
+        width: 260px;
     }
 
 

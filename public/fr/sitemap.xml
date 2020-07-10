@@ -125,16 +125,6 @@
   <url>
     <loc>/fr/blog/devopsdays-montreal-2019/</loc>
     <lastmod>2019-11-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/blog/devopsdays-montreal-2019/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/blog/devopsdays-montreal-2019/"
-                />
   </url>
   
   <url>
@@ -310,16 +300,6 @@
   <url>
     <loc>/fr/blog/devopsdays-montreal/</loc>
     <lastmod>2018-10-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/blog/devopsdays-montreal/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/blog/devopsdays-montreal/"
-                />
   </url>
   
   <url>

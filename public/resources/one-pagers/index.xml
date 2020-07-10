@@ -10,5 +10,32 @@
 	<atom:link href="/resources/one-pagers/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title></title>
+      <link>/resources/one-pagers/a-copy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/one-pagers/a-copy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/resources/one-pagers/a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/one-pagers/a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>/resources/one-pagers/a-copy-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/one-pagers/a-copy-2/</guid>
+      <description>.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -21,11 +21,15 @@
     color: #fff;
 }
 
+
 .landing-page
-.jumbotron.hero img {
-
+.jumbotron.hero.reading-landing {
+    background-image: linear-gradient(to bottom right, #47B7AF, #009187);
+    border-top: 3px solid #005D91;
+    background-size: auto;
+    margin-bottom: 0;
+    color: #fff;
 }
-
 
 .landing-page h2 {
     padding-top: 50px;
@@ -58,6 +62,10 @@
     margin-top: 50px;
 }
 
+.landing-page .main-content .white-paper-image img {
+    width: 360px;
+    border: 2px solid #404040;
+}
 
 .landing-page
 .brand-promises-card {
@@ -100,7 +108,7 @@
     border: 1px solid rgba(0,0,0,.125);
     vertical-align: middle;
     float: none;
-    height: 130px;
+    height: auto;
     min-width: 230px;
     max-width: 230px;
     margin: 10px 20px 10px 0;

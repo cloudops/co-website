@@ -891,9 +891,9 @@
 .contact-us-card .general-contact-form  li {
     font-family: 'Open Sans', sans-serif;
     color: #404040;
-    line-height: 1.2;
+    line-height: 1;
     font-size: 16px;
-    padding-bottom: 2px;
+    padding-bottom: 0;
 }
 
 .contact-us-card .general-contact-form li a {
@@ -902,7 +902,11 @@
 
 .contact-us-card .general-contact-form  li span {
     margin-left: 5px;
-    padding-top: 15px;
+    padding-top: 0;
+}
+
+.contact-us-card .general-contact-form .legal-consent-container .hs-form-booleancheckbox-display input {
+    margin-top: 5px;
 }
 
 .contact-us-card .general-contact-form input.hs-button {
@@ -916,17 +920,27 @@
     border: none; 
 }
 
-.contact-us-card .general-contact-form  li.hs-form-booleancheckbox .hs-form-booleancheckbox-display .hs-input {
-    margin-top: 15px;
-    width: 25px;
-    height: 25px;
-}
 
 .contact-us-card .general-contact-form .legal-consent-container .hs-form-booleancheckbox-display p {
-    padding-left: 30px;
+    padding-left: 15px;
     display: block;
     text-align: left;
-    font-size: 16px;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.contact-us-card .general-contact-form .legal-consent-container label.hs-form-booleancheckbox-display {
+    margin-bottom: 0;
+}
+
+.contact-us-card .general-contact-form .legal-consent-container .hs-form-booleancheckbox-display a {
+    font-size: 12px;
+    line-height: 1;
+}
+
+.contact-us-card .general-contact-form .hs-richtext p {
+    font-size: 12px;
+    line-height: 1;
 }
 
 .contact-us-card .general-contact-form input.hs-button:hover {
@@ -962,10 +976,14 @@
     margin-bottom: 0;
 }
 
+form option {
+    background: #FBFBFB;
+} 
+
 .contact-us-card .general-contact-form .input select {
-    margin-bottom: 30px;
     color: #404040;
     font-size: 16px;
+    box-shadow: 0;
 }
 
 .contact-us-card .general-contact-form li.hs-form-checkbox {
