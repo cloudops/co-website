@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html><head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   
+   
+   
+   
+   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.e43764f67f05066711fea169c4000e40d66601508531d3b303c809c380f9d36c.css" integrity="sha256-5Ddk9n8FBmcR/qFpxAAOQNZmAVCFMdOzA8gJw4D502w=" crossorigin="anonymous" media="screen" />
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="icon no-follow" href="/images/favicon.ico" type="image/x-icon">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,600i,700|Open+Sans:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8b2e2ddb4.js" crossorigin="anonymous"></script>
+
+
+    
+        <title>CloudOps - Cloud Native Meetup: K8s 1.9 Update, Lyft’s Migration to Envoy, and Cilium Networking</title>
+    
+</head><body>
+            
+            
+<div class="navbar-card" id="main-nav">
+  <nav class="navbar navbar-expand-xl">
+    
+    <a class="navbar-brand mr-auto" href="/">
+      <img src="/images/CO-logo-horizontal.svg" width="230px" alt="CloudOps logo">
+    </a>
+    <a class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto list-group list-group-flush">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="/solutions" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Solutions</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-12 nav-main-section">
+                <a href="/solutions"><button>Solutions Overview</button></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-0 solutions-dropdown-items-group">
+                <a href="/using-cloud"><h3 class="dropdown-item list-group-item list-group-item-action">Using Cloud</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/cloud-native-consulting">Cloud Native Consulting</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/cloud-migration">Cloud Migration</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/managed-services-augmented-support">Managed Services <br> Augmented Support</a>
+
+
+
+              </div>
+              <div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-1 solutions-dropdown-items-group">
+                <a href="/delivering-cloud"><h3 class="dropdown-item list-group-item list-group-item-action">Delivering Cloud</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/delivering-cloud-consulting">Consulting</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/managed-services-augmented-support">Managed Services <br> Augmented Support</a>
+              </div>
+
+              <div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-1 solutions-dropdown-items-group">
+                <a href="/transformations"><h3 class="dropdown-item list-group-item list-group-item-action">Transformations</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#devops-transformation">DevOps Transformation</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#cloudops-transformation">CloudOps Transformation</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#devnetops">DevNetOps Transformation</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+              </div>
+              <div class="col-xl-9 nav-cta horizontal-nav-cta">
+                  <a href="/devops-platform-practices-assessment" target="_blank"><h2>Not sure where to start?</h2>
+                <p>Your journey with CloudOps begins with a DevOps Platform and Practices Assessment to get an objective status report and recommendations</p><div class="triangle-right">
+                    <div class="inner-triangle"></div></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown" id="training-dropdown-menu">
+          <a class="nav-link" href="/training" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row solutions-dropdown-row">
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops">
+                <img src="/images/nav-workshops.svg" height="70px">
+                <h3>Workshops</h3></a>
+              </div>
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/experts">
+                <img src="/images/nav-experts.svg" height="70px">
+                <h3>Our Experts</h3></a>
+              </div>
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar">
+                <img src="/images/nav-calendar.svg" height="70px">
+                <h3>Calendar</h3></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+              </div>
+              <div class="col-xl-9 nav-cta horizontal-nav-cta">
+                <a href="/blog/quiz-are-you-a-kubernetes-unicorn/" target="_blank">
+                <h2>Are you a Kubernetes unicorn?</h2>
+                <p>Take our quiz to find out</p>
+              </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown reading-dropdown">
+          <a class="nav-link" href="/reading" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            data-reference="parent" data-offset="50%,20" aria-haspopup="true" aria-expanded="false">Reading</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="https://cdn2.hubspot.net/hubfs/732832/Gated%20Content/WP_Securing%20Your%20DevOps%20Platform%20Enterprise_2019.pdf" target="_blank">
+                <h2>Secure your DevOps platform</h2>
+                <p>White paper highlighting how to handle security challenges faced by enterprises</p>
+                </a>
+              </div>
+              <div class="col-xl-9">
+                <div class="row solutions-dropdown-row">
+                  <div class="col-xl-2 offset-xl-1 col-lg-2 offset-lg-1">
+                      <a href="/blog"><img src="/images/nav-blog.svg" height="70px"></a>
+                  </div>
+                  <div class="col-xl-3 col-lg-3">
+                      <a href="/blog"><h3 class="dropdown-item list-group-item list-group-item-action">Blog</h3></a>
+                      <a class="dropdown-item list-group-item list-group-item-action" href="#">Blog Posts</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#">Community News</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#">CloudOps Press</a>
+                  </div>
+                  <div class="col-xl-2 offset-xl-0 col-lg-2">
+                      <a href="/resources"><img src="/images/nav-resources.svg" height="70px"></a>
+                  </div>
+                  <div class="col-xl-3 col-lg-3">
+                    <a href="/resources"><h3 class="dropdown-item list-group-item list-group-item-action">Resources</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/white-papers/">White Papers</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/case-studies/">Case Studies</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/infographics/">Infographics</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/one-pagers/">One Pagers</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </li>
+        <li class="nav-item dropdown company-dropdown">
+          <a class="nav-link" href="/company" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            data-reference="parent" data-offset="50%,20" aria-haspopup="true" aria-expanded="false">Company</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="/blog/cloudops-manifesto/" target="_blank">
+                <h2>The CloudOps Manifesto</h2>
+                <p>11 key success factors we have learned from our adventures in the cloud</p></a>
+              </div>
+              <div class="col-xl-6 nav-main-section">
+                <a href="/why-cloudops"><button>Why choose CloudOps</button></a>
+                <div class="row sub-nav-items">
+                  <div class="col-xl-3 offset-xl-2 col-lg-3 offset-lg-3">
+                    <img src="/images/description-logo.svg" width="70px">
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/about-us"><h3>About Us</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/partners"><h3>Partners</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/careers"><h3>Careers</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar"><h3>Events Calendar</h3></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="blog/staff-augmentation-vs-project-based-services-for-devops-and-cloud-projects/">
+                <h2>Accelerate your software release cycles</h2>
+                <p>Comparing staff augmentation to project-based services for DevOps and cloud projects</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="/contact-us"><button class="btn" type="submit">Contact</button></a>
+        </li>
+        <li>
+          
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div><div class="container-fluid main-content">
+<main class="post">
+    <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
+            <article>
+                <header>
+                    <h1>Cloud Native Meetup: K8s 1.9 Update, Lyft’s Migration to Envoy, and Cilium Networking</h1>
+                    <div> February 2, 2018 / CloudOps </div>
+                </header>
+                
+                
+                
+                <img src="/blog/lyfts-migration-to-envoy-1-9-update-cilium-networking-meetup/Cynthia_hudaadf840e908329840b4e506310e6358_240531_400x0_resize_box_2.png" />
+                
+                
+                <p>CloudOps hosted an exciting event last night at the Centre cloud.ca in Montreal bringing in speakers from Seattle and Silicon Valley. The event included a 1.9 release update, and presentations on Lyft’s migration to Envoy, and Cilium Network Security. It was the first Kubernetes meetup of the year, and was the meetup that saw Kubernetes integrate into the broader Cloud Native Computing Foundation (CNCF) mission.</p>
+
+<p>Our very own Ayrat Kharetdinov was announced as a CNCF ambassador to continue his work expanding the open source community in Canada. Having devoted the last two years to promoting the education of Kubernetes in Canada through workshops and meetups, Ayrat has demonstrated extensive experience in using and deploying Kubernetes.</p>
+
+<p>Having been donated to the CNCF as a seed technology in 2015, Kubernetes has since taken off with the momentum deserving of an open source technology, and has changed the way we deploy and manage microservices. Now that it’s stabilized, other CNCF open source technologies need to be explored to truly expand upon the agility of microservices. By using Kubernetes alongside other CNCF projects, such as Envoy, Prometheus, Jaeger, OpenTracing, and now Rook, developers will gain access to open-source tooling that should drastically facilitate microservices development and observability, while avoid lock-in. Ayrat spoke about some of the exciting things we can expect from Kubernetes and integrated community projects, especially in light of the exciting features unveiled in the recent release of Kubernetes 1.9.</p>
+
+<p>As the second speaker, Constance Caramanolis spoke about <a href="https://www.lyft.com/" target="_blank" rel="noopener noreferrer">Lyft</a>’s journey deploying <a href="https://www.envoyproxy.io/" target="_blank" rel="noopener noreferrer">Envoy</a> and next steps for integrating with Kubernetes. Envoy was implemented and deployed incrementally at Lyft. Now that Envoy is integrated across Lyft’s infrastructure, the team is working on adopting Kubernetes. One main challenge is maintaining routing in a hybrid world – services running on the existing infrastructure and on kubernetes. Using Envoys’ control plane API’s, there exists a path to update routing information with no change to application code.</p>
+
+<p>Cynthia Thomas delved into the intricacies of the open source <a href="https://www.cilium.io/" target="_blank" rel="noopener noreferrer">Cilium</a> project, demonstrating a solution that addresses the challenge of exposing services via APIs by enforcing least privilege through application-aware security. Responding to the growing need for routing, load-balancing, and security infrastructure currently found in Kubernetes, Cilium uses BPF (Berkeley Packet Filter) in the Linux kernel, and contributes to Envoy as well. Cilium provides faster injection of Envoy and thus less latency, to work with Istio to build transparent infrastructure services with minimal overhead, with more details here.</p>
+
+<p>Envoy and Cilium are examples of the potential that expanding the Kubernetes community can bring. As next generation security, Cilium provides the network security at the application layer, enforcing security for any communication between pods. Envoy brings visibility to microservices by using sidecar patterns to attach to pods transferring service communication in the data plane. Working alongside other CNCF projects, Envoy and Cilium offer the possibility of truly stepping into the agility promised by Kubernetes.</p>
+
+<p>CloudOps is committed to spreading education about open source projects and growing the community. As Constance said, “the level of engagement in the Montreal community is impressive, there was a large turnout and the quality of the questions was good.” CloudOps is proud to help expand the CNCF community in Canada, in conjunction with our 2018 sponsors. Our gold sponsors include <a href="https://www.aquasec.com/ " target="_blank" rel="noopener noreferrer">Aqua</a>, <a href="https://www.microsoft.com/en-ca/" target="_blank" rel="noopener noreferrer">Microsoft</a>, and <a href="https://www.redhat.com/en" target="_blank" rel="noopener noreferrer">Red Hat</a>. Our silver sponsors are<a href="https://jfrog.com/" target="_blank" rel="noopener noreferrer">JFrog</a> and<a href="https://about.gitlab.com/" target="_blank" rel="noopener noreferrer">Gitlab</a>, and bronze includes the Cilium project.</p>
+
+<p>If your organization would like to sponsor our Kubernetes and Cloud Native meetups, please reach out to us <a href="mailto:jsimon@cloudops.com" target="_blank" rel="noopener noreferrer">here</a> (they run in <a href="https://www.meetup.com/Kubernetes-Montreal/" target="_blank" rel="noopener noreferrer">Montreal</a>, <a href="https://www.meetup.com/Kubernetes-Toronto/" target="_blank" rel="noopener noreferrer">Toronto</a>, <a href="https://www.meetup.com/Kubernetes-Ottawa/" target="_blank" rel="noopener noreferrer">Ottawa</a>, <a href=" https://www.meetup.com/Kubernetes-Quebec/" target="_blank" rel="noopener noreferrer">Quebec City</a>, and <a href="https://www.meetup.com/Kubernetes-Kitchener-Waterloo/" target="_blank" rel="noopener noreferrer">Kitchener-Waterloo</a>).</p>
+
+<h3><img style="width: 110px; float: left; margin: 5px 20px 20px 0;" class="size-full wp-image-749 alignleft" title="Ayrat Kharetdinov" src="/images/blog/post/Archie.jpg" alt="" width="110" height="110">Ayrat Kharetdinov</h3>
+
+<p>Ayrat Kharetdinov is a Solutions Architect at CloudOps. Find him on Twitter @archyufa.</p>
+
+<h3><img style="width: 110px; float: left; margin: 5px 20px 20px 0;" class="size-full wp-image-749 alignleft" title="Constance Caramanolis" src="/images/blog/post/Constance.jpg" alt="" width="110" height="110">Constance Caramanolis</h3>
+
+<p>Constance Caramanolis is a Software Engineer at Lyft. Find her on Twitter @ccaramanolis.</p>
+
+<h3><img style="width: 110px; float: left; margin: 5px 20px 20px 0;" class="size-full wp-image-749 alignleft" title="Cynthia Thomas" src="/images/blog/post/Cynthia-Thmas.jpg" alt="" width="110" height="110">Cynthia Thomas</h3>
+
+<p>Cynthia Thomas is a Technology Evangelist at Covalent.io. Find her on Twitter @_techcet_.</p>
+
+<div class="divider shortcode-divider"></div>
+
+            </article>
+        </div>
+    </div>
+
+
+    <div class="row nav-buttons back-foward in-content">
+        <div
+            class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-xs-2 back-button">
+            
+            <a href="/blog/lost-at-sea-navigating-the-complexities-of-kubernetes/"><button class="btn">
+                    <div class="triangle-left">
+                        <div class="inner-left-triangle"></div>
+                    </div>Previous Post
+                </button></a>
+            
+        </div>
+        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-xs-2 foward-button">
+                
+            <a href="/blog/setting-the-stage-for-2018/">
+                <button class="btn">
+                    Next Post<div class="triangle-right">
+                        <div class="inner-triangle"></div>
+                    </div>
+                </button></a>
+                
+        </div>
+    </div>
+
+    <div class="social">
+        
+
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+position: relative;
+text-align: left; 
+height: 36px; 
+float: left; 
+text-align: center;
+}
+#share-buttons > div > svg {height: 36px; fill: #005D91; margin-top: 0;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.facebook > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.twitter > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.linkedin > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.mail > svg {height: 30px; margin: auto 5px;}
+</style>
+
+<div id="share-buttons">
+<div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=\/blog\/lyfts-migration-to-envoy-1-9-update-cilium-networking-meetup\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
+<div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/home?status=\/blog\/lyfts-migration-to-envoy-1-9-update-cilium-networking-meetup\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
+<div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=\/blog\/lyfts-migration-to-envoy-1-9-update-cilium-networking-meetup\/&title=&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
+<div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body=\/blog\/lyfts-migration-to-envoy-1-9-update-cilium-networking-meetup\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
+</div>
+
+        <i class="far fa-copy copy-page-link"></i>
+    </div>
+
+    
+
+    <div class="contact-us-card general-stylings-more-content">
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-cards">
+                    <div class="card-deck">
+                        <div class="card">
+                            <a
+                                href="https://cdn2.hubspot.net/hubfs/732832/CloudOps%20White%20Paper%20-%20A%20PreFlight%20Checklist%20for%20Cloud%20Migration.pdf">
+                                <div class="card-body">
+                                    <h3 class="card-title">A checklist for your cloud migration</h3>
+                                    <p class="card-text">Download the white paper to get a step by step guide to a successful migration strategy.</p>
+                                </div>
+                                <div class="corner-triangle"></div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a
+                                href="/blog/the-cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration">
+                                <div class="card-body">
+                                    <h3 class="card-title"> Accelerated value delivery</h3>
+                                    <p class="card-text">Read more on how to maximize value through our unique delivery model.</p>
+                                    <div class="corner-triangle"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="https://cdn2.hubspot.net/hubfs/732832/Cloud-Ops_Cloud-Migration_v3.pdf">
+                            <div class="card-body">
+                                <h3 class="card-title">Cloud migration one-pager</h3>
+                                <p class="card-text">
+                                    Everything you need to know about how our services can help get your cloud journey started.
+                                    <div class="corner-triangle"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="/contact-us">
+                            <div class="card-body">
+                                <h3 class="card-title">Networking is the hardest part</h3>
+                                <p class="card-text">Contact us to learn more about our hardware and software-defined networking solutions.</p>
+                                <div class="corner-triangle"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+        </div><div class="footer">
+    <div class="row no-gutters logo">
+        <div class="col-sm-12">
+            <a href="/"><img class="cloudops-logo" src="/images/cO-logo-horizontal.png"
+                    height="45px" width="auto"></a>
+        </div>
+    </div>
+
+    <div class="row no-gutters footer-content">
+        <div class="col-xl-3 offset-xl-2 col-lg-3 offset-lg-0 col-md-12">
+
+            <a href="https://twitter.com/CloudOps_" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/cloudops" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/Cloud0ps/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <h5>Newsletter Signup</h5>
+            <div class="newsletter-form">
+                    <div class="newsletter-form">
+
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "732832",
+	formId: "25575fb9-f01b-43a6-b9cd-2c154efad9f4"
+});
+</script>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-12 col-sm-12 footer-nav">
+            <h6>Services</h6>
+            <ul>
+                <li><a href="/cloud-native-consulting">Cloud Native Consulting</a></li>
+                <li><a href="/transformations">Transformations</a></li>
+                <li><a href="/managed-services-augmented-support">Support</a></li>
+                <li><a href="/delivering-cloud">Cloud Delivery</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-12 footer-nav">
+            <h6>Learning</h6>
+            <ul>
+                <li><a href="/workshops">Workshops</a></li>
+                <li><a href="/blog/blog-posts">Blog</a></li>
+                <li><a href="/resources/white-papers">White Papers</a></li>
+                <li><a href="/resources/case-studies">Case Studies</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-12 footer-nav">
+            <h6>Company</h6>
+            <ul>
+                <li><a href="/about-us">About Us</a></li>
+                <li><a href="/careers">Careers</a></li>
+                <li><a href="/partners">Partners</a></li>
+                <li><a href="/why-cloudops">Why Cloudops</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row no-gutters copyright">
+        <div class="col-sm-12">
+            <p>&copy; CloudOps. All rights Reserved. // <a href="/privacy-policy">Privacy Policy</a></p>
+        </div>
+    </div>
+</div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
+        <script src="/js/main.js"></script>
+
+        </body>
+</html>

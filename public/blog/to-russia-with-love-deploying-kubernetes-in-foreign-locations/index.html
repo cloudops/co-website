@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html><head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   
+   
+   
+   
+   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.e43764f67f05066711fea169c4000e40d66601508531d3b303c809c380f9d36c.css" integrity="sha256-5Ddk9n8FBmcR/qFpxAAOQNZmAVCFMdOzA8gJw4D502w=" crossorigin="anonymous" media="screen" />
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="icon no-follow" href="/images/favicon.ico" type="image/x-icon">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,600i,700|Open+Sans:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8b2e2ddb4.js" crossorigin="anonymous"></script>
+
+
+    
+        <title>CloudOps - To Russia with Love: Deploying Kubernetes in Foreign Locations</title>
+    
+</head><body>
+            
+            
+<div class="navbar-card" id="main-nav">
+  <nav class="navbar navbar-expand-xl">
+    
+    <a class="navbar-brand mr-auto" href="/">
+      <img src="/images/CO-logo-horizontal.svg" width="230px" alt="CloudOps logo">
+    </a>
+    <a class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto list-group list-group-flush">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="/solutions" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Solutions</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-12 nav-main-section">
+                <a href="/solutions"><button>Solutions Overview</button></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-0 solutions-dropdown-items-group">
+                <a href="/using-cloud"><h3 class="dropdown-item list-group-item list-group-item-action">Using Cloud</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/cloud-native-consulting">Cloud Native Consulting</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/cloud-migration">Cloud Migration</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/managed-services-augmented-support">Managed Services <br> Augmented Support</a>
+
+
+
+              </div>
+              <div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-1 solutions-dropdown-items-group">
+                <a href="/delivering-cloud"><h3 class="dropdown-item list-group-item list-group-item-action">Delivering Cloud</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/delivering-cloud-consulting">Consulting</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/managed-services-augmented-support">Managed Services <br> Augmented Support</a>
+              </div>
+
+              <div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-1 solutions-dropdown-items-group">
+                <a href="/transformations"><h3 class="dropdown-item list-group-item list-group-item-action">Transformations</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#devops-transformation">DevOps Transformation</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#cloudops-transformation">CloudOps Transformation</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#devnetops">DevNetOps Transformation</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+              </div>
+              <div class="col-xl-9 nav-cta horizontal-nav-cta">
+                  <a href="/devops-platform-practices-assessment" target="_blank"><h2>Not sure where to start?</h2>
+                <p>Your journey with CloudOps begins with a DevOps Platform and Practices Assessment to get an objective status report and recommendations</p><div class="triangle-right">
+                    <div class="inner-triangle"></div></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown" id="training-dropdown-menu">
+          <a class="nav-link" href="/training" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row solutions-dropdown-row">
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops">
+                <img src="/images/nav-workshops.svg" height="70px">
+                <h3>Workshops</h3></a>
+              </div>
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/experts">
+                <img src="/images/nav-experts.svg" height="70px">
+                <h3>Our Experts</h3></a>
+              </div>
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar">
+                <img src="/images/nav-calendar.svg" height="70px">
+                <h3>Calendar</h3></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+              </div>
+              <div class="col-xl-9 nav-cta horizontal-nav-cta">
+                <a href="/blog/quiz-are-you-a-kubernetes-unicorn/" target="_blank">
+                <h2>Are you a Kubernetes unicorn?</h2>
+                <p>Take our quiz to find out</p>
+              </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown reading-dropdown">
+          <a class="nav-link" href="/reading" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            data-reference="parent" data-offset="50%,20" aria-haspopup="true" aria-expanded="false">Reading</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="https://cdn2.hubspot.net/hubfs/732832/Gated%20Content/WP_Securing%20Your%20DevOps%20Platform%20Enterprise_2019.pdf" target="_blank">
+                <h2>Secure your DevOps platform</h2>
+                <p>White paper highlighting how to handle security challenges faced by enterprises</p>
+                </a>
+              </div>
+              <div class="col-xl-9">
+                <div class="row solutions-dropdown-row">
+                  <div class="col-xl-2 offset-xl-1 col-lg-2 offset-lg-1">
+                      <a href="/blog"><img src="/images/nav-blog.svg" height="70px"></a>
+                  </div>
+                  <div class="col-xl-3 col-lg-3">
+                      <a href="/blog"><h3 class="dropdown-item list-group-item list-group-item-action">Blog</h3></a>
+                      <a class="dropdown-item list-group-item list-group-item-action" href="#">Blog Posts</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#">Community News</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="#">CloudOps Press</a>
+                  </div>
+                  <div class="col-xl-2 offset-xl-0 col-lg-2">
+                      <a href="/resources"><img src="/images/nav-resources.svg" height="70px"></a>
+                  </div>
+                  <div class="col-xl-3 col-lg-3">
+                    <a href="/resources"><h3 class="dropdown-item list-group-item list-group-item-action">Resources</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/white-papers/">White Papers</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/case-studies/">Case Studies</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/infographics/">Infographics</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/one-pagers/">One Pagers</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </li>
+        <li class="nav-item dropdown company-dropdown">
+          <a class="nav-link" href="/company" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            data-reference="parent" data-offset="50%,20" aria-haspopup="true" aria-expanded="false">Company</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="/blog/cloudops-manifesto/" target="_blank">
+                <h2>The CloudOps Manifesto</h2>
+                <p>11 key success factors we have learned from our adventures in the cloud</p></a>
+              </div>
+              <div class="col-xl-6 nav-main-section">
+                <a href="/why-cloudops"><button>Why choose CloudOps</button></a>
+                <div class="row sub-nav-items">
+                  <div class="col-xl-3 offset-xl-2 col-lg-3 offset-lg-3">
+                    <img src="/images/description-logo.svg" width="70px">
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/about-us"><h3>About Us</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/partners"><h3>Partners</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/careers"><h3>Careers</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar"><h3>Events Calendar</h3></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="blog/staff-augmentation-vs-project-based-services-for-devops-and-cloud-projects/">
+                <h2>Accelerate your software release cycles</h2>
+                <p>Comparing staff augmentation to project-based services for DevOps and cloud projects</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="/contact-us"><button class="btn" type="submit">Contact</button></a>
+        </li>
+        <li>
+          
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div><div class="container-fluid main-content">
+<main class="post">
+    <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
+            <article>
+                <header>
+                    <h1>To Russia with Love: Deploying Kubernetes in Foreign Locations</h1>
+                    <div> March 20, 2019 / CloudOps </div>
+                </header>
+                
+                
+                
+                <img src="/blog/to-russia-with-love-deploying-kubernetes-in-foreign-locations/Russia_hu231e92ece7b2dc3d256615e400085b5d_287338_400x0_resize_box_2.png" />
+                
+                
+                <p>A few years ago, CloudOps started working with a large European client who wanted to migrate their workloads into Google Cloud Platform (GCP). They were looking to modernize their application with containers and use the most mature Kubernetes distribution at the time: Google Kubernetes Engine (GKE). They additionally wanted their application platform to use libraries of automation recipes based on Terraform and Ansible. CloudOps helped them through this migration process, and the architecture was completed in March, 2018.</p><h4>Deploying Kubernetes in Exotic Locations</h4><div class="wp-block-image"> <figure class="alignright is-resized"><img src="https://lh5.googleusercontent.com/-L6R3GytfTDYYL3REVM2KTaBTbiqtLo_sX5j_Wrn8PZXpsQ6iWLiEsBJ8myIDPzm0BuHfevHWk6yz2YDGTteUZ4UgNIJ9PQt4ka7z8ybSIeOOn72PuCkWVp_sPbmQaulJQSmQEA7" alt="" width="343" height="195"></figure></div><p>The existing architecture, shown in the image to the left, had a hardware-based load balancer, which served as an entry point and was able to service content both from our CDN as well as the actual application running inside Kubernetes. The architecture was comprised of many components. Redis was used for session caching. Fluentd was a logging container, which integrated directly with GCP’s StackDriver. We created a custom Fluentd container that logged into a custom ELK stack. These components all had to be migrated to an on-prem provider based in Russia.</p><p>The architecture met our client’s key technical and business requirements. However, they had a large number of customers in the Russian Federation, which requires Russian data sovereignty for all individuals in Russia (through 152-FZ). Our client therefore needed to augment their containerized infrastructure in GCP with a solution hosted in Russia. There were a few steps along the way.</p><h2>Finding a Cloud Provider</h2><p>To date, there are no hyper-scale cloud providers in Russia, including GCP, so a traditional VM hosting on-prem solution was the only option.</p><p>Finding a Russian on-prem provider was the first step. We evaluated about five, and they all varied greatly in quality. We eventually chose a VMWare CloudDirector-based provider that has fully 152-FZ compliant environments and was able to boast a few Terraform plugins.</p><h2>Automating and/or Provisioning VMs</h2><p>The cloud provider had a Terraform provider plugin, but it was difficult to use because of the geographic distance between their API servers and our teams. This made states unreliable and caused many timeouts. Additionally, the plugins were using outdated versions of VMWare products that were incompatible.</p><p>All this meant we couldn’t use most of our automation recipes. As we couldn’t reliably use this Terraform provider to automate much of the work, we ended up having to manually configure new recipes for this specific use case.</p><p>Our hosts needed to work in two different flavours of Debian 9 base images, with 40 and 100 gigabyte root disks respectively. We created a base image to run automations against in order to secure VMs that could be used to build the infrastructure. It was a very manual and time-consuming process, but it allowed our computing resources to reach Russia. With time, the UI became easier to use.</p><p>The UI itself was a funny story. It was an old version of Cloud Director and was a Flash-based administrative UI. They recommended that we use Internet Explorer to make sure all it’s features worked. This should raise many red flags in the reader’s mind, as it did in the author’s. Opting for caution, we ran the UI inside a dedicated VM with nothing else on it for a few months before trusting the application.  Fortunately, the UI has been working without issues for over a year now. We were successfully able to provision all the VMs and could move to the next step.</p><h2>Choosing a Kubernetes Distribution</h2><p>As we couldn’t use or extend any public cloud managed Kubernetes service, namely GKE, EKS, or AKS, we had to find a Kubernetes distribution that was completely self-contained and easy to operate.</p><p>We didn’t want to use Kubespray or Kubeadm as they both take too long to install and are complex to configure and run. They also both historically had issues creating multi-master setups and were known for making operating clusters difficult in the long-run.</p><p>We decided to use Rancher Kubernetes Engine (RKE), which I think is the <a href="https://medium.com/@cfatechblog/bare-metal-k8s-clustering-at-chick-fil-a-scale-7b0607bd3541">the best custom Kubernetes installer to date</a>. All RKE requires to install Kubernetes clusters is a VM box that runs Docker and is preferably compatible with a Kubernetes version. You can still run non-compatible versions, but there are more risks. You also need an SSH login, but that’s it – really!<br>There are many reasons why RKE is increasingly being viewed as the best open source Kubernetes distribution. Chick-fil-A wrote an interesting <a href="https://medium.com/@cfatechblog/bare-metal-k8s-clustering-at-chick-fil-a-scale-7b0607bd3541">article</a> explaining why they reached that conclusion too.</p><h2>Operating Rancher Kubernetes Engine</h2><p>To run RKE, we downloaded the single ‘rke’ binary and created a single YAML file that would specify our Kubernetes cluster.</p><p>RKE has a set of commands to operate, install, or decommission clusters. The basic command, ‘rke up’, will connect SSH tunnels, detect the state of your cluster, and then bootstrap a Kubernetes installation.</p><p>This altogether allows you to run Kubernetes entirely inside Docker images that come from Rancher. It took us five minutes to bootstrap a Kubernetes cluster with three master nodes and five worker nodes. The multi-master worked out of the box with a fully distributed etcd. Once the cluster is provisioned, the RKE binary would exit and output a KUBECONFIG client certificate that could be used to interact with the cluster. Customizing configurations was simple with RKE.</p><pre>       spec:
+        imagePullSecrets:
+        - name: my-gcr-secret
+      nodes:
+        address: masterworker
+        port: “22”
+        role: 
+        controlplane
+        etcd
+        worker
+      services:
+        Kube-api:
+        Service_cluster_ip_range: 10.43.0.0/21
+      network: 
+        plugin: canal
+      authentication:
+        strategy: x509
+      ssh_key_path: “/path/to/key”
+      authorization:
+        mode: rbac
+      ignore_docker_version: true
+      docker
+      cluster_name: “my-cluster”
+</pre><p>The image to the left shows a minimal RKE configuration file, showing what must be set. At the very least, you need a single node that you define as a controlplane, an etcd, a worker node, or any combination thereof. Define the IP ranges for your pods and services. In our case, we were using the <em>canal</em> CNI. This meant that we didn’t need to pick addresses that could be routed outside the cluster as they were encapsulated packets. Pick any reasonable range – I find 10.43 to be a good range. Define the cluster DNS server (11th IP of the Service address range is standard, so .10). Finally, enable RBAC and tell it to ignore Docker versions.</p><p>RKE is easy to install and is known for its simple lifecycle management.</p><p>To add new nodes, simply add them to the appropriate section in cluster.yaml and run ‘rke up’ once again.</p><p>To decommission nodes, remove them from the cluster.yaml and run ‘rke up.’</p><p>You can also fix specific components of Kubernetes without upgrading the entire cluster by changing the Docker image to the desired version. <br>To upgrade Kubernetes entirely, adjust cluster.yaml, add a new binary, and run ‘rke up.’ RKE will do rolling restarts and upgrades. Whatever you do, <strong>remember not to skip in-between versions when upgrading.</strong></p><h2>Solving for Key Cloud Features</h2><p></p><p>RKE is a great tool but is not a complete solution in of itself for our use case. There are a few key features missing:</p><p> – The ability to communicate with Google Container Registry to pull images<br> – An analog for CloudSQL<br> – Container Storage Interface (CSI Driver) that can enable persistent volumes and persistent volume claims<br> – Load balancer<br> – Analog for Google Object Storage<br> – Analog for CloudCDN</p><p></p><p>Our use case needed each of these features. Let’s take a look at how we solved each of these problems in order.</p><h3>Google Container Registry</h3><p>To pull images from the Google Container Registry, we used a remote Kubernetes secret from GCR outside of GCP. We were able to do so because none of these images contained customer data. With a proper Kubernetes secret, it’s easy to enable remote pulling of images from GCR outside of GCP:</p><pre>       apiVersion: v1
+      data:
+        .dockerconfigjson: BASE64_ENCODED_SERVICE_ACCOUNT_JSON_KEY
+      kind: Secret
+      metadata:
+        name: my-gcr-secret
+        namespace: default
+      type: kubernetes.io/dockerconfigjson
+</pre><p>And then use that secret the deployment manifest:</p><pre>       spec:
+            imagePullSecrets:
+            - name: my-gcr-secret
+</pre><h3>Analog for CloudSQL</h3><p>To solve for running CloudSQL on-prem, we just had to install MySQL.</p><p>We used the same Debian 9 image that we used in Kubernetes clusters. We were able to use some of our existing Ansible playbooks to configure MySQL 5.7.</p><p>We did a standard deployment of a single master with two slaves. One was a real time slave for doing reporting and failover. The other was a time delayed slave that shipped binlogs instantly, but didn’t apply them for thirty days. This allowed us to restore them to a point in time even if there was a replicated corruption.</p><p>CloudSQL and Google Container Registry were both fairly straightforward problems to solve.</p><h3>Storage Solution – CDN</h3><p>Object Storage required a more interesting solution.</p><p>At the time, Rook/Ceph were not production ready on-premises, so we used GlusterFS, an off-the-shelf technology from RedHat, to provide object-like storage functionality.</p><p>We set up two NGINX Ingress nodes to serve content from GlusterFS to act as Content Delivery Network (CDN) as well as reverse proxy the Kubernetes cluster service NodePorts and Ingress ports.</p><p>Each Ingress node gets replicated data in GlusterFS on a dedicated device brick and serves data from GlusterFS on a specific path for all CDN data.</p><p>The GlusterFS volume would then be mounted on Kubernetes worker nodes for read/write and added to the deployment as a HostPath volume under /cdn-data. This would allow each pod to write content for the CDN.</p><p>This was an adequate solution for object storage and CDN.</p><h3>Storage Solution – Redis</h3><p>Depending on which flavour of Redis you use, you may need to use persistent volume claims to store its data in session caches. We were using the Helm version of Redis as a session cache, which does require PVCs. Since we had no PVC ability, we temporarily reconfigured the application to use the SQL database as a session cache instead of Redis as a workaround.</p><h3>Final Storage Solution – Rook/Ceph</h3><p>In December 2018, at Kubecon in Seattle, Rook/Ceph was promoted as an ‘incubating’ project at the CNCF, and the Ceph driver was marked production ready. &nbsp;&nbsp;We decided it was time for us to start using this technology, albeit in a limited manner: to provide Persistent Storage to Redis Session Cache and possibly for the ElasticSearch component part of ELK. This way, if we experienced operational difficulties with Rook/Ceph, we’d at most lose Logging Data (not the end of the world) and Sessions would invalidate (also not a huge deal relatively speaking).</p><p>There is a minor configuration change that is required for RKE’s cluster.yaml file to allow it to pick up the CSI Driver that Rook will install once it’s running:</p><pre>       kubelet:
+       extra_args:
+        volume-plugin-dir: 
+      /usr/libexec/kubernetes/kubelet- plugins/volume/exec
+       extra_binds:
+        - 
+/usr/libexec/kubernetes/kubelet-plugins/volume/exec:/usr/libexec/kubernetes/kubelet-plugins/volume/exec
+</pre><p>Running ‘rke up’ on an existing cluster will fix this in place.</p><p>Finally we can add the Rook Helm Chart Repo to our local Helm install, and install the Rook Operator (v0.9.3 as of this writing):</p><pre>helm repo add rook-stable https://charts.rook.io/stablehelm install --namespace rook-ceph-system rook-stable/rook-ceph
+</pre><p>From there we used the examples in the Rook source tree located under <em>/cluster/examples/kubernetes/ceph </em>to create a ‘Ceph Cluster’ (cluster.yaml) and a Storage Class (storageclass.yaml) to allocate a Ceph Replica Pool and tie it together with a Kubernetes Storage Class (called <em>rook-ceph-block</em>).</p><p><strong>IMPORTANT</strong>: the default values are definitely not production ready here. Specifically, the <em>replicated.size</em> configuration item in storageclass.yaml is default 1. &nbsp;This means every bit of data stored in the Rook/Ceph cluster only exists once. &nbsp;Depending on the number of nodes in your cluster, you may want to increase this. For our use case, in production, we went with <em>replicated.size: 3</em></p><p>We can now use Redis, telling it to use that storage class using Helm.</p><pre>       helm install --name=redis stable/redis \ 
+      --set master.persistence.storageClass=rook-ceph-block\ 
+      --set slave.persistence.storageClass=rook-ceph-block
+</pre><h3>Find a Logging Solution</h3><p>Fluentd is the de facto standard logging agent for Kubernetes that is also used by GKE. It’s implemented in Ruby and has a non-dynamic language-based agent in development (called fluent-bit).</p><p>It has many input and output plugins and has been under active development for a few years. We needed our logging solution to be a comprehensive monitoring configuration for Kubernetes, have sane application log parsing out of the box, and sink to ElasticSearch (E from ELK).</p><p>We had to use a custom configuration to do so. Version 1.2 has a dependency on a non-standard Debian library that exists on the worker node and causes a very high load if absent. The out-of-the-box JSON in JSON parsing didn’t work. We found this to be the best version of the FluentD image to use for our use case:</p><pre>       fluent/fluentd-kubernetes-daemonset:v1.3.1-debian-elasticsearch-1.3
+</pre><p>We appended the following configuration to Fluentd image <em>kubernetes.conf </em>to enable proper JSON parsing of our application logs and to cast some log item types for easier searching in ElasticSearch:</p><pre>      @type parser
+      
+        @type json
+        json_parser json
+        types elapsed_time:float,status_code:integer,bytes_sent:integer
+      
+      replace_invalid_sequence true
+      emit_invalid_record_to_error false
+      key_name log
+      reserve_data true
+    
+</pre><p>We placed the complete contents into a configmap called ‘fluentd-config’ that had a single key ‘kubernetes.conf’ which contained the entire fluentd config. We then mounted that config into the FluentD, overriding the kubernetes.conf from inside the image:</p><pre>       volumes:
+        - name: fluentd-config
+          configMap:
+            name: fluentd-config
+
+      volumeMounts:
+        - name: fluentd-config
+          subPath: kubernetes.conf
+          mountPath: /fluentd/etc/kubernetes.conf
+</pre><h3>Find more Compute Resources</h3><p>The Russian installation initially had a separate dedicated ELK cluster (3 VMs for HA). It was both underutilized and overprovisioned.</p><p>We wanted to use the compute resources in the Kubernetes cluster, and run ELK inside. We were able to use The official Elastic-Stack Helm chart to do so.</p><p>We wiped the ELK cluster VMs with a fresh Debian 9 image and then added the old ELK nodes to the RKE ‘cluster.yaml’ file as ‘worker’ nodes and then ran ‘rke up.’ A few minutes later, the compute capacity from the ELK cluster had been moved to the Kubernetes cluster.</p><p>Finally, we installed ELK using Helm:</p><pre>       helm install --name elk stable/elastic-stack \
+      --set elasticsearch.data.persistence.size=50Gi \
+      --set elasticsearch.data.persistence.storageClass=rook-ceph-block \
+      --set elasticsearch.master.persistence.storageClass=rook-ceph-block \
+--set kibana.env.ELASTICSEARCH_URL=http://elk-elasticsearch-client:9200
+</pre><p><strong>IMPORTANT:</strong> Kubernetes’ default settings for ELK assume a certain performance profile. The default JVM Heap memory configuration for ElasticSearch is quite low compared to a standalone (outside of Kubernetes) cluster, so be aware of how much data you are sending there daily. You MUST use a curator to close indices and eventually clean them up. For our use case, we decided to keep 3 days of open indices in memory, and trimmed data older than 90 days. You may opt to keep indices in memory longer, and therefore increase the JVM Heapsize for the ElasticSearch Server, which can be set with an override value on the Helm chart.</p><h3>Load Balancing</h3><p>The Russian cloud provider didn’t have the ability to assign hardware load balancers to front the infrastructure. The solution we decided to use had two NGINX Ingress nodes and a round robin DNS resolutions for every request. It was an adequate solution that was able to reverse proxy all traffic on 80 and 443 while serving CDN traffic on another path. Our solution used no SSL termination, which may have reset some ssl sessions. Instead, we used the NGINX Ingress controller in Kubernetes instead.</p><h2>End State</h2><div class="wp-block-image"> <figure class="alignright is-resized"><img src="https://lh5.googleusercontent.com/F7hsy60o6Zg45XPfmRVMIICwTjWv2eQxDOZXGnApAKHCwJmjS4JthvHFz5ir7Ln3RTvsfpwRDjzPM-ys1IASIC7FXm2KSunriN7BziCbofxGsmmH3cgjDmqebju9dW2Pv_3ULIfb" alt="" width="341" height="223"></figure></div><p>There were a few unexpected challenges along the way, but we were successfully able to build a Russian on-prem augmentation to our client’s GCP infrastructure. We had to adapt our usual processes and the Russian deployment looked quite different from the main infrastructure, but everything ended up working well. The process of deploying Kubernetes on prem took a bit more time as we couldn’t rely on our tried and true recipes and processes. Nonetheless, it was great to see the infrastructure up and running.</p><p>Learn more about modernizing your application with containers and sign up for one of our hands-on <a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="https://www.cloudops.com/workshops/" target="_blank">DevOps workshops</a> available remotely and in a variety of cities. Visit our <a href="https://www.cloudops.com/workshop-calendar/#upcoming" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">workshops calendar</a> for more information.</p>
+
+<div class="row">
+    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
+      <img src="/images/blog/cta/devops-workshop.webp">
+    </div>
+</div>
+
+            </article>
+        </div>
+    </div>
+
+
+    <div class="row nav-buttons back-foward in-content">
+        <div
+            class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-xs-2 back-button">
+            
+            <a href="/blog/driving-feature-velocity-through-cultural-change-why-devops-puts-mindset-before-technology/"><button class="btn">
+                    <div class="triangle-left">
+                        <div class="inner-left-triangle"></div>
+                    </div>Previous Post
+                </button></a>
+            
+        </div>
+        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-xs-2 foward-button">
+                
+            <a href="/blog/cloud-native-gaming-what-google-stadia-has-to-offer/">
+                <button class="btn">
+                    Next Post<div class="triangle-right">
+                        <div class="inner-triangle"></div>
+                    </div>
+                </button></a>
+                
+        </div>
+    </div>
+
+    <div class="social">
+        
+
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+position: relative;
+text-align: left; 
+height: 36px; 
+float: left; 
+text-align: center;
+}
+#share-buttons > div > svg {height: 36px; fill: #005D91; margin-top: 0;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.facebook > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.twitter > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.linkedin > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.mail > svg {height: 30px; margin: auto 5px;}
+</style>
+
+<div id="share-buttons">
+<div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=\/blog\/to-russia-with-love-deploying-kubernetes-in-foreign-locations\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
+<div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/home?status=\/blog\/to-russia-with-love-deploying-kubernetes-in-foreign-locations\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
+<div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=\/blog\/to-russia-with-love-deploying-kubernetes-in-foreign-locations\/&title=&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
+<div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body=\/blog\/to-russia-with-love-deploying-kubernetes-in-foreign-locations\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
+</div>
+
+        <i class="far fa-copy copy-page-link"></i>
+    </div>
+
+    
+
+    <div class="contact-us-card general-stylings-more-content">
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-cards">
+                    <div class="card-deck">
+                        <div class="card">
+                            <a
+                                href="https://cdn2.hubspot.net/hubfs/732832/CloudOps%20White%20Paper%20-%20A%20PreFlight%20Checklist%20for%20Cloud%20Migration.pdf">
+                                <div class="card-body">
+                                    <h3 class="card-title">A checklist for your cloud migration</h3>
+                                    <p class="card-text">Download the white paper to get a step by step guide to a successful migration strategy.</p>
+                                </div>
+                                <div class="corner-triangle"></div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a
+                                href="/blog/the-cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration">
+                                <div class="card-body">
+                                    <h3 class="card-title"> Accelerated value delivery</h3>
+                                    <p class="card-text">Read more on how to maximize value through our unique delivery model.</p>
+                                    <div class="corner-triangle"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="https://cdn2.hubspot.net/hubfs/732832/Cloud-Ops_Cloud-Migration_v3.pdf">
+                            <div class="card-body">
+                                <h3 class="card-title">Cloud migration one-pager</h3>
+                                <p class="card-text">
+                                    Everything you need to know about how our services can help get your cloud journey started.
+                                    <div class="corner-triangle"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="/contact-us">
+                            <div class="card-body">
+                                <h3 class="card-title">Networking is the hardest part</h3>
+                                <p class="card-text">Contact us to learn more about our hardware and software-defined networking solutions.</p>
+                                <div class="corner-triangle"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+        </div><div class="footer">
+    <div class="row no-gutters logo">
+        <div class="col-sm-12">
+            <a href="/"><img class="cloudops-logo" src="/images/cO-logo-horizontal.png"
+                    height="45px" width="auto"></a>
+        </div>
+    </div>
+
+    <div class="row no-gutters footer-content">
+        <div class="col-xl-3 offset-xl-2 col-lg-3 offset-lg-0 col-md-12">
+
+            <a href="https://twitter.com/CloudOps_" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/cloudops" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/Cloud0ps/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <h5>Newsletter Signup</h5>
+            <div class="newsletter-form">
+                    <div class="newsletter-form">
+
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "732832",
+	formId: "25575fb9-f01b-43a6-b9cd-2c154efad9f4"
+});
+</script>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-12 col-sm-12 footer-nav">
+            <h6>Services</h6>
+            <ul>
+                <li><a href="/cloud-native-consulting">Cloud Native Consulting</a></li>
+                <li><a href="/transformations">Transformations</a></li>
+                <li><a href="/managed-services-augmented-support">Support</a></li>
+                <li><a href="/delivering-cloud">Cloud Delivery</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-12 footer-nav">
+            <h6>Learning</h6>
+            <ul>
+                <li><a href="/workshops">Workshops</a></li>
+                <li><a href="/blog/blog-posts">Blog</a></li>
+                <li><a href="/resources/white-papers">White Papers</a></li>
+                <li><a href="/resources/case-studies">Case Studies</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-12 footer-nav">
+            <h6>Company</h6>
+            <ul>
+                <li><a href="/about-us">About Us</a></li>
+                <li><a href="/careers">Careers</a></li>
+                <li><a href="/partners">Partners</a></li>
+                <li><a href="/why-cloudops">Why Cloudops</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row no-gutters copyright">
+        <div class="col-sm-12">
+            <p>&copy; CloudOps. All rights Reserved. // <a href="/privacy-policy">Privacy Policy</a></p>
+        </div>
+    </div>
+</div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
+        <script src="/js/main.js"></script>
+
+        </body>
+</html>

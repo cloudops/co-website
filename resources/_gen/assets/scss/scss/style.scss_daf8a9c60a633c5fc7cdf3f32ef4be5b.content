@@ -6334,40 +6334,6 @@ form option {
   font-size: 18px;
   transition-duration: 0.6s; }
 
-.workshops-calendar button:hover {
-  background-color: #fff;
-  border: 1px solid #005D91;
-  border-radius: 4px;
-  box-shadow: none;
-  color: #005D91; }
-
-.workshops-calendar .nav-tabs {
-  background-color: #005D91;
-  color: #FFF;
-  margin-bottom: 0;
-  border-bottom: 1px solid #005D91;
-  padding-left: 16.6666%;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-size: 18px; }
-
-.workshops-calendar .nav-tabs .nav-link {
-  background-color: #005D91;
-  color: #FFF;
-  border: none;
-  font-weight: normal;
-  text-decoration: none; }
-
-.workshops-calendar .nav-tabs .nav-link.active {
-  background-color: #005D91;
-  color: #FFF;
-  border: none;
-  font-weight: bold;
-  text-decoration: none; }
-
-.workshops-calendar .nav-tabs .nav-link:hover {
-  text-decoration: underline; }
-
 @media (max-width: 575.98px) {
   .workshops-calendar .jumbotron.hero h1 {
     font-size: 50px;
@@ -6715,5 +6681,32 @@ form option {
     padding: 40px 0 0 40px; }
   .general-stylings-more-content .cta-cards .card-deck .card {
     min-width: 260px; } }
+
+.secondary-nav.nav-tabs {
+  background-color: #005D91;
+  color: #FFF;
+  margin-bottom: 0;
+  border-bottom: 1px solid #005D91;
+  padding-left: 16.6666%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 18px; }
+
+.secondary-nav.nav-tabs .nav-link {
+  background-color: #005D91;
+  color: #FFF;
+  border: none;
+  font-weight: normal;
+  text-decoration: none; }
+
+.secondary-nav.nav-tabs .nav-link.active {
+  background-color: #005D91;
+  color: #FFF;
+  border: none;
+  font-weight: bold;
+  text-decoration: none; }
+
+.secondary-nav.nav-tabs .nav-link:hover {
+  text-decoration: underline; }
 
 /*# sourceMappingURL=style.css.map */
