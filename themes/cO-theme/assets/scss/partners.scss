@@ -35,13 +35,13 @@
     background-color: #FFF;
     box-shadow: 2px 2px 8px #E2E2E2;
     border-radius: 0;
-    min-width: 250px;
-    max-width: 250px;
     border: 1px solid rgba(0,0,0,.125);
-    text-align: center;
     vertical-align: middle;
-    margin: 15px auto;
     float: none;
+    height: 130px;
+    min-width: 230px;
+    max-width: 230px;
+    margin: 10px 20px 10px 0;
 }
 
 .partners .stand-out .card-deck .card:hover {
@@ -94,16 +94,19 @@
     background-position: left center;
     background-repeat: repeat;
     padding: 100px 0;
+    margin-left: 15px;
 }
 
 .partners .affiliated .affiliated-intro {
     border-bottom: 2px solid #FFE07F;
-    margin-left: 16.666667%;
-    margin-right: 16.666667%;
+    margin-right: 15px;
 }
-.partners .affiliated .affiliated-intro .affiliated-intro-text {
-    padding: 0 0 30px;
+
+.partners .affiliated .affiliated-intro-text {
+    padding-left: 0;
+    padding-right: 0;
 }
+
 
 .partners .affiliated h2 {
    text-align: center;
@@ -126,6 +129,12 @@
 }
 
 @media (max-width: 575.98px) {
+
+    .partners
+    .jumbotron.hero {
+        padding-bottom: 70px;
+    }
+
     .partners
     .jumbotron.hero h1 {
         font-size: 50px;
@@ -149,8 +158,16 @@
         text-align: left;
     }
 
-    .partners .stand-out .membership .card-deck {
-        margin-left: 15px;
+
+    .partners .membership .card-deck .card .card-body {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .partners .affiliated img {
+        width: 200px;
+        margin-left: 0;
+        margin-top: 0;
     }
 }
 
@@ -167,8 +184,15 @@
         text-align: right;
     }
 
-    .partners .stand-out .membership .card-deck {
-        margin-left: 15px;
+    .partners .membership .card-deck .card-body {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .partners .affiliated img {
+        width: 200px;
+        margin-left: 0;
+        margin-top: 0;
     }
 
 
@@ -186,10 +210,11 @@
         text-align: right;
     }
 
-    .partners .stand-out .membership .card-deck {
-        margin-left: 15px;
-    }
 
+    .partners .membership .card-deck .card-body {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -211,5 +236,9 @@
 
     .partners .hero-image-container {
         text-align: right;
+    }
+
+    .partners .stand-out h2 {
+        padding-bottom: 30px;
     }
 }

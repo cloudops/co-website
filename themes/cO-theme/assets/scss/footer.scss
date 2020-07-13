@@ -29,7 +29,7 @@
     margin: 0 0 10px;
     position: absolute; 
     top: 50px;
-    left: 17px;
+    left: 0;
 }
 
 .footer h6 {
@@ -113,7 +113,7 @@
 
 .footer .newsletter-form  input[type=text],
 .footer .newsletter-form  input[type=email] {
-    width: 350px;
+    width: 90%;
 }
 
 .footer .newsletter-form .hs-firstname {
@@ -135,7 +135,48 @@
     padding-top: 80px;
 }
 
+.footer .copyright p a {
+    color: #fff;
+    font-size: 8pt;
+}
 
+.footer .legal-consent-container .hs-form-booleancheckbox-display > span {
+    margin-top: 5px;
+    width: 80%;
+}
+
+.legal-consent-container .hs-form-booleancheckbox-display a {
+    font-size: 8pt;
+    line-height: 1;
+}
+
+
+.legal-consent-container .hs-form-booleancheckbox-display a:hover {
+    color: #62B5E5;
+}
+
+.footer .legal-consent-container .hs-form-booleancheckbox-display .hs-form-required {
+    display: none;
+}
+
+.footer .legal-consent-container .inputs-list {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.footer .legal-consent-container .hs-form-booleancheckbox-display p {
+    line-height: 1;
+    display: inline-block;
+    text-align: left;
+    margin-top: 7px;
+}
+
+.footer .legal-consent-container .hs-error-msgs label {
+    color: #fff;
+    font-size: 8pt;
+}
 
 
 @media (max-width: 575.98px) {
@@ -143,7 +184,6 @@
         text-align: center;
         background-size: 300px;
         background-position: 103% 103%;
-        padding-left: 15px;
     }
 
     .footer .footer-nav {
@@ -153,6 +193,9 @@
 
     .footer .newsletter-form {
         padding-bottom: 40px;
+        max-width: max-content;
+        margin-left: auto;
+        margin-right: auto;
     } 
 
     .footer h5 {
@@ -162,9 +205,20 @@
 
     .footer .newsletter-form  input[type=text],
     .footer .newsletter-form  input[type=email] {
-    width: 310px;
-}
+        width: 260px;
+    }
 
+    .footer .legal-consent-container .hs-form-booleancheckbox-display > span {
+        width: 230px;
+        margin-left: 15px;
+    }
+
+    .footer .newsletter-form .legal-consent-container {
+        text-align: left;
+    }
+    .footer .legal-consent-container .hs-form-booleancheckbox-display p {
+        margin-left: 5px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -180,8 +234,25 @@
     }
 
     .footer .newsletter-form {
-        padding-bottom: 30px;
+        padding-bottom: 40px;
+        max-width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+
+    .footer .newsletter-form .legal-consent-container {
+        text-align: left;
     }
+
+    .footer .newsletter-form  input[type=text],
+    .footer .newsletter-form  input[type=email] {
+        width: 300px;
+    }
+
+    .footer .newsletter-form li.hs-form-booleancheckbox {
+        width: 320px;
+        margin-left: 20px;
+    } 
 
     .footer h5 {
         position: relative; 
@@ -202,22 +273,30 @@
     .footer .newsletter-form {
         text-align: center;
     }
+
     .footer .newsletter-form  input[type=text],
     .footer .newsletter-form  input[type=email] {
-        width: 250px;
-        margin-left: 15px;
+        width: 300px;
     }
+
+    .footer .newsletter-form li.hs-form-booleancheckbox {
+        width: 320px;
+        margin-left: 20px;
+    } 
 
     .footer .footer-nav {
         padding-left: 0;
         padding-top: 40px;
     }
-    .footer .newsletter-form .input{
+    .footer .newsletter-form .input {
         margin-top: 0;   
     }  
     .footer .newsletter-form {
-        padding-bottom: 40px;    
-    }  
+        padding-bottom: 40px;
+        max-width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    } 
     
     .footer .footer-content p {
         padding-top: 0;    
@@ -227,15 +306,16 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .footer .newsletter-form  input[type=text],
     .footer .newsletter-form  input[type=email] {
-        width: 300px;
+        width: 90%;
     }
 
     .footer .footer-content {
         padding-left: 10px;    
-    }
-    
+    }    
 }
 
 @media (min-width: 1200px) {
-
+    .footer .newsletter-form .hs-form-booleancheckbox-display {
+        margin-left: 0;
+    }
 }

@@ -47,7 +47,7 @@
 }
 
 .delivering-cloud .case-studies-card .devops-case-study h2 {
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .delivering-cloud .cta {
@@ -84,6 +84,11 @@
 
 @media (max-width: 575.98px) {
     .delivering-cloud
+    .jumbotron.hero {
+        padding-bottom: 80px;
+    }
+
+    .delivering-cloud
     .brand-promises-card {
         background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
         background-position: left bottom, right top;
@@ -115,7 +120,8 @@
     .jumbotron.hero img {
         position: relative;
         top: 30px;
-        width: 280px;
+        width: 260px;
+        padding-bottom: 30px;
     }
 
     .delivering-cloud .brand-promises-card h2 {
@@ -146,8 +152,9 @@
         left: 0;
         top: 0;
         position: relative;
-        width: 300px;
+        width: 350px;
         margin: 50px 0 20px;
+
     }
 }
 
@@ -187,6 +194,7 @@
         text-align: left;
         margin-bottom: 30px;
         margin-top: 50px;
+        width: 250px;
     }
 
     .delivering-cloud
@@ -194,6 +202,7 @@
     background-image: url("../images/blue-dots-RIGHT.png"), url("../images/yellow-dots-RIGHT.png");
     background-position: right top, right top;
     background-repeat: repeat-y, repeat-y;
+    padding: 50px 15px 0;
     }
 
 }
@@ -233,7 +242,7 @@
     }
 
     .delivering-cloud .devops-case-study img {
-        margin-top: 80%;
+        margin-top: 100px;
         width: 100%;
     }
 
@@ -258,7 +267,7 @@
     }
 
     .delivering-cloud .devops-case-study img {
-        margin-top: 50%;
+        margin-top: 100px;
     }
 }
 
@@ -279,7 +288,7 @@
         text-align: left;
     }
     .delivering-cloud .devops-case-study img {
-        margin-top: 50%;
+        margin-top: 100px;
         width: 380px;
     }
 

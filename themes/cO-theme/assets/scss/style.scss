@@ -36,8 +36,6 @@ Style Guide:
 
 
 ***************/
-
-
 /************  To avoid horizontal scrolling  ***************/
 
 div.container-fluid.main-content {
@@ -52,7 +50,6 @@ div.row {
 
 
 /************  General Styles  ***************/
-
 
 
 body h1 {
@@ -145,9 +142,9 @@ a:visited {
 
 ul {
     padding-left: 0;
+    list-style: none;
 }
 ul li {
-    list-style: none;
     font-family: 'Open Sans', sans-serif;
     color: #404040;
     font-size: 18px;
@@ -175,3 +172,144 @@ ul li {
 @import '/blog-main.scss';
 @import '/careers.scss';
 @import '/managed-services.scss';
+@import '/transformations.scss';
+@import '/workshops-calendar.scss';
+@import '/landing-page.scss';
+@import '/privacy-policy.scss';
+
+
+
+.general-stylings-more-content .cta-cards .card-deck .card {
+    background-color: #FFF;
+    box-shadow: 2px 2px 8px #E2E2E2;
+    border-radius: 0;
+    min-width: 220px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.general-stylings-more-content .cta-cards .card-deck .card:hover {
+    box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2);
+}
+
+.general-stylings-more-content.contact-us-card {
+    background-image: url("/images/bottom-left-yellow-swoosh.png"), url("/images/top-right-yellow-swoosh.svg"), url("/images/tinydots-horizontal.svg");
+    background-position: left bottom, right top, left bottom 20%;
+    background-repeat: no-repeat, no-repeat , repeat-x;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.general-stylings-more-content.contact-us-card img {
+    margin: 0 0 30px -50%;
+}
+
+.general-stylings-more-content.contact-us-card h2 {
+    padding-right: 40px 0 0 40px;
+    text-align: left;
+}
+
+.general-stylings-more-content.contact-us-card a:hover {
+    text-decoration: none;
+}
+
+
+@media (max-width: 575.98px) {
+    .general-stylings-more-content.contact-us-card {
+        padding-left: 30px;
+    }
+
+    .general-stylings-more-content.contact-us-card h2 {
+       padding-bottom: 30px;
+   }  
+
+   .general-stylings-more-content.contact-us-card p {
+    padding-top: 0;
+    margin-left: 0;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .general-stylings-more-content .cta-cards .card-deck {
+        padding-left: 30px;
+    }
+
+    .general-stylings-more-content .cta-cards .card-deck .card {
+        min-width: 270px;
+    }
+
+    .general-stylings-more-content .contact-us-card p {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .general-stylings-more-content .contact-us-card .contact-us-intro {
+        padding-bottom: 50px;
+    }
+    
+    .general-stylings-more-content .cta-cards .card-deck .card {
+        min-width: 270px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   .general-stylings-more-content.contact-us-card h2 {
+        padding: 40px 0 0 40px;
+    }
+
+    .general-stylings-more-content.contact-us-card .contact-us-intro {
+        padding-bottom: 50px;
+    }
+    
+    .general-stylings-more-content .cta-cards .card-deck .card {
+        min-width: 260px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .general-stylings-more-content .contact-us-card h2 {
+        padding: 40px 0 0 40px;
+     }
+ 
+     .general-stylings-more-content .cta-cards .card-deck .card {
+         min-width: 260px;
+     }
+}
+
+
+
+.secondary-nav.nav-tabs {
+    background-color: #005D91;
+    color: #FFF;
+    margin-bottom: 0;
+    border-bottom: 1px solid #005D91;
+    padding-left: 16.6666%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+
+}
+
+.secondary-nav.nav-tabs .nav-link {
+    background-color: #005D91;
+    color: #FFF;
+    border: none;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.secondary-nav.nav-tabs .nav-link.active {
+    background-color: #005D91;
+    color: #FFF;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.secondary-nav.nav-tabs .nav-link:hover {
+    text-decoration: underline;
+}

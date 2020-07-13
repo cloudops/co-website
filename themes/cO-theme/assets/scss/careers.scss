@@ -29,6 +29,10 @@
     transform: rotate(-5deg);
 }
 
+
+.careers .brand-promises-card h2 {
+    padding-bottom: 30px;
+}
 .careers .case-studies-card .with-bottom-line {
     border-bottom: 2px solid #FFE07F;
     margin-left: 16.666667%;
@@ -69,7 +73,6 @@
     margin-bottom: 8px;
 }
 
-
 .careers .case-studies-card .work-from-home h2 {
     text-align: left;
 }
@@ -80,6 +83,27 @@
 
 .careers .case-studies-card .all-content-row {
     text-align: center;
+}
+
+.careers .case-studies-card ul li{
+    margin-left: 30px;
+  }
+  
+.careers .case-studies-card  ul.dashes li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -20px;
+  }
+
+
+.careers .case-studies-card .zoom-patchwork img {
+    width: inherit;
+    height: auto;
+}
+
+.careers .case-studies-card .zoom-patchwork .no-padding-sides {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .careers .social-following {
@@ -103,6 +127,20 @@
     border: 1px solid rgba(0,0,0,.125);
     margin: 15px auto;
     float: none;
+    text-align: center;
+}
+
+.careers .lever-integration .card-deck .card-body {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.careers #lever-jobs-container {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .careers #lever-jobs-container .lever-department-title {
@@ -126,6 +164,7 @@ font-weight: bold;
     display: block;
     text-decoration: none;
     color: #005D91;
+    text-align: center;
 }
 
 .careers #lever-jobs-container .lever-job-title:hover {
@@ -138,8 +177,18 @@ font-weight: bold;
     text-align: left;
 }
 
+.careers .brand-promises-card h2 {
+    margin-left: 0;
+    margin-right: 0;
+}
 
 @media (max-width: 575.98px) {
+
+    .careers
+    .jumbotron.hero {
+        padding-bottom: 80px;
+    }
+
     .careers
     .jumbotron.hero h1 {
         font-size: 50px;
@@ -156,11 +205,63 @@ font-weight: bold;
     .jumbotron.hero img {
         position: relative;
         top: 30px;
+        left: 10px;
         width: 280px;
     }
 
     .careers .hero-image-container {
         text-align: left;
+    }
+
+    .careers .brand-promises-card {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .careers .case-studies-card .with-bottom-line {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .careers .case-studies-card .work-from-home h2 {
+        text-align: center;
+    }
+
+    .careers .case-studies-card .work-from-home p {
+        text-align: left;
+    }
+
+    .careers .case-studies-card .work-from-home ul li {
+        text-align: left;
+    }
+
+    .careers .case-studies-card .work-from-home .gone-on-mobile img {
+        display: none;
+    }
+
+    .careers .case-studies-card .work-from-home .zoom-patchwork img {
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .careers .case-studies-card .lifestyle ul li {
+        text-align: left;
+    }
+
+    .careers .case-studies-card .lifestyle ul.dashes {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .careers .contact-us-card h2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .careers .case-studies-card .col-for-careers-grid {
+        margin-left: -15px;
+        margin-right: -15px;
     }
 }
 
@@ -177,6 +278,16 @@ font-weight: bold;
         text-align: right;
     }
 
+    .careers .case-studies-card .lifestyle {
+        padding-left: 16.6666%;
+        padding-right: 16.66666%;
+    }
+
+    .careers .case-studies-card .lifestyle ul.dashes {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -191,6 +302,10 @@ font-weight: bold;
         text-align: right;
     }
 
+    .careers .case-studies-card .lifestyle {
+        padding-left: 16.6666%;
+        padding-right: 16.66666%;
+    }
 
 }
 
@@ -198,9 +313,15 @@ font-weight: bold;
 
     .careers
     .jumbotron.hero img {
-        left: 0;
+        left: -30px;
         top: -40px;
-        width: 400px;
+        width: 370px;
+    }
+
+
+    .careers .case-studies-card .lifestyle {
+        padding-left: 16.6666%;
+        padding-right: 16.66666%;
     }
     
 }
@@ -208,5 +329,10 @@ font-weight: bold;
 @media (min-width: 1200px) {
     .careers .hero-image-container {
         text-align: left;
+    }
+
+    .careers .case-studies-card .lifestyle {
+        padding-left: 16.6666%;
+        padding-right: 16.66666%;
     }
 }

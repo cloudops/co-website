@@ -1,7 +1,15 @@
 /************  Navbar Styles  ***************/
+.navbar-card .navbar {
+    padding-top: 0;
+    padding-bottom:0;
+}
 
+.navbar-card .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 .navbar-card {
-    margin: 5px 100px;
+    margin: 0 100px;
 }
 
 .navbar-card h2 {
@@ -84,6 +92,7 @@
 
 .navbar-card .dropdown .nav-main-section .sub-nav-items img {
     margin-top: 10px;
+    text-align: center;
 }
 
 .navbar-card .navbar .navbar-nav .dropdown a.dropdown-item {
@@ -92,6 +101,10 @@
     font-size: 18px;
     border: none;
     padding: 5px;
+}
+
+.navbar-card .navbar .navbar-nav .dropdown#training-dropdown-menu a.dropdown-item {
+    text-align: center;
 }
 
 .navbar-card .navbar .navbar-nav .dropdown h3.dropdown-item {
@@ -148,7 +161,7 @@
         }
 
 .navbar-card .navbar .navbar-nav .nav-item {
-    margin: auto 12px;
+    margin: auto 0 auto 12px;
 }
 
 .navbar-card button {
@@ -180,6 +193,7 @@ a.nav-link.language-menu.list-group-item.list-group-item-action {
     text-decoration: none;
     background-color: transparent;
     border: none;
+    padding: 0;
 }
 
 a.nav-link.language-menu.list-group-item.list-group-item-action:hover {
@@ -219,6 +233,7 @@ a.active {
 }
 .navbar-card .navbar .navbar-nav .nav-item p {
     display: inline;
+    vertical-align: top;
 }
 
 
@@ -240,7 +255,7 @@ a.active {
     }
 
     .navbar-card button.btn {
-        margin: 5px 0 10px;
+        margin: 20px 0 10px;
     }
 
     .navbar-card .nav-cta {
@@ -253,11 +268,25 @@ a.active {
     }
 
     .navbar-card i {
-        color: #62B5E5;
+        color: #005D91;
         font-size: 22px;
     }
     .navbar-card img {
         width: 200px;
+    }
+
+    .navbar-card .dropdown-menu img {
+        display: none;
+    }
+    .navbar-card .navbar .navbar-nav .dropdown .training-dropdown-items-group h3 {
+        text-align: left;
+    }
+    .navbar-card .navbar .navbar-nav .dropdown a.dropdown-item {
+        padding-left: 25px;
+    }
+
+    .navbar-card .navbar .navbar-nav .dropdown .reading-dropdown h3 {
+        margin-bottom: 10px;
     }
 }
 
@@ -277,7 +306,7 @@ a.active {
     }
 
     .navbar-card button.btn {
-        margin: 5px 0 10px;
+        margin: 20px 0 10px;
     }
 
     .navbar-card .nav-cta {
@@ -290,7 +319,23 @@ a.active {
     }
 
     .navbar-card i {
-        color: #62B5E5;
+        color: #005D91;
+    }
+
+    .navbar-card .dropdown-menu img {
+        display: none;
+    }
+
+    .navbar-card .navbar .navbar-nav .dropdown .training-dropdown-items-group h3 {
+        text-align: left;
+    }
+
+    .navbar-card .navbar .navbar-nav .dropdown a.dropdown-item {
+        padding-left: 25px;
+    }
+
+    .navbar-card .navbar .navbar-nav .dropdown .reading-dropdown-row h3 {
+        margin-bottom: 10px;
     }
 }
 
@@ -310,7 +355,7 @@ a.active {
     }
 
     .navbar-card button.btn {
-        margin: 5px 0 10px;
+        margin: 20px 0 10px;
     }
 
     .navbar-card .nav-cta {
@@ -323,7 +368,23 @@ a.active {
     }
 
     .navbar-card i {
-        color: #62B5E5;
+        color: #005D91;
+    }
+
+    .navbar-card .dropdown-menu img {
+        display: none;
+    }
+
+    .navbar-card .navbar .navbar-nav .dropdown .training-dropdown-items-group h3 {
+        text-align: left;
+    }
+
+    .navbar-card .navbar .navbar-nav .dropdown a.dropdown-item {
+        padding-left: 25px;
+    }
+
+    .navbar-card .navbar .navbar-nav .dropdown .reading-dropdown-row h3 {
+        margin-bottom: 10px;
     }
 }
 
@@ -341,7 +402,7 @@ a.active {
     }
 
     .navbar-card button.btn {
-        margin: 5px 0 10px;
+        margin: 20px 0 10px;
     }
 
     .navbar-card .nav-cta {
@@ -349,7 +410,15 @@ a.active {
     }
 
     .navbar-card i {
-        color: #62B5E5;
+        color: #005D91;
+    }
+    
+    .navbar-card .navbar .navbar-nav .dropdown .training-dropdown-items-group h3 {
+        margin-top: 15px;
+    }
+
+    .navbar-card .nav-item.list-group.list-group-flush #multi-language-menu {
+
     }
 }
 
@@ -362,7 +431,9 @@ a.active {
         left: 50%;
         margin-left: -500px;
         margin-top: 0;
+    }
 
-
+    .navbar-card .navbar .navbar-nav .dropdown .training-dropdown-items-group h3 {
+        margin-top: 15px;
     }
 }

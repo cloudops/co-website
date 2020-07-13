@@ -99,6 +99,7 @@
         bottom: 0;
         right: 0;
     }
+
 }
 
 
@@ -301,6 +302,12 @@
         background-repeat: no-repeat, no-repeat;
         text-align: center;
     }
+
+    .brand-promises-card h2 {
+        margin-right: -15px;
+        margin-left: 15px;
+    }
+
     .brand-promises-card .card-title {
         margin-top: 20px;
         padding-top: 10px;
@@ -310,7 +317,7 @@
     }
     .brand-promises-card .cta {
         margin-left: 30px;
-        padding: 5% 15%;
+        padding: 5% 1%;
     }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -603,6 +610,10 @@
 @media (max-width: 575.98px) {
     .community-card {
         text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .community-card img {
@@ -651,13 +662,46 @@
         padding: 0 0 50px;
     }
 
+    .community-card .events {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+
+    .community-card .blog {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .community-card .events {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .community-card .blog {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
 }
 
 @media (min-width: 1200px) {
 
+    .community-card .events {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .community-card .blog {
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
 }
 
 
@@ -727,7 +771,7 @@
     }
 
     .case-studies-card {
-        padding: 70px 0;
+        padding: 70px 15px;
     }
     
     .case-studies-card h2 {
@@ -735,82 +779,60 @@
     }
 
     .case-studies-card .devops-case-study {
-        padding: 0 0 0 30px;
         border-bottom: none;
     }
 
     .case-studies-card .client-quote {
-        padding: 0 0 100px 0;
+        padding: 50px 0 0 0;
     }
     .case-studies-card .client-photo {
-        position: absolute;
-        left: 150px;
-        height: 35px;  
+        position: static;
+        height: 130px;  
         width: auto;
     }
 
-    .case-studies-card img {
-        position: static;    
-        height: 160px;  
-        width: auto;
-        margin-bottom: 15px;
+    .case-studies-card .center-align {
+        text-align: center;
     }
 
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
 
     .case-studies-card .devops-case-study {
-        margin-left: 10px;
+        border-bottom: none;
     }
 
+    .case-studies-card .client-quote {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
     .case-studies-card .client-photo {
-        top: 170px;
-        left: 10px;
-        position: absolute;    
-        height: 40px;  
+        position: static;
+        height: 150px;  
         width: auto;
     }
 
-    .case-studies-card img {
-        top: 123px;
-        left: 0;
-        position: absolute;    
-        height: 160px;  
-        width: auto;
+    .case-studies-card .center-align {
+        text-align: center;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .case-studies-card img {
-        top: 110px;
-        left: 45px;
-        position: absolute;  
-        height: 200px;  
-        width: auto;
-    }
 
     .case-studies-card .client-photo {
-        top: 160px;
-        left: 70px;
-        height: 55px;  
+        top: 180px;
+        left: 55px;
+        height: 170px;  
         width: auto;
         position: absolute;  
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .case-studies-card img {
-        top: 75px;
-        left: 45px;
-        position: absolute;  
-        height: 200px;  
-        width: auto;
-    }
-
     .case-studies-card .client-photo {
-        top: 135px;
-        left: 70px;
-        height: 55px;  
+        top: 100px;
+        left: 60px;
+        height: 200px;  
         width: auto;
         position: absolute;  
     }
@@ -818,19 +840,11 @@
 }
 
 @media (min-width: 1200px) {
-    .case-studies-card img {
-        top: -10px;
-        left: 15px;
-        position: absolute;    
-        height: 245px;
-        width: auto;
-    }
-
     .case-studies-card .client-photo {
-        top: 55px;
-        left: 60px;
+        top: 40px;
+        left: 25px;
         position: absolute;    
-        height: 70px;  
+        height: 230px;  
         width: auto;
     }
 }
@@ -840,13 +854,15 @@
 
 
 .contact-us-card {
-    background-image: url("../images/triangles-contact-us.png"), url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
-    background-position: 2% 30%, left bottom, right top;
-    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-image: url("/images/bottom-left-yellow-swoosh.png"), url("/images/top-right-yellow-swoosh.svg");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
     padding: 100px 0;
 }
 .contact-us-card img {
     margin-top: 35px;
+    width: 100%;
+    padding-bottom: 50px;
 }
 
 .contact-us-card h2 {
@@ -875,9 +891,23 @@
 
 .contact-us-card .general-contact-form  li {
     font-family: 'Open Sans', sans-serif;
-    color: #FFF;
-    line-height: .01;
+    color: #404040;
+    line-height: 1;
     font-size: 16px;
+    padding-bottom: 0;
+}
+
+.contact-us-card .general-contact-form li a {
+    font-size: 16px;
+}
+
+.contact-us-card .general-contact-form  li span {
+    margin-left: 5px;
+    padding-top: 0;
+}
+
+.contact-us-card .general-contact-form .legal-consent-container .hs-form-booleancheckbox-display input {
+    margin-top: 5px;
 }
 
 .contact-us-card .general-contact-form input.hs-button {
@@ -891,12 +921,36 @@
     border: none; 
 }
 
+
+.contact-us-card .general-contact-form .legal-consent-container .hs-form-booleancheckbox-display p {
+    padding-left: 15px;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.contact-us-card .general-contact-form .legal-consent-container label.hs-form-booleancheckbox-display {
+    margin-bottom: 0;
+}
+
+.contact-us-card .general-contact-form .legal-consent-container .hs-form-booleancheckbox-display a {
+    font-size: 12px;
+    line-height: 1;
+}
+
+.contact-us-card .general-contact-form .hs-richtext p {
+    font-size: 12px;
+    line-height: 1;
+}
+
 .contact-us-card .general-contact-form input.hs-button:hover {
     background-color: #FFF;
     color: #005D91;
     border: solid 1px #005D91;
     transition-duration: 0.6s;
 }
+
 
 .contact-us-card .general-contact-form .hs-form-required {
     display: none;
@@ -918,29 +972,94 @@
     border-bottom: 1px #404040 solid;
 }
 
+.contact-us-card .general-contact-form ul.inputs-list.multi-container {
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+form option {
+    background: #FBFBFB;
+} 
+
+.contact-us-card .general-contact-form .input select {
+    color: #404040;
+    font-size: 16px;
+    box-shadow: 0;
+}
+
+.contact-us-card .general-contact-form li.hs-form-checkbox {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.contact-us-card .general-contact-form li.hs-form-checkbox>span {
+    display: block;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+
+.contact-us-card .general-contact-form ul.inputs-list {
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.contact-us-card .general-contact-form fieldset.form-columns-1 .hs-fieldtype-checkbox.field.hs-form-field>label {
+    margin-top: 30px;
+    color: #404040;
+    font-size: 16px;
+}
 
 .contact-us-card h2 {
    padding: 40px 0 0 0;
 }
 
-
 @media (max-width: 575.98px) {
    .contact-us-card h2 {
         text-align: center;
+        margin-left: 15px;
+        margin-right: -15px;
    }
+
+   .contact-us-card p.under-title {
+       padding-top: 40px;
+   }
+
    .contact-us-card {
-    text-align: center;
+    text-align: left;
 }
 
-.contact-us .general-contact-form {
+.contact-us-card .general-contact-form {
     margin-left: auto;
     margin-right: auto;
+    padding-right: 0;
+    padding-left: 30px;
     }
 
 .general-contact-form .hs-submit {
     text-align: left;
     margin-left: 15px;
     }
+
+.contact-us-card p {
+    margin-left: 15px;
+    margin-right: -15px;
+    text-align: left;
+    }
+
+    .contact-us-card .general-contact-form li.hs-form-checkbox {
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+    }
+
+
+    .contact-us-card .general-contact-form .hbspt-form {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
 }
 
 
@@ -948,8 +1067,13 @@
     .contact-us-card h2 {
         text-align: center;
     }
+
+    .contact-us-card p.under-title {
+        padding-top: 40px;
+    }
+    
    .contact-us-card {
-    text-align: center;
+    text-align: left;
     }
 
     .contact-us .general-contact-form {
@@ -960,6 +1084,10 @@
     .general-contact-form .hs-submit {
     text-align: left;
     margin-left: 15px;
+    }
+
+    .contact-us-card p {
+    text-align: left;
     }
 
 }

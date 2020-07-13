@@ -6,6 +6,11 @@
     margin-bottom: 0;
 }
 
+.delivering-cloud-consulting .brand-promises-card h2 {
+    padding-bottom: 30px;
+}
+
+
 .delivering-cloud-consulting .case-studies-card h2 {
     text-align: left;
 }
@@ -68,6 +73,10 @@
     padding-bottom: 100px;
 }
 
+.delivering-cloud-consulting .case-studies-card .with-bottom-line.no-padding-bottom {
+    padding-bottom: 0;
+}
+
 .delivering-cloud-consulting .case-studies-card .without-bottom-line .devops-case-study {
     border-bottom: none;
     margin-bottom: 50px;
@@ -87,7 +96,24 @@
     text-align: center;
 }
 
+.delivering-cloud-consulting .case-studies-card .one-of-four {
+    padding-bottom: 50px;
+}
+
+.delivering-cloud-consulting .case-studies-card .cloudmc-section h2 {
+    text-align: center;
+}
+
+.delivering-cloud-consulting .case-studies-card .cloudmc-section .cta {
+    text-align: center;
+}
+
 @media (max-width: 575.98px) {
+
+    .delivering-cloud-consulting
+    .jumbotron.hero {
+    padding: 0 0 80px;
+}
     .delivering-cloud-consulting
     .jumbotron.hero h1 {
         font-size: 50px;
@@ -108,10 +134,16 @@
         left: 0;
     }
 
+    .delivering-cloud-consulting
+    .brand-promises-card h2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
     .delivering-cloud-consulting
     .brand-promises-card {
         padding-left: 15px;
+        padding-right: 15px;
     }
 
 
@@ -156,6 +188,12 @@
         text-align: left;
     }
 
+    .delivering-cloud-consulting
+    .brand-promises-card {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
     .delivering-cloud-consulting .case-studies-card {
         text-align: center;
     }  

@@ -5,7 +5,205 @@
 
 .blog-main 
 .hero.jumbotron img {
-    margin-top: -90px;
+    margin-top: -100px;
     margin-left: 30px;
     width: 400px;
+}
+
+.blog-main .stand-out {
+    padding: 100px 0;
+    background-image: url("../images/stars.svg");
+    background-position: left top;
+    background-repeat: repeat;
+    margin: 0;
+}
+
+.blog-main .stand-out h2 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.blog-main .stand-out h3 {
+    color: #404040;
+    font-weight: normal;
+}
+
+.blog-main .stand-out .row {
+    margin: 0;
+}
+
+.blog-main .stand-out .card-deck .card {
+    background-color: #FFF;
+    border: 2px solid rgba(98, 181, 229, 0.5);
+    box-shadow: 2px 2px 8px #E2E2E2;
+    border-radius: 0;
+    margin: 10px;
+    min-width: 260px;
+    max-width: 260px;
+    height: 470px;
+}
+
+.blog-main .blog-classifications {
+    padding: 100px 0;
+    background-image: url(/images/top-right-swoosh.png), url(/images/bottom-left-swoosh.png);
+    background-position: top right, bottom left;
+    background-repeat: no-repeat;
+    background-size: auto, auto;
+    margin: 0;
+}
+
+.blog-main  .stand-out .card-deck .card > a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.blog-main .stand-out .card-deck .card:hover {
+    box-shadow: inset 0px 0px 15px rgba(98, 181, 229, 0.4);
+}
+
+
+.blog-main .stand-out .card-deck .card .card-text {
+    vertical-align: bottom;
+    display: inline;
+    font-size: 14px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.blog-main .stand-out .card-deck .card .card-title {
+    margin-top: 15px;
+}
+
+.blog-main .blog-classifications h2 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.blog-main .blog-classifications img {
+    height: 170px;
+    margin-bottom: 30px;
+}
+
+
+.blog-main.subpage-resources 
+.hero.jumbotron img {
+    margin-top: 0;
+    margin-left: 0;
+    width: 300px;
+}
+
+
+@media (max-width: 575.98px) {
+    .blog-main .stand-out {
+        padding: 80px 0;
+    }
+
+    .blog-main 
+    .hero.jumbotron h1 {
+        font-size: 48px;
+    }
+    
+    .blog-main .stand-out h2 {
+        padding: 0 0 30px;
+    }
+
+    .blog-main 
+    .hero.jumbotron img {
+        margin-top: 50px;
+        margin-left: 0;
+        width: 260px;
+    }
+
+    .blog-main 
+    .hero.jumbotron {
+        padding-bottom: 40px;
+    }
+
+    .blog-main.subpage-resources 
+    .hero.jumbotron img {
+        width: 260px;
+    }
+
+
+    .blog-main .blog-classifications .row-of-three {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .blog-main .blog-classifications .row-of-3 .img {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .blog-main .stand-out h2 {
+        padding: 0 0 30px;
+    }
+
+    .blog-main 
+    .hero.jumbotron img {
+        margin-top: 50px;
+        margin-left: 0;
+        width: 400px;
+    }
+
+    .blog-main .blog-classifications .row-of-three {
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .blog-main .blog-classifications .row-of-3 .img {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .blog-main .stand-out h2 {
+        padding: 0 0 40px;
+    }
+
+    .blog-main 
+    .hero.jumbotron img {
+        margin-top: 50px;
+        margin-left: 0;
+        width: 400px;
+    }
+
+    .blog-main .blog-classifications .row-of-three {
+        text-align: center;
+    }
+
+    .blog-main .blog-classifications .row-of-three .col-for-3 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .blog-main .stand-out {
+        padding: 100px 0;
+    }
+    
+    .blog-main .stand-out h2 {
+        padding: 0 0 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .blog-main .blog-classifications {
+        padding: 100px 0;
+        background-image: url(/images/top-right-swoosh.png), url(/images/triangles-contact-us.svg), url(/images/triangles-contact-us.svg), url(/images/bottom-left-swoosh.png);
+        background-position: top right, left center, right center, bottom left;
+        background-repeat: no-repeat;
+        background-size: auto, 200px auto, 200px auto, auto;
+        margin: 0;
+    }
+
 }

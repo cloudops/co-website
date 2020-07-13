@@ -1,0 +1,185 @@
+/************  Workshop page  ***************/
+
+.workshops-calendar
+.jumbotron.hero {
+    background-image: linear-gradient(to bottom right, #7AAA43, #2C893D);
+    border-top: 3px solid #005D91;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.workshops-calendar
+.jumbotron.hero h1,
+.workshops-calendar
+.jumbotron.hero h2 {
+    text-align: left;
+}
+
+.workshops-calendar
+.jumbotron.hero img {
+    position: absolute;
+    top: -140px;
+    width: 400px;
+}
+
+.workshops-calendar
+.brand-promises-card {
+    background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.workshops-calendar
+.brand-promises-card .cta h3 {
+    display: inline;
+    color: #005D91;
+}
+
+.workshops-calendar button {
+    background-color:#005D91;
+    width: 250px;
+    height: 35px;
+    border-radius: 4px;
+    box-shadow: #979797 0 2px 4px 0;
+    color: #FFF;
+    padding: 0 10px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    transition-duration: 0.6s;
+}
+
+
+@media (max-width: 575.98px) {
+    .workshops-calendar
+    .jumbotron.hero h1 {
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .workshops-calendar
+    .jumbotron.hero h2 {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .workshops-calendar
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 280px;
+        left: -30px;
+    }
+
+    .workshops-calendar .hero-image-container {
+        text-align: left;
+    }
+
+    .workshops-calendar .brand-promises-card .promise h3.card-title {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .workshops-calendar .brand-promises-card .promise p {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .workshops-calendar .brand-promises-card .promise a {
+        margin-bottom: 15px;
+    }
+
+    .workshops-calendar .brand-promises-card .promise button {
+        margin-top: 30px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .workshops-calendar
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 430px;
+        left: -30px;
+    }
+
+    .workshops-calendar .hero-image-container {
+        text-align: left;
+    }
+
+    .workshops-calendar .brand-promises-card .promise h3.card-title {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .workshops-calendar .brand-promises-card .promise p {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .workshops-calendar .brand-promises-card .promise a {
+        margin-bottom: 15px;
+    }
+
+    .workshops-calendar .brand-promises-card .promise button {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .workshops-calendar
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        left: -30px;
+    }
+
+    .workshops-calendar .hero-image-container {
+        text-align: left;
+    }
+
+    .workshops-calendar .brand-promises-card .promise h3.card-title {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .workshops-calendar .brand-promises-card .promise p {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .workshops-calendar .brand-promises-card .promise a {
+        margin-bottom: 15px;
+    }
+
+    .workshops-calendar .brand-promises-card .promise button {
+        margin-top: 30px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .workshops-calendar
+    .jumbotron.hero img {
+        left: 50px;
+        top: -130px;
+    }
+
+    .workshops-calendar button {
+        width: 200px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .workshops-calendar .hero-image-container {
+        text-align: left;
+    }
+    .workshops-calendar
+    .jumbotron.hero img {
+        left: 30px;
+        top: -170px;
+    }
+
+}

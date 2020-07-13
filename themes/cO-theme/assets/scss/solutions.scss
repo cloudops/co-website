@@ -27,6 +27,8 @@
     background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
     background-position: left bottom, right top;
     background-repeat: no-repeat, no-repeat;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .solutions .brand-promises-card h2 {
     text-align: left;
@@ -42,7 +44,7 @@
 }
 
 .solutions .case-studies-card .devops-case-study h2 {
-    margin-top: 200px;
+    margin-top: 130px;
 }
 
 .solutions .cta {
@@ -72,16 +74,13 @@
     color: #005D91;
 }
 
-.solutions
-.brand-promises-card {
-    background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
-    background-position: left bottom, right top;
-    background-repeat: no-repeat, no-repeat;
-    padding-left: 30px;
-}
 .solutions .brand-promises-card h2 {
     text-align: center;
     padding-bottom: 30px;
+}
+
+.solutions .brand-promises-card img {
+    width: 80%;
 }
 
 @media (max-width: 575.98px) {
@@ -102,14 +101,25 @@
         position: relative;
         top: 30px;
         width: 280px;
+        padding-bottom: 30px;
     }
 
     .solutions .brand-promises-card h2 {
         text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .solutions .brand-promises-card p {
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
     .solutions .B-O-T-horizontal {
         display: none;
+    }
+
+    .solutions .B-O-T-vertical {
+        width: 50%;
     }
 
     .solutions .hero-image-container {
@@ -136,7 +146,7 @@
         left: 0;
         top: 0;
         position: relative;
-        width: 300px;
+        width: 250px;
         margin: 50px 0 20px;
     }
 }
@@ -154,9 +164,14 @@
         display: none;
     }
 
+    .solutions .brand-promises-card img {
+        width: 30%;
+    }
+
     .solutions
     .case-studies-card {
         padding-top: 0;
+        padding-left: 15px;
     }
     
     .solutions .case-studies-card .devops-case-study h2 {
@@ -170,8 +185,10 @@
     .solutions .devops-case-study img {
         position: relative;
         text-align: left;
-        margin-bottom: 50px;
-        margin-top: 100px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        top: 0;
+        width: 250px;
     }
 
 }
@@ -202,8 +219,8 @@
     }
 
     .solutions .devops-case-study img {
-        margin-top: 80%;
-        width: 120%;
+        margin-top: 130px;
+        width: 100%;
     }
 
     .solutions
@@ -234,7 +251,7 @@
     }
 
     .solutions .devops-case-study img {
-        margin-top: 50%;
+        margin-top: 130px;
     }
 }
 
@@ -258,7 +275,7 @@
         text-align: left;
     }
     .solutions .devops-case-study img {
-        margin-top: 50%;
+        margin-top: 130px;
         width: 380px;
     }
 

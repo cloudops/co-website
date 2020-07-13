@@ -1,0 +1,333 @@
+.transformations
+.jumbotron.hero {
+    background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
+    border-top: 3px solid #005D91;
+    padding: 130px 0;
+    margin-bottom: 0;
+}
+
+.transformations .case-studies-card {
+    padding-bottom: 0;
+}
+.transformations .case-studies-card h2 {
+    text-align: left;
+}
+
+.transformations
+.jumbotron.hero h1 {
+    text-align: left;
+    font-size: 65px
+}
+
+.transformations
+.jumbotron.hero img {
+    position: absolute;
+}
+
+.transformations .case-studies-card img {
+    position: static;
+    height: 200px;
+    width: auto;
+    padding-bottom: 25px;
+}
+
+.transformations .case-studies-card ul li {
+    margin-left: 45px;
+    padding-bottom: 5px;
+}
+
+.transformations .case-studies-card ul li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -20px;
+  }
+
+.transformations .case-studies-card img.unicorn-too-large {
+    height: 160px;
+}
+
+.transformations .case-studies-card img.image-for-mobile {
+    position: static;
+    width: 100px;
+    height: auto;
+}
+
+.transformations .case-studies-card img.icons {
+    width: 30px;
+    height: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: inline;
+}
+
+.transformations .bot-img {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+}
+
+.transformations .case-studies-card .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.transformations .case-studies-card .with-bottom-line {
+    border-bottom: 2px solid #FFE07F;
+    margin-left: 16.666667%;
+    margin-right: 16.666667%;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+.transformations .case-studies-card .without-bottom-line .devops-case-study {
+    border-bottom: none;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+
+.transformations .case-studies-card .one-of-four {
+    padding-bottom: 50px;
+}
+
+
+.transformations .case-studies-card h2 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.transformations .case-studies-card .transformations-descriptions {
+    padding-bottom: 100px;
+}
+
+.transformations .case-studies-card .transformations-descriptions img {
+    height: 250px;
+}
+
+.transformations .case-studies-card .transformations-descriptions .image-container {
+    text-align: center;
+}
+
+@media (max-width: 575.98px) {
+
+    .transformations
+    .jumbotron.hero {
+    padding: 0 0 80px;
+}
+
+    .transformations
+    .jumbotron.hero h1 {
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .transformations
+    .jumbotron.hero h2 {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .transformations
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 280px;
+        left: 0;
+    }
+
+
+    .transformations
+    .brand-promises-card {
+        padding-left: 15px;
+        text-align: left;
+    }
+
+
+    .transformations .hero-image-container {
+        text-align: left;
+    }
+
+    .transformations .case-studies-card {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .transformations .case-studies-card img {
+        height: 150px;
+        width: auto;
+    }
+    .transformations .image-for-desktop {
+        display: none;
+    }
+
+    .transformations .bot-img {
+        text-align: center;
+    }
+
+    .transformations .case-studies-card .without-bottom-line .devops-case-study {
+        padding: 0;
+        margin: 0;
+    }
+
+    .transformations .case-studies-card img {
+        padding-top: 40px;
+    }
+
+    .transformations .case-studies-card .left-aligned {
+        text-align: left;
+    }
+    
+    .transformations .case-studies-card .with-bottom-line {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .transformations
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        width: 430px;
+        left: 0;
+    }
+
+    .transformations
+    .jumbotron.hero h1 {
+        font-size: 60px;
+    }
+
+    .transformations .hero-image-container {
+        text-align: left;
+    }
+
+    .transformations
+    .brand-promises-card {
+        padding-left: 15px;
+        text-align: left;
+    }
+
+    .transformations .case-studies-card {
+        text-align: center;
+    }  
+
+    .transformations .case-studies-card img {
+        height: 170px;
+        width: auto;
+    }   
+
+    .transformations .image-for-desktop {
+        display: none;
+    } 
+
+    .transformations .bot-img {
+        text-align: center;
+    }
+
+    .transformations .case-studies-card .without-bottom-line .devops-case-study {
+        padding: 0;
+        margin: 0;
+    }
+
+    .transformations .case-studies-card .left-aligned {
+        text-align: left;
+    }
+
+    .transformations .case-studies-card img {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .transformations
+    .jumbotron.hero img {
+        position: relative;
+        top: 30px;
+        left: 0;
+    }
+
+    .transformations .hero-image-container {
+        text-align: left;
+    }
+
+    .transformations .case-studies-card img {
+        height: 175px;
+        width: auto;
+    }
+    
+    .transformations
+    .brand-promises-card {
+        text-align: left;
+    }
+
+    .transformations .image-for-mobile {
+        display: none;
+    }
+    .transformations .case-studies-card .without-bottom-line .devops-case-study {
+        margin-bottom: 0;
+    }
+
+    .transformations .case-studies-card .with-bottom-line .intro-area {
+        padding-bottom: 80px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .transformations
+    .jumbotron.hero img {
+        top: 50px;
+        left: 30px;
+        width: 360px;
+    }
+
+    .transformations .image-for-mobile {
+        display: none;
+    }
+
+    .transformations .case-studies-card .with-bottom-line .intro-area {
+        padding-bottom: 80px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .transformations .hero-image-container {
+        text-align: left;
+    }
+
+    .transformations
+    .jumbotron.hero img {
+        left: 90px;
+        top: -100px;
+    }
+
+    .transformations .image-for-mobile {
+        display: none;
+    }
+
+    .transformations .case-studies-card .with-bottom-line .intro-area {
+        padding-bottom: 80px;
+    }
+
+    .transformations .case-studies-card .one-of-four img {
+        width: 120px;
+        position: relative;
+        height: auto;
+        text-align: center;
+    }
+
+    .transformations .case-studies-card .one-of-four .icon-container {
+        text-align: center;
+    }
+
+    .transformations .case-studies-card .row-of-three {
+        margin-top: 50px;
+    }
+}
