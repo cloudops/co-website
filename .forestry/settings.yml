@@ -5,18 +5,43 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
   path: content/french
   label: French
   create: all
   match: "**/*"
 - type: directory
+  path: french/blog
+  label: French Blog Posts
+  create: all
+  match: "**/*"
+- type: directory
+  path: french/community-news
+  label: French Community News
+  create: all
+  match: "**/*"
+- type: directory
+  path: french/cloudops-press
+  label: French CloudOps Press
+  create: all
+  match: "**/*"
+- type: directory
   path: content/english
   label: English
+  create: all
+  match: "**/*"
+- type: directory
+  path: english/blog
+  label: English Blog Posts
+  create: all
+  match: "**/*"
+- type: directory
+  path: english/community-news
+  label: English Community News
+  create: all
+  match: "**/*"
+- type: directory
+  path: english/cloudops-press
+  label: English CloudOps Press
   create: all
   match: "**/*"
 upload_dir: static/uploads
