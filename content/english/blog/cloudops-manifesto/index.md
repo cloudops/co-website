@@ -64,11 +64,11 @@ class_name: "blog post"
 
 <p><b>THIS LIST GOES UP TO 11… </b></p>
 
-<p>11.<b> Customer-centric</b><span style="font-weight: 400;"><span style="font-weight: 400;"> – the product is the service, listen to the business and the users constantly and use agile methodology to evolve your services to meet the changing needs and expectations of the consumers.</span></span></p>
+<p>11.<b> Customer-centric</b>– the product is the service, listen to the business and the users constantly and use agile methodology to evolve your services to meet the changing needs and expectations of the consumers.</p>
 
-<img src="/images/blog/post/feedback.jpeg" class="main-blog-image">
+<img src="/images/blog/post/feedback.jpeg">
 <span style="font-size: 10px;"><br> source: <a  style="font-size: 10px;"href="http://soloflightconnects.com/page/3" target="_blank">soloflightconnects.com</a></span>
 
-<p><span style="font-weight: 400;">Cloud computing is a relatively young innovation, but in a rapidly accelerating world, it is already becoming table stakes for any modern competitive business. As the next decade of IT unfolds, and cloud computing becomes omnipresent, we expect the practice of cloud operations to develop and mature quickly. <strong>CloudOps is excited to be part of a global community helping with this transformation!</strong></span></p>
+<p>Cloud computing is a relatively young innovation, but in a rapidly accelerating world, it is already becoming table stakes for any modern competitive business. As the next decade of IT unfolds, and cloud computing becomes omnipresent, we expect the practice of cloud operations to develop and mature quickly. <strong>CloudOps is excited to be part of a global community helping with this transformation!</strong></p>
 
 <p style="font-size: 11px; text-align: right;">Featured image credit: <a style="font-size: 11px;" href="http://www.barryovereem.com/the-spotify-agile-manifesto/">barryovereem.com</a></p>
