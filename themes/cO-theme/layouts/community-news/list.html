@@ -1,0 +1,172 @@
+{{ define "main" }}
+<main>
+  <article>
+    <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
+    {{.Content}}
+    <!-- stand out -->
+    <ul class="nav nav-tabs secondary-nav" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="blog-tab" data-toggle="tab" href="#blog" role="tab"
+                aria-controls="blog-tab" aria-selected="true">Blog</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="community-news-tab" data-toggle="tab" href="#community-news" role="tab" aria-controls="community-news"
+                aria-selected="false">Community News</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="cloudops-press-tab" data-toggle="tab" href="#cloudops-press" role="tab" aria-controls="cloudops-press"
+                aria-selected="false">CloudOps Press</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="blog" role="tabpanel"
+            aria-labelledby="blog-tab">
+            <div class="stand-out">
+                <div class="row">
+                  <div class="col-xl-12">
+                      <h2>Blog</h2>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
+                    <div class="card-deck">
+                      <!-- Ranges through content/posts/*.md -->
+                      {{ range where .Pages "Section" "blog" }}
+                     <div class="card mx-auto">
+                        <a href="{{.Permalink}}">
+                          <div class="card-body">
+                            {{ with .Resources.Match "thumbnail" }}
+                            {{ range . }}
+                            {{ $img := .Fill "206x206 Smart" }}
+                            <img src="{{  $img.RelPermalink }}" />
+                            {{ end }}
+                            {{ end }}
+                            <h3 class="card-title">{{.Title}}</h3>
+                            <p class="card-text">{{.Lastmod.Format "January 2, 2006"}}<br>{{ .Param "author" }}</p>
+                          </div>
+                          <div class="corner-triangle"></div>
+                        </a>
+                      </div>
+                      {{ end }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="community-news" role="tabpanel"
+                  aria-labelledby="community-news-tab">
+                  <div class="stand-out">
+                      <div class="row">
+                        <div class="col-xl-12">
+                            <h2>Community News</h2>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
+                          <div class="card-deck">
+                            <!-- Ranges through content/posts/*.md -->
+                            {{ range where site.Pages "Section" "community-news" }}
+                           <div class="card mx-auto">
+                              <a href="{{.Permalink}}">
+                                <div class="card-body">
+                                  {{ with .Resources.Match "thumbnail" }}
+                                  {{ range . }}
+                                  {{ $img := .Fill "206x206 Smart" }}
+                                  <img src="{{  $img.RelPermalink }}" />
+                                  {{ end }}
+                                  {{ end }}
+                                  <h3 class="card-title">{{.Title}}</h3>
+                                  <p class="card-text">{{.Lastmod.Format "January 2, 2006"}}<br>{{ .Param "author" }}</p>
+                                </div>
+                                <div class="corner-triangle"></div>
+                              </a>
+                            </div>
+                            {{ end }}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              <div class="tab-pane fade" id="cloudops-press" role="tabpanel"
+              aria-labelledby="cloudops-press-tab">
+              <div class="stand-out">
+                  <div class="row">
+                    <div class="col-xl-12">
+                        <h2>CloudOps Press</h2>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
+                      <div class="card-deck">
+                        <!-- Ranges through content/posts/*.md -->
+                        {{ range where site.Pages "Section" "cloudops-press" }}
+                       <div class="card mx-auto">
+                          <a href="{{.Permalink}}">
+                            <div class="card-body">
+                              {{ with .Resources.Match "thumbnail" }}
+                              {{ range . }}
+                              {{ $img := .Fill "206x206 Smart" }}
+                              <img src="{{  $img.RelPermalink }}" />
+                              {{ end }}
+                              {{ end }}
+                              <h3 class="card-title">{{.Title}}</h3>
+                              <p class="card-text">{{.Lastmod.Format "January 2, 2006"}}<br>{{ .Param "author" }}</p>
+                            </div>
+                            <div class="corner-triangle"></div>
+                          </a>
+                        </div>
+                        {{ end }}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    <!-- contact us -->
+    <div class="contact-us-card general-stylings-more-content">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-cards">
+          <div class="card-deck">
+            <div class="card">
+              <a href="/blog/the-cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration">
+                <div class="card-body">
+                  <h3 class="card-title">White Papers</h3>
+                  <p class="card-text"></p>
+                </div>
+                <div class="corner-triangle"></div>
+              </a>
+            </div>
+            <div class="card">
+              <a
+                href="https://cdn2.hubspot.net/hubfs/732832/Gated%20Content/WP_The%20Beginners%20Guide%20to%20Kubernetes_2020.pdf">
+                <div class="card-body">
+                  <h3 class="card-title">One Pagers</h3>
+                  <p class="card-text"></p>
+                  <div class="corner-triangle"></div>
+                </div>
+              </a>
+            </div>
+          <div class="card">
+            <a href="/managed-services-augmented-support">
+              <div class="card-body">
+                <h3 class="card-title">Case Studies</h3>
+                <p class="card-text"></p>
+                <div class="corner-triangle"></div>
+              </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="/blog/staff-augmentation-vs-project-based-services-for-devops-and-cloud-projects">
+              <div class="card-body">
+                <h3 class="card-title">CloudOps Solutions</h3>
+                <p class="card-text"></p>
+                <div class="corner-triangle"></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</main>
+{{ end }}

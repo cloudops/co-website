@@ -7,8 +7,9 @@
     font-size: 34px;
 }
 
-.post .main-blog-image {
-    width: 80%;
+.post img {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .post h2 {
@@ -232,6 +233,23 @@
     float: left;
 }
 
+.alignright { 
+    float: right; 
+    padding: 0 10px 10px 0;
+}
+
+blockquote {
+    border-left: 4px solid #F0F0F0;
+    padding-left: 1em;
+    margin-left: 1em;
+    margin: 1em 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.7em;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.5em;
+}
 
 
 @media (max-width: 575.98px) {
@@ -250,21 +268,12 @@
     .back-foward.in-content.nav-buttons .foward-button {
         text-align: center;
     }
-
-    .post img {
-        max-width: 100%;
-    }
-
 }
 
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     .post {
         margin-left: 15px;
-    }
-
-    .post img {
-        max-width: 100%;
     }
 
 }

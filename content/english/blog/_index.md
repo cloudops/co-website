@@ -26,21 +26,16 @@ class_name: "blog"
         <div class="row no-gutters">
             <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 col-sm-12 col-xs-12">
                 <h2>Where to start on your learning journey</h2>
-                <div class="row no-gutters row-of-three">
-                    <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-1 col-md-4 offset-md-0 col-sm-12 col-xs-12 col-for-3">
+                <div class="row no-gutters">
+                    <div class="col-xl-6  col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <img src="/images/blog-posts.svg">
-                        <a href="/blog/blog-posts"><h3>Blog Posts</h3></a>
-                        <p>The cloud native and DevOps ecosystems are complex and changing fast. <a href="#">Our monthly newsletter</a> will keep you up to date on the latest industry trends.</p>
+                        <a href="/blog/blog-posts"><h3>Monthly newsletter</h3></a>
+                        <p><a href="#">Sign up for the CloudOps newsletter</a>  to stay up to date with our latest articles and news. We’ll help you navigate the complexities of the DevOps and cloud native landscapes by sharing the insights of technical experts and business leaders.</p>
                     </div>
-                    <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-1 col-md-4 offset-md-0 col-sm-12 col-xs-12 col-for-3">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <img src="/images/community-news.svg">
                         <a href="/blog/community-news"><h3>Community News</h3></a>
-                        <p><a href="#">Sign up for our cloud native newsletter</a> to hear about upcoming meetups and ways to deepen your open source skillset. Whether you were an early adopter or are new to the cloud native community, everyone is welcome.</p>
-                    </div>
-                    <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-1 col-md-4 offset-md-0 col-sm-12 col-xs-12 col-for-3">
-                        <img src="/images/cloudops-news.svg">
-                        <a href="/blog/cloudops-press"><h3>CloudOps Press</h3></a>
-                        <p>CloudOps is always evolving to meet market needs. Visit our News page to read our latest press releases.</p>
+                        <p>Early adopter or new to cloud native communities? Everyone is welcome! <a href="#">Sign up for our cloud native newsletter</a> to hear about upcoming (online) meetups, events, and ways to deepen your open source skillset.</p>
                     </div>
                 </div>
             </div>
