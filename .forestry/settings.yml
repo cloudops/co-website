@@ -30,7 +30,7 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: english/blog
+  path: English/blog
   label: English Blog Posts
   create: all
   match: "**/*"
