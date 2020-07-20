@@ -34,22 +34,24 @@ class_name: "blog post"
 
 <h1>Cloud Agnostic: Avoiding the tribal tribulations</h1>
 
-<p><span style="font-weight: 400;">The warring clans of hyperscalers all introduced their own unique APIs in the cloud. AWS was early to the cloud and offers the most differentiated APIs with services like RedShift, Elastic Container Services, and many others. Microsoft Azure also started out with a focus on custom PaaS services but has recently embraced open standards and open source. Google had launched App Engine in the early days of the cloud but recently has focused on providing open-standard APIs and contributing to open source projects in order to extend the services they offer.</span></p>
+<p>The warring clans of hyperscalers all introduced their own unique APIs in the cloud. AWS was early to the cloud and offers the most differentiated APIs with services like RedShift, Elastic Container Services, and many others. Microsoft Azure also started out with a focus on custom PaaS services but has recently embraced open standards and open source. Google had launched App Engine in the early days of the cloud but recently has focused on providing open-standard APIs and contributing to open source projects in order to extend the services they offer.</p>
 
 <p>Early PaaS services, such as force.com, Google App Engine, Elastic BeanStalk, and Heroku, favoured the developer’s desire to focus on innovation over operations but relied on a difficult-to-forecast-cost model. While the risk of vendor lock-in did initially increase with this cloud-centric approach, it decreased as more providers brought similar services to market and responded to the growing demand for open standards.</p>
 
-<p>As vendor lock-in became increasingly expensive and prescriptive, a computing paradigm focused on containers cropped up as a way to optimize the operational model of the cloud without getting locked into a given provider. The&nbsp;<a href="https://www.cncf.io/" target="_blank" rel="noopener noreferrer">CNCF</a>&nbsp;centered the definition of cloud native around its&nbsp;<a href="https://www.cloudops.com/2018/10/the-beginners-guide-to-the-cncf-landscape/" target="_blank" rel="noopener noreferrer">ecosystem of vendor-neutral, open source projects</a>&nbsp;that encourage cloud agnosticism.</p>
+<p>As vendor lock-in became increasingly expensive and prescriptive, a computing paradigm focused on containers cropped up as a way to optimize the operational model of the cloud without getting locked into a given provider. The<a href="https://www.cncf.io/" target="_blank" rel="noopener noreferrer">CNCF</a>centered the definition of cloud native around its<a href="https://www.cloudops.com/2018/10/the-beginners-guide-to-the-cncf-landscape/" target="_blank" rel="noopener noreferrer">ecosystem of vendor-neutral, open source projects</a>that encourage cloud agnosticism.</p>
 
 <p><b>Cloud native requires open source software stacks that package applications into dynamically orchestrated containers that can be deployed on any cloud platform and optimize resource utilization. </b></p>
 
 <p>Cloud native tools provide a rich set of automated APIs that can be deployed on any cloud platform. Their open standards mean that organizations can adopt PaaS services without locking themselves into a vendor. Cloud native platforms are cloud agnostic and allow applications to take full advantage of the cloud’s auto-provisioning, auto-scaling, and auto-redundant deliverables. They have optimized their cloud consumption and enable software developers to build great products faster.</p>
 
-<p>As a member of the CNCF and as a Kubernetes Certified Service Provider and Training Partner, CloudOps is in a unique position to help you better understand how to adopt cloud native practices and technologies. Sign up for a <a href="https://www.cloudops.com/workshop-calendar/" target="_blank" rel="noopener noreferrer">workshop</a> to learn more about DevOps practices and toolings or <a href="mailto:info@cloudops.com" target="_blank" rel="noopener noreferrer">contact us </a>for help assessing and optimizing your technology stack as part of a&nbsp;<a href="https://info.cloudops.com/devops-transformation" target="_blank" rel="noopener noreferrer">DevOps Transformation.</a><!-- end HubSpot Call-to-Action Code --></p>
+<p>As a member of the CNCF and as a Kubernetes Certified Service Provider and Training Partner, CloudOps is in a unique position to help you better understand how to adopt cloud native practices and technologies. Sign up for a <a href="/calendar/" target="_blank" rel="noopener noreferrer">workshop</a> to learn more about DevOps practices and toolings or <a href="mailto:info@cloudops.com" target="_blank" rel="noopener noreferrer">contact us </a>for help assessing and optimizing your technology stack as part of a<a href="/transformation" target="_blank" rel="noopener noreferrer">DevOps Transformation.</a></p>
 
 <p><small><a href="https://www.aryaka.com/blog/cloud-evolution-drives-wan-evolution/" target="_blank" rel="noopener noreferrer">Photo credit</a></small></p>
 
 <div class="row">
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
+    <a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">
       <img src="/images/blog/cta/white-paper.jpeg">
+    </a>
     </div>
 </div>

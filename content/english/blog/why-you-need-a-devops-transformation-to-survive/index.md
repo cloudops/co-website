@@ -24,7 +24,7 @@ class_name: "blog post"
 
 <p>Software releases have traditionally passed through siloed tasks separated by walls of confusion. Product, development, QA, and operations teams are rarely aligned as there is an inherent conflict of interest between developers wanting change and operators wanting stability.</p>
 
-<p>Software releases are delayed as any problem in the delivery pipeline has cascading effects. This results in an overall decrease in release velocity, code quality, and efficiency as well as a release cycle burdened with process. The final features or products released to customers are not in sync with market requirements, which can have dramatically negative impacts on the ability of a business to remain competitive. &nbsp;</p>
+<p>Software releases are delayed as any problem in the delivery pipeline has cascading effects. This results in an overall decrease in release velocity, code quality, and efficiency as well as a release cycle burdened with process. The final features or products released to customers are not in sync with market requirements, which can have dramatically negative impacts on the ability of a business to remain competitive.</p>
 
 <img src="/images/blog/post/Siloed-tasks-of-traditional-IT-separated-by-walls-of-confusion.png"><figcaption>Siloed tasks of traditional IT separated by walls of confusion</figcaption>
 
@@ -42,7 +42,7 @@ class_name: "blog post"
 
 <h2>So what’s slowing down DevOps progress?</h2>
 
-<img style="width: 336px; float: right;  margin: 5px 0 20px 20px;" src="/images/blog/post/Digital-Unicorns-Wanted-1.png">
+<img class="alignright" src="/images/blog/post/Digital-Unicorns-Wanted-1.png">
 
 <p><strong>Trying to hire digital unicorns</strong> – Many organizations look to hire digital unicorns as a means to kickstart digital transformation imperatives. Not only can qualified technical talent be difficult to find, but any digital unicorns you do find may be held back by a digital deluge.</p>
 
@@ -58,11 +58,13 @@ class_name: "blog post"
 
 <img src="/images/blog/post/Journeying-to-CloudOps-with-or-without-CloudOps.png"><figcaption>Timeline of a Journey to DevOps</figcaption>
 
-<p><a href="https://www.cloudops.com/devops-transformation/">Click here</a> to learn more about how CloudOps can help your organization move towards a DevOps Transformation.</p>
+<p><a href="/transformations/">Click here</a> to learn more about how CloudOps can help your organization move towards a DevOps Transformation.</p>
 
 <div class="row">
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
+    <a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">
       <img src="/images/blog/cta/white-paper.jpeg">
+    </a>
     </div>
 </div>
 

@@ -85,7 +85,7 @@ class_name: "blog post"
 
 <h3><a href="https://www.cloudops.com/2018/07/creating-infrastructure-as-code-with-gcp-deployment-manager-your-third-step-towards-devops-automation/" target="_blank"><img style="width: 250px; float: right; padding: 0 10px 0 10px;" class="size-full wp-image-749 alignright" title="Part 3" src="/images/blog/post/memeFINAL.png" alt="Automate Things" width="250" height="150"></a><br> <a href="https://www.cloudops.com/2018/07/creating-infrastructure-as-code-with-gcp-deployment-manager-your-third-step-towards-devops-automation/" target="_blank">Part 3 – Creating Infrastructure as Code with Deployment Manager on GCP: Your Third Step Towards DevOps Automation</a></h3>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<h3><img style="width: 130px; float: left; padding: 0 10px 10px 0;" class="size-full wp-image-749 alignleft" title="Stacy Véronneau" src="/images/blog/post/unnamed.jpg" alt="" >Stacy Véronneau</h3>
+<h3><img style="width: 130px; float: left; padding: 0 10px 10px 0;" class="alignleft" title="Stacy Véronneau" src="/images/blog/post/unnamed.jpg" alt="Stacy Véronneau" >Stacy Véronneau</h3>
 
 <p>A Senior Cloud Architect at CloudOps, Stacy Véronneau also works closely with Google Cloud Platform (GCP) and OpenStack. He’s currently working with Google to help customers migrate to GCP, and fully leverage its power. Additionally, he is an official OpenStack Ambassador, and has spoken at OpenStack Summits and runs meetups throughout Canada.</p>
 

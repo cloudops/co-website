@@ -50,14 +50,14 @@ class_name: "blog post"
 
 <p><span style="font-weight: 400;">Organizations will have to re-evaluate their organizational processes and methodologies if they hope to retire some of their middleware in favour of service meshes. While service meshes help support communication between many containers, middleware can be ideal for transporting information between monolithic applications. They are built within different paradigms, and organizations may have to uproot the ways their application and infrastructure are built and supported to make changes. </span></p>
 
-<p>An organization cannot retire parts of its legacy middleware until a framework of DevOps toolings and practices is put in place. This will promote dynamic collaboration between a stack’s Infrastructure as Code, services, security, monitoring, and CI/CD pipeline. An application’s middleware or service mesh must reflect the components it enables communication between.<span id="hs-cta-wrapper-c968afbe-8592-4aae-bfe6-febcc9319747" class="hs-cta-wrapper"></span><!-- end HubSpot Call-to-Action Code --></p>
+<p>An organization cannot retire parts of its legacy middleware until a framework of DevOps toolings and practices is put in place. This will promote dynamic collaboration between a stack’s Infrastructure as Code, services, security, monitoring, and CI/CD pipeline. An application’s middleware or service mesh must reflect the components it enables communication between.</p>
 
-<img style="float: left; margin: 5px 20px 20px 0; width: 150px !important;" title="Flo Adam" src="/images/blog/post/FloAdams.jpg" alt="" width="150" height="110"><h3>Flo Adam</h3>
-
-<p>Flo Adam is a Senior Cloud Developer at CloudOps. After a decade engineering enterprise grade middleware on Linux platforms, Flo is now focusing on cloud-based computing. She is particularly interested in the challenges that engineering teams face as they migrate workloads into the cloud.</p>
+<h3><img class="alignleft" title="Flo Adam" src="/images/blog/post/FloAdams.jpg" alt="Flo Adam" width="150">Flo Adam</h3><p>Flo Adam is a Senior Cloud Developer at CloudOps. After a decade engineering enterprise grade middleware on Linux platforms, Flo is now focusing on cloud-based computing. She is particularly interested in the challenges that engineering teams face as they migrate workloads into the cloud.</p>
 
 <div class="row">
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
+    <a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">
       <img src="/images/blog/cta/white-paper.jpeg">
+    </a>
     </div>
 </div>

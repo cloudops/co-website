@@ -42,14 +42,16 @@ class_name: "blog post"
 
 <p><span style="font-weight: 400;">DevOps has transformed the way we deploy applications. Within many organizations, its emphasis on collaboration has accelerated the release of features and spread of automation. SRE can be a solution to the resultant ambiguity of responsibility for problems that arise in the web application. It is an extension of DevOps practices, bringing operational functions into the hands of developers and empowering operations with reduced risk. </span><a href="https://www.ibm.com/blogs/bluemix/2017/08/site-reliability-engineering-cloud-approach-operations/" target="_blank" rel="noopener noreferrer"><span style="font-weight: 400;">Steve Strutt </span></a><span style="font-weight: 400;">has called SRE “the cloud approach to operations.”&nbsp;</span></p>
 
-<p>Empowering operations begins with training. Our DevOps workshops will equip your technical teams with the tools and practices needed to modernize application platforms. Application developers can learn how to use such platforms, platform operators how to manage, or SREs how to build. <a href="https://info.cloudops.com/workshops?utm_source=Contact%20us&amp;utm_medium=SRE%20blog%20post&amp;utm_campaign=DockerK8sworkshop">Contact us</a> to request a private workshop customized to your organization’s unique requirements, or visit our <a href="https://www.cloudops.com/workshop-calendar/#workshopcalendar?utm_source=Workshop%20calendar&amp;utm_medium=SRE%20blog%20post&amp;utm_campaign=DockerK8sworkshop">workshop calendar</a> to find out when our next public and online workshops are.</p>
+<p>Empowering operations begins with training. Our DevOps workshops will equip your technical teams with the tools and practices needed to modernize application platforms. Application developers can learn how to use such platforms, platform operators how to manage, or SREs how to build. <a href="/workshops-information">Contact us</a> to request a private workshop customized to your organization’s unique requirements, or visit our <a href="/calendar">workshop calendar</a> to find out when our next public and online workshops are.</p>
 
 <div class="row">
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
+    <a href="/workshops">
       <img src="/images/blog/cta/workshop-white.jpeg">
+    </a>
     </div>
 </div>
 
-<img src="/images/blog/post/will.jpg" style="width: 187px; float: left; padding: 0 10px 10px 0;" alt="" width="187" height="187">
+<img class="alignleft" src="/images/blog/post/will.jpg" alt="Will Stevens, CTO" width="150">
 <h2>Will Stevens</h2>
 <p>As CloudOps’ first employee and current CTO, Will Stevens has experienced the significant shift of organizations adopting the cloud, both from a technical and business value perspective. With a background in development, Will has worked with multiple customers to facilitate the consumption of cloud services, as well as with service providers to deliver cloud solutions. Will was the VP of Apache CloudStack and is currently a member of the Open Source Advisory Council of Canada.</p>

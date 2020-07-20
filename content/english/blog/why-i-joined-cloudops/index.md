@@ -24,9 +24,9 @@ class_name: "blog post"
 
 <p>I can’t think of another company so passionate about the intersection of people and technology (aka DevOps transformation) that their team takes to the stage to illustrate the familiar and confusing moment when development throws code over the wall to ops.</p>
 
-<img style="width: 500px;" src="/images/blog/post/carolwall.png" class="main-blog-image">
+<img style="width: 50%;" src="/images/blog/post/carolwall.png" class="main-blog-image">
 
-<figcaption><strong><em>From left to right: Julia Simon (as Ops), Carol Trang (as the Wall of Confusion) </em><br><em>and James Shubin (as Dev) at DevOps Day Montreal – October, 2018</em></strong></figcaption>
+<p>From left to right: Julia Simon (as Ops), Carol Trang (as the Wall of Confusion) </em><br><em>and James Shubin (as Dev) at DevOps Day Montreal – October, 2018</em></strong></figcaption>
 
 <h2>Community</h2>
 
@@ -53,6 +53,5 @@ class_name: "blog post"
 
 <p><em>This&nbsp;blog&nbsp;post&nbsp;was&nbsp;written&nbsp;by&nbsp;Maddison&nbsp;Long.</em></p>
 
-<p>As VP of Products at CloudOps, Maddison is responsible for developing, implementing and managing the go-to-market strategy for the CloudOps’ Cloud Delivery line of business, including CloudMC. Maddison has a strong background in product management, sales and marketing. Prior to joining CloudOps, he scaled an open source network solutions startup from ground up to acquisition. He is active in various open source networking ecosystems, especially the Linux Foundation Networking (LFN) and Canada’s Centre of Excellence in Next Generation Networks (CENGN).</p>
+<img style="width: 150px;" class="alignleft" src="/images/blog/post/MaddisonLong.jpg"><p>As VP of Products at CloudOps, Maddison is responsible for developing, implementing and managing the go-to-market strategy for the CloudOps’ Cloud Delivery line of business, including CloudMC. Maddison has a strong background in product management, sales and marketing. Prior to joining CloudOps, he scaled an open source network solutions startup from ground up to acquisition. He is active in various open source networking ecosystems, especially the Linux Foundation Networking (LFN) and Canada’s Centre of Excellence in Next Generation Networks (CENGN).</p>
 
-<img style="width: 150px;" class="alignright" src="/images/blog/post/MaddisonLong.jpg" class="main-blog-image">

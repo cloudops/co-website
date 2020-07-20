@@ -30,7 +30,7 @@ class_name: "blog post"
 
 <p>Come join us at <a href="http://www.cloudnativeday.ca/en/">Cloud Native Day</a> on June 11th in Montreal to meet fellow developers and learn more about how to use cloud platforms to build great applications. The event will be for both beginners and those wishing to delve deeper into cloud native technologies. Reach out to me at <a href="mailto: ctrang@cloudops.com">ctrang@cloudops.com</a> if you have any questions or would like to submit an idea for a talk.</p>
 
-<div style="float: left; margin: 5px 20px 20px 0;" class="wp-block-image"><img style="width: 143px;" src="/images/blog/post/40841362_10156601204613728_8051974506358505472_n.jpg"></div>
+<img width="150px;" class="alignleft" src="/images/blog/post/40841362_10156601204613728_8051974506358505472_n.jpg">
 
 <p><strong>Carol Trang</strong></p>
 
@@ -38,6 +38,8 @@ class_name: "blog post"
 
 <div class="row">
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
+    <a href="/workshops">
       <img src="/images/blog/cta/devops-workshop.webp">
+    </a>
     </div>
 </div>
