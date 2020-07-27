@@ -4,6 +4,9 @@ lastmod: 2020-07-09
 resources:
 - name: "thumbnail"
   src: "Beginners_guide_K8s.png"
+aliases:
+    - /white-papers/beginners-guide-to-kubernetes
+    - /beginners-guide-to-kubernetes
 ---
 
 

@@ -8,7 +8,7 @@
    
    
    
-   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.e43764f67f05066711fea169c4000e40d66601508531d3b303c809c380f9d36c.css" integrity="sha256-5Ddk9n8FBmcR/qFpxAAOQNZmAVCFMdOzA8gJw4D502w=" crossorigin="anonymous" media="screen" />
+   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.6986fd97f8ba7da6e6ded9670e2fef94c937b980eed2cbdd8baf974cffdbefde.css" integrity="sha256-aYb9l/i6fabm3tlnDi/vlMk3uYDu0svdi6&#43;XTP/b794=" crossorigin="anonymous" media="screen" />
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
@@ -96,7 +96,7 @@
                 <h3>Our Experts</h3></a>
               </div>
               <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
-                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/calendar">
                 <img src="/images/nav-calendar.svg" height="70px">
                 <h3>Calendar</h3></a>
               </div>
@@ -133,9 +133,9 @@
                   </div>
                   <div class="col-xl-3 col-lg-3">
                       <a href="/blog"><h3 class="dropdown-item list-group-item list-group-item-action">Blog</h3></a>
-                      <a class="dropdown-item list-group-item list-group-item-action" href="#">Blog Posts</a>
-                    <a class="dropdown-item list-group-item list-group-item-action" href="#">Community News</a>
-                    <a class="dropdown-item list-group-item list-group-item-action" href="#">CloudOps Press</a>
+                      <a class="dropdown-item list-group-item list-group-item-action" href="/blog">Blog Posts</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/blog#community-news">Community News</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/blog#cloudops-press">CloudOps Press</a>
                   </div>
                   <div class="col-xl-2 offset-xl-0 col-lg-2">
                       <a href="/resources"><img src="/images/nav-resources.svg" height="70px"></a>
@@ -172,7 +172,7 @@
                     <a class="dropdown-item list-group-item list-group-item-action" href="/about-us"><h3>About Us</h3></a>
                     <a class="dropdown-item list-group-item list-group-item-action" href="/partners"><h3>Partners</h3></a>
                     <a class="dropdown-item list-group-item list-group-item-action" href="/careers"><h3>Careers</h3></a>
-                    <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar"><h3>Events Calendar</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/calendar#events"><h3>Events Calendar</h3></a>
                   </div>
                 </div>
               </div>
@@ -205,10 +205,8 @@
                     <div> December 19, 2019 / CloudOps </div>
                 </header>
                 
-                <p><img src="/images/blog/post/Montrealmeetupblog.jpg" class="main-blog-image"></p>
-
+                <img src="/images/blog/post/Montrealmeetupblog.jpg" class="main-blog-image">
 <p>La dernière série de meetups Kubernetes et Cloud Native de 2019 s’est terminée. Notre tournée nous a amenés sur la route d’Ottawa, de Toronto, de Kitchener-Waterloo, de Montréal, et de Québec. Chacun des meetups a débuté par un résumé de KubeCon San Diego suivi de nouvelles à propos des récentes versions de Kubernetes&nbsp;1.16 et 1.17, de Istio&nbsp;1.3 et 1.4, et de Helm&nbsp;3. Les discussions ont porté sur une variété de sujets et nous avons été enchantés de voir une telle participation active de la part des communautés de l’est du Canada.</p><p>Premier arrêt&nbsp;: Ottawa. Wes Macdonald et Éric Leonard de chez <a href="https://azure.microsoft.com/fr-fr/">Microsoft</a> ont ouvert avec une discussion intitulée&nbsp;: « Kubernetes Security with Calico and Open Policy Agent’ (La sécurité de Kubernetes avec Calico et Open Policy Agent) qui examinait certains problèmes de sécurité que l’on peut éprouver relativement aux politiques de réseautage et de gouvernance dans Kubernetes, Chris Carty d’Ottawa, le seul canadien à participer à KubeCon, présenta un cas d’utilisation détaillant comment la Ville d’Ottawa est devenue cloud native. Bien qu’elle possède maintenant une plateforme Kubernetes évolutive avec des pipelines CI/CD complètement automatisés, il y a eu d’énormes défis à relever pour y arriver.</p><p>Olga Kundzich de chez <a href="https://www.spinnaker.io/">Spinnaker</a> a lancé le meetup à Toronto avec une discussion intitulée&nbsp;: “Modern DevOps with Spinnaker and State of the Kubernetes Provider” (Le DevOps moderne avec Spinnaker et l’état du fournisseur Kubernetes), qui portait sur les meilleures pratiques en matière de livraison continue de Spinnaker ainsi que ses déploiements sur des grappes Kubernetes. Chris Canty a présenté la même conférence qu’à Ottawa. Julian Mazzitelli de chez <a href="https://biobox.io/">BioBox</a> a ensuite présenté&nbsp;: “Designing a complete CI/CD pipeline using Argo Events, Workflow, and CD projects” (Conception d’un pipeline CI/CD complet avec Argo Events, Workflow et des projets CD) où il se concentrait sur la création de flux CI/CD personnalisés.</p><p>Cette conférence a aussi lancé le meetup à Kitchener-Waterloo, où Andy Kwiatkowski a présenté sa conférence ”&nbsp;Autoscaling in Reality: Lessons learned from adaptively scaling Kubernetes&nbsp;“(Évolution automatique dans la réalité&nbsp;: leçons apprises en mettant Kubernetes à l’échelle). Il a expliqué en détail comment Shopify a réussi à créer son propre système de mise à l’échelle automatique ; de l’écriture d’algorithmes régulateurs de trafic à la gestion d’évacuations régionales en passant par l’élimination d’un bruit provenant d’un système en déploiement continu.</p><p>À Montréal, Alex Gervais de chez <a href="https://www.datawire.io/">Datawire</a> a donné une conférence intitulée ”&nbsp;Build Your Own Serverless with Knative&nbsp;“(Comment créer sa propre architecture sans serveur avec Knative). Il a résumé les lignes directrices de base, il a aussi parlé de cas d’utilisation et des avantages des architectures sans serveur, puis il a exploré les façons dont Knative peut être utilisé pour soutenir et pour accroître votre écosystème de fonctionnalités. Michael Tanenbaum de chez <a href="https://d2iq.com/">D2IQ</a> a ensuite présenté ”&nbsp;Building Operators with Kudo&nbsp;“(Créer des opérateurs avec Kudo). Michael a fait la démonstration du projet Kudo, celui-ci introduit une façon facile de créer des opérateurs Kubernetes avec le langage déclaratif YAML.</p><p>Le dernier meetup de la tournée a eu lieu à Québec. Sebastien Thomas a présenté&nbsp;: “Banzaicloud Kafka Operator Tour and Cluster Autoscaling” (L’opérateur Kafka Bazaicloud et la mise à l’échelle automatique de grappes). Il a passé en revue les avantages qu’offre l’opérateur Kafka et a démontré comment les CRD peuvent être utilisés pour initialiser des grappes à évolution automatique basées sur Prometheus. Alex Gervais de chez Datawire a ensuite présenté la même conférence sur les architectures sans serveur qui avait été donnée à Montréal.</p><p>Ce fut merveilleux de voir les communautés Kubernetes et Cloud Native de l’est du Canada. Nous avons eu la chance d’avoir de nouveaux bénévoles qui ont aidé à organiser l’événement, merci à Christopher Vollick, Anthony Dahanne, et à Alex Gervais pour votre superbe travail. Nous aimerions dire un grand merci à tous nos conférenciers ainsi qu’à <a href="https://fr.shopify.ca/">Shopify</a> de nous avoir hébergés à Ottawa et à Kitchener-Waterloo, <a href="https://www.ecobee.com/">Ecobee</a> à Toronto, <a href="https://www.desjardins.com/index.jsp">Desjardins</a> à Montréal, et <a href="https://www.ticketmaster.ca/?lang=fr-ca">Ticketmaster</a> à Québec.&nbsp;</p><p>La journée Cloud Native Day de 2020 aura lieu le 9&nbsp;juin à Montréal. L’appel de proposition se fera au début de 2020 alors rester à l’affût. Soyez les premiers à être informés en vous inscrivant à <a href="https://info.cloudops.com/newsletter-cloud-native-communities">l’infolettre Cloud Native</a> ou à votre communauté locale à <a href="https://www.meetup.com/Kubernetes-Montreal/">Montréal</a>, à <a href="https://www.meetup.com/Kubernetes-Quebec/">Québec</a>, à <a href="https://www.meetup.com/Kubernetes-Ottawa/">Ottawa</a>, à <a href="https://www.meetup.com/Kubernetes-Toronto/">Toronto</a>, et à <a href="https://www.meetup.com/Kubernetes-Kitchener-Waterloo/">Kitchener-Waterloo</a>.</p>
-
             </article>
         </div>
     </div>

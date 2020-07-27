@@ -8,7 +8,7 @@
    
    
    
-   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.e43764f67f05066711fea169c4000e40d66601508531d3b303c809c380f9d36c.css" integrity="sha256-5Ddk9n8FBmcR/qFpxAAOQNZmAVCFMdOzA8gJw4D502w=" crossorigin="anonymous" media="screen" />
+   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.6986fd97f8ba7da6e6ded9670e2fef94c937b980eed2cbdd8baf974cffdbefde.css" integrity="sha256-aYb9l/i6fabm3tlnDi/vlMk3uYDu0svdi6&#43;XTP/b794=" crossorigin="anonymous" media="screen" />
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
@@ -96,7 +96,7 @@
                 <h3>Our Experts</h3></a>
               </div>
               <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
-                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/calendar">
                 <img src="/images/nav-calendar.svg" height="70px">
                 <h3>Calendar</h3></a>
               </div>
@@ -133,9 +133,9 @@
                   </div>
                   <div class="col-xl-3 col-lg-3">
                       <a href="/blog"><h3 class="dropdown-item list-group-item list-group-item-action">Blog</h3></a>
-                      <a class="dropdown-item list-group-item list-group-item-action" href="#">Blog Posts</a>
-                    <a class="dropdown-item list-group-item list-group-item-action" href="#">Community News</a>
-                    <a class="dropdown-item list-group-item list-group-item-action" href="#">CloudOps Press</a>
+                      <a class="dropdown-item list-group-item list-group-item-action" href="/blog">Blog Posts</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/blog#community-news">Community News</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/blog#cloudops-press">CloudOps Press</a>
                   </div>
                   <div class="col-xl-2 offset-xl-0 col-lg-2">
                       <a href="/resources"><img src="/images/nav-resources.svg" height="70px"></a>
@@ -172,7 +172,7 @@
                     <a class="dropdown-item list-group-item list-group-item-action" href="/about-us"><h3>About Us</h3></a>
                     <a class="dropdown-item list-group-item list-group-item-action" href="/partners"><h3>Partners</h3></a>
                     <a class="dropdown-item list-group-item list-group-item-action" href="/careers"><h3>Careers</h3></a>
-                    <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar"><h3>Events Calendar</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/calendar#events"><h3>Events Calendar</h3></a>
                   </div>
                 </div>
               </div>
@@ -219,7 +219,6 @@
 </code></pre><h3>Install the Rook Operator</h3><h4>Add the ‘Rook Charts’ repo to Helm.</h4><pre><code>helm repo add rook-stable https://charts.rook.io/stable
 </code></pre>
 Install the Rook Operator (v 0.9.3 as of this writing)
-
 <pre><code>
 helm install --name rook --namespace rook-ceph-system rook-stable/rook-ceph
 
@@ -234,7 +233,6 @@ rook-discover-jlsv9                   1/1     Running   0          35d   10.244.
 rook-discover-vt7mk                   1/1     Running   0          35d   10.244.8.4      coo-r1-k8s-worker-st-03   
 
 </code></pre>
-
 <p>The helm chart deploys the rook-related pods (rook-operator, rook-discover and rook-agent) as well as CustomResourceDefinition for Ceph cluster among others. The discover pods run a discovery script to locate storage devices attached to the Kubernetes storage nodes.</p><p>Please note that all pods in rook-ceph-system should be Running or Completed with no restarts or errors before proceeding to the next step.</p><h3><strong>Create a Ceph Cluster managed by Rook</strong></h3><p>The next step is to create a Ceph cluster. From the ‘rook’ source tree. <a href="https://github.com/rook/rook">Click here to view the git clone</a>. At cluster/examples/kubernetes/ceph, inspect, and modify</p><pre><code>cluster.yaml</code></pre><p> to your liking. The cluster CRD defines desired settings for a storage cluster. Simply run the following command to bootstrap a rook cluster:</p><pre><code>kubectl create -f cluster.yaml</code></pre><p>To confirm our Rook cluster is now working, let’s check the running pods under the rook-ceph namespace:</p><pre><code>$ kubectl get po -n rook-ceph -o wide
 NAME                                                  READY   STATUS      RESTARTS   AGE   IP              NODE                      NOMINATED NODE
 rook-ceph-mgr-a-bf78cdcb8-q4gpz                       1/1     Running     0          35d   10.244.7.7      coo-r1-k8s-worker-st-01   <none>
@@ -255,26 +253,26 @@ rook-ceph-osd-prepare-coo-r1-k8s-worker-st-02-sr2dm   0/2     Completed   0     
 rook-ceph-osd-prepare-coo-r1-k8s-worker-st-03-zzqmq   0/2     Completed   0          35d   10.244.8.8      coo-r1-k8s-worker-st-03   <none>
 rook-ceph-tools-cb5655595-vq4vj                       1/1     Running     0          35d   10.212.144.53   coo-r1-k8s-worker-st-03   <none>
 </none></none></none></none></none></none></none></none></none></none></none></none></none></none></none></none></none></code></pre><p>You will see that Rook starts deploying a couple of</p><pre><code>mon</code></pre><p> as well as</p><pre><code>osd-prepare</code></pre><p> pods.</p><pre><code>rook-ceph-osd-prepare</code></pre><p> pods prepare the OSD by formatting the disk and adding the</p><pre><code>osd</code></pre><p> pods into the cluster.</p><p>Rook also comes with a</p><pre><code>toolkit</code></pre><p> container that has the full suite of Ceph clients for rook debugging and testing. After running</p><pre><code>kubectl create -f toolkit.yaml</code></pre><p> in the cluster, use the following command to get into the pod:</p><h3><strong>Cluster configuration tips:</strong></h3><p>Define</p><pre><code>mon.count</code></pre><p> to be an odd number greater than 3.</p><p>Define resource limits for the Ceph components:</p><pre><code>mgr:
-    limits:
-        cpu: "500m"
-        memory: "1024Mi"
-    requests:
-        cpu: "500m"
-        memory: "1024Mi"
+	limits:
+		cpu: "500m"
+		memory: "1024Mi"
+	requests:
+		cpu: "500m"
+		memory: "1024Mi"
 mon:
-    limits:
-        cpu: "1"
-        memory: "1024Mi"
-    requests:
-        cpu: "500m"
-        memory: "1024Mi"
+	limits:
+		cpu: "1"
+		memory: "1024Mi"
+	requests:
+		cpu: "500m"
+		memory: "1024Mi"
 osd:
-    limits:
-        cpu: "1"
-        memory: "2048Mi"
-    requests:
-        cpu: "500m"
-        memory: "1024Mi"
+	limits:
+		cpu: "1"
+		memory: "2048Mi"
+	requests:
+		cpu: "500m"
+		memory: "1024Mi"
 </code></pre><p>I recommend to make all the storage nodes as homogenous as possible with the same CPU, RAM and Disks. This enables me to use the deviceFilter feature:</p><pre><code>storage:
   useAllNodes: true
   useAllDevices: false
@@ -330,26 +328,23 @@ default   mysql-pv-claim                                 Bound     pvc-f1af6df6-
   cluster:
     id:     62e69dc1-efb5-42d9-a7bc-1ea6cfbd467f
     health: HEALTH_OK
- 
-  services:
-    mon: 3 daemons, quorum c,a,b
-    mgr: a(active)
-    osd: 9 osds: 9 up, 9 in
- 
-  data:
-    pools:   1 pools, 100 pgs
-    objects: 236  objects, 406 MiB
-    usage:   10 GiB used, 1.7 TiB / 1.8 TiB avail
-    pgs:     100 active+clean
- 
-  io:
-    client:   38 KiB/s wr, 0 op/s rd, 3 op/s wr
+<p>services:
+mon: 3 daemons, quorum c,a,b
+mgr: a(active)
+osd: 9 osds: 9 up, 9 in</p>
+<p>data:
+pools:   1 pools, 100 pgs
+objects: 236  objects, 406 MiB
+usage:   10 GiB used, 1.7 TiB / 1.8 TiB avail
+pgs:     100 active+clean</p>
+<p>io:
+client:   38 KiB/s wr, 0 op/s rd, 3 op/s wr
 </code></pre><h4>Detailed Health Status</h4><p>This is useful for identifying bad physical groups that need repairs.</p><pre><code>$ ceph health detail
 HEALTH_OK
 </code></pre><h4>Status of all OSDs</h4><pre><code>$ ceph osd status
-+----+-------------------------+-------+-------+--------+---------+--------+---------+-----------+
++&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;-+&mdash;&mdash;-+&mdash;&mdash;&ndash;+&mdash;&mdash;&mdash;+&mdash;&mdash;&ndash;+&mdash;&mdash;&mdash;+&mdash;&mdash;&mdash;&ndash;+
 | id |           host          |  used | avail | wr ops | wr data | rd ops | rd data |   state   |
-+----+-------------------------+-------+-------+--------+---------+--------+---------+-----------+
++&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;-+&mdash;&mdash;-+&mdash;&mdash;&ndash;+&mdash;&mdash;&mdash;+&mdash;&mdash;&ndash;+&mdash;&mdash;&mdash;+&mdash;&mdash;&mdash;&ndash;+
 | 0  | coo-r1-k8s-worker-st-01 | 1149M |  198G |    0   |  13.6k  |    0   |     0   | exists,up |
 | 1  | coo-r1-k8s-worker-st-02 | 1157M |  198G |    0   |     0   |    0   |     0   | exists,up |
 | 2  | coo-r1-k8s-worker-st-03 | 1143M |  198G |    0   |     0   |    0   |     0   | exists,up |
@@ -359,71 +354,63 @@ HEALTH_OK
 | 6  | coo-r1-k8s-worker-st-02 | 1109M |  198G |    0   |     0   |    0   |     0   | exists,up |
 | 7  | coo-r1-k8s-worker-st-03 | 1160M |  198G |    0   |  1638   |    0   |     0   | exists,up |
 | 8  | coo-r1-k8s-worker-st-03 | 1143M |  198G |    0   |  3276   |    0   |     0   | exists,up |
-+----+-------------------------+-------+-------+--------+---------+--------+---------+-----------+
++&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;-+&mdash;&mdash;-+&mdash;&mdash;&ndash;+&mdash;&mdash;&mdash;+&mdash;&mdash;&ndash;+&mdash;&mdash;&mdash;+&mdash;&mdash;&mdash;&ndash;+
 </code></pre><h4>Ceph Pool Details</h4><pre><code>$ ceph osd pool ls detail
-pool 1 'replicapool' replicated size 3 min_size 1 crush_rule 1 object_hash rjenkins pg_num 100 pgp_num 100 last_change 37 flags hashpspool,selfmanaged_snaps stripe_width 0 application rbd
-    removed_snaps [1~3]
+pool 1 &lsquo;replicapool&rsquo; replicated size 3 min_size 1 crush_rule 1 object_hash rjenkins pg_num 100 pgp_num 100 last_change 37 flags hashpspool,selfmanaged_snaps stripe_width 0 application rbd
+removed_snaps [1~3]
 </code></pre><h4>Show Pool and Total Usage</h4><pre><code>$ rados df
-POOL_NAME      USED OBJECTS CLONES COPIES MISSING_ON_PRIMARY UNFOUND DEGRADED RD_OPS      RD  WR_OPS     WR  
-replicapool 1.4 GiB     575      0   1150                  0       0        0   1224 2.4 MiB 1698291 84 GiB  
-
-total_objects    575
+POOL_NAME      USED OBJECTS CLONES COPIES MISSING_ON_PRIMARY UNFOUND DEGRADED RD_OPS      RD  WR_OPS     WR<br>
+replicapool 1.4 GiB     575      0   1150                  0       0        0   1224 2.4 MiB 1698291 84 GiB</p>
+<p>total_objects    575
 total_used       5.6 GiB
 total_avail      294 GiB
 total_space      300 GiB
-</code></pre><h3>Using the StorageClass with Kubernetes Apps/Helm Charts</h3><p>Most, if not all Helm charts have configuration options that allow overriding the StorageClass. Here is an example:</p><pre><code>helm install --name=redis stable/redis \
-  --set master.persistence.storageClass=rook-ceph-block \
-  --set slave.persistence.storageClass=rook-ceph-block
-</code></pre><h3><strong>Re-Installation</strong></h3><h4>Full Reinstall including RKE</h4><p>Disclaimer: The following instructions erase the data and are not recommended to be executed on the Production cluster.</p><p>Rook can be tricky to re-install, because a lot of data is stored on the local storage nodes. If you are using RKE, wipe data from the worker and master nodes, and reinstall RKE completely. To clean up:</p><pre><code># remove rke docker and everything 
-sudo apt -y purge docker-ce \
-&amp;&amp; sudo apt -y autoremove \
-&amp;&amp; sudo rm -rf /var/lib/docker \
-&amp;&amp; sudo rm -rf /opt/* \
-&amp;&amp; sudo rm -rf /var/lib/rook \
-&amp;&amp; sudo rm -rf /var/lib/etcd \
-&amp;&amp; sudo rm -rf /var/lib/cni \
-&amp;&amp; sudo rm -rf /var/lib/containerd \
-&amp;&amp; sudo rm -rf /var/lib/calico \
-&amp;&amp; sudo rm -rf /var/lib/kubelet \
+</code></pre><h3>Using the StorageClass with Kubernetes Apps/Helm Charts</h3><p>Most, if not all Helm charts have configuration options that allow overriding the StorageClass. Here is an example:</p><pre><code>helm install &ndash;name=redis stable/redis<br>
+&ndash;set master.persistence.storageClass=rook-ceph-block<br>
+&ndash;set slave.persistence.storageClass=rook-ceph-block
+</code></pre><h3><strong>Re-Installation</strong></h3><h4>Full Reinstall including RKE</h4><p>Disclaimer: The following instructions erase the data and are not recommended to be executed on the Production cluster.</p><p>Rook can be tricky to re-install, because a lot of data is stored on the local storage nodes. If you are using RKE, wipe data from the worker and master nodes, and reinstall RKE completely. To clean up:</p><pre><code># remove rke docker and everything
+sudo apt -y purge docker-ce<br>
+&amp;&amp; sudo apt -y autoremove<br>
+&amp;&amp; sudo rm -rf /var/lib/docker<br>
+&amp;&amp; sudo rm -rf /opt/*<br>
+&amp;&amp; sudo rm -rf /var/lib/rook<br>
+&amp;&amp; sudo rm -rf /var/lib/etcd<br>
+&amp;&amp; sudo rm -rf /var/lib/cni<br>
+&amp;&amp; sudo rm -rf /var/lib/containerd<br>
+&amp;&amp; sudo rm -rf /var/lib/calico<br>
+&amp;&amp; sudo rm -rf /var/lib/kubelet<br>
 &amp;&amp; sudo rm -rf /var/lib/rancher
 </code></pre><p>This removes all trace of docker, Rook and RKE and related components.</p><p>If this is running on a live worker/master, you should reboot after running this command, and then run it again (some files are locked by running processes), and then proceed to do full reinstall (docker included!)</p><p>You will also need to format the disks that have been used by Rook/Ceph.</p><pre><code>$ sudo fdisk /dev/sdb
 Welcome to fdisk (util-linux 2.29.2).
 Changes will remain in memory only, until you decide to write them.
-Be careful before using the write command.
-
-Device /dev/sdb already contains a LVM2_member signature.
-The signature will be removed by a write command.
-
-Device does not contain a recognized partition table.
-Created a new DOS disklabel with disk identifier 0xa24124a7.
-
-Command (m for help):
+Be careful before using the write command.</p>
+<p>Device /dev/sdb already contains a LVM2_member signature.
+The signature will be removed by a write command.</p>
+<p>Device does not contain a recognized partition table.
+Created a new DOS disklabel with disk identifier 0xa24124a7.</p>
+<p>Command (m for help):
 </code></pre><p>Then simply type ‘w’ and “enter” and it will overwrite the partition table and make the disks ready to use again by Rook/Ceph. I recommend a reboot after wiping the disk to ensure nothing is bound or has open file handles to it.</p><h4>Just Rook</h4><p>Deleting the namespaces rook-ceph and rook-ceph-system can get you into trouble. To tear down the Ceph cluster:</p><p>Delete the resources created on top of the rook cluster (pool, storageClass, PVC, …) .</p><pre><code>kubectl delete -n rook-ceph cephblockpool replicapool
 kubectl delete storageclass rook-ceph-block
-</code></pre><p>Delete the cluster CRD and the operator helm chart.</p><p>kubectl -n rook-ceph patch clusters.ceph.rook.io rook-ceph -p ‘{“metadata”:{“finalizers”: []}}’ –type=merge<br> kubectl -n rook-ceph delete cephcluster rook-ceph<br> helm delete –purge rook<br> kubectl delete namespace rook-ceph</p><p>Connect to each machine and delete</p><pre><code>/var/lib/rook</code></pre><p> or the path specified by</p><pre><code>dataDirHostPath</code></pre><p>If you face any issue, you can consult <a href="https://github.com/rook/rook/blob/master/Documentation/ceph-teardown.md#troubleshooting">this page</a>.</p><h3>Diagnostics</h3><h4>Physical Group Repair</h4><p>Occasionally, Ceph status can say that Physical Groups need repair. To execute this, connect into the toolbox pod:</p><pre><code>$ ceph health detail 
-HEALTH_ERR 
-1 pgs inconsistent; 2 scrub errors 
+</code></pre><p>Delete the cluster CRD and the operator helm chart.</p><p>kubectl -n rook-ceph patch clusters.ceph.rook.io rook-ceph -p ‘{“metadata”:{“finalizers”: []}}’ –type=merge<br> kubectl -n rook-ceph delete cephcluster rook-ceph<br> helm delete –purge rook<br> kubectl delete namespace rook-ceph</p><p>Connect to each machine and delete</p><pre><code>/var/lib/rook</code></pre><p> or the path specified by</p><pre><code>dataDirHostPath</code></pre><p>If you face any issue, you can consult <a href="https://github.com/rook/rook/blob/master/Documentation/ceph-teardown.md#troubleshooting">this page</a>.</p><h3>Diagnostics</h3><h4>Physical Group Repair</h4><p>Occasionally, Ceph status can say that Physical Groups need repair. To execute this, connect into the toolbox pod:</p><pre><code>$ ceph health detail
+HEALTH_ERR
+1 pgs inconsistent; 2 scrub errors
 pg 0.6 is active+clean+inconsistent, acting [0,1,2] 2 scrub errors
 </code></pre><p>This indicates Physical Group 0.6 needs repair. To repair:</p><pre><code>ceph pg repair 0.6</code></pre><p>This will initiate a repair which can take a minute to finish. Afterwards, “health” should be</p><pre><code>HEALTH_OK</code></pre><h4>Changing Replicated Size</h4><p>If replicated size is not set properly, you can set this on a running replicapool (called replicapool in this example). Once inside the toolbox pod:</p><pre><code>ceph osd pool set replicapool size 3
 ceph osd pool set replicapool min_size 3
 </code></pre><h4>Changing Physical Groups Number</h4><p>To change PG size for replica pool, once inside toolbox pod:</p><pre>ceph osd pool set replicapool pg_num 256
 ceph osd pool set replicapool pgp_num 256
-</code></pre><p>Rook and Ceph can help teams find cloud native solutions for storage. To learn more about DevOps tools, <a href="https://www.cloudops.com/workshops/">sign up for one of our hands-on DevOps workshops</a>. We offer public trainings on Docker and Kubernetes as well as DevOps Monitoring in a variety of cities as well as private trainings on a wider variety of subjects in any city. <a href="https://www.cloudops.com/about-us/contact-us/">Contact us</a> to learn more about how CloudOps can help your organization find DevOps solutions.</p>
-
+</code></pre><p>Rook and Ceph can help teams find cloud native solutions for storage. To learn more about DevOps tools, <a href="https://www.cloudops.com/workshops/">sign up for one of our hands-on DevOps workshops</a>. We offer public trainings on Docker and Kubernetes as well as DevOps Monitoring in a variety of cities as well as private trainings on a wider variety of subjects in any city. <a href="https://www.cloudops.com/about-us/contact-us/">Contact us</a> to learn more about how CloudOps can help your organization find DevOps solutions.</p></p>
 <div class="row">
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
       <img src="/images/blog/cta/white-paper.jpeg">
     </div>
 </div>
-
-<p><h4>References</h4><ul><li> <a href="https://github.com/rook/rook/blob/master/Documentation/ceph-toolbox.md">https://github.com/rook/rook/blob/master/Documentation/ceph-toolbox.md</a></li><li><a href="http://docs.ceph.com/docs/mimic/rados/troubleshooting/troubleshooting-pg/">http://docs.ceph.com/docs/mimic/rados/troubleshooting/troubleshooting-pg/</a></li><li> <a href="http://docs.ceph.com/docs/jewel/rados/operations/placement-groups/#set-the-number-of-placement-groups">http://docs.ceph.com/docs/jewel/rados/operations/placement-groups/#set-the-number-of-placement-groups</a></li><li> <a href="http://accelazh.github.io/ceph/Ceph-Performance-Tuning-Checklist">http://accelazh.github.io/ceph/Ceph-Performance-Tuning-Checklist</a></li><li> <a href="https://github.com/rook/rook/blob/master/Documentation/advanced-configuration.md">https://github.com/rook/rook/blob/master/Documentation/advanced-configuration.md</a></li><li> <a href="https://github.com/rook/rook/blob/master/Documentation/common-issues.md">https://github.com/rook/rook/blob/master/Documentation/common-issues.md</a></li><li><a href="http://docs.ceph.com/docs/giant/rados/troubleshooting/troubleshooting-osd/">http://docs.ceph.com/docs/giant/rados/troubleshooting/troubleshooting-osd/</a></li></ul></div></p>
-
+<h4>References</h4><ul><li> https://github.com/rook/rook/blob/master/Documentation/ceph-toolbox.md</li><li>http://docs.ceph.com/docs/mimic/rados/troubleshooting/troubleshooting-pg/</li><li> http://docs.ceph.com/docs/jewel/rados/operations/placement-groups/#set-the-number-of-placement-groups</li><li> http://accelazh.github.io/ceph/Ceph-Performance-Tuning-Checklist</li><li> https://github.com/rook/rook/blob/master/Documentation/advanced-configuration.md</li><li> https://github.com/rook/rook/blob/master/Documentation/common-issues.md</li><li>http://docs.ceph.com/docs/giant/rados/troubleshooting/troubleshooting-osd/</li></ul></div>
 <div class="row">
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
       <img src="/images/blog/cta/devops-workshop.webp">
     </div>
 </div>
-
             </article>
         </div>
     </div>

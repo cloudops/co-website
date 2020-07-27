@@ -4,6 +4,8 @@ lastmod: 2020-07-10
 resources:
 - name: "thumbnail"
   src: "Financial_WP.png"
+aliases:
+    - /financialkubernetes-0
 ---
 
 

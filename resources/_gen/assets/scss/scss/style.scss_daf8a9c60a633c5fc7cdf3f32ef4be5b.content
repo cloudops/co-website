@@ -4407,6 +4407,10 @@ form option {
   padding: 0 5px;
   vertical-align: top; }
 
+.post .smcx-iframe-container {
+  max-width: 100%;
+  height: 1000px; }
+
 .post .alignleft {
   padding-top: 0;
   padding-right: 20px;

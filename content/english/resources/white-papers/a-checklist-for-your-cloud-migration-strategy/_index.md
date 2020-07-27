@@ -4,6 +4,10 @@ lastmod: 2020-07-05
 resources:
 - name: "thumbnail"
   src: "cloudmigration.png"
+aliases:
+    - /white-papers/a-checklist-for-your-cloud-migration-strategy/
+    - /a-checklist-for-your-cloud-migration-strategy/
+    - /cloud-migration-checklist
 ---
 
 

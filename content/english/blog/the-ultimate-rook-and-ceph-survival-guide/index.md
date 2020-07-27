@@ -218,6 +218,8 @@ ceph osd pool set replicapool pgp_num 256
 
 <div class="row">
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
+    <a href="/workshops">
       <img src="/images/blog/cta/devops-workshop.webp">
+    </a>
     </div>
 </div>

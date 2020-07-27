@@ -1,6 +1,9 @@
 ---
 title: Case Studies
 type: subpage-resources
+aliases:
+    - /category/case-study/
+    - /case-studies
 ---
 
 <div class="blog-main subpage-resources">

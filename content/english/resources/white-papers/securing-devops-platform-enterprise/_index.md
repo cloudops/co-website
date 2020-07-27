@@ -4,6 +4,9 @@ lastmod: 2020-07-03
 resources:
 - name: "thumbnail"
   src: "securing_devops_platform.png"
+aliases:
+    - /white-papers/securing-devops-platform-enterprise/
+    - /securing-devops-platform-enterprise/
 ---
 
 

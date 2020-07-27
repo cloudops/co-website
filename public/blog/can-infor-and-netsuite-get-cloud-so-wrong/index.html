@@ -8,7 +8,7 @@
    
    
    
-   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.e43764f67f05066711fea169c4000e40d66601508531d3b303c809c380f9d36c.css" integrity="sha256-5Ddk9n8FBmcR/qFpxAAOQNZmAVCFMdOzA8gJw4D502w=" crossorigin="anonymous" media="screen" />
+   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.6986fd97f8ba7da6e6ded9670e2fef94c937b980eed2cbdd8baf974cffdbefde.css" integrity="sha256-aYb9l/i6fabm3tlnDi/vlMk3uYDu0svdi6&#43;XTP/b794=" crossorigin="anonymous" media="screen" />
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
@@ -96,7 +96,7 @@
                 <h3>Our Experts</h3></a>
               </div>
               <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
-                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/calendar">
                 <img src="/images/nav-calendar.svg" height="70px">
                 <h3>Calendar</h3></a>
               </div>
@@ -133,9 +133,9 @@
                   </div>
                   <div class="col-xl-3 col-lg-3">
                       <a href="/blog"><h3 class="dropdown-item list-group-item list-group-item-action">Blog</h3></a>
-                      <a class="dropdown-item list-group-item list-group-item-action" href="#">Blog Posts</a>
-                    <a class="dropdown-item list-group-item list-group-item-action" href="#">Community News</a>
-                    <a class="dropdown-item list-group-item list-group-item-action" href="#">CloudOps Press</a>
+                      <a class="dropdown-item list-group-item list-group-item-action" href="/blog">Blog Posts</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/blog#community-news">Community News</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/blog#cloudops-press">CloudOps Press</a>
                   </div>
                   <div class="col-xl-2 offset-xl-0 col-lg-2">
                       <a href="/resources"><img src="/images/nav-resources.svg" height="70px"></a>
@@ -172,7 +172,7 @@
                     <a class="dropdown-item list-group-item list-group-item-action" href="/about-us"><h3>About Us</h3></a>
                     <a class="dropdown-item list-group-item list-group-item-action" href="/partners"><h3>Partners</h3></a>
                     <a class="dropdown-item list-group-item list-group-item-action" href="/careers"><h3>Careers</h3></a>
-                    <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar"><h3>Events Calendar</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/calendar#events"><h3>Events Calendar</h3></a>
                   </div>
                 </div>
               </div>
@@ -211,7 +211,6 @@
                 
                 
                 <p>This article might be a good example of why software as a service (SaaS) should not be called “cloud.” Equating a subscription software delivery model to cloud masks its&nbsp;true value.</p><p><a href="http://diginomica.com/2014/11/12/infor-hits-back-criticism-decision-use-aws-cloudsuite/" target="_blank">http://diginomica.com/2014/11/12/infor-hits-back-criticism-decision-use-aws-cloudsuite/</a></p><p>Let’s start with the old analogy of comparing cloud computing to an electrical utility. NetSuite is adamant that building and maintaining its own power plants is important, when what customers really value is their software.</p><p>Also, the author of the article appears to be saying that Infor requires that its clients use Amazon Web Services (AWS).</p><p>If this is so, it’s amazing that these two “cloud” companies have got it so wrong.</p><p>The author raises questions about how “SaaSy” Infor’s applications really are for multi-tenant, security, and automation. The real questions related to running on AWS are: did they “re-design for failure,” and will their customers care about data sovereignty?</p><h3>Cloud-Native (Design for Failure)</h3><p>NetSuite’s CEO has been quoted as saying: ” From a service standpoint, if AWS goes down, what’s the first set of servers they’re going to bring up? I don’t think they’re Infor’s. It might be Netflix.” That shows how poorly he understands cloud and AWS: he confuses hosting with cloud. AWS does not get their customers servers back up, the customers do. The ones that are using AWS right let their software handle the failures gracefully. Applications that handle failures gracefully have been built with “design for failure” in mind and are considered “cloud-native.” Very few business-critical applications can be ported from traditional design, where they trust hardware not to fail, versus AWS’s cloud model, where it is the norm to have failures, and they have frequent brownouts that don’t count towards the 99.95% SLA. AWS’s scheduled or unscheduled maintenance and outages that last less than five minutes are not considered downtime. To be deemed as suffering an outage, Amazon EC2 customers need all of their running instances to be unreachable in more than one availability zone within the same region, with no ability to launch replacement instances. The 99.95% SLA means expecting 4.38 hours of unscheduled infrastructure downtime to affect an entire availability zone, lasting more than five minutes. Performance degradation, brownouts, and system reboots do not count as downtime! And if the software is designed to handle that type of unreliable system, it’s no harm, no foul.</p><h3>Data Sovereignty and Clouds</h3><p>Regulations and laws on data sovereignty should be carefully considered before selecting a cloud service provider. In the case of Infor’s customer base, it probably makes more sense to partner with regional providers that are owned and operated by residents of the country. Laws that mandate a company to keep a customer’s data in that customer’s home country are being promoted in countries around the world, especially since Edward Snowden’s revelations. A key consideration driving data sovereignty and the growth of regional clouds worldwide is the prevention of data from being subpoenaed by a foreign power. In September 2014, the US government ordered Microsoft to hand over data stored in its cloud in Dublin. While this violates Irish law, Microsoft’s not complying would mean breaking US law. Legitimate concerns such as this that are unresolved in the courts are driving the uncertainty around using foreign-owned public clouds.</p><p>After looking at Infor’s website, I think the author may have the wrong impression about Infor’s CloudSuite. It looks to me like Infor can run anywhere based on its customers’ technical and business requirements.</p><p>I doubt that Infor will lock itself into only delivering on AWS.</p><p>We built <a href="https://www.cloud.ca" target="_blank">cloud.ca</a> to handle both cloud-native and traditional workloads. It is a Canadian owned and operated virtual private cloud. Check it out today!</p>
-
             </article>
         </div>
     </div>

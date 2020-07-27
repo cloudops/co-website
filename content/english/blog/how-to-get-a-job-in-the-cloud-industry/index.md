@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "job.jpg"
 class_name: "blog post"
+aliases:
+    - /2013/02/how-to-get-a-job-in-the-cloud-industry/
+    - /how-to-get-a-job-in-the-cloud-industry/
 ---
 
 

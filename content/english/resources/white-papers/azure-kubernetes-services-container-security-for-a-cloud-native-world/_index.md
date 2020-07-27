@@ -4,6 +4,10 @@ lastmod: 2020-07-04
 resources:
 - name: "thumbnail"
   src: "AKS.png"
+aliases:
+    - /white-papers/azure-kubernetes-services-container-security-for-a-cloud-native-world/
+    - /azure-kubernetes-services-container-security-for-a-cloud-native-world/
+    - /container-security-for-azure/
 ---
 
 

@@ -4,6 +4,10 @@ lastmod: 2020-07-07
 resources:
 - name: "thumbnail"
   src: "Forrester.png"
+aliases:
+    - /white-papers/total-economic-impact-of-microsoft-azure-iaas/
+    - /total-economic-impact-of-microsoft-azure-iaas/
+    - /economic-benefits-azure-iaas
 ---
 
 

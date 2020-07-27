@@ -40,6 +40,6 @@ class_name: "blog post"
 
 <h3><strong>Cloud Native Gaming: What Google Stadia has to Offer</strong></h3>
 
-<p>Google announced Stadia at the 2019 Game Developers Conference in San Francisco, a completely cloud native service that allows you to play games on demand. Other companies have since released similar offerings, but <a href="https://www.cloudops.com/2019/03/cloud-native-gaming-what-google-stadia-has-to-offer/">this blog post talks about the implications of cross-platform games.</a></p>
+<p>Google announced Stadia at the 2019 Game Developers Conference in San Francisco, a completely cloud native service that allows you to play games on demand. Other companies have since released similar offerings, but <a href="/cloud-native-gaming-what-google-stadia-has-to-offer/">this blog post talks about the implications of cross-platform games.</a></p>
 
-<p>Interested in staying up to date with all our latest pieces of content? <a href="https://info.cloudops.com/newsletter">Sign up for our monthly newsletter</a> to receive our latest blog posts and hear about upcoming events. We promise not to spam you, and you can unsubscribe at any time.</p>
+<p>Interested in staying up to date with all our latest pieces of content? <a href="/newsletter-signup/">Sign up for our monthly newsletter</a> to receive our latest blog posts and hear about upcoming events. We promise not to spam you, and you can unsubscribe at any time.</p>

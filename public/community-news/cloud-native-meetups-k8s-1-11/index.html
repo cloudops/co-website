@@ -8,7 +8,7 @@
    
    
    
-   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.e43764f67f05066711fea169c4000e40d66601508531d3b303c809c380f9d36c.css" integrity="sha256-5Ddk9n8FBmcR/qFpxAAOQNZmAVCFMdOzA8gJw4D502w=" crossorigin="anonymous" media="screen" />
+   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.6986fd97f8ba7da6e6ded9670e2fef94c937b980eed2cbdd8baf974cffdbefde.css" integrity="sha256-aYb9l/i6fabm3tlnDi/vlMk3uYDu0svdi6&#43;XTP/b794=" crossorigin="anonymous" media="screen" />
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
@@ -96,7 +96,7 @@
                 <h3>Our Experts</h3></a>
               </div>
               <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
-                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/calendar">
                 <img src="/images/nav-calendar.svg" height="70px">
                 <h3>Calendar</h3></a>
               </div>
@@ -133,9 +133,9 @@
                   </div>
                   <div class="col-xl-3 col-lg-3">
                       <a href="/blog"><h3 class="dropdown-item list-group-item list-group-item-action">Blog</h3></a>
-                      <a class="dropdown-item list-group-item list-group-item-action" href="#">Blog Posts</a>
-                    <a class="dropdown-item list-group-item list-group-item-action" href="#">Community News</a>
-                    <a class="dropdown-item list-group-item list-group-item-action" href="#">CloudOps Press</a>
+                      <a class="dropdown-item list-group-item list-group-item-action" href="/blog">Blog Posts</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/blog#community-news">Community News</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/blog#cloudops-press">CloudOps Press</a>
                   </div>
                   <div class="col-xl-2 offset-xl-0 col-lg-2">
                       <a href="/resources"><img src="/images/nav-resources.svg" height="70px"></a>
@@ -172,7 +172,7 @@
                     <a class="dropdown-item list-group-item list-group-item-action" href="/about-us"><h3>About Us</h3></a>
                     <a class="dropdown-item list-group-item list-group-item-action" href="/partners"><h3>Partners</h3></a>
                     <a class="dropdown-item list-group-item list-group-item-action" href="/careers"><h3>Careers</h3></a>
-                    <a class="dropdown-item list-group-item list-group-item-action" href="/workshops-calendar"><h3>Events Calendar</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/calendar#events"><h3>Events Calendar</h3></a>
                   </div>
                 </div>
               </div>
@@ -191,31 +191,159 @@
         </li>
         <li>
           
+          
+
+        <li id="multi-language-menu" class="nav-item list-group list-group-flush">
+          <a class="language nav-link language-menu list-group-item list-group-item-action" href="/">EN</a>
+          <p class="language-menu">|</p>
+          <a class="language nav-link language-menu list-group-item list-group-item-action" href="/fr">FR</a>
+        </li>
+        
+        
         </li>
       </ul>
     </div>
   </nav>
-</div><div class="container-fluid main-content"><p>Kubernetes celebrated its fourth birthday across eastern Canada this week with a series of cloud native meetups in Montreal, Quebec City, Ottawa, Toronto, and Kitchener-Waterloo. This quarter’s series of Kubernetes and Cloud Native meetups brought together a range of speakers, including Ayrat Khayretdinov, Baruch Sadogursky, Jonathan Katz, and Daniel Tomcej. Below is an overview of the content of their presentations.</p>
-
+</div><div class="container-fluid main-content">
+<main class="post">
+    <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
+            <article>
+                <header>
+                    <h1>Cloud Native Meetups: K8s 1.11, Helm, PostgreSQL, and Traefik</h1>
+                    <div> July 20, 2018 / CloudOps </div>
+                </header>
+                
+                
+                
+                <img src="/community-news/cloud-native-meetups-k8s-1-11/meetup-pic2_huff13c3f5ec566ff909b5eb00e28ba4d4_262076_400x0_resize_box_2.png" />
+                
+                
+                <p>Kubernetes celebrated its fourth birthday across eastern Canada this week with a series of cloud native meetups in Montreal, Quebec City, Ottawa, Toronto, and Kitchener-Waterloo. This quarter’s series of Kubernetes and Cloud Native meetups brought together a range of speakers, including Ayrat Khayretdinov, Baruch Sadogursky, Jonathan Katz, and Daniel Tomcej. Below is an overview of the content of their presentations.</p>
 <p>A Kubernetes 1.11 update reviewing the ecosystem by our very own CNCF ambassador, Ayrat Khayretdninov, kicked off each meetup. While Joe Beda made the first commit to Kubernetes on June 6th, 2014, recent activity has demonstrated the project’s longevity and maturity. Marking the graduation of Prometheus as the second CNCF project to have reached Graduation phase, PromCon took place in Munich last week. New projects continue to be adopted into the CNCF sandbox including OpenMetrics, which creates a neutral metrics exposition format based on Prometheus, and Harbour, a a trusted cloud native container registry. With the release of Kubernetes version 1.11, many existing features have reached graduation including IPVS-based in-cluster service load balancing, CoreDNS, dynamic Kubelet configuration, and storage protection and resizing. Some new features include online volume resizing, RunAsGroup, priority and preemption, and AWS, Azure, GCE disks, and Ceph RBD raw block volume support. A complete list of changes can be found on the <a href="https://github.com/kubernetes/kubernetes/releases" target="_blank">Kubernetes release page</a>. CloudOps is looking forward to the upcoming KubeCon in Seattle in December. If you are coming, let us know and swing by our booth!</p>
-
 <p><img class="alignleft" style="width: 50%; float: left; margin: 5px 20px 20px 0px;" src="/images/blog/post/meetupcupcakes.jpg" alt="Happy Birthday, Kubernetes"></p>
-
 <p>There was community interest in several other projects, including Knative, a Kubernetes serverless framework, and Gvisor. Google’s new managed Istio services and GKE on-prem offering prompted interest in the upcoming GCP meetups in <a href="https://www.meetup.com/Google-Cloud-Platform-Meetup-Montreal/" target="_blank">Montreal</a> and <a href="https://www.meetup.com/Google-Cloud-Platform-Meetup-ottawa/" target="_blank">Ottawa</a>. Don’t miss the chance to join the GDG Cloud community and expand your knowledge. The next GDG Meetups are planned for September and will feature a Google Cloud Extended event along with some hands-on labs for Kubernetes and Machine Learning.</p>
-
 <p>Montreal enjoyed a talk by Baruch Sadogursky called ‘Where the Helm are my binaries?’ Head of Developer Relations at <a href="https://jfrog.com/" target="_blank">JFrog</a>, Baruch discussed how Helm charts can make deployments in Kubernetes significantly easier with Artifactory. The simplicity of Helm charts make them ideal for handling metadata. Baruch demonstrated how to create reliable and transparent pipelines from code to cluster using Git, Artifactory, Docker, Kubernetes, and Helm. Such transparency is critical for modern, dynamic applications.&nbsp;Read more about his <a href="https://jfrog.com/shownote/helm-montreal/">presentation</a> or watch an <a href="https://www.youtube.com/watch?v=WwQb_7HmnRM&amp;feature=youtu.be" target="_blank">interview</a> with him.</p>
-
 <p>Jonathan Katz from <a href="https://www.crunchydata.com/" target="_blank">Crunchy Data</a> provided the meetups with a review of the postgres-operator and how it has helped PostgreSQL on its cloud native journey. The postgres-operator automates the deployment of PostgreSQL clusters using the Kubernetes API. It can help solve the discrepancy between the inherent statefulness of databases and the statelessness of containers. As containerized technologies have matured, it should be as seamless to run a database in containers as it is VMs. Automation helps, and the postgres-operator can allow you to easily setup development environments and production Database-as-a-Service. Watch our interview with him <a href="https://www.youtube.com/watch?v=6QDCFYMrYQY&amp;t=16s" target="_blank">here</a> or view his presentation <a href="https://www.slideshare.net/jkatz05/operating-postgresql-at-scale-with-kubernetes" target="_blank">here</a>.</p>
-
 <p><img class="alignright" style="width: 50%; float: right; margin: 5px 20px 20px 0;" src="/images/blog/post/archymtlmeetup.jpg" alt="Montreal"></p>
-
 <p>Traefik was next, and Daniel Tomcej from <a href="https://containo.us/" target="_blank">Containous</a> spoke about using Traefik with Boulder to provide end-to-end TLS (all the way from the client to the pod) automatically in development environments. Traefik is a cloud native edge router. It is a reverse proxy, and it has a native Ingress Controller built into it. Encryption is necessary for grpc functionality as well as compliance with GDPR, PCI DSS, HIPAA, and SAAR. Encryption is therefore no longer a desired goal but a requirement, making Daniel’s demo connecting Traefik to Kubernetes all the more relevant. Watch our interview with him <a href="https://www.youtube.com/watch?v=7kpf8hIr8nM&amp;t=1s" target="_blank">here</a> or view his presentation <a href="https://dtomcej.github.io/traefik-presentation/#/" target="_blank">here</a> (the code is https://github.com/dtomcej/meetup2018).</p>
-
 <p>Finally, the meetup in Kitchener-Waterloo included a talk by Christopher Vollick from Shopify entitled ‘Custom Resource Definitions and Automation’. As Kubernetes becomes even more extensible, this talk helped the community find ways to extend Kubernetes so as to handle their own custom workflows.</p>
-
 <p>Altogether, CloudOps was happy to see how much the cloud native community has grown in Canada. We would like to thank all attendees and speakers. In addition to our faithful sponsors (Microsoft, CloudOps, Red Hat, Aqua Security, JFrog, Rancher, GitLab, Cilium), big shout outs go to Shopify for hosting us in Ottawa and Kitchener-Waterloo, Ticketmaster in Quebec City, Lightspeed in Montreal, and Ecobee in Toronto. Thank you, Architech for providing cupcakes!</p>
-
 <p>Keep your eyes and ears open for the next series of cloud native meetups in November. Join the meetup pages to stay tuned to all things cloud native in <a href="https://www.meetup.com/Kubernetes-Montreal" target="_blank">Montreal</a>, <a href="https://www.meetup.com/Kubernetes-Ottawa" target="_blank">Ottawa</a>, <a href="https://www.meetup.com/Kubernetes-Toronto" target="_blank">Toronto</a>, <a href="https://www.meetup.com/Kubernetes-Quebec" target="_blank">Quebec</a>, and <a href="https://www.meetup.com/Kubernetes-Kitchener-Waterloo" target="_blank">Kitchener-Waterloo</a>, or sign up for a <a href="https://www.cloudops.com/workshop-calendar/" target="_blank">workshop</a> to learn more.</p>
+            </article>
+        </div>
+    </div>
+
+
+    <div class="row nav-buttons back-foward in-content">
+        <div
+            class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-xs-2 back-button">
+            
+            <a href="/community-news/montreal-cloud-native-day-2019/"><button class="btn">
+                    <div class="triangle-left">
+                        <div class="inner-left-triangle"></div>
+                    </div>Previous Post
+                </button></a>
+            
+        </div>
+        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-xs-2 foward-button">
+                
+            <a href="/community-news/open-source-apachecon-2018/">
+                <button class="btn">
+                    Next Post<div class="triangle-right">
+                        <div class="inner-triangle"></div>
+                    </div>
+                </button></a>
+                
+        </div>
+    </div>
+
+    <div class="social">
+        
+
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+position: relative;
+text-align: left; 
+height: 36px; 
+float: left; 
+text-align: center;
+}
+#share-buttons > div > svg {height: 36px; fill: #005D91; margin-top: 0;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.facebook > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.twitter > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.linkedin > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.mail > svg {height: 30px; margin: auto 5px;}
+</style>
+
+<div id="share-buttons">
+<div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=\/community-news\/cloud-native-meetups-k8s-1-11\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
+<div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/home?status=\/community-news\/cloud-native-meetups-k8s-1-11\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
+<div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=\/community-news\/cloud-native-meetups-k8s-1-11\/&title=&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
+<div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body=\/community-news\/cloud-native-meetups-k8s-1-11\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
+</div>
+
+        <i class="far fa-copy copy-page-link"></i>
+    </div>
+
+    
+
+    <div class="contact-us-card general-stylings-more-content">
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-cards">
+                    <div class="card-deck">
+                        <div class="card">
+                            <a
+                                href="https://cdn2.hubspot.net/hubfs/732832/CloudOps%20White%20Paper%20-%20A%20PreFlight%20Checklist%20for%20Cloud%20Migration.pdf">
+                                <div class="card-body">
+                                    <h3 class="card-title">A checklist for your cloud migration</h3>
+                                    <p class="card-text">Download the white paper to get a step by step guide to a successful migration strategy.</p>
+                                </div>
+                                <div class="corner-triangle"></div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a
+                                href="/blog/the-cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration">
+                                <div class="card-body">
+                                    <h3 class="card-title"> Accelerated value delivery</h3>
+                                    <p class="card-text">Read more on how to maximize value through our unique delivery model.</p>
+                                    <div class="corner-triangle"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="https://cdn2.hubspot.net/hubfs/732832/Cloud-Ops_Cloud-Migration_v3.pdf">
+                            <div class="card-body">
+                                <h3 class="card-title">Cloud migration one-pager</h3>
+                                <p class="card-text">
+                                    Everything you need to know about how our services can help get your cloud journey started.
+                                    <div class="corner-triangle"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="/contact-us">
+                            <div class="card-body">
+                                <h3 class="card-title">Networking is the hardest part</h3>
+                                <p class="card-text">Contact us to learn more about our hardware and software-defined networking solutions.</p>
+                                <div class="corner-triangle"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
 
         </div><div class="footer">
     <div class="row no-gutters logo">

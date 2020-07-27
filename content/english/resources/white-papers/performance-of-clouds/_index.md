@@ -4,6 +4,12 @@ lastmod: 2020-06-23
 resources:
 - name: "thumbnail"
   src: "performance_clouds.png"
+aliases:
+    - /white-papers/performance-of-clouds/
+    - /performance-of-clouds/
+    - /resources/white-papers/the-performance-of-clouds/
+    - /white-papers/the-performance-of-clouds/
+    - /the-performance-of-clouds/
 ---
 
 

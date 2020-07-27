@@ -1,6 +1,25 @@
 ---
 title: Blog
 class_name: "blog"
+aliases:
+    - /category/blog/
+    - /category/podcast/  
+    - /2012/04/cloudops-creates-more-design-options-for-open-source-communities-with-new-middleware-montreal-quebec-april-17-2012-today-at-the-openstack-design-summit-and-conference-in-san-francisco-ca/
+    - /2012/05/it-operations-in-the-age-of-cloud-brace-yourself-for-change/
+    - /2012/05/interop-enterprise-cloud-summit/ 
+    - /2012/06/getting-ready-for-startupfest/
+    - /2012/10/live-blog-cloud-launch-ian-rae/
+    - /2013/01/keynote-speakers-announced-for-cloudconnect-santa-clara-2013/
+    - /2013/02/interfacing-cloudportal-business-management-cpbm-with-enterprise-level-authentication/
+    - /2013/02/the-new-and-shiny-apache-cloudstack-4-2/
+    - /2013/03/parlons-en-du-cloud/
+    - /2013/03/mauth-pluggable-openstack-swift-auth-middleware/
+    - /2014/03/openstack-in-action-lots-of-excitement-but-still-early-days/
+    - /2014/04/getting-ready-for-cccna14/
+    - /2014/08/cloud-ca-is-looking-for-some-beta-testers/
+    - /2014/11/can-infor-and-netsuite-get-cloud-so-wrong/
+    - /2014/12/cloudops-at-aws-re-invent/
+    - /2015/09/cloudops-to-offer-direct-access-to-consoles-software-and-interconnection-platform/
 ---
 
 <div class="blog-main">

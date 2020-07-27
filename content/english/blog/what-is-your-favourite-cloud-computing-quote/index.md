@@ -6,6 +6,8 @@ resources:
 - name: "thumbnail"
   src: "quotebubble.png"
 class_name: "blog post"
+aliases:
+    - /2012/09/what-is-your-favourite-cloud-computing-quote/
 ---
 
 <p>Quotes are a simple yet powerful to illustrate and distil a more complicated idea or concept. So I was amused when I read these 5 cloud computing quotes, including internet pioneer Marc Andreessen. A quick search also revealed some good ones here.</p>

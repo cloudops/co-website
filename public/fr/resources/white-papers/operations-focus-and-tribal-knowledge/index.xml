@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operations, Focus, and Tribal Knowledge on CloudOps</title>
+    <link>/fr/resources/white-papers/operations-focus-and-tribal-knowledge/</link>
+    <description>Recent content in Operations, Focus, and Tribal Knowledge on CloudOps</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/fr/resources/white-papers/operations-focus-and-tribal-knowledge/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

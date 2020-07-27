@@ -21,16 +21,6 @@
     </item>
     
     <item>
-      <title>CloudOps’ Workshops are Eligible for the PACME Program</title>
-      <link>/blog/cloudops-workshops-are-eligible-for-the-pacme-program/</link>
-      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/cloudops-workshops-are-eligible-for-the-pacme-program/</guid>
-      <description>Thursday, May 7, 2020 – CloudOps is pleased to announce participation in the Programme actions concertées pour le maintien en emploi (PACME) offered by the Government of Quebec.
-The purpose of the PACME program is to support businesses that have experienced a decline in their operations as a result of the COVID-19 pandemic. It is a program of the Ministère du Travail, de l’Emploi et de la Solidarité sociale, offered in collaboration with the Commision des partenaires du marché du travail, which aims to provide direct financial support to businesses in order to promote training and the implementation of good human resources management practices.</description>
-    </item>
-    
-    <item>
       <title>Our Work from Home Best Practices: Curated Tips and Tricks</title>
       <link>/blog/our-work-from-home-best-practices-curated-tips-and-tricks/</link>
       <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
@@ -205,7 +195,7 @@ AWS has since continued growing its offering and currently boasts the highest ma
       <pubDate>Mon, 19 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/blog/quiz-are-you-a-kubernetes-unicorn/</guid>
-      <description>    </description>
+      <description>   </description>
     </item>
     
     <item>
@@ -277,8 +267,7 @@ PVCs offer the advantage of separating Ops from Devs.</description>
       
       <guid>/blog/quiz-how-secure-are-your-containers-in-azure/</guid>
       <description> powered by
-Read our ebook Azure Kubernetes Services: Container Security for a Cloud Native World to learn more about the biggest container security risks faced by enterprises as well as how to optimize solutions with AKS.
-  </description>
+Read our ebook Azure Kubernetes Services: Container Security for a Cloud Native World to learn more about the biggest container security risks faced by enterprises as well as how to optimize solutions with AKS.  </description>
     </item>
     
     <item>
@@ -361,6 +350,16 @@ People People are the most significant challenge and opportunity when it comes t
     </item>
     
     <item>
+      <title>Lost at Sea: Navigating the Complexities of Kubernetes</title>
+      <link>/blog/lost-at-sea-navigating-the-complexities-of-kubernetes/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/lost-at-sea-navigating-the-complexities-of-kubernetes/</guid>
+      <description>A Comparative Summary of Kubernetes Tooling: Open Source, Distributions, and Managed ServicesClick here to view this blog post as an infographic.
+While the efficiency and long-term viability of Kubernetes are apparent, it has a reputation for complexity. To that end, CloudOps has compiled a summary of the best known tools for managing Kubernetes clusters. Facilitating the deployment of containers at scale, Kubernetes allows application design to be standardized into modular and portable microservices that can be easily deployed over multiple cloud environments.</description>
+    </item>
+    
+    <item>
       <title>Why you Need a DevOps Transformation to Survive</title>
       <link>/blog/why-you-need-a-devops-transformation-to-survive/</link>
       <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
@@ -369,16 +368,6 @@ People People are the most significant challenge and opportunity when it comes t
       <description>Software is eating the world and organizations are continuously moving towards software-based solutions to their industry’s problems. They are doing so as part of digital transformations that allow them to deliver stronger financial performances.
 Cloud is the enabler of this process as it is breaking down non-digital systems and clearing the way for digitally advanced processes and tools to sustain continuous, as-a-service delivery.
 Organizations that improve their ability to deliver software are more able to quickly release features, pivot when needed, comply with regulations, and respond to feedback so as to attract new customers and delight existing ones.</description>
-    </item>
-    
-    <item>
-      <title>Cloud Native Meetups: K8s 1.13 and AKS</title>
-      <link>/blog/cloud-native-meetups-k8s-1-13-and-aks/</link>
-      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/cloud-native-meetups-k8s-1-13-and-aks/</guid>
-      <description>This year’s final set of Kubernetes and Cloud Native meetups just took place. They kicked off in Kitchener-Waterloo on November 29th, and continued in Montreal December 3rd, Ottawa December 4th, Toronto December 5th, and Quebec December 6th. In preparation for the upcoming KubeCon and CloudNativeCon in Seattle, a wide range of open source solutions were discussed and, as always, beer and pizza provided.
-The meetups in Montreal, Ottawa, Toronto, and Quebec began with an update of the CNCF landscape by Ayrat Khayretdinov, CNCF Ambassador and Cloud Solutions Architect at CloudOps.</description>
     </item>
     
     <item>
@@ -397,18 +386,8 @@ What is Cloud Native: ‘Cloud native’ describes any application that was buil
       <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/the-beginners-guide-to-the-cncf-landscape/</guid>
-      <description>The cloud native ecosystem can be complicated and confusing. Its myriad of open source projects are supported by the constant contributions of a vibrant and expansive community. The Cloud Native Computing Foundation (CNCF) has a landscape mapthat shows the full extent of cloud native solutions, many of which are under their umbrella.
-As a CNCF ambassador, I am actively engaged in promoting community efforts and cloud native education throughout Canada. At CloudOps I lead workshops on Docker and Kubernetes that provide an introduction to cloud native technologies and help DevOps teams operate their applications.</description>
-    </item>
-    
-    <item>
-      <title>Takeaways from Liz Rice: Pop-Up Meetup on Container Security</title>
-      <link>/blog/takeaways-from-liz-rice-pop-up-meetup-on-container-security/</link>
-      <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/takeaways-from-liz-rice-pop-up-meetup-on-container-security/</guid>
-      <description>Last night’s pop-up meetup featured Liz Rice, a renowned expert in container security and technical evangelist at Aqua Security. As an active participant of the CNCF and as co-chair of KubeCon and CloudNativeCon, Liz was able to share her extensive experience with cloud native technologies. The event took place on October 4th at Complexe Desjardins. View&amp;nbsp;Liz’s slide deck here.
-The evening began with a fireside chat where Robert Masse, Partner and Risk Advisor at Deloitte, and Marc Pare, CCO at CloudOps, interviewed Liz.</description>
+      <description>The cloud native ecosystem can be complicated and confusing. Its myriad of open source projects are supported by the constant contributions of a vibrant and expansive community. The Cloud Native Computing Foundation (CNCF) has a landscape map that shows the full extent of cloud native solutions, many of which are under their umbrella.
+As a CNCF ambassador, I am actively engaged in promoting community efforts and cloud native education throughout Canada.</description>
     </item>
     
     <item>
@@ -449,7 +428,7 @@ While ML has so far been successful in solving specified tasks, the analysis of 
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/how-to-choose-a-cloud-provider-6-factors-to-think-about-when-migrating-to-the-cloud/</guid>
-      <description>Ever since AWS came out with its first public cloud offering in 2006, the industry has grown to an estimated $178 billionof revenues per year. Cloud computing has enabled highly dynamic and scalable infrastructures that can deliver significant returns on investment. The migration of workloads from on-premise facilities to cloud offerings is often cited as a business priority. Nonetheless, less than half of all companies had placed any workloads in public clouds by the beginning of 2018.</description>
+      <description>Ever since AWS came out with its first public cloud offering in 2006, the industry has grown to an estimated$178 billionof revenues per year. Cloud computing has enabled highly dynamic and scalable infrastructures that can deliver significant returns on investment. The migration of workloads from on-premise facilities to cloud offerings is often cited as a business priority. Nonetheless, less than half of all companies had placed any workloads in public clouds by the beginning of 2018.</description>
     </item>
     
     <item>
@@ -578,43 +557,22 @@ Developed in collaboration between Google and IBM, Istio is an open source techn
     
     <item>
       <title>Serverless Computing: Hot or Not?</title>
-      <link>/blog/serverless-computing-hot-or-not-2/</link>
+      <link>/blog/serverless-computing-hot-or-not/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/serverless-computing-hot-or-not-2/</guid>
+      <guid>/blog/serverless-computing-hot-or-not/</guid>
       <description>There has been a remarkable increase in serverless computing platforms over the past few years. While few production-ready solutions have been released, the ecosystem has nonetheless matured substantially. You may even have some immediate use cases in your environment or pipeline to consider for a serverless deployment.
 Serverless architecture allows web application logic to be processed independently of physical servers, virtual machines, containers, or operating systems. It frees the entity owning the computing system from the obligation to purchase, rent, or obtain servers or virtual machines for the back-end code to run on.</description>
     </item>
     
     <item>
       <title>7 Things CloudOps is Betting on in 2018…</title>
-      <link>/blog/setting-the-stage-for-2018/</link>
+      <link>/blog/7-things-cloudops-is-betting-on-in-2018/</link>
       <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/setting-the-stage-for-2018/</guid>
+      <guid>/blog/7-things-cloudops-is-betting-on-in-2018/</guid>
       <description>CloudOps is Betting on 2018! Here’s how.
 We continue to race into an ‘everything as a service’ world. The pace is accelerating and the stakes are intensifying. Success in a cloudy world requires software defined operations: end-to-end automation, data collection of all potentially relevant metrics, and smart algorithms that apply predictive analytics (or even machine learning) to ‘big’ data for decision making and hypothesis testing. In 2018, virtuous cycles of lean and agile will operate more closely with computers in the loop leaving humans with the role of steering and supervising like air traffic controllers.</description>
-    </item>
-    
-    <item>
-      <title>Cloud Native Meetup: K8s 1.9 Update, Lyft’s Migration to Envoy, and Cilium Networking</title>
-      <link>/blog/lyfts-migration-to-envoy-1-9-update-cilium-networking-meetup/</link>
-      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/lyfts-migration-to-envoy-1-9-update-cilium-networking-meetup/</guid>
-      <description>CloudOps hosted an exciting event last night at the Centre cloud.ca in Montreal bringing in speakers from Seattle and Silicon Valley. The event included a 1.9 release update, and presentations on Lyft’s migration to Envoy, and Cilium Network Security. It was the first Kubernetes meetup of the year, and was the meetup that saw Kubernetes integrate into the broader Cloud Native Computing Foundation (CNCF) mission.
-Our very own Ayrat Kharetdinov was announced as a CNCF ambassador to continue his work expanding the open source community in Canada.</description>
-    </item>
-    
-    <item>
-      <title>Lost at Sea: Navigating the Complexities of Kubernetes</title>
-      <link>/blog/lost-at-sea-navigating-the-complexities-of-kubernetes/</link>
-      <pubDate>Wed, 24 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/lost-at-sea-navigating-the-complexities-of-kubernetes/</guid>
-      <description>A Comparative Summary of Kubernetes Tooling: Open Source, Distributions, and Managed ServicesNote. This blog post was last updated on January 8th, 2019.
-Click here to view this blog post as an infographic.
-While the efficiency and long-term viability of Kubernetes are apparent, it has a reputation for complexity. To that end, CloudOps has compiled a summary of the best known tools for managing Kubernetes clusters. Facilitating the deployment of containers at scale, Kubernetes allows application design to be standardized into modular and portable microservices that can be easily deployed over multiple cloud environments.</description>
     </item>
     
     <item>
@@ -660,7 +618,7 @@ While the efficiency and long-term viability of Kubernetes are apparent, it has 
       
       <guid>/blog/vdi-per-lun/</guid>
       <description>Supplemental Pack for XenServer 6.5 Allows VVOLs-like VDI per LUN Functionality for XenServer and Enables Multi-tenant QoS
-Syed Ahmed of CloudOps has completed an open source project to allow XenServer 6.5 to leverage backend SAN snapshots by resignaturing metadata of a copied LUN (Logical Unit Number).
+Syed Ahmed of CloudOps has completed an open source project to allow XenServer 6.5 to leverage backend SAN snapshots byresignaturing metadata of a copied LUN (Logical Unit Number).
 This allows more efficient support of processes that rely on snapshots including backups of XenServer virtual machines by leveraging integrated snapshots on a SAN, in this case SolidFire which is a popular scale-out iSCSI block storage for cloud infrastructure.</description>
     </item>
     
@@ -845,7 +803,7 @@ Most folks outside the industry are unaware that what started as an online books
       <pubDate>Sat, 09 Mar 2013 00:00:00 +0000</pubDate>
       
       <guid>/blog/why-the-cloud-is-and-needs-to-be-like-minecraft/</guid>
-      <description>If&amp;nbsp;you have a young kid (or are a kid at heart), Minecraft doesn’t need any introduction. At last count 10M people had bought the game and at least 5 times as many are playing the demo or some mobile version. For the uninitiated, this seems odd. The graphics are awful, and it’s not even a real “game” – in other words, there’s no mission or objective to achieve and “win”. Yet seen another way, it has everything – it gives you the ability to create your own world, dig for resources, build house, complex structures, even complex machines (a mineral called “Red Stone” mimics electrical wires, and with switches and torches, players have built in-world binary machines such as calculators – here’s one of many examples).</description>
+      <description>If you have a young kid (or are a kid at heart), Minecraft doesn’t need any introduction. At last count 10M people had bought the game and at least 5 times as many are playing the demo or some mobile version. For the uninitiated, this seems odd. The graphics are awful, and it’s not even a real “game” – in other words, there’s no mission or objective to achieve and “win”.</description>
     </item>
     
     <item>

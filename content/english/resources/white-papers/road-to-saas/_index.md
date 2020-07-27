@@ -4,6 +4,10 @@ lastmod: 2020-06-28
 resources:
 - name: "thumbnail"
   src: "road_to_saas.png"
+aliases:
+    - /white-papers/road-to-saas/
+    - /road-to-saas/
+    - /the-road-to-saas/
 ---
 
 

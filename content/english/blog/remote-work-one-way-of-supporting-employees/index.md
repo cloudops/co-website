@@ -18,10 +18,8 @@ class_name: "blog post"
 
 <p>The most important thing I learned in the midst of this crisis is, though, that when I thought my team couldn’t be any more supportive, they surprised me once again by outdoing themselves. I realize that not everybody is as lucky as I am to work with a team that shows that level of support, especially in moments as dire as this pandemic. Having said that, I would encourage you, the reader, to be as supportive as you can be to your colleagues. Whether you are an employer or an employee, try to be a rainbow in someone’s cloud. That has been and continues to be my experience at CloudOps. Together (via Zoom and other stuff to keep social distancing) we are weathering this crisis and we’ll come out of it even stronger.&nbsp;</p>
 
+<img style="width: 150px;" src="/images/blog/post/CarloDeLaFuente.jpg" alt="" class="alignleft">
 <h4>Carlo De La Fuente</h4>
-
-<div class="wp-block-image"> <figure class="alignleft size-large is-resized"><img style="width: 107px;" src="/images/blog/post/CarloDeLaFuente.jpg" alt="" class="wp-image-10250" width="107" height="134"></figure></div>
-
 <p>Carlo De La Fuente is the Office Manager at CloudOps who works hard keeping the team happy and healthy. She is a non-binary spirit who’s been having a human experience since the early 90s. Some of her hobbies include long walks around the city of Montreal, exploring her spiritual side and watching old Hollywood movies with her cats.</p>
 
 

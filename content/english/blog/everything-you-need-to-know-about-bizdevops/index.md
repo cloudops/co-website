@@ -8,7 +8,7 @@ resources:
 class_name: "blog post"
 ---
 
-<p>It’s proven that DevOps increases the ability of an organization to deliver services at high velocity.&nbsp;</p>
+<p>It’s proven that DevOps increases the ability of an organization to deliver services at high velocity.</p>
 
 <p>But what if the same tools and practices that accelerate feature delivery can also be used to generate greater business value?</p>
 
@@ -24,10 +24,12 @@ class_name: "blog post"
 
 <p>No two BizDevOps journeys are the same, and the biggest challenge is never technical but cultural. DevOps adoption is usually about 80% cultural and only 20% technical. Steps that evolve culture by promoting structures that are not hierarchical but instead flat and empowered, focusing on teams and people instead of projects, and preventing us against them mentalities or command and control management styles will be what truly enables BizDevOps adoption.</p>
 
-<p>Download our white paper called ‘<a href="https://info.cloudops.com/initiate-devops-transformation-by-assessing-culture-and-processes?utm_source=BizDevOps%20blog%20post&amp;utm_medium=download%20white%20paper%20text&amp;utm_campaign=DevOps%20Transformation%20white%20paper">How to Initiate DevOps Transformation by Assessing Culture and Processes</a>’ to learn more about launching your organization toward DevOps success. In addition to understanding what constitutes a DevOps culture, you will learn how to evaluate and measure processes.</p>
+<p>Download our white paper called ‘<a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">How to Initiate DevOps Transformation by Assessing Culture and Processes</a>’ to learn more about launching your organization toward DevOps success. In addition to understanding what constitutes a DevOps culture, you will learn how to evaluate and measure processes.</p>
 
 <div class="row">
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
+    <a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">
       <img src="/images/blog/cta/white-paper.jpeg">
+    </a>
     </div>
 </div>

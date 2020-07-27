@@ -4,6 +4,9 @@ lastmod: 2020-06-29
 resources:
 - name: "thumbnail"
   src: "tribal_knowledge.png"
+aliases:
+    - /white-papers/operations-focus-and-tribal-knowledge/
+    - /operations-focus-and-tribal-knowledge/
 ---
 
 

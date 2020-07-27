@@ -3,93 +3,318 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url>
+  
+  <url>
+    <loc>/resources/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/"
+                />
+  </url>
+  
+  <url>
     <loc>/resources/white-papers/securing-your-devops-platform-financial-institutions/</loc>
     <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/securing-your-devops-platform-financial-institutions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/securing-your-devops-platform-financial-institutions/"
+                />
+  </url>
+  
+  <url>
+    <loc>/resources/white-papers/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/"
+                />
   </url>
   
   <url>
     <loc>/resources/white-papers/beginners-guide-to-kubernetes/</loc>
     <lastmod>2020-07-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/beginners-guide-to-kubernetes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/beginners-guide-to-kubernetes/"
+                />
   </url>
   
   <url>
     <loc>/resources/white-papers/total-economic-impact-of-anthos/</loc>
     <lastmod>2020-07-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/total-economic-impact-of-anthos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/total-economic-impact-of-anthos/"
+                />
   </url>
   
   <url>
     <loc>/resources/white-papers/total-economic-impact-of-microsoft-azure-iaas/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/total-economic-impact-of-microsoft-azure-iaas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/total-economic-impact-of-microsoft-azure-iaas/"
+                />
   </url>
   
   <url>
     <loc>/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/</loc>
     <lastmod>2020-07-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/"
+                />
   </url>
   
   <url>
     <loc>/resources/white-papers/a-checklist-for-your-cloud-migration-strategy/</loc>
     <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/a-checklist-for-your-cloud-migration-strategy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/a-checklist-for-your-cloud-migration-strategy/"
+                />
   </url>
   
   <url>
     <loc>/resources/white-papers/azure-kubernetes-services-container-security-for-a-cloud-native-world/</loc>
     <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/azure-kubernetes-services-container-security-for-a-cloud-native-world/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/azure-kubernetes-services-container-security-for-a-cloud-native-world/"
+                />
   </url>
   
   <url>
     <loc>/resources/white-papers/securing-devops-platform-enterprise/</loc>
     <lastmod>2020-07-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/securing-devops-platform-enterprise/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/securing-devops-platform-enterprise/"
+                />
   </url>
   
   <url>
     <loc>/resources/white-papers/securing-devops-platform-saas/</loc>
     <lastmod>2020-07-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/securing-devops-platform-saas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/securing-devops-platform-saas/"
+                />
   </url>
   
   <url>
     <loc>/resources/white-papers/how-cloudops-consultants-save-healthcare-isvs-from-costly-data-breaches/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/how-cloudops-consultants-save-healthcare-isvs-from-costly-data-breaches/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/how-cloudops-consultants-save-healthcare-isvs-from-costly-data-breaches/"
+                />
   </url>
   
   <url>
     <loc>/resources/white-papers/cloud-performance-from-the-end-user/</loc>
     <lastmod>2020-06-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/cloud-performance-from-the-end-user/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/cloud-performance-from-the-end-user/"
+                />
   </url>
   
   <url>
     <loc>/resources/white-papers/operations-focus-and-tribal-knowledge/</loc>
     <lastmod>2020-06-29T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/operations-focus-and-tribal-knowledge/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/operations-focus-and-tribal-knowledge/"
+                />
   </url>
   
   <url>
-    <loc>/resources/white-papers/road-to-sass/</loc>
+    <loc>/resources/white-papers/road-to-saas/</loc>
     <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/road-to-saas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/road-to-saas/"
+                />
   </url>
   
   <url>
     <loc>/resources/white-papers/new-architectures-in-a-cloudy-world/</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/new-architectures-in-a-cloudy-world/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/new-architectures-in-a-cloudy-world/"
+                />
   </url>
   
   <url>
     <loc>/resources/white-papers/practice-of-law-in-the-age-of-big-data/</loc>
     <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/practice-of-law-in-the-age-of-big-data/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/practice-of-law-in-the-age-of-big-data/"
+                />
   </url>
   
   <url>
     <loc>/resources/white-papers/era-of-the-end-user/</loc>
     <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/era-of-the-end-user/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/era-of-the-end-user/"
+                />
   </url>
   
   <url>
     <loc>/resources/white-papers/cloudops-bitcurrent-briefing-on-cloud-computing/</loc>
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/cloudops-bitcurrent-briefing-on-cloud-computing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/cloudops-bitcurrent-briefing-on-cloud-computing/"
+                />
   </url>
   
   <url>
     <loc>/resources/white-papers/performance-of-clouds/</loc>
     <lastmod>2020-06-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/white-papers/performance-of-clouds/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/white-papers/performance-of-clouds/"
+                />
   </url>
   
   <url>
@@ -110,26 +335,6 @@
                 hreflang="en"
                 href="/blog/"
                 />
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-  </url>
-  
-  <url>
-    <loc>/blog/cloudops-workshops-are-eligible-for-the-pacme-program/</loc>
-    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -155,11 +360,31 @@
   <url>
     <loc>/cloudops-press/cloudops-is-named-one-of-the-financial-times-the-americas-fastest-growing-companies-in-2020/</loc>
     <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-is-named-one-of-the-financial-times-the-americas-fastest-growing-companies-in-2020/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-is-named-one-of-the-financial-times-the-americas-fastest-growing-companies-in-2020/"
+                />
   </url>
   
   <url>
     <loc>/cloudops-press/</loc>
     <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/"
+                />
   </url>
   
   <url>
@@ -175,6 +400,16 @@
   <url>
     <loc>/cloudops-press/press-release-covid-19/</loc>
     <lastmod>2020-03-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/press-release-covid-19/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/press-release-covid-19/"
+                />
   </url>
   
   <url>
@@ -200,11 +435,31 @@
   <url>
     <loc>/community-news/</loc>
     <lastmod>2019-12-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/community-news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/community-news/"
+                />
   </url>
   
   <url>
     <loc>/community-news/eastern-canadas-kubernetes-cloud-native-meetups-winter-2019/</loc>
     <lastmod>2019-12-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/community-news/eastern-canadas-kubernetes-cloud-native-meetups-winter-2019/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/community-news/eastern-canadas-kubernetes-cloud-native-meetups-winter-2019/"
+                />
   </url>
   
   <url>
@@ -220,6 +475,16 @@
   <url>
     <loc>/community-news/devopsdays-montreal-2019/</loc>
     <lastmod>2019-11-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/community-news/devopsdays-montreal-2019/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/community-news/devopsdays-montreal-2019/"
+                />
   </url>
   
   <url>
@@ -235,6 +500,16 @@
   <url>
     <loc>/community-news/eastern-canadas-kubernetes-and-cloud-native-meetups-summer-2019/</loc>
     <lastmod>2019-10-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/community-news/eastern-canadas-kubernetes-and-cloud-native-meetups-summer-2019/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/community-news/eastern-canadas-kubernetes-and-cloud-native-meetups-summer-2019/"
+                />
   </url>
   
   <url>
@@ -245,6 +520,16 @@
   <url>
     <loc>/cloudops-press/cloudops-is-named-one-of-canadas-top-growing-companies/</loc>
     <lastmod>2019-09-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-is-named-one-of-canadas-top-growing-companies/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-is-named-one-of-canadas-top-growing-companies/"
+                />
   </url>
   
   <url>
@@ -270,6 +555,16 @@
   <url>
     <loc>/cloudops-press/cloudops-is-named-one-of-canadas-top-ict-companies-in-2019-by-branham300/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-is-named-one-of-canadas-top-ict-companies-in-2019-by-branham300/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-is-named-one-of-canadas-top-ict-companies-in-2019-by-branham300/"
+                />
   </url>
   
   <url>
@@ -298,13 +593,23 @@
   </url>
   
   <url>
-    <loc>/cloudops-press/cloudops-is-an-aws-advanced-consulting-membe/</loc>
+    <loc>/cloudops-press/cloudops-is-an-aws-advanced-consulting-member/</loc>
     <lastmod>2019-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/cloudops-press/cloudops-is-in-the-top-100-cloud-solution-providers-in-canada/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-is-in-the-top-100-cloud-solution-providers-in-canada/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-is-in-the-top-100-cloud-solution-providers-in-canada/"
+                />
   </url>
   
   <url>
@@ -315,11 +620,31 @@
   <url>
     <loc>/cloudops-press/cloudops-is-a-microsoft-devops-competency-partner/</loc>
     <lastmod>2019-04-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-is-a-microsoft-devops-competency-partner/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-is-a-microsoft-devops-competency-partner/"
+                />
   </url>
   
   <url>
     <loc>/cloudops-press/will-stevens-is-a-member-of-the-apache-software-foundation/</loc>
     <lastmod>2019-04-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/will-stevens-is-a-member-of-the-apache-software-foundation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/will-stevens-is-a-member-of-the-apache-software-foundation/"
+                />
   </url>
   
   <url>
@@ -345,6 +670,16 @@
   <url>
     <loc>/cloudops-press/maddison-long-accepted-into-forbes-technology-council/</loc>
     <lastmod>2019-03-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/maddison-long-accepted-into-forbes-technology-council/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/maddison-long-accepted-into-forbes-technology-council/"
+                />
   </url>
   
   <url>
@@ -368,18 +703,33 @@
   </url>
   
   <url>
+    <loc>/blog/lost-at-sea-navigating-the-complexities-of-kubernetes/</loc>
+    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/why-you-need-a-devops-transformation-to-survive/</loc>
     <lastmod>2019-01-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/cloud-native-meetups-k8s-1-13-and-aks/</loc>
+    <loc>/community-news/cloud-native-meetups-k8s-1-13-and-aks/</loc>
     <lastmod>2018-12-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/community-news/eastern-canadas-kubernetes-and-cloud-native-meetups-winter-edition/</loc>
     <lastmod>2018-12-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/community-news/eastern-canadas-kubernetes-and-cloud-native-meetups-winter-edition/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/community-news/eastern-canadas-kubernetes-and-cloud-native-meetups-winter-edition/"
+                />
   </url>
   
   <url>
@@ -395,16 +745,36 @@
   <url>
     <loc>/community-news/devopsdays-montreal/</loc>
     <lastmod>2018-10-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/community-news/devopsdays-montreal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/community-news/devopsdays-montreal/"
+                />
   </url>
   
   <url>
-    <loc>/blog/takeaways-from-liz-rice-pop-up-meetup-on-container-security/</loc>
+    <loc>/community-news/takeaways-from-liz-rice-pop-up-meetup-on-container-security/</loc>
     <lastmod>2018-10-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/community-news/open-source-apachecon-2018/</loc>
     <lastmod>2018-09-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/community-news/open-source-apachecon-2018/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/community-news/open-source-apachecon-2018/"
+                />
   </url>
   
   <url>
@@ -440,21 +810,61 @@
   <url>
     <loc>/community-news/cloud-native-meetups-k8s-1-11/</loc>
     <lastmod>2018-07-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/community-news/cloud-native-meetups-k8s-1-11/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/community-news/cloud-native-meetups-k8s-1-11/"
+                />
   </url>
   
   <url>
     <loc>/cloudops-press/cloudops-is-a-member-of-the-red-hat-application-platform-partner-initiative/</loc>
     <lastmod>2018-06-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-is-a-member-of-the-red-hat-application-platform-partner-initiative/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-is-a-member-of-the-red-hat-application-platform-partner-initiative/"
+                />
   </url>
   
   <url>
     <loc>/cloudops-press/cloudops-listed-in-the-branham300-in-2018/</loc>
     <lastmod>2018-06-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-listed-in-the-branham300-in-2018/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-listed-in-the-branham300-in-2018/"
+                />
   </url>
   
   <url>
     <loc>/community-news/montreal-cloud-native-day-2019/</loc>
     <lastmod>2018-06-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/community-news/montreal-cloud-native-day-2019/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/community-news/montreal-cloud-native-day-2019/"
+                />
   </url>
   
   <url>
@@ -465,6 +875,16 @@
   <url>
     <loc>/community-news/eastern-canadas-kubernetes-and-cloud-native-meetups-spring-edition-2019/</loc>
     <lastmod>2018-06-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/community-news/eastern-canadas-kubernetes-and-cloud-native-meetups-spring-edition-2019/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/community-news/eastern-canadas-kubernetes-and-cloud-native-meetups-spring-edition-2019/"
+                />
   </url>
   
   <url>
@@ -485,11 +905,31 @@
   <url>
     <loc>/community-news/q2-cloud-native-meetups/</loc>
     <lastmod>2018-05-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/community-news/q2-cloud-native-meetups/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/community-news/q2-cloud-native-meetups/"
+                />
   </url>
   
   <url>
     <loc>/cloudops-press/cloudops-is-now-a-kubernetes-training-partner/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-is-now-a-kubernetes-training-partner/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-is-now-a-kubernetes-training-partner/"
+                />
   </url>
   
   <url>
@@ -520,6 +960,16 @@
   <url>
     <loc>/cloudops-press/cloudops-is-a-member-of-the-linux-foundation-the-lfn-and-the-cncf/</loc>
     <lastmod>2018-03-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-is-a-member-of-the-linux-foundation-the-lfn-and-the-cncf/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-is-a-member-of-the-linux-foundation-the-lfn-and-the-cncf/"
+                />
   </url>
   
   <url>
@@ -533,23 +983,18 @@
   </url>
   
   <url>
-    <loc>/blog/serverless-computing-hot-or-not-2/</loc>
+    <loc>/blog/serverless-computing-hot-or-not/</loc>
     <lastmod>2018-02-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/setting-the-stage-for-2018/</loc>
+    <loc>/blog/7-things-cloudops-is-betting-on-in-2018/</loc>
     <lastmod>2018-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/lyfts-migration-to-envoy-1-9-update-cilium-networking-meetup/</loc>
+    <loc>/community-news/lyfts-migration-to-envoy-1-9-update-cilium-networking-meetup/</loc>
     <lastmod>2018-02-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/lost-at-sea-navigating-the-complexities-of-kubernetes/</loc>
-    <lastmod>2018-01-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -558,13 +1003,23 @@
   </url>
   
   <url>
-    <loc>/community-news/hashicorp-user-group-meetup-2/</loc>
+    <loc>/community-news/hashicorp-user-group-meetup/</loc>
     <lastmod>2018-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/cloudops-press/cloudops-is-a-kubernetes-certified-service-provider/</loc>
     <lastmod>2018-01-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-is-a-kubernetes-certified-service-provider/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-is-a-kubernetes-certified-service-provider/"
+                />
   </url>
   
   <url>
@@ -575,11 +1030,31 @@
   <url>
     <loc>/cloudops-press/cloudops-ranks-305-on-2017-profit-500/</loc>
     <lastmod>2017-09-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-ranks-305-on-2017-profit-500/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-ranks-305-on-2017-profit-500/"
+                />
   </url>
   
   <url>
     <loc>/cloudops-press/partnership-with-netapp-propels-cloudmc-and-cloud-ca/</loc>
     <lastmod>2017-09-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/partnership-with-netapp-propels-cloudmc-and-cloud-ca/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/partnership-with-netapp-propels-cloudmc-and-cloud-ca/"
+                />
   </url>
   
   <url>
@@ -590,21 +1065,61 @@
   <url>
     <loc>/cloudops-press/cloudops-certified-as-a-remarkable-employer/</loc>
     <lastmod>2017-06-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-certified-as-a-remarkable-employer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-certified-as-a-remarkable-employer/"
+                />
   </url>
   
   <url>
     <loc>/cloudops-press/cloudops-branham300-second-consecutive-year/</loc>
     <lastmod>2017-06-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-branham300-second-consecutive-year/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-branham300-second-consecutive-year/"
+                />
   </url>
   
   <url>
     <loc>/cloudops-press/cloudops-datera-apache-cloudstack-integration/</loc>
     <lastmod>2017-05-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-datera-apache-cloudstack-integration/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-datera-apache-cloudstack-integration/"
+                />
   </url>
   
   <url>
     <loc>/cloudops-press/cloudops-ranks-profit-500/</loc>
     <lastmod>2016-09-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-ranks-profit-500/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-ranks-profit-500/"
+                />
   </url>
   
   <url>
@@ -615,26 +1130,76 @@
   <url>
     <loc>/cloudops-press/sponsorship-for-apache-cloudstack-collab/</loc>
     <lastmod>2016-05-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/sponsorship-for-apache-cloudstack-collab/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/sponsorship-for-apache-cloudstack-collab/"
+                />
   </url>
   
   <url>
     <loc>/cloudops-press/will-stevens-apache-cloudstack-vice-president/</loc>
     <lastmod>2016-05-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/will-stevens-apache-cloudstack-vice-president/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/will-stevens-apache-cloudstack-vice-president/"
+                />
   </url>
   
   <url>
     <loc>/cloudops-press/cloudops-announces-idc-vendor-profile/</loc>
     <lastmod>2016-05-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-announces-idc-vendor-profile/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-announces-idc-vendor-profile/"
+                />
   </url>
   
   <url>
     <loc>/cloudops-press/cloudops-branham300/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-branham300/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-branham300/"
+                />
   </url>
   
   <url>
     <loc>/cloudops-press/cloudops-to-host-apache-cloudstack-collab-june-1-3-2016/</loc>
     <lastmod>2016-04-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-to-host-apache-cloudstack-collab-june-1-3-2016/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-to-host-apache-cloudstack-collab-june-1-3-2016/"
+                />
   </url>
   
   <url>
@@ -650,21 +1215,61 @@
   <url>
     <loc>/cloudops-press/cloudops-partners-with-mirantis/</loc>
     <lastmod>2015-11-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-partners-with-mirantis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-partners-with-mirantis/"
+                />
   </url>
   
   <url>
     <loc>/cloudops-press/cloudops-named-one-of-deloittes-technology-fast-50tm-companies/</loc>
     <lastmod>2015-11-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-named-one-of-deloittes-technology-fast-50tm-companies/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-named-one-of-deloittes-technology-fast-50tm-companies/"
+                />
   </url>
   
   <url>
     <loc>/cloudops-press/cloudops-ceo-featured-in-kpmgs-the-next-million/</loc>
     <lastmod>2015-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-ceo-featured-in-kpmgs-the-next-million/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-ceo-featured-in-kpmgs-the-next-million/"
+                />
   </url>
   
   <url>
     <loc>/cloudops-press/cloudops-ranks-no-204-on-the-2015-profit-500/</loc>
     <lastmod>2015-09-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-ranks-no-204-on-the-2015-profit-500/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-ranks-no-204-on-the-2015-profit-500/"
+                />
   </url>
   
   <url>
@@ -675,6 +1280,16 @@
   <url>
     <loc>/cloudops-press/cloudops-becomes-the-first-canadian-citrix-specialist-in-networking-for-data-centre/</loc>
     <lastmod>2015-07-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/cloudops-becomes-the-first-canadian-citrix-specialist-in-networking-for-data-centre/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/cloudops-becomes-the-first-canadian-citrix-specialist-in-networking-for-data-centre/"
+                />
   </url>
   
   <url>
@@ -725,6 +1340,16 @@
   <url>
     <loc>/cloudops-press/announcing-cloud-ca/</loc>
     <lastmod>2014-05-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloudops-press/announcing-cloud-ca/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloudops-press/announcing-cloud-ca/"
+                />
   </url>
   
   <url>
@@ -828,14 +1453,44 @@
   
   <url>
     <loc>/advanced-containers-kubernetes/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/advanced-containers-kubernetes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/advanced-containers-kubernetes/"
+                />
   </url>
   
   <url>
     <loc>/careers/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/careers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/careers/"
+                />
   </url>
   
   <url>
     <loc>/resources/case-studies/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/case-studies/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/case-studies/"
+                />
   </url>
   
   <url>
@@ -868,78 +1523,268 @@
   
   <url>
     <loc>/cka-ckad-exams/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cka-ckad-exams/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cka-ckad-exams/"
+                />
   </url>
   
   <url>
     <loc>/cloud-building/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloud-building/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloud-building/"
+                />
   </url>
   
   <url>
     <loc>/cloud-migration/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloud-migration/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloud-migration/"
+                />
   </url>
   
   <url>
     <loc>/resources/one-pagers/cloud-migration/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/one-pagers/cloud-migration/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/one-pagers/cloud-migration/"
+                />
   </url>
   
   <url>
     <loc>/resources/case-studies/cloud-migration-to-aws/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/case-studies/cloud-migration-to-aws/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/case-studies/cloud-migration-to-aws/"
+                />
   </url>
   
   <url>
     <loc>/resources/case-studies/cloud-migration-to-azure/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/case-studies/cloud-migration-to-azure/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/case-studies/cloud-migration-to-azure/"
+                />
   </url>
   
   <url>
     <loc>/resources/case-studies/cloud-migration-to-cloudca/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/case-studies/cloud-migration-to-cloudca/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/case-studies/cloud-migration-to-cloudca/"
+                />
   </url>
   
   <url>
     <loc>/cloud-native-consulting/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/cloud-native-consulting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/cloud-native-consulting/"
+                />
   </url>
   
   <url>
     <loc>/resources/one-pagers/cloudca-datasheet/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/one-pagers/cloudca-datasheet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/one-pagers/cloudca-datasheet/"
+                />
   </url>
   
   <url>
     <loc>/resources/case-studies/cloudops-elementai-building-a-cloud-native-platform-on-azure/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/case-studies/cloudops-elementai-building-a-cloud-native-platform-on-azure/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/case-studies/cloudops-elementai-building-a-cloud-native-platform-on-azure/"
+                />
   </url>
   
   <url>
     <loc>/resources/one-pagers/managed-services/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/one-pagers/managed-services/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/one-pagers/managed-services/"
+                />
   </url>
   
   <url>
     <loc>/resources/one-pagers/cloudops-services/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/one-pagers/cloudops-services/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/one-pagers/cloudops-services/"
+                />
   </url>
   
   <url>
     <loc>/resources/one-pagers/workshops-catalogue/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/one-pagers/workshops-catalogue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/one-pagers/workshops-catalogue/"
+                />
   </url>
   
   <url>
     <loc>/community-newsletter-signup/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/community-newsletter-signup/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/community-newsletter-signup/"
+                />
   </url>
   
   <url>
     <loc>/contact-us/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/contact-us/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/contact-us/"
+                />
   </url>
   
   <url>
     <loc>/resources/infographics/container-security-for-a-cloud-native-world/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/infographics/container-security-for-a-cloud-native-world/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/infographics/container-security-for-a-cloud-native-world/"
+                />
   </url>
   
   <url>
     <loc>/resources/infographics/cutting-cost-in-the-cloud/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/infographics/cutting-cost-in-the-cloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/infographics/cutting-cost-in-the-cloud/"
+                />
   </url>
   
   <url>
     <loc>/delivering-cloud/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/delivering-cloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/delivering-cloud/"
+                />
   </url>
   
   <url>
     <loc>/delivering-cloud-consulting/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/delivering-cloud-consulting/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/delivering-cloud-consulting/"
+                />
   </url>
   
   <url>
@@ -958,18 +1803,58 @@
   
   <url>
     <loc>/resources/one-pagers/devops-monitoring-workshop/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/one-pagers/devops-monitoring-workshop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/one-pagers/devops-monitoring-workshop/"
+                />
   </url>
   
   <url>
     <loc>/devops-platform-practices-assessment/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/devops-platform-practices-assessment/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/devops-platform-practices-assessment/"
+                />
   </url>
   
   <url>
     <loc>/resources/one-pagers/devops-platform-practices-assessment/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/one-pagers/devops-platform-practices-assessment/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/one-pagers/devops-platform-practices-assessment/"
+                />
   </url>
   
   <url>
     <loc>/resources/one-pagers/devops-transformation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/one-pagers/devops-transformation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/one-pagers/devops-transformation/"
+                />
   </url>
   
   <url>
@@ -988,46 +1873,156 @@
   
   <url>
     <loc>/resources/one-pagers/docker-kubernetes-workshop/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/one-pagers/docker-kubernetes-workshop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/one-pagers/docker-kubernetes-workshop/"
+                />
   </url>
   
   <url>
     <loc>/resources/one-pagers/docker-kubernetes-workshop-curriculum/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/one-pagers/docker-kubernetes-workshop-curriculum/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/one-pagers/docker-kubernetes-workshop-curriculum/"
+                />
   </url>
   
   <url>
     <loc>/using-cloud/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/using-cloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/using-cloud/"
+                />
   </url>
   
   <url>
     <loc>/experts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/experts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/experts/"
+                />
   </url>
   
   <url>
     <loc>/resources/case-studies/hospitality-digital-cloud-migration-to-gcp/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/case-studies/hospitality-digital-cloud-migration-to-gcp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/case-studies/hospitality-digital-cloud-migration-to-gcp/"
+                />
   </url>
   
   <url>
     <loc>/resources/infographics/how-to-migrate-your-applications-into-the-cloud/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/infographics/how-to-migrate-your-applications-into-the-cloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/infographics/how-to-migrate-your-applications-into-the-cloud/"
+                />
   </url>
   
   <url>
     <loc>/resources/infographics/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/infographics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/infographics/"
+                />
   </url>
   
   <url>
     <loc>/workshops-information/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/workshops-information/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/workshops-information/"
+                />
   </url>
   
   <url>
     <loc>/resources/one-pagers/infrastucture-as-code-workshop/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/one-pagers/infrastucture-as-code-workshop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/one-pagers/infrastucture-as-code-workshop/"
+                />
   </url>
   
   <url>
     <loc>/resources/case-studies/izxiasoft-building-a-secure-cloud-platform-on-aws/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/case-studies/izxiasoft-building-a-secure-cloud-platform-on-aws/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/case-studies/izxiasoft-building-a-secure-cloud-platform-on-aws/"
+                />
   </url>
   
   <url>
     <loc>/resources/infographics/kubernetes-distributions/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/infographics/kubernetes-distributions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/infographics/kubernetes-distributions/"
+                />
   </url>
   
   <url>
@@ -1046,22 +2041,72 @@
   
   <url>
     <loc>/managed-services-augmented-support/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/managed-services-augmented-support/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/managed-services-augmented-support/"
+                />
   </url>
   
   <url>
     <loc>/microservices-docker-kubernetes/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/microservices-docker-kubernetes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/microservices-docker-kubernetes/"
+                />
   </url>
   
   <url>
     <loc>/networking/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/networking/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/networking/"
+                />
   </url>
   
   <url>
     <loc>/newsletter-signup/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/newsletter-signup/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/newsletter-signup/"
+                />
   </url>
   
   <url>
     <loc>/resources/one-pagers/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/one-pagers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/one-pagers/"
+                />
   </url>
   
   <url>
@@ -1080,26 +2125,72 @@
   
   <url>
     <loc>/partners/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/partners/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/partners/"
+                />
   </url>
   
   <url>
     <loc>/privacy-policy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/privacy-policy/"
+                />
   </url>
   
   <url>
     <loc>/resources/</loc>
-  </url>
-  
-  <url>
-    <loc>/resources/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/resources/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/resources/"
+                />
   </url>
   
   <url>
     <loc>/secrets-management/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/secrets-management/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/secrets-management/"
+                />
   </url>
   
   <url>
     <loc>/solutions/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/solutions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/solutions/"
+                />
   </url>
   
   <url>
@@ -1118,22 +2209,48 @@
   
   <url>
     <loc>/transformations/</loc>
-  </url>
-  
-  <url>
-    <loc>/resources/white-papers/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/transformations/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/transformations/"
+                />
   </url>
   
   <url>
     <loc>/why-cloudops/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/why-cloudops/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/why-cloudops/"
+                />
   </url>
   
   <url>
-    <loc>/workshops-calendar/</loc>
+    <loc>/calendar/</loc>
   </url>
   
   <url>
     <loc>/workshops/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/workshops/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/workshops/"
+                />
   </url>
   
 </urlset>

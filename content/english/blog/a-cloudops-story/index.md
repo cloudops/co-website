@@ -6,6 +6,10 @@ resources:
 - name: "thumbnail"
   src: "cloudops.jpg"
 class_name: "blog post"
+aliases:
+    - /2013/03/a-cloudops-story/
+    - /a-cloudops-story/
+    - /cloudops-story/
 ---
 
 

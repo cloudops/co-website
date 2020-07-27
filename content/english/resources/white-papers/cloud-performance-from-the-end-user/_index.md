@@ -4,6 +4,9 @@ lastmod: 2020-06-30
 resources:
 - name: "thumbnail"
   src: "end_user.png"
+aliases:
+    - /white-papers/cloud-performance-from-the-end-user/
+    - /cloud-performance-from-the-end-user/
 ---
 
 

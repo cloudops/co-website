@@ -4,6 +4,12 @@ lastmod: 2020-06-26
 resources:
 - name: "thumbnail"
   src: "big-data.png"
+aliases:
+    - /white-papers/practice-of-law-in-the-age-of-big-data/
+    - /practice-of-law-in-the-age-of-big-data/
+    - /resources/white-papers/the-practice-of-law-in-the-age-of-big-data/
+    - /white-papers/the-practice-of-law-in-the-age-of-big-data/
+    - /the-practice-of-law-in-the-age-of-big-data/
 ---
 
 

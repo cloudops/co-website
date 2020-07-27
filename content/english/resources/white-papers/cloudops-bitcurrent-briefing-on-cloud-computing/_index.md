@@ -4,8 +4,10 @@ lastmod: 2020-06-24
 resources:
 - name: "thumbnail"
   src: "bitcurrent.png"
+aliases:
+    - /white-papers/cloudops-bitcurrent-briefing-on-cloud-computing/
+    - /cloudops-bitcurrent-briefing-on-cloud-computing/
 ---
-
 
 <div class="landing-page">
     <!-- hero -->

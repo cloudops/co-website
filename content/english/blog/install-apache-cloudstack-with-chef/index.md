@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "chef.png"
 class_name: "blog post"
+aliases:
+  - /2014/03/install-apache-cloudstack-with-chef/
+  - /install-apache-cloudstack-with-chef/
 ---
 
 <p>Installation of <a href="http://cloudstack.apache.org/">Apache CloudStack</a> and is dependencies using <a href="http://www.opscode.com/">Opscode Chef</a>&nbsp;community cookbooks.</p>

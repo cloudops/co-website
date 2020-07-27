@@ -33,9 +33,3 @@ class_name: "blog post"
 <p>Anthos was built to help enterprises with sprawling, legacy applications take advantage of the elasticity, efficiency, and velocity that containerized applications offer in multi-cloud environments. It offers open source technology standards to enable hybrid- and multi-cloud scalability and interoperability. It offers features to facilitate the containerization and cloud migration of legacy workloads. It also offers a way to help enterprises not based in the United States deal with security concerns that might arise from such multi-cloud environments, as well as retain data sovereignty. Anthos helps enterprises with large, legacy infrastructures take advantage of open source solutions built by Google while maintaining their hybrid- or multi-cloud strategies.&nbsp;</p>
 
 <p>Anthos introduces an application modernization platform that has the flexibility to run in any environment – whether it’s cloud native or based on virtual machines. To learn more how enterprises can develop, secure, and manage apps at scale, <a href="https://info.cloudops.com/en/anthosdemoandlearn">join us on June 2 for a webinar on Anthos.</a></p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-      <img src="/images/blog/cta/demo.png">
-    </div>
-</div>

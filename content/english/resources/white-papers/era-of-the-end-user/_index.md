@@ -4,6 +4,12 @@ lastmod: 2020-06-25
 resources:
 - name: "thumbnail"
   src: "era_end_user.png"
+aliases:
+    - /white-papers/era-of-the-end-user/
+    - /era-of-the-end-user/
+    - /resources/white-papers/the-era-of-the-end-user/
+    - /white-papers/the-era-of-the-end-user/
+    - /the-era-of-the-end-user/
 ---
 
 

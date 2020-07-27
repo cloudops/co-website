@@ -4,6 +4,9 @@ lastmod: 2020-07-08
 resources:
 - name: "thumbnail"
   src: "Forrester.png"
+aliases:
+    - /white-papers/total-economic-impact-of-anthos/
+    - /total-economic-impact-of-anthos/
 ---
 
 

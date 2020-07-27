@@ -4,6 +4,9 @@ lastmod: 2020-07-01
 resources:
 - name: "thumbnail"
   src: "healthcare_isv.png"
+aliases:
+    - /white-papers/how-cloudops-consultants-save-healthcare-isvs-from-costly-data-breaches/
+    - /how-cloudops-consultants-save-healthcare-isvs-from-costly-data-breaches/
 ---
 
 

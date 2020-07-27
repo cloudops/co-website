@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "WAF.jpg"
 class_name: "blog post"
+aliases:
+    - /2013/01/thinking-about-web-application-firewalls/
+    - /thinking-about-web-application-firewalls/
 ---
 
 <p>Web Application Firewalls (WAFs) are growing in the market, providing many benefits including the prevention zero-day exploits.</p>

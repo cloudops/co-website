@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CloudOps Press on CloudOps</title>
+    <title>Cloudops-presses on CloudOps</title>
     <link>/cloudops-press/</link>
-    <description>Recent content in CloudOps Press on CloudOps</description>
+    <description>Recent content in Cloudops-presses on CloudOps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
@@ -55,10 +55,10 @@ The Branham300 ranking is based on revenue and consists of Canada’s most profi
     
     <item>
       <title>CloudOps is an AWS Advanced Consulting Member</title>
-      <link>/cloudops-press/cloudops-is-an-aws-advanced-consulting-membe/</link>
+      <link>/cloudops-press/cloudops-is-an-aws-advanced-consulting-member/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/cloudops-press/cloudops-is-an-aws-advanced-consulting-membe/</guid>
+      <guid>/cloudops-press/cloudops-is-an-aws-advanced-consulting-member/</guid>
       <description>CloudOps is pleased to become an Advanced member of the AWS Partner Network (APN). As a consulting partner of AWS, CloudOps helps companies build or expand their businesses in AWS’ public cloud offering.
 As the most mature cloud offering, AWS offers users a vast array of rich features from which to take full advantage of what the cloud has to offer. CloudOps’ membership speaks to the in-depth knowledge that our teams have with regards to AWS as well as our commitment to helping organizations transform digitally, building their businesses in the cloud.</description>
     </item>

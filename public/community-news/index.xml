@@ -40,6 +40,16 @@ The first day started with a talk by Richard Fontana called “Open Source: Ever
     </item>
     
     <item>
+      <title>Cloud Native Meetups: K8s 1.13 and AKS</title>
+      <link>/community-news/cloud-native-meetups-k8s-1-13-and-aks/</link>
+      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/community-news/cloud-native-meetups-k8s-1-13-and-aks/</guid>
+      <description>This year’s final set of Kubernetes and Cloud Native meetups just took place. They kicked off in Kitchener-Waterloo on November 29th, and continued in Montreal December 3rd, Ottawa December 4th, Toronto December 5th, and Quebec December 6th. In preparation for the upcoming KubeCon and CloudNativeCon in Seattle, a wide range of open source solutions were discussed and, as always, beer and pizza provided.
+The meetups in Montreal, Ottawa, Toronto, and Quebec began with an update of the CNCF landscape by Ayrat Khayretdinov, CNCF Ambassador and Cloud Solutions Architect at CloudOps.</description>
+    </item>
+    
+    <item>
       <title>Eastern Canada’s Kubernetes and Cloud Native Meetups – Winter Edition</title>
       <link>/community-news/eastern-canadas-kubernetes-and-cloud-native-meetups-winter-edition/</link>
       <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
@@ -57,6 +67,16 @@ Each meetup began with an update by Ayrat Khayretdinov, CNCF (Cloud Native Compu
       <guid>/community-news/devopsdays-montreal/</guid>
       <description>CloudOps was pleased to sponsor DevOpsDays Montreal, which took place on October 10th and 11th. Featuring a wide range of speakers and activities, the event brought together DevOps practitioners throughout Montreal.
 The event kicked off in the morning with a keynote by Alistair Croll entitled ‘Innovation, Disruption, and Discontinuity: Technology isn’t Interesting.’ Innovation has traditionally continued or disrupted markets, but adaptivity is becoming increasingly necessary as we move away from economies of scale.</description>
+    </item>
+    
+    <item>
+      <title>Takeaways from Liz Rice: Pop-Up Meetup on Container Security</title>
+      <link>/community-news/takeaways-from-liz-rice-pop-up-meetup-on-container-security/</link>
+      <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/community-news/takeaways-from-liz-rice-pop-up-meetup-on-container-security/</guid>
+      <description>Last night’s pop-up meetup featured Liz Rice, a renowned expert in container security and technical evangelist at Aqua Security. As an active participant of the CNCF and as co-chair of KubeCon and CloudNativeCon, Liz was able to share her extensive experience with cloud native technologies. The event took place on October 4th at Complexe Desjardins. View&amp;nbsp;Liz’s slide deck here.
+The evening began with a fireside chat where Robert Masse, Partner and Risk Advisor at Deloitte, and Marc Pare, CCO at CloudOps, interviewed Liz.</description>
     </item>
     
     <item>
@@ -110,11 +130,21 @@ Each meetup started with a 1.10 update of KubeCon by our very own Mike Wojcikiew
     </item>
     
     <item>
+      <title>Cloud Native Meetup: K8s 1.9 Update, Lyft’s Migration to Envoy, and Cilium Networking</title>
+      <link>/community-news/lyfts-migration-to-envoy-1-9-update-cilium-networking-meetup/</link>
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/community-news/lyfts-migration-to-envoy-1-9-update-cilium-networking-meetup/</guid>
+      <description>CloudOps hosted an exciting event last night at the Centre cloud.ca in Montreal bringing in speakers from Seattle and Silicon Valley. The event included a 1.9 release update, and presentations on Lyft’s migration to Envoy, and Cilium Network Security. It was the first Kubernetes meetup of the year, and was the meetup that saw Kubernetes integrate into the broader Cloud Native Computing Foundation (CNCF) mission.
+Our very own Ayrat Kharetdinov was announced as a CNCF ambassador to continue his work expanding the open source community in Canada.</description>
+    </item>
+    
+    <item>
       <title>Hashicorp User Group Meetup #2</title>
-      <link>/community-news/hashicorp-user-group-meetup-2/</link>
+      <link>/community-news/hashicorp-user-group-meetup/</link>
       <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/community-news/hashicorp-user-group-meetup-2/</guid>
+      <guid>/community-news/hashicorp-user-group-meetup/</guid>
       <description>CloudOps was pleased to collaborate with Hashicorp User Group, fondly known as HUG, for its second DevOps Montreal meetup last night. Hosted at espace cloud.ca, the event began with beer, pizza, and mingling, before moving onto more substantive talks.
 cloud.ca’s very own Clément Contini began by speaking about leveraging Hashicorp’s Terraform to create Kubernetes clusters on public clouds using the kubeadm toolkit. Additionally, he showed how to balance Terraform with the cloud.</description>
     </item>

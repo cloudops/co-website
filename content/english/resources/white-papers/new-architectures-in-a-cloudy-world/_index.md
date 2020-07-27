@@ -4,6 +4,9 @@ lastmod: 2020-06-27
 resources:
 - name: "thumbnail"
   src: "architectures_cloudy_world.png"
+aliases:
+    - /white-papers/new-architectures-in-a-cloudy-world/
+    - /new-architectures-in-a-cloudy-world/
 ---
 
 

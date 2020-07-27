@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "CS-logo-sm.png"
 class_name: "blog post"
+aliases:
+    - /2014/03/cloudstack-creating-advanced-networking-zone-using-api/
+    - /cloudstack-creating-advanced-networking-zone-using-api/
 ---
 
 <p>In the process of automating <a title="CloudStack" href="http://cloudstack.apache.org/">CloudStack</a> installation, we’ve been through a challenging part: Creating an Entire Advanced networking Zone from the API. Production and test system that we deploy don’t have building tools such as mavin in order to create zones, pod,networks,… So the usual process is to use the Web UI and follow the “Add Zone” wizard. Well, not anymore!</p>

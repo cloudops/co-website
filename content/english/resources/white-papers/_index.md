@@ -1,6 +1,8 @@
 ---
 title: White Papers
 type: subpage-resources
+aliases:
+    - /white-papers
 ---
 
 <div class="blog-main subpage-resources">

@@ -34,10 +34,12 @@ class_name: "blog post"
 
 <div class="row">
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
+        <a href="/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes">
       <img src="/images/blog/cta/white-paper.jpeg">
+      </a>
     </div>
 </div>
 
-<p>Learn more about how CloudOps can provide your organization with a <a href="https://www.cloudops.com/devops-platform-and-practices-assessment/">DevOps Platform and Practices Assessment (DPPA)</a> that will analyze the business impact and technical requirements of your technology stack and provide recommendations for improvement.</p>
+<p>Learn more about how CloudOps can provide your organization with a <a href="/devops-platform-practices-assessment/">DevOps Platform and Practices Assessment (DPPA)</a> that will analyze the business impact and technical requirements of your technology stack and provide recommendations for improvement.</p>
 
 <p>Citations:<br> <small><br> 1. Nicole Forsgren, Jez Humble, Gene Kim, Accelerate: Building and Scaling High Performing Technology Organizations (Portland, 2018), p. 10.<br> 2. <i>Ibid.</i><br> 3. Kasey Panetta, “Gartner CEO Survey,” Gartner.com, April 27, 2017, https://www.gartner.com/smarterwithgartner/2017-ceo-survey-infographic/.<br> 4. Gartner. Gartner Predicts. 2016. https://www.gartner.com/binaries/content/assets/events/keywords/infrastructure-operations-management/iome5/gartner-predicts-for-it-infrastructure-and-operations.pdf<br> 5. Rob Stroud and Elinor Klavens with Eveline Oehrlich, Aaron Kinch, and Diane Lynch, DevOps Heat Map 2017, Forrester, (Cambridge, 2017), https://www.forrester.com/report/DevOps+Heat+Map+2017/-/E-RES137782<br> 6. James Wickett, “Attacking Pipelines – Security Meets Continuous Delivery”, Slideshare.net, June 11, 2014, https://www.slideshare.net/wickett/attacking-pipelinessecurity-meets-continuous-delivery.<br> 7. Accelerate, p. 72.<br> </small></p>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homepage on CloudOps</title>
+    <title>Page d&#39;accueil on CloudOps</title>
     <link>/fr/</link>
-    <description>Recent content in Homepage on CloudOps</description>
+    <description>Recent content in Page d&#39;accueil on CloudOps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
@@ -68,6 +68,16 @@ Le classement « FT The Americas’ Fastest Growing Companies » est compos�
     </item>
     
     <item>
+      <title>CloudOps is Named One of The Financial Times The Americas’ Fastest Growing Companies in 2020</title>
+      <link>/fr/cloudops-press/cloudops-is-named-one-of-the-financial-times-the-americas-fastest-growing-companies-in-2020/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-is-named-one-of-the-financial-times-the-americas-fastest-growing-companies-in-2020/</guid>
+      <description>Montreal, Quebec, April 8th 2020 — CloudOps has been recognized as part of The Financial Times inaugural list of The Americas’ Fastest Growing Companies 2020. This prestigious award is presented by The Financial Times and Statista Inc., the world-leading statistics portal and industry ranking provider.
+The FT The Americas’ Fastest Growing Companies is comprised of enterprises that have contributed most heavily to economic growth. 500 companies are featured on the list, which was announced online on April 6, 2020 and can currently be viewed on this page of the FT website.</description>
+    </item>
+    
+    <item>
       <title>Voici Anthos et voici comment elle peut vous aider à moderniser votre application</title>
       <link>/fr/blog/voici-anthos-et-voici-comment-elle-peut-vous-aider-a-moderniser-votre-application/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
@@ -94,6 +104,17 @@ Le classement « FT The Americas’ Fastest Growing Companies » est compos�
       <description>À tous nos clients, partenaires et amis.
 Tandis que l’épidémie mondiale de COVID-19 continue d’évoluer, nous aimerions partager les mesures prises par CloudOps afin d’assurer le bien-être de nos employés et de notre communauté, ainsi que la continuité de nos activités.
 Nous savons que CloudOps joue un rôle important au sein de votre entreprise, que ce soit dans la livraison de produits et services, dans la formation, le soutien ou les conseils.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps’ Commitment to Enhance Your Business Throughout COVID-19</title>
+      <link>/fr/cloudops-press/press-release-covid-19/</link>
+      <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/press-release-covid-19/</guid>
+      <description>To our customers, partners, users, and friends,
+As the global COVID-19 outbreak continues to evolve, we want to share the steps CloudOps is taking to help ensure the well-being of our employees and communities, as well as the continuity of our business.
+We know that CloudOps has an important role in your business — whether that’s through product and service delivery or events, training, support, and consulting. Although we don’t foresee any interruptions to our core business operations, we are actively enhancing services to support an increase in customer demand for cloud services, including virtual desktops.</description>
     </item>
     
     <item>
@@ -133,6 +154,15 @@ Arthur C. Clarke
       
       <guid>/fr/blog/les-10-principales-erreurs-a-eviter-lors-de-ladoption-du-devops/</guid>
       <description>Un directeur des systèmes d’information décide qu’il est temps pour son organisation d’adopter le DevOps. Ils embauchent une équipe de licornes numériques, adoptent une gamme d’outils de pointe et sont déçus lorsque les résultats ne sont pas au rendez-vous. Tous les projets, idées, produits et équipes présentés sont freinés par des normes culturelles, des processus, des infrastructures et des compétences de plus en plus obsolètes. Rien n’est aligné avec les nouveaux modèles opérationnels et technologies introduits, et les licornes numériques–ainsi que leur potentiel–sont prises en otage derrière un barrage.</description>
+    </item>
+    
+    <item>
+      <title>Eastern Canada’s Kubernetes &#43; Cloud Native Meetups – Winter 2019</title>
+      <link>/fr/community-news/eastern-canadas-kubernetes-cloud-native-meetups-winter-2019/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/community-news/eastern-canadas-kubernetes-cloud-native-meetups-winter-2019/</guid>
+      <description>The last series of Kubernetes + Cloud Native meetups in 2019 have come to a close. Our roadshow took us to Ottawa, Toronto, Kitchener-Waterloo, Montreal, and Quebec. Each meetup began with a recap of the KubeCon San Diego as well as news about the recent releases of Kubernetes 1.16 and 1.17, Istio 1.3 and 1.4, and Helm 3. A variety of subjects were then discussed, and we were excited to see such active participation from Eastern Canada’s communities.</description>
     </item>
     
     <item>
@@ -181,7 +211,7 @@ Notre énoncé de mission met en lumière notre vision du DevOps&amp;nbsp;: aide
       
       <guid>/fr/blog/quiz-dans-quelle-mesure-vos-conteneurs-sont-ils-securises-dans-azure/</guid>
       <description>&amp;nbsp;
-Create your own user feedback survey</description>
+Create your own user feedback survey  </description>
     </item>
     
     <item>
@@ -192,6 +222,16 @@ Create your own user feedback survey</description>
       <guid>/fr/blog/devopsdays-montreal-2019/</guid>
       <description>La deuxième édition des journées DevOpsDays Montréal s’est tenue les 5 et 6&amp;nbsp;novembre derniers. CloudOps fut enchantée de participer à cet événement qui rassemblait les membres de la communauté de tout l’est du Canada pour célébrer l’univers du DevOps. Les deux jours furent remplis de conférences, tant en anglais qu’en français, d’espaces libres et d’ateliers.&amp;nbsp;
 La première journée a débuté par une conférence de Richard Fontana intitulée&amp;nbsp;: « Open Source&amp;nbsp;: Everything’s fine, » (« Logiciel libre&amp;nbsp;: tout va bien ») un regard pertinent sur les dessous légaux des logiciels libres.</description>
+    </item>
+    
+    <item>
+      <title>DevOpsDays Montreal 2019</title>
+      <link>/fr/community-news/devopsdays-montreal-2019/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/community-news/devopsdays-montreal-2019/</guid>
+      <description>The second edition of DevOpsDays Montreal took place on November 5 and 6. CloudOps was excited to be at this event which brought together community members from across Eastern Canada in celebration of all things DevOps. The two days were jam-packed with talks in both English and French, open spaces, and workshops.&amp;nbsp;
+The first day started with a talk by Richard Fontana called “Open Source: Everything’s fine,” an interesting look into the legalities of open source software.</description>
     </item>
     
     <item>
@@ -211,6 +251,15 @@ Chez CloudOps, nous aidons nos clients à concevoir, créer et utiliser des plat
       
       <guid>/fr/blog/notre-coffre-a-outils-des-meilleurs-outils-infonuagiques-de-chaque-categorie/</guid>
       <description>Au cours des dernières années, le nombre d’outils que l’on retrouve dans le paysage infonuagique a explosé, il est parfois difficile de savoir quel est le meilleur pour effectuer un travail précis. Nous sommes agnostiques en matière de nuage et d’outils, car pour nous, la meilleure façon de servir nos clients est par une combinaison d’outils propriétaires et de logiciel libre. Pour nos clients qui requièrent des solutions commerciales, nous collaborons avec différents chefs de file du secteur afin de créer une solution de pile technologique complète qui peut se répliquer à travers différentes plateformes et s’adapter à des exigences uniques.</description>
+    </item>
+    
+    <item>
+      <title>Eastern Canada’s Kubernetes and Cloud Native Meetups – Summer 2019</title>
+      <link>/fr/community-news/eastern-canadas-kubernetes-and-cloud-native-meetups-summer-2019/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/community-news/eastern-canadas-kubernetes-and-cloud-native-meetups-summer-2019/</guid>
+      <description>Summer was punctuated with many great talks and cupcakes as we closed off the season with the Kubernetes Birthday Bash. Our roadshow took us to Quebec City, Montreal, Ottawa, Toronto and Kitchener-Waterloo, where our CNCF Ambassador, Ayrat Khayretdinov, relayed important news and updates from the CNCF. Most notable is KubeCon North America taking place on November 18th to 21st in San Diego. Thefull list of speakers has just been released and we are happy to announce that some of our own meetup members are included in that list.</description>
     </item>
     
     <item>
@@ -234,6 +283,17 @@ Comme le DevOps, le BizDevOps est la combinaison de philosophies culturelles, de
       <description>CloudOps est enchantée d’annoncer qu’elle s’est classée au 294e rang du premier palmarès des entreprises canadiennes avec la plus forte croissance du magazine Report on Business.
 Le palmarès des entreprises canadiennes avec la plus forte croissance, inauguré en 2019, est un programme qui a pour but de célébrer le succès entrepreneurial au Canada en identifiant et en soulignant la réussite des entreprises canadiennes indépendantes et axées sur la croissance.&amp;nbsp;
 Le palmarès des entreprises canadiennes avec la plus forte croissance couronne les entreprises canadiennes selon la croissance de leurs revenus au cours des trois dernières années.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps is Named One of Canada’s Top Growing Companies.</title>
+      <link>/fr/cloudops-press/cloudops-is-named-one-of-canadas-top-growing-companies/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-is-named-one-of-canadas-top-growing-companies/</guid>
+      <description>CloudOps is pleased to announce it placed No. 294 on the inaugural Report on Business ranking of Canada’s Top Growing Companies.
+Launched in 2019, the Canada’s Top Growing Companies ranking program aims to celebrate entrepreneurial achievement in Canada by identifying and amplifying the success of growth-minded, independent businesses in Canada.&amp;nbsp;
+Canada’s Top Growing Companies ranks Canadian companies on three-year revenue growth. CloudOps earned its spot with three-year growth of 96%.</description>
     </item>
     
     <item>
@@ -290,8 +350,7 @@ Depuis, AWS a élargi son offre et dispose actuellement de la plus grande part d
       <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/fr/blog/questionnaire-etes-vous-une-licorne-kubernetes/</guid>
-      <description>Testez vos connaissances de Kubernetes en répondant à ce questionnaire et découvrez si oui ou non, vous êtes une «&amp;nbsp;perle rare&amp;nbsp;» !
- </description>
+      <description>Testez vos connaissances de Kubernetes en répondant à ce questionnaire et découvrez si oui ou non, vous êtes une «&amp;nbsp;perle rare&amp;nbsp;» !</description>
     </item>
     
     <item>
@@ -302,6 +361,16 @@ Depuis, AWS a élargi son offre et dispose actuellement de la plus grande part d
       <guid>/fr/blog/cloudops-au-palmares-branham-300-de-2019/</guid>
       <description>CloudOps est fière de se retrouver au 191e rang du Palmarès&amp;nbsp;Branham300 des 250 meilleures entreprises technologiques canadiennes de 2019. Il s’agit de la quatrième année consécutive où l’on peut retrouver CloudOps au classement. En 2018, CloudOps se plaçait au 197e rang du palmarès&amp;nbsp;Branham300.
 Le palmarès&amp;nbsp;Branham300 est basé sur les revenus et est composé des entreprises technologiques publiques et privées les plus profitables au Canada. Chacune des 250 entreprises démontre une croissance significative de ses revenus, et ensemble, elles représentent plus de la moitié des revenus du secteur des TIC (technologies de l’information et des communications).</description>
+    </item>
+    
+    <item>
+      <title>CloudOps is Named One of Canada’s Top ICT Companies in 2019 by Branham300</title>
+      <link>/fr/cloudops-press/cloudops-is-named-one-of-canadas-top-ict-companies-in-2019-by-branham300/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-is-named-one-of-canadas-top-ict-companies-in-2019-by-branham300/</guid>
+      <description>CloudOps is pleased to have placed 191st in the Branham300 list of Top 250 Canadian ICT companies in 2019. This is the fourth consecutive year that CloudOps has been listed in this ranking. CloudOps was listed 197th in the 2018 Branham300 ranking.
+The Branham300 ranking is based on revenue and consists of Canada’s most profitable, public and private technology companies. All Top 250 companies demonstrate significant revenue growth and altogether represent over half of the nation’s ICT (Information and Communications Technology) sector revenue.</description>
     </item>
     
     <item>
@@ -352,6 +421,16 @@ Les meetups ont commencé à Montréal dans les bureaux d’Ubisoft. Jean-Philip
     </item>
     
     <item>
+      <title>CloudOps is an AWS Advanced Consulting Member</title>
+      <link>/fr/cloudops-press/cloudops-is-an-aws-advanced-consulting-membe/</link>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-is-an-aws-advanced-consulting-membe/</guid>
+      <description>CloudOps is pleased to become an Advanced member of the AWS Partner Network (APN). As a consulting partner of AWS, CloudOps helps companies build or expand their businesses in AWS’ public cloud offering.
+As the most mature cloud offering, AWS offers users a vast array of rich features from which to take full advantage of what the cloud has to offer. CloudOps’ membership speaks to the in-depth knowledge that our teams have with regards to AWS as well as our commitment to helping organizations transform digitally, building their businesses in the cloud.</description>
+    </item>
+    
+    <item>
       <title>Partenaire avancé d’AWS</title>
       <link>/fr/blog/partenaire-avance-aws/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
@@ -372,6 +451,16 @@ Ce palmarès découle des données obtenues par CDN et provenant des fournisseur
     </item>
     
     <item>
+      <title>CloudOps is in the Top 100 Cloud Solution Providers in Canada</title>
+      <link>/fr/cloudops-press/cloudops-is-in-the-top-100-cloud-solution-providers-in-canada/</link>
+      <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-is-in-the-top-100-cloud-solution-providers-in-canada/</guid>
+      <description>CloudOps is pleased to join the Top 100 (cloud) Solution Providers in Canada for Channel Daily News (CDN), owned by IT World Canada. CloudOps has been listed as the 91st solution provider in Canada and was one of eight newcomers to the list.
+This ranking comes from data collected by CDN from IT solution providers across Canada. It produces an industry benchmark report that sheds light on industry trends. The results were announced at the Top 100 Solution Providers Gala last night.</description>
+    </item>
+    
+    <item>
       <title>Will Stevens est récemment devenu membre de la fondation ASF</title>
       <link>/fr/blog/will-stevens-est-membre-de-la-fondation-asf/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
@@ -379,6 +468,26 @@ Ce palmarès découle des données obtenues par CDN et provenant des fournisseur
       <guid>/fr/blog/will-stevens-est-membre-de-la-fondation-asf/</guid>
       <description>Will Stevens, Directeur principal de la technologie chez CloudOps, est récemment devenu membre de la fondation ASF (Apache Software Foundation). Il continuera d’encourager la communauté de source libre et de collaborer aux projets de l’ASF.
 L’ASF est un organisme de bienfaisance dévoué à soutenir les projets de logiciel de source libre en appuyant les communautés, en encourageant le développement de code de qualité et en mettant ses projets membres en lumière.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps is a Microsoft DevOps Competency Partner</title>
+      <link>/fr/cloudops-press/cloudops-is-a-microsoft-devops-competency-partner/</link>
+      <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-is-a-microsoft-devops-competency-partner/</guid>
+      <description>The Microsoft Competency Program gives partners the opportunity to demonstrate proven expertise in delivering quality solutions to specialized areas of business. Partners reach competency in given areas through a skills assessment, in which they pass exams to demonstrate product knowledge, or through proving an ability to meet performance goals.
+Today, CloudOps announces its completion of the Microsoft DevOps Competency. As a DevOps partner, CloudOps has proven its expertise in helping organizations modernize their application development approaches.</description>
+    </item>
+    
+    <item>
+      <title>Will Stevens is a Member of the Apache Software Foundation</title>
+      <link>/fr/cloudops-press/will-stevens-is-a-member-of-the-apache-software-foundation/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/will-stevens-is-a-member-of-the-apache-software-foundation/</guid>
+      <description>CloudOps’ Chief Technology Officer, Will Stevens, has recently become a member of the Apache Software Foundation (ASF). He will continue encouraging the open source community and contributing to ASF projects.
+The ASF is a charitable organization devoted to supporting open source software projects by nurturing communities, encouraging the development of quality code, and generating awareness of its member projects. The ASF was established in 1999 and is funded by donations and managed by volunteers.</description>
     </item>
     
     <item>
@@ -437,6 +546,16 @@ CloudOps annonce aujourd’hui l’achèvement de la Compétence DevOps de Micro
       <guid>/fr/blog/les-meetups-kubernetes-et-cloud-native-de-lest-du-canada-de-mars-2019/</guid>
       <description>Les premiers meetups Kubernetes et Cloud Native de l’est du Canada de l’année se sont tenus du 25&amp;nbsp;février au 6&amp;nbsp;mars à Québec, à Ottawa, à Montréal, à Kitchener-Waterloo, et à Toronto. Les discussions ont porté sur une grande variété de sujets et CloudOps fut enchantée de voir une telle participation active de la part des communautés infonuagiques natives de l’est du Canada.
 Chacun des meetups s’est amorcé avec une mise à jour de Ayrat Khayretdinov, ambassadeur de la CNCF (Cloud Native Computing Foundation) et architecte de solutions chez CloudOps.</description>
+    </item>
+    
+    <item>
+      <title>Maddison Long accepted into Forbes Technology Council</title>
+      <link>/fr/cloudops-press/maddison-long-accepted-into-forbes-technology-council/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/maddison-long-accepted-into-forbes-technology-council/</guid>
+      <description>Maddison Long, Vice President of Products at CloudOps, a leading Canadian cloud consulting and services company focused on open source, cloud platforms, networking and DevOps, has been accepted into Forbes Technology Council, an invitation-only community for world-class CIOs, CTOs, and technology executives.
+Maddison Long was vetted and selected by a review committee based on the depth and diversity of his experience. Criteria for acceptance include a track record of successfully impacting business growth metrics, as well as personal and professional achievements and honors.</description>
     </item>
     
     <item>
@@ -506,6 +625,16 @@ Les gensLorsqu’il s’agit de l’adoption des nouvelles technologies, les gen
     </item>
     
     <item>
+      <title>Eastern Canada’s Kubernetes and Cloud Native Meetups – Winter Edition</title>
+      <link>/fr/community-news/eastern-canadas-kubernetes-and-cloud-native-meetups-winter-edition/</link>
+      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/community-news/eastern-canadas-kubernetes-and-cloud-native-meetups-winter-edition/</guid>
+      <description>This year’s first set of Kubernetes and Cloud Native Meetups in Eastern Canada just took place from February 25th to March 6th, happening in Quebec City, Ottawa, Montreal, Kitchener-Waterloo, and Toronto. A wide array of topics were discussed, and CloudOps was excited to see such active participation from Eastern Canada’s cloud native communities.
+Each meetup began with an update by Ayrat Khayretdinov, CNCF (Cloud Native Computing Foundation) Ambassador and Solutions Architect at CloudOps.</description>
+    </item>
+    
+    <item>
       <title>Pourquoi les déploiements infonuagiques natifs : Les plateformes et l’automatisation sans affiliation infonuagique sont les moteurs de la valeur commerciale.</title>
       <link>/fr/blog/valeur-deploiements-infonuagiques-natifs-automatisation/</link>
       <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
@@ -526,6 +655,16 @@ En tant qu’ambassadeur de la CNCF, je participe activement à la promotion pan
     </item>
     
     <item>
+      <title>DevOpsDays Montreal</title>
+      <link>/fr/community-news/devopsdays-montreal/</link>
+      <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/community-news/devopsdays-montreal/</guid>
+      <description>CloudOps was pleased to sponsor DevOpsDays Montreal, which took place on October 10th and 11th. Featuring a wide range of speakers and activities, the event brought together DevOps practitioners throughout Montreal.
+The event kicked off in the morning with a keynote by Alistair Croll entitled ‘Innovation, Disruption, and Discontinuity: Technology isn’t Interesting.’ Innovation has traditionally continued or disrupted markets, but adaptivity is becoming increasingly necessary as we move away from economies of scale.</description>
+    </item>
+    
+    <item>
       <title>DevOpsDays Montréal</title>
       <link>/fr/blog/devopsdays-montreal/</link>
       <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
@@ -543,6 +682,16 @@ Alistair Croll a lancé la matinée avec son discours liminaire intitulé&amp;nb
       <guid>/fr/blog/meetup-liz-rice-securite-conteneurs/</guid>
       <description>Le meetup spontané qui s’est tenu au début d’octobre mettait en vedette Liz Rice, experte reconnue dans le domaine de la sécurité des conteneurs et évangéliste technique chez Aqua Security. En tant que participante active dans la fondation CNCF et coprésidente de KubeCon et de CloudNativeCon, Liz a pu faire part de son expérience approfondie des technologies infonuagiques. L’événement a eu lieu le 4 octobre dernier au Complexe Desjardins.
 La soirée a commencé par une causerie au coin du feu où Robert Masse, partenaire et conseiller en gestion des risques chez Deloitte et Marc Paré, responsable de la conformité chez CloudOps, ont interviewé Liz.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps Talks Open Source at ApacheCon 2018</title>
+      <link>/fr/community-news/open-source-apachecon-2018/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/community-news/open-source-apachecon-2018/</guid>
+      <description>ApacheCon North Americawas held in Montreal this year from September&amp;nbsp;24thto 27th. The event featured a CloudStack Collab Conference, in which containers, DevOps, IoT, servers, and web frameworks amongst many other subjects were covered. CloudOps was pleased to sponsor the event, and even more so to participate.
+Syed Ahmed discussed&amp;nbsp;A Journey to CloudStack&amp;nbsp;with Francois Nadeau from Ticketmaster, who partnered with CloudOps for help leveraging Infrastructure-as-a-Service. Our sisters company, cloud.ca, made a few presentations.</description>
     </item>
     
     <item>
@@ -624,6 +773,16 @@ Les deux articles précédents étaient axés sur l’Infrastructure en tant que
     </item>
     
     <item>
+      <title>Cloud Native Meetups: K8s 1.11, Helm, PostgreSQL, and Traefik</title>
+      <link>/fr/community-news/cloud-native-meetups-k8s-1-11/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/community-news/cloud-native-meetups-k8s-1-11/</guid>
+      <description>Kubernetes celebrated its fourth birthday across eastern Canada this week with a series of cloud native meetups in Montreal, Quebec City, Ottawa, Toronto, and Kitchener-Waterloo. This quarter’s series of Kubernetes and Cloud Native meetups brought together a range of speakers, including Ayrat Khayretdinov, Baruch Sadogursky, Jonathan Katz, and Daniel Tomcej. Below is an overview of the content of their presentations.
+A Kubernetes 1.11 update reviewing the ecosystem by our very own CNCF ambassador, Ayrat Khayretdninov, kicked off each meetup.</description>
+    </item>
+    
+    <item>
       <title>La SRE est-elle la cerise sur le gâteau du DevOps?</title>
       <link>/fr/blog/la-sre-est-elle-la-cerise-sur-le-gateau-du-devops/</link>
       <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
@@ -652,6 +811,25 @@ Red Hat OpenShiftunit les développeurs et les opérations de TI en une seule pl
     </item>
     
     <item>
+      <title>CloudOps is a Red Hat Application Platform Partner</title>
+      <link>/fr/cloudops-press/cloudops-is-a-member-of-the-red-hat-application-platform-partner-initiative/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-is-a-member-of-the-red-hat-application-platform-partner-initiative/</guid>
+      <description>CloudOps is pleased to become a member of the Red Hat Application Platform Partner Initiative (APP). Consisting of partners focused on application platforms with emerging technologies, the APP Initiative encourages deeper collaboration between Red Hat and its partners in helping organizations modernise their application platforms.
+Red Hat OpenShift unites developers and IT operations on a single Kubernetes platform to build, deploy, and manage containerized applications in any public, private, or hybrid cloud environment.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps listed in the Branham300 in 2018</title>
+      <link>/fr/cloudops-press/cloudops-listed-in-the-branham300-in-2018/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-listed-in-the-branham300-in-2018/</guid>
+      <description>CloudOps is pleased to be listed in the Branham300 Top 250 companies in 2018&amp;nbsp;for the third consecutive year. CloudOps has been listed as the 197th company, up from last year. Consisting of Canada’s most profitable, public and private technology companies, the ranking is based on revenue. All Top 250 companies have demonstrated significant revenue growth in every year since 2009, and altogether they represent over half of the nation’s ICT (Information and Communications Technology) sector revenue.</description>
+    </item>
+    
+    <item>
       <title>Comment le RGDP affecte-t-il votre application infonuagique?</title>
       <link>/fr/blog/comment-le-rgdp-affecte-t-il-votre-application-infonuagique/</link>
       <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
@@ -670,12 +848,32 @@ Red Hat OpenShiftunit les développeurs et les opérations de TI en une seule pl
     </item>
     
     <item>
+      <title>Montreal Cloud Native Day 2019</title>
+      <link>/fr/community-news/montreal-cloud-native-day-2019/</link>
+      <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/community-news/montreal-cloud-native-day-2019/</guid>
+      <description>Montreal’s first Cloud Native Day was last Tuesday. The event brought together Kubernetes and cloud native communities from across Eastern Canada and featured a full day of talks. The event was attended by over 200 cloud native enthusiasts and culminated the Kubernetes and cloud native meetups run by CloudOps in Montreal, Toronto, Ottawa, Kitchener-Waterloo, and Quebec City.
+Luc Perkins from the CNCF and Vicky Brasseur from Juniper Networks began the day with a keynote called ‘A well-grounded Cloud: Exploring the foundations of cloud native.</description>
+    </item>
+    
+    <item>
       <title>Les entrées Kubernetes ne sont pas aussi difficiles qu’on le croit : utilisez les entrées pour acheminer vers vos services</title>
       <link>/fr/blog/les-entrees-kubernetes-ne-sont-pas-aussi-difficiles-quon-le-croit-utilisez-les-entrees-pour-acheminer-vers-vos-services/</link>
       <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/fr/blog/les-entrees-kubernetes-ne-sont-pas-aussi-difficiles-quon-le-croit-utilisez-les-entrees-pour-acheminer-vers-vos-services/</guid>
       <description>Comment utilisez les entrées pour acheminer vers vos services KubernetesSi vous utilisez Kubernetes, vous avez probablement des déploiements ou des ensembles à états qui gèrent un certain nombre de « pods » exploitant différents microservices à l’intérieur d’une application. Cela ne sert à rien si vos microservices ne peuvent pas communiquer entre eux. Ils sont exécutés comme de nombreux « pods » planifiés par Kubernetes et ces « pods » ont des adresses IP et des noms kubedns assignés qui sont trop changeables pour que l’on puisse s’y fier pour le réseautage.</description>
+    </item>
+    
+    <item>
+      <title>Eastern Canada’s Kubernetes and Cloud Native Meetups – Spring Edition 2019</title>
+      <link>/fr/community-news/eastern-canadas-kubernetes-and-cloud-native-meetups-spring-edition-2019/</link>
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/community-news/eastern-canadas-kubernetes-and-cloud-native-meetups-spring-edition-2019/</guid>
+      <description>With summer right around the corner, CloudOps held a series of Kubernetes and Cloud Native meetups in Montreal, Kitchener-Waterloo, Ottawa, Toronto, and Quebec City. In the wake of KubeCon in Barcelona, updates on the Kubernetes and cloud native ecosystem were given by Ayrat Khayretdinov, our very own CNCF ambassador.
+The meetups begin in Montreal at Ubisoft’s office. Jean-Philippe Belanger from Upgrade started the meetup in Montreal with a highly anticipated talk discussing GitOps and ArgoCD.</description>
     </item>
     
     <item>
@@ -713,6 +911,26 @@ Notre propre Mike Wojcikiewicz, accompagné de notre ambassadeur CNCF, Ayrat Kha
       
       <guid>/fr/blog/java-presente-son-nouveau-train-de-publication-embarquez-vous/</guid>
       <description>Depuis le récent lancement de Java 10, Oracle prend une approche plus moderne pour publier les nouvelles versions de la plateforme Java. Plutôt que d’attendre que les logiciels soient prêts, Oracle utilisera un nouveau calendrier de publication, ayant le train comme modèle. Les nouvelles versions seront publiées tous les six mois — peu importe leur contenu. Traditionnellement, Sun Microsystems, et maintenant Oracle, publiaient de nouvelles versions tous les deux à quatre ans.</description>
+    </item>
+    
+    <item>
+      <title>Cloud Native Meetup: K8s 1.10 Update, K8s Image Admittance, Rancher 2.0 Cluster Management, KubeVirt, Stateful Sets, Rook &amp; Jaeger</title>
+      <link>/fr/community-news/q2-cloud-native-meetups/</link>
+      <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/community-news/q2-cloud-native-meetups/</guid>
+      <description>In the wake of the recent KubeCon, we held an exciting series of Q2 cloud native meetups in Montreal, Kitchener-Waterloo, Ottawa, Toronto, and Quebec City. Featuring a range of topics, we enjoyed discussing all things cloud native with the community.
+Each meetup started with a 1.10 update of KubeCon by our very own Mike Wojcikiewicz and our CNCF ambassador, Ayrat Kharetdninov. Their update covered the most relevant keynotes, CNCF projects to overview, and some of our recent activities.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps is Now a Kubernetes Training Partner</title>
+      <link>/fr/cloudops-press/cloudops-is-now-a-kubernetes-training-partner/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-is-now-a-kubernetes-training-partner/</guid>
+      <description>CloudOps is happy to announce membership of the newly-founded Kubernetes Training Partner (KTP) program. Run by the Cloud Native Computing Foundation (CNCF), the KTP program focuses on furthering the educational efforts of Kubernetes Certified Service Providers (KCSP). CloudOps provides support, consulting, professional services, as well as training for organizations seeking to embrace cloud native solutions. As Dan Kohn, Executive Director of CNCF said:
+“CloudOps has demonstrated a deep knowledge of Kubernetes, as well as noteworthy community initiative around cloud native technologies.</description>
     </item>
     
     <item>
@@ -790,6 +1008,15 @@ Le dernier article vous expliquait comment créer une MV pour entièrement autom
     </item>
     
     <item>
+      <title>CloudOps is a Member of the Linux Foundation, the LFN, and the CNCF</title>
+      <link>/fr/cloudops-press/cloudops-is-a-member-of-the-linux-foundation-the-lfn-and-the-cncf/</link>
+      <pubDate>Thu, 08 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-is-a-member-of-the-linux-foundation-the-lfn-and-the-cncf/</guid>
+      <description>CloudOps has always believed that open source software plays an important role in any cloud-based solution. By leveraging the power of community, open source projects transcend the incumbent industry players to act as a catalyst for transformation. The Linux Foundation and its subsidiary foundations provide sustainable ecosystems for these communities to grow and flourish. As a member of The Linux Foundation, the Cloud Native Computing Foundation (CNCF), and The LFNetworking Fund (LFN), CloudOps is proud of its commitment to open source.</description>
+    </item>
+    
+    <item>
       <title>Créer une infrastructure en tant que code dans GCP avec Consul et Terraform : Les premières étapes vers l’automatisation DevOps</title>
       <link>/fr/blog/comment-deployer-consul-dans-gcp-en-utilisant-terraform-les-premieres-etapes-vers-lautomatisation-devops/</link>
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
@@ -827,12 +1054,60 @@ Les architectures sans serveur font en sorte que la logique applicative Web soit
     </item>
     
     <item>
+      <title>Hashicorp User Group Meetup #2</title>
+      <link>/fr/community-news/hashicorp-user-group-meetup-2/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/community-news/hashicorp-user-group-meetup-2/</guid>
+      <description>CloudOps was pleased to collaborate with Hashicorp User Group, fondly known as HUG, for its second DevOps Montreal meetup last night. Hosted at espace cloud.ca, the event began with beer, pizza, and mingling, before moving onto more substantive talks.
+cloud.ca’s very own Clément Contini began by speaking about leveraging Hashicorp’s Terraform to create Kubernetes clusters on public clouds using the kubeadm toolkit. Additionally, he showed how to balance Terraform with the cloud.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps is a Kubernetes Certified Service Provider</title>
+      <link>/fr/cloudops-press/cloudops-is-a-kubernetes-certified-service-provider/</link>
+      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-is-a-kubernetes-certified-service-provider/</guid>
+      <description>CloudOps is pleased to announce that we are now a Kubernetes Certified Service Provider (KCSP). Run by the Cloud Native Computing Foundation in collaboration with the Linux Foundation, the KCSP program is comprised of 28 vetted service providers with substantial experience helping enterprises adopt Kubernetes successfully. KCSP partners provide support, consulting, and professional services and training for organizations seeking to embrace container solutions. As the only partner in Canada, CloudOps works with partners internationally, and with the CNCF to create a strong and vibrant Kubernetes culture that supports an array of complementary platforms, and fosters the community built around it.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps Ranks No. 305 on the 2017 PROFIT 500</title>
+      <link>/fr/cloudops-press/cloudops-ranks-305-on-2017-profit-500/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-ranks-305-on-2017-profit-500/</guid>
+      <description>– Canadian Business unveils 29th annual list of Canada’s Fastest-Growing Companies –
+Montreal, QC (September 14, 2017) Canadian Business and PROFIT today ranked CloudOps No. 305 on the 29th annual PROFIT 500, the definitive ranking of Canada’s Fastest-Growing Companies. Published in the October issue of MacClean’s magazine and at CanadianBusiness.com, the PROFIT 500 ranks Canadian businesses by their five-year revenue growth.
+CloudOps made the 2017 PROFIT 500 list with five-year revenue growth of 193%, up from position 356 from last year.</description>
+    </item>
+    
+    <item>
+      <title>Partnership with NetApp Propels CloudMC and cloud.ca</title>
+      <link>/fr/cloudops-press/partnership-with-netapp-propels-cloudmc-and-cloud-ca/</link>
+      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/partnership-with-netapp-propels-cloudmc-and-cloud-ca/</guid>
+      <description>We are pleased to announce that CloudOps and NetApp have solidified a partnership that will provide all-flash, multi-tiered storage for our IaaS portal, CloudMC. CloudMC is CloudOps’ software for productizing and delivering cloud resources for telcos and shared services providers. The goal of having such high quality storage as part of our solution is to facilitate scalability, performance, and QoS for organizations leveraging CloudMC to monetize their cloud offering. The key advantages are APIs and automation to make the integration rapid and seamless.</description>
+    </item>
+    
+    <item>
       <title>CloudOps certifié comme un Employeur Remarquable</title>
       <link>/fr/blog/cloudops-certifie-comme-un-employeur-remarquable/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>/fr/blog/cloudops-certifie-comme-un-employeur-remarquable/</guid>
       <description>Alors que CloudOps croît et prend de la maturité comme entreprise, nous recherchons des façons de mesurer la satisfaction des employés, tant pour connaître et comprendre leurs besoins que pour comparer avec le secteur en général. À cette fin, nous avons demandé à l’entreprise Groupe Ambition de mener son programme indépendant de certification. Par un sondage organisationnel de sa propre création, l’entreprise a évalué la qualité de nos relations internes, telle que perçue par nos employés.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps Certified as a Remarkable Employer</title>
+      <link>/fr/cloudops-press/cloudops-certified-as-a-remarkable-employer/</link>
+      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-certified-as-a-remarkable-employer/</guid>
+      <description>As CloudOps grows and matures as a business we look for ways to measure employee satisfaction, both as a means to understand the needs of the people who work here and as a means of comparison with the wider industry. To this end we commissioned Groupe Ambition to conduct their independent certification program. Through an organizational survey of their own design, they have assessed the quality of our internal business relationships as perceived by our employees.</description>
     </item>
     
     <item>
@@ -845,6 +1120,27 @@ Les architectures sans serveur font en sorte que la logique applicative Web soit
     </item>
     
     <item>
+      <title>CloudOps Listed on Branham300 for Second Consecutive Year</title>
+      <link>/fr/cloudops-press/cloudops-branham300-second-consecutive-year/</link>
+      <pubDate>Tue, 06 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-branham300-second-consecutive-year/</guid>
+      <description>Montreal, June 6, 2017: CloudOps has once again been listed on the Branham300, ranking at number 227 among Canada’s most-profitable public and private technology companies. The prestigious list ranks companies based on revenue and profitability. CloudOps is pleased and honoured to be part of this elite group for a second year. This reinforces CloudOps’ strategic plans in cloud platform management, telco and enterprise shared services sectors, all of which are steadily growing with the adoption of cloud services.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps and Datera Announce Apache CloudStack Integration for Web-Scale Storage Service</title>
+      <link>/fr/cloudops-press/cloudops-datera-apache-cloudstack-integration/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-datera-apache-cloudstack-integration/</guid>
+      <description>Software-Defined, Automated, Shared Storage Infrastructure Made Accessible to Open Source CloudStack Community
+ CloudOps’ Expertise
+Since 2005, CloudOps has focused on delivering vendor-agnostic cloud services with open source at its core. Companies who wish to take advantage of cloud infrastructure for various reasons including agility, elasticity, reliability, and right-sizing of infrastructure have benefitted greatly from CloudOps’ technical and business expertise in delivering cloud solutions.
+Apache CloudStack (ACS) has been a major part of CloudOps’ open source IaaS offering to companies who wish to create both private and public cloud deployments.</description>
+    </item>
+    
+    <item>
       <title>CloudOps s’est classée au 356e rang du palmarès PROFIT 500 de 2016</title>
       <link>/fr/blog/cloudops-356e-rang-profit-500-2016/</link>
       <pubDate>Mon, 19 Sep 2016 00:00:00 +0000</pubDate>
@@ -853,6 +1149,117 @@ Les architectures sans serveur font en sorte que la logique applicative Web soit
       <description>CloudOps&amp;nbsp;s’est classée au 356e&amp;nbsp;rang du palmarès PROFIT&amp;nbsp;500 de 2016
 – PROFIT et Canadian Business ont dévoilé la 28e liste annuelle des entreprises canadiennes ayant enregistré la croissance la plus rapide –
 Montréal&amp;nbsp;(15 septembre 2016) − Canadian Business et PROFIT ont annoncé aujourd’hui que nom de l’entrepriseoccupe le 356e&amp;nbsp;rang du 28epalmarès annuel PROFIT&amp;nbsp;500, le classement final des entreprises canadiennes connaissant la croissance la plus rapide. Publié dans le numéro d’octobre de Canadian Business et en ligne sur le site PROFITguide.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps Ranks No. 356 on the 2016 PROFIT 500</title>
+      <link>/fr/cloudops-press/cloudops-ranks-profit-500/</link>
+      <pubDate>Thu, 15 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-ranks-profit-500/</guid>
+      <description>– PROFIT magazine unveils 28th annual list of Canada’s Fastest-Growing Companies –
+Montreal, QC (September 15, 2016) Canadian Business and PROFIT today ranked CloudOps No. 356 on the 28th annual PROFIT 500, the definitive ranking of Canada’s Fastest-Growing Companies. Published in the October issue of Canadian Business and at PROFITguide.com, the PROFIT 500 ranks Canadian businesses by their five-year revenue growth.
+CloudOps made the 2016 PROFIT 500 list with five-year revenue growth of 142%.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps Releases Names of Sponsors for Apache CloudStack™ Collab Conference</title>
+      <link>/fr/cloudops-press/sponsorship-for-apache-cloudstack-collab/</link>
+      <pubDate>Mon, 30 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/sponsorship-for-apache-cloudstack-collab/</guid>
+      <description>Friday, May 27th 2016:CloudOps is excited to announce the sponsors for #ccc2016mtl. With their support, this event will successfully bring together the community in a robust gathering with multiple avenues for collaboration, discussion and creativity. This Collab is a grassroots event, bringing together this community after a year of immense change. The sponsors of the Collab have had an important role in shaping the content of the event, as well as being integral to the success of the Apache CloudStack project as a whole.</description>
+    </item>
+    
+    <item>
+      <title>Announcing Will Stevens As The New Apache™ CloudStack Vice-President</title>
+      <link>/fr/cloudops-press/will-stevens-apache-cloudstack-vice-president/</link>
+      <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/will-stevens-apache-cloudstack-vice-president/</guid>
+      <description>Friday, May 27th 2016:CloudOps is excited to announce that Will Stevens, Lead Developer at CloudOps, has been named as the new Vice-President of the Apache CloudStack project. At the ASF meeting on May 18th, the board passed the resolution appointing Stevens to this position.
+CloudOps makes this announcement with the full support and enthusiasm of the entire team and community. Stevens played a central role moving forward on the 4.9 release management duties, and is actively working to improve Apache CloudStack Github-based workflow and continuous integration.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps Announces IDC Vendor Profile</title>
+      <link>/fr/cloudops-press/cloudops-announces-idc-vendor-profile/</link>
+      <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-announces-idc-vendor-profile/</guid>
+      <description>CloudOps is pleased to announce that IDC has created a vendor profile which gives a unique glimpse into a company experiencing phenomenal growth. CloudOps is poised, as the report concludes, to continue its expansion in the market over the next few years.
+International Data Corporation (IDC) leads the world in providing market research and intelligence as well as advisory services to the IT market. IDC aids individuals and businesses in making “fact-based decisions” on strategic decisions and market growth.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps is Named One of Canada’s Top ICT Companies by Branham300</title>
+      <link>/fr/cloudops-press/cloudops-branham300/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-branham300/</guid>
+      <description>Montreal, April 20th 2016: CloudOps is named one of Canada’s top ICT companies by Branham300, ranking at 221 on this year’s list of Canada’s most-profitable companies. This recognition comes at a pivotal time for CloudOps, as it is poised for hyper growth over the next year. CloudOps is thrilled to be recognized for its growth and profitability even as it accelerates its investment in the next generation of cloud computing solutions for software companies, telecom, and enterprise shared services.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps to host Apache CloudStack Collab June 1-3 2016</title>
+      <link>/fr/cloudops-press/cloudops-to-host-apache-cloudstack-collab-june-1-3-2016/</link>
+      <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-to-host-apache-cloudstack-collab-june-1-3-2016/</guid>
+      <description>For Immediate Release
+CloudOps Announces Early-Bird Pricing for Apache CloudStack™ Collab Conference for June 2016 #ccc2016mtl CloudOps is excited to host the first Apache CloudStack™ Collab conference of 2016 on June 1-3 2016 in beautiful Montreal, Canada. This conference is aimed at developers, operators and users to discuss and evolve the open source software project, its functionality and real world operability. Part talks, part workshops, part hackathon, this event will present a great opportunity for attendees and sponsors alike.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps Partners with Mirantis</title>
+      <link>/fr/cloudops-press/cloudops-partners-with-mirantis/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-partners-with-mirantis/</guid>
+      <description>OpenStack has dominated conversations in the cloud computing industry for some time as the open source foundation receives funding, code contributions and support from many important players in the space. More than 20 distinct OpenStack projects have been launched in the last 5 years. 
+At CloudOps, we are strong supporters of open source communities, contributing to both OpenStack and Apache CloudStack projects. Our CEO, Ian Rae, often compares the two technologies to Playmobil vs Lego; basically that with Playmobil you have a kit of pre-molded parts which allow you to get to play almost right away, whereas Lego lets you customize down to the individual bricks of the infrastructure…and while Lego takes longer to build, it can also be re-configured to meet changing needs.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps Named One of Deloitte’s Technology Fast 50TM Companies</title>
+      <link>/fr/cloudops-press/cloudops-named-one-of-deloittes-technology-fast-50tm-companies/</link>
+      <pubDate>Thu, 12 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-named-one-of-deloittes-technology-fast-50tm-companies/</guid>
+      <description>Montreal, November 12, 2015 — CloudOps is named as one of Canada’s fastest growing technology companies in the 18th annual Deloitte Technology Fast&amp;nbsp;50TM&amp;nbsp;awards for demonstrating bold innovation, dedicated leadership and strong growth. CloudOps ranked 40 with 207 percent in revenue growth from 2011 to 2014. This is the second consecutive year that CloudOps has been ranked.
+The Deloitte Technology Fast&amp;nbsp;50TM&amp;nbsp;program celebrates leaders in the Canadian technology industry and tracks the successful growth of Canadian-grown leaders.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps CEO Featured in KPMG’s The Next Million</title>
+      <link>/fr/cloudops-press/cloudops-ceo-featured-in-kpmgs-the-next-million/</link>
+      <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-ceo-featured-in-kpmgs-the-next-million/</guid>
+      <description>CloudOps CEO, Ian Rae, was featured in KPMG Canada’s quarterly edition of The Next Million, a magazine about Canadian entrepreneurship. The issue’s theme is cloud computing and companies that have successfully leveraged the cloud to scale their software applications, e-commerce sites, and employee mobility. 
+Rae, as a leading figure in the Canadian and international cloud computing space, is being called a “cloud creator.” &amp;nbsp;He founded CloudOps ten years ago and the company has tripled in size in the last three years.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps Ranks No. 204 on the 2015 PROFIT 500</title>
+      <link>/fr/cloudops-press/cloudops-ranks-no-204-on-the-2015-profit-500/</link>
+      <pubDate>Thu, 17 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-ranks-no-204-on-the-2015-profit-500/</guid>
+      <description>– PROFIT magazine unveils 27thannual list of Canada’s Fastest-Growing Companies –
+Montreal, QC (September 17, 2015) Canadian Businessand PROFIT today ranked CloudOps No. 204 on the 27thannual PROFIT 500, the definitive ranking of Canada’s Fastest-Growing Companies. Published in the October issue of Canadian Businessand at PROFITguide.com, the PROFIT 500 ranks Canadian businesses by their five-year revenue growth. 
+CloudOps made the 2015 PROFIT 500 list with five-year revenue growth of 300%.</description>
+    </item>
+    
+    <item>
+      <title>CloudOps Becomes the First Canadian Citrix Specialist in Networking for Data Centre</title>
+      <link>/fr/cloudops-press/cloudops-becomes-the-first-canadian-citrix-specialist-in-networking-for-data-centre/</link>
+      <pubDate>Fri, 17 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/cloudops-becomes-the-first-canadian-citrix-specialist-in-networking-for-data-centre/</guid>
+      <description>As Citrix launches its new partner specialist program, CloudOps receives prestigious designation
+MONTREAL – CloudOps, a&amp;nbsp;cloud solutions provider and Citrix Gold Partner, announces its most recent Citrix certification as a Networking for Data Centre specialist. The specialization provides a framework for partners to demonstrate technical competency, end-to-end sales capability and service delivery expertise.
+The new certification program was announced in early 2015 and allows for a partner to highlight their investments and expertise in a solutions category; virtualization, mobility, or networking.</description>
     </item>
     
     <item>
@@ -880,6 +1287,16 @@ Pourquoi&amp;nbsp;cloud.ca?Il y a de nombreux éléments importants derrière le
     </item>
     
     <item>
+      <title>Announcing cloud.ca – enterprise cloud in Canada</title>
+      <link>/fr/cloudops-press/announcing-cloud-ca/</link>
+      <pubDate>Sat, 03 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloudops-press/announcing-cloud-ca/</guid>
+      <description>We’ve spent much of the past few years helping to design and deploy both private and public clouds internationally, largely atop the Citrix CloudPlatform architecture and the most operationally mature open source technologies available from the CloudStack and OpenStack projects. With this experience under our belts, we’re taking the cover off something significant: our own secure multi-tenant cloud.
+The cloud landscape has changed significantly, and now clouds are an essential tool in the IT toolbox—and Canadians deserve these tools close at hand to maintain data sovereignty and comply with privacy regulations.</description>
+    </item>
+    
+    <item>
       <title>Interop Enterprise Cloud Summit</title>
       <link>/fr/blog/interop-enterprise-cloud-summit-2/</link>
       <pubDate>Mon, 07 May 2012 00:00:00 +0000</pubDate>
@@ -891,83 +1308,428 @@ De nombreux intervenants se sont tout simplement lancés dans des présentations
     </item>
     
     <item>
-      <title>Atelier Apprentissage automatique et Kubernetes</title>
-      <link>/fr/kubernetes-machine-learning/</link>
+      <title>Advanced Containers and Kubernetes</title>
+      <link>/fr/advanced-containers-kubernetes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/fr/kubernetes-machine-learning/</guid>
-      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     Au cours de cet atelier, vous apprendrez:
- À exécuter des déploiements de flux de travail d’apprentissage automatique sur Kubernetes afin de les rendre simples, portables et évolutifs à l’aide d’outils libres.  Atelier indépendant 2 jours: 4000 $ / participant (minimum 6 participants)</description>
+      <guid>/fr/advanced-containers-kubernetes/</guid>
+      <description>Workshops Home  Next Workshop     Advanced Containers and Kubernetes     During this workshop you will learn:
+Day to day operations and best practices around Kubernetes; Concepts around HA, securing, logging and monitoring of Kubernetes.  This workshop is available on Azure, GCP and AWS.
+Duration: 2 days
+$3000/attendee (minimum 3 attendees)
+ Prerequisites: Experience using Linux CLI and a general understanding of virtualization and container technology; Good understanding of Docker and Kubernetes concepts and features.</description>
     </item>
     
     <item>
-      <title>Atelier Docker et Kubernetes</title>
-      <link>/fr/docker-kubernetes/</link>
+      <title>Careers</title>
+      <link>/fr/careers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/fr/docker-kubernetes/</guid>
-      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     Cet atelier phare de CloudOps couvre les principes d’architecture des microservices, puis aborde la mécanique de l’outillage de conteneur, qui constitue désormais un modèle clé pour le développement d’applications.
-Nos ateliers sont basés sur Linux.</description>
+      <guid>/fr/careers/</guid>
+      <description>Careers   CloudOps is a company at the leading edge of the ever-changing cloud industry. Our growing Team of Teams gets the unique chance to work with, learn, and collaborate on the best tools and platforms in the market.      Join the CloudOps Team of Teams Whether you are fascinated by new cloud technologies, passionate about finding the best solution for a customer’s problem, or driven by getting hands-on into the code, CloudOps and its affiliated companies, have a wide variety of career paths to offer.</description>
     </item>
     
     <item>
-      <title>Atelier Gestion des secrets</title>
-      <link>/fr/secrets-mananagement/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/fr/secrets-mananagement/</guid>
-      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     Au cours de cet atelier, vous apprendrez:
- À utiliser Hashicorp Vault, un outil fiable pour la gestion des secrets et la protection des données; Quels sont les composants opérationnels et techniques pour intégrer des secrets Vault dans des applications.</description>
-    </item>
-    
-    <item>
-      <title>Atelier Infrastructure en tant que code</title>
-      <link>/fr/infrastructure-as-code/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/fr/infrastructure-as-code/</guid>
-      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     Au cours de cet atelier, vous apprendrez:
- Comment Hashicorp Terraform de Hashicorp est un outil d’infrastructure multi-plateformes qui vous permet d’utiliser le même outillage sur plusieurs plateformes afin d’automatiser l’infrastructure; Comment Ansible peut être utilisé pour gérer les configurations d’applications distantes et les installations de machines virtuelles bâties sur votre déploiement de l’infrastructure Terraform.</description>
-    </item>
-    
-    <item>
-      <title>Atelier OpenShift</title>
-      <link>/fr/openshift/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/fr/openshift/</guid>
-      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     Au cours de cet atelier, vous apprendrez:
-À installer, gérer et utiliser la plateforme de conteneur Red Hat OpenShift pour déployer vos applications d’entreprise. Durée: 2 ou 3 jours
-OpenShift en deux jours: 2500 $ / participant (minimum de 6 participants)</description>
-    </item>
-    
-    <item>
-      <title>Atelier Opérations Docker et Kubernetes – Niveau avancé</title>
-      <link>/fr/advanced-docker-kubernetes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/fr/advanced-docker-kubernetes/</guid>
-      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     Au cours de cet atelier, vous apprendrez:
- - Opérations quotidiennes et bonnes pratiques de Kubernetes; - Concepts avancés à propos de la haute disponibilité, la sécurisation, la journalisation et la surveillance de Kubernetes.</description>
-    </item>
-    
-    <item>
-      <title>Atelier Surveillance des DevOps</title>
-      <link>/fr/devops-monitoring/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/fr/devops-monitoring/</guid>
-      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     Dans cet atelier, nous explorons les outils de surveillance des applications et des infrastructures (libres et propriétaires), les configurations, la surveillance des performances d’application (“APM”), ainsi que la modification et la visualisation des données à l’aide de travaux pratiques.</description>
-    </item>
-    
-    <item>
-      <title>Formation CI/CD</title>
+      <title>CI/CD Training</title>
       <link>/fr/ci-cd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/fr/ci-cd/</guid>
-      <description>Workshops Home  Next Workshop     Docker and Kubernetes CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps     Au cours de cet atelier, vous apprendrez:
-Quels sont les outils et les bonnes pratiques pour créer, tester et livrer des logiciels et pour améliorer et automatiser votre pipeline de livraison. Durée: 1 jour</description>
+      <description>Workshops Home  Next Workshop     CI/CD     During this workshop you will learn the tools and best practices to build, test, and ship software as well as enhance and automate your delivery pipeline.
+Duration: 1 day
+$1500/attendee (minimum 6 attendees)
+ Prerequisites: Experience using Linux CLI, good understanding of Source Code Management (SCM) systems such as Git, experience using Docker and Kubernetes, a general understanding of CI/CD process is a plus Technical Requirements: Mac, Linux OS or Windows laptop with SSH client (putty, cygwin), web browser supporting HTML5</description>
+    </item>
+    
+    <item>
+      <title>CKA &amp; CKAD Exams</title>
+      <link>/fr/cka-ckad-exams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cka-ckad-exams/</guid>
+      <description>CKA &amp; CKAD Exams      CKA exam Certification is a key step in developing the Kubernetes ecosystem and for professional growth. The exam is based on the latest version of Kubernetes and issued by the CNCF and the Linux Foundation. CloudOps&#39; 3-day Docker and Kubernetes workshop plus one day exam prep (focused on operations) will get you certification ready!
+The CKA exam covers:
+  Application Lifecycle Management 8% Installation, Configuration &amp; Validation Core Concepts Networking Scheduling    Security Cluster Maintenance Logging / Monitoring Storage Troubleshooting      CKAD exam This exam is for developers who design, build, configure, and expose cloud native applications for Kubernetes.</description>
+    </item>
+    
+    <item>
+      <title>Cloud Building</title>
+      <link>/fr/cloud-building/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloud-building/</guid>
+      <description>Cloud Building      Cloud infrastructure for service providers With more than 10 years experience building cloud infrastructures for service providers, CloudOps is the expert you need to help you build a regional, edge, or hybrid cloud. CloudOps is an advocate of open source and cloud native projects, and opinionated when it comes to best-of-breed software-defined technologies. Our consulting services begin with the strategic goals of the business, to ensure that any hybrid multi-cloud solution supports future growth or the organization.</description>
+    </item>
+    
+    <item>
+      <title>Cloud Migration</title>
+      <link>/fr/cloud-migration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloud-migration/</guid>
+      <description>Cloud Migration    Migrating workloads to the cloud doesn’t have to be overwhelming. CloudOps will partner with you to plan your move step-by-step, execute it with care, and set you up for operational success.       You&#39;re ready to move to the cloud. You understand the business advantages that come with a cloud operational model. The wider market does too. In fact, this year some 83% of enterprise workloads will already be in the cloud.</description>
+    </item>
+    
+    <item>
+      <title>Cloud Migration</title>
+      <link>/fr/resources/one-pagers/cloud-migration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/resources/one-pagers/cloud-migration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Native Consulting</title>
+      <link>/fr/cloud-native-consulting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/cloud-native-consulting/</guid>
+      <description>Cloud Native Consulting   Speed up your cloud native project with CloudOps’ expert advice and implementation. We help you navigate the ever-changing cloud native landscape to find the best solutions for your needs.      Getting to cloud native A cloud native application is built to live in the cloud. It auto-provisions, auto-scales, and is auto-resilient, delivering maximum value to a business and its end users. The more successfully an application lives in the cloud without causing lock-in to one provider, the more cloud native it is.</description>
+    </item>
+    
+    <item>
+      <title>cloud.ca DataSheet</title>
+      <link>/fr/resources/one-pagers/cloudca-datasheet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/resources/one-pagers/cloudca-datasheet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CloudOps Managed Services</title>
+      <link>/fr/resources/one-pagers/managed-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/resources/one-pagers/managed-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CloudOps Services</title>
+      <link>/fr/resources/one-pagers/cloudops-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/resources/one-pagers/cloudops-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CloudOps Workshops Catalogue</title>
+      <link>/fr/resources/one-pagers/workshops-catalogue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/resources/one-pagers/workshops-catalogue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community Newsletter Sign up</title>
+      <link>/fr/community-newsletter-signup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/community-newsletter-signup/</guid>
+      <description>Community Newsletter      Join our cloud native and open source communities! Get info about upcoming (online) meetups, events, and ways to deepen your cloud knowledge.     Newsletters Archive                     Sign up!      hbspt.forms.create({ portalId: &#34;732832&#34;, formId: &#34;c8c5f028-9f94-41a8-9f69-f8f1aaa34333&#34; });     </description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>/fr/contact-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/contact-us/</guid>
+      <description>Contact Us     Let&#39;s talk! We can help you on your journey with the cloud.
+Contact us using the form below and someone from our team will get back to you within the next business day.
+    hbspt.forms.create({ portalId: &#34;732832&#34;, formId: &#34;5ea8cd78-739b-4936-97b8-973ec0dc01ee&#34; });   1-514-447-3456 (Montreal) 1-855-652-5683 (toll-free) 1-514-312-5288 (fax)  info@cloudops.com    Our Offices  Montreal (Head Office) 200-423 rue Saint-Nicolas</description>
+    </item>
+    
+    <item>
+      <title>Delivering Cloud</title>
+      <link>/fr/delivering-cloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/delivering-cloud/</guid>
+      <description>Delivering Cloud CloudOps enables telecoms and managed service providers to deliver and monetize cloud and network service offerings with certified expertise, training, and CloudMC – an Edge Orchestration Platform.       Today’s telecom service providers are looking for new ways to grow revenue. Meanwhile, the enterprise service market has a growing need for integrated commercial offerings that include: edge computing, cloud native technologies, hybrid multi-cloud infrastructures, data sovereign storage solutions, SD-WAN, and more.</description>
+    </item>
+    
+    <item>
+      <title>Delivering Cloud Consulting</title>
+      <link>/fr/delivering-cloud-consulting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/delivering-cloud-consulting/</guid>
+      <description>Delivering Cloud Consulting    CloudOps helps empower telecoms and MSPs in their delivery and monetization of differentiated cloud and network service offerings.       A changing landscape Telecoms are only seeing modest growth prospects for their traditional lines of business. Where hosting customer workloads was once enough, today’s enterprise IT users want integrated commercial offerings that include: edge computing, cloud native technologies, hybrid multi-cloud infrastructures, data sovereign storage solutions, SD-WAN, and more.</description>
+    </item>
+    
+    <item>
+      <title>DevOps Monitoring Workshop</title>
+      <link>/fr/devops-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/devops-monitoring/</guid>
+      <description>Workshops Home  Next Workshop     DevOps Monitoring     In this workshop, we explore app and infrastructure monitoring tools (open source and proprietary), configurations, APM, altering and visualizing data with hands-on labs.
+Duration: 2 days
+$2500/attendee (minimum 6 attendees)
+ Prerequisites: Experience using Linux CLI and a general understanding of DevOps concepts
+Technical Requirements: Mac, Linux OS or Windows laptop with SSH client (putty, cygwin), web browser supporting HTML5</description>
+    </item>
+    
+    <item>
+      <title>DevOps Monitoring Workshop</title>
+      <link>/fr/resources/one-pagers/devops-monitoring-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/resources/one-pagers/devops-monitoring-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps Platform and Practices Assessment</title>
+      <link>/fr/devops-platform-practices-assessment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/devops-platform-practices-assessment/</guid>
+      <description>DevOps Platform and Practices Assessment      Whether your team already works in a DevOps manner or if you are just beginning the journey, CloudOps can help pave the way. We provide an objective report of the application portfolio, business impact, technical risks, and the path (and gaps) to DevOps best practices and cloud native development and delivery.      Who is it for?: Organizations evaluating cloud platforms DevOps teams looking to maximize efficiency Any organizations who run business critical applications, who care about speed to market and modernization of their applications, and looking to adopt DevOps        Understand the real issues Our assessment report provides suggested scope of any next steps.</description>
+    </item>
+    
+    <item>
+      <title>DevOps Platform and Practices Assessment</title>
+      <link>/fr/resources/one-pagers/devops-platform-practices-assessment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/resources/one-pagers/devops-platform-practices-assessment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps Transformation</title>
+      <link>/fr/resources/one-pagers/devops-transformation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/resources/one-pagers/devops-transformation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker and Kubernetes Workshop</title>
+      <link>/fr/infrastructure-as-code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/infrastructure-as-code/</guid>
+      <description>Workshops Home  Next Workshop     Infrastructure as Code     During this workshop you will learn:
+How Hashicorp Terraform by Hashicorp works as a cross platform, infrastructure tool enabling you to use the same tooling over multiple platforms for infrastructure automation; How Ansible can be used to manage remote application configurations and VM installations built on top of your Terraform infrastructure deployment.  Duration: 1 day</description>
+    </item>
+    
+    <item>
+      <title>Docker and Kubernetes Workshop</title>
+      <link>/fr/resources/one-pagers/docker-kubernetes-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/resources/one-pagers/docker-kubernetes-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker and Kubernetes Workshop Curriculum</title>
+      <link>/fr/resources/one-pagers/docker-kubernetes-workshop-curriculum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/resources/one-pagers/docker-kubernetes-workshop-curriculum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expert Solutions for Using the Cloud</title>
+      <link>/fr/using-cloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/using-cloud/</guid>
+      <description>Using Cloud   CloudOps helps you define your cloud goals and solve complex problems. We empower your team, regardless of where you are at in your journey and the cloud platforms you use.       Our team solves for the best ways to reach your business, cultural, and technical objectives in using the cloud. Along the way, we equip you with all the knowledge you need to operationalize your technology stack.</description>
+    </item>
+    
+    <item>
+      <title>Information request about workshops</title>
+      <link>/fr/workshops-information/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/workshops-information/</guid>
+      <description>Request information about our workshops     Our hands-on workshops will set you on the path to becoming a DevOps expert. Take them à la carte or as part of a wider DevOps transformation. CloudOps offers these online workshops privately to teams of six or more people.
+Our workshops can also be white labeled or re-sold.
+        Tell us what you need Request more information about how our workshops can help your team acquire the skills they need to succeed.</description>
+    </item>
+    
+    <item>
+      <title>Infrastructure as Code Workshop</title>
+      <link>/fr/resources/one-pagers/infrastucture-as-code-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/resources/one-pagers/infrastucture-as-code-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning and Kubernetes Workshop</title>
+      <link>/fr/kubernetes-machine-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/kubernetes-machine-learning/</guid>
+      <description>Workshops Home  Next Workshop     Kubernetes and Machine Learning     During this workshop you will learn how to run deployments of machine learning (ML) workflows on Kubernetes to make them simple, portable and scalable with open source tools.
+Duration: 2 days
+$4,000/attendee (minimum 6 attendees)
+ Prerequisites: CloudOps Docker and Kubernetes Workshop or good knowledge of these tools. Experience using Linux CLI and a general understanding of virtualization and container technology.</description>
+    </item>
+    
+    <item>
+      <title>Managed Services and Augmented Support</title>
+      <link>/fr/managed-services-augmented-support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/managed-services-augmented-support/</guid>
+      <description>Managed Services and Augmented Support   Cloud operations are complex. We&#39;re here to help.      We know you feel it—the pressure to transform your organization digitally, to release new features at a faster pace, to innovate. Software is eating the world and you need to set yourself up to bring software-based solutions to your industry.
+The problem? Building and running a DevOps-ready cloud operations team is hard.</description>
+    </item>
+    
+    <item>
+      <title>Microservices, Docker and Basic Kubernetes Workshop</title>
+      <link>/fr/microservices-docker-kubernetes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/microservices-docker-kubernetes/</guid>
+      <description>Workshops Home  Next Workshop     Microservices, Docker and Basic Kubernetes     CloudOps’ flagship workshop covers architecture principles of microservices, then gets in to the mechanics of container tooling – now a key model for application development.
+Our workshops are Linux-based. If you are interested in Docker and Kubernetes training on Windows, please let us know here.
+This workshop is available on Azure, GCP and AWS.</description>
+    </item>
+    
+    <item>
+      <title>Networking</title>
+      <link>/fr/networking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/networking/</guid>
+      <description>Networking      Networking is often the hardest part of cloud. There are numerous load-balancing, application delivery controller, and service mesh solutions in the market. Selecting and operating the right hardware and networking tools can be complex and time consuming. CloudOps can help you decide which ones are right for you.
+                           Let us help you!</description>
+    </item>
+    
+    <item>
+      <title>Newsletter Sign up</title>
+      <link>/fr/newsletter-signup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/newsletter-signup/</guid>
+      <description>Our Newsletter      Our monthly newsletter will keep you up to date with our upcoming events, latest content, and industry news.     Newsletters Archive May 2020
+    June 2020
+    July 2020
+         Sign up!      hbspt.forms.create({ portalId: &#34;732832&#34;, formId: &#34;d2ba554d-00f2-4320-82e4-f0b306815eec&#34; });     </description>
+    </item>
+    
+    <item>
+      <title>Nos experts</title>
+      <link>/fr/experts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/experts/</guid>
+      <description>Nos experts   Notre équipe travaille sans relâche pour développer, maintenir et livrer un contenu pratique et d’actualité sur une variété de sujets et d&#39;outils.       Nos experts    Michael Foster Architecte de solutions infonuagiques Michael est spécialisé dans les technologies du nuage natif, dont Docker et Kubernetes, ainsi que dans les outils de CI/CD et de surveillance. Administrateur certifié de Kubernetes, il a travaillé sur les pipelines de données et l&#39;optimisation des processus pour plusieurs organisations, autant pour des centres de recherche que pour des banques internationales.</description>
+    </item>
+    
+    <item>
+      <title>OpenShift Workshop</title>
+      <link>/fr/openshift/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/openshift/</guid>
+      <description>Workshops Home  Next Workshop     OpenShift     During this workshop you will learn how to install, administer, and use Red Hat OpenShift container platform to deploy your enterprise applications.
+Duration: 2 days
+$2500/attendee (minimum 6 attendees)
+ Prerequisites: Experience using Linux CLI and a general understanding of virtualization and container technology
+Technical Requirements: Mac, Linux OS or Windows laptop with SSH client (putty, cygwin), web browser supporting HTML5</description>
+    </item>
+    
+    <item>
+      <title>Partners</title>
+      <link>/fr/partners/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/partners/</guid>
+      <description>Our Partners   CloudOps is a cloud consulting, managed services, and software company focused on open source, cloud native platforms, networking and DevOps      Partners                                                             Memberships and Certifications                         Affiliated companies CloudOps has some special partnerships that we use to provide neighbouring and complementary cloud solutions.</description>
+    </item>
+    
+    <item>
+      <title>Pourquoi CloudOps</title>
+      <link>/fr/why-cloudops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/why-cloudops/</guid>
+      <description>Pourquoi CloudOps?         CloudOps aide les organisations à réussir dans le nuage   Lorsqu&#39;elles adoptent de nouvelles technologies infonuagiques, il est facile pour les organisations de se perdre dans un dédale alors qu’elles cherchent les bonnes solutions infonuagiques, essaient de perfectionner les équipes techniques, changent leur culture et définissent de nouvelles activités commerciales.  Sans que vous le réalisiez, votre équipe peut être distraite par ces nouveaux projets et ne pas livrer la valeur principale de votre entreprise.</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/fr/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/privacy-policy/</guid>
+      <description>Privacy Policy     Introduction, Definitions, Modifications and Acceptance Welcome to CloudOps. This Privacy Policy (the “Policy”) may cover several different situations, so please refer to the following definitions for clarification:
+“CloudOps” refers to CloudOps Inc., a duly incorporated company in the Province of Quebec, Canada. Where the present Policy refers to “CloudOps”, it may refer to CloudOps Inc. and / or its affiliates, subsidiaries, employees, officers, directors, subcontractors, agents, partners or representatives, depending on the context.</description>
+    </item>
+    
+    <item>
+      <title>Reading</title>
+      <link>/fr/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/resources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Secrets Management Workshop</title>
+      <link>/fr/secrets-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/secrets-management/</guid>
+      <description>Workshops Home  Next Workshop     Secrets Management     During this workshop you will learn:
+How to use Hashicorp Vault as a reliable tool for secrets management and data protection; Operational components and techniques for integrating Vault secrets into applications.  Duration: ½ day
+$1000/attendee (minimum 6 attendees)
+ Prerequisites: This workshop is ideal for Vault administrators, as well as developers writing applications using Vault secrets.</description>
+    </item>
+    
+    <item>
+      <title>Solutions</title>
+      <link>/fr/solutions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/solutions/</guid>
+      <description>Services et produits infonuagiques   Les technologies du nuage natif et les pratiques DevOps sont complexes. Il est temps de moderniser les applications existantes et développer de nouveaux modèles opérationnels. Nous vous aidons tout au long de votre voyage.      Nous travaillons en partenariat avec nos clients pour répondre aux exigences commerciales, culturelles et techniques. Nous sommes fiers d&#39;être agnostique en matière de plateformes et d’outils, mais nous avons des opinions en ce qui a trait à la création, la gestion et la dotation d’équipes qui peuvent prendre en charge des stratégies infonuagiques réussies.</description>
+    </item>
+    
+    <item>
+      <title>Transformations</title>
+      <link>/fr/transformations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/transformations/</guid>
+      <description>Transformations    Accelerate your transformation to unlock new business models with new technologies. We provide consulting, culture and skills training, and custom blueprints for change.       Whether you’re beginning a digital transformation for the first time or working hard to get it right, we understand the challenges that come with making such a complex set of changes.
+CloudOps supports you in a number of transformations: DevOps transformations to innovate at a faster pace, CloudOps transformations to unlock a cloud service provider business model, and DevNetOps transformations to leverage network-as-code.</description>
+    </item>
+    
+    <item>
+      <title>Workshop Calendar</title>
+      <link>/fr/workshops-calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/workshops-calendar/</guid>
+      <description>Calendar   Our workshops get your team up to speed on DevOps, and cloud native tooling, on any cloud in days—not months.      Workshops  Events   Upcoming Workshops   Docker and Kubernetes CloudOps’ flagship workshop covers architecture principles of microservices, then gets in to the mechanics of container tooling – now a key model for application development.
+Course details     July 14-16, 2020 Online   Sign Up     DevOps Monitoring We will explore app and infrastructure monitoring tools (open source and not), configurations, APM, altering and visualizing data with hands-on labs.</description>
+    </item>
+    
+    <item>
+      <title>Workshops for DevOps, cloud native, and tooling</title>
+      <link>/fr/workshops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/workshops/</guid>
+      <description>Upskill your team with CloudOps workshops   Our workshops get your team up to speed on DevOps, and cloud native tooling, on any cloud in days—not months.      Empower your team with our hands-on workshops     Who can benefit?  Developers Operators DevOps practicioners Technical desicion makers    Why attend?  Start using containers in development and production Deliver code faster, more efficiently Deepen your knowledge on specific tools Build technical skills with hands-on workshops Learn the business value of new methods Learn to navigate the complex cloud native ecosystem     Calendar       - Meet our experts -      Michael Foster Cloud Solution Architect      Samira Barouti Cloud Software Architect      Syed Ahmed Lead Cloud Architect     Learn more about our experts       DevOps Workshops  Microservices, Docker &amp; Basic Kubernetes 3 days CloudOps’ flagship workshop covers microservices architecture principles and the mechanics of container tooling; now a key model for application development.</description>
     </item>
     
     <item>
@@ -976,7 +1738,7 @@ Quels sont les outils et les bonnes pratiques pour créer, tester et livrer des 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/fr/about-us/</guid>
-      <description>À propos de CloudOps   CloudOps est une entreprise de consultation, de services gérés et de logiciels en infonuagique axée sur la source libre, les plateformes en nuage natif, la mise en réseau et le DevOps.        Historique Fondée en 2005 par Ian Rae afin de répondre aux besoins d&#39;infrastructure des organisations axées sur les logiciels, CloudOps a connu une croissance constante et organique, passant d&#39;une boutique de services gérés d’opérations à un leader des solutions infonuagiques, des mises en réseau sur le nuage et du DevOps.</description>
+      <description>À propos de CloudOps   CloudOps est une entreprise d&#39;infonuagique offrant des services conseils, des services gérés et des logiciels. Nous sommes axés sur la source libre, les plateformes en nuage natif, la mise en réseau et le DevOps.        Historique Fondée en 2005 par Ian Rae afin de répondre aux besoins d&#39;infrastructure des organisations axées sur les logiciels, CloudOps connaît depuis une croissance constante et organique.</description>
     </item>
     
   </channel>

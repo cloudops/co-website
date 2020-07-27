@@ -68,10 +68,12 @@ data:
 
 <p>If you’ll be at the Open Networking Summit this week, I’ll be giving a <a href="https://events.linuxfoundation.org/events/open-networking-summit-north-america-2019/features-and-add-ons/lf-networking-demos/">Linux Foundation Networking Demo</a> at the LFN Booth. This demo will show TF complementing service meshes, like Istio and Hashicorp’s Consul Connect. It will highlight TF’s cloud-agnostic network overlay implementation for Kubernetes, as well as compare its integration with service meshes in the context of handling both legacy and cloud native workloads.</p>
 
-<p>To learn more about Kubernetes, sign up for one of our hands-on <a href="https://www.cloudops.com/workshops/">Docker and Kubernetes workshops</a> with the option of using TF as the CNI.</p>
+<p>To learn more about Kubernetes, sign up for one of our hands-on <a href="/workshops/">Docker and Kubernetes workshops</a> with the option of using TF as the CNI.</p>
 
 <div class="row">
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
+        <a href="/workshops">
       <img src="/images/blog/cta/devops-workshop.webp">
+      </a>
     </div>
 </div>

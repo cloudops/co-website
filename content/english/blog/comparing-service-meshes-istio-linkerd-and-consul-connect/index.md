@@ -48,6 +48,8 @@ class_name: "blog post"
 <p>Istio, Linkerd, and Consul Connect all have their benefits that may or may not match your technology stack’s requirements. Istio is the most advanced service mesh available, but can be complex and difficult to manage. Linkerd offers a service mesh that is more straightforward but less flexible. Consul Connect offers integrations with other HashiCorp solutions, namely Consul and Vault. As the service mesh ecosystem continues to grow, we can expect to see more features and solutions become generally available in the future.</p>
 <div class="row">
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
+    <a href="/workshops">
       <img src="/images/blog/cta/devops-workshop.webp">
+    </a>
     </div>
 </div>
