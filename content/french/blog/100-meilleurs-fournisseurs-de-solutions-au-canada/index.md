@@ -4,11 +4,9 @@ lastmod: "2019-04-26"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "CDN-Top-Solution-Provider.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/CDN-Top-Solution-Provider.png" class="main-blog-image">
 
 <p>CloudOps est ravie de rejoindre les rangs des 100 meilleurs fournisseurs de solutions (infonuagiques) au Canada pour le CDN (Channel Daily News), dont IT World Canada est propriétaire. CloudOps est au 91e rang des fournisseurs de solution au Canada et l’un des huit<a href="https://channeldailynews.com/news/newcomers-to-the-cdn-top-100-list-crafting-integrated-client-focused-solutions/66787"> nouveaux venus</a> sur la liste.</p>
 

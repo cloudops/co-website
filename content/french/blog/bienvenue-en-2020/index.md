@@ -4,11 +4,9 @@ lastmod: "2020-02-12"
 author: "Ian Rae"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "MagicDove.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/MagicDove.jpg" class="main-blog-image">
 
 <blockquote class="wp-block-quote"><p><strong>« Toute technologie suffisamment avancée est indiscernable de la magie »</strong></p><p><cite><a href="https://fr.wikipedia.org/wiki/Trois_lois_de_Clarke">Arthur C. Clarke</a></cite></p></blockquote>
 
