@@ -4,11 +4,9 @@ lastmod: "2015-05-22"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "Mirantis-Openstack.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/Mirantis-Openstack.png" class="main-blog-image">
 
 <p>Citrix a fait des vagues cette semaine en annonçant que la compagnie a certifié sa solution NetScaler sur la plateforme Mirantis OpenStack. Comme on le sait, Citrix est un des fondateurs et supporteurs de Apache CloudStack, la plateforme d’orchestration <i>open source </i>derrière sa solution commerciale CloudPlatform, et OpenStack représente l’autre alternative pour la construction de nuage <i>open source</i>. OpenStack, composé d’une collection de divers projets et supporté par multiples vendeurs informatique, est généralement plus connu et testé parmi les utilisateurs et fournisseurs de l’infonuagique.</p>
 

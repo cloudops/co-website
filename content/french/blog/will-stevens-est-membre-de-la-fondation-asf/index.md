@@ -4,11 +4,9 @@ lastmod: "2019-04-15"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "ApacheSoftwareFoundation.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/ApacheSoftwareFoundation.png" class="main-blog-image">
 
 <p>Will Stevens, Directeur principal de la technologie chez CloudOps, est récemment devenu membre de la fondation ASF (<a href="https://www.apache.org/">Apache Software Foundation</a>). Il continuera d’encourager la communauté de source libre et de collaborer aux projets de l’ASF.</p>
 

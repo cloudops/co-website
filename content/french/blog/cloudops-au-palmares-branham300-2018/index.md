@@ -4,11 +4,9 @@ lastmod: "2018-06-28"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "branham300.png"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/branham300.png" class="main-blog-image">
 
 <p>27 juin 2018 – CloudOps est fière de se retrouver au 197e rang du palmarès Branham300 2018 des 250 meilleures entreprises, en hausse par rapport à l’année dernière. Le palmarès est basé sur le revenu des entreprises technologiques publiques et privées les plus profitables au Canada. Chacune des 250 entreprises a démontré une croissance significative des revenus, chaque année depuis 2009, et ensemble, elles représentent plus de la moitié du revenu du secteur des TIC (technologies de l’information et des communications).</p>
 

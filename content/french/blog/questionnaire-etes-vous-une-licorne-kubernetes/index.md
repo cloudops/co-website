@@ -4,11 +4,9 @@ lastmod: "2019-08-23"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "Quiz.jpg"
 class_name: "blog post"
 ---
-
-<img src="/images/blog/post/Quiz.jpg" class="main-blog-image">
 
 <p>Testez vos connaissances de Kubernetes en répondant à ce questionnaire et découvrez si oui ou non, vous êtes une «&nbsp;perle rare&nbsp;» !</p>
 
