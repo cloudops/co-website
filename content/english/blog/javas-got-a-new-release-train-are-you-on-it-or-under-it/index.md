@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "Java-train-1.png"
 class_name: "blog post"
+aliases:
+    - /2018/04/javas-got-a-new-release-train-are-you-on-it-or-under-it/
+    - /javas-got-a-new-release-train-are-you-on-it-or-under-it/
 ---
 
 <p>Oracle is taking a more contemporary approach to releasing new versions of the Java platform with the recent release of <a href="https://www.oracle.com/corporate/pressrelease/Java-10-032018.html" target="_blank">Java 10</a>. Rather than letting feature readiness drive the timing of new releases, Oracle will employ a train release model. New versions will be released every six months – regardless of content. Sun Microsystems, and now Oracle, have traditionally released new versions every two to four years. With this new release train model, the Java platform will upgrade four to six times more often. Changes in Java are accelerating, and organizations need to understand the innovation in order to keep up with it.</p>

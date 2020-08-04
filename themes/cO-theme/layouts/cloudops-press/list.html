@@ -31,7 +31,7 @@
                   <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
                     <div class="card-deck">
                       <!-- Ranges through content/posts/*.md -->
-                      {{ range where .Pages "Section" "blog" }}
+                      <!--{{ range where $.Site.RegularPages "Section" "blog" }}
                      <div class="card mx-auto">
                         <a href="{{.Permalink}}">
                           <div class="card-body">
@@ -41,13 +41,13 @@
                             <img src="{{  $img.RelPermalink }}" />
                             {{ end }}
                             {{ end }}
-                            <h3 class="card-title">{{.Title}}</h3>
+                            <h3 class="card-title">{{.Title}}123123123123123</h3>
                             <p class="card-text">{{.Lastmod.Format "January 2, 2006"}}<br>{{ .Param "author" }}</p>
                           </div>
                           <div class="corner-triangle"></div>
                         </a>
                       </div>
-                      {{ end }}
+                      {{ end }}-->
                     </div>
                   </div>
                 </div>
@@ -109,7 +109,7 @@
                               <img src="{{  $img.RelPermalink }}" />
                               {{ end }}
                               {{ end }}
-                              <h3 class="card-title">{{.Title}}</h3>
+                              <h3 class="card-title">{{.Title}}123123</h3>
                               <p class="card-text">{{.Lastmod.Format "January 2, 2006"}}<br>{{ .Param "author" }}</p>
                             </div>
                             <div class="corner-triangle"></div>

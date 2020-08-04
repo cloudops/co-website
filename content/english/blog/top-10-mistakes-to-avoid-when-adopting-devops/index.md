@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "WrongWay.png"
 class_name: "blog post"
+aliases:
+  - /2020/01/top-10-mistakes-to-avoid-when-adopting-devops/
+  - /top-10-mistakes-to-avoid-when-adopting-devops/
 ---
 
 <p>A CIO decides it’s time for their organization to adopt DevOps. They hire a team of digital unicorns, adopt an array of cutting-edge tools, and are disappointed when they don’t see results. All the ideas, projects, products, and teams being introduced are held back by increasingly outdated cultural norms, processes, infrastructure, and skills. Nothing is aligned with the new operational models and technologies being introduced, and the digital unicorns are locked behind a dam along with their potential. The business is unable to release software with the agility and velocity required to innovate and goes under.</p>

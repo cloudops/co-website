@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html><head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   
+   
+   
+   
+   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.ffc82ac39d7e27734f941f1d1f55d0ee976305004ef32340c769aabc72e1bf7f.css" integrity="sha256-/8gqw51&#43;J3NPlB8dH1XQ7pdjBQBO8yNAx2mqvHLhv38=" crossorigin="anonymous" media="screen" />
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="icon no-follow" href="/images/favicon.ico" type="image/x-icon">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,600i,700|Open+Sans:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8b2e2ddb4.js" crossorigin="anonymous"></script>
+
+
+    
+        <title>CloudOps - Migration vers le nuage</title>
+    
+</head><body>
+            
+            
+<div class="navbar-card" id="main-nav">
+  <nav class="navbar navbar-expand-xl">
+    
+    <a class="navbar-brand mr-auto" href="/">
+      <img src="/images/CO-logo-horizontal.svg" width="230px" alt="CloudOps logo">
+    </a>
+    <a class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto list-group list-group-flush">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="/solutions" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Solutions</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-12 nav-main-section">
+                <a href="/solutions"><button>Solutions Overview</button></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-0 solutions-dropdown-items-group">
+                <a href="/using-cloud"><h3 class="dropdown-item list-group-item list-group-item-action">Using Cloud</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/cloud-native-consulting">Cloud Native Consulting</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/cloud-migration">Cloud Migration</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/managed-services-augmented-support">Managed Services <br> Augmented Support</a>
+
+
+
+              </div>
+              <div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-1 solutions-dropdown-items-group">
+                <a href="/delivering-cloud"><h3 class="dropdown-item list-group-item list-group-item-action">Delivering Cloud</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/delivering-cloud-consulting">Consulting</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/managed-services-augmented-support">Managed Services <br> Augmented Support</a>
+              </div>
+
+              <div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-1 solutions-dropdown-items-group">
+                <a href="/transformations"><h3 class="dropdown-item list-group-item list-group-item-action">Transformations</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#devops-transformation">DevOps Transformation</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#cloudops-transformation">CloudOps Transformation</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#devnetops">DevNetOps Transformation</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+              </div>
+              <div class="col-xl-9 nav-cta horizontal-nav-cta">
+                  <a href="/devops-platform-practices-assessment" target="_blank"><h2>Not sure where to start?</h2>
+                <p>Your journey with CloudOps begins with a DevOps Platform and Practices Assessment to get an objective status report and recommendations</p><div class="triangle-right">
+                    <div class="inner-triangle"></div></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown" id="training-dropdown-menu">
+          <a class="nav-link" href="/training" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row solutions-dropdown-row">
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops">
+                <img src="/images/nav-workshops.svg" height="70px">
+                <h3>Workshops</h3></a>
+              </div>
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/experts">
+                <img src="/images/nav-experts.svg" height="70px">
+                <h3>Our Experts</h3></a>
+              </div>
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/calendar">
+                <img src="/images/nav-calendar.svg" height="70px">
+                <h3>Calendar</h3></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+              </div>
+              <div class="col-xl-9 nav-cta horizontal-nav-cta">
+                <a href="/blog/quiz-are-you-a-kubernetes-unicorn/" target="_blank">
+                <h2>Are you a Kubernetes unicorn?</h2>
+                <p>Take our quiz to find out</p>
+              </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown reading-dropdown">
+          <a class="nav-link" href="/reading" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            data-reference="parent" data-offset="50%,20" aria-haspopup="true" aria-expanded="false">Reading</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="https://cdn2.hubspot.net/hubfs/732832/Gated%20Content/WP_Securing%20Your%20DevOps%20Platform%20Enterprise_2019.pdf" target="_blank">
+                <h2>Secure your DevOps platform</h2>
+                <p>White paper highlighting how to handle security challenges faced by enterprises</p>
+                </a>
+              </div>
+              <div class="col-xl-9">
+                <div class="row solutions-dropdown-row">
+                  <div class="col-xl-2 offset-xl-1 col-lg-2 offset-lg-1">
+                      <a href="/blog"><img src="/images/nav-blog.svg" height="70px"></a>
+                  </div>
+                  <div class="col-xl-3 col-lg-3">
+                      <a href="/blog"><h3 class="dropdown-item list-group-item list-group-item-action">Blog</h3></a>
+                      <a class="dropdown-item list-group-item list-group-item-action" href="/blog">Blog Posts</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/blog#community-news">Community News</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/blog#cloudops-press">CloudOps Press</a>
+                  </div>
+                  <div class="col-xl-2 offset-xl-0 col-lg-2">
+                      <a href="/resources"><img src="/images/nav-resources.svg" height="70px"></a>
+                  </div>
+                  <div class="col-xl-3 col-lg-3">
+                    <a href="/resources"><h3 class="dropdown-item list-group-item list-group-item-action">Resources</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/white-papers/">White Papers</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/case-studies/">Case Studies</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/infographics/">Infographics</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/one-pagers/">One Pagers</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </li>
+        <li class="nav-item dropdown company-dropdown">
+          <a class="nav-link" href="/company" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            data-reference="parent" data-offset="50%,20" aria-haspopup="true" aria-expanded="false">Company</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="/blog/cloudops-manifesto/" target="_blank">
+                <h2>The CloudOps Manifesto</h2>
+                <p>11 key success factors we have learned from our adventures in the cloud</p></a>
+              </div>
+              <div class="col-xl-6 nav-main-section">
+                <a href="/why-cloudops"><button>Why choose CloudOps</button></a>
+                <div class="row sub-nav-items">
+                  <div class="col-xl-3 offset-xl-2 col-lg-3 offset-lg-3">
+                    <img src="/images/description-logo.svg" width="70px">
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/about-us"><h3>About Us</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/partners"><h3>Partners</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/careers"><h3>Careers</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/calendar#events"><h3>Events Calendar</h3></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="blog/staff-augmentation-vs-project-based-services-for-devops-and-cloud-projects/">
+                <h2>Accelerate your software release cycles</h2>
+                <p>Comparing staff augmentation to project-based services for DevOps and cloud projects</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="/contact-us"><button class="btn" type="submit">Contact</button></a>
+        </li>
+ 
+        
+          <li id="multi-language-menu" class="nav-item list-group list-group-flush">
+            <a class="language nav-link language-menu list-group-item list-group-item-action" href="/fr/cloud-migration/">FR</a>
+
+            
+              <p class="language-menu">|</p>
+              <a class="language nav-link language-menu list-group-item list-group-item-action" href="/cloud-migration/">EN</a>
+            
+
+          </li>
+        
+
+      </ul>
+    </div>
+
+  </nav>
+
+  
+  <div class="responsive-language-menu">
+    <a href="/fr/cloud-migration/">FR</a>
+
+    
+      <a href="/cloud-migration/">EN</a>
+    
+
+  </div>
+
+  <style>
+    @media (max-width: 550px) {
+      #multi-language-menu {
+        display: none;
+      }
+
+      .responsive-language-menu { 
+        display: flex;
+      }
+    }
+
+    @media (min-width: 550px) {
+      .responsive-language-menu {
+        display: none;
+      }
+    }
+
+    .responsive-language-menu {
+      height: 85px;
+      align-items: center;
+    }
+
+    .responsive-language-menu a {
+      border-right: 2px solid #aaa;
+      padding: 0 10px;
+      line-height: 15px;
+    }
+
+    .responsive-language-menu a:last-child {
+      border-right: 0;
+    }
+
+    #main-nav {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    #main-nav > .navbar {
+      flex-grow: 1;
+    }
+
+    #main-nav > .responsive-language-menu {
+      justify-self: flex-end;
+    }
+  </style>
+
+
+</div><div class="container-fluid main-content"><div class="cloud-migration">
+
+    <!-- hero -->
+
+    <div class="hero jumbotron jumbotron-fluid">
+        <div class="container-fluid">
+            <div class="row">
+                <div
+                    class="col-xl-5 offset-xl-2 col-lg-6 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-xs-12">
+                    <h1 class="display-4">Migration vers le nuage</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div
+                    class="col-xl-5 offset-xl-2 col-lg-5 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-xs-12">
+                    <h2>
+
+                        Migrating workloads to the cloud doesn’t have to be overwhelming. CloudOps will partner with you
+
+                        to plan your move step-by-step, execute it with care, and set you up for operational success.
+                    </h2>
+                </div>
+                <div
+                    class="hero-image-container col-xl-2 offset-xl-0 col-lg-2 offset-lg-0 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-xs-12">
+                    <img src="/images/cloud-migration/migration-landing.svg" width="480px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- brand promises -->
+<div class="brand-promises-card">
+        <div class="row no-gutters">
+            <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-xs-12">
+                        <h5>You're ready to move to the cloud. You understand the business advantages that come with a cloud operational model. The wider market
+                            does too. In fact, this year some
+                            <a href="https://www.forbes.com/sites/louiscolumbus/2018/01/07/83-of-enterprise-workloads-will-be-in-the-cloud-by-2020/#349520636261"
+                                target="_blank">83% of enterprise workloads</a>
+                            will already be in the cloud.
+                </h5>
+            </div>
+        </div>
+    </div>    
+
+    <!-- case studies -->
+    <div class="case-studies-card">
+        <div class="row with-bottom-line">
+            <div class="col-xs-12">
+                <h2>Pourquoi le nuage?</h2>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <img src="/images/cloud-migration/spiraling-costs.svg">
+                        <h6>Limitez la montée en flèche des coûts</h6>
+                        <p>Gone is the need to predict resource requirements 6, 12, or 36 months down the line. Scale
+                            with business activity while stabilizing infrastructure costs.</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <img src="/images/cloud-migration/agility.svg">
+                        <h6>Augmentez l'agilité</h6>
+                        <p>The cloud frees you to try new things quickly, take small steps, and iterate. Increase speed
+                            to market by taking full advantage of cloud infrastructure and automation.</p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <img src="/images/cloud-migration/infrastructure.svg">
+                        <h6>Transformez l'infrastructure héritée</h6>
+                        <p>Become a digital organization. Migrate existing applications to the cloud using right-sized
+                            and interoperable components to minimize waste.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row with-bottom-line challenges-card">
+            <div class="col-xs-12">
+                <h2>The challenge of getting it right the first time</h2>
+                <p>The benefits of using the cloud are clear. Yet most cloud projects fail to meet expectations. You’re
+                    looking for a trusted partner who can help you navigate the challenges that come with migrating
+                    workloads to the cloud.</p>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 icons-container">
+                                <img class="icons" src="/images/cloud-migration/expertise.svg">
+                            </div>
+                            <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                                <h6>Lack of expertise</h6>
+                                <p>You haven’t done this before and lack the skills, knowledge, or culture required</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 icons-container">
+                                <img class="icons" src="/images/cloud-migration/stakes.svg">
+                            </div>
+                            <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                                <h6>High stakes</h6>
+                                <p>You have deadlines to hit for digital transformation and need to get this right</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 icons-container">
+                                <img class="icons" src="/images/cloud-migration/security.svg">
+                            </div>
+                            <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                                <h6>Security concerns</h6>
+                                <p>Cloud security can be a barrier to adoption and a severe liability if done wrong</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 icons-container">
+                                <img class="icons" src="/images/cloud-migration/cloud.svg">
+                            </div>
+                            <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                                <h6>Which cloud?</h6>
+                                <p>AWS, GCP, Azure, regional, edge, private, hybrid, and multi-cloud. Which do you
+                                    choose?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 icons-container">
+                                <img class="icons" src="/images/cloud-migration/applications.svg">
+                            </div>
+                            <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                                <h6>Which applications?</h6>
+                                <p>You have many workloads to move with applications that may or may not be cloud ready
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="row">
+                            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-12 icons-container">
+                                <img class="icons" src="/images/cloud-migration/requirements.svg">
+                            </div>
+                            <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-12">
+                                <h6>Many requirements</h6>
+                                <p>You need to hit governance, resilience, performance, cost, and operational
+                                    requirements
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row without-bottom-line">
+            <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 col-sm-12 col-xs-12">
+                <h2>You need a trusted partner</h2>
+                <p>Over 15 years of learning and solving cloud problems, CloudOps has built the expertise needed to
+                    guide you in which workloads should and shouldn’t be moved into the cloud.</p>
+                <p>The sad truth is that most lift and shift projects are likely to fail. Without a plan to refactor and
+                    re-platform applications to take advantage of the cloud, you’re headed for ballooning costs and
+                    stability issues—the opposite of what you’ve signed up for.</p>
+                <p>Our cloud migration team makes it easy for you to succeed. We look for patterns in your application
+                    and architecture that can easily be made cloud native. That means you don’t have to rip out your
+                    entire IT environment to get there. Instead, you will get the best migration strategy for your
+                    business.</p>
+                <p>Once we have a migration plan, we will work with your team to execute on it safely, moving your
+                    workloads to the right cloud with minimal business disruption. Not only do we get you in the cloud,
+                    we set you up for long-term success with our workshops, knowledge transfer, and ongoing support.
+                    This is in line with our build, operate, transfer, and support model for customer engagements.</p>
+
+                <div class="bot-img">
+                    <img class="image-for-desktop" src="/images/B-O-T-horizontal.svg" height="200px">
+                    <img class="image-for-mobile" src="/images/B-O-T-vertical.svg" width="200px">
+                </div>
+
+                <p>CloudOps prides itself on being cloud agnostic but opinionated. We will always steer you towards
+                    solutions that maximize your freedom, flexibility, and long-term operational success, allowing you
+                    to own your destiny in the cloud™.</p>
+                <p>Working with us, you will have a trusted partner on your side who sets you up for long-term success
+                    in the cloud. We will help you succeed not just in your first deployment but in the long game,
+                    enabling you to iterate and evolve your application platform over time.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact us -->
+    <div class="contact-us-card">
+        <div class="row">
+            <div
+                class="col-xl-3 offset-xl-2 col-lg-3 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-xs-12">
+                <h2>We're here to help. Contact us to start the conversation.</h2>
+                <p class="under-title">CloudOps solutions begin with an assessment that considers your unique business, technical, and
+                    cultural needs. Contact us using the form below and a we will get back to you
+                    within the next business day.</p>
+            </div>
+            <div
+                class="col-xl-5 offset-xl-1 col-lg-6 offset-lg-1 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-xs-12 general-contact-form">
+<!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+        portalId: "732832",
+        formId: "9c288580-98dd-4bd9-ba1e-5befaf83069a"
+});
+</script>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact us -->
+    <div class="contact-us-card general-stylings-more-content">
+        <div class="row">
+            <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-cards">
+                <div class="card-deck">
+                    <div class="card">
+                        <a
+                            href="https://cdn2.hubspot.net/hubfs/732832/CloudOps%20White%20Paper%20-%20A%20PreFlight%20Checklist%20for%20Cloud%20Migration.pdf">
+                            <div class="card-body">
+                                <h3 class="card-title">A checklist for your cloud migration</h3>
+                                <p class="card-text">Download the white paper to get a step by step guide to a successful migration strategy.</p>
+                            </div>
+                            <div class="corner-triangle"></div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a
+                            href="/blog/the-cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration">
+                            <div class="card-body">
+                                <h3 class="card-title"> Accelerated value delivery</h3>
+                                <p class="card-text">Read more on how to maximize value through our unique delivery model.</p>
+                                <div class="corner-triangle"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="https://cdn2.hubspot.net/hubfs/732832/Cloud-Ops_Cloud-Migration_v3.pdf">
+                        <div class="card-body">
+                            <h3 class="card-title">Cloud migration one-pager</h3>
+                            <p class="card-text">
+                                Everything you need to know about how our services can help get your cloud journey started.
+                                <div class="corner-triangle"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="/contact-us">
+                        <div class="card-body">
+                            <h3 class="card-title">Networking is the hardest part</h3>
+                            <p class="card-text">Contact us to learn more about our hardware and software-defined networking solutions.</p>
+                            <div class="corner-triangle"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+        </div><div class="footer">
+    <div class="row no-gutters logo">
+        <div class="col-sm-12">
+            <a href="/"><img class="cloudops-logo" src="/images/cO-logo-horizontal.png"
+                    height="45px" width="auto"></a>
+        </div>
+    </div>
+
+    <div class="row no-gutters footer-content">
+        <div class="col-xl-3 offset-xl-2 col-lg-3 offset-lg-0 col-md-12">
+
+            <a href="https://twitter.com/CloudOps_" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/cloudops" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/Cloud0ps/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <h5>Newsletter Signup</h5>
+            <div class="newsletter-form">
+                    <div class="newsletter-form">
+
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "732832",
+	formId: "25575fb9-f01b-43a6-b9cd-2c154efad9f4"
+});
+</script>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-12 col-sm-12 footer-nav">
+            <h6>Services</h6>
+            <ul>
+                <li><a href="/cloud-native-consulting">Cloud Native Consulting</a></li>
+                <li><a href="/transformations">Transformations</a></li>
+                <li><a href="/managed-services-augmented-support">Support</a></li>
+                <li><a href="/delivering-cloud">Delivering Cloud</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-12 footer-nav">
+            <h6>Learning</h6>
+            <ul>
+                <li><a href="/workshops">Workshops</a></li>
+                <li><a href="/blog/blog-posts">Blog</a></li>
+                <li><a href="/resources/white-papers">White Papers</a></li>
+                <li><a href="/resources/case-studies">Case Studies</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-12 footer-nav">
+            <h6>Company</h6>
+            <ul>
+                <li><a href="/about-us">About Us</a></li>
+                <li><a href="/careers">Careers</a></li>
+                <li><a href="/partners">Partners</a></li>
+                <li><a href="/why-cloudops">Why Cloudops</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row no-gutters copyright">
+        <div class="col-sm-12">
+            <p>&copy; CloudOps. Tous droits réservés. // <a href="/privacy-policy">Privacy Policy</a></p>
+        </div>
+    </div>
+</div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
+        <script src="/js/main.js"></script>
+
+        </body>
+</html>

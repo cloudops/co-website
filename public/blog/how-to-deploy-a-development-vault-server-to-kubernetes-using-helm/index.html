@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html><head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   
+   
+   
+   
+   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.ffc82ac39d7e27734f941f1d1f55d0ee976305004ef32340c769aabc72e1bf7f.css" integrity="sha256-/8gqw51&#43;J3NPlB8dH1XQ7pdjBQBO8yNAx2mqvHLhv38=" crossorigin="anonymous" media="screen" />
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="icon no-follow" href="/images/favicon.ico" type="image/x-icon">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,600i,700|Open+Sans:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8b2e2ddb4.js" crossorigin="anonymous"></script>
+
+
+    
+        <title>CloudOps - How to Generate and Use Dynamic Secrets for AWS IAM with Vault using Kubernetes &amp; Helm</title>
+    
+</head><body>
+            
+            
+<div class="navbar-card" id="main-nav">
+  <nav class="navbar navbar-expand-xl">
+    
+    <a class="navbar-brand mr-auto" href="/">
+      <img src="/images/CO-logo-horizontal.svg" width="230px" alt="CloudOps logo">
+    </a>
+    <a class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto list-group list-group-flush">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="/solutions" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Solutions</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-12 nav-main-section">
+                <a href="/solutions"><button>Solutions Overview</button></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-0 solutions-dropdown-items-group">
+                <a href="/using-cloud"><h3 class="dropdown-item list-group-item list-group-item-action">Using Cloud</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/cloud-native-consulting">Cloud Native Consulting</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/cloud-migration">Cloud Migration</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/managed-services-augmented-support">Managed Services <br> Augmented Support</a>
+
+
+
+              </div>
+              <div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-1 solutions-dropdown-items-group">
+                <a href="/delivering-cloud"><h3 class="dropdown-item list-group-item list-group-item-action">Delivering Cloud</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/delivering-cloud-consulting">Consulting</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/managed-services-augmented-support">Managed Services <br> Augmented Support</a>
+              </div>
+
+              <div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-1 solutions-dropdown-items-group">
+                <a href="/transformations"><h3 class="dropdown-item list-group-item list-group-item-action">Transformations</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#devops-transformation">DevOps Transformation</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#cloudops-transformation">CloudOps Transformation</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#devnetops">DevNetOps Transformation</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+              </div>
+              <div class="col-xl-9 nav-cta horizontal-nav-cta">
+                  <a href="/devops-platform-practices-assessment" target="_blank"><h2>Not sure where to start?</h2>
+                <p>Your journey with CloudOps begins with a DevOps Platform and Practices Assessment to get an objective status report and recommendations</p><div class="triangle-right">
+                    <div class="inner-triangle"></div></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown" id="training-dropdown-menu">
+          <a class="nav-link" href="/training" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row solutions-dropdown-row">
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops">
+                <img src="/images/nav-workshops.svg" height="70px">
+                <h3>Workshops</h3></a>
+              </div>
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/experts">
+                <img src="/images/nav-experts.svg" height="70px">
+                <h3>Our Experts</h3></a>
+              </div>
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/calendar">
+                <img src="/images/nav-calendar.svg" height="70px">
+                <h3>Calendar</h3></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+              </div>
+              <div class="col-xl-9 nav-cta horizontal-nav-cta">
+                <a href="/blog/quiz-are-you-a-kubernetes-unicorn/" target="_blank">
+                <h2>Are you a Kubernetes unicorn?</h2>
+                <p>Take our quiz to find out</p>
+              </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown reading-dropdown">
+          <a class="nav-link" href="/reading" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            data-reference="parent" data-offset="50%,20" aria-haspopup="true" aria-expanded="false">Reading</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="https://cdn2.hubspot.net/hubfs/732832/Gated%20Content/WP_Securing%20Your%20DevOps%20Platform%20Enterprise_2019.pdf" target="_blank">
+                <h2>Secure your DevOps platform</h2>
+                <p>White paper highlighting how to handle security challenges faced by enterprises</p>
+                </a>
+              </div>
+              <div class="col-xl-9">
+                <div class="row solutions-dropdown-row">
+                  <div class="col-xl-2 offset-xl-1 col-lg-2 offset-lg-1">
+                      <a href="/blog"><img src="/images/nav-blog.svg" height="70px"></a>
+                  </div>
+                  <div class="col-xl-3 col-lg-3">
+                      <a href="/blog"><h3 class="dropdown-item list-group-item list-group-item-action">Blog</h3></a>
+                      <a class="dropdown-item list-group-item list-group-item-action" href="/blog">Blog Posts</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/blog#community-news">Community News</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/blog#cloudops-press">CloudOps Press</a>
+                  </div>
+                  <div class="col-xl-2 offset-xl-0 col-lg-2">
+                      <a href="/resources"><img src="/images/nav-resources.svg" height="70px"></a>
+                  </div>
+                  <div class="col-xl-3 col-lg-3">
+                    <a href="/resources"><h3 class="dropdown-item list-group-item list-group-item-action">Resources</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/white-papers/">White Papers</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/case-studies/">Case Studies</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/infographics/">Infographics</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/one-pagers/">One Pagers</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </li>
+        <li class="nav-item dropdown company-dropdown">
+          <a class="nav-link" href="/company" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            data-reference="parent" data-offset="50%,20" aria-haspopup="true" aria-expanded="false">Company</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="/blog/cloudops-manifesto/" target="_blank">
+                <h2>The CloudOps Manifesto</h2>
+                <p>11 key success factors we have learned from our adventures in the cloud</p></a>
+              </div>
+              <div class="col-xl-6 nav-main-section">
+                <a href="/why-cloudops"><button>Why choose CloudOps</button></a>
+                <div class="row sub-nav-items">
+                  <div class="col-xl-3 offset-xl-2 col-lg-3 offset-lg-3">
+                    <img src="/images/description-logo.svg" width="70px">
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/about-us"><h3>About Us</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/partners"><h3>Partners</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/careers"><h3>Careers</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/calendar#events"><h3>Events Calendar</h3></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="blog/staff-augmentation-vs-project-based-services-for-devops-and-cloud-projects/">
+                <h2>Accelerate your software release cycles</h2>
+                <p>Comparing staff augmentation to project-based services for DevOps and cloud projects</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="/contact-us"><button class="btn" type="submit">Contact</button></a>
+        </li>
+ 
+        
+
+      </ul>
+    </div>
+
+  </nav>
+
+  
+
+</div><div class="container-fluid main-content">
+<main class="post">
+    <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
+            <article>
+                <header>
+                    <h1>How to Generate and Use Dynamic Secrets for AWS IAM with Vault using Kubernetes &amp; Helm</h1>
+                    <div> March 20, 2018 / CloudOps </div>
+                </header>
+                
+                
+                
+                <img src="/blog/how-to-deploy-a-development-vault-server-to-kubernetes-using-helm/vault_hu0833aa2ee821fa657604fd5b28db82c1_36996_400x0_resize_q75_box.jpg" />
+                
+                
+                <h2>Your first step to securely store, access, and deploy sensitive application information</h2>
+<p>In today’s API and Cloud-platform driven world, we operators, developers, and architects are presented with the critical challenge of managing application secrets, encryption, and access to any application and infrastructure in the Cloud. Securing and rotating secrets regularly and properly, both in the Cloud and on-premise, can pose a significant challenge. However, it’s essential as your DevOps team embraces Infrastructure as Code.</p>
+<p>In this blog post, we will create AWS Identity and Access Management (IAM) keys dynamically with a development Vault server deployed to <a href="https://www.cloudops.com/2018/01/lost-at-sea-navigating-the-complexities-of-kubernetes/" target="_blank">Kubernetes</a> with Helm.</p>
+<p>Secrets are sensitive application configuration information. They include things such as AWS API keys, database passwords, and SSL and SSH private keys. In contrast to static secrets, which are defined ahead of time and are shared, dynamic secrets are generated on demand and are unique to the client. Because they don’t exist until they are read, dynamic secrets don’t have the risk of being stolen and are much more secure. Vault associates each dynamic secret with a lease, and automatically destroys the credentials of the secret when the lease expires. HashiCorp Vault empowers developers and operators to securely store, access, and deploy sensitive information to applications and infrastructure by employing a centralized workflow that keeps application secrets and data secure by encrypting data in-flight and at rest.</p>
+<p>Vault associates each dynamic secret with a lease. When the lease expires, the credentials of the secret are automatically destroyed. Because they don’t exist until they are read, dynamic secrets have no risk of being stolen. Any dynamically-generated secrets are associated with leases, and Vault will automatically revoke these secrets after the lease period ends. The dynamic generation of unique client credentials allows us to create a moving target for attackers and minimize the risk of exposing credentials, while making it easier to do forensics, periodic rotation, or revocation.</p>
+<p><strong>Secrets Sprawl</strong> – HashiCorp Vault puts all your secrets in one place. It removes the need to put hard coded credentials into source code. More often than not, these hard coded credentials end up littered throughout configuration files and configuration management tools, and stored in plaintext in version control, wikis, and shared volumes making it difficult to pinpoint potential leaks in your infrastructure. Vault provides a secure place to store these credentials, and ensures that they are encrypted, and that access is audit logged and exposed only to authorized clients.</p>
+<p><strong>Secrets Rotation</strong> – Vault allows you to no longer view the sensitive information in your multi-cloud environment as static. The creation, rotation, and encryption of secrets is automated into your CI/CD pipeline. As secrets are rotated on a frequent basis, any hacker who gains access to your secrets one week will lose access the following week.</p>
+<p><strong>Access Revocation</strong> – Access control policies also provide strict control over who can access what secrets. Vault builds revocation mechanisms into their dynamic secrets. They can therefore be revoked immediately after use, which minimizes the amount of time that the secret ever existed. Vault makes dynamic secrets more secure, and allows them to be deployed on multiple cloud environments.</p>
+<p><strong>Portable Deployments</strong> – The deployment of dynamic secrets has traditionally been limited to the hyperscale cloud provider. Vault enables secrets to be ported over private and public clouds, as well as be supported on all sorts of servers and databases. Some examples of other secrets engines it supports include: Databases (PostgreSQL, MySQL, MSSQL, Oracle, etc.), NoSQL (Cassandra, MongoDB, etc.), Messaging Queues (RabbitMQ, etc.), Cloud Providers, SSH, and PKI.</p>
+<p>Vault allows you to have the best of both worlds, and have dynamic secrets that you can transport over multiple environments. It does this by storing your secrets in a HashiCorp system that supports multi-cloud deployments.</p>
+<h2>Use Case: An ex-employee, hacker, or thief with API access obtains secrets via an application with API credentials</h2>
+<p>Many companies store their secrets in environmental variables or a config file (how the AWS API or CLI works out-of-the-box), or hard code them into the version controlled source code itself. Please do not do this. Vault offers a better solution.</p>
+<p>Let’s say that an employee with “Power User” or similar privileges to a Cloud service provider gets fired or has their laptop stolen from a coffee shop. The thief or ex-employee could gain access to sensitive data by using the API keys formerly used as environmental variables for connecting various Cloud APIs. They could then delete data and backups, terminate servers, and cause widespread damage to the Cloud infrastructure of the organization.</p>
+<p><img class="alignright" style="width: 50%;" src="/images/blog/post/Hacker-5-5.png " alt="Hacker"></p>
+<p>This is different than Console or API access that is tied to an Identity Provider, like Active Directory. As you now have to manually disable and rotate the individual API keys used by each application, the operational team will have headaches from the resultant downtimes.</p>
+<p>Not only does HashiCorp Vault solve this problem, but it allows you (with one single command) to revoke API keys (specifically ones that employees with stolen laptops or the ex-employees ever gained access to) and generate new ones for the application to use. Basically, the application will automatically request a new API key to be generated using HashiCorp Vault’s very well documented API interface.</p>
+<p>The power to revoke and renew access to secrets automatically is a key feature. Additionally, each of those requests are logged, and can be audited and archived for compliance reasons. Other Secrets storage techniques do not offer you that kind of logging and auditing capabilities, especially when making individual APIs request an API key, or access a service using the API key.</p>
+<p>Vault eliminates secrets sprawl, and manages secret lifecycle by revoking and rolling the API keys or Database passwords automatically. It provides detailed audit logs with granular access control to the team or the organization that has access to create secrets, read secrets, and renew or revoke application secrets.</p>
+<h2>Tutorial – Deploy a development Vault server to Kubernetes using Helm</h2>
+<p>In this tutorial, we are going to deploy a development Vault server to Kubernetes using Helm and the incubator Helm chart. The dev server stores all its data in-memory (but still encrypted), and automatically unseals and shows the Vault unseal key and root access key when requested. You should never run a dev mode server in production.</p>
+<p><strong>Helm and Helm Charts</strong></p>
+<p>Helm helps manage Kubernetes applications. Helm Charts help you define, install, and upgrade even the most complex Kubernetes applications. It’s a package that contains all the resource definitions necessary to run an application, tool, or service inside of a Kubernetes cluster. Think of it as the Kubernetes equivalent of a Homebrew formula, an Apt dpkg, or a Yum RPM file. We are going use the “Vault” incubator chart from Kubernetes.</p>
+<p><strong>What You’ll Need</strong></p>
+<p>Before starting this tutorial, make sure that you are using a Kubernetes cluster with a version of 1.6 or above. Make sure that <a href="https://github.com/kubernetes/helm#install" target="_blank">Helm</a> is installed on your client machine, and that you have kubectl installed and configured to connect to your Kubernetes cluster. If you have more than one cluster, use the development one for this tutorial.</p>
+<h2>Deploy Vault to Kubernetes using Helm</h2>
+<p>Once Helm is ready, initialize the local CLI and install Tiller into your Kubernetes cluster in one step:</p>
+<pre><code>$ helm init</code></pre>
+<p>If you type:</p>
+<pre><code> $ helm version</code></pre>
+<p>You should see:</p>
+<pre><code>Client: &amp;version.Version{SemVer:"v2.8.1",
+GitCommit:"6af75a8fd72e2aa18a2b278cfe5c7a1c5feca7f2", 
+GitTreeState:"clean"}
+Server: &amp;version.Version{SemVer:"v2.8.1", 
+GitCommit:"6af75a8fd72e2aa18a2b278cfe5c7a1c5feca7f2", 
+GitTreeState:"clean"}</code></pre>
+<p>This means that Helm and its server-side component (Tiller) are installed and ready to be used. Let’s now add the incubator repository to helm:</p>
+<pre><code>$ helm repo add incubator http://storage.googleapis.com/kubernetes-charts-incubator</code></pre>
+<p>At this moment, your Chart is using the Vault docker image from Docker Hub with a vault version of 0.9.0.</p>
+<pre><code>image:
+  repository: vault
+  tag: 0.9.0
+  pullPolicy: IfNotPresent</code></pre>
+<p>In order to deploy a development version of Vault running, execute the following command:</p>
+<pre><code>$ helm install incubator/vault --name vault-dev</code></pre>
+<p>This will provision a Kubernetes Service, Deployment, Pod and a ConfigMap automatically as seen below:</p>
+<pre><code>NAME:   vault-dev
+LAST DEPLOYED: Wed Mar 14 17:13:43 2018
+NAMESPACE: default
+STATUS: DEPLOYED
+
+RESOURCES:
+==&gt; v1/ConfigMap
+NAME                      DATA  AGE
+vault-dev-vault-config-1  1     0s
+
+==&gt; v1/Service
+NAME             TYPE       CLUSTER-IP     EXTERNAL-IP  PORT(S)   AGE
+vault-dev-vault  ClusterIP  100.68.247.74         8200/TCP  0s
+
+==&gt; v1beta1/Deployment
+NAME             DESIRED  CURRENT  UP-TO-DATE  AVAILABLE  AGE
+vault-dev-vault  1        0        0           0          0s
+
+==&gt; v1/Pod(related)
+NAME                              READY  STATUS             RESTARTS  AGE
+vault-dev-vault-764c78cd94-xqxfn  0/1    ContainerCreating  0         0s</code></pre>
+<p>Helm will provide a set of notes that you can use to connect to the Vault server using kubectl’s port forwarding capabilities:</p>
+<pre><code>NOTES:
+1. Get the application URL by running these commands:
+export POD_NAME=$(kubectl get pods --namespace default -l "app=vault" -o jsonpath="{.items[0].metadata.name}")
+  echo "Use http://127.0.0.1:8200 as the Vault address after forwarding."
+  kubectl port-forward $POD_NAME 8200:8200</code></pre>
+<p>Right now, the Vault server is only exposed internally to the Kubernetes cluster. Only Kubernetes services can communicate with each other, and not external users. You should be able to connect to the Vault server from any application running on Kubernetes by using the Service that was deployed by Helm:</p>
+<pre><code>http://vault-dev-vault:8200</code></pre>
+<p>There is a way to expose it outside the cluster via an Ingress controller &amp; resource. This is beyond the scope of this blog post. In our case, we are going to execute the first “export” command in the NOTES section in order to get the pod name that was deployed.</p>
+<pre><code>$ export POD_NAME=$(kubectl get pods --namespace default -l "app=vault" -o jsonpath="{.items[0].metadata.name}")</code></pre>
+<p>To see the important Root Token needed to proceed with the AWS Dynamic Secret generation part of this blog post, execute:</p>
+<pre><code>$ kubectl logs $POD_NAME</code></pre>
+<p>We should be able to see the following appear on our Terminal:</p>
+<p><img style="width: 100%;" src="/images/blog/post/adrian1.png " alt="Terminal"></p>
+<p>The root token is highlighted here. Please take note of it somewhere, as we will need it for later.</p>
+<p>Next, port-forward to the Pod running on our Kubernetes cluster by executing the final NOTES command below:</p>
+<pre><code>$ kubectl port-forward $POD_NAME 8200:8200</code></pre>
+<p><img style="width: 100%;" src="/images/blog/post/Adrian2.png " alt="Terminal"></p>
+<p>This will allow our Local IP address (127.0.0.1:8200) to act as a proxy for the Vault server.</p>
+<p>Next, open a new Terminal tab or a new Terminal window. After you open the new terminal, type this to export the Environmental variable:</p>
+<pre><code>$ export VAULT_ADDR='http://127.0.0.1:8200'</code></pre>
+<p>We now need to download the <a href="https://www.vaultproject.io/downloads.html" target="_blank">Vault binary</a> on our client machine to be able to communicate and execute Vault CLI commands. Vault is cross-platform, so this should work on any platform.</p>
+<p>You should be able to vault Unix executable for Linux/Mac. Open your Terminal, and change your directory to the path where the Vault executable is stored and typed.</p>
+<pre><code>$ vault status</code></pre>
+<p><img style="width: 100%;" src="/images/blog/post/Adrian3.png " alt="Terminal"></p>
+<p>After that, login to the Vault server by pasting that Root token that we got from the logs section:</p>
+<pre><code>$ vault login</code></pre>
+<p><img style="width: 100%;" src="/images/blog/post/Adrian4.png " alt="Terminal"></p>
+<p>We have successfully created a centralized system for storing our secrets. We have put all our secrets in one place and used Vault to secure our assets in AWS. In order to fully leverage Vault, we now need to be able to generate dynamic secrets.</p>
+<p>To enable AWS Dynamic Secrets on Vault, type this command into your terminal:</p>
+<pre><code>$ vault secrets enable -path=aws aws</code></pre>
+<p><img style="width: 100%;" src="/images/blog/post/1.png" alt="Terminal"></p>
+<p>Before proceeding, let’s configure our AWS account to use secrets.</p>
+<p>Go to <a href="https://console.aws.amazon.com/iam/home?region=us-east-1#/users" target="_blank">IAM Management Console</a> and create a new User with the following permissions. Give it <strong>Programmatic Access</strong> only.</p>
+<p><img style="width: 100%;" src="/images/blog/post/2.png" alt="Terminal"></p>
+<p>Create a policy and attach it to the user. Name it “hashicorp-vault-lab.” Make sure to replace your Account ID in the Resource. This is so that, when Vault dynamically creates the users, the username starts with the “vault-” prefix.</p>
+<p>The account number can be found in <a href="https://console.aws.amazon.com/support/home?region=us-east-1#" target="_blank">AWS Support Dashboard</a>:</p>
+<pre><code>{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "iam:AttachUserPolicy",
+                "iam:CreateAccessKey",
+                "iam:CreateUser",
+                "iam:DeleteAccessKey",
+                "iam:DeleteUser",
+                "iam:DeleteUserPolicy",
+                "iam:DetachUserPolicy",
+                "iam:ListAccessKeys",
+                "iam:ListAttachedUserPolicies",
+                "iam:ListGroupsForUser",
+                "iam:ListUserPolicies",
+                "iam:PutUserPolicy",
+                "iam:RemoveUserFromGroup"
+            ],
+            "Resource": [
+                "arn:aws:iam::ACCOUNT_ID:user/vault-*"
+            ]
+        }
+    ]
+}</code></pre>
+<p>You should have a user with the policy attached that looks like this:</p>
+<p><img style="width: 100%;" src="/images/blog/post/5.png" alt="Terminal"></p>
+<p>You should also get a .csv file with the “Access Key ID” and “Secret Access Key.” You should only use those keys to configure Vault. Delete them immediately after from your computer for security reasons, as Vault handles the encryption for those keys internally. They cannot be read after they have been configured, only overwritten.</p>
+<p>Here is an example of how you configure them. Please replace “access_key” and “secret_key” with your keys.</p>
+<pre><code>$ vault write aws/config/root \
+    access_key=ACCESS_KEY_ID \
+    secret_key=SECRET_ACCESS_KEY
+</code></pre>
+<p><img style="width: 100%;" src="/images/blog/post/6.png" alt="Terminal"></p>
+<p>After that, create a role to use with Vault so that your application has a user with that role if needed. For example, your application might need a role that can do any CRUD operation on S3. Let’s create one here. You can restrict it as much as you like. Attach a policy to that role using a direct EOF (End-Of-File) statement:</p>
+<p><img style="width: 100%;" src="/images/blog/post/weird.png" alt="Terminal"></p>
+<p><img style="width: 100%;" src="/images/blog/post/7.png" alt="Terminal"></p>
+<p>If your cloud, on-premise, or <a href="https://www.cloudops.com/2018/02/serverless-computing-hot-or-not-2/" target="_blank">serverless</a> application needs to gain S3 access and use an API access key, you could simply use a Vault token to connect via the Vault RESTful API interface. In this case, your Vault token should be something other than your root credentials in production, which you would create specifically to enable your application to create access keys and be unable to read any other access keys. More information about the RESTful API can be found <a href="https://www.vaultproject.io/api/secret/aws/index.html" target="_blank">here</a>. The particular point where you can use in your application is <a href="https://www.vaultproject.io/api/secret/aws/index.html#generate-iam-credentials" target="_blank">here</a>.</p>
+<p>For the sake of this tutorial, we are going to do it using the CLI Vault tool instead to generate a temporary IAM user using Vault:</p>
+<pre><code>$ vault read aws/creds/s3-all-crud-role</code></pre>
+<p><img style="width: 100%;" src="/images/blog/post/8.png" alt="Terminal"></p>
+<p>You can also output this in JSON format. By default, it’s in a table format so you can edit it with jq using the -format=json parameter.</p>
+<pre><code>$ vault read -format=json aws/creds/s3-all-crud-role</code></pre>
+<p><img style="width: 100%;" src="/images/blog/post/9.png" alt="Terminal"></p>
+<p>As you can see, it generated 2 entirely different credentials, and both of those credentials have a lease duration of 768 hours. This means that Vault will automatically delete the users in AWS in 768 hours.</p>
+<p>If you go to AWS IAM and search for “vault-” you should be able to find them in there.</p>
+<p><img style="width: 100%;" src="/images/blog/post/10.png" alt="Terminal"></p>
+<p>Vault Dynamic Secret generation is convenient because of it’s that it took the role, it generated the user, attached the policy to it and gave you back the access key and secret key:</p>
+<p><img style="width: 100%;" src="/images/blog/post/12.png" alt="Terminal"></p>
+<p>You may also want to enhance security by configuring a 24 hour lease duration by writing to the configuration key-value store of Vault like this:</p>
+<pre><code>$ vault write aws/config/lease lease=24h lease_max=24h</code></pre>
+<p>Keys generated with the new IAM users have a lease duration of 24 hours:</p>
+<p><img style="width: 100%;" src="/images/blog/post/13.png" alt="Terminal"></p>
+<p>After 24 hours, Vault will automatically delete the user.</p>
+<p>You should ideally use the lease_id to be able to renew the user so that the application does not have to constantly create new IAM users. To do this, use the lease_id provided by Vault to simply renew the lease</p>
+<p>You can also use the Vault RESTful API <a href="https://www.vaultproject.io/api/system/leases.html" target="_blank">here</a>:</p>
+<p>Let’s renew the license using the lease_id for just 1 hour by using 3600 seconds:</p>
+<pre><code>$ vault lease renew aws/creds/s3-all-crud-role/e928e56d-0261-5e03-d0ee-bce23c3005a4 3600</code></pre>
+<p><img style="width: 100%;" src="/images/blog/post/14.png" alt="Terminal"></p>
+<p><strong>Houston, we have a problem. We have been hacked.</strong></p>
+<p>Let’s say that you use your monitoring tools to catch someone gaining access to one of your applications. However, they were able to copy one of your environmental variables containing the AWS API Key and Secret Access Keys that your application generated using Vault.</p>
+<p>How can we stop that hacker from causing massive damage to your organization?</p>
+<p>Simply revoke all leases that have those credentials using either the CLI or the RESTful API:</p>
+<pre><code>$ vault lease revoke -prefix aws/creds/s3-all-crud-role</code></pre>
+<p><img style="width: 100%;" src="/images/blog/post/5-1.png" alt="Terminal"></p>
+<p>As you can see, Vault was able to use the -prefix of s3-all-crud-role to revoke all leases for those roles:</p>
+<p><img style="width: 100%;" src="/images/blog/post/15.png" alt="Terminal"></p>
+<p>Vault is an amazing tool that will streamline the security of your infrastructure. It will eliminate secrets sprawl and make it easy to find vulnerabilities. It will automatically rotate secrets, and revoke unauthorized access. Dynamic secrets are great on their own, but HashiCorp’s Vault takes them to the next level.</p>
+<p>Check out my <a href="https://github.com/adriantodorov/cloudops-vault-part-1" target="_blank">repos</a> for more ideas on adding security to your Infrastructure as Code.</p>
+<p>To learn more about using Docker and Kubernetes in AWS, sign up for our <a href="https://www.cloudops.com/workshop-calendar/" target="_blank">workshop</a>. We offer a range of three-day, hands-on workshops to help you embrace DevOps practices.</p>
+<p>&nbsp;</p>
+<h3><img style="width: 150px; float: left; padding: 0 10px 10px 0;" class="size-full wp-image-749 alignleft" title="Adrian Todorov" src="/images/blog/post/Adrian.png" alt="" width="150" height="150">Adrian Todorov</h3>
+<p>Adrian Todorov is a Container Solutions Architect at CloudOps. He works closely with Kubernetes, AWS, GCP, and HashiCorp to drive application modernisation. Adrian is passionate about bringing modern cloud native development technologies and processes to clients, and hopes to guide readers through using open source projects in their applications.</p>
+            </article>
+        </div>
+    </div>
+
+
+    <div class="row nav-buttons back-foward in-content">
+        <div
+            class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-xs-2 back-button">
+            
+            <a href="/blog/javas-got-a-new-release-train-are-you-on-it-or-under-it/"><button class="btn">
+                    <div class="triangle-left">
+                        <div class="inner-left-triangle"></div>
+                    </div>Previous Post
+                </button></a>
+            
+        </div>
+        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-xs-2 foward-button">
+                
+            <a href="/blog/the-value-of-openshift-for-the-enterprise-software-transformation/">
+                <button class="btn">
+                    Next Post<div class="triangle-right">
+                        <div class="inner-triangle"></div>
+                    </div>
+                </button></a>
+                
+        </div>
+    </div>
+
+    <div class="social">
+        
+
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+position: relative;
+text-align: left; 
+height: 36px; 
+float: left; 
+text-align: center;
+}
+#share-buttons > div > svg {height: 36px; fill: #005D91; margin-top: 0;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.facebook > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.twitter > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.linkedin > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.mail > svg {height: 30px; margin: auto 5px;}
+</style>
+
+<div id="share-buttons">
+<div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=\/blog\/how-to-deploy-a-development-vault-server-to-kubernetes-using-helm\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
+<div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/home?status=\/blog\/how-to-deploy-a-development-vault-server-to-kubernetes-using-helm\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
+<div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=\/blog\/how-to-deploy-a-development-vault-server-to-kubernetes-using-helm\/&title=&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
+<div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body=\/blog\/how-to-deploy-a-development-vault-server-to-kubernetes-using-helm\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
+</div>
+
+        <i class="far fa-copy copy-page-link"></i>
+    </div>
+
+    
+
+    <div class="contact-us-card general-stylings-more-content">
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-cards">
+                    <div class="card-deck">
+                        <div class="card">
+                            <a
+                                href="https://cdn2.hubspot.net/hubfs/732832/CloudOps%20White%20Paper%20-%20A%20PreFlight%20Checklist%20for%20Cloud%20Migration.pdf">
+                                <div class="card-body">
+                                    <h3 class="card-title">A checklist for your cloud migration</h3>
+                                    <p class="card-text">Download the white paper to get a step by step guide to a successful migration strategy.</p>
+                                </div>
+                                <div class="corner-triangle"></div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a
+                                href="/blog/the-cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration">
+                                <div class="card-body">
+                                    <h3 class="card-title"> Accelerated value delivery</h3>
+                                    <p class="card-text">Read more on how to maximize value through our unique delivery model.</p>
+                                    <div class="corner-triangle"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="https://cdn2.hubspot.net/hubfs/732832/Cloud-Ops_Cloud-Migration_v3.pdf">
+                            <div class="card-body">
+                                <h3 class="card-title">Cloud migration one-pager</h3>
+                                <p class="card-text">
+                                    Everything you need to know about how our services can help get your cloud journey started.
+                                    <div class="corner-triangle"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="/contact-us">
+                            <div class="card-body">
+                                <h3 class="card-title">Networking is the hardest part</h3>
+                                <p class="card-text">Contact us to learn more about our hardware and software-defined networking solutions.</p>
+                                <div class="corner-triangle"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+        </div><div class="footer">
+    <div class="row no-gutters logo">
+        <div class="col-sm-12">
+            <a href="/"><img class="cloudops-logo" src="/images/cO-logo-horizontal.png"
+                    height="45px" width="auto"></a>
+        </div>
+    </div>
+
+    <div class="row no-gutters footer-content">
+        <div class="col-xl-3 offset-xl-2 col-lg-3 offset-lg-0 col-md-12">
+
+            <a href="https://twitter.com/CloudOps_" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/cloudops" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/Cloud0ps/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <h5>Newsletter Signup</h5>
+            <div class="newsletter-form">
+                    <div class="newsletter-form">
+
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "732832",
+	formId: "25575fb9-f01b-43a6-b9cd-2c154efad9f4"
+});
+</script>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-12 col-sm-12 footer-nav">
+            <h6>Services</h6>
+            <ul>
+                <li><a href="/cloud-native-consulting">Cloud Native Consulting</a></li>
+                <li><a href="/transformations">Transformations</a></li>
+                <li><a href="/managed-services-augmented-support">Support</a></li>
+                <li><a href="/delivering-cloud">Delivering Cloud</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-12 footer-nav">
+            <h6>Learning</h6>
+            <ul>
+                <li><a href="/workshops">Workshops</a></li>
+                <li><a href="/blog/blog-posts">Blog</a></li>
+                <li><a href="/resources/white-papers">White Papers</a></li>
+                <li><a href="/resources/case-studies">Case Studies</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-12 footer-nav">
+            <h6>Company</h6>
+            <ul>
+                <li><a href="/about-us">About Us</a></li>
+                <li><a href="/careers">Careers</a></li>
+                <li><a href="/partners">Partners</a></li>
+                <li><a href="/why-cloudops">Why Cloudops</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row no-gutters copyright">
+        <div class="col-sm-12">
+            <p>&copy; CloudOps. All rights Reserved. // <a href="/privacy-policy">Privacy Policy</a></p>
+        </div>
+    </div>
+</div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
+        <script src="/js/main.js"></script>
+
+        </body>
+</html>

@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "mirantis.png"
 class_name: "blog post"
+aliases:
+    - /2015/11/cloudops-partners-with-mirantis/
+    - /cloudops-partners-with-mirantis/
 ---
 
 <p><span style="font-weight: 400;">OpenStack has dominated conversations in the cloud computing industry for some time as the open source foundation receives funding, code contributions and support from many important players in the space. More than 20 distinct OpenStack projects have been launched in the last 5 years. </span></p>

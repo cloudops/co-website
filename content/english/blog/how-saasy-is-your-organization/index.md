@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "fastbusiness.jpg"
 class_name: "blog post"
+aliases:
+    - /2014/07/how-saasy-is-your-organization/
+    - /how-saasy-is-your-organization/
 ---
 
 <p></p>

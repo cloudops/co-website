@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guide CNCF du débutant on CloudOps</title>
+    <link>/fr/blog/guide-cncf-du-debutant/</link>
+    <description>Recent content in Guide CNCF du débutant on CloudOps</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/fr/blog/guide-cncf-du-debutant/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Guide CNCF du débutant</title>
+      <link>/fr/blog/guide-cncf-du-debutant/</link>
+      <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/fr/blog/guide-cncf-du-debutant/</guid>
+      <description>Le contexte des déploiements infonuagiques natifs peut paraître compliqué et porter à confusion. La vaste et dynamique communauté technologique contribue continuellement à une multitude de projets de source libre. La fondation Cloud Native Computing Foundation (CNCF) a créé une carte interactive démontrant l’éventail de solutions de déploiements infonuagiques natifs qui, pour la plupart, sont sous sa gouverne.
+En tant qu’ambassadeur de la CNCF, je participe activement à la promotion pan canadienne des efforts de la communauté technologique et de l’éducation aux déploiements infonuagiques natifs.</description>
+    </item>
+    
+  </channel>
+</rss>

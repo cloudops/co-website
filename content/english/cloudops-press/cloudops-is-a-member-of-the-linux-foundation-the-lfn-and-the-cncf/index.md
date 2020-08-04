@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "lf_silver.png"
 class_name: "blog post"
+aliases:
+    - /2018/03/cloudops-is-a-member-of-the-linux-foundation-the-lfn-and-the-cncf/
+    - /cloudops-is-a-member-of-the-linux-foundation-the-lfn-and-the-cncf/
 ---
 
 <p>CloudOps has always believed that open source software plays an important role in any cloud-based solution. By leveraging the power of community, open source projects transcend the incumbent industry players to act as a catalyst for transformation. The Linux Foundation and its subsidiary foundations provide sustainable ecosystems for these communities to grow and flourish. As a member of The Linux Foundation, the Cloud Native Computing Foundation (CNCF), and The LFNetworking Fund (LFN), CloudOps is proud of its commitment to open source. As Ian Rae, our CEO, stated:</p>

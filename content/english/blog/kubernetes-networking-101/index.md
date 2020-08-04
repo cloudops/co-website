@@ -7,6 +7,9 @@ resources:
 - name: "thumbnail"
   src: "K8s-Networking.jpg"
 class_name: "blog post"
+aliases:
+  - /2020/06/kubernetes-networking-101/
+  - /kubernetes-networking-101/
 ---
 
 <p>Networking can be very important when dealing with microservice-based architectures, and Kubernetes provides first-class support for a range of different networking configurations. Essentially, it provides you with a simple and abstracted cluster-wide network. Behind the scenes, Kubernetes networking can be quite complex due to its range of different networking plugins. It may be useful to try keeping the simpler concepts in mind before trying to identify the flow of individual networking packets.</p>

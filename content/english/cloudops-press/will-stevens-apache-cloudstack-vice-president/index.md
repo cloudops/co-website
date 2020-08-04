@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "will.jpg"
 class_name: "blog post"
+aliases:
+    - /2016/05/will-stevens-apache-cloudstack-vice-president/
+    - /will-stevens-apache-cloudstack-vice-president/
 ---
 
 <p><b>Friday, May 27th 2016:</b><span style="font-weight: 400;"> CloudOps is excited to announce that Will Stevens, Lead Developer at CloudOps, has been named as the new Vice-President of the Apache CloudStack project. At the ASF meeting on May 18th, the board passed the resolution appointing Stevens to this position.</span></p>

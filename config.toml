@@ -9,7 +9,6 @@ unsafe= true
 defaultContentLanguage = "en"
 defaultContentLanguageInSubDir = false
 
-
 [languages]
     [languages.en]
         languageName = "EN"

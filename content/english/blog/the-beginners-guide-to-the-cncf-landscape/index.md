@@ -6,6 +6,10 @@ resources:
 - name: "thumbnail"
   src: "MaximilianWeisbecker.jpg"
 class_name: "blog post"
+aliases:
+  - /2018/10/the-beginners-guide-to-the-cncf-landscape/
+  - /the-beginners-guide-to-the-cncf-landscape/
+  - /beginners-guide-to-the-cncf-landscape/
 ---
 
 <p>The cloud native ecosystem can be complicated and confusing. Its myriad of open source projects are supported by the constant contributions of a vibrant and expansive community. The Cloud Native Computing Foundation (<a href="https://www.cncf.io/" target="_blank" rel="noopener noreferrer">CNCF></a>) has a <a href="https://landscape.cncf.io/" target="_blank" rel="noopener noreferrer">landscape map</a> that shows the full extent of cloud native solutions, many of which are under their umbrella.</p>

@@ -6,6 +6,11 @@ resources:
 - name: "thumbnail"
   src: "WillStevens.png"
 class_name: "blog post"
+aliases:
+  - /2019/04/an-adventure-in-multi-cloud-networking-with-kubernetes-and-tungsten-fabric/
+  - /an-adventure-in-multi-cloud-networking-with-kubernetes-and-tungsten-fabric/
+keywords: 
+tags:
 ---
 
 <p>With a couple weeks before KubeCon and an impending presentation, I embarked on a small adventure to try networking together two different Kubernetes clusters with Tungsten Fabric, the goal being to do a live demo at the Tungsten Fabric Developers Summit.</p>

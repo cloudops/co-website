@@ -6,6 +6,10 @@ resources:
 - name: "thumbnail"
   src: "CodeCollaboration.png"
 class_name: "blog post"
+aliases:
+  - /2019/05/the-cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration/
+  - /the-cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration/
+  - /cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration/
 ---
 
 <p>DevOps aligns cultural change with the speed and flexibility of cloud, containers, and modernized architectures. Successfully implemented, its combination of practices and tools will increase the delivery of applications and services at high velocity. DevOps allows organizations to pivot when needed and respond to market changes as part of finding digital solutions to their industry’s problems.</p>

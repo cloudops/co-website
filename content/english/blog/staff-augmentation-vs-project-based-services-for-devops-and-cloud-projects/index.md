@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "Project-Based-Services.png"
 class_name: "blog post"
+aliases:
+  - /2020/02/staff-augmentation-vs-project-based-services-for-devops-and-cloud-projects/
+  - /staff-augmentation-vs-project-based-services-for-devops-and-cloud-projects/
 ---
 
 <p>DevOps tools and practices accelerate software release cycles, but their adoption can be a tricky process. The supply of skilled engineers has not always kept up with demand, there is an overwhelming array of tools to choose from, and the cultural changes required can meet resistance. You might be struggling to find <a href="https://info.cloudops.com/initiate-devops-transformation-by-assessing-culture-and-processes">clearly defined blueprints for navigating the DevOps and application platform landscapes</a>, and you may be evaluating staff augmentation or project-based services, which include both consulting and professional services, as ways to accelerate your initiatives. This blog post will show you the merits of these approaches.</p>

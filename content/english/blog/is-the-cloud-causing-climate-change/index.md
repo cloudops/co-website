@@ -7,6 +7,9 @@ resources:
 - name: "thumbnail"
   src: "ClimateChange.jpg"
 class_name: "blog post"
+aliases:
+    - /2020/06/is-the-cloud-causing-climate-change/
+    - /is-the-cloud-causing-climate-change/
 ---
 
 

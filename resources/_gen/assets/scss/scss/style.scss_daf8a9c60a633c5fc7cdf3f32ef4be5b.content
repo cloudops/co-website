@@ -6944,6 +6944,9 @@ blockquote {
     background-position: right top, right top;
     background-repeat: repeat-y, repeat-y; } }
 
+.general-stylings-more-content .card > a {
+  margin: 0; }
+
 .general-stylings-more-content .cta-cards .card-deck .card {
   background-color: #FFF;
   box-shadow: 2px 2px 8px #E2E2E2;
@@ -6956,7 +6959,7 @@ blockquote {
   box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2); }
 
 .general-stylings-more-content.contact-us-card {
-  background-image: url("/images/bottom-left-yellow-swoosh.png"), url("/images/top-right-yellow-swoosh.svg"), url("/images/tinydots-horizontal.svg");
+  background-image: url("/images/bottom-left-yellow/a:-swoosh.png"), url("/images/top-right-yellow-swoosh.svg"), url("/images/tinydots-horizontal.svg");
   background-position: left bottom, right top, left bottom 20%;
   background-repeat: no-repeat, no-repeat , repeat-x;
   padding: 100px 0;

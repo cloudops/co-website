@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "theamericas2.png"
 class_name: "blog post"
+aliases:
+    - /2020/04/cloudops-is-named-one-of-the-financial-times-the-americas-fastest-growing-companies-in-2020/
+    - /cloudops-is-named-one-of-the-financial-times-the-americas-fastest-growing-companies-in-2020/
 ---
 
 <p>Montreal, Quebec, April 8th 2020 — CloudOps has been recognized as part of The Financial Times inaugural list of The Americas’ Fastest Growing Companies 2020. This prestigious award is presented by The Financial Times and Statista Inc., the world-leading statistics portal and industry ranking provider.</p>

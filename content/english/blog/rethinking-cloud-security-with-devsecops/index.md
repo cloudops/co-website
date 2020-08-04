@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "RethinkingCloudSecurity.png"
 class_name: "blog post"
+aliases:
+  - /2019/07/rethinking-cloud-security-with-devsecops/
+  - /rethinking-cloud-security-with-devsecops/
 ---
 
 <p>DevOps is the combination of cultural philosophies, practices, and tools that increase an organization’s ability to deliver applications and services at high velocity. By removing traditional separations between development and operations, it creates dynamic pipelines of continuous integration and delivery (CI/CD) that release software in faster cycles and smaller batches. DevOps helps modernize legacy technology systems, allowing organizations to better compete in today’s data-driven software economy.</p>

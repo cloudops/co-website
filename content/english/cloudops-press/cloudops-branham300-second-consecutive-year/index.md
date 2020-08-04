@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "branham300.png"
 class_name: "blog post"
+aliases:
+    - /2017/06/cloudops-branham300-second-consecutive-year/
+    - /cloudops-branham300-second-consecutive-year/
 ---
 
 <p><b>Montreal, June 6, 2017:</b> CloudOps has once again been listed on the Branham300, ranking at number 227 among Canada’s most-profitable public and private technology companies. The prestigious list ranks companies based on revenue and profitability. CloudOps is pleased and honoured to be part of this elite group for a second year. This reinforces CloudOps’ strategic plans in cloud platform management, telco and enterprise shared services sectors, all of which are steadily growing with the adoption of cloud services.</p>

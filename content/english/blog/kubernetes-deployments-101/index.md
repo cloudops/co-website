@@ -6,6 +6,10 @@ resources:
 - name: "thumbnail"
   src: "k8s-blue-containers.jpg"
 class_name: "blog post"
+aliases:
+  - /2020/04/how-to-create-and-inspect-kubernetes-deployments/
+  - /how-to-create-and-inspect-kubernetes-deployments/
+  - /kubernetes-deployments-101
 ---
 
 <p>If you’re looking to get started with Kubernetes, this blog post will teach you the basics of deployments.</p>

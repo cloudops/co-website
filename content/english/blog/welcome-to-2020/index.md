@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "MagicDove.jpg"
 class_name: "blog post"
+aliases:
+  - /2020/02/welcome-to-2020/
+  - /welcome-to-2020/
 ---
 
 <blockquote>

@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "CTX_Specialist_Gold_Solution-Advisor_Flat_RGB-copy1.png"
 class_name: "blog post"
+aliases:
+    - /2015/07/cloudops-becomes-the-first-canadian-citrix-specialist-in-networking-for-data-centre/
+    - /cloudops-becomes-the-first-canadian-citrix-specialist-in-networking-for-data-centre/
 ---
 
 <p><strong>As Citrix launches its new partner specialist program, CloudOps receives prestigious designation</strong></p>
