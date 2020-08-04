@@ -1316,7 +1316,11 @@ a.active {
   .navbar-card .navbar .navbar-nav .dropdown a.dropdown-item {
     padding-left: 25px; }
   .navbar-card .navbar .navbar-nav .dropdown .reading-dropdown h3 {
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  #multi-language-menu {
+    display: none; }
+  .responsive-language-menu {
+    display: flex; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .navbar-card {
@@ -1342,7 +1346,11 @@ a.active {
   .navbar-card .navbar .navbar-nav .dropdown a.dropdown-item {
     padding-left: 25px; }
   .navbar-card .navbar .navbar-nav .dropdown .reading-dropdown-row h3 {
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  #multi-language-menu {
+    display: none; }
+  .responsive-language-menu {
+    display: flex; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .navbar-card {
@@ -1368,7 +1376,11 @@ a.active {
   .navbar-card .navbar .navbar-nav .dropdown a.dropdown-item {
     padding-left: 25px; }
   .navbar-card .navbar .navbar-nav .dropdown .reading-dropdown-row h3 {
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  #multi-language-menu {
+    display: none; }
+  .responsive-language-menu {
+    display: flex; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .navbar-card {
@@ -1385,7 +1397,13 @@ a.active {
   .navbar-card i {
     color: #005D91; }
   .navbar-card .navbar .navbar-nav .dropdown .training-dropdown-items-group h3 {
-    margin-top: 15px; } }
+    margin-top: 15px; }
+  .navbar-card .nav-item.list-group.list-group-flush #multi-language-menu {
+    display: none; }
+  #multi-language-menu {
+    display: none; }
+  .responsive-language-menu {
+    display: flex; } }
 
 @media (min-width: 1200px) {
   .navbar-expand-xl .navbar-nav .dropdown-menu {
@@ -1397,7 +1415,25 @@ a.active {
     margin-left: -500px;
     margin-top: 0; }
   .navbar-card .navbar .navbar-nav .dropdown .training-dropdown-items-group h3 {
-    margin-top: 15px; } }
+    margin-top: 15px; }
+  .responsive-language-menu {
+    display: none; }
+  .responsive-language-menu {
+    height: 85px;
+    align-items: center; }
+  .responsive-language-menu a {
+    border-right: 2px solid;
+    padding: 0 10px;
+    line-height: 15px; }
+  .responsive-language-menu a:last-child {
+    border-right: 0; }
+  #main-nav {
+    display: flex;
+    align-items: flex-start; }
+  #main-nav > .navbar {
+    flex-grow: 1; }
+  #main-nav > .responsive-language-menu {
+    justify-self: flex-end; } }
 
 /************  Hero Styles  ***************/
 .jumbotron.hero {
