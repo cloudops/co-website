@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "data-storage-cloudops.jpg"
 class_name: "blog post"
+aliases:
+    - /2016/03/vdi-per-lun/
+    - /vdi-per-lun/
 ---
 
 <p><strong>Supplemental Pack for XenServer 6.5 Allows VVOLs-like VDI per LUN Functionality for XenServer and Enables Multi-tenant QoS</strong></p>

@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "P500-Logo-2015-ADS-Blue.jpg"
 class_name: "blog post"
+aliases:
+    - /2015/09/cloudops-ranks-no-204-on-the-2015-profit-500/
+    - /cloudops-ranks-no-204-on-the-2015-profit-500/
 ---
 
 <p><i><span style="font-weight: 400;">– PROFIT magazine unveils 27</span></i><i><span style="font-weight: 400;">th</span></i><i><span style="font-weight: 400;"> annual list of Canada’s Fastest-Growing Companies –</span></i></p>

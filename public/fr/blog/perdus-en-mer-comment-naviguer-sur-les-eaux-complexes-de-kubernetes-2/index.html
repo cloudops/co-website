@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html><head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   
+   
+   
+   
+   <link rel="stylesheet" as="style" type="text/css" href="/css/style.min.ffc82ac39d7e27734f941f1d1f55d0ee976305004ef32340c769aabc72e1bf7f.css" integrity="sha256-/8gqw51&#43;J3NPlB8dH1XQ7pdjBQBO8yNAx2mqvHLhv38=" crossorigin="anonymous" media="screen" />
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="icon no-follow" href="/images/favicon.ico" type="image/x-icon">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,600i,700|Open+Sans:400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8b2e2ddb4.js" crossorigin="anonymous"></script>
+
+
+    
+        <title>CloudOps - Perdus en mer : Comment naviguer sur les eaux complexes de Kubernetes</title>
+    
+</head><body>
+            
+            
+<div class="navbar-card" id="main-nav">
+  <nav class="navbar navbar-expand-xl">
+    
+    <a class="navbar-brand mr-auto" href="/">
+      <img src="/images/CO-logo-horizontal.svg" width="230px" alt="CloudOps logo">
+    </a>
+    <a class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto list-group list-group-flush">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="/solutions" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Solutions</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-12 nav-main-section">
+                <a href="/solutions"><button>Solutions Overview</button></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-0 solutions-dropdown-items-group">
+                <a href="/using-cloud"><h3 class="dropdown-item list-group-item list-group-item-action">Using Cloud</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/cloud-native-consulting">Cloud Native Consulting</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/cloud-migration">Cloud Migration</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/managed-services-augmented-support">Managed Services <br> Augmented Support</a>
+
+
+
+              </div>
+              <div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-1 solutions-dropdown-items-group">
+                <a href="/delivering-cloud"><h3 class="dropdown-item list-group-item list-group-item-action">Delivering Cloud</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/delivering-cloud-consulting">Consulting</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/managed-services-augmented-support">Managed Services <br> Augmented Support</a>
+              </div>
+
+              <div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-1 solutions-dropdown-items-group">
+                <a href="/transformations"><h3 class="dropdown-item list-group-item list-group-item-action">Transformations</h3></a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#devops-transformation">DevOps Transformation</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#cloudops-transformation">CloudOps Transformation</a>
+                <a class="dropdown-item list-group-item list-group-item-action" href="/transformations/#devnetops">DevNetOps Transformation</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+              </div>
+              <div class="col-xl-9 nav-cta horizontal-nav-cta">
+                  <a href="/devops-platform-practices-assessment" target="_blank"><h2>Not sure where to start?</h2>
+                <p>Your journey with CloudOps begins with a DevOps Platform and Practices Assessment to get an objective status report and recommendations</p><div class="triangle-right">
+                    <div class="inner-triangle"></div></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown" id="training-dropdown-menu">
+          <a class="nav-link" href="/training" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row solutions-dropdown-row">
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/workshops">
+                <img src="/images/nav-workshops.svg" height="70px">
+                <h3>Workshops</h3></a>
+              </div>
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/experts">
+                <img src="/images/nav-experts.svg" height="70px">
+                <h3>Our Experts</h3></a>
+              </div>
+              <div class="col-xl-4 col-lg-4 training-dropdown-items-group">
+                  <a class="dropdown-item list-group-item list-group-item-action" href="/calendar">
+                <img src="/images/nav-calendar.svg" height="70px">
+                <h3>Calendar</h3></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+              </div>
+              <div class="col-xl-9 nav-cta horizontal-nav-cta">
+                <a href="/blog/quiz-are-you-a-kubernetes-unicorn/" target="_blank">
+                <h2>Are you a Kubernetes unicorn?</h2>
+                <p>Take our quiz to find out</p>
+              </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown reading-dropdown">
+          <a class="nav-link" href="/reading" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            data-reference="parent" data-offset="50%,20" aria-haspopup="true" aria-expanded="false">Reading</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="https://cdn2.hubspot.net/hubfs/732832/Gated%20Content/WP_Securing%20Your%20DevOps%20Platform%20Enterprise_2019.pdf" target="_blank">
+                <h2>Secure your DevOps platform</h2>
+                <p>White paper highlighting how to handle security challenges faced by enterprises</p>
+                </a>
+              </div>
+              <div class="col-xl-9">
+                <div class="row solutions-dropdown-row">
+                  <div class="col-xl-2 offset-xl-1 col-lg-2 offset-lg-1">
+                      <a href="/blog"><img src="/images/nav-blog.svg" height="70px"></a>
+                  </div>
+                  <div class="col-xl-3 col-lg-3">
+                      <a href="/blog"><h3 class="dropdown-item list-group-item list-group-item-action">Blog</h3></a>
+                      <a class="dropdown-item list-group-item list-group-item-action" href="/blog">Blog Posts</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/blog#community-news">Community News</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/blog#cloudops-press">CloudOps Press</a>
+                  </div>
+                  <div class="col-xl-2 offset-xl-0 col-lg-2">
+                      <a href="/resources"><img src="/images/nav-resources.svg" height="70px"></a>
+                  </div>
+                  <div class="col-xl-3 col-lg-3">
+                    <a href="/resources"><h3 class="dropdown-item list-group-item list-group-item-action">Resources</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/white-papers/">White Papers</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/case-studies/">Case Studies</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/infographics/">Infographics</a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/resources/one-pagers/">One Pagers</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </li>
+        <li class="nav-item dropdown company-dropdown">
+          <a class="nav-link" href="/company" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            data-reference="parent" data-offset="50%,20" aria-haspopup="true" aria-expanded="false">Company</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row">
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="/blog/cloudops-manifesto/" target="_blank">
+                <h2>The CloudOps Manifesto</h2>
+                <p>11 key success factors we have learned from our adventures in the cloud</p></a>
+              </div>
+              <div class="col-xl-6 nav-main-section">
+                <a href="/why-cloudops"><button>Why choose CloudOps</button></a>
+                <div class="row sub-nav-items">
+                  <div class="col-xl-3 offset-xl-2 col-lg-3 offset-lg-3">
+                    <img src="/images/description-logo.svg" width="70px">
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/about-us"><h3>About Us</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/partners"><h3>Partners</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/careers"><h3>Careers</h3></a>
+                    <a class="dropdown-item list-group-item list-group-item-action" href="/calendar#events"><h3>Events Calendar</h3></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 nav-cta">
+                <img src="/images/navbar-arrows.svg">
+                <a href="blog/staff-augmentation-vs-project-based-services-for-devops-and-cloud-projects/">
+                <h2>Accelerate your software release cycles</h2>
+                <p>Comparing staff augmentation to project-based services for DevOps and cloud projects</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="/contact-us"><button class="btn" type="submit">Contact</button></a>
+        </li>
+ 
+        
+
+      </ul>
+    </div>
+
+  </nav>
+
+  
+
+</div><div class="container-fluid main-content">
+<main class="post">
+    <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
+            <article>
+                <header>
+                    <h1>Perdus en mer : Comment naviguer sur les eaux complexes de Kubernetes</h1>
+                    <div> February 21, 2018 / Will Stevens </div>
+                </header>
+                
+                
+                
+                <img src="/fr/blog/perdus-en-mer-comment-naviguer-sur-les-eaux-complexes-de-kubernetes-2/vectorstock_8394430_hu956c63bcc0a0ae229e346583bd43ef46_2236085_400x0_resize_q75_box.jpg" />
+                
+                
+                <h2>Comparaison des outils Kubernetes : la source libre, les distributions et les services gérés.</h2><p>Même si l’efficacité et la viabilité à long terme de Kubernetes ne sont pas à débattre, sa réputation pour la complexité n’est pas sans fondement. À cette fin, CloudOps a établi une synthèse des outils les plus reconnus pour mettre en œuvre et gérer des grappes Kubernetes. En facilitant le déploiement à l’échelle des conteneurs, Kubernetes fait en sorte que le design d’applications soit normalisé en microservices modulaires et portables qui peuvent facilement se déployer sur de multiples environnements infonuagiques. Les organisations qui cherchent à tirer profit des capacités de Kubernetes peuvent se tourner vers une panoplie d’outils de source libre, de distributions et de services gérés. Chacun possède ses mérites respectifs.</p><h2><strong>La source libre</strong></h2><p>Les outils de source libre, génériquement appelés Kubernetes «&thinsp;vanille&thinsp;», placent la totalité du déploiement de conteneurs entre les mains de votre équipe interne des opérations. La réussite du déploiement dépend donc de son expertise. Une équipe expérimentée saura profiter de la souplesse offerte et planifiera le déploiement autour de son application. Elle saura aussi gérer les mises à niveau et, grâce à sa contribution au code source, elle ajoutera des fonctionnalités adaptées respectivement aux exigences et au calendrier de son application. En plus de vous faire épargner les frais de licence, les outils de source libre vous offrent le plein contrôle sur l’avenir de votre déploiement de conteneurs.</p><p>En revanche, une équipe des opérations inexpérimentée pourra rencontrer des difficultés avec les options disponibles, lors d’un déploiement avec les outils de source libre. Kubespray est reconnu pour ses longs temps de déploiement, Kops n’est disponible que par AWS, et Kubeadm n’offre pas l’option de haute disponibilité. Même si les options d’installations Kubernetes de source libre ne sont pas difficiles, ni complexes en elles-mêmes, le nombre impressionnant d’options de configuration et de déploiement rend Kubernetes notoirement difficile à installer pour usage aux fins de production. Par ailleurs, le manque de fonctionnalités destinées aux entreprises particulièrement le soutien au protocole Lightweight Directory Access Protocol (LDAP) et le contrôle d’accès en fonction du rôle (CAFR) pourrait limiter la capacité de certaines organisations à adopter une stratégie de source libre. Bien que le contrôle de votre destin soit important, votre organisation doit être capable de manœuvrer la complexité et le caractère opérationnel à long terme des outils de source libre.</p><h2><strong>Distributions</strong></h2><p>Le concept de distribution suggère un compromis entre la souplesse des outils de source libre et facilité offerte par les services gérés. Une équipe interne d’opérations est toutefois nécessaire pour superviser le déploiement, mais le processus d’adoption de Kubernetes est simplifié par la présentation d’outils à usage spécifiques qui servent à bâtir et à gérer des grappes. Les fournisseurs de distributions vont souvent offrir des plateformes complètes qui définissent les processus d’exécution de concepts et tests, de création d’images, de déploiements et de production de mise en œuvre. Des contrats de soutien tarifés sont généralement disponibles en plus de fonctionnalités à valeur ajoutée telles que le soutien au protocole LDAP avec CAFR. Par contre, cela a pour effet d’augmenter les risques d’enfermement à un fournisseur. Tandis que les distributions limitent le potentiel de personnalisation de votre expérience (la direction n’a plus à effectuer les mises à niveau), elles permettent aux développeurs d’accélérer l’automatisation des opérations de conteneurs. Voici quelques-unes des distributions les plus connues disponibles actuellement sur le marché.</p><p><strong>Red Hat OpenShift</strong></p><p>Livrée comme une PaaS à usage spécifique bâtie sur une infrastructure Kubernetes, Red Hat OpenShift offre plus que les autres distributions. C’est une solution de plateforme complète qui supervise tous les aspects du cycle de vie de développement du logiciel, incluant le contrôle d’accès, la conception du code, les tests, la création et le chargement d’images vers un répertoire et le déploiement d’images publiées et de grappes d’applications. La pile entière est assurée d’interopérabilité entre le système d’exploitation (RHEL), la couche d’orchestration (Kubernetes) et l’exécution (Docker). Les mises à jour sont validées et publiées en lots afin d’assurer la cohésion, mais cela peut produire des retards. Les utilisateurs peuvent choisir l’option «&thinsp;en ligne&thinsp;» (vous donne accès à un locataire dans son déploiement), une option «&thinsp;réservée&thinsp;» (gérée pour vous), une option de «&thinsp;plateforme de conteneur&thinsp;» (permet son déploiement dans votre centre de données et comprend l’ajout tarifé d’intégration de stockage pris en charge sous forme de Gluster), et enfin, l’option «&thinsp;originale&thinsp;» (version de source libre). En général, l’offre de Red Hat pour les entreprises est extrêmement stable et est à la fois constante et facile à gérer.</p><p><strong>Rancher</strong></p><p>Rancher 1.0 a le déploiement déterministe et l’installation légère. Il est de source libre et aucun contrat de soutien n’est exigé. La plateforme, facile à utiliser et à gérer, est empreinte de simplicité et de souplesse; et grâce à la facilité de gestion de multiples grappes Kubernetes, elle est idéale pour les infrastructures ordinaires. En plus, elle offre le soutien au Active Directory (AD), au protocole LDAP et au Security Assurance Markup Language (SAML). Elle fut conçue pour être souple au niveau de la couche d’orchestration et cherchait à rassembler les individus qui utilisaient Kubernetes, Docker Swarm, et Cattle de Rancher. Depuis l’annonce, en septembre dernier, de la publication prévue de Rancher 2.0, nous nous attendons à une solution plus complète qui utilisera dans le futur, Kubernetes comme unique orchestration de conteneur.</p><p><strong>Tectonic</strong></p><p>Tectnonic utilise Kubernetes et la pile complète CoreOs pour exécuter les conteneurs Linux. Appuyé par CoreOs, Tectonic permet à l’utilisateur de tirer profit du conteneur CoreOs Linux, un système d’exploitation de conteneurs léger. Tectonic soutien aussi Quay Enterprise, un registre de conteneurs à locataires multiples avec balayage de vulnérabilité d’images. La surveillance est incluse avec le produit de base afin d’améliorer la visibilité opérationnelle. Même si Tectonic déploie Kubernetes selon le style «&thinsp;vanille&thinsp;», des fonctionnalités d’entreprises sont aussi incluses comme le soutien AD et au protocole LDAP. De plus, aucun contrat de soutien n’est exigé pour les petits déploiements allant jusqu’à dix nœuds.</p><p><strong>Canonical</strong></p><p>Canonical offre un déploiement à usage spécifique qui utilise Unbuntu pour toute sa configuration de nœuds. Bien que le soutien AD et au protocole LDAP soit fournit, les mises à niveau sont non-négligeables. Comme Tectonic, Canonical déploie Kubernetes selon le style «&thinsp;Vanille&thinsp;» avec quelques fonctionnalités d’entreprise. En plus d’une distribution Kubernetes, Canonical offre aussi des services Kubernetes gérés qui peuvent fonctionner soit dans vos centres de données ou sur des nuages publics. Canonical collabore avec Google pour permettre aux nœuds ouvriers GKE de tirer profit de la distribution Kubernetes de Canonical, permettant une offre entièrement gérée et qui inclut les nœuds maîtres (Google) et les nœuds ouvriers (Canonical).</p><h2><strong>Services gérés</strong></h2><p>Les services gérés de Kubernetes permettent aux entreprises de confier leur orchestration de conteneur à un fournisseur de services, en toute quiétude, grâce aux ANS. Même s’ils vous incitent à adapter votre application au service, ils facilitent le processus en offrant des services approfondis qui varient entre les fournisseurs. La majorité des services gérés Kubernetes incluent et exploitent des nœuds maîtres en plus de l’intégration des services tels que des contrôleurs d’intrusion, le stockage, des registres d’images et la gestion de l’identité. Plusieurs offrent aussi des systèmes d’exploitation optimisés pour conteneurs pour les nœuds ouvriers. Les nuages publics tirent profit de leurs ressources actuelles pour fournir l’infrastructure, ce qui a pour effet d’éliminer le besoin d’acheter et de maintenir du matériel. Ils simplifient et accélèrent les processus d’installation et de gestion des conteneurs.</p><p>Les services gérés façonnent des déploiements plus légers et des équipes des opérations et DevOps plus petites et plus concentrés. En revanche, la souplesse en est sacrifiée, car vous êtes forcés d’adapter le cycle de vie de votre application aux dictats du service. Tandis que les nœuds maîtres sont automatiquement mis à niveau (environ tous les trois mois), les nœuds ouvriers doivent être tenus à jour (généralement en deçà de deux versions) pour éviter d’en perdre le soutien. Par ailleurs, votre application pourrait ne pas être prête à soutenir les changements aux fonctionnalités introduits par ces mises à niveau. De même, les chances d’enfermement à un fournisseur augmentent par la dépendance à certaines fonctionnalités. Les services gérés de Kubernetes peuvent faciliter l’installation et la gestion de Kubernetes en tant que tel, mais il est important de savoir comment votre entreprise en sera affectée par ses limites.</p><p><strong>Google Kubernetes Engine (GKE)</strong></p><p>GKE a été le premier service géré de Kubernetes offert sur le marché et donc, il est celui dont l’offre est la plus mature. Kubernetes a été placé en source libre par Google, ceux-ci, par conséquent, contribuent plus que tout le monde au code source. GKE inclut beaucoup plus que les fonctionnalités de bases habituelles, par exemple, la mise à niveau et la mise à l’échelle automatiques des nœuds ouvriers par leur portail d’administration et les fonctions intégrées de services infonuagiques, telles que les contrôleurs d’intrusion pour l’équilibrage de charge, les pare-feu et les fonctionnalités de visibilité comme la surveillance et l’enregistrement. Dans le cadre de l’offre GKE, c’est Google qui effectue la gestion des nœuds maîtres donc, bien qu’il soit impossible de manipuler les nœuds selon vos besoins, vous n’avez pas à payer pour leurs ressources informatiques. De plus, vous pouvez avoir confiance au fait que les nœuds maîtres sont déployés en haute disponibilité avec des ANS. GKE fonctionne bien avec le stockage infonuagique de Google ainsi qu’avec la gestion de l’identité de Google, permettant ainsi l’intégration facile aux autres services infonuagiques de Google.</p><p><strong>Amazon Elastic Container Service pour Kubernetes (EKS)</strong></p><p>Bien que nouveau sur le marché, on s’attend à ce que le service Kubernetes d’Amazon ait éventuellement les mêmes fonctions que GKE de Google. De façon générale, AWS est l’offre infonuagique la plus mature sur le marché, avec ses vastes services et intégrations à valeur ajoutée disponibles. Ce n’est qu’une question de temps avant que l’offre EKS puisse tirer profit de cet immense écosystème de services et livrer une solution complètement intégrée. EKS est un déploiement AWS géré qui offre l’intégration fluide avec AWS. Par contre, cette offre a un grand potentiel d’enfermement à un fournisseur, car c’est un service de conteneur infonuagique conçu sur un écosystème totalement exclusif.</p><p><strong>Microsoft Azure Container Service (AKS)</strong></p><p>Nouveau, lui aussi, sur le marché, AKS est encore en train d’établir son positionnement différencié. Tout comme EKS, l’avenir dira comment le service s’adapte au marché et développe leur offre. Si vous utilisez déjà les services de Microsoft Azure, AKS est évidemment un choix à considérer et à évaluer. Étant donné la nouveauté, tant de EKS que de AKS, il est difficile de les comparer à GKE, qui ici, se retrouve manifestement en tête de file. Il faut s’attendre à ce que Microsoft déploie de grands efforts avec ce service, il sera intéressant de suivre son développement futur.</p><p><strong>Naviguer sur les eaux complexes de Kubernetes</strong></p><p>Kubernetes s’est avéré être une technologie robuste et fiable qui augmentera l’agilité et l’efficacité au sein de votre organisation. Bien que son installation et sa gestion soient reconnues comme étant complexes, il existe de nombreux outils pour vous permettre de tirer profit de cette technologie. Les déploiements de style «&thinsp;vanille&thinsp;» vous offrent de la souplesse et la possibilité de devenir maîtres de votre destin. Par contre, les complexités opérationnelles peuvent sembler accablantes. Les distributions gèrent les architectures et les dépendances de la plateforme, permettant ainsi aux développeurs d’exercer une pression sur le code de l’application afin d’accélérer la source des répertoires de contrôle. Elles prescrivent le déploiement. Les services gérés assument la totale responsabilité de l’exploitation de la couche de gestion de Kubernetes&thinsp;; les développeurs peuvent donc rapidement développer, déployer et mettre à l’échelle les applications infonuagiques avec des grappes à la demande. Le processus est plus facile, mais la souplesse est limitée. Une connaissance approfondie des implications complexes est essentielle à la compréhension des différentes façons dont les outils Kubernetes interagissent avec les applications.</p><p>En tant que fournisseur de services Kubernetes nouvellement certifié, CloudOps offre des <a href="“https://www.cloudops.com/fr/ateliers-docker-kubernetes/”" target="_blank">ateliers interactifs</a> pour apprendre à déployer les technologies Docker et Kubernetes sur les nuages publics, incluant GCP. Pour ceux qui ne sont pas certains de la voie à suivre, nous procédons à des <a href="“https://www.cloudops.com/fr/services-2/services-professionnels/architecture-infonuagique/”" target="_blank">évaluations de plateformes applicatives</a> afin de déterminer les besoins commerciaux et techniques de votre entreprise et mettre au point la solution idéale. Même si le processus peut sembler insurmontable, le fait de savoir naviguer entre les complexités de Kubernetes amènera votre entreprise numérique à un niveau supérieur.</p>
+            </article>
+        </div>
+    </div>
+
+
+    <div class="row nav-buttons back-foward in-content">
+        <div
+            class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-xs-2 back-button">
+            
+            <a href="/fr/blog/cloudops-mise-sur-lannee-2018-e2-80-89-voici-comment/"><button class="btn">
+                    <div class="triangle-left">
+                        <div class="inner-left-triangle"></div>
+                    </div>Previous Post
+                </button></a>
+            
+        </div>
+        <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-xs-2 foward-button">
+                
+            <a href="/fr/blog/informatique-sans-serveur-on-aime-ou-pas%e2%80%89-2/">
+                <button class="btn">
+                    Next Post<div class="triangle-right">
+                        <div class="inner-triangle"></div>
+                    </div>
+                </button></a>
+                
+        </div>
+    </div>
+
+    <div class="social">
+        
+
+<style>
+#share-buttons {display: inline-block; vertical-align: middle; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+position: relative;
+text-align: left; 
+height: 36px; 
+float: left; 
+text-align: center;
+}
+#share-buttons > div > svg {height: 36px; fill: #005D91; margin-top: 0;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.facebook > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.twitter > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.linkedin > svg {height: 30px; margin: auto 5px;}
+#share-buttons > div.mail > svg {height: 30px; margin: auto 5px;}
+</style>
+
+<div id="share-buttons">
+<div class="facebook" title="Share this on Facebook" onclick="window.open('http://www.facebook.com/share.php?u=\/fr\/blog\/perdus-en-mer-comment-naviguer-sur-les-eaux-complexes-de-kubernetes-2\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>
+<div class="twitter" title="Share this on Twitter" onclick="window.open('http://twitter.com/home?status=\/fr\/blog\/perdus-en-mer-comment-naviguer-sur-les-eaux-complexes-de-kubernetes-2\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>
+<div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=\/fr\/blog\/perdus-en-mer-comment-naviguer-sur-les-eaux-complexes-de-kubernetes-2\/&title=&summary=&source=');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>
+<div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body=\/fr\/blog\/perdus-en-mer-comment-naviguer-sur-les-eaux-complexes-de-kubernetes-2\/');"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1792 710v794q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-794q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38-42.5-30.5q-91-64-262-182.5t-205-142.5q-62-42-117-115.5t-55-136.5q0-78 41.5-130t118.5-52h1472q65 0 112.5 47t47.5 113z"/></svg></div>
+</div>
+
+        <i class="far fa-copy copy-page-link"></i>
+    </div>
+
+    
+
+    <div class="contact-us-card general-stylings-more-content">
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-cards">
+                    <div class="card-deck">
+                        <div class="card">
+                            <a
+                                href="https://cdn2.hubspot.net/hubfs/732832/CloudOps%20White%20Paper%20-%20A%20PreFlight%20Checklist%20for%20Cloud%20Migration.pdf">
+                                <div class="card-body">
+                                    <h3 class="card-title">A checklist for your cloud migration</h3>
+                                    <p class="card-text">Download the white paper to get a step by step guide to a successful migration strategy.</p>
+                                </div>
+                                <div class="corner-triangle"></div>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a
+                                href="/blog/the-cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration">
+                                <div class="card-body">
+                                    <h3 class="card-title"> Accelerated value delivery</h3>
+                                    <p class="card-text">Read more on how to maximize value through our unique delivery model.</p>
+                                    <div class="corner-triangle"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="https://cdn2.hubspot.net/hubfs/732832/Cloud-Ops_Cloud-Migration_v3.pdf">
+                            <div class="card-body">
+                                <h3 class="card-title">Cloud migration one-pager</h3>
+                                <p class="card-text">
+                                    Everything you need to know about how our services can help get your cloud journey started.
+                                    <div class="corner-triangle"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="/contact-us">
+                            <div class="card-body">
+                                <h3 class="card-title">Networking is the hardest part</h3>
+                                <p class="card-text">Contact us to learn more about our hardware and software-defined networking solutions.</p>
+                                <div class="corner-triangle"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+        </div><div class="footer">
+    <div class="row no-gutters logo">
+        <div class="col-sm-12">
+            <a href="/"><img class="cloudops-logo" src="/images/cO-logo-horizontal.png"
+                    height="45px" width="auto"></a>
+        </div>
+    </div>
+
+    <div class="row no-gutters footer-content">
+        <div class="col-xl-3 offset-xl-2 col-lg-3 offset-lg-0 col-md-12">
+
+            <a href="https://twitter.com/CloudOps_" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/cloudops" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/Cloud0ps/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <h5>Newsletter Signup</h5>
+            <div class="newsletter-form">
+                    <div class="newsletter-form">
+
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "732832",
+	formId: "25575fb9-f01b-43a6-b9cd-2c154efad9f4"
+});
+</script>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-12 col-sm-12 footer-nav">
+            <h6>Services</h6>
+            <ul>
+                <li><a href="/cloud-native-consulting">Cloud Native Consulting</a></li>
+                <li><a href="/transformations">Transformations</a></li>
+                <li><a href="/managed-services-augmented-support">Support</a></li>
+                <li><a href="/delivering-cloud">Delivering Cloud</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-12 footer-nav">
+            <h6>Learning</h6>
+            <ul>
+                <li><a href="/workshops">Workshops</a></li>
+                <li><a href="/blog/blog-posts">Blog</a></li>
+                <li><a href="/resources/white-papers">White Papers</a></li>
+                <li><a href="/resources/case-studies">Case Studies</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xl-2 col-lg-3 col-md-12 footer-nav">
+            <h6>Company</h6>
+            <ul>
+                <li><a href="/about-us">About Us</a></li>
+                <li><a href="/careers">Careers</a></li>
+                <li><a href="/partners">Partners</a></li>
+                <li><a href="/why-cloudops">Why Cloudops</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row no-gutters copyright">
+        <div class="col-sm-12">
+            <p>&copy; CloudOps. Tous droits réservés. // <a href="/privacy-policy">Privacy Policy</a></p>
+        </div>
+    </div>
+</div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/clipboard@2/dist/clipboard.min.js"></script>
+        <script src="/js/main.js"></script>
+
+        </body>
+</html>

@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "Promises.png"
 class_name: "blog post"
+aliases:
+  - /2019/12/what-we-promise-our-customers/
+  - /what-we-promise-our-customers/
 ---
 
 <h4>Own your destiny in the cloud.</h4>

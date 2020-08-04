@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "life-atcloudops.jpg"
 class_name: "blog post"
+aliases:
+  - /2019/08/life-at-cloudops/
+  - /life-at-cloudops/
 ---
 
 At CloudOps, we are always looking for excellent candidates to join our tight-knit team of experts as we work and play with the latest and greatest technologies. Our culture is a shared repository of technical knowledge with which we navigate the increasingly complex cloud native landscape. We sat down with a few of our team members to ask them why they love coming into work every day. Here’s what they said about life at CloudOps.

@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "cybersecurity.png"
 class_name: "blog post"
+aliases:
+    - /2018/01/security-and-resiliency-for-saas-companies/
+    - /security-and-resiliency-for-saas-companies/
 ---
 
 <p> It’s neither a secret nor a surprise that security is a growing problem for SaaS companies, which cumulatively possess a tremendous amount of data. Having been proclaimed the new <a href="https://www.economist.com/news/leaders/21721656-data-economy-demands-new-approach-antitrust-rules-worlds-most-valuable-resource?fsrc=scn/tw/te/rfd/pe" target="_blank">oil</a>, the personal information of customers has become an extremely valuable commodity and this grabs the attention of hackers. Every day, new vulnerabilities are uncovered and malicious attacks are launched at a rate that is difficult to keep up with. In addition to securing data, applications must develop resiliency in order to keep downtime to a minimum. This is especially true at the application layer, which sees the largest number of data breaches in the public cloud. The speed with which updates must be developed is aggravated by the gap between Dev and Ops, container management, and the dependence on manual testing, making security management an uphill battle that only intensifies as a company grows. Attempts to outsource business processes to a B2B SaaS company often result in systemic failure, which can cost customers money, reputation, or even lives. Data breaches become more costly each year and can threaten the underlying infrastructure of a company. In response, industry certifications and external audit reports are becoming imperative to provide adequate levels of assurance regarding the resiliency and security of an application.</p>

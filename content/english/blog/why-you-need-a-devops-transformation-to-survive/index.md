@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "DevOpsUnicornBlessing-1.png"
 class_name: "blog post"
+aliases:
+  - /2019/01/why-you-need-a-devops-transformation-to-survive/
+  - /why-you-need-a-devops-transformation-to-survive/
 ---
 
 <p><strong>Software is eating the world</strong> and organizations are continuously moving towards software-based solutions to their industry’s problems. They are doing so as part of digital transformations that allow them to deliver stronger financial performances.</p>

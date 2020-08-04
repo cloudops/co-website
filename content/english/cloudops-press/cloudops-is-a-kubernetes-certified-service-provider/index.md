@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "KCSP-2.png"
 class_name: "blog post"
+aliases:
+    - /2018/01/cloudops-is-a-kubernetes-certified-service-provider/
+    - /cloudops-is-a-kubernetes-certified-service-provider/
 ---
 
 <p>CloudOps is pleased to announce that we are now a Kubernetes Certified Service Provider (KCSP). Run by the Cloud Native Computing Foundation in collaboration with the Linux Foundation, the <a href="https://kubernetes.io/partners/" target="_blank">KCSP</a> program is comprised of 28 vetted service providers with substantial experience helping enterprises adopt Kubernetes successfully. KCSP partners provide support, consulting, and professional services and training for organizations seeking to embrace container solutions. As the only partner in Canada, CloudOps works with partners internationally, and with the CNCF to create a strong and vibrant Kubernetes culture that supports an array of complementary platforms, and fosters the community built around it. As Maximilian Morgan, our VP of Professional Services, said:</p>

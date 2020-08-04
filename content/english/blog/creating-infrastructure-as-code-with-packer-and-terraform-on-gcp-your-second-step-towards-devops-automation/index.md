@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "Meme2-1.jpg"
 class_name: "blog post"
+aliases:
+    - /2018/03/creating-infrastructure-as-code-with-packer-and-terraform-on-gcp-your-second-step-towards-devops-automation/
+    - /creating-infrastructure-as-code-with-packer-and-terraform-on-gcp-your-second-step-towards-devops-automation/
 ---
 
 <p>Everyone wants to adopt Infrastructure as Code to configure and automate the infrastructure of their application as it embraces DevOps best practices. Figuring out ways to automate your CI/CD pipeline is at the heart of this transition, and is a huge interest of mine.</p>

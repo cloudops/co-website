@@ -6,6 +6,7 @@ resources:
 - name: "thumbnail"
   src: "KTP-copy.png"
 class_name: "blog post"
+slug: /cloudops-fait-maintenant-partie-des-partenaires-de-formation-kubernetes-kubernetes-training-partner-ou-ktp
 ---
 
 <p>CloudOps est enchantée d’annoncer son adhésion au tout nouveau programme KTP (<a href="https://www.cncf.io/announcement/2018/05/02/cloud-native-computing-foundation-announces-new-partner-program-for-kubernetes-training-partners-ktp/" target="_blank">Kubernetes Training Partner</a>). Exploité par la Cloud Native Computing Foundation (CNCF), le programme KTP est axé sur l’avancement des efforts éducatifs par les fournisseurs certifiés de services Kubernetes (<a href="https://www.cncf.io/certification/kcsp/" target="_blank">KCSP</a>). CloudOps offre des services professionnels de soutien, de consultation, et de formation pour les organisations qui cherchent à adopter des solutions infonuagiques. Comme le dit Dan Kohn, directeur exécutif de la CNCF :</p>

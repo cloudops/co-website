@@ -7,6 +7,9 @@ resources:
 - name: "thumbnail"
   src: "Cut-Costs-in-the-Cloud.png"
 class_name: "blog post"
+aliases:
+  - /2020/04/8-ways-to-cut-cloud-consumption-costs/
+  - /8-ways-to-cut-cloud-consumption-costs/
 ---
 
 

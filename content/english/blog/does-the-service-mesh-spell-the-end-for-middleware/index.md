@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "servicemesh-1.jpg"
 class_name: "blog post"
+aliases:
+  - /2018/09/does-the-service-mesh-spell-the-end-for-middleware/
+  - /does-the-service-mesh-spell-the-end-for-middleware/
 ---
 
 <p>Middleware is perhaps fading away in the place of the service mesh as Istio and related technologies continue to garner momentum. They both oversee communication between various applications and services, but can differ substantially in operations as well as paradigms. Prominent in service-oriented architectures, could middleware become irrelevant in today’s container-focused world?</p>

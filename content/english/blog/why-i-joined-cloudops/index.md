@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "MaddisonLongatConference.png"
 class_name: "blog post"
+aliases:
+    - /2019/01/why-i-joined-cloudops/
+    - /why-i-joined-cloudops/
 ---
 
 <p>After spending the last three years scaling up an open source network solutions startup from ground up to acquisition, I am fortunate to be starting a tremendous new opportunity with a rare sense of completion.</p>

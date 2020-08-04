@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "file000458994938.jpg"
 class_name: "blog post"
+aliases:
+    - /2014/07/the-fight-is-over-and-saas-has-won/
+    - /the-fight-is-over-and-saas-has-won/
 ---
 
 

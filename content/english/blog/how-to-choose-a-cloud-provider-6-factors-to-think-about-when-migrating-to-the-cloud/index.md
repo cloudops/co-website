@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "cloudprovider.png"
 class_name: "blog post"
+aliases:
+  - /2018/08/how-to-choose-a-cloud-provider-6-factors-to-think-about-when-migrating-to-the-cloud/
+  - /how-to-choose-a-cloud-provider-6-factors-to-think-about-when-migrating-to-the-cloud/
 ---
 
 <p>Ever since AWS came out with its first public cloud offering in 2006, the industry has grown to an estimated<a href="https://www.forrester.com/report/Predictions+2018+Cloud+Computing+Accelerates+Enterprise+Transformation+Everywhere/-/E-RES139611">$178 billion</a>of revenues per year. Cloud computing has enabled highly dynamic and scalable infrastructures that can deliver significant returns on investment. The migration of workloads from on-premise facilities to cloud offerings is often cited as a business priority. Nonetheless, less than half of all companies had placed any workloads in public clouds by the beginning of 2018. Migration strategies have typically been put on hold as the plethora of decisions they require can be overwhelming. Yet they are quickly becoming an imperative as organizations that fail to deliver sufficiently agile ways of processing information risk becoming obsolete.</p>

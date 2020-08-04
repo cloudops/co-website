@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "PROFIT-500-Logo-2017-BLUE.png"
 class_name: "blog post"
+aliases:
+    - /2017/09/cloudops-ranks-305-on-2017-profit-500/
+    - /cloudops-ranks-305-on-2017-profit-500/
 ---
 
 <p>– Canadian Business unveils 29th annual list of Canada’s Fastest-Growing Companies –</p>

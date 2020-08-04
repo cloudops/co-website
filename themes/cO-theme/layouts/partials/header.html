@@ -164,19 +164,79 @@
         <li class="nav-item">
           <a href="/contact-us"><button class="btn" type="submit">Contact</button></a>
         </li>
-        <li>
-          {{ if .IsTranslated }}
-          {{ range .Translations }}
+ 
+        {{ if .IsTranslated }}
+          <li id="multi-language-menu" class="nav-item list-group list-group-flush">
+            <a class="language nav-link language-menu list-group-item list-group-item-action" href="{{ .Permalink }}">{{ .Lang | upper }}</a>
 
-        <li id="multi-language-menu" class="nav-item list-group list-group-flush">
-          <a class="language nav-link language-menu list-group-item list-group-item-action" href="/">EN</a>
-          <p class="language-menu">|</p>
-          <a class="language nav-link language-menu list-group-item list-group-item-action" href="/fr">FR</a>
-        </li>
+            {{ range .Translations }}
+              <p class="language-menu">|</p>
+              <a class="language nav-link language-menu list-group-item list-group-item-action" href="{{ .Permalink }}">{{ .Lang | upper }}</a>
+            {{ end }}
+
+          </li>
         {{ end }}
-        {{ end }}
-        </li>
+
       </ul>
     </div>
+
   </nav>
+
+  {{ if .IsTranslated }}
+  <div class="responsive-language-menu">
+    <a href="{{ .Permalink }}">{{ .Lang | upper }}</a>
+
+    {{ range .Translations }}
+      <a href="{{ .Permalink }}">{{ .Lang | upper }}</a>
+    {{ end }}
+
+  </div>
+
+  <style>
+    @media (max-width: 550px) {
+      #multi-language-menu {
+        display: none;
+      }
+
+      .responsive-language-menu { 
+        display: flex;
+      }
+    }
+
+    @media (min-width: 550px) {
+      .responsive-language-menu {
+        display: none;
+      }
+    }
+
+    .responsive-language-menu {
+      height: 85px;
+      align-items: center;
+    }
+
+    .responsive-language-menu a {
+      border-right: 2px solid #aaa;
+      padding: 0 10px;
+      line-height: 15px;
+    }
+
+    .responsive-language-menu a:last-child {
+      border-right: 0;
+    }
+
+    #main-nav {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    #main-nav > .navbar {
+      flex-grow: 1;
+    }
+
+    #main-nav > .responsive-language-menu {
+      justify-self: flex-end;
+    }
+  </style>
+{{ end }}
+
 </div>

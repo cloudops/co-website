@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "branham300.png"
 class_name: "blog post"
+aliases:
+    - /2019/07/cloudops-is-named-one-of-canadas-top-ict-companies-in-2019-by-branham300/
+    - /cloudops-is-named-one-of-canadas-top-ict-companies-in-2019-by-branham300/
 ---
 
 <p><a href="https://branhamgroup.com/2019%20B300%20Listing/cloudops/">CloudOps is pleased to have placed 191st in the Branham300 list of Top 250 Canadian ICT companies in 2019.</a> This is the fourth consecutive year that CloudOps has been listed in this ranking. CloudOps was listed 197th in the 2018 Branham300 ranking.</p>

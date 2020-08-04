@@ -6,6 +6,7 @@ resources:
 - name: "thumbnail"
   src: "ServiceMesh.png"
 class_name: "blog post"
+slug: /sillonner-le-paysage-cloud-native-avec-cloudops
 ---
 
 <p>Afin de prospérer en l’ère numérique d’aujourd’hui, les organisations doivent concevoir et mettre en place des piles technologiques flexibles qui procurent une certaine agilité à leur entreprise. Deux éléments importants de cela sont les infrastructures et les plateformes applicatives à provisionnement, mise à l’échelle et rétablissement automatiques, mais elles requièrent des outils et des processus qui leur sont appropriés.</p>

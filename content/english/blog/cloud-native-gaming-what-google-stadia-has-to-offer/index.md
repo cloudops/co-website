@@ -6,6 +6,9 @@ resources:
 - name: "thumbnail"
   src: "GoogleStadia.png"
 class_name: "blog post"
+aliases:
+  - /2019/03/cloud-native-gaming-what-google-stadia-has-to-offer/
+  - /cloud-native-gaming-what-google-stadia-has-to-offer/
 ---
 
 <h4><strong><em>Gamers and developers alike are finally getting a glimpse of the not-too-distant future of cloud gaming</em></strong></h4>
