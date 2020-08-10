@@ -1,25 +1,12 @@
 ---
-title: "CloudOps Listed on Branham300 for Second Consecutive Year"
+title: "CloudOps figure au palmarès Branham300 pour la deuxième année consécutive"
 lastmod: "2017-06-06"
 author: "Julia Simon"
 resources:
 - name: "thumbnail"
-  src: "branham300.png"
+  src: "Branham300_logo_frenchlarge.png"
 class_name: "blog post"
+slug: /cloudops-palmares-branham300-deuxieme-annee-consecutive
 ---
 
-<p><b>Montreal, June 6, 2017:</b> CloudOps has once again been listed on the Branham300, ranking at number 227 among Canada’s most-profitable public and private technology companies. The prestigious list ranks companies based on revenue and profitability. CloudOps is pleased and honoured to be part of this elite group for a second year. This reinforces CloudOps’ strategic plans in cloud platform management, telco and enterprise shared services sectors, all of which are steadily growing with the adoption of cloud services.</p>
-
-<p>The 2017 results are record breaking for the Branham300, hitting all-time revenue highs, with the growth rate almost doubling this year. The companies on the 2016 list (for fiscal 2015) earned $96.1 billion: a year-over-year increase of 5.7%. This year (fiscal 2016) the 300 organizations jointly earned $105.3 billion: a year-over-year increase of 9.6%.</p>
-
-<p>“It is a very exciting time for cloud computing and for CloudOps, who enables the convergence of big data, IoT and machine learning technologies on cloud platforms, driving veritable explosion of innovation and next generation business models.” says Ian Rae, CEO, CloudOps.</p>
-
-<p>“I am again impressed by the performance of Canada’s technology community. The sector has set another revenue record, as measured by our Top 250 ranking of Canadian companies, and the younger companies that comprise our Top 25 Up and Comer list show great promise and will help build our innovation economy. The companies that comprise the Branham300 have a lot of reasons to be proud.” Wayne Gudbranson, CEO, Branham Group.</p>
-
-<p><b>About Branham300</b></p>
-
-<p>The Branham300 is the definitive listing of Canada’s top public and private ICT companies. They rank companies by revenues. 2017 marks the 24th annual Branham300 ranking of public and private technology companies in Canada.<br> The companies that comprise the Top 250 have set a new revenue record. For more information: <a href="https://www.branham300.com" target="_blank">www.branham300.com</a></p>
-
-<p>Follow CloudOps on <a href="https://twitter.com/CloudOps_" target="_blank">Twitter</a> and <a href="https://www.linkedin.com/company/cloudops" target="_blank">LinkedIn</a>.</p>
-
-<p>Any inquiries:<br> Julia Simon, jsimon@cloudops.com</p>
+<p><b>Montréal, le 6 juin 2017 :</b> CloudOps se classe au palmarès Branham300 une fois de plus, se retrouvant au 227e rang parmi les entreprises technologiques publiques et privées les plus profitables au Canada. Cette liste prestigieuse évalue les entreprises selon leur revenu et leur rentabilité. CloudOps est honorée et enchantée de faire partie de ce groupe d’élite pour une deuxième année. Ceci renforce ses objectifs stratégiques en matière de gestion de plateforme infonuagique, de télécommunications et de services gérés par les entreprises, domaines qui sont tous en croissance constante.</p><p>Les résultats de 2017 battent des records pour Branham300, atteignant des niveaux de revenu inégalés et un taux de croissance ayant presque doublé cette année. Les entreprises se retrouvant sur la liste de 2016 (année financière 2015) ont rapporté 96,1 milliards de dollars, une augmentation de 5,7 % sur l’année précédente. Cette année (année financière 2016), les 300 organisations ont rapporté 105,3 milliards de dollars, une augmentation de 9,6 % sur l’année précédente.</p><p>Selon Ian Rae, D.G de CloudOps, «&thinsp;C’est une époque très stimulante pour l’infonuagique&thinsp;; et pour CloudOps, qui permet la convergence des données massives, de l’IdO et des technologies d’apprentissage machine sur plateforme infonuagique, cela entraine une véritable explosion d’innovations et de modèles commerciaux nouvelle génération. »</p><p>«&thinsp;Je suis, impressionné, encore une fois, par la performance de la communauté technologique canadienne. Ce secteur a établi un nouveau record de revenus, déterminé par nos 250 meilleures entreprises canadiennes, et la liste des 25 meilleures jeunes entreprises prometteuses démontre un potentiel qui aidera à bâtir une économie innovante. Les entreprises qui figurent au palmarès Branham300 ont de quoi être fières&thinsp;» a déclaré Wayne Gudbranson, D. G. de Branham Group.</p><p><b>À propos de Branham300</b><br> Le palmarès Branham300 est le classement définitif des meilleures entreprises technologiques canadiennes publiques et privées. Les entreprises sont évaluées selon leurs revenus. L’année 2017 marque le 24e palmarès annuel Branham300 des entreprises technologiques publiques et privées canadiennes.<br> Les entreprises qui figurent au classement des 250 meilleures ont établi un nouveau record en matière de revenus. Pour de plus amples informations : <a href="https://www.branham300.com" target="_blank">www.branham300.com</a>.</p><p>Suivez CloudOps sur <a href="https://twitter.com/CloudOps_" target="_blank">Twitter</a> et sur <a href="https://www.linkedin.com/company/cloudops" target="_blank">LinkedIn</a>.</p><p>Pour toutes questions :<br> Julia Simon<br> jsimon@cloudops.com</p>

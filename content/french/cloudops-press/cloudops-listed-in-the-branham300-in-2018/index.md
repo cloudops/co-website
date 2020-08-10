@@ -1,19 +1,18 @@
 ---
-title: "CloudOps listed in the Branham300 in 2018"
-lastmod: "2018-06-27"
+title: "CloudOps au Palmarès Branham300 cette annee"
+lastmod: "2018-06-28"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
   src: "branham300.png"
 class_name: "blog post"
+slug: /cloudops-au-palmares-branham300-2018
 ---
 
-<p>CloudOps is pleased to be listed in the Branham300 Top 250 companies in 2018&nbsp;for the third consecutive year. CloudOps has been listed as the 197th company, up from last year. Consisting of Canada’s most profitable, public and private technology companies, the ranking is based on revenue. All Top 250 companies have demonstrated significant revenue growth in every year since 2009, and altogether they represent over half of the nation’s ICT (Information and Communications Technology) sector revenue.</p>
+<p>27 juin 2018 – CloudOps est fière de se retrouver au 197e rang du palmarès Branham300 2018 des 250 meilleures entreprises, en hausse par rapport à l’année dernière. Le palmarès est basé sur le revenu des entreprises technologiques publiques et privées les plus profitables au Canada. Chacune des 250 entreprises a démontré une croissance significative des revenus, chaque année depuis 2009, et ensemble, elles représentent plus de la moitié du revenu du secteur des TIC (technologies de l’information et des communications).</p>
 
-<p>Now in its 25th year, the results of the Branham300 have consistently showcased the growth of the technology sector in Canada. In 2016, there was $105.3 billion in total Top 250 revenue. In 2017, this grew to $106.5 billion. Representing 96% of all companies listed this year, growth is seen the most in Quebec, Ontario, Alberta, and British Columbia. As Ian Rae, CloudOps’ CEO, stated:</p>
+<p>Maintenant dans sa 25e année, le palmarès Branham300 a toujours mis en valeur la croissance du secteur des technologies au Canada. En 2016, le revenu total des entreprises classées au TOP 250 était de 105,3 milliards de dollars. En 2017, on l’a vu croître jusqu’à 106,5 milliards de dollars. Représentant 96 % des entreprises figurant au palmarès cette année, la croissance a pu être observée majoritairement au Québec, en Alberta et en Colombie-Britannique.</p>
 
-<blockquote><p>“CloudOps’ growth is being driven by the relentless growth and evolution of cloud computing and the associated digital transformation of industries, such as telecommunications and healthcare. We are proud to be recognized again among a great roster of Canadian technology companies helping connect Canada to an increasingly globalized digital economy.”</p></blockquote>
+<p>CloudOps s’est classée, en 2016, au 227e rang ; nous sommes heureux de renforcer notre positionnement comme consultant et fournisseur de services infonuagiques orienté sur la source libre, les plateformes infonuagiques, le réseautage et le DevOps. Tandis que le secteur des TIC continue de croître, CloudOps continuera d’aider les entreprises à rester maîtres de leur destin dans les nuages et de renforcer la réputation du Canada comme chef de file technologique.</p>
 
-<p>CloudOps was listed 227th for <a href="https://www.cloudops.com/2017/06/cloudops-branham300-second-consecutive-year/" target="_blank" rel="noopener noreferrer">2016</a>, and we are happy to reinforce our position delivering cloud services and consulting focused on open source, cloud platforms, networking, and DevOps. As the ICT sector continues to grow, CloudOps will continue to help companies own their destinies in the clouds and reinforce Canada’s reputation as a technology leader.</p>
-
-<p>For more information on the rankings, visit the Branham300 <a href="https://www.branham300.com/index.php" target="_blank" rel="noopener noreferrer">website</a>. Additionally, the website contains information on the revenue dates, corporate descriptions, and contact information for each company listed.</p>
+<p>Pour de plus amples informations sur le palmarès, visitez le <a href="https://www.branham300.com/index.php" target="_blank" rel="noopener noreferrer">site Internet</a> de Branham300. Par ailleurs, on peut trouver pour chaque entreprise, les renseignements sur les dates des revenus, les descriptions des entreprises et leurs coordonnées.</p>
