@@ -6,7 +6,10 @@ resources:
 - name: "thumbnail"
   src: "ServiceMesh.png"
 class_name: "blog post"
-slug: /comparaison-des-services-mailles-istio-linkerd-et-consul-connect-x
+slug: /comparaison-des-services-mailles-istio-linkerd-et-consul-connect
+aliases:
+    - /fr/2020/06/comparaison-des-services-mailles-istio-linkerd-et-consul-connect/
+    - /fr/comparaison-des-services-mailles-istio-linkerd-et-consul-connect
 ---
 
 <p>Les microservices fournissent aux applications, des moyens pour devenir hautement évolutives, portatives et résilientes. Ils peuvent accélérer les pipelines de livraison et d’intégration continue (CI/CD) et faciliter les environnements à nuages multiples. Ils agissent comme antidote au couplage fort qui est maintenu par les architectures monolithiques et qui peut être difficile à adapter puisqu’il faut réévaluer toute l’application lorsque que survient un problème, une mise à jour ou un changement de fonctionnalité dans un module. Les microservices renforcent les environnements volatiles et modernisés qui peuvent alimenter la demande en matière d’innovation de logiciel infonuagique natif.</p>

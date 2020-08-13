@@ -7,6 +7,9 @@ resources:
   src: "161019_cybersecurity.jpg"
 class_name: "blog post"
 slug: /les-problemes-relatifs-a-la-securite-auxquels-font-face-les-entreprises-saas
+aliases:
+    - /fr/2018/03/les-problemes-relatifs-a-la-securite-auxquels-font-face-les-entreprises-saas/
+    - /fr/les-problemes-relatifs-a-la-securite-auxquels-font-face-les-entreprises-saas
 ---
 
 <p>Ce n’est pas un secret ni une surprise que le manque de sécurité soit un problème croissant pour les entreprises SaaS qui possèdent entre elles, une énorme quantité de données. Les renseignements personnels des clients deviennent des marchandises précieuses, comme le pétrole, et cela attire l’attention des pirates informatiques. De nouvelles vulnérabilités sont découvertes quotidiennement et des attaques malveillantes sont lancées à un rythme effréné. En plus de sécuriser les données, les applications doivent développer de la robustesse afin de maintenir les temps d’arrêt au minimum. Ceci est particulièrement vrai au niveau de l’application, car c’est à ce niveau que, dans le nuage public, l’on voit le plus de violation de données. La vitesse à laquelle les mises à jour doivent être développées est aggravée par le fossé entre les DevOps, la gestion de conteneurs et la dépendance aux essais manuels ; la gestion de la sécurité est donc un dur combat qui ne fait que s’intensifier au fur et à mesure que l’entreprise croit. Les tentatives de sous-traitance des procédés commerciaux vers une entreprise B2B SaaS aboutissent souvent à un échec systémique qui peut faire perdre de l’argent aux clients, nuire à leur réputation ou même à leur vie. Les violations de données deviennent chaque année de plus en plus coûteuses, et menacent l’infrastructure sous-jacente de l’entreprise. Pour y répondre, les certifications de l’industrie et les rapports d’audits externes deviennent essentiels pour assurer adéquatement la robustesse et la sécurité d’une application.</p>

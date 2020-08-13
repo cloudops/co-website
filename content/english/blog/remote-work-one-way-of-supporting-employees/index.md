@@ -1,7 +1,7 @@
 ---
 title: "Remote Work: One Way of Supporting Employees"
 lastmod: "2020-03-27"
-author: "CloudOps"
+author: "Ariel Zolezzi"
 resources:
 - name: "thumbnail"
   src: "RemoteWork.png"
@@ -22,8 +22,8 @@ aliases:
 <p>The most important thing I learned in the midst of this crisis is, though, that when I thought my team couldn’t be any more supportive, they surprised me once again by outdoing themselves. I realize that not everybody is as lucky as I am to work with a team that shows that level of support, especially in moments as dire as this pandemic. Having said that, I would encourage you, the reader, to be as supportive as you can be to your colleagues. Whether you are an employer or an employee, try to be a rainbow in someone’s cloud. That has been and continues to be my experience at CloudOps. Together (via Zoom and other stuff to keep social distancing) we are weathering this crisis and we’ll come out of it even stronger.&nbsp;</p>
 
 <img style="width: 150px;" src="/images/blog/post/CarloDeLaFuente.jpg" alt="" class="alignleft">
-<h4>Carlo De La Fuente</h4>
-<p>Carlo De La Fuente is the Office Manager at CloudOps who works hard keeping the team happy and healthy. She is a non-binary spirit who’s been having a human experience since the early 90s. Some of her hobbies include long walks around the city of Montreal, exploring her spiritual side and watching old Hollywood movies with her cats.</p>
+<h4>Ariel Zolezzi</h4>
+<p>Ariel Zolezzi is the Office Manager at CloudOps who works hard keeping the team happy and healthy. She is a non-binary spirit who’s been having a human experience since the early 90s. Some of her hobbies include long walks around the city of Montreal, exploring her spiritual side and watching old Hollywood movies with her cats.</p>
 
 
 <p>&nbsp;</p>

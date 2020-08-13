@@ -7,6 +7,9 @@ resources:
   src: "MagicDove.jpg"
 class_name: "blog post"
 slug: /bienvenue-en-2020
+aliases:
+    - /fr/2020/02/bienvenue-en-2020%E2%80%89/
+    - /fr/bienvenue-en-2020
 ---
 
 <blockquote class="wp-block-quote"><p><strong>« Toute technologie suffisamment avancée est indiscernable de la magie »</strong></p><p><cite><a href="https://fr.wikipedia.org/wiki/Trois_lois_de_Clarke">Arthur C. Clarke</a></cite></p></blockquote>

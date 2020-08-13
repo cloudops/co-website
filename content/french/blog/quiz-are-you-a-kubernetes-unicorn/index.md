@@ -7,6 +7,9 @@ resources:
   src: "Quiz.jpg"
 class_name: "blog post"
 slug: /questionnaire-etes-vous-une-licorne-kubernetes
+aliases:
+    - /fr/2019/08/questionnaire-etes-vous-une-licorne-kubernetes%E2%80%89/
+    - /fr/questionnaire-etes-vous-une-licorne-kubernetes
 ---
 
 <p>Testez vos connaissances de Kubernetes en répondant à ce questionnaire et découvrez si oui ou non, vous êtes une «&nbsp;perle rare&nbsp;» !</p>

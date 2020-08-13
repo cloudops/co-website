@@ -7,6 +7,9 @@ resources:
   src: "Red-Hat-Logo.png"
 class_name: "blog post"
 slug: /cloudops-est-maintenant-partenaire-de-la-plateforme-applicative-redhat
+aliases:
+    - /fr/2018/07/cloudops-est-maintenant-partenaire-de-la-plateforme-applicative-redhat/
+    - /fr/cloudops-est-maintenant-partenaire-de-la-plateforme-applicative-redhat
 ---
 
 <p>CloudOps est fière de devenir membre de l’initiative de partenariat à la plateforme applicative RedHat (<a href="https://www.redhat.com/fr/about/press-releases/red-hat-introduces-new-application-platform-partner-initiative" target="_blank">APP</a>). L’initiative APP est constituée de partenaires axés sur les plateformes applicatives avec technologies émergentes, elle encourage une collaboration plus étroite entre RedHat et ses partenaires dans l’aide apportée aux organisations pour moderniser leurs plateformes applicatives.</p>

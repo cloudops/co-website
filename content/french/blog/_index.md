@@ -1,6 +1,11 @@
 ---
 title: Blogue
 class_name: "blog"
+slug: "blogue"
+aliases: 
+    - /fr/category/blogue/
+    - /fr/2012/10/cloudops-cree-de-nouvelles-options-de-conception-pour-les-communautes-code-source-libre-grace-a-un-nouvel-intergiciel/
+    - /fr/2012/05/interop-enterprise-cloud-summit-2/ 
 ---
 
 <div class="blog-main">

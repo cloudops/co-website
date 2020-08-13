@@ -6,6 +6,10 @@ resources:
   - name: "thumbnail"
     src: "MaximilianWeisbecker.jpg"
 class_name: "blog post"
+slug: "guide-cncf-du-debutant"
+aliases:
+  - /fr/2018/10/guide-cncf-du-debutant/
+  - /fr/guide-cncf-du-debutant
 ---
 
 Le contexte des déploiements infonuagiques natifs peut paraître compliqué et
