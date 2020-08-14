@@ -8,7 +8,7 @@ resources:
 class_name: "blog post"
 slug: /comment-choisir-un-fournisseur-infonuagique-6-elements-sur-lesquels-se-concentrer-lors-de-la-migration-vers-un-nuage
 aliases:
-    - //fr/2018/08/comment-choisir-un-fournisseur-infonuagique-6-elements-sur-lesquels-se-concentrer-lors-de-la-migration-vers-un-nuage/
+    - /fr/2018/08/comment-choisir-un-fournisseur-infonuagique-6-elements-sur-lesquels-se-concentrer-lors-de-la-migration-vers-un-nuage/
     - /comment-choisir-un-fournisseur-infonuagique-6-elements-sur-lesquels-se-concentrer-lors-de-la-migration-vers-un-nuage
 ---
 
