@@ -21,7 +21,7 @@ aliases:
 
 <p>The supplemental pack is available on GitHub<a href="https://github.com/cloudops/ReLVHDoISCSISR" target="_blank">here</a> and is verified as “Citrix Ready”. Citrix will continue to offer commercial support for XenServer with the supplemental pack installed, though it will not support the supplemental pack itself.</p>
 
-<p>This supplemental pack enables the ability to reattach LUNs created by taking snapshots of ISCSI SRs on backends like SolidFire or Equallogic. This is done by “resignaturing” the SR metadata so that there are no conflicts during reattachment . This gives the ability to use much more efficient backend snapshots instead of XenServer snapshots, which are relatively slow and have an impact on guest VM performance . By limiting to a single VDI in a LUN, we can also enable QoS per volume (if the storage supports it, which SolidFire does).</p>
+<p>This supplemental pack enables the ability to reattach LUNs created by taking snapshots of ISCSI SRs on backends like SolidFire or Equallogic. This is done by “resignaturing” the SR metadata so that there are no conflicts during reattachment. This gives the ability to use much more efficient backend snapshots instead of XenServer snapshots, which are relatively slow and have an impact on guest VM performance. By limiting to a single VDI in a LUN, we can also enable QoS per volume (if the storage supports it, which SolidFire does).</p>
 
 <p><b>VVOLs Comparison</b></p>
 
