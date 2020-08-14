@@ -1,5 +1,6 @@
 ---
-title: Resources
+title: Ressources
+slug: "ressources"
 ---
 
 <div class="blog-main">
@@ -7,7 +8,7 @@ title: Resources
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-5 offset-xl-2 col-lg-7 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-xs-12">
-                        <h1 class="display-4">Resources</h1>
+                        <h1 class="display-4">Ressources</h1>
                 </div>
             </div>
             <div class="row">
