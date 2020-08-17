@@ -48,13 +48,13 @@ aliases:
                 <div class="row no-gutters">
                     <div class="col-xl-6  col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <img src="/images/blog-posts.svg">
-                        <a href="/blog/blog-posts"><h3>Monthly newsletter</h3></a>
-                        <p><a href="#">Sign up for the CloudOps newsletter</a>  to stay up to date with our latest articles and news. We’ll help you navigate the complexities of the DevOps and cloud native landscapes by sharing the insights of technical experts and business leaders.</p>
+                        <a href="/blog"><h3>Monthly newsletter</h3></a>
+                        <p><a href="/newsletter-signup">Sign up for the CloudOps newsletter</a>  to stay up to date with our latest articles and news. We’ll help you navigate the complexities of the DevOps and cloud native landscapes by sharing the insights of technical experts and business leaders.</p>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <img src="/images/community-news.svg">
                         <a href="/blog/community-news"><h3>Community News</h3></a>
-                        <p>Early adopter or new to cloud native communities? Everyone is welcome! <a href="#">Sign up for our cloud native newsletter</a> to hear about upcoming (online) meetups, events, and ways to deepen your open source skillset.</p>
+                        <p>Early adopter or new to cloud native communities? Everyone is welcome! <a href="/community-newsletter-signup">Sign up for our cloud native newsletter</a> to hear about upcoming (online) meetups, events, and ways to deepen your open source skillset.</p>
                     </div>
                 </div>
             </div>

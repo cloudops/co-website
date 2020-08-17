@@ -52,7 +52,7 @@ resources:
             </div>
             <div
                 class="col-xl-3 offset-xl-3 col-lg-3 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-xs-12">
-                <h2>Where should we send this white paper?</h2>
+                <h2>Où devrions-nous envoyer ce livre blanc?</h2>
             </div>
             <div
                 class="col-xl-5 offset-xl-0 col-lg-6 offset-lg-1 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-xs-12 general-contact-form">
