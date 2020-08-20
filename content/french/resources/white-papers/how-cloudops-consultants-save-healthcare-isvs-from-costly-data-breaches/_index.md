@@ -1,9 +1,10 @@
 ---
-title: Accélérer la transformation DevOps en effectuant une évaluation de la culture et des procédés
-lastmod: 2020-07-06
+title: Comment les consultants en infonuagique sauvent le domaine des soins de santé des violations de données coûteuses
+lastmod: 2020-07-01
 resources:
 - name: "thumbnail"
-  src: "devops_trans.png"
+  src: "healthcare_isv.png"
+slug: "comment-les-consultants-en-infonuagique-sauvent-le-domaine-des-soins-de-sante-des-violations-de-donnees-couteuses"
 ---
 
 
@@ -13,7 +14,7 @@ resources:
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-6 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
-                    <h1 class="display-4">Accélérer la transformation DevOps en effectuant une évaluation de la culture et des procédés</h1>
+                    <h1 class="display-4">Comment les consultants en infonuagique sauvent le domaine des soins de santé des violations de données coûteuses</h1>
                 </div>
             </div>
         </div>
@@ -22,14 +23,14 @@ resources:
         <div class="row">
             <div class="col-xl-4 offset-xl-2 without-bottom-line">
                 <div class="workshop-prerequisites">
-                    <h2>Un document de CloudOps Recherche sur la transformation DevOps</h2>                             
-                    <p>Le DevOps est un ensemble de philosophies culturelles, de pratiques et d’outils visant à accroître les capacités d’une organisation afin qu’elle puisse livrer, de façon ultra rapide, des applications et des services, et ainsi améliorer et faire évoluer ses produits à un rythme plus élevé que les organisations qui développent des logiciels et gèrent leur infrastructure de manière traditionnelle.</p>
-                    <p>Lorsque vous vous engagez dans une transformation DevOps, il est important de définir un schéma directeur qui cible systématiquement les points les plus faibles d’un pipeline et augmente de manière uniforme l’efficacité des processus. Lisez ce livre blanc pour en apprendre plus.</p>
+                    <h2>Un document de CloudOps recherche</h2>   
+                    <p>Le processus de migration des données et des applications vers le nuage offre des possibilités intéressantes aux distributeurs de logiciels du domaine des soins de santé, mais il crée aussi des vulnérabilités qui peuvent être exploitées par des attaquants malveillants. Puisqu’ils traitent de grandes quantités de données clients sensibles, les distributeurs de logiciels indépendants (“ISV”) sont chargés de résoudre les problèmes de sécurité et de minimiser le risque de violations pour protéger ces informations.</p>
+                    <p>Dans ce rapport, nous explorons comment sécuriser la plateforme de services.</p>
                     <p><i>Enregistrez-vous et téléchargez ce document de recherche aujourd'hui!</i></p>
                 </div>
             </div>
-                <div class="col-xl-4 offset-xl-0 white-paper-image">
-                <img src="/images/white-papers/how-to-initiate-devops-transformation.png">
+                <div class="col-xl-4 white-paper-image">
+                <img src="/images/white-papers/save-healthcare-from-data-breaches.png">
             </div>
         </div>
             </div>
@@ -53,8 +54,8 @@ resources:
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
 <script>
   hbspt.forms.create({
-        portalId: "732832",
-        formId: "1046673f-d036-43a1-9c2f-833e260ae7e4"
+	portalId: "732832",
+	formId: "ddea7ca0-a072-4228-938f-ce435ee524cf"
 });
 </script>
             </div>

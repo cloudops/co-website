@@ -39,7 +39,7 @@ slug: "azure-kubernetes-services-la-securite-des-conteneurs-pour-un-monde-infonu
                 </div>
             </div>
                 <div class="col-xl-4 offset-xl-0 white-paper-image">
-                <img src="/images/white-papers/azure-kubernetes-services.png">
+                <img src="/images/white-papers/azure-kubernetes-services-fr.png">
             </div>
         </div>
             </div>

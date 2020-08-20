@@ -30,7 +30,7 @@ slug: "securisation-de-votre-plateforme-devops-entreprise-moderne"
                 </div>
             </div>
                 <div class="col-xl-4 offset-xl-0 white-paper-image">
-                <img src="/images/white-papers/devops-platform-financial.png">
+                <img src="/images/white-papers/devops-platform-fr.png">
             </div>
         </div>
             </div>

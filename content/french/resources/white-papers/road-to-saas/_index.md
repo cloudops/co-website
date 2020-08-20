@@ -30,7 +30,7 @@ slug: "en-route-vers-le-saas"
                 </div>
             </div>
                 <div class="col-xl-4 offset-xl-0 white-paper-image">
-                <img src="/images/white-papers/road-to-sass.png">
+                <img src="/images/white-papers/road-to-sass-fr.png">
             </div>
         </div>
             </div>

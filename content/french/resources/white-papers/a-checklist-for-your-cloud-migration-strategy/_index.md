@@ -4,6 +4,7 @@ lastmod: 2020-07-05
 resources:
 - name: "thumbnail"
   src: "cloudmigration.png"
+  slug: "petite-liste-de-verification-utile-avant-la-migration-vers-le-nuage"
 ---
 
 
@@ -38,7 +39,7 @@ resources:
                 </div>
             </div>
                 <div class="col-xl-4 offset-xl-0 white-paper-image">
-                <img src="/images/white-papers/cloud-migration-strategy.png">
+                <img src="/images/white-papers/cloud-migration-fr.png">
             </div>
         </div>
             </div>

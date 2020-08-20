@@ -1,7 +1,8 @@
 ---
-title: CloudOps and Element AI - Building a Cloud Native Platform on Azure
-ExternalLink: https://cdn2.hubspot.net/hubfs/732832/EN_CloudOps_CS_Element-AI_Consulting-Enablement_19-12-17.pdf
+title: CloudOps et ElementAI - Création d’une plateforme de base en nuage natif sur Azure
+ExternalLink: https://cdn2.hubspot.net/hubfs/732832/FR_CloudOps_CS_Element-AI_Consultation.pdf
 resources:
 - name: "thumbnail"
   src: "element-ai-square.png"
+slug: "cloudops-et-elementai"
 ---
