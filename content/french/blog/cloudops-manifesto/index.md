@@ -1,6 +1,6 @@
 ---
 title: "Manifeste Infonuagique"
-lastmod: "2020-12-02"
+lastmod: "2015-12-03"
 author: "Ian Rae"
 resources:
 - name: "thumbnail"
