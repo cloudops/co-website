@@ -2,7 +2,6 @@
 title: "Kubernetes Networking 101"
 lastmod: "2020-06-02"
 author: "Chanpreet Kaur"
-keywords: [devops, cloudops]
 resources:
 - name: "thumbnail"
   src: "K8s-Networking.jpg"

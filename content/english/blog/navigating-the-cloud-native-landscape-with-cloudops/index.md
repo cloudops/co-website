@@ -2,7 +2,6 @@
 title: "Navigating the Cloud Native Landscape with CloudOps"
 lastmod: "2020-06-22"
 author: "CloudOps"
-keywords: [devops, cloudops]
 resources:
 - name: "thumbnail"
   src: "NavigateCloud.png"

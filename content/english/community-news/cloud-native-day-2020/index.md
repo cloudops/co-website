@@ -2,7 +2,6 @@
 title: "Cloud Native Day 2020"
 lastmod: "2020-06-15"
 author: "CloudOps"
-keywords: [devops, cloudops]
 resources:
 - name: "thumbnail"
   src: "CNDSummary.png"
