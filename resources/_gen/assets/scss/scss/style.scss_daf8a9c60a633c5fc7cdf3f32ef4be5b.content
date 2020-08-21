@@ -1130,7 +1130,9 @@ a.nav-link.language-menu
 
 .contact-us-card .general-contact-form li span {
   margin-left: 5px;
-  padding-top: 0; }
+  padding-top: 0;
+  padding-right: 10px;
+  line-height: 1.2; }
 
 .contact-us-card .general-contact-form .legal-consent-container .hs-form-booleancheckbox-display input {
   margin-top: 5px; }
@@ -1150,7 +1152,8 @@ a.nav-link.language-menu
   display: block;
   text-align: left;
   font-size: 12px;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  line-height: 1.3; }
 
 .contact-us-card .general-contact-form .legal-consent-container label.hs-form-booleancheckbox-display {
   margin-bottom: 0; }
@@ -1413,7 +1416,7 @@ form option {
   padding-bottom: 0; }
 
 .footer .legal-consent-container .hs-form-booleancheckbox-display p {
-  line-height: 1;
+  line-height: 1.2;
   display: inline-block;
   text-align: left;
   margin-top: 7px; }
