@@ -2,7 +2,6 @@
 title: "Comparing Service Meshes: Istio, Linkerd, Consul Connect, and Citrix ADC"
 lastmod: "2020-06-12"
 author: "Syed Ahmed"
-keywords: [devops, cloudops]
 resources:
 - name: "thumbnail"
   src: "ServiceMesh.png"

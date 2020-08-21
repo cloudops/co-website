@@ -2,7 +2,6 @@
 title: "Top 7 Challenges to Becoming Cloud Native"
 lastmod: "2020-07-14"
 author: "CloudOps"
-keywords: [devops, cloudops]
 resources:
 - name: "thumbnail"
   src: "missed-arrow.png"

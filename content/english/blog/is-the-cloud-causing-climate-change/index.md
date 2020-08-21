@@ -2,7 +2,6 @@
 title: "Is the Cloud Causing Climate Change?"
 lastmod: "2020-06-04"
 author: "Tristan Kosciuch"
-keywords: [devops, cloudops]
 resources:
 - name: "thumbnail"
   src: "ClimateChange.jpg"
