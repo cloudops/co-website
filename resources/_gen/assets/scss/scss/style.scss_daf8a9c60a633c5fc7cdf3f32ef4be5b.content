@@ -6048,7 +6048,7 @@ blockquote {
   box-shadow: inset 0px 0px 10px rgba(169, 175, 179, 0.2); }
 
 .general-stylings-more-content.contact-us-card {
-  background-image: url("/images/bottom-left-yellow/a:-swoosh.png"), url("/images/top-right-yellow-swoosh.svg"), url("/images/tinydots-horizontal.svg");
+  background-image: url("/images/bottom-left-yellow-swoosh.png"), url("/images/top-right-yellow-swoosh.svg"), url("/images/tinydots-horizontal.svg");
   background-position: left bottom, right top, left bottom 20%;
   background-repeat: no-repeat, no-repeat , repeat-x;
   padding: 100px 0;
