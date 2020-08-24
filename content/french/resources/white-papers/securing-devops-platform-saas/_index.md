@@ -1,5 +1,5 @@
 ---
-title: Sécurisation de votre plateforme DevOps
+title: Sécurisation de votre plateforme DevOps avec sass
 lastmod: 2020-07-02
 resources:
 - name: "thumbnail"
