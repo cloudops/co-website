@@ -10,9 +10,8 @@ class_name: "blog post"
 
 Continuous delivery is a software engineering approach where teams produce software in short cycles, ensuring it can be reliably released at any time. It relates to continuous integration, which is the practice of merging all developer working copies to a shared mainline several times a day. With the rise of microservices and cloud native architectures, continuous delivery is increasingly becoming a necessity and open source communities are coming together to drive its adoption.
 
-<div class="tabbed-text">“Software delivery is an exercise in continuous improvement, and our research shows that year over year the best keep getting better, and those who fail to improve fall further and further behind.”
-
-Nicole Forsgren, ‘Accelerate: The Science of Lean Software and DevOps</div>
+<p class="tabbed-text"><b>“Software delivery is an exercise in continuous improvement, and our research shows that year over year the best keep getting better, and those who fail to improve fall further and further behind.”</b></p>
+<p class="tabbed-text"><b>Nicole Forsgren, ‘Accelerate: The Science of Lean Software and DevOps</b></p>
 
 Even though continuous delivery is a critical part of modern software delivery, a couple challenges are preventing its widespread adoption.
 
