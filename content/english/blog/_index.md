@@ -20,6 +20,11 @@ aliases:
     - /2014/11/can-infor-and-netsuite-get-cloud-so-wrong/
     - /2014/12/cloudops-at-aws-re-invent/
     - /2015/09/cloudops-to-offer-direct-access-to-consoles-software-and-interconnection-platform/
+    - /tag/cloud-native-telcos/
+    - /tag/stadia/
+    - /tag/kubernetes-training-partner/
+    - /tag/cloudops-jobs/
+    - /figure-9-deploy-workload/
 ---
 
 <div class="blog-main">
