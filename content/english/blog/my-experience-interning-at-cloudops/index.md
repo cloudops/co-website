@@ -68,7 +68,7 @@ One of CloudOps’ four main values is teamwork. We have this concept that we ar
 <li>Creation of a series of TikTok videos inspired by CloudOps’ main values
 </ul>
 
-<img width="100%;" src="/images/blog/post/improvement-square.png" alt="CloudOps core value: continous improvement">
+<img width="60%;" src="/images/blog/post/improvement-square.png" alt="CloudOps core value: continous improvement">
 
 Another one of CloudOps’ values is continuous improvement. Having completed my internship, there are a few skills I can say I’ve learned.
 
