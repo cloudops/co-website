@@ -4,7 +4,7 @@ lastmod: "2020-08-28"
 author: "Julia Hohenadel"
 resources:
 - name: "thumbnail"
-  src: "hohenade.png"
+  src: "hohenadel.png"
 class_name: "blog post"
 ---
 
