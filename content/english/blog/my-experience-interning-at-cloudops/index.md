@@ -1,7 +1,7 @@
 ---
 title: "My experience interning at CloudOps"
 lastmod: "2020-08-28"
-author: "Julia Hohenade"
+author: "Julia Hohenadel"
 resources:
 - name: "thumbnail"
   src: "hohenade.png"
