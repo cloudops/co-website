@@ -25,6 +25,8 @@ aliases:
     - /tag/kubernetes-training-partner/
     - /tag/cloudops-jobs/
     - /figure-9-deploy-workload/
+    - /tags/
+    - /categories/
 ---
 
 <div class="blog-main">

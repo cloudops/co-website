@@ -5,6 +5,8 @@ slug: /blogue
 aliases: 
     - /fr/2012/10/cloudops-cree-de-nouvelles-options-de-conception-pour-les-communautes-code-source-libre-grace-a-un-nouvel-intergiciel/
     - /fr/2012/05/interop-enterprise-cloud-summit-2/ 
+    - /fr/tags/
+    - /fr/categories/
 ---
 
 <div class="blog-main">
