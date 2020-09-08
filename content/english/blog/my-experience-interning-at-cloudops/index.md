@@ -10,34 +10,37 @@ class_name: "blog post"
 
 One might think that a company’s culture is hard to define when you’ve never set foot in the office or even met your coworkers in real life. At CloudOps this simply isn’t true; CloudOps did an amazing job of propagating their culture in an online environment.
 
-<img width="60%" src="/images/blog/post/people-square.png" alt="CloudOps core value: people">
-
 There were a ton of initiatives to facilitate team bonding, such as virtual coffee times and in-person ice cream meetups, to perpetuate CloudOps’ amazing culture in the online environment. That being said, culture as a concept is difficult to describe with words. They say a picture’s worth a thousand words, so here are some of my favourite moments at CloudOps.
 
 <h3>Beer meetings</h3>
 
 Every Friday at 4 pm the company gathers for a “Weekly Update”, which is better known as the beer meeting. For the first five or so minutes we chit chat, we give a quick update, and then some people move to a different zoom call to chat more. We call it a 5 à 7, which is like happy hour. In the picture above we competed to see who had the best virtual background, which was a smash hit!
 
-<img width="60%" src="/images/blog/post/communication-square.png" alt="CloudOps core value: communication">
+<img width="60%" src="/images/blog/post/virtualbgs.png" alt="best background competition">
 
 <h3>Ice cream meetups</h3>
 
 Once COVID restrictions eased, CloudOps started arranging in-person ice cream meetups. As a Guelphite I couldn’t join the folks in Montreal, so we in the GTA had virtual ice cream meetups!
 
+<img width="60%" src="/images/blog/post/icecreammeetup.jpg" alt="virtual ice cream meetup">
+
 <h3>Loot haul</h3>
 
 My manager Pat biked to all my teammate’s houses and delivered some bagels. Guelph was a bit of a hike so he mailed me 2 dozen Montréal bagels. So tasty! They also sent me a goodie box with my computer, including a branded sweater, pens, notebooks, stickers, and even little lego figurines!
+
+<img width="60%" src="/images/blog/post/bagels.jpg" alt="Julia and her bagels">
 
 <h3>Tiktok work</h3>
 
 I worked with the HR team to create a series of Tiktok videos for each of the company’s core values. Check out the Tiktoks at this link: <a href="https://www.tiktok.com/@_cloudops" target="_blank">@_cloudops</a>
 
+<img width="60%" src="/images/blog/post/salt-n-peppa.png" alt="Salt-n-peppa (Let's talk about Slack)">
+
 <h3>CloudOps Bees</h3>
 
 CloudOps has a beehive on its roof! The hive is a nod to the company’s core values, and it is super duper cool. They have workshops over zoom for hive health checks. It’s nice to work someplace that gives back to the environment.
 
-
-
+<img width="60%" src="/images/blog/post/bees.jpg" alt="Alvéole on CloudOps' rooftop">
 
 
 <h2>What I Do as a Cloud Developer Intern</h2>
@@ -57,8 +60,6 @@ I also contributed to the maintenance of the product:
 <li>I did a lot of refactoring of different implementations</li>
 </ul>
 
-<img width="60%" src="/images/blog/post/teamwork-square.png" alt="CloudOps core value: teamwork">
-
 <h3>Team of Teams Work</h3>
 
 One of CloudOps’ four main values is teamwork. We have this concept that we are a “team of teams”, one big team formed from the company’s various teams. As such, CloudOps provided me with lots of opportunities to contribute to work outside of my team, such as…
@@ -68,7 +69,7 @@ One of CloudOps’ four main values is teamwork. We have this concept that we ar
 <li>Creation of a series of TikTok videos inspired by CloudOps’ main values
 </ul>
 
-<img width="60%;" src="/images/blog/post/improvement-square.png" alt="CloudOps core value: continous improvement">
+<img width="60%;" src="/images/blog/post/signing.png" alt="Julia and Julia singing for a video">
 
 Another one of CloudOps’ values is continuous improvement. Having completed my internship, there are a few skills I can say I’ve learned.
 
