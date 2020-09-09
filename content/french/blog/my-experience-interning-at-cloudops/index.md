@@ -6,7 +6,7 @@ resources:
 - name: "thumbnail"
   src: "hohenadel-fr.png"
 class_name: "blog post"
-slug: "reflexions-sur-mon-stage-chez-cloudops"
+slug: /reflexions-sur-mon-stage-chez-cloudops
 ---
 
 On serait porté à croire qu'il est difficile de définir la culture d'une entreprise lorsque l'on n'a jamais mis les pieds sur place ni rencontré ses collègues en personne. Pourtant, chez CloudOps, on a réussi l’exploit de propager la culture même dans un environnement virtuel. 
