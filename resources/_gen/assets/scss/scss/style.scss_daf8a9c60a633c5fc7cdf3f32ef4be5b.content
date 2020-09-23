@@ -6036,6 +6036,20 @@ blockquote {
     background-position: right top, right top;
     background-repeat: repeat-y, repeat-y; } }
 
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin: 50px auto; }
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
 .general-stylings-more-content .card > a {
   margin: 0; }
 
