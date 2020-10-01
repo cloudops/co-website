@@ -211,18 +211,11 @@ ceph osd pool set replicapool min_size 3
 ceph osd pool set replicapool pgp_num 256
 </code></pre><p>Rook and Ceph can help teams find cloud native solutions for storage. To learn more about DevOps tools, <a href="https://www.cloudops.com/workshops/">sign up for one of our hands-on DevOps workshops</a>. We offer public trainings on Docker and Kubernetes as well as DevOps Monitoring in a variety of cities as well as private trainings on a wider variety of subjects in any city. <a href="https://www.cloudops.com/about-us/contact-us/">Contact us</a> to learn more about how CloudOps can help your organization find DevOps solutions.</p>
 
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-      <img src="/images/blog/cta/white-paper.jpeg">
-    </div>
-</div>
+<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" style= "width: 100px;" id="hs-cta-wrapper-ff51dab9-cb3e-4393-b3ed-672109ddf8c8"><span class="hs-cta-node hs-cta-ff51dab9-cb3e-4393-b3ed-672109ddf8c8" id="hs-cta-ff51dab9-cb3e-4393-b3ed-672109ddf8c8"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+<a href="https://cta-redirect.hubspot.com/cta/redirect/732832/ff51dab9-cb3e-4393-b3ed-672109ddf8c8"  target="_blank" >
+<img class="hs-cta-img" id="hs-cta-img-ff51dab9-cb3e-4393-b3ed-672109ddf8c8" style="border-width:0px; width: 100%;" src="https://no-cache.hubspot.com/cta/default/732832/ff51dab9-cb3e-4393-b3ed-672109ddf8c8.png"  alt="Click me">
+</a>
+</span>
+<script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(732832, 'ff51dab9-cb3e-4393-b3ed-672109ddf8c8', {}); </script></span><!-- end HubSpot Call-to-Action Code -->
 
 <h4>References</h4><ul><li> https://github.com/rook/rook/blob/master/Documentation/ceph-toolbox.md</li><li>http://docs.ceph.com/docs/mimic/rados/troubleshooting/troubleshooting-pg/</li><li> http://docs.ceph.com/docs/jewel/rados/operations/placement-groups/#set-the-number-of-placement-groups</li><li> http://accelazh.github.io/ceph/Ceph-Performance-Tuning-Checklist</li><li> https://github.com/rook/rook/blob/master/Documentation/advanced-configuration.md</li><li> https://github.com/rook/rook/blob/master/Documentation/common-issues.md</li><li>http://docs.ceph.com/docs/giant/rados/troubleshooting/troubleshooting-osd/</li></ul></div>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/workshops">
-      <img src="/images/blog/cta/devops-workshop.webp">
-    </a>
-    </div>
-</div>
