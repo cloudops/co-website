@@ -6,6 +6,12 @@ images = ["/images/git-there-faster.svg"]
 theme = ["cO-theme"]
 
 
+ [params]
+  description = "Own your destiny in the cloud.™ - Partner with CloudOps to embark on your DevOps journey."
+  images = ["git-there-faster.svg"]
+  title = "CloudOps"
+
+
 
 [markup.goldmark.renderer]
 unsafe= true
