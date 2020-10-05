@@ -1,7 +1,11 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "CloudOps"
+description = "Own Your Destiny in The Cloud"
+images = ["git-there-faster.svg"]
 theme = ["cO-theme"]
+
+
 
 [markup.goldmark.renderer]
 unsafe= true
