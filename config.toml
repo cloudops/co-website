@@ -1,12 +1,9 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "CloudOps"
-
-
- [params]
-  description = "Own your destiny in the cloud.™ - Partner with CloudOps to embark on your DevOps journey."
-  images = ["git-there-faster.svg"]
-  title = "CloudOps"
+description = "Own Your Destiny in The Cloud"
+images = ["/images/git-there-faster.svg"]
+theme = ["cO-theme"]
 
 
 
