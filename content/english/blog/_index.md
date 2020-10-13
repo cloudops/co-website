@@ -1,6 +1,8 @@
 ---
 title: Blog
 class_name: "blog"
+description: CloudOps’ blog shares tips and tricks for mastering cloud operations with cloud native, DevOps, and SRE tools and practices.
+keywords: []
 aliases:
     - /category/blog/
     - /category/podcast/  
