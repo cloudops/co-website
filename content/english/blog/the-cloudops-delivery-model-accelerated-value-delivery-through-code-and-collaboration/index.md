@@ -24,7 +24,7 @@ aliases:
 
 <p><strong>Infrastructure </strong>– Lying at the bottom of a technology stack, the infrastructure is where physical hardware is converted into APIs that can be consumed. Public cloud providers, like AWS, GCP, and Azure, can offer rich features and maximize economies of scale. Regional cloud providers, like <a href="https://cloud.ca/">cloud.ca</a>, can fulfill specific regulatory requirements. Private clouds, with the help of OpenStack or CloudStack, allow greater flexibility. Organizations can also leverage hybrid or multi-cloud environments.</p>
 
-<img src="/images/blog/post/Differentiated-and-Undifferentiated-Value.png" class="main-blog-image">
+<img src="/images/blog/post/Differentiated-and-Undifferentiated-Value.png" class="main-blog-image" width="100%">
 
 <h2>Building, Operating, and Transferring Undifferentiated Value in the Application Platform</h2>
 
@@ -46,7 +46,7 @@ aliases:
 
 <p><strong>Time – </strong>Individual technical managers planning and executing DevOps projects for the first time may be less certain about how to avoid and overcome challenges than teams that have expertise in this domain. Our professional services can complete projects in perhaps a third of the time. The collective knowledge our teams have access to will improve the strategy and execution of projects.</p>
 
-<img src="/images/blog/post/CollectiveKnowledge.png" class="main-blog-image">
+<img src="/images/blog/post/CollectiveKnowledge.png" class="main-blog-image" width="100%">
 
 <p><strong>Knowledge Transfer </strong>– Our delivery model includes workshops and training that empower developers to get the most out of the platform and that allow operations to maintain and use the application platform components we implement well into the future. Our customers remain in control of their undifferentiated value, which they can choose to manage themselves or with our managed services in the long term. We help our customers <em>own their destinies in the cloud </em>either with or without us.</p>
 
