@@ -4,7 +4,7 @@ lastmod: "2018-08-01"
 author: "Stacy Véronneau"
 resources:
 - name: "thumbnail"
-  src: "memeFINAL.png"
+  src: "GCP.jpg"
 class_name: "blog post"
 slug: /creation-dune-iac-la-troisieme-etape-vers-lautomatisation-devops
 aliases:

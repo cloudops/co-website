@@ -4,7 +4,7 @@ lastmod: "2018-09-24"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "servicemesh-1.jpg"
+  src: "ServiceMesh.jpg"
 class_name: "blog post"
 aliases:
   - /2018/09/does-the-service-mesh-spell-the-end-for-middleware/

@@ -4,7 +4,7 @@ lastmod: "2020-06-02"
 author: "Chanpreet Kaur"
 resources:
 - name: "thumbnail"
-  src: "K8s-Networking.jpg"
+  src: "Kubernetes.jpg"
 class_name: "blog post"
 aliases:
   - /2020/06/kubernetes-networking-101/

@@ -4,7 +4,7 @@ lastmod: "2018-09-05"
 author: "Syed Ahmed"
 resources:
 - name: "thumbnail"
-  src: "kubeflow.png"
+  src: "Kubeflow.jpg"
 class_name: "blog post"
 slug: /tensorflow-kubernetes-et-kubeflow-la-conteneurisation-de-lapprentissage-machine
 aliases:

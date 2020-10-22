@@ -4,7 +4,7 @@ lastmod: "2018-05-23"
 author: "Nick Maiorano"
 resources:
 - name: "thumbnail"
-  src: "Java-train-1.png"
+  src: "Java.jpg"
 class_name: "blog post"
 slug: /java-presente-son-nouveau-train-de-publication-embarquez-vous
 aliases:

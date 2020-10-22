@@ -4,7 +4,7 @@ lastmod: "2014-03-07"
 author: "Pierre-Luc Dion"
 resources:
 - name: "thumbnail"
-  src: "chef.png"
+  src: "Chef.jpg"
 class_name: "blog post"
 aliases:
   - /2014/03/install-apache-cloudstack-with-chef/

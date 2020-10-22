@@ -4,7 +4,7 @@ lastmod: "2018-10-26"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "MaximilianWeisbecker.jpg"
+  src: "CNCF.jpg"
 class_name: "blog post"
 aliases:
   - /2018/10/the-beginners-guide-to-the-cncf-landscape/

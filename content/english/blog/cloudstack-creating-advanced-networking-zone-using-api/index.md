@@ -4,7 +4,7 @@ lastmod: "2014-03-28"
 author: "Pierre-Luc Dion"
 resources:
 - name: "thumbnail"
-  src: "CS-logo-sm.png"
+  src: "Cloudstack.jpg"
 class_name: "blog post"
 aliases:
     - /2014/03/cloudstack-creating-advanced-networking-zone-using-api/

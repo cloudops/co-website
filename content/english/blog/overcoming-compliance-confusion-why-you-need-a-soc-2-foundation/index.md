@@ -4,7 +4,7 @@ lastmod: "2018-05-10"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "SOC-2-final.png"
+  src: "SOC2.jpg"
 class_name: "blog post"
 aliases:
     - /2018/05/overcoming-compliance-confusion-why-you-need-a-soc-2-foundation/

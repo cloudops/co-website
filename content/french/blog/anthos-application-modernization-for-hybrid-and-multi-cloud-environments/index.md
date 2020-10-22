@@ -4,7 +4,7 @@ lastmod: "2020-03-31"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Anthos.png"
+  src: "Anthos.jpg"
 class_name: "blog post"
 slug: /voici-anthos-et-voici-comment-elle-peut-vous-aider-a-moderniser-votre-application
 aliases:

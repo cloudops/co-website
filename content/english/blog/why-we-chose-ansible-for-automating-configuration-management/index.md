@@ -4,7 +4,7 @@ lastmod: "2018-06-18"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Ansible-logo.png"
+  src: "Ansible.jpg"
 class_name: "blog post"
 aliases:
     - /2018/06/why-we-chose-ansible-for-automating-configuration-management/

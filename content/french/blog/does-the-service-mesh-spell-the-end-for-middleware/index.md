@@ -4,7 +4,7 @@ lastmod: "2018-09-24"
 author: "Flo Adam"
 resources:
 - name: "thumbnail"
-  src: "servicemesh-1.jpg"
+  src: "ServiceMesh.jpg"
 class_name: "blog post"
 slug: /les-services-mailles-sonnent-ils-la-fin-des-intergiciels
 aliases:

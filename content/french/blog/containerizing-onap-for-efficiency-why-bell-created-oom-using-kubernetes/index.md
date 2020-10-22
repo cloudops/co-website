@@ -4,7 +4,7 @@ lastmod: "2018-03-20"
 author: "Katharine Mikula"
 resources:
 - name: "thumbnail"
-  src: "kubernetes-logo-copy.png"
+  src: "ONAP.jpg"
 class_name: "blog post"
 slug: /conteneuriser-une-paro-plateforme-dautomatisation-de-reseau-ouverte-par-souci-defficacite-les-raisons-pour-lesquelles-bell-a-cree-la-gop-avec-kubernetes
 aliases:

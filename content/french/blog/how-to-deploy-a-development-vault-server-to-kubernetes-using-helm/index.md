@@ -4,7 +4,7 @@ lastmod: "2018-03-17"
 author: "Adrian Todorov"
 resources:
 - name: "thumbnail"
-  src: "Vault2.png"
+  src: "Helm.jpg"
 class_name: "blog post"
 slug: /comment-deployer-un-serveur-de-developpement-vault-vers-kubernetes-avec-helm
 aliases:

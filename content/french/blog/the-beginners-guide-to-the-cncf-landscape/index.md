@@ -4,7 +4,7 @@ lastmod: "2018-10-26"
 author: "Ayrat Khayretdinov"
 resources:
   - name: "thumbnail"
-    src: "MaximilianWeisbecker.jpg"
+    src: "CNCF.jpg"
 class_name: "blog post"
 slug: "guide-cncf-du-debutant"
 aliases:

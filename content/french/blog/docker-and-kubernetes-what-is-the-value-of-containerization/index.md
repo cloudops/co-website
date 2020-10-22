@@ -4,7 +4,7 @@ lastmod: "2018-08-03"
 author: "Marc Pare"
 resources:
 - name: "thumbnail"
-  src: "containers_wide-1.png"
+  src: "DockerKubernetes.jpg"
 class_name: "blog post"
 slug: /docker-et-kubernetes-quelle-est-la-valeur-de-la-conteneurisation
 aliases:

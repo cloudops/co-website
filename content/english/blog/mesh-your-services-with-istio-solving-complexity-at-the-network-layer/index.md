@@ -4,7 +4,7 @@ lastmod: "2018-02-21"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "shipping_dock.png"
+  src: "Istio.jpg"
 class_name: "blog post"
 aliases:
     - /2018/02/mesh-your-services-with-istio-solving-complexity-at-the-network-layer/

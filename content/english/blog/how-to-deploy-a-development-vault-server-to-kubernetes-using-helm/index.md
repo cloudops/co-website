@@ -4,7 +4,7 @@ lastmod: "2018-03-20"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "vault.jpg"
+  src: "Helm.jpg"
 class_name: "blog post"
 aliases:
     - /2018/03/how-to-deploy-a-development-vault-server-to-kubernetes-using-helm/

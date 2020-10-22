@@ -4,7 +4,7 @@ lastmod: "2020-06-03"
 author: "Chanpreet Kaur"
 resources:
 - name: "thumbnail"
-  src: "K8s-Networking.jpg"
+  src: "Kubernetes.jpg"
 class_name: "blog post"
 slug: /reseautage-kubernetes-101
 aliases:

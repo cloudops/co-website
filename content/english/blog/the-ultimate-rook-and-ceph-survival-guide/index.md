@@ -4,7 +4,7 @@ lastmod: "2019-05-07"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Rook-and-Ceph.png"
+  src: "RookCeph.jpg"
 class_name: "blog post"
 aliases:
   - /2019/05/the-ultimate-rook-and-ceph-survival-guide/

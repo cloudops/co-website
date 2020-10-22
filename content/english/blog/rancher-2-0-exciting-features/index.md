@@ -4,7 +4,7 @@ lastmod: "2018-07-24"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Rancher2.0.png"
+  src: "Rancher.jpg"
 class_name: "blog post"
 aliases:
   - /2018/07/rancher-2-0-exciting-features/

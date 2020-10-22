@@ -4,7 +4,7 @@ lastmod: "2019-03-26"
 author: "admin"
 resources:
 - name: "thumbnail"
-  src: "GoogleStadia.png"
+  src: "Stadia.jpg"
 class_name: "blog post"
 slug: /le-futur-du-jeu-video-infonuagique-natif-ce-que-propose-google-stadia
 aliases:

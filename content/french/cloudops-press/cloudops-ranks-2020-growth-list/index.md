@@ -5,7 +5,7 @@ lastmod: "2020-15-10"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Branham300_logo_frenchlarge.png"
+  src: "GrowthList.jpg"
 class_name: "blog post"
 slug: /cloudops-se-classe-sur-la-growth-list-2020
 aliases:

@@ -4,7 +4,7 @@ lastmod: "2019-04-03"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "WillStevens.png"
+  src: "TungstenFabric.png"
 class_name: "blog post"
 aliases:
   - /2019/04/an-adventure-in-multi-cloud-networking-with-kubernetes-and-tungsten-fabric/

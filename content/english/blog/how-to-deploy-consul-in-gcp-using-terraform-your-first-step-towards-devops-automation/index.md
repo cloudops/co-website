@@ -4,7 +4,7 @@ lastmod: "2018-02-14"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Meme1final.png"
+  src: "GCP.jpg"
 class_name: "blog post"
 aliases:
     - /2018/02/how-to-deploy-consul-in-gcp-using-terraform-your-first-step-towards-devops-automation/

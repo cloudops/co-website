@@ -4,7 +4,7 @@ lastmod: "2019-04-03"
 author: "Will Stevens"
 resources:
 - name: "thumbnail"
-  src: "WillStevens.png"
+  src: "TungstenFabric.png"
 class_name: "blog post"
 slug: /aventure-dans-le-reseautage-multinuage-avec-kubernetes-et-tungsten-fabric
 aliases:

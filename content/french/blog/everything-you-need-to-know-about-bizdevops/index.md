@@ -4,7 +4,7 @@ lastmod: "2019-10-08"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "FR_CloudOps_Biz-Dev-Ops_Diagram_600x300.png"
+  src: "BizDevOps.jpg"
 class_name: "blog post"
 slug: /tout-ce-que-vous-devez-savoir-sur-le-bizdevops
 aliases:

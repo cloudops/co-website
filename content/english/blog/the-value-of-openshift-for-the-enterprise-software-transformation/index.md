@@ -4,7 +4,7 @@ lastmod: "2018-03-27"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "worker_guy.png"
+  src: "OpenShift.jpg"
 class_name: "blog post"
 aliases:
     - /2018/04/the-value-of-openshift-for-the-enterprise-software-transformation/

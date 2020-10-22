@@ -4,7 +4,7 @@ lastmod: "2017-07-28"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "containers_wide-1.png"
+  src: "DockerKubernetes.jpg"
 class_name: "blog post"
 aliases:
     - /2017/07/docker-and-kubernetes-what-is-the-value-of-containerization/

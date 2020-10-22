@@ -4,7 +4,7 @@ lastmod: "2019-11-12"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "devops-health-radar.png"
+  src: "Radar.jpg"
 class_name: "blog post"
 aliases:
   - /2019/11/assessing-success-with-the-devops-health-radar/

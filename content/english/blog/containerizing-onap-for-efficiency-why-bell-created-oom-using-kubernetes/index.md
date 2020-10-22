@@ -4,7 +4,7 @@ lastmod: "2018-01-19"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "kubernetes2.png"
+  src: "ONAP.jpg"
 class_name: "blog post"
 aliases:
     - /2018/01/containerizing-onap-for-efficiency-why-bell-created-oom-using-kubernetes/

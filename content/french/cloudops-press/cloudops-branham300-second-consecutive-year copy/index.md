@@ -1,7 +1,8 @@
 ---
-title: "CloudOps figure au palmarès Branham300 pour la deuxième année consécutive"
-lastmod: "2017-06-06"
-author: "Julia Simon"
+title: "CloudOps se classe 19 e sur la Growth List 2020 des entreprises à plus forte croissance
+au Canada"
+lastmod: "2020-06-06"
+author: "CloudOps"
 resources:
 - name: "thumbnail"
   src: "Branham300_logo_frenchlarge.png"
