@@ -4,7 +4,7 @@ lastmod: "2019-11-18"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Radar-de-la-sante-DevOps.png"
+  src: "Radar.jpg"
 class_name: "blog post"
 slug: /evaluation-du-succes-avec-le-radar-de-la-sante-devops
 aliases:

@@ -4,7 +4,7 @@ lastmod: "2018-07-26"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "memeFINAL2.png"
+  src: "GCP.jpg"
 class_name: "blog post"
 aliases:
   - /2018/07/creating-infrastructure-as-code-with-gcp-deployment-manager-your-third-step-towards-devops-automation/

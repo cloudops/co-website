@@ -4,7 +4,7 @@ lastmod: "2018-03-19"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Java-train-1.png"
+  src: "Java.jpg"
 class_name: "blog post"
 aliases:
     - /2018/04/javas-got-a-new-release-train-are-you-on-it-or-under-it/

@@ -4,7 +4,7 @@ lastmod: "2018-06-19"
 author: "Evan McIlroy"
 resources:
 - name: "thumbnail"
-  src: "kubernetes-cargo.png"
+  src: "Kubernetes.jpg"
 class_name: "blog post"
 slug: /les-entrees-kubernetes-ne-sont-pas-aussi-difficiles-quon-le-croit-utilisez-les-entrees-pour-acheminer-vers-vos-services
 aliases:

@@ -4,7 +4,7 @@ lastmod: "2019-07-03"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "RethinkingCloudSecurity.png"
+  src: "DevSecOps.jpg"
 class_name: "blog post"
 slug: /repenser-la-securite-du-nuage-avec-devsecops
 aliases:

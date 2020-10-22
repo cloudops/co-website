@@ -4,7 +4,7 @@ lastmod: "2020-03-31"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Anthos.png"
+  src: "Anthos.jpg"
 class_name: "blog post"
 aliases:
     - /2020/03/anthos-application-modernization-for-hybrid-and-multi-cloud-environments/

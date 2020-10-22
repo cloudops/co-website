@@ -4,7 +4,7 @@ lastmod: "2018-06-26"
 author: "Marc Pare"
 resources:
 - name: "thumbnail"
-  src: "Ansible-logo.png"
+  src: "Ansible.jpg"
 class_name: "blog post"
 slug: /pourquoi-choisir-ansible-pour-lautomatisation
 aliases:

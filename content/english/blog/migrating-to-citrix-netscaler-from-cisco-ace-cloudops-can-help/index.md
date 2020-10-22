@@ -4,7 +4,7 @@ lastmod: "2012-10-31"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "imagea.png"
+  src: "CitrixCisco.png"
 class_name: "blog post"
 aliases:
     - /2012/10/migrating-to-citrix-netscaler-from-cisco-ace-cloudops-can-help/

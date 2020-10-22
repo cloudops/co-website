@@ -4,7 +4,7 @@ lastmod: "2019-07-03"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "RethinkingCloudSecurity.png"
+  src: "DevSecOps.jpg"
 class_name: "blog post"
 aliases:
   - /2019/07/rethinking-cloud-security-with-devsecops/

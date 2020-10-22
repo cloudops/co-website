@@ -4,7 +4,7 @@ lastmod: "2014-12-05"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "PaloAltoNetworks.png"
+  src: "PaloAlto.jpg"
 class_name: "blog post"
 aliases:
     - /2014/05/use-a-palo-alto-networks-firewall-with-cloudstack/

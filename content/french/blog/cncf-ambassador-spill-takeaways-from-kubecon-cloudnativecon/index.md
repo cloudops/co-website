@@ -4,7 +4,7 @@ lastmod: "2019-01-17"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "KubeConCloudNativeCon.png"
+  src: "KubeCon.jpg"
 class_name: "blog post"
 slug: /entretiens-avec-des-ambassadeurs-de-la-cncf-points-a-retenir-de-kubecon-et-previsions-pour-2019
 aliases:

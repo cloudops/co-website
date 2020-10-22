@@ -4,7 +4,7 @@ lastmod: "2018-06-08"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "kubernetes-cargo.png"
+  src: "Kubernetes.jpg"
 class_name: "blog post"
 aliases:
   - /2018/06/why-kubernetes-ingresses-arent-as-difficult-as-you-think/

@@ -4,7 +4,7 @@ lastmod: "2020-04-21"
 author: "Chanpreet Kaur"
 resources:
 - name: "thumbnail"
-  src: "k8s-blue-containers.jpg"
+  src: "Kubernetes.jpg"
 class_name: "blog post"
 aliases:
   - /2020/04/how-to-create-and-inspect-kubernetes-deployments/

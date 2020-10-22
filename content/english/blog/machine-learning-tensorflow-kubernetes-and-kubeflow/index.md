@@ -4,7 +4,7 @@ lastmod: "2018-09-05"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "kubeflow.png"
+  src: "Kubeflow.jpg"
 class_name: "blog post"
 aliases: /2018/09/machine-learning-tensorflow-kubernetes-and-kubeflow/
 ---

@@ -4,7 +4,7 @@ lastmod: "2019-01-17"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "KubeConCloudNativeCon.png"
+  src: "KubeCon.jpg"
 class_name: "blog post"
 aliases:
     - /2019/01/cncf-ambassador-spill-takeaways-from-kubecon-cloudnativecon/

@@ -4,7 +4,7 @@ lastmod: "2018-03-16"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Meme2-1.jpg"
+  src: "GCP.jpg"
 class_name: "blog post"
 aliases:
     - /2018/03/creating-infrastructure-as-code-with-packer-and-terraform-on-gcp-your-second-step-towards-devops-automation/

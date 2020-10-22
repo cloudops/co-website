@@ -4,7 +4,7 @@ lastmod: "2019-03-26"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "GoogleStadia.png"
+  src: "Stadia.jpg"
 class_name: "blog post"
 aliases:
   - /2019/03/cloud-native-gaming-what-google-stadia-has-to-offer/
