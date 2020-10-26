@@ -1,6 +1,7 @@
 ---
 title: The Beginner's Guide to Kubernetes
 lastmod: 2020-07-09
+description: Kubernetes is the foundation of any cloud native technology practice. This ebook will teach you the basic concepts behind containers.
 resources:
 - name: "thumbnail"
   src: "Beginners_guide_K8s.png"

@@ -1,6 +1,7 @@
 ---
 title: Azure Kubernetes Services - Container Security for a Cloud Native World
 lastmod: 2020-07-04
+description: A CloudOps and Microsoft eBook on how to secure your containers in Azure with AKS.
 resources:
 - name: "thumbnail"
   src: "AKS.png"

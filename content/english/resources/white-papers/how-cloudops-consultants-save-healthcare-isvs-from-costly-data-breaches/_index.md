@@ -1,6 +1,7 @@
 ---
 title: How CloudOps Consultants Save Healthcare ISVs from Costly Data Breaches
 lastmod: 2020-07-01
+description: Healthcare ISVs make attractive targets for hackers. Industry standards like SOC 2 are essential for keeping your applications secure.
 resources:
 - name: "thumbnail"
   src: "healthcare_isv.png"

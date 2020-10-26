@@ -1,6 +1,7 @@
 ---
 title: The Practice of Law in the Age of 'Big Data'
 lastmod: 2020-06-26
+description: There are legal implications of turning data into valuable insights. The practice of law changes when big data is involved.
 resources:
 - name: "thumbnail"
   src: "big-data.png"

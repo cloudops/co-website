@@ -1,6 +1,7 @@
 ---
 title: A Checklist for your Cloud Migration Strategy
 lastmod: 2020-07-05
+description: Don’t lift-and-shift your legacy applications into the cloud. Create a detailed plan for finding cloud native equivalents.
 resources:
 - name: "thumbnail"
   src: "cloudmigration.png"

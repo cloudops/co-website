@@ -1,6 +1,7 @@
 ---
 title: The CloudOps Bitcurrent Briefing on Cloud Computing
 lastmod: 2020-06-24
+description: Gain a basic understanding of what the cloud is, how it works, and how it will evolve in coming generations.
 resources:
 - name: "thumbnail"
   src: "bitcurrent.png"
