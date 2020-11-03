@@ -2,6 +2,7 @@
 title: "How to Create Infrastructure as Code with Packer and Terraform on GCP: Your second step towards DevOps automation"
 lastmod: "2018-03-16"
 author: "CloudOps"
+description: Automating your CI/CD pipelines is key to adopting Infrastructure as Code.
 resources:
 - name: "thumbnail"
   src: "GCP.jpg"

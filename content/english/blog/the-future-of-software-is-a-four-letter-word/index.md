@@ -2,6 +2,7 @@
 title: "The Future of Software Is a Four Letter Word"
 lastmod: "2014-07-18"
 author: "CloudOps"
+description: There are many reasons the future of software is service-based. THE JOURNEY FROM ISV TO ASP TO SAAS…continued!
 resources:
 - name: "thumbnail"
   src: "4letters.png"

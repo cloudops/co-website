@@ -2,6 +2,7 @@
 title: "CloudOps Partners with Mirantis"
 lastmod: "2015-11-19"
 author: "Julia Simon"
+description: CloudOps has invested in OpenStack as a line of business and partnered with Mirantis to do so.
 resources:
 - name: "thumbnail"
   src: "mirantis.png"

@@ -2,6 +2,7 @@
 title: "CloudStack 4.3 API Visualization"
 lastmod: "2014-05-29"
 author: "Will Stevens"
+description: A visualization of the CloudStack API based on the public documentation represents the request references from basic entities to other basic entities. 
 resources:
 - name: "thumbnail"
   src: "vis_43.png"

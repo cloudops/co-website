@@ -2,6 +2,7 @@
 title: "Anthos: Application Modernization for Hybrid and Multi-Cloud Environments"
 lastmod: "2020-03-31"
 author: "CloudOps"
+description: Anthos is an open hybrid- and multi-cloud application platform pioneered by Google. It helps enterprises solve complex challenges in 5 ways.
 resources:
 - name: "thumbnail"
   src: "Anthos.jpg"

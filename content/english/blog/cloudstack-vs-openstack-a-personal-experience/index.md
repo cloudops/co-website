@@ -2,6 +2,7 @@
 title: "CloudStack vs. OpenStack: My Experience"
 lastmod: "2013-02-10"
 author: "François Gaudreault"
+description: All this being said, I continue to believe that CloudStack is the more stable of the two today and easier to deploy.
 resources:
 - name: "thumbnail"
   src: "gloves.jpg"

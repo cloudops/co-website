@@ -2,6 +2,7 @@
 title: "CloudOps Talks Open Source at ApacheCon 2018"
 lastmod: "2018-09-27"
 author: "CloudOps"
+description: ApacheCon North America was held in Montreal this year. Speakers from CloudOps discussed open source solutions.
 resources:
 - name: "thumbnail"
   src: "CloudStackCollab2018.jpg"

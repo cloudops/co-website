@@ -2,6 +2,7 @@
 title: "How to get a job in the cloud industry"
 lastmod: "2013-02-27"
 author: "Pierre-Luc Bisaillon"
+description: After a few weeks of career days, wine and cheese, and interviews, here are a few tips for students (and grown-ups) looking for a job with CloudOps or anywhere in the cloud industry.
 resources:
 - name: "thumbnail"
   src: "job.jpg"

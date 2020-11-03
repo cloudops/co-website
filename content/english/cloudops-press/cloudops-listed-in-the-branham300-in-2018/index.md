@@ -2,6 +2,7 @@
 title: "CloudOps listed in the Branham300 in 2018"
 lastmod: "2018-06-27"
 author: "CloudOps"
+description: CloudOps is pleased to be listed in the Branham300 Top 250 companies in 2018 for the third consecutive year.
 resources:
 - name: "thumbnail"
   src: "branham300.png"

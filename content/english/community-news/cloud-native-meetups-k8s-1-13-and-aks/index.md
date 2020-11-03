@@ -2,6 +2,7 @@
 title: "Cloud Native Meetups: K8s 1.13 and AKS"
 lastmod: "2018-12-08"
 author: "CloudOps"
+description: In preparation for the upcoming KubeCon and CloudNativeCon in Seattle, a wide range of open source solutions were discussed and, as always, beer and pizza provided.
 resources:
 - name: "thumbnail"
   src: "AyratMeetup-1.jpg"

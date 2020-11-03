@@ -2,6 +2,7 @@
 title: "The Value of OpenShift for the Enterprise Software Transformation"
 lastmod: "2018-03-27"
 author: "CloudOps"
+description: Red Hat OpenShift enables consistent and easy container orchestration, reducing the effort of deploying a Kubernetes platform.
 resources:
 - name: "thumbnail"
   src: "OpenShift.jpg"

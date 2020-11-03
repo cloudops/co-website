@@ -2,6 +2,7 @@
 title: "CloudOps is an AWS Advanced Consulting Member"
 lastmod: "2019-04-29"
 author: "CloudOps"
+description: CloudOps is pleased to become an Advanced member of the AWS Partner Network (APN).
 resources:
 - name: "thumbnail"
   src: "AWS-Advanced-Partner.png"

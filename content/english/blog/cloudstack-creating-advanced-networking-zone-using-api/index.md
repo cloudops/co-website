@@ -2,6 +2,7 @@
 title: "CloudStack: Creating advanced networking zone using API"
 lastmod: "2014-03-28"
 author: "Pierre-Luc Dion"
+description: How to create an entire advanced networking zone from the API
 resources:
 - name: "thumbnail"
   src: "Cloudstack.jpg"

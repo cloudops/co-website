@@ -2,6 +2,7 @@
 title: "CloudOps is in the Top 100 Cloud Solution Providers in Canada"
 lastmod: "2019-04-26"
 author: "CloudOps"
+description: CloudOps is pleased to join the Top 100 (cloud) Solution Providers in Canada for Channel Daily News (CDN), owned by IT World Canada.
 resources:
 - name: "thumbnail"
   src: "CDN-Top-Solution-Provider.png"

@@ -2,6 +2,7 @@
 title: "Driving Feature Velocity through Cultural Change: Why DevOps puts Mindset before Technology"
 lastmod: "2019-02-28"
 author: "CloudOps"
+description: Culture is at the heart of DevOps adoption. Here are nine ways your organization can embrace generative cultural practices.
 resources:
 - name: "thumbnail"
   src: "DevOps-Culture.png"

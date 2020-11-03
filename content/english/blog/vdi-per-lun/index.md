@@ -2,6 +2,7 @@
 title: "Supplemental Pack for XenServer allows for VDI per LUN Functionality"
 lastmod: "2016-03-22"
 author: "Ian Rae"
+description: Supplemental Pack for XenServer 6.5 Allows VVOLs-like VDI per LUN Functionality for XenServer and Enables Multi-tenant QoS
 resources:
 - name: "thumbnail"
   src: "data-storage-cloudops.jpg"

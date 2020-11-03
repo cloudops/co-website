@@ -2,6 +2,7 @@
 title: Life at CloudOps
 lastmod: "2019-08-02"
 author: "CloudOps"
+description: Our culture is a shared repository of technical knowledge with which we navigate the increasingly complex cloud native landscape.
 resources:
 - name: "thumbnail"
   src: "life-atcloudops.jpg"

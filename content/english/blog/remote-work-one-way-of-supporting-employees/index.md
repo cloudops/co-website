@@ -2,6 +2,7 @@
 title: "Remote Work: One Way of Supporting Employees"
 lastmod: "2020-03-27"
 author: "Ariel Zolezzi"
+description: We rally around in support of one another in times of crisis and we can speak freely if we have concerns.
 resources:
 - name: "thumbnail"
   src: "RemoteWork.png"

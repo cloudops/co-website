@@ -2,6 +2,7 @@
 title: "CloudOps is Named One of Canada’s Top ICT Companies in 2019 by Branham300"
 lastmod: "2019-07-25"
 author: "CloudOps"
+description: CloudOps is pleased to have placed 191st in the Branham300 list of Top 250 Canadian ICT companies in 2019.
 resources:
 - name: "thumbnail"
   src: "branham300.png"

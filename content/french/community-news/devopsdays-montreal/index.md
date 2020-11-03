@@ -2,6 +2,7 @@
 title: "DevOpsDays Montréal"
 lastmod: "2018-10-17"
 author: "CloudOps"
+description: CloudOps was pleased to sponsor DevOpsDays Montreal. Featuring a wide range of speakers and activities, the event brought together DevOps practitioners throughout Montreal.
 resources:
 - name: "thumbnail"
   src: "carolwall.png"

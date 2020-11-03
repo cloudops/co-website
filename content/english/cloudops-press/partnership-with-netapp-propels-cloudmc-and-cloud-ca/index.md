@@ -2,6 +2,7 @@
 title: "Partnership with NetApp Propels CloudMC and cloud.ca"
 lastmod: "2017-09-13"
 author: "CloudOps"
+description: We are pleased to announce that CloudOps and NetApp have solidified a partnership that will provide all-flash, multi-tiered storage for our IaaS portal, CloudMC.
 resources:
 - name: "thumbnail"
   src: "netapp.png"

@@ -2,6 +2,7 @@
 title: Welcome to 2020!
 lastmod: "2020-02-12"
 author: "CloudOps"
+description: As we step into the new decade, Ian Rae predicts how technology and the cloud computing industry will evolve.
 resources:
 - name: "thumbnail"
   src: "MagicDove.jpg"

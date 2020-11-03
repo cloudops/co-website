@@ -2,6 +2,7 @@
 title: "CloudOps is a Red Hat Application Platform Partner"
 lastmod: "2018-06-28"
 author: "CloudOps"
+description: CloudOps is pleased to become a member of the Red Hat Application Platform Partner Initiative (APP).
 resources:
 - name: "thumbnail"
   src: "Red-Hat-Logo.png"

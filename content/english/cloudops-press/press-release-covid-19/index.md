@@ -2,6 +2,7 @@
 title: "CloudOps’ Commitment to Enhance Your Business Throughout COVID-19"
 lastmod: "2020-03-18"
 author: "CloudOps"
+description: As the global COVID-19 outbreak continues to evolve, we want to share the steps CloudOps is taking to help ensure the well-being of our employees and communities, as well as the continuity of our business.
 resources:
 - name: "thumbnail"
   src: "COVID-GIRL.png"

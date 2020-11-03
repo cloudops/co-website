@@ -1,7 +1,8 @@
 ---
 title: Evolving towards a Cloud Centre of Excellence in AWS
-lastmod: "2019-09-11"
+lastmod: "2019-09-10"
 author: "CloudOps"
+description: Learn how to build a Cloud Center of Excellence that is a fulcrum for transforming the way technology serves the business.
 resources:
 - name: "thumbnail"
   src: "FiveStarRating.png"

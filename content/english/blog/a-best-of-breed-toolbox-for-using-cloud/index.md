@@ -2,6 +2,7 @@
 title: A Best-of-Breed Toolbox for Using Cloud
 lastmod: "2019-10-29"
 author: "CloudOps"
+description: Cloud and tool agnostic but opinionated, our full-stack solution of open source and proprietary technologies can be replicated and adapted. 
 resources:
 - name: "thumbnail"
   src: "Toolbox-Blog.jpg"

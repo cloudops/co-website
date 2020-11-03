@@ -2,6 +2,7 @@
 title: "Our Work from Home Best Practices: Curated Tips and Tricks"
 lastmod: "2020-05-06"
 author: "CloudOps"
+description: A few best practices for working from home, including practical and wellness tips on how to optimize remote work - pandemic or not.
 resources:
 - name: "thumbnail"
   src: "awkwardyeti.png"

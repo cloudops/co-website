@@ -2,6 +2,7 @@
 title: "The Beginner’s Guide to the CNCF Landscape"
 lastmod: "2018-10-26"
 author: "CloudOps"
+description: The cloud native landscape is chaotic. This beginner’s guide will introduce you to the CNCF projects.
 resources:
 - name: "thumbnail"
   src: "CNCF.jpg"

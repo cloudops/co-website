@@ -2,6 +2,7 @@
 title: "Can Infor and NetSuite Get “Cloud” So Wrong?"
 lastmod: "2014-11-17"
 author: "Marc Paré"
+description: Software as a service (SaaS) should not be called “cloud.” Equating a subscription software delivery model to cloud masks its true value.
 resources:
 - name: "thumbnail"
   src: "6415460111_dff858ea87_z.jpg"

@@ -2,6 +2,7 @@
 title: "How Open Source Enables Us to Own Our Destiny in the Clouds"
 lastmod: "2020-07-24"
 author: "CloudOps"
+description: Open source has always been at the heart of our mission to help customers own their destinies in the clouds.
 resources:
 - name: "thumbnail"
   src: "lightbulb-people.png"

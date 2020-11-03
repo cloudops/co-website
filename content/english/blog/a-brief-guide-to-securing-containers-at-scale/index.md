@@ -2,6 +2,7 @@
 title: "A Brief Guide to Securing Containers at Scale"
 lastmod: "2019-01-29"
 author: "CloudOps"
+description: Keep your container deployments secure with these 5 key best practices.
 resources:
 - name: "thumbnail"
   src: "ContainerSecurity.png"

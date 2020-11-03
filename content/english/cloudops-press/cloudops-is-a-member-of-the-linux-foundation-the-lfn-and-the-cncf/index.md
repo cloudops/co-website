@@ -2,6 +2,7 @@
 title: "CloudOps is a Member of the Linux Foundation, the LFN, and the CNCF"
 lastmod: "2018-03-08"
 author: "CloudOps"
+description: As a member of The Linux Foundation, the Cloud Native Computing Foundation (CNCF), and The LFNetworking Fund (LFN), CloudOps is proud of its commitment to open source.
 resources:
 - name: "thumbnail"
   src: "lf_silver.png"

@@ -2,6 +2,7 @@
 title: Top 10 Mistakes To Avoid When Adopting DevOps
 lastmod: "2020-01-13"
 author: "CloudOps"
+description: It’s 2020, and DevOps is a requirement. When adopting DevOps, make sure your organization isn’t making one of these common mistakes.
 resources:
 - name: "thumbnail"
   src: "WrongWay.png"

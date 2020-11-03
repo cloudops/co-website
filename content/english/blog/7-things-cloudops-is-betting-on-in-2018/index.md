@@ -2,6 +2,7 @@
 title: "7 Things CloudOps is Betting on in 2018…"
 lastmod: "2018-02-05"
 author: "CloudOps"
+description: We continue to race into an ‘everything as a service’ world. Here are CloudOps' predictions for 2018.
 resources:
 - name: "thumbnail"
   src: "Fireworks.png"

@@ -2,6 +2,7 @@
 title: "CloudStack vs. OpenStack: Is There Really a Winner?"
 lastmod: "2015-07-29"
 author: "CloudOps"
+description: “Should I deploy CloudStack or OpenStack in my organization?”
 resources:
 - name: "thumbnail"
   src: "CloudOps-boxing-gloves.jpg"

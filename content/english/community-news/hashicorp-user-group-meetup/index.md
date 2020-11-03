@@ -2,6 +2,7 @@
 title: "Hashicorp User Group Meetup #2"
 lastmod: "2018-01-17"
 author: "CloudOps"
+description: CloudOps was pleased to collaborate with Hashicorp User Group, fondly known as HUG, for its second DevOps Montreal meetup last night. 
 resources:
 - name: "thumbnail"
   src: "HUG-1-1.jpg"

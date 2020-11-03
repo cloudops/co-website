@@ -2,6 +2,7 @@
 title: "Rancher 2.0: Exciting Features You Should Know About"
 lastmod: "2018-07-24"
 author: "CloudOps"
+description: Rancher 2.0 was made GA (generally available) on May 1st, and there is quite a bit to be excited about.
 resources:
 - name: "thumbnail"
   src: "Rancher.jpg"

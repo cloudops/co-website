@@ -2,6 +2,7 @@
 title: "Announcing cloud.ca – enterprise cloud in Canada"
 lastmod: "2014-05-03"
 author: "Marc Paré"
+description: Canadians deserve a regional cloud to maintain data sovereignty and comply with privacy regulations. And we’ve given it a truly Canadian moniker; Cloud.ca
 resources:
 - name: "thumbnail"
   src: "cloudca.png"

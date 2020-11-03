@@ -2,6 +2,7 @@
 title: "Docker and Kubernetes: What is the Value of Containerization?"
 lastmod: "2017-07-28"
 author: "CloudOps"
+description: Containerization and microservices-based architectures have taken the DevOps community by storm.
 resources:
 - name: "thumbnail"
   src: "DockerKubernetes.jpg"

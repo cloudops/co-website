@@ -2,6 +2,7 @@
 title: "Remote Sensing, Data Pipelines, Kubernetes, and Neural Networks in Ecology"
 lastmod: "2020-01-27"
 author: "Tristan Kosciuch"
+description: With machine learning, ecologists can build data pipelines to analyze the vast amounts of data collected with remote viewing.
 resources:
 - name: "thumbnail"
   src: "Blog98.png"

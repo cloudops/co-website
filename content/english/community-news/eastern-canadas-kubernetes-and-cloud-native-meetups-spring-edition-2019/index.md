@@ -2,6 +2,7 @@
 title: "Eastern Canada’s Kubernetes and Cloud Native Meetups – Spring Edition 2019"
 lastmod: "2018-06-14"
 author: "CloudOps"
+description: With summer right around the corner, CloudOps held a series of Kubernetes and Cloud Native meetups in Montreal, Kitchener-Waterloo, Ottawa, Toronto, and Quebec City.
 resources:
 - name: "thumbnail"
   src: "EasternCanadaMeetups.png"

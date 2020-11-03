@@ -3318,6 +3318,8 @@ form option {
 .post img {
   padding-top: 30px;
   padding-bottom: 30px; }
+  .post img.cover {
+    width: 100%; }
 
 .post h2 {
   color: #005D91;

@@ -2,6 +2,7 @@
 title: "Kubernetes Operators 101"
 lastmod: "2020-09-08"
 author: "Alexandre Menezes"
+description: An introduction to the operator pattern in Kubernetes and the Operator Framework SDK for creating Go Operators.
 resources:
 - name: "thumbnail"
   src: "kubernetes-operators-101.png"
