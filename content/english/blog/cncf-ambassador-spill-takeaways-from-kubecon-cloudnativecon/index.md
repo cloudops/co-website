@@ -6,6 +6,8 @@ description: Over 8,000 people attended KubeCon + CloudNativeCon in Seattle last
 resources:
 - name: "thumbnail"
   src: "KubeCon.jpg"
+- name: "cover"
+  src: "KubeCon-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2019/01/cncf-ambassador-spill-takeaways-from-kubecon-cloudnativecon/

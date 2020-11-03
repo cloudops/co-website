@@ -6,6 +6,8 @@ description: Keep your container deployments secure with these 5 key best practi
 resources:
 - name: "thumbnail"
   src: "ContainerSecurity.png"
+- name: "cover"
+  src: "ContainerSecurity-cover.png"
 class_name: "blog post"
 ---
 

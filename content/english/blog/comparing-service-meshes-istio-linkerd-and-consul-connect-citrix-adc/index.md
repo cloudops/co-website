@@ -6,6 +6,8 @@ description: Service meshes help solve networking in microservice-based applicat
 resources:
 - name: "thumbnail"
   src: "ServiceMesh.png"
+- name: "cover"
+  src: "ServiceMesh-cover.png"
 class_name: "blog post"
 aliases:
   - /2020/06/comparing-service-meshes-istio-linkerd-and-consul-connect-citrix-adc/

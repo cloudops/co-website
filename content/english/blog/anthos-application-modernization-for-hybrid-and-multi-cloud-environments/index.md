@@ -6,6 +6,8 @@ description: Anthos is an open hybrid- and multi-cloud application platform pion
 resources:
 - name: "thumbnail"
   src: "Anthos.jpg"
+- name: "cover"
+  src: "Anthos-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2020/03/anthos-application-modernization-for-hybrid-and-multi-cloud-environments/

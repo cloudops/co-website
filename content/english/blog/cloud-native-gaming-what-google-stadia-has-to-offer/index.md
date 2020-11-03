@@ -6,6 +6,8 @@ description: Gamers and developers alike are finally getting a glimpse of the no
 resources:
 - name: "thumbnail"
   src: "Stadia.jpg"
+- name: "cover"
+  src: "Stadia-cover.jpg"
 class_name: "blog post"
 aliases:
   - /2019/03/cloud-native-gaming-what-google-stadia-has-to-offer/

@@ -6,6 +6,8 @@ description: Cloud computing is a revolutionary model for IT services delivery. 
 resources:
 - name: "thumbnail"
   src: "manifesto.png"
+- name: "cover"
+  src: "manifesto-cover.png"
 class_name: "blog post"
 aliases:
     - /2015/12/cloudops-manifesto/

@@ -6,6 +6,8 @@ description: Containerization and microservices-based architectures have taken t
 resources:
 - name: "thumbnail"
   src: "DockerKubernetes.jpg"
+- name: "cover"
+  src: "DockerKubernetes-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2017/07/docker-and-kubernetes-what-is-the-value-of-containerization/

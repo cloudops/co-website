@@ -6,6 +6,8 @@ description: Cloud and tool agnostic but opinionated, our full-stack solution of
 resources:
 - name: "thumbnail"
   src: "Toolbox-Blog.jpg"
+- name: "cover"
+  src: "Toolbox-Blog-cover.jpg"
 class_name: "blog post"
 aliases:
   - /2019/10/a-best-of-breed-toolbox-for-using-cloud/

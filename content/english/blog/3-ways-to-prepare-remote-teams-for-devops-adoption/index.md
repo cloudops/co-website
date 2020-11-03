@@ -6,6 +6,8 @@ description: Several mistakes are too common for organizations trying to adopt D
 resources:
 - name: "thumbnail"
   src: "WorkingRemoteBlog.png"
+- name: "cover"
+  src: "WorkingRemoteBlog-cover.png"
 class_name: "blog post"
 aliases:
   - /2020/05/3-ways-to-prepare-remote-teams-for-devops-adoption/

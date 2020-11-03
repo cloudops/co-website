@@ -6,6 +6,8 @@ description: Crawling like a snail or flying like a unicorn through your softwar
 resources:
 - name: "thumbnail"
   src: "Radar.jpg"
+- name: "cover"
+  src: "Radar-cover.jpg"
 class_name: "blog post"
 aliases:
   - /2019/11/assessing-success-with-the-devops-health-radar/

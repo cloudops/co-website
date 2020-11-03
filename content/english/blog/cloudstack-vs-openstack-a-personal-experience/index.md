@@ -6,6 +6,8 @@ description: All this being said, I continue to believe that CloudStack is the m
 resources:
 - name: "thumbnail"
   src: "gloves.jpg"
+- name: "cover"
+  src: "gloves-cover.jpg"
 class_name: "blog post"
 aliases: 
     - /2013/02/cloudstack-vs-openstack-a-personal-experience/

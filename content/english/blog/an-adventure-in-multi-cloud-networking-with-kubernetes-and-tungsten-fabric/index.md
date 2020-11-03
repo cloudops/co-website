@@ -6,6 +6,8 @@ description: I embarked on a small adventure to try networking together two diff
 resources:
 - name: "thumbnail"
   src: "TungstenFabric.png"
+- name: "cover"
+  src: "TungstenFabric-cover.png"
 class_name: "blog post"
 aliases:
   - /2019/04/an-adventure-in-multi-cloud-networking-with-kubernetes-and-tungsten-fabric/

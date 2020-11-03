@@ -6,6 +6,8 @@ description: Culture is at the heart of DevOps adoption. Here are nine ways your
 resources:
 - name: "thumbnail"
   src: "DevOps-Culture.png"
+- name: "cover"
+  src: "DevOps-Culture-cover.png"
 class_name: "blog post"
 aliases: 
   - /2019/02/driving-feature-velocity-through-cultural-change-why-devops-puts-mindset-before-technology/

@@ -6,6 +6,8 @@ description: The cloud does offer significant benefits that include cost-efficie
 resources:
 - name: "thumbnail"
   src: "Cut-Costs-in-the-Cloud.png"
+- name: "cover"
+  src: "Cut-Costs-in-the-Cloud-cover.png"
 class_name: "blog post"
 aliases:
   - /2020/04/8-ways-to-cut-cloud-consumption-costs/

@@ -5,7 +5,9 @@ author: "Marc Paré"
 description: Software as a service (SaaS) should not be called “cloud.” Equating a subscription software delivery model to cloud masks its true value.
 resources:
 - name: "thumbnail"
-  src: "6415460111_dff858ea87_z.jpg"
+  src: "puzzle.jpg"
+- name: "cover"
+  src: "puzzle-cover.jpg"
 class_name: "blog post"
 ---
 

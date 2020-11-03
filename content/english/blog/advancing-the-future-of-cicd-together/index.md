@@ -6,6 +6,8 @@ description: Continuous delivery is a critical part of modern software developme
 resources:
 - name: "thumbnail"
   src: "cd-foundation.png"
+- name: "cover"
+  src: "cd-foundation-cover.png"
 class_name: "blog post"
 ---
 

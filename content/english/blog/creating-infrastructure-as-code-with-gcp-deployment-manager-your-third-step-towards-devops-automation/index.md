@@ -6,6 +6,8 @@ description: Leverage a specific cloud infrastructure deployment service as part
 resources:
 - name: "thumbnail"
   src: "GCP.jpg"
+- name: "cover"
+  src: "GCP-cover.jpg"
 class_name: "blog post"
 aliases:
   - /2018/07/creating-infrastructure-as-code-with-gcp-deployment-manager-your-third-step-towards-devops-automation/

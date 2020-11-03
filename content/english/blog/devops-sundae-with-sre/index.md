@@ -6,6 +6,8 @@ description: Google first introduced Site Reliability Engineering, or SRE, to th
 resources:
 - name: "thumbnail"
   src: "SRECherry.jpg"
+- name: "cover"
+  src: "SRECherry-cover.jpg"
 class_name: "blog post"
 aliases:
   - /2018/07/devops-sundae-with-sre/

@@ -6,6 +6,8 @@ description: Values shape leadership and create purpose and cohesion between tea
 resources:
 - name: "thumbnail"
   src: "cloudops-values.png"
+- name: "cover"
+  src: "cloudops-values-cover.png"
 class_name: "blog post"
 ---
 

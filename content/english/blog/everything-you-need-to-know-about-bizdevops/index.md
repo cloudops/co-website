@@ -6,6 +6,8 @@ description: BizDevOps tools and practices promote agility by integrating busine
 resources:
 - name: "thumbnail"
   src: "BizDevOps.jpg"
+- name: "cover"
+  src: "BizDevOps-cover.jpg"
 class_name: "blog post"
 aliases:
   - /2019/10/everything-you-need-to-know-about-bizdevops/

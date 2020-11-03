@@ -6,6 +6,8 @@ description: Automating your CI/CD pipelines is key to adopting Infrastructure a
 resources:
 - name: "thumbnail"
   src: "GCP.jpg"
+- name: "cover"
+  src: "GCP-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2018/03/creating-infrastructure-as-code-with-packer-and-terraform-on-gcp-your-second-step-towards-devops-automation/

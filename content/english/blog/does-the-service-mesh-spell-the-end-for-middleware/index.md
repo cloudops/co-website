@@ -6,6 +6,8 @@ description: Middleware is as Istio and other service meshes are adopted. Could 
 resources:
 - name: "thumbnail"
   src: "ServiceMesh.jpg"
+- name: "cover"
+  src: "ServiceMesh-cover.jpg"
 class_name: "blog post"
 aliases:
   - /2018/09/does-the-service-mesh-spell-the-end-for-middleware/

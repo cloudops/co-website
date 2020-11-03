@@ -6,6 +6,8 @@ description: Bell Canada is the first telco to deploy an open source version of 
 resources:
 - name: "thumbnail"
   src: "ONAP.jpg"
+- name: "cover"
+  src: "ONAP-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2018/01/containerizing-onap-for-efficiency-why-bell-created-oom-using-kubernetes/

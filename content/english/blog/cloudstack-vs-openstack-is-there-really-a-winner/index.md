@@ -6,6 +6,8 @@ description: “Should I deploy CloudStack or OpenStack in my organization?”
 resources:
 - name: "thumbnail"
   src: "CloudOps-boxing-gloves.jpg"
+- name: "cover"
+  src: "CloudOps-boxing-gloves-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2015/07/cloudstack-vs-openstack-is-there-really-a-winner/

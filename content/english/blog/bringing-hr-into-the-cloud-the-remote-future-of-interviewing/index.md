@@ -6,6 +6,8 @@ description: Recruitment has often resisted the transition to remote work, but t
 resources:
 - name: "thumbnail"
   src: "RemoteOffice.png"
+- name: "cover"
+  src: "RemoteOffice-cover.png"
 class_name: "blog post"
 aliases:
     - /2020/04/bringing-hr-into-the-cloud-the-remote-future-of-interviewing/

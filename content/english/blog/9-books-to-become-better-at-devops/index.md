@@ -7,7 +7,7 @@ resources:
 - name: "thumbnail"
   src: "bookblogpost.jpg"
 - name: "cover"
-  src: "bookblogpost.jpg"
+  src: "bookblogpost-cover.jpg"
 class_name: "blog post"
 aliases:
   - /2019/09/9-books-to-become-better-at-devops/

@@ -6,6 +6,8 @@ description: Ian Rae discusses how CloudOps was created to help others take adva
 resources:
 - name: "thumbnail"
   src: "cloudops.jpg"
+- name: "cover"
+  src: "cloudops-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2013/03/a-cloudops-story/
