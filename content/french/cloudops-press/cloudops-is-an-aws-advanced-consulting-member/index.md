@@ -1,6 +1,6 @@
 ---
 title: "Partenaire avancé d’AWS"
-lastmod: "2019-04-29"
+date: "2019-04-29"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

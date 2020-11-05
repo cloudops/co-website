@@ -1,6 +1,6 @@
 ---
 title: Cloud Performance from the End User
-lastmod: 2020-06-30
+date: 2020-06-30
 description: A CloudOps analysis of client-side latency and availability on hybrid- and multi-cloud platforms.
 resources:
 - name: "thumbnail"

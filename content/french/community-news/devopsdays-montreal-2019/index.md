@@ -1,6 +1,6 @@
 ---
 title: "DevOpsDays Montréal 2019"
-lastmod: "2019-11-28"
+date: "2019-11-28"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

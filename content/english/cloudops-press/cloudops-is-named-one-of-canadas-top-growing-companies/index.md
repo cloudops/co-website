@@ -1,6 +1,6 @@
 ---
 title: "CloudOps is Named One of Canada’s Top Growing Companies."
-lastmod: "2019-09-27"
+date: "2019-09-27"
 author: "CloudOps"
 description: CloudOps is pleased to announce it placed No. 294 on the inaugural Report on Business ranking of Canada’s Top Growing Companies.
 resources:

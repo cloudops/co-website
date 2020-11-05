@@ -1,6 +1,6 @@
 ---
 title: A Cloud(Ops) Story
-lastmod: "2013-03-28"
+date: "2013-03-28"
 author: "Ian Rae"
 description: Ian Rae discusses how CloudOps was created to help others take advantage of the transformative opportunity of cloud computing
 resources:

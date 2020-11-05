@@ -1,6 +1,6 @@
 ---
 title: "My experience interning at CloudOps"
-lastmod: "2020-08-28"
+date: "2020-08-28"
 author: "Julia Hohenadel"
 description: Julia Hohenadel spent her summer interning at CloudOps. As she returns to school, she reflects on her work experience.
 resources:

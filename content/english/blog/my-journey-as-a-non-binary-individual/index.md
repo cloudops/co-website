@@ -1,6 +1,6 @@
 ---
 title: "My Journey as a Non-Binary Individual"
-lastmod: "2020-10-23"
+date: "2020-10-23"
 author: "Ariel Zolezzi"
 resources:
 - name: "thumbnail"

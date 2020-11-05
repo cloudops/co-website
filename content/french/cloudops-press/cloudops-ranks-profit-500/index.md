@@ -1,6 +1,6 @@
 ---
 title: "CloudOps s’est classée au 356e rang du palmarès PROFIT 500 de 2016"
-lastmod: "2016-09-19"
+date: "2016-09-19"
 author: "Julia Simon"
 resources:
 - name: "thumbnail"

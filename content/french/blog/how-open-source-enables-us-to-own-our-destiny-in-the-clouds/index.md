@@ -1,6 +1,6 @@
 ---
 title: "Restons maîtres de notre destin dans les nuages grâce à la source libre"
-lastmod: "2020-07-24"
+date: "2020-07-24"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

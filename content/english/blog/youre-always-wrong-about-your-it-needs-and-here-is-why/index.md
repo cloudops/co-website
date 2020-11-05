@@ -1,6 +1,6 @@
 ---
 title: "You’re Always Wrong About Your IT Needs and Here Is Why"
-lastmod: "2015-05-06"
+date: "2015-05-06"
 author: "Ian Rae"
 description: Embrace being wrong. Plan on being wrong. Lease the base and rent the peaks and demand nothing less
 resources:

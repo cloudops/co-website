@@ -1,6 +1,6 @@
 ---
 title: "CloudOps mise sur l’année 2018 ! Voici comment: "
-lastmod: "2018-02-16"
+date: "2018-02-16"
 author: "Ian Rae"
 resources:
 - name: "thumbnail"

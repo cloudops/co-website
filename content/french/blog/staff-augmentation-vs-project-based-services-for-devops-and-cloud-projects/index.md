@@ -1,6 +1,6 @@
 ---
 title: "Projets DevOps et infonuagiques : Le personnel d’appoint ou les services par projets?"
-lastmod: "2020-02-25"
+date: "2020-02-25"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

@@ -1,6 +1,6 @@
 ---
 title: "Montreal Cloud Native Day 2019"
-lastmod: "2018-06-21"
+date: "2018-06-21"
 author: "CloudOps"
 description: Montreal’s first Cloud Native Day was last Tuesday. The event brought together Kubernetes and cloud native communities from across Eastern Canada and featured a full day of talks.
 resources:

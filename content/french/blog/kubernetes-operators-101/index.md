@@ -1,6 +1,6 @@
 ---
 title: "Opérateurs Kubernetes 101"
-lastmod: "2020-09-08"
+date: "2020-09-08"
 author: "Alexandre Menezes"
 resources:
 - name: "thumbnail"

@@ -1,6 +1,6 @@
 ---
 title: "Comment déployer un serveur de développement Vault vers Kubernetes avec Helm."
-lastmod: "2018-03-17"
+date: "2018-03-17"
 author: "Adrian Todorov"
 resources:
 - name: "thumbnail"

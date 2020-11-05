@@ -1,6 +1,6 @@
 ---
 title: "Working with the CloudStack API"
-lastmod: "2013-01-18"
+date: "2013-01-18"
 author: "Will Stevens"
 description: The CloudStack API is a very powerful tool for managing your infrastructure and is often not utilized to its full potential.
 resources:

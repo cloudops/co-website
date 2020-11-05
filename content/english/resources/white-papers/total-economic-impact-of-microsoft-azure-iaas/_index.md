@@ -1,6 +1,6 @@
 ---
 title: The Total Economic Impact of Microsoft Azure IaaS
-lastmod: 2020-07-07
+date: 2020-07-07
 description: In this study, Forrester Consulting evaluates the potential financial impact of leveraging Azure IaaS for delivering cloud native solutions.
 resources:
 - name: "thumbnail"

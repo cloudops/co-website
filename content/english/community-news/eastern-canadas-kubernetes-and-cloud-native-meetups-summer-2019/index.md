@@ -1,6 +1,6 @@
 ---
 title: "Eastern Canada’s Kubernetes and Cloud Native Meetups – Summer 2019"
-lastmod: "2019-10-12"
+date: "2019-10-12"
 author: "CloudOps"
 description: Summer was punctuated with many great talks and cupcakes as we closed off the season with the Kubernetes Birthday Bash.
 resources:

@@ -1,6 +1,6 @@
 ---
 title: Kubernetes Deployments 101
-lastmod: "2020-04-21"
+date: "2020-04-21"
 author: "Chanpreet Kaur"
 description: Get started deploying Kubernetes in production with this 101 guide.
 resources:

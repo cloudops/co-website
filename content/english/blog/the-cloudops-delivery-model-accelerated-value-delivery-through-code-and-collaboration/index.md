@@ -1,6 +1,6 @@
 ---
 title: The CloudOps Delivery Model – Accelerated Value Delivery through Code and Collaboration
-lastmod: "2019-05-14"
+date: "2019-05-14"
 author: "CloudOps"
 description: The CloudOps delivery model involves building, operating and transferring value in the application platform.
 resources:

@@ -24,9 +24,9 @@
     {{- if not .PublishDate.IsZero }}<meta property="article:published_time" {{ .PublishDate.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
     {{ else if not .Date.IsZero }}<meta property="article:published_time" {{ .Date.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
     {{ end }}
-    {{- if not .Lastmod.IsZero }}<meta property="article:modified_time" {{ .Lastmod.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end }}
+    {{- if not .date.IsZero }}<meta property="article:modified_time" {{ .date.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end }}
     {{- else }}
-    {{- if not .Date.IsZero }}<meta property="og:updated_time" {{ .Lastmod.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
+    {{- if not .Date.IsZero }}<meta property="og:updated_time" {{ .date.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
     {{- end }}
     {{- end }}{{/* .IsPage */}}
     

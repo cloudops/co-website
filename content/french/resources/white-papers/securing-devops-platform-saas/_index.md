@@ -1,6 +1,6 @@
 ---
 title: Sécurisation de votre plateforme DevOps avec sass
-lastmod: 2020-07-02
+date: 2020-07-02
 resources:
 - name: "thumbnail"
   src: "securing_devops_platform_saas.png"

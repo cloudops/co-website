@@ -1,6 +1,6 @@
 ---
 title: En route vers le SaaS
-lastmod: 2020-06-28
+date: 2020-06-28
 resources:
 - name: "thumbnail"
   src: "road_to_saas.png"

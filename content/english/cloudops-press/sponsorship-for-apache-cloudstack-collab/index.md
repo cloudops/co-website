@@ -1,6 +1,6 @@
 ---
 title: "CloudOps Releases Names of Sponsors for Apache CloudStack™ Collab Conference"
-lastmod: "2016-05-30"
+date: "2016-05-30"
 author: "CloudOps"
 description: CloudOps is excited to announce the sponsors for #ccc2016mtl.
 resources:

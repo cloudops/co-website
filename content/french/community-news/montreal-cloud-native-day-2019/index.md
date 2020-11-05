@@ -1,6 +1,6 @@
 ---
 title: "Journée Cloud Native 2019"
-lastmod: "2019-06-21"
+date: "2019-06-21"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

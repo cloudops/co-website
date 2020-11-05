@@ -1,6 +1,6 @@
 ---
 title: "Sillonner le paysage «cloud native» avec CloudOps"
-lastmod: "2020-07-02"
+date: "2020-07-02"
 author: "Syed Ahmed"
 resources:
 - name: "thumbnail"

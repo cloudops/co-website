@@ -1,6 +1,6 @@
 ---
 title: "Maddison Long accepted into Forbes Technology Council"
-lastmod: "2019-03-06"
+date: "2019-03-06"
 author: "CloudOps"
 description: Maddison Long, Vice President of Products at CloudOps, has been accepted into Forbes Technology Council, an invitation-only community for world-class CIOs, CTOs, and technology executives.
 resources:

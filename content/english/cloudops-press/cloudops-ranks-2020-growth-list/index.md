@@ -1,6 +1,6 @@
 ---
 title: "CloudOps Ranks No. 19 On The 2020 Growth List of Canada’s Fastest-Growing Companies"
-lastmod: "2020-10-15"
+date: "2020-10-15"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

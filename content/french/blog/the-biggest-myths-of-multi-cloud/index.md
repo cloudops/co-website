@@ -1,6 +1,6 @@
 ---
 title: "Les plus grands mythes sur les multinuages"
-lastmod: "2020-10-01"
+date: "2020-10-01"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

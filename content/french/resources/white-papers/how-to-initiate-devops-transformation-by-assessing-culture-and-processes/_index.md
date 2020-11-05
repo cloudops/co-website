@@ -1,6 +1,6 @@
 ---
 title: Accélérer la transformation DevOps en effectuant une évaluation de la culture et des procédés
-lastmod: 2020-07-06
+date: 2020-07-06
 resources:
 - name: "thumbnail"
   src: "devops_trans.png"

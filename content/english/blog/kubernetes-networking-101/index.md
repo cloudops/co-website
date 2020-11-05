@@ -1,6 +1,6 @@
 ---
 title: "Kubernetes Networking 101"
-lastmod: "2020-06-02"
+date: "2020-06-02"
 author: "Chanpreet Kaur"
 description: Kubernetes provides first-class support for a range of different networking configurations. This 101 guide will get you started.
 resources:

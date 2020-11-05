@@ -1,6 +1,6 @@
 ---
 title: "Les 7 plus grands défis à relever lorsque l’on devient «Cloud Native»"
-lastmod: "2020-07-17"
+date: "2020-07-17"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

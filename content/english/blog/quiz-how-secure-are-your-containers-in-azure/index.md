@@ -1,6 +1,6 @@
 ---
 title: "Quiz: How Secure are your Containers in Azure?"
-lastmod: "2019-04-25"
+date: "2019-04-25"
 author: "CloudOps"
 description: Test your knowledge of container security in Azure and find out if you’re following AKS best practices.
 resources:

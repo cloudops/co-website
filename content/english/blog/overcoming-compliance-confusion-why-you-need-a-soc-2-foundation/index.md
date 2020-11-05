@@ -1,6 +1,6 @@
 ---
 title: "Overcoming Compliance Confusion: Why You Need a SOC 2 Foundation"
-lastmod: "2018-05-10"
+date: "2018-05-10"
 author: "CloudOps"
 description: Prepare your application to face evolving compliance requirements with proven best practices, like SOC 2 attestation reports.
 resources:

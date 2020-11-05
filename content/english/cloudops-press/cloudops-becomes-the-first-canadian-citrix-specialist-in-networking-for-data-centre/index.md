@@ -1,6 +1,6 @@
 ---
 title: "CloudOps Becomes the First Canadian Citrix Specialist in Networking for Data Centre"
-lastmod: "2015-07-17"
+date: "2015-07-17"
 author: "Julia Simon"
 description: CloudOps, a cloud solutions provider and Citrix Gold Partner, announces its most recent Citrix certification as a Networking for Data Centre specialist.
 resources:

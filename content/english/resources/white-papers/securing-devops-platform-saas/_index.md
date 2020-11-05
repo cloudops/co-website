@@ -1,6 +1,6 @@
 ---
 title: Securing your DevOps platform for SaaS
-lastmod: 2020-07-02
+date: 2020-07-02
 description: Hackers are becoming more creative each day. Industry standards like SOC 2 are essential for keeping your applications secure.
 resources:
 - name: "thumbnail"

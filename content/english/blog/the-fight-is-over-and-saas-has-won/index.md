@@ -1,6 +1,6 @@
 ---
 title: "The Fight Is Over, and SaaS Has Won"
-lastmod: "2014-07-08"
+date: "2014-07-08"
 author: "CloudOps"
 description: The fight is over, and Software-As-A-Service won. Software companies that wait too long to move to an on-demand model lose market share, and quickly grow out of touch with their customers.
 resources:

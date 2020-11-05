@@ -1,6 +1,6 @@
 ---
 title: "Comparing Service Meshes: Istio, Linkerd, Consul Connect, and Citrix ADC"
-lastmod: "2020-08-21"
+date: "2020-08-21"
 author: "Syed Ahmed"
 description: Service meshes help solve networking in microservice-based applications. Which one is best for your application?
 resources:

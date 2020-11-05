@@ -1,6 +1,6 @@
 ---
 title: "Why you Need a DevOps Transformation to Survive"
-lastmod: "2019-02-28"
+date: "2019-02-28"
 author: "CloudOps"
 description: DevOps transformations bring significant value but require different ways of thinking.
 resources:

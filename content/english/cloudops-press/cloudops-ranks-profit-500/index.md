@@ -1,6 +1,6 @@
 ---
 title: "CloudOps Ranks No. 356 on the 2016 PROFIT 500"
-lastmod: "2016-09-15"
+date: "2016-09-15"
 author: "CloudOps"
 description: Canadian Business and PROFIT today ranked CloudOps No. 356 on the 28th annual PROFIT 500, the definitive ranking of Canada’s Fastest-Growing Companies.
 resources:

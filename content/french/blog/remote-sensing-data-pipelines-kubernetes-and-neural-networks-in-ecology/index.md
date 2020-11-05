@@ -1,6 +1,6 @@
 ---
 title: "Télédétection, pipelines de données, Kubernetes et réseaux neuronaux dans le domaine de l’écologie."
-lastmod: "2020-01-27"
+date: "2020-01-27"
 author: "Tristan Kosciuch"
 resources:
 - name: "thumbnail"

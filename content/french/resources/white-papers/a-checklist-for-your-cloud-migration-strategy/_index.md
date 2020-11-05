@@ -1,6 +1,6 @@
 ---
 title: Petite liste de vérification utile avant la migration vers le nuage
-lastmod: 2020-07-05
+date: 2020-07-05
 resources:
 - name: "thumbnail"
   src: "cloudmigration.png"

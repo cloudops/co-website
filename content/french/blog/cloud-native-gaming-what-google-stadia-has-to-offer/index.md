@@ -1,6 +1,6 @@
 ---
 title: "Le futur du jeu vidéo infonuagique natif : Ce que propose Google Stadia"
-lastmod: "2019-03-26"
+date: "2019-03-26"
 author: "admin"
 resources:
 - name: "thumbnail"

@@ -1,6 +1,6 @@
 ---
 title: "Nos promesses envers notre clientèle"
-lastmod: "2019-12-02"
+date: "2019-12-02"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

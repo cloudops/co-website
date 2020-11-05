@@ -1,11 +1,13 @@
 ---
 title: "How to Create Infrastructure as Code with Terraform in GCP: Your first step towards DevOps automation"
-lastmod: "2018-02-14"
+date: "2018-02-14"
 author: "CloudOps"
 description: Step-by-step instructions for deploying Consul using Terraform and Ansible on GCP.
 resources:
 - name: "thumbnail"
   src: "GCP.jpg"
+- name: "cover"
+  src: "GCP-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2018/02/how-to-deploy-consul-in-gcp-using-terraform-your-first-step-towards-devops-automation/

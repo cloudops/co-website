@@ -1,6 +1,6 @@
 ---
 title: "CloudOps Announces IDC Vendor Profile"
-lastmod: "2016-05-09"
+date: "2016-05-09"
 author: "CloudOps"
 description: CloudOps is pleased to announce that IDC has created a vendor profile which gives a unique glimpse into a company experiencing phenomenal growth. 
 resources:

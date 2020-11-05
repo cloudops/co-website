@@ -1,6 +1,6 @@
 ---
 title: "The Future of Cloud Native Telcos – Own your Destiny in the Cloud"
-lastmod: "2019-07-19"
+date: "2019-07-19"
 author: "CloudOps"
 description: Ian Rae and Maddison Long discuss the future of the telecommunication industry and the impact of open source and cloud native.
 resources:

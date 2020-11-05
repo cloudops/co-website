@@ -1,6 +1,6 @@
 ---
 title: "DevOpsDays Montreal"
-lastmod: "2018-10-17"
+date: "2018-10-17"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

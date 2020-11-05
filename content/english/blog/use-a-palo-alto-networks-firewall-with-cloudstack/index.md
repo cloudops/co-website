@@ -1,6 +1,6 @@
 ---
 title: "Use a Palo Alto Networks firewall with CloudStack"
-lastmod: "2014-12-05"
+date: "2014-12-05"
 author: "CloudOps"
 description: A setup guide to the official Apache CloudStack documentation for new features developed to integrate the Palo Alto Networks firewall into CloudStack.
 resources:

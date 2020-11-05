@@ -1,6 +1,6 @@
 ---
 title: "Solving Complexity at the Network Layer with Istio"
-lastmod: "2018-02-21"
+date: "2018-02-21"
 author: "CloudOps"
 description: Istio is an open source tool that provides operational control over the service mesh of an application as a whole.
 resources:

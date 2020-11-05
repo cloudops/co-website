@@ -1,6 +1,6 @@
 ---
 title: "What does GDPR mean for your Cloud Application?"
-lastmod: "2018-06-14"
+date: "2018-06-14"
 author: "CloudOps"
 description: GDPR came into effect on May 25th with wide sweeping implications for businesses everywhere.
 resources:

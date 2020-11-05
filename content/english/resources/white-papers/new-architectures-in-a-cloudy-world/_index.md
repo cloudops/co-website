@@ -1,6 +1,6 @@
 ---
 title: New Architectures in a Cloudy World
-lastmod: 2020-06-27
+date: 2020-06-27
 description: In today’s increasingly cloud native world, CIOs must rebalance their IT strategies to take full advantage of the cloud.
 resources:
 - name: "thumbnail"

@@ -1,6 +1,6 @@
 ---
 title: Why I Joined CloudOps
-lastmod: "2019-01-18"
+date: "2019-01-18"
 author: "CloudOps"
 description: Maddison Long joins CloudOps as VP of Products for its culture that values people, community, and technology.
 resources:

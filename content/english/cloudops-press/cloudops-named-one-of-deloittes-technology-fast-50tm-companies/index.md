@@ -1,6 +1,6 @@
 ---
 title: "CloudOps Named One of Deloitte’s Technology Fast 50TM Companies"
-lastmod: "2015-11-12"
+date: "2015-11-12"
 author: "Julia Simon"
 description: CloudOps is named as one of Canada’s fastest growing technology companies in the 18th annual Deloitte Technology Fast 50TM awards for demonstrating bold innovation, dedicated leadership and strong growth.
 resources:

@@ -1,6 +1,6 @@
 ---
 title: Our Top 8 Blog Posts from 2019
-lastmod: "2019-12-18"
+date: "2019-12-18"
 author: "CloudOps"
 description: 2018 is coming to a close, and we’ve curated our best blog posts from the year.
 resources:

@@ -1,6 +1,6 @@
 ---
 title: "Créer une infrastructure en tant que code dans GCP avec Consul et Terraform : Les premières étapes vers l’automatisation DevOps"
-lastmod: "2018-02-28"
+date: "2018-02-28"
 author: "Stacy Véronneau"
 resources:
 - name: "thumbnail"

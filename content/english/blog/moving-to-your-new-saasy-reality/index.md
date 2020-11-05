@@ -1,6 +1,6 @@
 ---
 title: "Moving To Your New SaaSy Reality"
-lastmod: "2014-07-31"
+date: "2014-07-31"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

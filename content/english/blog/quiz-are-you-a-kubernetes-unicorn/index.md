@@ -1,6 +1,6 @@
 ---
 title: "Quiz: Are you a Kubernetes Unicorn?"
-lastmod: "2019-08-19"
+date: "2019-08-19"
 author: "CloudOps"
 description: Test your knowledge of Docker and Kubernetes to find out if you’re a unicorn.
 resources:

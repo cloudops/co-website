@@ -1,6 +1,6 @@
 ---
 title: 9 Books to Become Better at DevOps
-lastmod: "2019-09-19"
+date: "2019-09-19"
 author: "CloudOps"
 description: Our team of teams compiled their favourite books on DevOps for both beginners and advanced practitioners.
 resources:

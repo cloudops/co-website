@@ -1,6 +1,6 @@
 ---
 title: "Cloud Native Meetup: K8s 1.9 Update, Lyft’s Migration to Envoy, and Cilium Networking"
-lastmod: "2018-02-02"
+date: "2018-02-02"
 author: "CloudOps"
 description: CloudOps hosted an exciting event last night at the Centre cloud.ca in Montreal bringing in speakers from Seattle and Silicon Valley. 
 resources:

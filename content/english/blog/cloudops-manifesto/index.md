@@ -1,6 +1,6 @@
 ---
 title: A Cloud Operations Manifesto
-lastmod: "2015-12-03"
+date: "2015-12-03"
 author: "Ian Rae"
 description: Cloud computing is a revolutionary model for IT services delivery. Ian Rae discusses its operational model.
 resources:

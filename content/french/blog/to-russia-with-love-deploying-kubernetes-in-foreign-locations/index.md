@@ -1,6 +1,6 @@
 ---
 title: "À la Russie avec amour : Déployer Kubernetes à l’étranger"
-lastmod: "2019-03-20"
+date: "2019-03-20"
 author: "Michael Wojcikiewicz"
 resources:
 - name: "thumbnail"

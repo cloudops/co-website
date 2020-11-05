@@ -1,6 +1,6 @@
 ---
 title: "Les meetups Kubernetes et Cloud Native de l’est du Canada de mars 2019"
-lastmod: "2019-03-08"
+date: "2019-03-08"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

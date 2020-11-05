@@ -1,6 +1,6 @@
 ---
 title: "Ensemble, faisons progresser les CI/CD vers le futur"
-lastmod: "2020-08-24"
+date: "2020-08-24"
 author: "Tracy Miranda"
 resources:
 - name: "thumbnail"

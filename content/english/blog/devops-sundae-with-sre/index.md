@@ -1,6 +1,6 @@
 ---
 title: "A DevOps Sundae: Is SRE the Cherry on Top?"
-lastmod: "2018-06-10"
+date: "2018-06-10"
 author: "CloudOps"
 description: Google first introduced Site Reliability Engineering, or SRE, to the world in 2003. Its approach is key for Infrastructure as Code.
 resources:

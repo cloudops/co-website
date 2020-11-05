@@ -1,6 +1,6 @@
 ---
 title: "CloudOps is a Microsoft DevOps Competency Partner"
-lastmod: "2019-04-14"
+date: "2019-04-14"
 author: "CloudOps"
 description: CloudOps announces its completion of the Microsoft DevOps Competency. As a DevOps partner, CloudOps has proven its expertise in helping organizations modernize their application development approaches.
 resources:

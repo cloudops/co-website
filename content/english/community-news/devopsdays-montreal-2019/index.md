@@ -1,6 +1,6 @@
 ---
 title: "DevOpsDays Montreal 2019"
-lastmod: "2019-11-19"
+date: "2019-11-19"
 author: "CloudOps"
 description: The second edition of DevOpsDays Montreal took place on November 5 and 6. The two days were jam-packed with talks in both English and French, open spaces, and workshops.
 resources:

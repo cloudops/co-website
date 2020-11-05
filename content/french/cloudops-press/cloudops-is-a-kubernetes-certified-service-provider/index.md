@@ -1,6 +1,6 @@
 ---
 title: "CloudOps est un fournisseur certifié de services Kubernetes"
-lastmod: "2018-03-26"
+date: "2018-03-26"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

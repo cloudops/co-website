@@ -1,6 +1,6 @@
 ---
 title: "Eastern Canada’s Kubernetes and Cloud Native Meetups – Winter Edition"
-lastmod: "2018-12-02"
+date: "2018-12-02"
 author: "CloudOps"
 description: This year’s first set of Kubernetes and Cloud Native Meetups in Eastern Canada just took place. CloudOps was excited to see such active participation from Eastern Canada’s cloud native communities.
 resources:

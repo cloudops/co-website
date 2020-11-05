@@ -1,11 +1,13 @@
 ---
 title: "Choosing a Cloud Provider as part of your Migration Strategy"
-lastmod: "2018-08-01"
+date: "2018-08-01"
 author: "CloudOps"
 description: There are 6 key considerations to make when designing your cloud native strategy.
 resources:
 - name: "thumbnail"
   src: "cloudprovider.png"
+- name: "cover"
+  src: "cloudprovider-cover.png"
 class_name: "blog post"
 aliases:
   - /2018/08/how-to-choose-a-cloud-provider-6-factors-to-think-about-when-migrating-to-the-cloud/

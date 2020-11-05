@@ -1,6 +1,6 @@
 ---
 title: "CloudOps s’engage à vous soutenir à travers la pandémie COVID-19"
-lastmod: "2020-03-18"
+date: "2020-03-18"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

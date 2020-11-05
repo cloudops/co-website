@@ -1,6 +1,6 @@
 ---
 title: "An Adventure in Multi-Cloud Networking with Kubernetes and Tungsten Fabric"
-lastmod: "2019-04-03"
+date: "2019-04-03"
 author: "CloudOps"
 description: I embarked on a small adventure to try networking together two different Kubernetes clusters with Tungsten Fabric.
 resources:

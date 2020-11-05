@@ -1,6 +1,6 @@
 ---
 title: Comment les consultants en infonuagique sauvent le domaine des soins de santé des violations de données coûteuses
-lastmod: 2020-07-01
+date: 2020-07-01
 resources:
 - name: "thumbnail"
   src: "healthcare_isv.png"

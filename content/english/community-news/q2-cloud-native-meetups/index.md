@@ -1,6 +1,6 @@
 ---
 title: "Cloud Native Meetup: K8s 1.10 Update, K8s Image Admittance, Rancher 2.0 Cluster Management, KubeVirt, Stateful Sets, Rook & Jaeger"
-lastmod: "2018-05-19"
+date: "2018-05-19"
 author: "CloudOps"
 description: In the wake of the recent KubeCon, we held an exciting series of Q2 cloud native meetups in Montreal, Kitchener-Waterloo, Ottawa, Toronto, and Quebec City.
 resources:

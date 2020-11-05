@@ -1,6 +1,6 @@
 ---
 title: "Pourquoi les déploiements infonuagiques natifs: Les plateformes et l’automatisation sans affiliation infonuagique sont les moteurs de la valeur commerciale."
-lastmod: "2018-11-21"
+date: "2018-11-21"
 author: "Marc Pare"
 resources:
 - name: "thumbnail"

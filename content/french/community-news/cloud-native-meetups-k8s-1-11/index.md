@@ -1,6 +1,6 @@
 ---
 title: "Meetups Kubernetes et outils ‘cloud native’: Kubernetes 1.11, Helm, PostrgreSQL et Traefik"
-lastmod: "2018-08-20"
+date: "2018-08-20"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

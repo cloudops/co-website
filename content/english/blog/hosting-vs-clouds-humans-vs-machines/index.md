@@ -1,11 +1,13 @@
 ---
 title: "Hosting vs. Cloud & Humans vs. Machines"
-lastmod: "2015-03-26"
+date: "2015-03-26"
 author: "Marc Paré"
 description: Marc Pare lays out four items he would want to know if he were starting to use cloud.
 resources:
 - name: "thumbnail"
   src: "machine-vs-human-pic.jpg"
+- name: "cover"
+  src: "machine-vs-human-pic-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2015/04/hosting-vs-clouds-humans-vs-machines/

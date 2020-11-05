@@ -1,6 +1,6 @@
 ---
 title: "Is the Cloud Causing Climate Change?"
-lastmod: "2020-06-04"
+date: "2020-06-04"
 author: "Tristan Kosciuch"
 description: Internet technology emits 7% of the global carbon footprint, but cloud computing can help make the delivery of renewable energy more viable.
 resources:

@@ -1,6 +1,6 @@
 ---
 title: "Eastern Canada’s Kubernetes + Cloud Native Meetups – Winter 2019"
-lastmod: "2019-12-19"
+date: "2019-12-19"
 author: "CloudOps"
 description: The last series of Kubernetes + Cloud Native meetups in 2019 have come to a close. Our roadshow took us to Ottawa, Toronto, Kitchener-Waterloo, Montreal, and Quebec.
 resources:

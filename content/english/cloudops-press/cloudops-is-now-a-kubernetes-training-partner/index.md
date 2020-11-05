@@ -1,6 +1,6 @@
 ---
 title: "CloudOps is Now a Kubernetes Training Partner"
-lastmod: "2018-05-17"
+date: "2018-05-17"
 author: "CloudOps"
 description: CloudOps is happy to announce membership of the newly-founded Kubernetes Training Partner (KTP) program.
 resources:

@@ -1,6 +1,6 @@
 ---
 title: "Advancing the Future of CI/CD Together"
-lastmod: "2020-08-24"
+date: "2020-08-24"
 author: "Tracy Miranda"
 description: Continuous delivery is a critical part of modern software development, but there are key obstacles slowing its widespread adoption.
 resources:

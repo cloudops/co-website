@@ -1,6 +1,6 @@
 ---
 title: "The Containerization of Machine Learning: TensorFlow, Kubernetes and Kubeflow"
-lastmod: "2018-09-05"
+date: "2018-09-05"
 author: "CloudOps"
 description: Machine learning (ML) is a method of data analysis for identifying patterns and predicting future probabilities. 
 resources:
