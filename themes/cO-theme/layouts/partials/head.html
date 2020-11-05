@@ -24,9 +24,9 @@
     {{- if not .PublishDate.IsZero }}<meta property="article:published_time" {{ .PublishDate.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
     {{ else if not .Date.IsZero }}<meta property="article:published_time" {{ .Date.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
     {{ end }}
-    {{- if not .date.IsZero }}<meta property="article:modified_time" {{ .date.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end }}
+    {{- if not .Lastmod.IsZero }}<meta property="article:modified_time" {{ .Lastmod.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end }}
     {{- else }}
-    {{- if not .Date.IsZero }}<meta property="og:updated_time" {{ .date.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
+    {{- if not .Date.IsZero }}<meta property="og:updated_time" {{ .Lastmod.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
     {{- end }}
     {{- end }}{{/* .IsPage */}}
     
@@ -69,22 +69,6 @@
   gtag('config', 'AW-966241414');
 </script>
 
-<!-- Event snippet for Submit Anthos demo and learn conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-    function gtag_report_conversion(url) {
-      var callback = function () {
-        if (typeof(url) != 'undefined') {
-          window.location = url;
-        }
-      };
-      gtag('event', 'conversion', {
-          'send_to': 'AW-966241414/MK3bCLOG1twBEIbZ3swD',
-          'event_callback': callback
-      });
-      return false;
-    }
-    </script>
     
 
    <!-- CSS -->

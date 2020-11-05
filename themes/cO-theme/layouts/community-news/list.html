@@ -42,7 +42,7 @@
                             {{ end }}
                             {{ end }}
                             <h3 class="card-title">{{.Title}}</h3>
-                            <p class="card-text">{{.date.Format "January 2, 2006"}}<br>{{ .Param "author" }}</p>
+                            <p class="card-text">{{.Lastmod.Format "January 2, 2006"}}<br>{{ .Param "author" }}</p>
                           </div>
                           <div class="corner-triangle"></div>
                         </a>
@@ -76,7 +76,7 @@
                                   {{ end }}
                                   {{ end }}
                                   <h3 class="card-title">{{.Title}}</h3>
-                                  <p class="card-text">{{.date.Format "January 2, 2006"}}<br>{{ .Param "author" }}</p>
+                                  <p class="card-text">{{.Lastmod.Format "January 2, 2006"}}<br>{{ .Param "author" }}</p>
                                 </div>
                                 <div class="corner-triangle"></div>
                               </a>
@@ -110,7 +110,7 @@
                               {{ end }}
                               {{ end }}
                               <h3 class="card-title">{{.Title}}</h3>
-                              <p class="card-text">{{.date.Format "January 2, 2006"}}<br>{{ .Param "author" }}</p>
+                              <p class="card-text">{{.Lastmod.Format "January 2, 2006"}}<br>{{ .Param "author" }}</p>
                             </div>
                             <div class="corner-triangle"></div>
                           </a>
