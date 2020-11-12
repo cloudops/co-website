@@ -6,6 +6,8 @@ description: Internet technology emits 7% of the global carbon footprint, but cl
 resources:
 - name: "thumbnail"
   src: "ClimateChange.jpg"
+- name: "cover"
+  src: "ClimateChange-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2020/06/is-the-cloud-causing-climate-change/

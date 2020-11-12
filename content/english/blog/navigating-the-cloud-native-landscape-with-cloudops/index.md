@@ -6,6 +6,8 @@ description: Navigate the cloud native and open source landscapes, and own your 
 resources:
 - name: "thumbnail"
   src: "NavigateCloud.png"
+- name: "cover"
+  src: "NavigateCloud-cover.png"
 class_name: "blog post"
 aliases:
     - /2020/06/navigating-the-cloud-native-landscape-with-cloudops/

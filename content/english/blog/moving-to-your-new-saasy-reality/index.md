@@ -5,6 +5,8 @@ author: "CloudOps"
 resources:
 - name: "thumbnail"
   src: "fishy.jpg"
+- name: "cover"
+  src: "fishy-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2014/07/moving-to-your-new-saasy-reality/

@@ -6,6 +6,8 @@ description: A Comparative Summary of Kubernetes Tooling; Open Source, Distribut
 resources:
 - name: "thumbnail"
   src: "helmsman.png"
+- name: "cover"
+  src: "helmsman-cover.png"
 class_name: "blog post"
 aliases:
   - /2018/01/lost-at-sea-navigating-the-complexities-of-kubernetes/

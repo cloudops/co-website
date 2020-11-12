@@ -6,6 +6,8 @@ description: Rancher 2.0 was made GA (generally available) on May 1st, and there
 resources:
 - name: "thumbnail"
   src: "Rancher.jpg"
+- name: "cover"
+  src: "Rancher-cover.jpg"
 class_name: "blog post"
 aliases:
   - /2018/07/rancher-2-0-exciting-features/

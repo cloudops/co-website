@@ -6,6 +6,8 @@ description: A few best practices for working from home, including practical and
 resources:
 - name: "thumbnail"
   src: "awkwardyeti.png"
+- name: "cover"
+  src: "awkwardyeti-cover.png"
 class_name: "blog post"
 aliases:
     - /2020/05/our-work-from-home-best-practices-curated-tips-and-tricks/

@@ -6,6 +6,8 @@ description: Today, utility computing is a tool in the IT toolbox, and it consis
 resources:
 - name: "thumbnail"
   src: "Survey.jpg"
+- name: "cover"
+  src: "Survey-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2014/04/researching-cloud-adoption/

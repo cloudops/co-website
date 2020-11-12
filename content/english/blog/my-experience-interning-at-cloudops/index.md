@@ -6,6 +6,8 @@ description: Julia Hohenadel spent her summer interning at CloudOps. As she retu
 resources:
 - name: "thumbnail"
   src: "hohenadel.png"
+- name: "cover"
+  src: "hohenadel-cover.png"
 class_name: "blog post"
 ---
 

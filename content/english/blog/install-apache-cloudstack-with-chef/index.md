@@ -6,6 +6,8 @@ description: Installation of Apache CloudStack and is dependencies using Opscode
 resources:
 - name: "thumbnail"
   src: "Chef.jpg"
+- name: "cover"
+  src: "Chef-cover.jpg"
 class_name: "blog post"
 aliases:
   - /2014/03/install-apache-cloudstack-with-chef/

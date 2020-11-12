@@ -6,6 +6,8 @@ description: With machine learning, ecologists can build data pipelines to analy
 resources:
 - name: "thumbnail"
   src: "Blog98.png"
+- name: "cover"
+  src: "Blog98-cover.png"
 class_name: "blog post"
 aliases:
   - /2020/01/remote-sensing-data-pipelines-kubernetes-and-neural-networks-in-ecology/

@@ -6,6 +6,8 @@ description: Cisco announced via a press release that it will recommend and inte
 resources:
 - name: "thumbnail"
   src: "CitrixCisco.png"
+- name: "cover"
+  src: "CitrixCisco-cover.png"
 class_name: "blog post"
 aliases:
     - /2012/10/migrating-to-citrix-netscaler-from-cisco-ace-cloudops-can-help/

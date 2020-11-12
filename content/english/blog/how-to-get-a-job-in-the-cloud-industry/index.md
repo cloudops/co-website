@@ -6,6 +6,8 @@ description: After a few weeks of career days, wine and cheese, and interviews, 
 resources:
 - name: "thumbnail"
   src: "job.jpg"
+- name: "cover"
+  src: "job-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2013/02/how-to-get-a-job-in-the-cloud-industry/

@@ -5,6 +5,8 @@ author: "Ariel Zolezzi"
 resources:
 - name: "thumbnail"
   src: "Ariel.png"
+- name: "cover"
+  src: "Ariel-cover.png"
 class_name: "blog post"
 aliases:
   - /my/journey/as/a/non-binary-individual

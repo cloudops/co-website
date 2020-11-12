@@ -6,6 +6,8 @@ description: Prepare your application to face evolving compliance requirements w
 resources:
 - name: "thumbnail"
   src: "SOC2.jpg"
+- name: "cover"
+  src: "SOC2-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2018/05/overcoming-compliance-confusion-why-you-need-a-soc-2-foundation/

@@ -6,6 +6,8 @@ description: Stephan Bureau and I will join a few hundred IT professionals from 
 resources:
 - name: "thumbnail"
   src: "prlons.jpg"
+- name: "cover"
+  src: "prlons-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2014/04/parlons-en-cloud-2014-some-topics/

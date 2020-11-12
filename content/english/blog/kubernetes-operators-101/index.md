@@ -6,6 +6,8 @@ description: An introduction to the operator pattern in Kubernetes and the Opera
 resources:
 - name: "thumbnail"
   src: "kubernetes-operators-101.png"
+- name: "cover"
+  src: "kubernetes-operators-101-cover.png"
 class_name: "blog post"
 ---
 

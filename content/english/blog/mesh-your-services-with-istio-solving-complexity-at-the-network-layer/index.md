@@ -6,6 +6,8 @@ description: Istio is an open source tool that provides operational control over
 resources:
 - name: "thumbnail"
   src: "Istio.jpg"
+- name: "cover"
+  src: "Istio-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2018/02/mesh-your-services-with-istio-solving-complexity-at-the-network-layer/

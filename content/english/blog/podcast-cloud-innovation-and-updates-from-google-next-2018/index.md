@@ -6,6 +6,8 @@ description: Ian Rae discussed cloud innovation with Rob Hirschfeld on the most 
 resources:
 - name: "thumbnail"
   src: "podcast.jpg"
+- name: "cover"
+  src: "podcast-cover.jpg"
 class_name: "blog post"
 aliases: 
     - /2018/09/podcast-cloud-innovation-and-updates-from-google-next-2018/

@@ -6,6 +6,8 @@ description: Machine learning (ML) is a method of data analysis for identifying 
 resources:
 - name: "thumbnail"
   src: "Kubeflow.jpg"
+- name: "cover"
+  src: "Kubeflow-cover.jpg"
 class_name: "blog post"
 aliases: /2018/09/machine-learning-tensorflow-kubernetes-and-kubeflow/
 ---

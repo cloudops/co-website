@@ -6,6 +6,8 @@ description: We rally around in support of one another in times of crisis and we
 resources:
 - name: "thumbnail"
   src: "RemoteWork.png"
+- name: "cover"
+  src: "RemoteWork-cover.png"
 class_name: "blog post"
 aliases:
     - /2020/03/remote-work-one-way-of-supporting-employees/

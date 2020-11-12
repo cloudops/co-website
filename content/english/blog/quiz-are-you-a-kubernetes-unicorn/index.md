@@ -6,6 +6,8 @@ description: Test your knowledge of Docker and Kubernetes to find out if you’r
 resources:
 - name: "thumbnail"
   src: "Quiz.jpg"
+- name: "cover"
+  src: "Quiz-cover.jpg"
 class_name: "blog post"
 aliases:
   - /2019/08/quiz-are-you-a-kubernetes-unicorn/

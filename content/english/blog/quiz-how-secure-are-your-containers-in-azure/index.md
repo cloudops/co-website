@@ -5,7 +5,9 @@ author: "CloudOps"
 description: Test your knowledge of container security in Azure and find out if you’re following AKS best practices.
 resources:
 - name: "thumbnail"
-  src: "Container_Social_1200x627_EN_V3.jpg"
+  src: "container-quiz.jpg"
+- name: "cover"
+  src: "container-quiz-cover.jpg"
 class_name: "blog post"
 aliases:
   - /2019/04/quiz-how-secure-are-your-containers-in-azure/
