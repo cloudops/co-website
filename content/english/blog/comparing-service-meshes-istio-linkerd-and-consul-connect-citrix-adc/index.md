@@ -50,8 +50,6 @@ aliases:
 
 <p>Citrix ADC offers content-based routing and allows or blocks traffic based on HTTP and HTTPS header parameters. It offers advanced load balancing algorithms, like least connections and least response time, and allows observability of east-west traffic through measuring golden signals (errors, latencies, saturation, traffic volume).&nbsp;</p>
 
-<p>Istio, Linkerd, Consul Connect, and Citrix ADC each have their benefits that may or may not match your technology stack’s requirements. Istio is the most advanced service mesh available, but can be complex and difficult to manage and scale. In contrast, Linkerd offers a straightforward service mesh that is easier to implement and operate but offers less flexibility. Consul Connect provides integrations with other HashiCorp solutions, notably Consul and Vault while Citrix ADC offers rich load balancing features and can handle heavy infrastructure networking traffic and offer scalable SSL offload for public traffic.&nbsp;</p>
-
 <img src="/images/blog/post/diagramcitrix.png" alt="" width="525" height="384">
 
 <p>Istio, Linkerd, Consul Connect, and Citrix ADC each have their benefits that may or may not match your technology stack’s requirements. Istio is the most advanced service mesh available, but can be complex and difficult to manage and scale. In contrast, Linkerd offers a straightforward service mesh that is easier to implement and operate but offers less flexibility. Consul Connect provides integrations with other HashiCorp solutions, notably Consul and Vault while Citrix ADC offers rich load balancing features and can handle heavy infrastructure networking traffic and offer scalable SSL offload for public traffic.&nbsp;</p>
