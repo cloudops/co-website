@@ -33,7 +33,7 @@ aliases:
 
 <p>DevSecOps is an effective methodology for increasing the security of DevOps pipelines. Likewise, it helps reduce the burden on infosec teams as well as both the frequency and severity of problems. DevOps teams that perform security into software on a daily basis spend 50% less time remediating security issues than those who do so poorly and less frequently.<small>[7]</small> Just as DevOps can increase the frequency of software delivery by reflecting the short life cycles of containers, it can also increase their security.</p>
 
-<p>While security can and should be an integral part of DevOps initiatives, the complexity of the DevOps and application platform landscape can make it difficult to know how well your organization has succeeded in adopting DevOps tools and processes. Read our white paper called <a href="https://info.cloudops.com/securing-devops-platform-saas-company">‘Securing your DevOps Platform’</a> to learn more about how you can secure your application platform.</p>
+<p>Learn more about how CloudOps can provide your organization with a <a href="/devops-platform-practices-assessment/">DevOps Platform and Practices Assessment (DPPA)</a> that will analyze the business impact and technical requirements of your technology stack and provide recommendations for improvement.</p>
 
 <div class="row">
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
@@ -42,7 +42,5 @@ aliases:
       </a>
     </div>
 </div>
-
-<p>Learn more about how CloudOps can provide your organization with a <a href="/devops-platform-practices-assessment/">DevOps Platform and Practices Assessment (DPPA)</a> that will analyze the business impact and technical requirements of your technology stack and provide recommendations for improvement.</p>
 
 <p>Citations:<br> <small><br> 1. Nicole Forsgren, Jez Humble, Gene Kim, Accelerate: Building and Scaling High Performing Technology Organizations (Portland, 2018), p. 10.<br> 2. <i>Ibid.</i><br> 3. Kasey Panetta, “Gartner CEO Survey,” Gartner.com, April 27, 2017, https://www.gartner.com/smarterwithgartner/2017-ceo-survey-infographic/.<br> 4. Gartner. Gartner Predicts. 2016. https://www.gartner.com/binaries/content/assets/events/keywords/infrastructure-operations-management/iome5/gartner-predicts-for-it-infrastructure-and-operations.pdf<br> 5. Rob Stroud and Elinor Klavens with Eveline Oehrlich, Aaron Kinch, and Diane Lynch, DevOps Heat Map 2017, Forrester, (Cambridge, 2017), https://www.forrester.com/report/DevOps+Heat+Map+2017/-/E-RES137782<br> 6. James Wickett, “Attacking Pipelines – Security Meets Continuous Delivery”, Slideshare.net, June 11, 2014, https://www.slideshare.net/wickett/attacking-pipelinessecurity-meets-continuous-delivery.<br> 7. Accelerate, p. 72.<br> </small></p>
