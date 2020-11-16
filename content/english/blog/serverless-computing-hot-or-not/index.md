@@ -1,7 +1,8 @@
 ---
 title: "Serverless Computing: Hot or Not?"
-lastmod: "2018-02-07"
+date: "2018-02-07"
 author: "CloudOps"
+description: There has been a remarkable increase in serverless computing platforms over the past few years.
 resources:
 - name: "thumbnail"
   src: "serverless-woman-blog.png"

@@ -1,10 +1,13 @@
 ---
 title: "Parlons-en Cloud 2014: some topics"
-lastmod: "2014-04-17"
+date: "2014-04-17"
 author: "CloudOps"
+description: Stephan Bureau and I will join a few hundred IT professionals from Québec for a day-long conference on cloud computing.
 resources:
 - name: "thumbnail"
   src: "prlons.jpg"
+- name: "cover"
+  src: "prlons-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2014/04/parlons-en-cloud-2014-some-topics/

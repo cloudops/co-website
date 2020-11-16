@@ -1,6 +1,7 @@
 ---
 title: Securing your DevOps Platform for Enterprise
-lastmod: 2020-07-03
+date: 2020-07-03
+description: Hackers are becoming more creative each day. Industry standards like SOC 2 are essential for keeping your applications secure.
 resources:
 - name: "thumbnail"
   src: "securing_devops_platform.png"

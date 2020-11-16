@@ -1,6 +1,7 @@
 ---
 title: The Performance of Clouds
-lastmod: 2020-06-23
+date: 2020-06-23
+description: Cloud computing is a significant shift in the way companies build and run IT resources.
 resources:
 - name: "thumbnail"
   src: "performance_clouds.png"

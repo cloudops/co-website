@@ -1,7 +1,7 @@
 ---
 title: "CloudOps se classe 19 e sur la Growth List 2020 des entreprises à plus forte croissance
 au Canada"
-lastmod: "2020-15-10"
+date: "2020-15-10"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

@@ -1,6 +1,6 @@
 ---
 title: "Les services maillés sonnent-ils la fin des intergiciels?"
-lastmod: "2018-09-24"
+date: "2018-09-24"
 author: "Flo Adam"
 resources:
 - name: "thumbnail"

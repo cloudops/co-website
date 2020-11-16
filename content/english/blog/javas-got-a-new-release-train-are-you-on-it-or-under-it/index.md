@@ -1,10 +1,13 @@
 ---
 title: "Java’s Got a New Release Train: Are you on it or under it?"
-lastmod: "2018-03-19"
+date: "2018-04-19"
 author: "CloudOps"
+description: Oracle is taking a more contemporary approach to releasing new versions of the Java platform with the recent release of Java 10.
 resources:
 - name: "thumbnail"
   src: "Java.jpg"
+- name: "cover"
+  src: "Java-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2018/04/javas-got-a-new-release-train-are-you-on-it-or-under-it/

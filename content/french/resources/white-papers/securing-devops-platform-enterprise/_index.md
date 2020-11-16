@@ -1,6 +1,6 @@
 ---
 title: Sécurisation de votre plateforme DevOps
-lastmod: 2020-07-10
+date: 2020-07-10
 resources:
 - name: "thumbnail"
   src: "Financial_WP.png"

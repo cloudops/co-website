@@ -1,7 +1,8 @@
 ---
 title: "Why We Chose Ansible for Automating Configuration Management"
-lastmod: "2018-06-18"
+date: "2018-06-18"
 author: "CloudOps"
+description: Ansible is an open source tool for automating configuration management, deployment, and orchestration.
 resources:
 - name: "thumbnail"
   src: "Ansible.jpg"

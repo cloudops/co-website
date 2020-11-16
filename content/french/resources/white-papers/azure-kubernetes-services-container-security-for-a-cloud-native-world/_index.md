@@ -1,6 +1,6 @@
 ---
 title: "Azure Kubernetes Services : la sécurité des conteneurs pour un monde infonuagique"
-lastmod: 2020-07-04
+date: 2020-07-04
 resources:
 - name: "thumbnail"
   src: "AKS.png"

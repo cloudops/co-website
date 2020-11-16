@@ -1,6 +1,6 @@
 ---
 title: "Comparaison des services maillés : Istio, Linkerd et Consul Connect"
-lastmod: "2020-06-02"
+date: "2020-06-02"
 author: "Syed Ahmed"
 resources:
 - name: "thumbnail"

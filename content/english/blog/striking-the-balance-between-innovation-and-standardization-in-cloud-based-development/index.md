@@ -1,7 +1,8 @@
 ---
 title: "Striking the Balance Between Innovation and Standardization in Cloud-Based Development"
-lastmod: "2012-10-03"
+date: "2012-10-03"
 author: "CloudOps"
+description: A key principle of cloud-based development is that everything in that development environment – including infra — is offered as a service.
 resources:
 - name: "thumbnail"
   src: "transformation.png"

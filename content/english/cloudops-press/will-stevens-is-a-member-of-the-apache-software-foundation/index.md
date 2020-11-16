@@ -1,7 +1,8 @@
 ---
 title: "Will Stevens is a Member of the Apache Software Foundation"
-lastmod: "2019-04-11"
+date: "2019-04-11"
 author: "CloudOps"
+description: CloudOps’ Chief Technology Officer, Will Stevens, has recently become a member of the Apache Software Foundation (ASF).
 resources:
 - name: "thumbnail"
   src: "ApacheSoftwareFoundation.png"

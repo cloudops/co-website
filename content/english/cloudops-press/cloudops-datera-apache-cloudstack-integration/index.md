@@ -1,7 +1,8 @@
 ---
 title: "CloudOps and Datera Announce Apache CloudStack Integration for Web-Scale Storage Service"
-lastmod: "2017-05-15"
+date: "2017-05-15"
 author: "CloudOps"
+description: Datera, a provider of elastic storage for on-premises clouds, sought CloudOps’ help in building the integration for ACS.
 resources:
 - name: "thumbnail"
   src: "image1-1.jpg"

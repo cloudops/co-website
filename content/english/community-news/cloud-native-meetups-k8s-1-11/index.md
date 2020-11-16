@@ -1,7 +1,8 @@
 ---
 title: "Cloud Native Meetups: K8s 1.11, Helm, PostgreSQL, and Traefik"
-lastmod: "2018-07-20"
+date: "2018-07-20"
 author: "CloudOps"
+description: Kubernetes celebrated its fourth birthday across eastern Canada this week with a series of cloud native meetups in Montreal, Quebec City, Ottawa, Toronto, and Kitchener-Waterloo.
 resources:
 - name: "thumbnail"
   src: "meetup-pic2.png"

@@ -1,7 +1,8 @@
 ---
 title: "Why the cloud is (and needs to be) like Minecraft"
-lastmod: "2013-03-09"
+date: "2013-03-09"
 author: "Pierre-Luc Bisaillon"
+description: I believe cloud is like Minecraft “for the real world” – in other works, it gives developers everything they want at their fingertips to build some really cool stuff.
 resources:
 - name: "thumbnail"
   src: "minecraft.jpg"

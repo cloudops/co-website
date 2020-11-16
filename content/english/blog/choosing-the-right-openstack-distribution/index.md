@@ -1,10 +1,13 @@
 ---
 title: "Choosing the Right OpenStack Distribution"
-lastmod: "2016-09-13"
+date: "2016-09-13"
 author: "CloudOps"
+description: OpenStack has succeeded in capturing the attention of enterprises, telecoms and software companies. Which distribution to choose?
 resources:
 - name: "thumbnail"
   src: "OpenStack-3-way-fight.jpg"
+- name: "cover"
+  src: "OpenStack-3-way-fight-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2016/09/choosing-the-right-openstack-distribution/

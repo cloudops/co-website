@@ -1,6 +1,6 @@
 ---
 title: "Pourquoi j’ai rejoint CloudOps"
-lastmod: "2019-01-18"
+date: "2019-01-18"
 author: "Maddison Long"
 resources:
 - name: "thumbnail"

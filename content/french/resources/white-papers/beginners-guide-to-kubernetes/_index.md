@@ -1,6 +1,6 @@
 ---
 title: Le guide du débutant Kubernetes
-lastmod: 2020-07-09
+date: 2020-07-09
 resources:
 - name: "thumbnail"
   src: "Beginners_guide_K8s.png"

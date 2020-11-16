@@ -1,10 +1,13 @@
 ---
 title: "3 Ways to Prepare Remote Teams for DevOps Adoption"
-lastmod: "2020-05-21"
+date: "2020-05-21"
 author: "CloudOps"
+description: Several mistakes are too common for organizations trying to adopt DevOps, but chief among them is the failure to properly structure teams.
 resources:
 - name: "thumbnail"
   src: "WorkingRemoteBlog.png"
+- name: "cover"
+  src: "WorkingRemoteBlog-cover.png"
 class_name: "blog post"
 aliases:
   - /2020/05/3-ways-to-prepare-remote-teams-for-devops-adoption/

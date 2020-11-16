@@ -1,7 +1,8 @@
 ---
 title: "Takeaways from Liz Rice: Pop-Up Meetup on Container Security"
-lastmod: "2018-10-09"
+date: "2018-10-09"
 author: "CloudOps"
+description: Here are five ways you can help secure your containers if they are a part of your cloud native strategy.
 resources:
 - name: "thumbnail"
   src: "LizRice.png"

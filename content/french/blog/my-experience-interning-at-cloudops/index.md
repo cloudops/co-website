@@ -1,6 +1,6 @@
 ---
 title: "Réflexions sur mon stage chez CloudOps"
-lastmod: "2020-08-28"
+date: "2020-08-28"
 author: "Julia Hohenadel"
 resources:
 - name: "thumbnail"

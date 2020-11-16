@@ -1,6 +1,6 @@
 ---
 title: "TensorFlow, Kubernetes et Kubeflow : La conteneurisation de l’apprentissage machine"
-lastmod: "2018-09-05"
+date: "2018-09-05"
 author: "Syed Ahmed"
 resources:
 - name: "thumbnail"

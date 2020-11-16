@@ -1,6 +1,6 @@
 ---
 title: "Guide CNCF du débutant"
-lastmod: "2018-10-26"
+date: "2018-10-26"
 author: "Ayrat Khayretdinov"
 resources:
   - name: "thumbnail"

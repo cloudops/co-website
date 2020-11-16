@@ -1,10 +1,12 @@
 ---
 title: Rethinking Cloud Security with DevSecOps
-lastmod: "2019-07-03"
+date: "2019-07-03"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
   src: "DevSecOps.jpg"
+- name: "cover"
+  src: "DevSecOps-cover.jpg"
 class_name: "blog post"
 aliases:
   - /2019/07/rethinking-cloud-security-with-devsecops/

@@ -1,5 +1,7 @@
 ---
 title: Resources
+description: Infographics, white papers, ebooks, and all sorts of resources for learning more about all things cloud native.
+keywords: []
 ---
 
 <div class="blog-main">

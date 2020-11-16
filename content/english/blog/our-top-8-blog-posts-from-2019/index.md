@@ -1,10 +1,13 @@
 ---
 title: Our Top 8 Blog Posts from 2019
-lastmod: "2019-12-18"
+date: "2019-12-18"
 author: "CloudOps"
+description: 2018 is coming to a close, and we’ve curated our best blog posts from the year.
 resources:
 - name: "thumbnail"
   src: "TopBlogPostsfrom2019.png"
+- name: "cover"
+  src: "TopBlogPostsfrom2019-cover.png"
 class_name: "blog post"
 aliases:
     - /2019/12/our-top-8-blog-posts-from-2019/

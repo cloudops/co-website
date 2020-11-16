@@ -1,7 +1,8 @@
 ---
 title: "To Russia with Love: Deploying Kubernetes in Foreign Locations"
-lastmod: "2019-03-20"
+date: "2019-03-20"
 author: "CloudOps"
+description: Deploying Kubernetes in foreign locations can involve migrating workloads into hybrid-cloud architectures modernized with containers.
 resources:
 - name: "thumbnail"
   src: "Russia.png"

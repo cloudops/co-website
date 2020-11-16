@@ -1,7 +1,8 @@
 ---
 title: "Security and Resiliency for SaaS Companies"
-lastmod: "2018-01-12"
+date: "2018-01-12"
 author: "Katharine Mikula"
+description: Industry security audit reports and certifications, such as SOC 2 or CSA STAR, are an ideal way to help minimize and manage security risk.
 resources:
 - name: "thumbnail"
   src: "cybersecurity.png"

@@ -1,6 +1,6 @@
 ---
 title: "Le télétravail : une belle façon de soutenir vos employés"
-lastmod: "2020-03-27"
+date: "2020-03-27"
 author: "Ariel Zolezzi"
 resources:
 - name: "thumbnail"

@@ -1,6 +1,7 @@
 ---
 title: Securing your DevOps platform for financial institutions
-lastmod: 2020-07-10
+date: 2020-07-10
+description: Financial institutions make attractive targets for hackers. Industry standards like SOC 2 are essential for securing your DevOps platforms.
 resources:
 - name: "thumbnail"
   src: "Financial_WP.png"

@@ -1,6 +1,7 @@
 ---
 title: How to Initiate DevOps Transformation
-lastmod: 2020-07-06
+date: 2020-07-06
+description: Download this white paper to receive an actionable blueprint for adopting DevOps.
 resources:
 - name: "thumbnail"
   src: "devops_trans.png"

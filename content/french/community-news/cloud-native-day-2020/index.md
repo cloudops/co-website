@@ -1,6 +1,6 @@
 ---
 title: "Journée Cloud Native 2020"
-lastmod: "2020-07-17"
+date: "2020-07-17"
 author: "Katharine Mikula"
 resources:
 - name: "thumbnail"

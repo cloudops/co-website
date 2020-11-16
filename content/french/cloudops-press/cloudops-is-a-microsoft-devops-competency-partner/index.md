@@ -1,6 +1,6 @@
 ---
 title: "Compétence DevOps de Microsoft"
-lastmod: "2019-03-14"
+date: "2019-03-14"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

@@ -1,7 +1,8 @@
 ---
 title: "CloudOps is a Kubernetes Certified Service Provider"
-lastmod: "2018-01-12"
+date: "2018-01-12"
 author: "CloudOps"
+description: CloudOps is pleased to announce that we are now a Kubernetes Certified Service Provider (KCSP).
 resources:
 - name: "thumbnail"
   src: "KCSP-2.png"

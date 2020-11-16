@@ -1,10 +1,13 @@
 ---
 title: "Creating Meaningful Values, the CloudOps Way"
-lastmod: "2020-08-19"
+date: "2020-08-19"
 author: "Julia Simon"
+description: Values shape leadership and create purpose and cohesion between teams. How do you create meaningful values that resonate?
 resources:
 - name: "thumbnail"
   src: "cloudops-values.png"
+- name: "cover"
+  src: "cloudops-values-cover.png"
 class_name: "blog post"
 ---
 

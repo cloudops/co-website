@@ -1,10 +1,13 @@
 ---
 title: "CNCF Ambassador Spill: Takeaways from KubeCon + CloudNativeCon"
-lastmod: "2019-01-17"
+date: "2019-01-17"
 author: "CloudOps"
+description: Over 8,000 people attended KubeCon + CloudNativeCon in Seattle last month. We asked CNCF ambassadors for their key takeaways from the event.
 resources:
 - name: "thumbnail"
   src: "KubeCon.jpg"
+- name: "cover"
+  src: "KubeCon-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2019/01/cncf-ambassador-spill-takeaways-from-kubecon-cloudnativecon/

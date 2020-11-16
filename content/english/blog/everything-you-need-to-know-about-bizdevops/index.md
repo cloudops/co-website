@@ -1,10 +1,13 @@
 ---
 title: Everything You Need to Know About BizDevOps
-lastmod: "2019-10-08"
+date: "2019-10-08"
 author: "CloudOps"
+description: BizDevOps tools and practices promote agility by integrating business KPIs into software release cycles.
 resources:
 - name: "thumbnail"
   src: "BizDevOps.jpg"
+- name: "cover"
+  src: "BizDevOps-cover.jpg"
 class_name: "blog post"
 aliases:
   - /2019/10/everything-you-need-to-know-about-bizdevops/

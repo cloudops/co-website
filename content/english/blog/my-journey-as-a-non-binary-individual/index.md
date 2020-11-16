@@ -1,10 +1,12 @@
 ---
 title: "My Journey as a Non-Binary Individual"
-lastmod: "2020-10-23"
+date: "2020-10-23"
 author: "Ariel Zolezzi"
 resources:
 - name: "thumbnail"
   src: "Ariel.png"
+- name: "cover"
+  src: "Ariel-cover.png"
 class_name: "blog post"
 aliases:
   - /my/journey/as/a/non-binary-individual

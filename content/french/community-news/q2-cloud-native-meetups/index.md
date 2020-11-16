@@ -1,6 +1,6 @@
 ---
 title: "Meetups Kubernetes et outils ‘cloud native’"
-lastmod: "2018-05-31"
+date: "2018-05-31"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

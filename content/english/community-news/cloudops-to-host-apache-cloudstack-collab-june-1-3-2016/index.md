@@ -1,7 +1,8 @@
 ---
 title: "CloudOps to host Apache CloudStack Collab June 1-3 2016"
-lastmod: "2016-04-15"
+date: "2016-04-15"
 author: "Gillian Sonin"
+description: CloudOps is excited to host the first Apache CloudStack™ Collab conference of 2016 on June 1-3 2016 in beautiful Montreal, Canada.
 resources:
 - name: "thumbnail"
   src: "image-22.png"

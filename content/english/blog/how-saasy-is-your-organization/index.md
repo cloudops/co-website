@@ -1,10 +1,12 @@
 ---
 title: "How SaaSy Is Your Organization?"
-lastmod: "2014-07-23"
+date: "2014-07-23"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
   src: "fastbusiness.jpg"
+- name: "cover"
+  src: "fastbusiness-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2014/07/how-saasy-is-your-organization/

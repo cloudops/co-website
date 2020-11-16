@@ -1,10 +1,13 @@
 ---
 title: "Containerizing ONAP for Efficiency: Why Bell created OOM using Kubernetes"
-lastmod: "2018-01-19"
+date: "2018-01-19"
 author: "CloudOps"
+description: Bell Canada is the first telco to deploy an open source version of ONAP to automate its data centre network provisioning.
 resources:
 - name: "thumbnail"
   src: "ONAP.jpg"
+- name: "cover"
+  src: "ONAP-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2018/01/containerizing-onap-for-efficiency-why-bell-created-oom-using-kubernetes/

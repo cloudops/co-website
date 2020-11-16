@@ -1,6 +1,6 @@
 ---
 title: "La vie chez CloudOps"
-lastmod: "2019-09-06"
+date: "2019-09-06"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

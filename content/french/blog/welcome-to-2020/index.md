@@ -1,6 +1,6 @@
 ---
 title: "Bienvenue en 2020 !"
-lastmod: "2020-02-12"
+date: "2020-02-12"
 author: "Ian Rae"
 resources:
 - name: "thumbnail"

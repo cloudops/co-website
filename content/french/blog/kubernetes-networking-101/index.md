@@ -1,6 +1,6 @@
 ---
 title: "Réseautage Kubernetes 101"
-lastmod: "2020-06-03"
+date: "2020-06-03"
 author: "Chanpreet Kaur"
 resources:
 - name: "thumbnail"

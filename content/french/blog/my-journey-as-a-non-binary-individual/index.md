@@ -1,6 +1,6 @@
 ---
 title: "Mon parcours de personne non binaire"
-lastmod: "2020-10-23"
+date: "2020-10-23"
 author: "Ariel Zolezzi"
 resources:
 - name: "thumbnail"

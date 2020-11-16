@@ -1,6 +1,6 @@
 ---
 title: "A Thanksgiving message"
-lastmod: "2020-10-09"
+date: "2020-10-09"
 author: "Ian Rae"
 resources:
 - name: "thumbnail"

@@ -1,6 +1,6 @@
 ---
 title: "CloudOps au Palmarès Branham300 cette annee"
-lastmod: "2018-06-28"
+date: "2018-06-28"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

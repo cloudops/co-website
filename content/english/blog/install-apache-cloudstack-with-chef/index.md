@@ -1,10 +1,13 @@
 ---
 title: "Install Apache Cloudstack with Chef"
-lastmod: "2014-03-07"
+date: "2014-03-07"
 author: "Pierre-Luc Dion"
+description: Installation of Apache CloudStack and is dependencies using Opscode Chef community cookbooks.
 resources:
 - name: "thumbnail"
   src: "Chef.jpg"
+- name: "cover"
+  src: "Chef-cover.jpg"
 class_name: "blog post"
 aliases:
   - /2014/03/install-apache-cloudstack-with-chef/

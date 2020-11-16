@@ -1,7 +1,8 @@
 ---
 title: "Setting Up an Ideal CloudStack Development Environment"
-lastmod: "2013-02-05"
+date: "2013-02-05"
 author: "Marc-André Jutras"
+description: How do I set up and prepare my development environment for CloudStack?
 resources:
 - name: "thumbnail"
   src: "code.jpg"

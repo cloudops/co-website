@@ -1,6 +1,6 @@
 ---
 title: "Pourquoi vous avez besoin d’une transformation DevOps pour survivre"
-lastmod: "2019-01-07"
+date: "2019-01-07"
 author: "Jesse Hurkens"
 resources:
 - name: "thumbnail"

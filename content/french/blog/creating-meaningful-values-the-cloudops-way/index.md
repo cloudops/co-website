@@ -1,6 +1,6 @@
 ---
 title: "Valeurs significatives, à la manière de CloudOps"
-lastmod: "2020-08-19"
+date: "2020-08-19"
 author: "Julia Simon"
 resources:
 - name: "thumbnail"

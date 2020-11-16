@@ -1,6 +1,7 @@
 ---
 title: The Era of the End User
-lastmod: 2020-06-25
+date: 2020-06-25
+description: Capture a complete picture of your online presence with hybrid- and multi-cloud architectures.
 resources:
 - name: "thumbnail"
   src: "era_end_user.png"

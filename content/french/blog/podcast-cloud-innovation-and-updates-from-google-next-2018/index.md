@@ -1,6 +1,6 @@
 ---
 title: "Baladodiffusion : Infonuagique, innovation et mises à jour de Google Next 2018."
-lastmod: "2018-09-11"
+date: "2018-09-11"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

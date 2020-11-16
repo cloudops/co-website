@@ -1,7 +1,8 @@
 ---
 title: What We Promise Our Customers
-lastmod: "2019-12-02"
+date: "2019-12-02"
 author: "CloudOps"
+description: Our mission statement is to help customers own their destinies in the cloud. There are 4 key promises we make along the way.
 resources:
 - name: "thumbnail"
   src: "Promises.png"

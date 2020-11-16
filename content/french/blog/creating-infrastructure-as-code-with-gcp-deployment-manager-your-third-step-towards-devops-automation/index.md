@@ -1,6 +1,6 @@
 ---
 title: "Créer une infrastructure en tant que code dans GCP avec Deployment Manager : la troisième étape vers l’automatisation DevOps"
-lastmod: "2018-08-01"
+date: "2018-08-01"
 author: "Stacy Véronneau"
 resources:
 - name: "thumbnail"

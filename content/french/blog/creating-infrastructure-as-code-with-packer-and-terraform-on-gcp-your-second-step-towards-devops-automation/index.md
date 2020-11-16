@@ -1,6 +1,6 @@
 ---
 title: "Créer une infrastructure en tant que code dans GCP avec Packer et Terraform : la deuxième étape vers l’automatisation DevOps"
-lastmod: "2018-03-30"
+date: "2018-03-30"
 author: "Stacy Véronneau"
 resources:
 - name: "thumbnail"

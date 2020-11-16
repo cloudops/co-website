@@ -1,6 +1,6 @@
 ---
 title: "What is your favourite cloud computing quote?"
-lastmod: "2012-09-03"
+date: "2012-09-03"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

@@ -1,6 +1,7 @@
 ---
 title: The Total Economic Impact of Anthos
-lastmod: 2020-07-08
+date: 2020-07-08
+description: Anthos brings your enterprise apps into the 21st century with the flexibility to run anywhere.
 resources:
 - name: "thumbnail"
   src: "Forrester.png"

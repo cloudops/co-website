@@ -1,6 +1,7 @@
 ---
 title: The Road to SaaS
-lastmod: 2020-06-28
+date: 2020-06-28
+description: Software companies that have not yet moved to an on-demand model will continue losing market share unless they adapt.
 resources:
 - name: "thumbnail"
   src: "road_to_saas.png"

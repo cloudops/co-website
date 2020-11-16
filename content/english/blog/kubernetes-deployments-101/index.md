@@ -1,10 +1,13 @@
 ---
 title: Kubernetes Deployments 101
-lastmod: "2020-04-21"
+date: "2020-04-21"
 author: "Chanpreet Kaur"
+description: Get started deploying Kubernetes in production with this 101 guide.
 resources:
 - name: "thumbnail"
   src: "Kubernetes.jpg"
+- name: "cover"
+  src: "Kubernetes-cover.jpg"
 class_name: "blog post"
 aliases:
   - /2020/04/how-to-create-and-inspect-kubernetes-deployments/

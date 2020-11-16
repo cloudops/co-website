@@ -1,6 +1,6 @@
 ---
 title: "Repenser la sécurité du nuage avec DevSecOps"
-lastmod: "2019-07-03"
+date: "2019-07-03"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

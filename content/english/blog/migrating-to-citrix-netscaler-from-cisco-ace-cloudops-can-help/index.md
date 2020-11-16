@@ -1,10 +1,13 @@
 ---
 title: "Migrating to Citrix NetScaler from Cisco ACE? CloudOps Can Help"
-lastmod: "2012-10-31"
+date: "2012-10-31"
 author: "CloudOps"
+description: Cisco announced via a press release that it will recommend and integrate Citrix Systems’ NetScaler application delivery controller.
 resources:
 - name: "thumbnail"
   src: "CitrixCisco.png"
+- name: "cover"
+  src: "CitrixCisco-cover.png"
 class_name: "blog post"
 aliases:
     - /2012/10/migrating-to-citrix-netscaler-from-cisco-ace-cloudops-can-help/

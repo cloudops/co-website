@@ -1,6 +1,7 @@
 ---
 title: Operations, Focus, and Tribal Knowledge
-lastmod: 2020-06-29
+date: 2020-06-29
+description: Innovation happens in the higher layers of technology, and tribal knowledge can affect infrastructure management.
 resources:
 - name: "thumbnail"
   src: "tribal_knowledge.png"

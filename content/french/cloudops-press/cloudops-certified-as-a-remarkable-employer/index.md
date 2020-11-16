@@ -1,6 +1,6 @@
 ---
 title: "CloudOps certifié comme un Employeur Remarquable"
-lastmod: "2017-08-01"
+date: "2017-08-01"
 author: "Peter Taylor"
 resources:
 - name: "thumbnail"

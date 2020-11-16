@@ -1,6 +1,6 @@
 ---
 title: "Ce que nous devons retenir du meetup avec Liz Rice sur la sécurité des conteneurs"
-lastmod: "2018-10-09"
+date: "2018-10-09"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

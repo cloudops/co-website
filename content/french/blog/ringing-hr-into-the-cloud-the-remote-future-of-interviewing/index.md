@@ -1,6 +1,6 @@
 ---
 title: "Les ressources humaines et l’infonuagique : l’avenir virtuel des entrevues"
-lastmod: "2020-04-14"
+date: "2020-04-14"
 author: "Jennifer Canty"
 resources:
 - name: "thumbnail"

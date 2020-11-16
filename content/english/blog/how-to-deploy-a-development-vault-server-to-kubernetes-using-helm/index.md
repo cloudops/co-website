@@ -1,10 +1,13 @@
 ---
 title: "How to Generate and Use Dynamic Secrets for AWS IAM with Vault using Kubernetes & Helm"
-lastmod: "2018-03-20"
+date: "2018-03-20"
 author: "CloudOps"
+description: Your first step to securely store, access, and deploy sensitive application information
 resources:
 - name: "thumbnail"
   src: "Helm.jpg"
+- name: "cover"
+  src: "Helm-cover.jpg"
 class_name: "blog post"
 aliases:
     - /2018/03/how-to-deploy-a-development-vault-server-to-kubernetes-using-helm/

@@ -1,6 +1,6 @@
 ---
 title: "The Biggest Myths of Multi-Cloud"
-lastmod: "2020-10-01"
+date: "2020-10-01"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

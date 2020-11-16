@@ -1,10 +1,13 @@
 ---
 title: "Lost at Sea: Navigating the Complexities of Kubernetes"
-lastmod: "2019-01-08"
+date: "2019-02-24"
 author: "CloudOps"
+description: A Comparative Summary of Kubernetes Tooling; Open Source, Distributions, and Managed Services.
 resources:
 - name: "thumbnail"
   src: "helmsman.png"
+- name: "cover"
+  src: "helmsman-cover.png"
 class_name: "blog post"
 aliases:
   - /2018/01/lost-at-sea-navigating-the-complexities-of-kubernetes/

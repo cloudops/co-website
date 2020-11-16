@@ -1,7 +1,8 @@
 ---
 title: "CloudOps Certified as a Remarkable Employer"
-lastmod: "2017-06-14"
+date: "2017-06-14"
 author: "CloudOps"
+description: We are pleased to announce that the results of that survey mean that CloudOps meets the standard of a Remarkable Employer.
 resources:
 - name: "thumbnail"
   src: "remarkable_employer.png"

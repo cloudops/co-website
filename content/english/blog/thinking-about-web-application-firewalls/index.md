@@ -1,7 +1,8 @@
 ---
 title: "Thinking About Web Application Firewalls"
-lastmod: "2013-01-28"
+date: "2013-01-28"
 author: "François Gaudreault"
+description: Web Application Firewalls (WAFs) are growing in the market, providing many benefits including the prevention zero-day exploits.
 resources:
 - name: "thumbnail"
   src: "WAF.jpg"

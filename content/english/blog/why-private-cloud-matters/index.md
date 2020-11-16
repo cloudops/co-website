@@ -1,7 +1,8 @@
 ---
 title: "Why private cloud matters"
-lastmod: "2013-02-22"
+date: "2013-02-22"
 author: "Pierre-Luc Bisaillon"
+description: Although there is certainly a tendency to provide everything-as-a-service, the reality is that different businesses have different financial situations and preferences.
 resources:
 - name: "thumbnail"
   src: "cloud.jpg"

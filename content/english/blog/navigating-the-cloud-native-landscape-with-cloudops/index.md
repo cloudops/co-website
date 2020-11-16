@@ -1,10 +1,13 @@
 ---
 title: "Navigating the Cloud Native Landscape with CloudOps"
-lastmod: "2020-06-22"
+date: "2020-06-22"
 author: "CloudOps"
+description: Navigate the cloud native and open source landscapes, and own your destiny in the clouds with CloudOps.
 resources:
 - name: "thumbnail"
   src: "NavigateCloud.png"
+- name: "cover"
+  src: "NavigateCloud-cover.png"
 class_name: "blog post"
 aliases:
     - /2020/06/navigating-the-cloud-native-landscape-with-cloudops/

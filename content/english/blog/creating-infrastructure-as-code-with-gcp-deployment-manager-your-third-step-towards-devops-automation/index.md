@@ -1,10 +1,13 @@
 ---
 title: "How to Create Infrastructure as Code with GCP Deployment Manager: Your third step towards DevOps automation"
-lastmod: "2018-07-26"
+date: "2018-07-26"
 author: "CloudOps"
+description: Leverage a specific cloud infrastructure deployment service as part of automating your Infra as Code.
 resources:
 - name: "thumbnail"
   src: "GCP.jpg"
+- name: "cover"
+  src: "GCP-cover.jpg"
 class_name: "blog post"
 aliases:
   - /2018/07/creating-infrastructure-as-code-with-gcp-deployment-manager-your-third-step-towards-devops-automation/

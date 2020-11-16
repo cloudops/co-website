@@ -1,7 +1,8 @@
 ---
 title: "Cloud Native Day 2020"
-lastmod: "2020-06-15"
+date: "2020-06-15"
 author: "CloudOps"
+description: The second edition of Cloud Native Day Montreal took place virtually on June 9, 2020.
 resources:
 - name: "thumbnail"
   src: "CNDSummary.png"

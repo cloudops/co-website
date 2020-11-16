@@ -1,6 +1,6 @@
 ---
 title: "Informatique sans serveur: On aime ou pas?"
-lastmod: "2018-02-23"
+date: "2018-02-23"
 author: "Donald Donovan"
 resources:
 - name: "thumbnail"

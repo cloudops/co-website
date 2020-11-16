@@ -1,6 +1,6 @@
 ---
 title: "8 façons de réduire les coûts de consommation dans le nuage"
-lastmod: "2020-05-01"
+date: "2020-05-01"
 author: "CloudOps"
 resources:
 - name: "thumbnail"

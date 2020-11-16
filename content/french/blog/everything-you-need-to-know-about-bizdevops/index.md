@@ -1,6 +1,6 @@
 ---
 title: "Tout ce que vous devez savoir sur le BizDevOps"
-lastmod: "2019-10-08"
+date: "2019-10-08"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
