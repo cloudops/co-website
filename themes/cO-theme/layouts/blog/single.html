@@ -5,7 +5,7 @@
             <article>
                 <header>
                     <h1>{{.Title}}</h1>
-                    <div> {{.Lastmod.Format "02-01-2006"}} / {{ $.Param "author" }} </div>
+                    <div> {{.Date.Format "02-01-2006"}} / {{ $.Param "author" }} </div>
                 </header>
                 {{ with .Resources.Match "cover" }}
                 {{ range . }}
