@@ -1,10 +1,12 @@
 ---
-title: "A Thanksgiving message"
+title: "A Thanksgiving Message"
 date: "2020-10-09"
 author: "Ian Rae"
 resources:
 - name: "thumbnail"
-  src: "Turkey.jpeg"
+  src: "Turkey Thumbnail.png"
+- name: "cover"
+  src: "Turkey Cover.png"
 class_name: "blog post"
 ---
 
