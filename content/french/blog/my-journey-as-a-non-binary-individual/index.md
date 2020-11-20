@@ -4,6 +4,8 @@ date: "2020-10-23"
 author: "Ariel Zolezzi"
 resources:
 - name: "thumbnail"
+  src: "Ariel.png"
+- name: "cover"
   src: "ArielFR.png"
 class_name: "blog post"
 aliases:
