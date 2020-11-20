@@ -4,7 +4,9 @@ date: "2019-08-23"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Quiz.jpg"
+  src: "Kubernetes-Thumbnail.png"
+- name: "cover"
+  src: "Kubernetes-Cover.png"
 class_name: "blog post"
 slug: /questionnaire-etes-vous-une-licorne-kubernetes
 aliases:

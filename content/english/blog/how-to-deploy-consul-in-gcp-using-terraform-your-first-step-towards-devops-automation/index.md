@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Step-by-step instructions for deploying Consul using Terraform and Ansible on GCP.
 resources:
 - name: "thumbnail"
-  src: "GCP.jpg"
+  src: "GCP-Thumbnail.png"
 - name: "cover"
-  src: "GCP-cover.jpg"
+  src: "GCP-Cover.png"
 class_name: "blog post"
 aliases:
     - /2018/02/how-to-deploy-consul-in-gcp-using-terraform-your-first-step-towards-devops-automation/
