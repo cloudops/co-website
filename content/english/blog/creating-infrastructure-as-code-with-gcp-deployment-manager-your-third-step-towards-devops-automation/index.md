@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Leverage a specific cloud infrastructure deployment service as part of automating your Infra as Code.
 resources:
 - name: "thumbnail"
-  src: "GCP.jpg"
+  src: "GCP-Thumbnail.png"
 - name: "cover"
-  src: "GCP-cover.jpg"
+  src: "GCP-Cover.png"
 class_name: "blog post"
 aliases:
   - /2018/07/creating-infrastructure-as-code-with-gcp-deployment-manager-your-third-step-towards-devops-automation/

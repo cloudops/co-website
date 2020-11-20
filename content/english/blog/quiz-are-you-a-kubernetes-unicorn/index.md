@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Test your knowledge of Docker and Kubernetes to find out if you’re a unicorn.
 resources:
 - name: "thumbnail"
-  src: "Quiz.jpg"
+  src: "Kubernetes-Thumbnail.png"
 - name: "cover"
-  src: "Quiz-cover.jpg"
+  src: "Kubernetes-Cover.png"
 class_name: "blog post"
 aliases:
   - /2019/08/quiz-are-you-a-kubernetes-unicorn/
