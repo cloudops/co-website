@@ -5,9 +5,9 @@ author: "Julia Simon"
 description: Values shape leadership and create purpose and cohesion between teams. How do you create meaningful values that resonate?
 resources:
 - name: "thumbnail"
-  src: "cloudops-values.png"
+  src: "Values-Thumbnail.png"
 - name: "cover"
-  src: "cloudops-values-cover.png"
+  src: "Values-Cover.png"
 class_name: "blog post"
 ---
 

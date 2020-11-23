@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Recruitment has often resisted the transition to remote work, but these virtual interview tips will help employers read through the screen.
 resources:
 - name: "thumbnail"
-  src: "RemoteOffice.png"
+  src: "RemoteInterview-Thumbnail.png"
 - name: "cover"
-  src: "RemoteOffice-cover.png"
+  src: "RemoteInterview-Cover.png"
 class_name: "blog post"
 aliases:
     - /2020/04/bringing-hr-into-the-cloud-the-remote-future-of-interviewing/

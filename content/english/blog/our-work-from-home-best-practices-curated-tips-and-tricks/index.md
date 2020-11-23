@@ -5,9 +5,9 @@ author: "CloudOps"
 description: A few best practices for working from home, including practical and wellness tips on how to optimize remote work - pandemic or not.
 resources:
 - name: "thumbnail"
-  src: "awkwardyeti.png"
+  src: "WFH-Thumbnail.png"
 - name: "cover"
-  src: "awkwardyeti-cover.png"
+  src: "WFH-Cover.png"
 class_name: "blog post"
 aliases:
     - /2020/05/our-work-from-home-best-practices-curated-tips-and-tricks/

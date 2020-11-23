@@ -4,7 +4,9 @@ date: "2020-07-24"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "lightbulb-people.png"
+  src: "OpenSource-Thumbnail.png"
+- name: "cover"
+  src: "OpenSource-Cover.png"
 class_name: "blog post"
 slug: "restons-maitres-de-notre-destin-dans-les-nuages-grace-a-la-source-libre"
 ---
