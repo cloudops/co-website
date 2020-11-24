@@ -1,10 +1,12 @@
 ---
 title: "Sillonner le paysage «cloud native» avec CloudOps"
 date: "2020-07-02"
-author: "Syed Ahmed"
+author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "ServiceMesh.png"
+  src: "Navigating-Thumbnail.png"
+- name: "cover"
+  src: "Navigating-Cover.png"
 class_name: "blog post"
 slug: /sillonner-le-paysage-cloud-native-avec-cloudops
 aliases:

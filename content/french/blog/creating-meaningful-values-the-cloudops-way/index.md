@@ -4,7 +4,9 @@ date: "2020-08-19"
 author: "Julia Simon"
 resources:
 - name: "thumbnail"
-  src: "cloudops-values.png"
+  src: "Values-Thumbnail.png"
+- name: "cover"
+  src: "Values-Cover.png"
 class_name: "blog post"
 slug: "valeurs-significatives-a-la-maniere-de-cloudops"
 ---

@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Open source has always been at the heart of our mission to help customers own their destinies in the clouds.
 resources:
 - name: "thumbnail"
-  src: "lightbulb-people.png"
+  src: "OpenSource-Thumbnail.png"
 - name: "cover"
-  src: "lightbulb-people-cover.png"
+  src: "OpenSource-Cover.png"
 class_name: "blog post"
 ---
 

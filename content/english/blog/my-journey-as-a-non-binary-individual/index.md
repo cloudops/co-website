@@ -6,7 +6,7 @@ resources:
 - name: "thumbnail"
   src: "Ariel.png"
 - name: "cover"
-  src: "Ariel-cover.png"
+  src: "Ariel-Cover.png"
 class_name: "blog post"
 aliases:
   - /my/journey/as/a/non-binary-individual

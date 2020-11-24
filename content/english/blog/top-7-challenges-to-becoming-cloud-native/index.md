@@ -5,7 +5,9 @@ author: "CloudOps"
 description: As Kubernetes and other tools make their way into the enterprise, a few challenges are slowing the adoption of cloud native development.
 resources:
 - name: "thumbnail"
-  src: "missed-arrow.png"
+  src: "Challenges-Thumbnail.png"
+- name: "cover"
+  src: "Challenges-Cover.png"
 class_name: "blog post"
 aliases:
   - /2020/07/top-7-challenges-to-becoming-cloud-native/

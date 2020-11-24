@@ -4,7 +4,9 @@ date: "2020-08-28"
 author: "Julia Hohenadel"
 resources:
 - name: "thumbnail"
-  src: "hohenadel-fr.png"
+  src: "Julia-Thumbnail.png"
+- name: "cover"
+  src: "Julia-Cover-FR.png"
 class_name: "blog post"
 slug: /reflexions-sur-mon-stage-chez-cloudops
 ---

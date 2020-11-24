@@ -4,7 +4,9 @@ date: "2020-10-01"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "MultiCloudblog.png"
+  src: "Multicloud-Thumbnail.png"
+- name: "cover"
+  src: "Multicloud-Cover.png"
 class_name: "blog post"
 slug: "les-plus-grands-mythes-sur-les-multinuages"
 ---

@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Navigate the cloud native and open source landscapes, and own your destiny in the clouds with CloudOps.
 resources:
 - name: "thumbnail"
-  src: "NavigateCloud.png"
+  src: "Navigating-Thumbnail.png"
 - name: "cover"
-  src: "NavigateCloud-cover.png"
+  src: "Navigating-Cover.png"
 class_name: "blog post"
 aliases:
     - /2020/06/navigating-the-cloud-native-landscape-with-cloudops/

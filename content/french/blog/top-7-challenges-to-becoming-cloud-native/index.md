@@ -4,7 +4,9 @@ date: "2020-07-17"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "missed-arrow.png"
+  src: "Challenges-Thumbnail.png"
+- name: "cover"
+  src: "Challenges-Cover.png"
 class_name: "blog post"
 slug: /les-7-plus-grands-defis-a-relever-lorsque-lon-devient-cloud-native
 aliases:
