@@ -3,3 +3,12 @@
 
 - id: get-to-full-section
   translation: Voir la section complète
+
+- id: blog_multi-lang
+  translation: Blogue
+
+- id: community-news_multi-lang
+  translation: Communautée
+
+- id: cloudops-press_multi-lang
+  translation: CloudOps dans la presse
