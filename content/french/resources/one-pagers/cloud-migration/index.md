@@ -5,4 +5,7 @@ resources:
 - name: "thumbnail"
   src: "cloud-migration.png"
 slug: "migration-infonuagique"
+description:
+keywords:
+tags:
 ---

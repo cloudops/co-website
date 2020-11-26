@@ -4,4 +4,7 @@ ExternalLink: https://cdn2.hubspot.net/hubfs/732832/One-pagers/EN_CloudOps_OP_De
 resources:
 - name: "thumbnail"
   src: "dppa.png"
+description:
+keywords:
+tags:
 ---

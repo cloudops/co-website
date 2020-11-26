@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2019/06/montreal-cloud-native-day-2019/
     - /montreal-cloud-native-day-2019/
+keywords:
+tags:
 ---
 
 <p>Montreal’s first Cloud Native Day was last Tuesday. The event brought together Kubernetes and cloud native communities from across Eastern Canada and featured a full day of talks. The event was attended by over 200 cloud native enthusiasts and culminated the Kubernetes and cloud native meetups run by CloudOps in Montreal, Toronto, Ottawa, Kitchener-Waterloo, and Quebec City.</p>

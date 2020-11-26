@@ -4,4 +4,7 @@ ExternalLink: https://f.hubspotusercontent30.net/hubfs/732832/Infographics/Conta
 resources:
 - name: "thumbnail"
   src: "container-security.png"
+description:
+keywords:
+tags:
 ---

@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
   - /2019/11/assessing-success-with-the-devops-health-radar/
   - /assessing-success-with-the-devops-health-radar/
+keywords:
+tags:
 ---
 
 <p>DevOps increases an organization’s ability to deliver applications and services at high velocity, evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. This is accomplished by redesigning processes so development and operations tasks are no longer fully separated by silos.</p>

@@ -10,6 +10,9 @@ resources:
 class_name: "blog post"
 aliases:
   - /mon/parcours/de/personne/non-binaire
+description:
+keywords:
+tags:
 ---
 
 <p>Dès l’enfance, je savais que je n’étais pas comme les autres. Tous les gens de mon entourage, y compris mes proches, les amis du service de garde à l’école, les enseignants et les étrangers, tenaient pour acquis que j’étais un garçon en raison de mes traits physiques. L’acceptation des personnes LGBTQ+ était bien faible dans le monde au début des années 1990. Le soutien au Pérou socialiste conservateur, là où j’ai vu le jour et grandi, l’était encore plus. Le genre devait être établi en fonction des caractéristiques physiques, plus particulièrement, sur la base des organes génitaux de la personne à la naissance. On est un homme ou on est une femme. Si on se sent différent, c’est un problème qu’il faut régler.</p>

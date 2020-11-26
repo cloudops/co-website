@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
     - /2015/12/cloudops-manifesto/
     - /cloudops-manifesto/
+keywords:
+tags:
 ---
 
 <p>Cloud computing is a revolutionary new model for IT services delivery, allowing on-demand utility consumption that can be fully automated via software. Being able to obtain IT resources like hailing a taxi is an essential characteristic of cloud computing. With such new capabilities, <strong>cloud computing enables completely new business models</strong>, such as e-commerce flash crowd sales (e.g. Beyond the Rack) and massively parallelized compute work (e.g. modelling drug interactions) while enabling us to improve on old business models, allowing for better, faster and cheaper services. These new and improved cloud business models require a new operations model to succeed and be cost effective. We call this “CloudOps” and we built our company to focus on helping companies with this cloud operations transformation.</p>

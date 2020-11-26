@@ -4,4 +4,7 @@ ExternalLink: https://f.hubspotusercontent30.net/hubfs/732832/Infographics/Infog
 resources:
 - name: "thumbnail"
   src: "migrate.png"
+description:
+keywords:
+tags:
 ---

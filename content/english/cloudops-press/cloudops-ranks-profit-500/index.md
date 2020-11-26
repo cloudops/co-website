@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2016/09/cloudops-ranks-profit-500/
     - /cloudops-ranks-profit-500/
+keywords:
+tags:
 ---
 
 <p>– PROFIT magazine unveils 28th annual list of Canada’s Fastest-Growing Companies –</p>

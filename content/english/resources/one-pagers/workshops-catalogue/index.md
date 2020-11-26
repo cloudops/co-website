@@ -4,4 +4,7 @@ ExternalLink: https://cdn2.hubspot.net/hubfs/732832/EN_CloudOps_OP_Workshop%20Ca
 resources:
 - name: "thumbnail"
   src: "workshops-catalogue.png"
+description:
+keywords:
+tags:
 ---

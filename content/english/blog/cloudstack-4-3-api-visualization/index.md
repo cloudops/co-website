@@ -12,7 +12,8 @@ class_name: "blog post"
 aliases:
     - /2014/05/cloudstack-4-3-api-visualization/
     - /cloudstack-4-3-api-visualization/
-
+keywords:
+tags:
 ---
 
 <p>Click the image to interact with the visualization…..</p>

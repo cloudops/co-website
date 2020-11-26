@@ -4,4 +4,7 @@ ExternalLink: https://cdn2.hubspot.net/hubfs/732832/One-pagers/One-Pager_Docker%
 resources:
 - name: "thumbnail"
   src: "kubernetes.png"
+description:
+keywords:
+tags:
 ---

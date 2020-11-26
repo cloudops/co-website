@@ -9,6 +9,8 @@ resources:
 - name: "cover"
   src: "Values-Cover.png"
 class_name: "blog post"
+keywords:
+tags:
 ---
 
 As CloudOps continues to grow as a services organization, we realized a couple of things: 1) our people are our priority – without them, our organization wouldn’t exist, and 2) it was time to identify, document, and communicate the <a href="https://blog.smarp.com/the-importance-of-company-values" target="_blank"> importance of the values</a> we already embody as reference points for our decisions and actions.

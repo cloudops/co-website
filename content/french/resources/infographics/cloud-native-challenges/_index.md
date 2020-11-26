@@ -4,4 +4,7 @@ ExternalLink: https://f.hubspotusercontent30.net/hubfs/732832/Infographics/FR%20
 resources:
 - name: "thumbnail"
   src: "cloud-native-challenges.png"
+description:
+keywords:
+tags:
 ---

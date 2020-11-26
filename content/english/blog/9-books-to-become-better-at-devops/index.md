@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
   - /2019/09/9-books-to-become-better-at-devops/
   - /9-books-to-become-better-at-devops/
+keywords:
+tags:
 ---
 
 

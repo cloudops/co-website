@@ -9,6 +9,8 @@ aliases:
     - /white-papers/securing-devops-platform-saas/
     - /securing-devops-platform-saas/
     - /securing-devops-platform-saas-company
+keywords:
+tags:
 ---
 
 

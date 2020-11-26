@@ -4,4 +4,7 @@ ExternalLink: https://cdn2.hubspot.net/hubfs/732832/EN_CloudOps_CS_Element-AI_Co
 resources:
 - name: "thumbnail"
   src: "element-ai-square.png"
+description:
+keywords:
+tags:
 ---

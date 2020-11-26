@@ -5,6 +5,9 @@ resources:
 - name: "thumbnail"
   src: "Financial_WP.png"
 slug: "securisation-de-votre-plateforme-devops-entreprise-moderne"
+description:
+keywords:
+tags:
 ---
 
 

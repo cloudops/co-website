@@ -10,6 +10,9 @@ slug: /quiz-dans-quelle-mesure-vos-conteneurs-sont-ils-securises-dans-azure
 aliases:
     - /fr/2019/04/quiz-dans-quelle-mesure-vos-conteneurs-sont-ils-securises-dans-azure%E2%80%89/
     - /fr/quiz-dans-quelle-mesure-vos-conteneurs-sont-ils-securises-dans-azure
+description:
+keywords:
+tags:
 ---
 
 <p>&nbsp;</p>

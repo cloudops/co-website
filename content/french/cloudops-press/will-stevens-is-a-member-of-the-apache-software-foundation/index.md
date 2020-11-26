@@ -10,6 +10,9 @@ slug: /will-stevens-est-membre-de-la-fondation-asf
 aliases:
     - /fr/2019/04/will-stevens-est-membre-de-la-fondation-asf/
     - /fr/will-stevens-est-membre-de-la-fondation-asf
+description:
+keywords:
+tags:
 ---
 
 <p>Will Stevens, Directeur principal de la technologie chez CloudOps, est récemment devenu membre de la fondation ASF (<a href="https://www.apache.org/">Apache Software Foundation</a>). Il continuera d’encourager la communauté de source libre et de collaborer aux projets de l’ASF.</p>

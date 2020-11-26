@@ -8,6 +8,9 @@ resources:
 - name: "cover"
   src: "Turkey Cover.png"
 class_name: "blog post"
+description:
+keywords:
+tags:
 ---
 
 <h2>Nous traversons une période sans précédent.

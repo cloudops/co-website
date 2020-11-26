@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2019/09/eastern-canadas-kubernetes-and-cloud-native-meetups-summer-2019/
     - /eastern-canadas-kubernetes-and-cloud-native-meetups-summer-2019/
+keywords:
+tags:
 ---
 
 <p>Summer was punctuated with many great talks and cupcakes as we closed off the season with the Kubernetes Birthday Bash. Our roadshow took us to Quebec City, Montreal, Ottawa, Toronto and Kitchener-Waterloo, where our CNCF Ambassador, Ayrat Khayretdinov, relayed important news and updates from the CNCF. Most notable is KubeCon North America taking place on November 18th to 21st in San Diego. The<a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/schedule/"> full list of speakers</a> has just been released and we are happy to announce that some of our own meetup members are included in that list. Congrats to Chris Carty, Senior DevOps for the City of Ottawa, who will be presenting <a href="https://sched.co/UabP">Moving from Legacy Infrastructure to the Cloud in a Government Organization</a>!</p>

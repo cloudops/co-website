@@ -5,6 +5,9 @@ resources:
 - name: "thumbnail"
   src: "devops_trans.png"
 slug: "accelerer-la-transformation-devops"
+description:
+keywords:
+tags:
 ---
 
 

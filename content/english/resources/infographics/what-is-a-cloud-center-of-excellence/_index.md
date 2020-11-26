@@ -4,4 +4,7 @@ ExternalLink: https://f.hubspotusercontent30.net/hubfs/732832/Infographics/Cloud
 resources:
 - name: "thumbnail"
   src: "cloud-center-of-excellence.png"
+description:
+keywords:
+tags:
 ---

@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
   - /2019/11/devopsdays-montreal-2019/
   - /devopsdays-montreal-2019/
+keywords:
+tags:
 ---
 
 <p>The second edition of DevOpsDays Montreal took place on November 5 and 6. CloudOps was excited to be at this event which brought together community members from across Eastern Canada in celebration of all things DevOps. The two days were jam-packed with talks in both English and French, open spaces, and workshops.&nbsp;</p>

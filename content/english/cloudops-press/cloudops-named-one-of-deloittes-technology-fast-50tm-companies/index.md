@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2015/11/cloudops-named-one-of-deloittes-technology-fast-50tm-companies/
     - /cloudops-named-one-of-deloittes-technology-fast-50tm-companies/
+keywords:
+tags:
 ---
 
 <p><span style="font-weight: 400;"><strong>Montreal, November 12, 2015</strong> — CloudOps is named as one of Canada’s fastest growing technology companies in the 18th annual Deloitte Technology Fast&nbsp;</span><span class="s1">50</span><span class="s2"><sup>TM&nbsp;</sup></span><span style="font-weight: 400;">awards for demonstrating bold innovation, dedicated leadership and strong growth. CloudOps ranked 40 with 207 percent in revenue growth from 2011 to 2014. </span><span style="font-weight: 400;">This is the second consecutive year that CloudOps has been ranked.</span></p>

@@ -7,6 +7,9 @@ resources:
   src: "cd-foundation.png"
 class_name: "blog post"
 slug: "ensemble-faisons-progresser-les-cicd-vers-le-futur"
+description:
+keywords:
+tags:
 ---
 
 La livraison continue (CD pour continuous delivery) est une approche de génie logiciel où les équipes produisent des logiciels en cycles courts, assurant ainsi une fiabilité de livraison en tout temps. Elle est liée à l'intégration continue (CI pour continuous integration), qui est la pratique de fusionner toutes les copies de travail des développeurs dans un réseau principal partagé et plusieurs fois par jour. Depuis la montée des microservices et des architectures cloud native, la livraison continue devient de plus en plus nécessaire et les communautés de source libre se rassemblent afin de propulser son adoption.

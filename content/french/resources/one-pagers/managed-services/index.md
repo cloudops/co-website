@@ -5,4 +5,7 @@ resources:
 - name: "thumbnail"
   src: "managed-services.png"
 slug: "services-geres"
+description:
+keywords:
+tags:
 ---

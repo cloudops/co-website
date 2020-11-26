@@ -11,6 +11,8 @@ class_name: "blog post"
 aliases:
     - /2014/07/moving-to-your-new-saasy-reality/
     - /moving-to-your-new-saasy-reality/
+keywords:
+tags:
 ---
 
 

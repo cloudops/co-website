@@ -7,6 +7,8 @@ resources:
   src: "Financial_WP.png"
 aliases:
     - /financialkubernetes-0
+keywords:
+tags:
 ---
 
 

@@ -5,6 +5,9 @@ resources:
 - name: "thumbnail"
   src: "securing_devops_platform_saas.png"
 slug: "securisation-de-votre-plateforme-devops-saas"
+description:
+keywords:
+tags:
 ---
 
 

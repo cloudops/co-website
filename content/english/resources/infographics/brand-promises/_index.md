@@ -4,4 +4,7 @@ ExternalLink: https://f.hubspotusercontent30.net/hubfs/732832/Infographics/Brand
 resources:
 - name: "thumbnail"
   src: "brand-promises.png"
+description:
+keywords:
+tags:
 ---

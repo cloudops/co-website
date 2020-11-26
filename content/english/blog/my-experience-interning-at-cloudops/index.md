@@ -9,6 +9,8 @@ resources:
 - name: "cover"
   src: "Julia-Cover.png"
 class_name: "blog post"
+keywords:
+tags:
 ---
 
 One might think that a company’s culture is hard to define when you’ve never set foot in the office or even met your coworkers in real life. At CloudOps this simply isn’t true; CloudOps did an amazing job of propagating their culture in an online environment.

@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2014/07/the-future-of-software-is-a-four-letter-word/
     - /the-future-of-software-is-a-four-letter-word/
+keywords:
+tags:
 ---
 
 

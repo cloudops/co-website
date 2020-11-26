@@ -4,4 +4,7 @@ ExternalLink: https://f.hubspotusercontent30.net/hubfs/732832/Company%20Values%2
 resources:
 - name: "thumbnail"
   src: "company-values.png"
+description:
+keywords:
+tags:
 ---

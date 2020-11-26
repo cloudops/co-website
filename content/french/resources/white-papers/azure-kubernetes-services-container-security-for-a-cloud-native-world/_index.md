@@ -5,6 +5,9 @@ resources:
 - name: "thumbnail"
   src: "AKS.png"
 slug: "azure-kubernetes-services-la-securite-des-conteneurs-pour-un-monde-infonuagique"
+description:
+keywords:
+tags:
 ---
 
 

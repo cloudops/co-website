@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
     - /2014/04/parlons-en-cloud-2014-some-topics/
     - /parlons-en-cloud-2014-some-topics/
+keywords:
+tags:
 ---
 
 

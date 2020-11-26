@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
   - /2019/08/quiz-are-you-a-kubernetes-unicorn/
   - /quiz-are-you-a-kubernetes-unicorn/
+keywords:
+tags:
 ---
 
 <p>

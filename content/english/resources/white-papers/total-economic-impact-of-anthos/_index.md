@@ -8,6 +8,8 @@ resources:
 aliases:
     - /white-papers/total-economic-impact-of-anthos/
     - /total-economic-impact-of-anthos/
+keywords:
+tags:
 ---
 
 

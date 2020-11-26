@@ -8,6 +8,8 @@ resources:
 aliases:
     - /white-papers/beginners-guide-to-kubernetes
     - /beginners-guide-to-kubernetes
+keywords:
+tags:
 ---
 
 

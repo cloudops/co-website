@@ -5,4 +5,7 @@ resources:
 - name: "thumbnail"
   src: "hospitality_digital.png"
 slug: "migration-vers-le-nuage-gcp"
+description:
+keywords:
+tags:
 ---

@@ -10,6 +10,8 @@ resources:
   src: "Kubeflow-cover.jpg"
 class_name: "blog post"
 aliases: /2018/09/machine-learning-tensorflow-kubernetes-and-kubeflow/
+keywords:
+tags:
 ---
 
 <p>Machine learning (ML) is a method of data analysis for identifying patterns and predicting future probabilities. It is part of research on artificial intelligence (AI). By inputting data with predetermined answers into mathematical models, computers can train themselves to predict future unknown sets of inputs.</p>

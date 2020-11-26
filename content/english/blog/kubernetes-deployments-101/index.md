@@ -13,6 +13,8 @@ aliases:
   - /2020/04/how-to-create-and-inspect-kubernetes-deployments/
   - /how-to-create-and-inspect-kubernetes-deployments/
   - /kubernetes-deployments-101
+keywords:
+tags:
 ---
 
 <p>If you’re looking to get started with Kubernetes, this blog post will teach you the basics of deployments.</p>

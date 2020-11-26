@@ -8,6 +8,8 @@ resources:
 aliases:
     - /white-papers/cloudops-bitcurrent-briefing-on-cloud-computing/
     - /cloudops-bitcurrent-briefing-on-cloud-computing/
+keywords:
+tags:
 ---
 
 <div class="landing-page">

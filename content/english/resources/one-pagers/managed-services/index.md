@@ -4,4 +4,7 @@ ExternalLink: https://cdn2.hubspot.net/hubfs/732832/EN_CloudOps_OP_Managed-Servi
 resources:
 - name: "thumbnail"
   src: "managed-services.png"
+description:
+keywords:
+tags:
 ---

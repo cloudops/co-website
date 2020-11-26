@@ -4,4 +4,7 @@ ExternalLink: https://f.hubspotusercontent30.net/hubfs/732832/Infographics/Staff
 resources:
 - name: "thumbnail"
   src: "staff-augmentation-mistakes.png"
+description:
+keywords:
+tags:
 ---

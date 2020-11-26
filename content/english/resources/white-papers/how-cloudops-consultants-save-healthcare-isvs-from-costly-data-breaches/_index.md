@@ -8,6 +8,8 @@ resources:
 aliases:
     - /white-papers/how-cloudops-consultants-save-healthcare-isvs-from-costly-data-breaches/
     - /how-cloudops-consultants-save-healthcare-isvs-from-costly-data-breaches/
+keywords:
+tags:
 ---
 
 

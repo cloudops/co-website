@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
   - /2014/03/install-apache-cloudstack-with-chef/
   - /install-apache-cloudstack-with-chef/
+keywords:
+tags:
 ---
 
 <p>Installation of <a href="http://cloudstack.apache.org/">Apache CloudStack</a> and is dependencies using <a href="http://www.opscode.com/">Opscode Chef</a>&nbsp;community cookbooks.</p>

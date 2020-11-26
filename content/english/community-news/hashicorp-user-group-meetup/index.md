@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2018/01/hashicorp-user-group-meetup-2/
     - /hashicorp-user-group-meetup/
+keywords:
+tags:
 ---
 
 <p> CloudOps was pleased to collaborate with <a href="https://www.meetup.com/Montreal-HashiCorp-User-Group/" target="_blank">Hashicorp User Group</a>, fondly known as HUG, for its second DevOps Montreal meetup last night. Hosted at espace cloud.ca, the event began with beer, pizza, and mingling, before moving onto more substantive talks.</p>

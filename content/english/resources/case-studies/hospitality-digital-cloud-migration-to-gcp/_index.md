@@ -4,4 +4,7 @@ ExternalLink: https://cdn2.hubspot.net/hubfs/732832/CaseStudy_CloudOps_GCP%20Clo
 resources:
 - name: "thumbnail"
   src: "hospitality_digital.png"
+description:
+keywords:
+tags:
 ---

@@ -11,6 +11,8 @@ aliases:
     - /resources/white-papers/the-performance-of-clouds/
     - /white-papers/the-performance-of-clouds/
     - /the-performance-of-clouds/
+keywords:
+tags:
 ---
 
 

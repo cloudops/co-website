@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2018/12/cloud-native-meetups-k8s-1-13-and-aks/
     - /cloud-native-meetups-k8s-1-13-and-aks/
+keywords:
+tags:
 ---
 
 

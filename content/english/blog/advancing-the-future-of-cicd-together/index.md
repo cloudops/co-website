@@ -9,6 +9,8 @@ resources:
 - name: "cover"
   src: "cd-foundation-cover.png"
 class_name: "blog post"
+keywords:
+tags:
 ---
 
 Continuous delivery is a software engineering approach where teams produce software in short cycles, ensuring it can be reliably released at any time. It relates to continuous integration, which is the practice of merging all developer working copies to a shared mainline several times a day. With the rise of microservices and cloud native architectures, continuous delivery is increasingly becoming a necessity and open source communities are coming together to drive its adoption.

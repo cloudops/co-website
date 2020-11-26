@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
     - /2020/04/bringing-hr-into-the-cloud-the-remote-future-of-interviewing/
     - /bringing-hr-into-the-cloud-the-remote-future-of-interviewing/
+keywords:
+tags:
 ---
 
 <p>There are companies still talking about digital transformation in 2020, and you’re clearly behind the curve if you’re one of them. While the disparity between those who have gone digital and those who haven’t has been deepening for a while, it became obvious when COVID-19 forced us all to move our offices into our homes. The days of companies offering remote work as a luxury or something only to be used in extreme or rare circumstances are over.</p>

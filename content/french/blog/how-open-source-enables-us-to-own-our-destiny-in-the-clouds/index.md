@@ -9,6 +9,9 @@ resources:
   src: "OpenSource-Cover.png"
 class_name: "blog post"
 slug: "restons-maitres-de-notre-destin-dans-les-nuages-grace-a-la-source-libre"
+description:
+keywords:
+tags:
 ---
 
 Ce blogue est extrait de l’exposé de Ian Rae lors de la Journée Cloud Native 2020, qui peut être écouté <a href="https://www.youtube.com/watch?v=X2WOkt6N8eE&list=PLCfLScXpEyAQ0k9pNr8SlGK42CSd-buYv&index=14" target="_blank">here</a>.

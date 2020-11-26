@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2018/02/lyfts-migration-to-envoy-1-9-update-cilium-networking-meetup/
     - /lyfts-migration-to-envoy-1-9-update-cilium-networking-meetup/
+keywords:
+tags:
 ---
 
 <p>CloudOps hosted an exciting event last night at the Centre cloud.ca in Montreal bringing in speakers from Seattle and Silicon Valley. The event included a 1.9 release update, and presentations on Lyft’s migration to Envoy, and Cilium Network Security. It was the first Kubernetes meetup of the year, and was the meetup that saw Kubernetes integrate into the broader Cloud Native Computing Foundation (CNCF) mission.</p>

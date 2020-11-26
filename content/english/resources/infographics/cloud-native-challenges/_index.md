@@ -4,4 +4,7 @@ ExternalLink: https://f.hubspotusercontent30.net/hubfs/732832/Cloud%20Native%20C
 resources:
 - name: "thumbnail"
   src: "cloud-native-challenges.png"
+description:
+keywords:
+tags:
 ---

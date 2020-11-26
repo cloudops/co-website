@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2013/01/working-with-the-cloudstack-api/
     - /working-with-the-cloudstack-api/
+keywords:
+tags:
 ---
 
 <p>The CloudStack API is a very powerful tool for managing your infrastructure and is often not utilized to its full potential.  I think this is mainly due to the initial learning curve to get working with the API.  In this post I will present the basics you will need to start using the API as well as provide working examples to get you started.</p>

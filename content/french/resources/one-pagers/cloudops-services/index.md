@@ -5,4 +5,7 @@ resources:
 - name: "thumbnail"
   src: "cloudops-services.png"
 slug: "services-de-cloudops"
+description:
+keywords:
+tags:
 ---

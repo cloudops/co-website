@@ -5,4 +5,7 @@ resources:
 - name: "thumbnail"
   src: "aws_square.png"
 slug: "migration-vers-le-nuage-aws"
+description:
+keywords:
+tags:
 ---

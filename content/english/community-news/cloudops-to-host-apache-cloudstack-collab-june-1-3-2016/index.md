@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2016/04/cloudops-to-host-apache-cloudstack-collab-june-1-3-2016/
     - /cloudops-to-host-apache-cloudstack-collab-june-1-3-2016/
+keywords:
+tags:
 ---
 
 <p><span style="font-weight: 400;">For Immediate Release</span></p>

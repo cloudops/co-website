@@ -4,4 +4,7 @@ ExternalLink: https://cdn2.hubspot.net/hubfs/732832/One-pagers/EN-Generic_CloudO
 resources:
 - name: "thumbnail"
   src: "kubernetes.png"
+description:
+keywords:
+tags:
 ---

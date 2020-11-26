@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2019/04/cloudops-is-an-aws-advanced-consulting-member/
     - /cloudops-is-an-aws-advanced-consulting-member/
+keywords:
+tags:
 ---
 
 <p>CloudOps is pleased to become an Advanced member of the AWS Partner Network (APN). As a consulting partner of AWS, CloudOps helps companies build or expand their businesses in AWS’ public cloud offering.</p>

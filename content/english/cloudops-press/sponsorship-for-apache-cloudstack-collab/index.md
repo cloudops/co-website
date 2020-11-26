@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2016/05/sponsorship-for-apache-cloudstack-collab/
     - /sponsorship-for-apache-cloudstack-collab/
+keywords:
+tags:
 ---
 
 <p><b>Friday, May 27th 2016:</b><span style="font-weight: 400;"> CloudOps is excited to announce the sponsors for #ccc2016mtl. With their support, this event will successfully bring together the community in a robust gathering with multiple avenues for collaboration, discussion and creativity. This Collab is a grassroots event, bringing together this community after a year of immense change. The sponsors of the Collab have had an important role in shaping the content of the event, as well as being integral to the success of the Apache CloudStack project as a whole. &nbsp;</span></p>

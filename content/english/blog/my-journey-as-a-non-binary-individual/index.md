@@ -10,6 +10,8 @@ resources:
 class_name: "blog post"
 aliases:
   - /my/journey/as/a/non-binary-individual
+keywords:
+tags:
 ---
 
 <p>Ever since I was a small child, I knew I was different. Everybody, from relatives to nursery school friends and teachers, to strangers, assumed, based on physical traits, that I was a boy. In the early 90s, there wasn’t that much acceptance around the world for LGBTQ+ people around the world. This support was even lower in socially conservative Peru where I was born and raised. Gender was supposed to be assigned based on physical traits, more specifically based on a person's genitalia at birth. You were either a man or a woman. If you felt any different, you had a problem and you needed to be fixed.</p>

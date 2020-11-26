@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2018/09/open-source-apachecon-2018/
     - /open-source-apachecon-2018/
+keywords:
+tags:
 ---
 
 <p><a href="https://apachecon.com/acna18/"><span style="font-weight: 400;">ApacheCon North America</span></a><span style="font-weight: 400;"> was held in Montreal this year from September&nbsp;24<span style="font-weight: 400;">th</span><span style="font-weight: 400;"> to 27</span><span style="font-weight: 400;">th.</span> The event featured a CloudStack Collab Conference, in which containers, DevOps, IoT, servers, and web frameworks amongst many other subjects were covered. CloudOps was pleased to sponsor the event, and even more so to participate.</span></p>

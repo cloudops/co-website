@@ -5,4 +5,7 @@ resources:
 - name: "thumbnail"
   src: "element-ai-square.png"
 slug: "cloudops-et-elementai"
+description:
+keywords:
+tags:
 ---

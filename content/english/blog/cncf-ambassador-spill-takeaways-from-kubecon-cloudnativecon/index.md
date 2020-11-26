@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
     - /2019/01/cncf-ambassador-spill-takeaways-from-kubecon-cloudnativecon/
     - /cncf-ambassador-spill-takeaways-from-kubecon-cloudnativecon/
+keywords:
+tags:
 ---
 
 <p>Over 8,000 people attended KubeCon + CloudNativeCon in Seattle last month. They were there to celebrate the exponential growth of Kubernetes, the open source software for orchestrating containers. Since the first KubeCon in 2015, the cloud native community has mushroomed in size and success. As <a href="https://www.youtube.com/watch?v=LAO7RuWwfzA">Janet Kuo stated in her keynote address</a>, “Kubernetes is now very, very boring” – it has become an exceptionally stable platform that has reached mass commercial adoption. Kubernetes, Prometheus, and Envoy, are all graduated projects now and related cloud native technologies have risen in popularity. We spoke with some <a href="https://www.cncf.io/people/ambassadors/">CNCF Ambassadors</a> to hear about their takeaways from KubeCon.</p>

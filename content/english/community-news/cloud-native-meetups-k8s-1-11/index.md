@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases: 
     - /2018/08/cloud-native-meetups-k8s-1-11/
     - /cloud-native-meetups-k8s-1-11/
+keywords:
+tags:
 ---
 
 <p>Kubernetes celebrated its fourth birthday across eastern Canada this week with a series of cloud native meetups in Montreal, Quebec City, Ottawa, Toronto, and Kitchener-Waterloo. This quarter’s series of Kubernetes and Cloud Native meetups brought together a range of speakers, including Ayrat Khayretdinov, Baruch Sadogursky, Jonathan Katz, and Daniel Tomcej. Below is an overview of the content of their presentations.</p>

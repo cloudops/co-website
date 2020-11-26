@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
     - /2014/04/researching-cloud-adoption/
     - /researching-cloud-adoption/
+keywords:
+tags:
 ---
 
 <p>It’s been a few years since clouds were new. Today, utility computing is a tool in the IT toolbox, and it consists of both on-premise and on-demand components. We have strong private stacks (Cloud Platform, OpenStack, Eucalyptus, VMWare and others) and a variety of large-scale public providers at both the IaaS (Amazon, Google Compute Engine, Rackspace) and PaaS (Cloud Foundry, Openshift, App Engine, Heroku) level.</p>
