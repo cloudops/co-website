@@ -8,7 +8,7 @@ resources:
 aliases:
     - /white-papers/securing-devops-platform-enterprise/
     - /securing-devops-platform-enterprise/
-keywords:
+keywords: [devops software, devops platform, devops for enterprises, devops security]
 tags:
 ---
 

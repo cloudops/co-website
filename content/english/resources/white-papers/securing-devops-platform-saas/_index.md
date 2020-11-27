@@ -9,7 +9,7 @@ aliases:
     - /white-papers/securing-devops-platform-saas/
     - /securing-devops-platform-saas/
     - /securing-devops-platform-saas-company
-keywords:
+keywords: [devops software, devops platform, devops for saas, devops security]
 tags:
 ---
 

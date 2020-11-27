@@ -8,7 +8,7 @@ resources:
 aliases:
     - /white-papers/operations-focus-and-tribal-knowledge/
     - /operations-focus-and-tribal-knowledge/
-keywords:
+keywords: [cloud operations, tribal knowledge, organizational knowledge]
 tags:
 ---
 

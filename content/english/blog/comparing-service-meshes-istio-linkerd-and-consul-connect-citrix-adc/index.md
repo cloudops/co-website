@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
   - /2020/06/comparing-service-meshes-istio-linkerd-and-consul-connect-citrix-adc/
   - /comparing-service-meshes-istio-linkerd-and-consul-connect-citrix-adc/
-keywords:
+keywords: [service mesh, istio, linkerd, consul connect, citrix adc, service mesh comparisons]
 tags:
 ---
 

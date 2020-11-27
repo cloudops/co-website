@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2020/03/remote-work-one-way-of-supporting-employees/
     - /remote-work-one-way-of-supporting-employees/
-keywords:
+keywords: [remote work, remote culture, ariel zolezzi]
 tags:
 ---
 

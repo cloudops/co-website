@@ -9,7 +9,7 @@ aliases:
     - /white-papers/total-economic-impact-of-microsoft-azure-iaas/
     - /total-economic-impact-of-microsoft-azure-iaas/
     - /economic-benefits-azure-iaas
-keywords:
+keywords: [Azure, Microsoft Azure, IaaS, Azure infrastructure, Azure cost]
 tags:
 ---
 

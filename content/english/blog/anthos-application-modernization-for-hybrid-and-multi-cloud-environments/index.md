@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2020/03/anthos-application-modernization-for-hybrid-and-multi-cloud-environments/
     - /anthos-application-modernization-for-hybrid-and-multi-cloud-environments/
-keywords:
+keywords: [anthos, cloudops, hybrid cloud, multicloud, managed cloud platform, anthos architecture]
 tags:
 ---
 

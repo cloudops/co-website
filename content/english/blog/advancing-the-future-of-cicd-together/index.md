@@ -9,7 +9,7 @@ resources:
 - name: "cover"
   src: "cd-foundation-cover.png"
 class_name: "blog post"
-keywords:
+keywords: [ci/cd, tracy miranda, continuous delivery foundation, cdf, cd]
 tags:
 ---
 

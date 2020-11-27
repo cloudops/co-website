@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
   - /2020/06/kubernetes-networking-101/
   - /kubernetes-networking-101/
-keywords:
+keywords: [kubernetes networking, kubrnetes 101, kubernetes how to]
 tags:
 ---
 

@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2020/06/navigating-the-cloud-native-landscape-with-cloudops/
     - /navigating-the-cloud-native-landscape-with-cloudops/
-keywords:
+keywords: [cloudops, cloud native landscape, open source landscape, open source, cloud computing landscape, cloudverse]
 tags:
 ---
 

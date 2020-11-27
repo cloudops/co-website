@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2020/05/our-work-from-home-best-practices-curated-tips-and-tricks/
     - /our-work-from-home-best-practices-curated-tips-and-tricks/
-keywords:
+keywords: [wfh tips and tricks, work from home best practices, wfh best practices, work from home tips and tricks]
 tags:
 ---
 

@@ -9,7 +9,7 @@ aliases:
     - /white-papers/azure-kubernetes-services-container-security-for-a-cloud-native-world/
     - /azure-kubernetes-services-container-security-for-a-cloud-native-world/
     - /container-security-for-azure/
-keywords:
+keywords: [aks, aks security, container security, cloud native security]
 tags:
 ---
 

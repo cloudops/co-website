@@ -11,7 +11,7 @@ aliases:
     - /resources/white-papers/the-practice-of-law-in-the-age-of-big-data/
     - /white-papers/the-practice-of-law-in-the-age-of-big-data/
     - /the-practice-of-law-in-the-age-of-big-data/
-keywords:
+keywords: [big data, data law, cloud law, cloud regulations, cloud jurisdictions]
 tags:
 ---
 

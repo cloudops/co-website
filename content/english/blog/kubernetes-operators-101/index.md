@@ -9,7 +9,7 @@ resources:
 - name: "cover"
   src: "kubernetes-operators-101-cover.png"
 class_name: "blog post"
-keywords:
+keywords: [kubernetes operators, how to kubernetes, kubernetes 101, kubernetes guide, kubernetes]
 tags:
 ---
 

@@ -8,7 +8,7 @@ resources:
 aliases:
     - /white-papers/how-cloudops-consultants-save-healthcare-isvs-from-costly-data-breaches/
     - /how-cloudops-consultants-save-healthcare-isvs-from-costly-data-breaches/
-keywords:
+keywords: [cloud consulting, cloudops, cloudops healthcare, healthcare cloud, healthcare data breaches protection]
 tags:
 ---
 

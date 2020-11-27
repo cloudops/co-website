@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2020/04/bringing-hr-into-the-cloud-the-remote-future-of-interviewing/
     - /bringing-hr-into-the-cloud-the-remote-future-of-interviewing/
-keywords:
+keywords: [hr, remote interviewing, hr interviewing, people team, cloudops people team]
 tags:
 ---
 

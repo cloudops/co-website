@@ -9,7 +9,7 @@ resources:
 - name: "cover"
   src: "Julia-Cover.png"
 class_name: "blog post"
-keywords:
+keywords: [cloudops internship, julia hohenadel, cloudops intern, cloudops culture]
 tags:
 ---
 

@@ -13,7 +13,7 @@ aliases:
   - /2020/04/how-to-create-and-inspect-kubernetes-deployments/
   - /how-to-create-and-inspect-kubernetes-deployments/
   - /kubernetes-deployments-101
-keywords:
+keywords: [kubernetes deployments, kubernetes 101, kubernetes how to]
 tags:
 ---
 

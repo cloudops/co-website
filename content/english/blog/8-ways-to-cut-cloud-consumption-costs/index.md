@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
   - /2020/04/8-ways-to-cut-cloud-consumption-costs/
   - /8-ways-to-cut-cloud-consumption-costs/
-keywords:
+keywords: [cloud cost savings, cloud savings, reduce cloud costs, cloud consumption savings]
 tags:
 ---
 

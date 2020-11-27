@@ -9,7 +9,7 @@ aliases:
     - /white-papers/a-checklist-for-your-cloud-migration-strategy/
     - /a-checklist-for-your-cloud-migration-strategy/
     - /cloud-migration-checklist
-keywords:
+keywords: [cloud migration strategy, cloud migration checklist, cloud migration]
 tags:
 ---
 

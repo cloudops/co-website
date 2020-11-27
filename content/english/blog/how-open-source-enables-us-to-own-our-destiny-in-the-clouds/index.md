@@ -9,7 +9,7 @@ resources:
 - name: "cover"
   src: "OpenSource-Cover.png"
 class_name: "blog post"
-keywords:
+keywords: [open source, cloudops, open source approach, open source definition, open source meaning]
 tags:
 ---
 

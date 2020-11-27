@@ -9,7 +9,7 @@ resources:
 - name: "cover"
   src: "Values-Cover.png"
 class_name: "blog post"
-keywords:
+keywords: [cloudops values, cloudops culture]
 tags:
 ---
 

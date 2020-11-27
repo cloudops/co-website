@@ -11,7 +11,7 @@ aliases:
     - /resources/white-papers/the-era-of-the-end-user/
     - /white-papers/the-era-of-the-end-user/
     - /the-era-of-the-end-user/
-keywords:
+keywords: [cloud end user, hybrid cloud end user, multi cloud end user]
 tags:
 ---
 

@@ -8,7 +8,7 @@ resources:
 aliases:
     - /white-papers/cloud-performance-from-the-end-user/
     - /cloud-performance-from-the-end-user/
-keywords:
+keywords: [end user performance, client side latency, hybrid cloud]
 tags:
 ---
 

@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
   - /2020/07/top-7-challenges-to-becoming-cloud-native/
   - /top-7-challenges-to-becoming-cloud-native/
-keywords:
+keywords: [cloud native challenges, cloud native features, cloud native approach, cloud native]
 tags:
 ---
 

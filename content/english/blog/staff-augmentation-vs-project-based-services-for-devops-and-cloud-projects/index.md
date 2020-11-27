@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
   - /2020/02/staff-augmentation-vs-project-based-services-for-devops-and-cloud-projects/
   - /staff-augmentation-vs-project-based-services-for-devops-and-cloud-projects/
-keywords:
+keywords: [staff augmentation vs. consulting, staff augmentation vs. professional services, devops models, devops projects]
 tags:
 ---
 
