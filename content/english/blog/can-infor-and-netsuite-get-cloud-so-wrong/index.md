@@ -9,7 +9,7 @@ resources:
 - name: "cover"
   src: "puzzle-cover.jpg"
 class_name: "blog post"
-keywords:
+keywords: [infor, netsuite]
 tags:
 ---
 

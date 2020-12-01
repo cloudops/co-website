@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2014/04/clouds-are-like-airlines/
     - /cloud-are-like-airlines
-keywords:
+keywords: [alistair croll, clouds airlines]
 tags:
 ---
 

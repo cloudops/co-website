@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2017/07/docker-and-kubernetes-what-is-the-value-of-containerization/
     - /docker-and-kubernetes-what-is-the-value-of-containerization/
-keywords:
+keywords: [value docker, value kubernetes, value containers, value containerization]
 tags:
 ---
 

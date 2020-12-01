@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2013/01/working-with-the-cloudstack-api/
     - /working-with-the-cloudstack-api/
-keywords:
+keywords: [cloudstack, cloudstack api]
 tags:
 ---
 

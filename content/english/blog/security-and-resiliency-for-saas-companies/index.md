@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2018/01/security-and-resiliency-for-saas-companies/
     - /security-and-resiliency-for-saas-companies/
-keywords:
+keywords: [saas security]
 tags:
 ---
 

@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2012/11/why-you-should-consider-commercially-supported-open-source/
     - /why-you-should-consider-commercially-supported-open-source/
-keywords:
+keywords: [commercial open source, proprietary open source, open sourcs vs commercial, open source vs proprietary]
 tags:
 ---
 

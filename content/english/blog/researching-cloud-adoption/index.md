@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2014/04/researching-cloud-adoption/
     - /researching-cloud-adoption/
-keywords:
+keywords: [cloud adoption survey]
 tags:
 ---
 

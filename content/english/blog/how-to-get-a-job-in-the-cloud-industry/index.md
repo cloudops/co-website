@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2013/02/how-to-get-a-job-in-the-cloud-industry/
     - /how-to-get-a-job-in-the-cloud-industry/
-keywords:
+keywords: [cloud careers, cloud industry job, cloud job, tech careers]
 tags:
 ---
 

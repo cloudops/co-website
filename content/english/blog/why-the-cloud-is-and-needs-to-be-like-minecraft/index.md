@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2013/03/why-the-cloud-is-and-needs-to-be-like-minecraft/
     - /why-the-cloud-is-and-needs-to-be-like-minecraft/
-keywords:
+keywords: [pierre-luc bisaillon, minecraft cloud]
 tags:
 ---
 

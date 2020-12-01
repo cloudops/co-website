@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2014/05/use-a-palo-alto-networks-firewall-with-cloudstack/
     - /use-a-palo-alto-networks-firewall-with-cloudstack/
-keywords:
+keywords: [palo alto, palo alto networks firewall, cloudstack security]
 tags:
 ---
 

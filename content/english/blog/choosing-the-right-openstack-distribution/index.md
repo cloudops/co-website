@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2016/09/choosing-the-right-openstack-distribution/
     - /choosing-the-right-openstack-distribution/
-keywords:
+keywords: [openstack distribution, openstack, redhat openstack, canonical openstack, mirantis openstack]
 tags:
 ---
 

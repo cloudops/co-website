@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2014/07/the-fight-is-over-and-saas-has-won/
     - /the-fight-is-over-and-saas-has-won/
-keywords:
+keywords: [saas, software as a service]
 tags:
 ---
 

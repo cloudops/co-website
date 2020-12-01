@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2013/01/thinking-about-web-application-firewalls/
     - /thinking-about-web-application-firewalls/
-keywords:
+keywords: [web application firewall, firewall security]
 tags:
 ---
 

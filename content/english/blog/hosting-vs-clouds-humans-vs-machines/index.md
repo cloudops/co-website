@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2015/04/hosting-vs-clouds-humans-vs-machines/
     - /hosting-vs-clouds-humans-vs-machines/
-keywords:
+keywords: [cloud vs hosting, benefits hosting]
 tags:
 ---
 

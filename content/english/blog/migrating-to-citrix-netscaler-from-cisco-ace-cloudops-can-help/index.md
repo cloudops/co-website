@@ -11,7 +11,7 @@ resources:
 class_name: "blog post"
 aliases:
     - /2012/10/migrating-to-citrix-netscaler-from-cisco-ace-cloudops-can-help/
-keywords:
+keywords: [citrix netscaler, cisco ace, load balancer migration]
 tags:
 ---
 

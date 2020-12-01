@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2014/05/cloudstack-4-3-api-visualization/
     - /cloudstack-4-3-api-visualization/
-keywords:
+keywords: [cloudstack 3.2, cloudstack api]
 tags:
 ---
 

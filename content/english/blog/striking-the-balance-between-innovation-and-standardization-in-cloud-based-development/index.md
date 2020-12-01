@@ -9,7 +9,7 @@ resources:
 class_name: "blog post"
 aliases:
     - /2012/10/striking-the-balance-between-innovation-and-standardization-in-cloud-based-development/
-keywords:
+keywords: [cloud-based innovation, cloud-based standardization, cloud computing, cloud development]
 tags:
 ---
 

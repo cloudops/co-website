@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2014/03/cloudstack-creating-advanced-networking-zone-using-api/
     - /cloudstack-creating-advanced-networking-zone-using-api/
-keywords:
+keywords: [cloudstack api, cloudstack networking, networking api]
 tags:
 ---
 

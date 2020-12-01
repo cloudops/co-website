@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2015/12/cloudops-manifesto/
     - /cloudops-manifesto/
-keywords:
+keywords: [xenserver, vdi per lun functionality]
 tags:
 ---
 

@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2015/07/cloudstack-vs-openstack-is-there-really-a-winner/
     - /cloudstack-vs-openstack-is-there-really-a-winner/
-keywords:
+keywords: [cloudstack, openstack, cloudstack vs openstack]
 tags:
 ---
 

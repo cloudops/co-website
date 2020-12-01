@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2013/02/why-private-cloud-matters/
     - /why-private-cloud-matters/
-keywords:
+keywords: [private cloud, private cloud vs public cloud, cloud capex, cloud opex, capex vs opex]
 tags:
 ---
 

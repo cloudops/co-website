@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2016/03/vdi-per-lun/
     - /vdi-per-lun/
-keywords:
+keywords: [xenserver, vdi per lun functionality]
 tags:
 ---
 

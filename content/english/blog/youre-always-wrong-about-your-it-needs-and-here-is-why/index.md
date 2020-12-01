@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2015/05/youre-always-wrong-about-your-it-needs-and-here-is-why/
     - youre-always-wrong-about-your-it-needs-and-here-is-why/
-keywords:
+keywords: [it needs, cloud computing]
 tags:
 ---
 

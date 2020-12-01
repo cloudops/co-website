@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases: 
     - /2013/02/cloudstack-vs-openstack-a-personal-experience/
     - /cloudstack-vs-openstack-a-personal-experience/
-keywords:
+keywords: [cloudstack, openstack, cloudstack vs. openstack, cloud building tool]
 tags:
 ---
 

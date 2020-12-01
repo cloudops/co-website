@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
   - /2014/03/install-apache-cloudstack-with-chef/
   - /install-apache-cloudstack-with-chef/
-keywords:
+keywords: [apache cloudstack, chef, cloudstack installation]
 tags:
 ---
 

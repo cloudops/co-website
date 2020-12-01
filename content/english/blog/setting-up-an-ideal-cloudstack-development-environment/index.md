@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2013/02/setting-up-an-ideal-cloudstack-development-environment/
     - /setting-up-an-ideal-cloudstack-development-environment/
-keywords:
+keywords: [cloudstack deployment environment, cloudstack deployment]
 tags:
 ---
 
