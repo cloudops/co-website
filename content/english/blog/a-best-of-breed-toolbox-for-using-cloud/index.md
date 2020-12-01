@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
   - /2019/10/a-best-of-breed-toolbox-for-using-cloud/
   - /a-best-of-breed-toolbox-for-using-cloud/
-keywords:
+keywords: [cloudops tools, cloud tools, cloud native tools, devops tools, cloudops partners]
 tags:
 ---
 

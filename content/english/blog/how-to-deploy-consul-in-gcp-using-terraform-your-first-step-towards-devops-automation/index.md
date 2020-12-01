@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2018/02/how-to-deploy-consul-in-gcp-using-terraform-your-first-step-towards-devops-automation/
     - /how-to-deploy-consul-in-gcp-using-terraform-your-first-step-towards-devops-automation/
-keywords:
+keywords: [infra as code, terraform, gcp]
 tags:
 ---
 

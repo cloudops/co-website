@@ -11,7 +11,7 @@ aliases:
   - /2019/05/the-cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration/
   - /the-cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration/
   - /cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration/
-keywords:
+keywords: [cloudops, cloud operations, cloudops delivery model]
 tags:
 ---
 

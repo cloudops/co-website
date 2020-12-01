@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases: 
   - /2019/02/driving-feature-velocity-through-cultural-change-why-devops-puts-mindset-before-technology/
   - /driving-feature-velocity-through-cultural-change-why-devops-puts-mindset-before-technology/
-keywords:
+keywords: [devops, devops culture, generative culture]
 tags:
 ---
 

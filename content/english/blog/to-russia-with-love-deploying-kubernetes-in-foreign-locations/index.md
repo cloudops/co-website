@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
   - /2019/03/to-russia-with-love-deploying-kubernetes-in-foreign-locations/
   - /to-russia-with-love-deploying-kubernetes-in-foreign-locations/
-keywords:
+keywords: [kubernetes, gcp, kubernetes migration]
 tags:
 ---
 

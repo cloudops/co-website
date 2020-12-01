@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
   - /2020/01/remote-sensing-data-pipelines-kubernetes-and-neural-networks-in-ecology/
   - /remote-sensing-data-pipelines-kubernetes-and-neural-networks-in-ecology/
-keywords:
+keywords: [kubernetes, data pipelines, neural networks, digital ecology]
 tags:
 ---
 

@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
   - /2019/08/life-at-cloudops/
   - /life-at-cloudops/
-keywords:
+keywords: [cloudops culture]
 tags:
 ---
 

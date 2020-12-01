@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2019/01/cncf-ambassador-spill-takeaways-from-kubecon-cloudnativecon/
     - /cncf-ambassador-spill-takeaways-from-kubecon-cloudnativecon/
-keywords:
+keywords: [cncf ambassador, cncf, kubecon, cloudnativecon]
 tags:
 ---
 

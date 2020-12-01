@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2018/05/overcoming-compliance-confusion-why-you-need-a-soc-2-foundation/
     - /overcoming-compliance-confusion-why-you-need-a-soc-2-foundation/
-keywords:
+keywords: [soc2, hipaa, pipeda, pci dss, gdpr, cloud regulations, cloud compliance]
 tags:
 ---
 

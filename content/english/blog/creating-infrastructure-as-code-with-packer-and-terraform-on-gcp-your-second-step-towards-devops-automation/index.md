@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2018/03/creating-infrastructure-as-code-with-packer-and-terraform-on-gcp-your-second-step-towards-devops-automation/
     - /creating-infrastructure-as-code-with-packer-and-terraform-on-gcp-your-second-step-towards-devops-automation/
-keywords:
+keywords: [infra as code, infrastructure as code, IaC, terraform, packer, automation, GCP]
 tags:
 ---
 

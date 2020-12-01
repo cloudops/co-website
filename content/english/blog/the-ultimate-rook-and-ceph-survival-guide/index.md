@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
   - /2019/05/the-ultimate-rook-and-ceph-survival-guide/
   - /the-ultimate-rook-and-ceph-survival-guide/
-keywords:
+keywords: [rook, ceph, cloud native storage]
 tags:
 ---
 

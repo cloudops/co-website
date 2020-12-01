@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2018/01/containerizing-onap-for-efficiency-why-bell-created-oom-using-kubernetes/
     - /containerizing-onap-for-efficiency-why-bell-created-oom-using-kubernetes/
-keywords:
+keywords: [onap, oom, kubernetes, bell onap]
 tags:
 ---
 

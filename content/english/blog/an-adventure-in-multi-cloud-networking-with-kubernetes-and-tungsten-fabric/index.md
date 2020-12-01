@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
   - /2019/04/an-adventure-in-multi-cloud-networking-with-kubernetes-and-tungsten-fabric/
   - /an-adventure-in-multi-cloud-networking-with-kubernetes-and-tungsten-fabric/
-keywords: 
+keywords: [kubernetes, tungsten fabric, kubernetes networking, multi-cloud networking]
 tags:
 ---
 

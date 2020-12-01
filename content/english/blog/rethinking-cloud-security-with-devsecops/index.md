@@ -11,7 +11,7 @@ class_name: "blog post"
 aliases:
   - /2019/07/rethinking-cloud-security-with-devsecops/
   - /rethinking-cloud-security-with-devsecops/
-keywords:
+keywords: [devsecops, cloud security, devops security, devsecops best practices]
 tags:
 ---
 

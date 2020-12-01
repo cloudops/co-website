@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
   - /2020/01/top-10-mistakes-to-avoid-when-adopting-devops/
   - /top-10-mistakes-to-avoid-when-adopting-devops/
-keywords:
+keywords: [devops mistakes, cloud mistakes, how to devops, devops challenges and solutions, devops model]
 tags:
 ---
 

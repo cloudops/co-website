@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
     - /2019/12/our-top-8-blog-posts-from-2019/
     - /our-top-8-blog-posts-from-2019/
-keywords:
+keywords: [blog posts 2019]
 tags:
 ---
 

@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2018/02/serverless-computing-hot-or-not-2/
     - /serverless-computing-hot-or-not/
-keywords:
+keywords: [serverless computing, donald donovan]
 tags:
 ---
 

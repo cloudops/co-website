@@ -9,7 +9,7 @@ resources:
 - name: "cover"
   src: "ContainerSecurity-cover.png"
 class_name: "blog post"
-keywords:
+keywords: [container security, cloud security, kubernetes security, security best practices, security tips and tricks]
 tags:
 ---
 

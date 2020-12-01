@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2019/01/why-i-joined-cloudops/
     - /why-i-joined-cloudops/
-keywords:
+keywords: [cloudops, maddison long, cloudops culture]
 tags:
 ---
 

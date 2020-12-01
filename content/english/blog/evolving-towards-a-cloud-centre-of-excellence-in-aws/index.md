@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
   - /2019/09/evolving-towards-a-cloud-centre-of-excellence-in-aws/
   - /evolving-towards-a-cloud-centre-of-excellence-in-aws/
-keywords:
+keywords: [aws, cloud centre of excellence, ccoe]
 tags:
 ---
 

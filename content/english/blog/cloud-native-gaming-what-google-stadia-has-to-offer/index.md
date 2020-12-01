@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
   - /2019/03/cloud-native-gaming-what-google-stadia-has-to-offer/
   - /cloud-native-gaming-what-google-stadia-has-to-offer/
-keywords:
+keywords: [google stadia, cloud native gaming, cloud gaming, virtual gaming, latency-free gaming]
 tags:
 ---
 

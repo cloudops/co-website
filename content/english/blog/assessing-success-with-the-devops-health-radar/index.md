@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
   - /2019/11/assessing-success-with-the-devops-health-radar/
   - /assessing-success-with-the-devops-health-radar/
-keywords:
+keywords: [devops health assessment, safe devops health radar, scaled agile]
 tags:
 ---
 

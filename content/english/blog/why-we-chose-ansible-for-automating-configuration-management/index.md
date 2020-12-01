@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2018/06/why-we-chose-ansible-for-automating-configuration-management/
     - /why-we-chose-ansible-for-automating-configuration-management/
-keywords:
+keywords: [ansible, configuration management]
 tags:
 ---
 

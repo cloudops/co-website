@@ -9,7 +9,7 @@ resources:
 - name: "cover"
   src: "Fireworks-cover.png"
 class_name: "blog post"
-keywords:
+keywords: [cloudops predictions, cloud predictions]
 tags:
 ---
 

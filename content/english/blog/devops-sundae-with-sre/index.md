@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
   - /2018/07/devops-sundae-with-sre/
   - /devops-sundae-with-sre/
-keywords:
+keywords: [sre, site reliability engineering, devops vs sre]
 tags:
 ---
 

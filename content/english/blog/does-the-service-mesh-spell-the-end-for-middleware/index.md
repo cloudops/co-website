@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
   - /2018/09/does-the-service-mesh-spell-the-end-for-middleware/
   - /does-the-service-mesh-spell-the-end-for-middleware/
-keywords:
+keywords: [service mesh, middleware]
 tags:
 ---
 

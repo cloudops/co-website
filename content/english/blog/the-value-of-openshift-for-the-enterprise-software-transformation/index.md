@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2018/04/the-value-of-openshift-for-the-enterprise-software-transformation/
     - /the-value-of-openshift-for-the-enterprise-software-transformation/
-keywords:
+keywords: [openshift, openshift enterprise, red hat openshift]
 tags:
 ---
 

@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
   - /2019/01/why-you-need-a-devops-transformation-to-survive/
   - /why-you-need-a-devops-transformation-to-survive/
-keywords:
+keywords: [devops, digital transformation, cloud, devops tools, devops platform]
 tags:
 ---
 

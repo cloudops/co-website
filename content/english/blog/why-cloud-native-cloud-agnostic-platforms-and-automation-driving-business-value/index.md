@@ -6,7 +6,7 @@ resources:
 - name: "thumbnail"
   src: "CloudNative-2.png"
 class_name: "blog post"
-keywords:
+keywords: [cloud native, what is cloud native]
 tags:
 ---
 

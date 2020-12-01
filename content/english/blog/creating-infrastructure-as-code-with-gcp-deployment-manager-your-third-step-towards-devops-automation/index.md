@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
   - /2018/07/creating-infrastructure-as-code-with-gcp-deployment-manager-your-third-step-towards-devops-automation/
   - /creating-infrastructure-as-code-with-gcp-deployment-manager-your-third-step-towards-devops-automation/
-keywords:
+keywords: [infra as code, iac, infrastructure as code, gcp deployment manager, gcp automation]
 tags:
 ---
 

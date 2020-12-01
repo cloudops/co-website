@@ -11,7 +11,7 @@ aliases:
   - /2018/10/the-beginners-guide-to-the-cncf-landscape/
   - /the-beginners-guide-to-the-cncf-landscape/
   - /beginners-guide-to-the-cncf-landscape/
-keywords:
+keywords: [cncf tools, cncf guide, cloud native tools, cloud native guide]
 tags:
 ---
 

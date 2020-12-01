@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
   - /2019/04/quiz-how-secure-are-your-containers-in-azure/
   - /quiz-how-secure-are-your-containers-in-azure/
-keywords:
+keywords: [aks, container security, azure security, kubernetes security]
 tags:
 ---
 

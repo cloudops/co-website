@@ -12,7 +12,7 @@ class_name: "blog post"
 aliases:
   - /2018/07/rancher-2-0-exciting-features/
   - /rancher-2-0-exciting-features/
-keywords:
+keywords: [rancher 2.0, rancher features]
 tags:
 ---
 

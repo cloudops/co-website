@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2018/06/what-does-gdpr-mean-for-your-cloud-application/
     - /what-does-gdpr-mean-for-your-cloud-application/
-keywords:
+keywords: [gdpr, gdpr cloud, gdpr compliance]
 tags:
 ---
 
