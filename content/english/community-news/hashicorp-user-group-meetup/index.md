@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2018/01/hashicorp-user-group-meetup-2/
     - /hashicorp-user-group-meetup/
-keywords:
+keywords: [hashicorp meetup, hashicorp meetup montreal]
 tags:
 ---
 

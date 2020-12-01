@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases: 
   - /2019/03/eastern-canadas-kubernetes-and-cloud-native-meetups-winter-edition/
   - /eastern-canadas-kubernetes-and-cloud-native-meetups-winter-edition/
-keywords:
+keywords: [cloud native meetup, kubernetes meetup, meetup canada, meetup montreal, aks, kubernetes]
 tags:
 ---
 

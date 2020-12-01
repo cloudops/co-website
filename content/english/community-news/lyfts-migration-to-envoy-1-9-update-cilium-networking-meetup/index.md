@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2018/02/lyfts-migration-to-envoy-1-9-update-cilium-networking-meetup/
     - /lyfts-migration-to-envoy-1-9-update-cilium-networking-meetup/
-keywords:
+keywords: [cloud native meetup, kubernetes meetup, cilium, kubernetes, envoy]
 tags:
 ---
 

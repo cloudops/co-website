@@ -9,7 +9,7 @@ class_name: "blog post"
 aliases:
   - /2018/10/devopsdays-montreal/
   - /devopsdays-montreal/
-keywords:
+keywords: [devopsdays montreal, devopsdays, kubernetes, devops meetup]
 tags:
 ---
 

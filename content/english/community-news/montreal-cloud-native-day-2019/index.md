@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2019/06/montreal-cloud-native-day-2019/
     - /montreal-cloud-native-day-2019/
-keywords:
+keywords: [montreal cloud native day 2019, cloud native day, eastern canada devops, kubernetes]
 tags:
 ---
 

@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
   - /2019/11/devopsdays-montreal-2019/
   - /devopsdays-montreal-2019/
-keywords:
+keywords: [devopsdays montreal, devopsdays, kubernetes, devops meetup]
 tags:
 ---
 

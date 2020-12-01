@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases: 
     - /2018/08/cloud-native-meetups-k8s-1-11/
     - /cloud-native-meetups-k8s-1-11/
-keywords:
+keywords: [cloud native meetup, kubernetes meetup, meetup canada, meetup montreal, aks, kubernetes]
 tags:
 ---
 

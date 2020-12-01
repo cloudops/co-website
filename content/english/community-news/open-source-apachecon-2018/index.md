@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2018/09/open-source-apachecon-2018/
     - /open-source-apachecon-2018/
-keywords:
+keywords: [apachecon 2018, cloudmc, open source]
 tags:
 ---
 

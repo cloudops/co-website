@@ -7,7 +7,7 @@ resources:
 - name: "thumbnail"
   src: "CNDSummary.png"
 class_name: "blog post"
-keywords:
+keywords: [cloud native day, kubernetes meetup, cloud native meetup, meetup canada, meetup montreal, kubernetes]
 tags:
 ---
 

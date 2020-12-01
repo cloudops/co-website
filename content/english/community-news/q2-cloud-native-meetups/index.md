@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
     - /2018/05/q2-cloud-native-meetups/
     - /q2-cloud-native-meetups/
-keywords:
+keywords: [cloud native meetup, kubernetes meetup, meetup canada, meetup montreal, rancher, kubernetes]
 tags:
 ---
 

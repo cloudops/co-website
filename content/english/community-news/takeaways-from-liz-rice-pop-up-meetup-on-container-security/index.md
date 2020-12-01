@@ -10,7 +10,7 @@ class_name: "blog post"
 aliases:
   - /2018/10/takeaways-from-liz-rice-pop-up-meetup-on-container-security/
   - /takeaways-from-liz-rice-pop-up-meetup-on-container-security/
-keywords:
+keywords: [liz rice, container security, liz rice meetup]
 tags:
 ---
 
