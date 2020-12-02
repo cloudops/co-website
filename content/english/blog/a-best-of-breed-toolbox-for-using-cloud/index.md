@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
   - /2019/10/a-best-of-breed-toolbox-for-using-cloud/
   - /a-best-of-breed-toolbox-for-using-cloud/
+keywords: [cloudops tools, cloud tools, cloud native tools, devops tools, cloudops partners]
+tags:
 ---
 
 <p>The number of tools in the cloud native landscape has exploded in the past few years, and it can be difficult to know which tool is right for which job. Cloud native technology stacks are comprised of several layers, each of which requires in-depth knowledge to optimize.</p>

@@ -4,4 +4,7 @@ ExternalLink: https://cdn2.hubspot.net/hubfs/732832/One-pagers/CloudCa_DataSheet
 resources:
 - name: "thumbnail"
   src: "cloudca.png"
+description:
+keywords:
+tags:
 ---

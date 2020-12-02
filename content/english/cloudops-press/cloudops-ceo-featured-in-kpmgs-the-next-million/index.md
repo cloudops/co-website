@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2015/11/cloudops-ceo-featured-in-kpmgs-the-next-million/
     - /cloudops-ceo-featured-in-kpmgs-the-next-million/
+keywords:
+tags:
 ---
 
 <p><span style="font-weight: 400;">CloudOps CEO, Ian Rae, was featured in KPMG Canada’s quarterly edition of </span><i><span style="font-weight: 400;">The Next Million</span></i><span style="font-weight: 400;">, a magazine about Canadian entrepreneurship. The issue’s theme is cloud computing and companies that have successfully leveraged the cloud to scale their software applications, e-commerce sites, and employee mobility. </span></p>

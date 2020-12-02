@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
   - /2019/12/what-we-promise-our-customers/
   - /what-we-promise-our-customers/
+keywords: [cloudops brand promises, cloudops]
+tags:
 ---
 
 <h4>Own your destiny in the cloud.</h4>

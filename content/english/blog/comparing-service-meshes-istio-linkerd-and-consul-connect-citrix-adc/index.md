@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
   - /2020/06/comparing-service-meshes-istio-linkerd-and-consul-connect-citrix-adc/
   - /comparing-service-meshes-istio-linkerd-and-consul-connect-citrix-adc/
+keywords: [service mesh, istio, linkerd, consul connect, citrix adc, service mesh comparisons]
+tags:
 ---
 
 <p>Microservices have made applications more scalable, portable, and resilient. They enforce volatile and ephemeral environments that allow accelerated software delivery pipelines.&nbsp;</p>

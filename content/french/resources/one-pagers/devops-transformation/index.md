@@ -5,4 +5,7 @@ resources:
 - name: "thumbnail"
   src: "devops-transformation.png"
 slug: "tranformation-devops"
+description:
+keywords:
+tags:
 ---

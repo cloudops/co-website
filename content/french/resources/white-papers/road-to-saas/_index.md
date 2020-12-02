@@ -5,6 +5,9 @@ resources:
 - name: "thumbnail"
   src: "road_to_saas.png"
 slug: "en-route-vers-le-saas"
+description:
+keywords:
+tags:
 ---
 
 

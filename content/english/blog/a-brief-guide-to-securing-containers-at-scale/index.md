@@ -9,6 +9,8 @@ resources:
 - name: "cover"
   src: "ContainerSecurity-cover.png"
 class_name: "blog post"
+keywords: [container security, cloud security, kubernetes security, security best practices, security tips and tricks]
+tags:
 ---
 
 <p>Containers have changed the way we run applications, providing means to greatly increase their speed, scalability, and efficiency. They are a form of operating system virtualization that is combined with application software packaging to create portable, reusable, and automatable ways of packaging and running applications. Ever since Kubernetes, the container orchestration system, was open sourced in 2015, the landscape of cloud native technologies has exploded alongside wide-ranging commercial adoption.</p>

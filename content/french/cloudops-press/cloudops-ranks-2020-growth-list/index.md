@@ -11,6 +11,9 @@ slug: /cloudops-se-classe-sur-la-growth-list-2020
 aliases:
     - /fr/2017/06/cloudops-palmares-branham300-deuxieme-annee-consecutive/
     - /fr/cloudops-palmares-branham300-deuxieme-annee-consecutive
+description:
+keywords:
+tags:
 ---
 
 <p><b>Montréal, Canada. (15 octobre 2020)<b> - CloudOps se classe 19 e sur la Growth List 2020. Canadian Business dévoile la liste annuelle des entreprises à plus forte croissance au Canada</p>

@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2018/06/cloudops-listed-in-the-branham300-in-2018/
     - /cloudops-listed-in-the-branham300-in-2018/
+keywords:
+tags:
 ---
 
 <p>CloudOps is pleased to be listed in the Branham300 Top 250 companies in 2018&nbsp;for the third consecutive year. CloudOps has been listed as the 197th company, up from last year. Consisting of Canada’s most profitable, public and private technology companies, the ranking is based on revenue. All Top 250 companies have demonstrated significant revenue growth in every year since 2009, and altogether they represent over half of the nation’s ICT (Information and Communications Technology) sector revenue.</p>

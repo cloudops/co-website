@@ -3,3 +3,12 @@
 
 - id: get-to-full-section
   translation: More like this
+
+- id: blog_multi-lang
+  translation: Blog
+
+- id: community-news_multi-lang
+  translation: Community News
+
+- id: cloudops-press_multi-lang
+  translation: CloudOps Press

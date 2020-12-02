@@ -9,6 +9,8 @@ resources:
 - name: "cover"
   src: "OpenSource-Cover.png"
 class_name: "blog post"
+keywords: [open source, cloudops, open source approach, open source definition, open source meaning]
+tags:
 ---
 
 This blog post was taken from Ian Rae’s talk at Cloud Native Day 2020, which can be viewed <a href="https://www.youtube.com/watch?v=X2WOkt6N8eE&list=PLCfLScXpEyAQ0k9pNr8SlGK42CSd-buYv&index=14" target="_blank">here</a>.

@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
   - /2017/05/cloudops-datera-apache-cloudstack-integration/
   - /cloudops-datera-apache-cloudstack-integration/
+keywords:
+tags:
 ---
 
 <div><h2>Software-Defined, Automated, Shared Storage Infrastructure Made Accessible to Open Source CloudStack Community<p></p></h2><h2></h2></div>

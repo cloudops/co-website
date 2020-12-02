@@ -8,6 +8,8 @@ resources:
 aliases:
     - /white-papers/new-architectures-in-a-cloudy-world/
     - /new-architectures-in-a-cloudy-world/
+keywords: [cloud architectures, cloud models]
+tags:
 ---
 
 

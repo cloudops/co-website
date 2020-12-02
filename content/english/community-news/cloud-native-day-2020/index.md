@@ -7,6 +7,8 @@ resources:
 - name: "thumbnail"
   src: "CNDSummary.png"
 class_name: "blog post"
+keywords: [cloud native day, kubernetes meetup, cloud native meetup, meetup canada, meetup montreal, kubernetes]
+tags:
 ---
 
 <p>The second edition of <a href="https://www.cloudnativeday.ca/">Cloud Native Day Montreal</a> took place virtually on June 9, 2020. CloudOps was excited to organize this event which brought together community members virtually in celebration of all things cloud native. This year, due to the pandemic, we made the best of an online format. Though not ideal in terms of engagement, we were happy to be interacting with everyone. The day-long event was jam-packed with talks that helped participants deepen their engagement with the fast-growing and complex cloud native landscape. The talks were just published <a href="https://www.youtube.com/playlist?list=PLCfLScXpEyAQ0k9pNr8SlGK42CSd-buYv" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">here</a> on CloudOps’ YouTube channel.</p>

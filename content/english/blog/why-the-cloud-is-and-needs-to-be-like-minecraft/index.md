@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2013/03/why-the-cloud-is-and-needs-to-be-like-minecraft/
     - /why-the-cloud-is-and-needs-to-be-like-minecraft/
+keywords: [pierre-luc bisaillon, minecraft cloud]
+tags:
 ---
 
 If you have a young kid (or are a kid at heart), Minecraft doesn’t need any introduction. At last count 10M people had bought the game and at least 5 times as many are playing the demo or some mobile version. For the uninitiated, this seems odd. The graphics are awful, and it’s not even a real “game” – in other words, there’s no mission or objective to achieve and “win”.

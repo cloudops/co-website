@@ -5,4 +5,7 @@ resources:
 - name: "thumbnail"
   src: "ixiasoft_square.png"
 slug: "plateforme-devops-conforme-au-soc2"
+description:
+keywords:
+tags:
 ---

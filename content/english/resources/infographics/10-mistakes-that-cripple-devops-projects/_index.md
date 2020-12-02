@@ -4,4 +4,7 @@ ExternalLink: https://f.hubspotusercontent30.net/hubfs/732832/Infographics/DevOp
 resources:
 - name: "thumbnail"
   src: "devops-mistakes.png"
+description:
+keywords:
+tags:
 ---

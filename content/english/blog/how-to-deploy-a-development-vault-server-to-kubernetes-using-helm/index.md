@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
     - /2018/03/how-to-deploy-a-development-vault-server-to-kubernetes-using-helm/
     - /how-to-deploy-a-development-vault-server-to-kubernetes-using-helm/
+keywords:
+tags:
 ---
 
 <h2>Your first step to securely store, access, and deploy sensitive application information</h2>

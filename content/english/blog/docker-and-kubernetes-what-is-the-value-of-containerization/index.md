@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
     - /2017/07/docker-and-kubernetes-what-is-the-value-of-containerization/
     - /docker-and-kubernetes-what-is-the-value-of-containerization/
+keywords: [value docker, value kubernetes, value containers, value containerization]
+tags:
 ---
 
 <p>In the last few years, containerization and microservices-based architecture took the DevOps community by storm. According to <a href="https://451research.com/images/Marketing/press_releases/Application-container-market-will-reach-2-7bn-in-2020_final_graphic.pdf" target="blank_"> 451 Research</a>, container technology such as Docker and Kubernetes will see the fastest growth compared to other cloud-enabling technologies, with an estimated CAGR of 40% through 2020 (see Figure 1). “Two things stand out from our market sizing and research on containers: the breadth and diversity of vendors basing their offerings on containers or integrating and partnering to better support containers in their products and the speed at which the container software and market are maturing based on production, use and revenue growth,” said Greg Zwakman, Vice President, Market and Competitive Intelligence at 451 Research.</p>

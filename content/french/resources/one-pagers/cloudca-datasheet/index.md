@@ -5,4 +5,7 @@ resources:
 - name: "thumbnail"
   src: "cloudca.png"
 slug: "fiche-informative-cloudca"
+description:
+keywords:
+tags:
 ---

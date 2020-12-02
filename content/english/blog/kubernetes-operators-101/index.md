@@ -9,6 +9,8 @@ resources:
 - name: "cover"
   src: "kubernetes-operators-101-cover.png"
 class_name: "blog post"
+keywords: [kubernetes operators, how to kubernetes, kubernetes 101, kubernetes guide, kubernetes]
+tags:
 ---
 
 Most applications will require resources from the environment they are running on. Memory, CPU, storage, networking, etc. Most of those resources may be consumed easily and transparently, some may not depending on the application. Most applications will require some previous configuration steps before being deployed and will require a few, or maybe a lot, of special maintenance tasks that may be related to backups, restores, file compression, high availability checks, log maintenance, database growth, and sanity routines, etc. They may need to be put into some special state while upgrading to make sure they won't drop the users for example.

@@ -10,7 +10,8 @@ class_name: "blog post"
 aliases: 
   - /2019/03/eastern-canadas-kubernetes-and-cloud-native-meetups-winter-edition/
   - /eastern-canadas-kubernetes-and-cloud-native-meetups-winter-edition/
-
+keywords: [cloud native meetup, kubernetes meetup, meetup canada, meetup montreal, aks, kubernetes]
+tags:
 ---
 
 <p>This year’s first set of Kubernetes and Cloud Native Meetups in Eastern Canada just took place from February 25<sup>th</sup> to March 6<sup>th</sup>, happening in Quebec City, Ottawa, Montreal, Kitchener-Waterloo, and Toronto. A wide array of topics were discussed, and CloudOps was excited to see such active participation from Eastern Canada’s cloud native communities.</p>

@@ -8,6 +8,8 @@ resources:
 - name: "cover"
   src: "Turkey Cover.png"
 class_name: "blog post"
+keywords:
+tags:
 ---
 
 <h2>These remain extraordinary times.</h2>

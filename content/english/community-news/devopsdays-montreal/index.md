@@ -9,6 +9,8 @@ class_name: "blog post"
 aliases:
   - /2018/10/devopsdays-montreal/
   - /devopsdays-montreal/
+keywords: [devopsdays montreal, devopsdays, kubernetes, devops meetup]
+tags:
 ---
 
 <p><span style="font-weight: 400;">CloudOps was pleased to sponsor <a href="https://www.devopsdays.org/" target="_blank" rel="noopener noreferrer">DevOpsDays</a> Montreal, which took place on October 10th and 11th. Featuring a wide range of speakers and activities, the event brought together DevOps practitioners throughout Montreal.</span></p>

@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2018/06/why-we-chose-ansible-for-automating-configuration-management/
     - /why-we-chose-ansible-for-automating-configuration-management/
+keywords: [ansible, configuration management]
+tags:
 ---
 
 <p><a href="https://www.ansible.com/" target="_blank">Ansible</a> is an open source tool for automating configuration management, deployment, and orchestration. It has an agentless approach that is designed to simplify the process of deploying VMs while allowing greater control over and agility in their configuration. While Ansible can be used to deploy and maintain standardized server configurations via templates (Ansible Playbooks), it can also be modified to apply custom configurations for individual machines to meet specific requirements. It is receptive to active configuration changes and uses standard SSH connectivity to execute automation workflows, reducing the management overhead and facilitating the integration of instances into a wide array of environments. Ansible can automate the deployment and configuration of ephemeral instances, and remove them when no longer needed. It can perform auto-scaling for modern, scale-out applications.</p>

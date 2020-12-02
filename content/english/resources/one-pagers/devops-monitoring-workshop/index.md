@@ -4,4 +4,7 @@ ExternalLink: https://cdn2.hubspot.net/hubfs/732832/One-pagers/CloudOps_1Pager_D
 resources:
 - name: "thumbnail"
   src: "devops-monitoring.png"
+description:
+keywords:
+tags:
 ---

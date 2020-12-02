@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
     - /2018/02/how-to-deploy-consul-in-gcp-using-terraform-your-first-step-towards-devops-automation/
     - /how-to-deploy-consul-in-gcp-using-terraform-your-first-step-towards-devops-automation/
+keywords: [infra as code, terraform, gcp]
+tags:
 ---
 
 <p>Infrastructure as Code (IaC) has gotten a lot of attention recently. It uses code to manage the configuration and automation of your application’s infrastructure in order to free up resources and reduce risk, technical debt, and mistakes. IaC is becoming more and more important for successful DevOps practices. As a cross-platform infrastructure tool, HashiCorp’s Terraform enables you to automate your infrastructure using the same tooling over multiple platforms. Ansible can be used to build and manage remote application configurations and VM installations on top of your Terraform infrastructure deployment.</p>

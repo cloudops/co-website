@@ -5,4 +5,7 @@ resources:
 - name: "thumbnail"
   src: "dppa.png"
 slug: "evaluation-de-plateforme-et-de-pratiques-devops"
+description:
+keywords:
+tags:
 ---

@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
   - /2019/09/evolving-towards-a-cloud-centre-of-excellence-in-aws/
   - /evolving-towards-a-cloud-centre-of-excellence-in-aws/
+keywords: [aws, cloud centre of excellence, ccoe]
+tags:
 ---
 
 <p>AWS came out with its first public cloud offering in 2006, bringing with it extensive debate on the benefits of cloud migration. Claims that migrating to the cloud would cut costs and provide the ability to efficiently respond to demand fluctuations led to many organizations migrating into the cloud, most lifting and shifting their legacy infrastructures into AWS.</p>

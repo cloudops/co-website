@@ -9,6 +9,9 @@ resources:
   src: "Skyscrapers.png"
 class_name: "blog post"
 aliases:
+description:
+keywords:
+tags:
 ---
 
 <p>De plus en plus d’organisations de services financiers se tournent vers les nuages et optent pour des infrastructures en nuage natif. Un récent <a href="https://www.mordorintelligence.com/industry-reports/finance-cloud-market">rapport</a> (en anglais seulement) révèle que le marché mondial infonuagique dans le domaine des finances pourrait atteindre une valeur de 80,53 milliards $ d’ici 2025, avec un taux de croissance composé de 23,79 % pour la période projetée de 2020 à 2025. Tandis que l’infonuagique était, pendant de nombreuses années, une stratégie perçue trop risquée par les banques, des facteurs favorisent maintenant son adoption à une vitesse accélérée.</p>

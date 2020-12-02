@@ -8,6 +8,8 @@ resources:
 aliases:
     - /white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/
     - /how-to-initiate-devops-transformation-by-assessing-culture-and-processes/
+keywords: [devops adoption framework]
+tags:
 ---
 
 

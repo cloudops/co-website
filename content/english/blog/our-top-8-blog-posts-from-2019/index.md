@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
     - /2019/12/our-top-8-blog-posts-from-2019/
     - /our-top-8-blog-posts-from-2019/
+keywords: [blog posts 2019]
+tags:
 ---
 
 <p>As 2019 comes to a close, here are our top 8 blog posts from the year. We hope they’ll give you a glimpse into the state of the information technology industry and its future.&nbsp;</p>

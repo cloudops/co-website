@@ -9,6 +9,8 @@ aliases:
     - /white-papers/road-to-saas/
     - /road-to-saas/
     - /the-road-to-saas/
+keywords: [SaaS architecture, on-demand software, SaaS model]
+tags:
 ---
 
 

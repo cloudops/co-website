@@ -8,6 +8,8 @@ resources:
 - name: "cover"
   src: "Multicloud-Cover.png"
 class_name: "blog post"
+keywords:
+tags:
 ---
 
 <p>The IT industry is in a state of deep confusion when it comes to multi-cloud. Against pushback from cloud vendors who sought to monopolize the industry, most large organizations are now willfully pursuing multi-cloud approaches. In a recent <a href="https://info.flexera.com/SLO-CM-REPORT-State-of-the-Cloud-2020">report</a>, 93% of enterprise respondents reported having multi-cloud strategies. Multi-cloud is no longer a strategy, it’s the reality.</p>

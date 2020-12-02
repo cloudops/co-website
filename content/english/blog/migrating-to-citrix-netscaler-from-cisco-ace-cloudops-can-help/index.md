@@ -11,6 +11,8 @@ resources:
 class_name: "blog post"
 aliases:
     - /2012/10/migrating-to-citrix-netscaler-from-cisco-ace-cloudops-can-help/
+keywords: [citrix netscaler, cisco ace, load balancer migration]
+tags:
 ---
 
 <p>This month, Cisco announced via a press release that it will recommend and integrate Citrix Systems’ NetScaler application delivery controller. The move follows an earlier announcement by Cisco that it was scaling down work on the company’s ACE load balancer. The partnership with Citrix, which will see Cisco actively recommend Citrix NetScaler to its customers is a move to close the gap, and provide Cisco ACE users with a solid future path and a Cisco-approved migration option. It’s estimated today that somewhere between 15 and 20% of the market currently rely on Cisco ACE. Given this news, ACE customers will be actively looking at their options. The partnership announcement extended to Cisco supporting CloudStack and CloudPlatform integrations with the Cisco UCS and Nexus products.</p>

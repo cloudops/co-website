@@ -4,4 +4,7 @@ ExternalLink: https://f.hubspotusercontent30.net/hubfs/732832/Infographics/Infog
 resources:
 - name: "thumbnail"
   src: "k8s-distributions.png"
+description:
+keywords:
+tags:
 ---

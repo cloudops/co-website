@@ -13,6 +13,8 @@ aliases:
     - /2013/03/a-cloudops-story/
     - /a-cloudops-story/
     - /cloudops-story/
+keywords: [cloudops, cloud operations, cloudops story]
+tags:
 ---
 
 

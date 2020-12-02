@@ -11,6 +11,8 @@ class_name: "blog post"
 aliases:
     - /2014/07/how-saasy-is-your-organization/
     - /how-saasy-is-your-organization/
+keywords:
+tags:
 ---
 
 <p></p>

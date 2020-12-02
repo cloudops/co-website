@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
     - /2020/06/navigating-the-cloud-native-landscape-with-cloudops/
     - /navigating-the-cloud-native-landscape-with-cloudops/
+keywords: [cloudops, cloud native landscape, open source landscape, open source, cloud computing landscape, cloudverse]
+tags:
 ---
 
 <p>To thrive in today’s digital age, organizations must design and implement adaptable technology stacks that provide their business with agility. Infrastructures and application platforms that auto-provision, scale, and heal are a key part of this, and they require the right tools and processes to do so.</p>

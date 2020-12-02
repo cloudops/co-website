@@ -5,4 +5,7 @@ resources:
 - name: "thumbnail"
   src: "azure.png"
 slug: "migration-vers-le-nuage-azure"
+description:
+keywords:
+tags:
 ---

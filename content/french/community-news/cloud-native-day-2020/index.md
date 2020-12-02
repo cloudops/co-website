@@ -10,6 +10,9 @@ slug: /journee-cloud-native-2020
 aliases:
     - /fr/2020/07/journee-cloud-native-2020/
     - /fr/journee-cloud-native-2020
+description:
+keywords:
+tags:
 ---
 
 <p>La deuxième édition de la Journée Cloud Native Montréal s’est tenue de façon virtuelle le 9&nbsp;juin dernier. CloudOps fut enchantée d’organiser cet événement qui rassemblait de façon virtuelle les membres de la communauté pour célébrer l’univers Cloud Native. Cette année, à cause de la pandémie, nous avons dû nous satisfaire d’une version virtuelle. Même si ce ne fut pas idéal sur le plan relationnel, ce fut très agréable d’interagir avec tout le monde. L’événement d’une journée fut rempli de conférences qui ont su aider les participants à renforcer leur implication dans le paysage Cloud Native, univers à la fois complexe et en croissance. Les conférences viennent d’être versées <a href="https://www.youtube.com/playlist?list=PLCfLScXpEyAQ0k9pNr8SlGK42CSd-buYv">ici</a> sur la chaîne YouTube de CloudOps.</p>

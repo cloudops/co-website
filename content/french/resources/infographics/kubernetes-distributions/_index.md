@@ -5,4 +5,7 @@ resources:
 - name: "thumbnail"
   src: "k8s-distributions.png"
 slug: "distribution-kubernetes"
+description:
+keywords:
+tags:
 ---

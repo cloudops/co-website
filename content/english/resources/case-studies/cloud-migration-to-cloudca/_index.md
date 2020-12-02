@@ -4,4 +4,7 @@ ExternalLink: https://cdn2.hubspot.net/hubfs/732832/CloudOps_CS_Cloud%20Migratio
 resources:
 - name: "thumbnail"
   src: "insurance-insight.jpg"
+description:
+keywords:
+tags:
 ---

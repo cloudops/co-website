@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2013/02/setting-up-an-ideal-cloudstack-development-environment/
     - /setting-up-an-ideal-cloudstack-development-environment/
+keywords: [cloudstack deployment environment, cloudstack deployment]
+tags:
 ---
 
 <p>In this, my first article, I answer a question that I often get asked: How do I set up and prepare my development environment for CloudStack? True, there are many articles and wiki pages available on this subject, but here is my method.</p>

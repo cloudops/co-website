@@ -5,6 +5,9 @@ resources:
 - name: "thumbnail"
   src: "healthcare_isv.png"
 slug: "comment-les-consultants-en-infonuagique-sauvent-le-domaine-des-soins-de-sante-des-violations-de-donnees-couteuses"
+description:
+keywords:
+tags:
 ---
 
 

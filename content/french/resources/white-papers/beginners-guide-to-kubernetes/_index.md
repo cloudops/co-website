@@ -5,6 +5,9 @@ resources:
 - name: "thumbnail"
   src: "Beginners_guide_K8s.png"
 slug: "guide-du-debutant-kubernetes"
+description:
+keywords:
+tags:
 ---
 
 

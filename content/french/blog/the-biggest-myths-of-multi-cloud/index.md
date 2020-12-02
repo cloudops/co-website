@@ -9,6 +9,9 @@ resources:
   src: "Multicloud-Cover.png"
 class_name: "blog post"
 slug: "les-plus-grands-mythes-sur-les-multinuages"
+description:
+keywords:
+tags:
 ---
 
 <p>L’industrie des TI est dans un état de profonde confusion en matière de multinuages. En dépit des fournisseurs d’infonuagique qui ont cherché à monopoliser l’industrie, la plupart des grandes organisations adoptent maintenant volontairement des approches multinuages. Dans un récent <a href="https://info.flexera.com/SLO-CM-REPORT-State-of-the-Cloud-2020">rapport</a>, 93 % des entreprises répondantes ont déclaré avoir opté pour des stratégies multinuages. En fait, le concept de multinuages n’est plus une stratégie, il est une réalité.</p>

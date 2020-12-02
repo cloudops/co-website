@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases: 
   - /2019/06/eastern-canadas-kubernetes-and-cloud-native-meetups-spring-edition-2019/
   - /eastern-canadas-kubernetes-and-cloud-native-meetups-spring-edition-2019/
+keywords: [cloud native meetup, kubernetes meetup, meetup canada, meetup montreal, kubernetes]
+tags:
 ---
 
 <p>With summer right around the corner, CloudOps held a series of Kubernetes and Cloud Native meetups in Montreal, Kitchener-Waterloo, Ottawa, Toronto, and Quebec City. In the wake of KubeCon in Barcelona, updates on the Kubernetes and cloud native ecosystem were given by Ayrat Khayretdinov, our very own CNCF ambassador.</p>

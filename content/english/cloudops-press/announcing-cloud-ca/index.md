@@ -10,7 +10,8 @@ class_name: "blog post"
 aliases:
     - /2014/05/announcing-cloud-ca/
     - /announcing-cloud-ca/
-
+keywords:
+tags:
 ---
 
 <p dir="ltr">We’ve spent much of the past few years helping to design and deploy both private and public clouds internationally, largely atop the Citrix CloudPlatform architecture and the most operationally mature open source technologies available from the CloudStack and OpenStack projects. With this experience under our belts, we’re taking the cover off something significant: our own secure multi-tenant cloud.</p>

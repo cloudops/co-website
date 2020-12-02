@@ -8,7 +8,8 @@ resources:
 - name: "cover"
   src: "Skyscrapers.png"
 class_name: "blog post"
-aliases:
+keywords:
+tags:
 ---
 
 <p>More and more financial services organizations are migrating into the cloud and adopting cloud native frameworks. A recent <a href="https://www.mordorintelligence.com/industry-reports/finance-cloud-market">report</a> found the global finance cloud market is expecting to grow to a value of $80.53 billion by 2025, with a CAGR of 23.79% over the forecast period of 2020-2025. While the cloud was, for many years, a move perceived by banks as too risky, a number of factors are driving its adoption at an accelerating rate.</p>

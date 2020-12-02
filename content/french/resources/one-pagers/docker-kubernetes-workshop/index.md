@@ -5,4 +5,7 @@ resources:
 - name: "thumbnail"
   src: "kubernetes.png"
 slug: "atelier-docker-kubernetes"
+description:
+keywords:
+tags:
 ---

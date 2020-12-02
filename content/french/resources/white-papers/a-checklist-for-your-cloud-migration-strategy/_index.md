@@ -5,6 +5,9 @@ resources:
 - name: "thumbnail"
   src: "cloudmigration.png"
   slug: "petite-liste-de-verification-utile-avant-la-migration-vers-le-nuage"
+description:
+keywords:
+tags:
 ---
 
 

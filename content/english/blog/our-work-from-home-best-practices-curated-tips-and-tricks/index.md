@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
     - /2020/05/our-work-from-home-best-practices-curated-tips-and-tricks/
     - /our-work-from-home-best-practices-curated-tips-and-tricks/
+keywords: [wfh tips and tricks, work from home best practices, wfh best practices, work from home tips and tricks]
+tags:
 ---
 
 <p>Earlier this year, I moved from leading the marketing group to HR. While I am still happily driving CloudOps’ community participation, I am now also responsible for ongoing learning for our teams. My very first training mission was to research, curate, and present best practices for working from home (including practical and wellness tips on how to optimize remote work pandemic or not) from the plethora of articles that exist on the subject. I am summarizing the presentation here for all of you – hopefully, you will find something inspiring.</p><p>The session ultimately centred around five key areas:</p>

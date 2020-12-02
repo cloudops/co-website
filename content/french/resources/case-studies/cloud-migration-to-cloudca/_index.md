@@ -5,4 +5,7 @@ resources:
 - name: "thumbnail"
   src: "insurance-insight.jpg"
 slug: "migration-vers-le-nuage-cloudca"
+description:
+keywords:
+tags:
 ---

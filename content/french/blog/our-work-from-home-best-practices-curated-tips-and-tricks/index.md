@@ -12,6 +12,9 @@ slug: /nos-bonnes-pratiques-de-teletravail
 aliases:
     - /2020/05/our-work-from-home-best-practices-curated-tips-and-tricks/
     - /our-work-from-home-best-practices-curated-tips-and-tricks/
+description:
+keywords:
+tags:
 ---
 
 <p>Plus tôt cette année, je suis passée de la direction du groupe marketing aux ressources humaines. Bien que je continue de diriger avec plaisir la participation à la communauté CloudOps, je suis désormais également responsable de la formation continue de nos équipes. Ma toute première mission de formation a été de rechercher, d’organiser et de présenter les bonnes pratiques de télétravail (y compris des conseils pratiques et de bien-être sur la façon d'optimiser le télétravail, avec ou sans pandémie) à partir de la pléthore d'articles qui existent sur le sujet. Je résume cette présentation ici pour vous tous; j'espère que vous y trouverez quelque chose d'inspirant.</p>

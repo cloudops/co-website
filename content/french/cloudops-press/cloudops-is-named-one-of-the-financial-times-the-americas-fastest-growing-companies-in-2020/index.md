@@ -10,6 +10,9 @@ slug: /cloudops-a-ete-reconnue-par-the-financial-times-comme-lune-des-entreprise
 aliases:
     - /fr/2020/04/cloudops-a-ete-reconnue-par-the-financial-times-comme-lune-des-entreprises-damerique-en-croissance-des-plus-rapides-de-2020/
     - /fr/cloudops-a-ete-reconnue-par-the-financial-times-comme-lune-des-entreprises-damerique-en-croissance-des-plus-rapides-de-2020
+description:
+keywords:
+tags:
 ---
 
 <p>Montréal, Québec, le 8&nbsp;avril 2020 — CloudOps est reconnue par le The Financial Times et se retrouve sur leur liste inaugurale des entreprises d’Amérique en croissance des plus rapides de 2020 (The Americas’ Fastest Growing Companies 2020). Ce prix prestigieux est présenté par The Financial Times et Statista Inc., portail chef de file mondial offrant des statistiques et des classements industriels.</p><p>Le classement « FT The Americas’ Fastest Growing Companies » est composé d’entreprises qui ont le plus fortement contribué à la croissance économique. 500 entreprises figurent sur la liste qui a été annoncée en ligne le 6&nbsp;avril 2020 et qui peut être visualisée <a href="https://www.ft.com/content/b0a5e02e-7412-11ea-ad98-044200cb277f">sur le site du Financial Times</a>.&nbsp;</p>

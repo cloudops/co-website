@@ -6,6 +6,8 @@ resources:
 - name: "thumbnail"
   src: "CloudNative-2.png"
 class_name: "blog post"
+keywords: [cloud native, what is cloud native]
+tags:
 ---
 
 <p><i>As the benefits of the cloud become increasingly evident, more and more organizations are migrating their workloads. Yet taking full advantage of what the cloud has to offer can require altering your application to make it cloud native.</i></p>

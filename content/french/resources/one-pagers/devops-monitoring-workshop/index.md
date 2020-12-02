@@ -5,4 +5,7 @@ resources:
 - name: "thumbnail"
   src: "devops-monitoring.png"
 slug: "atelier-devops"
+description:
+keywords:
+tags:
 ---

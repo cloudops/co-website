@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
     - /2020/06/is-the-cloud-causing-climate-change/
     - /is-the-cloud-causing-climate-change/
+keywords: [cloud and climate change, cloud environmental impact, cloud computing sustainability, cloud corporate responsibility, environmental benefits cloud computing]
+tags:
 ---
 
 

@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases:
   - /2019/10/everything-you-need-to-know-about-bizdevops/
   - /everything-you-need-to-know-about-bizdevops/
+keywords: [bizdevops, devops, business agility, bizdevops 101]
+tags:
 ---
 
 <p>It’s proven that DevOps increases the ability of an organization to deliver services at high velocity.</p>

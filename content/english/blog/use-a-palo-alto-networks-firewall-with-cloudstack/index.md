@@ -10,6 +10,8 @@ class_name: "blog post"
 aliases:
     - /2014/05/use-a-palo-alto-networks-firewall-with-cloudstack/
     - /use-a-palo-alto-networks-firewall-with-cloudstack/
+keywords: [palo alto, palo alto networks firewall, cloudstack security]
+tags:
 ---
 
 <p>Today we added a setup guide to the official Apache CloudStack documentation for the new features we developed to integrate the Palo Alto Networks firewall into CloudStack as a service provider.</p>

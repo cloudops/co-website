@@ -1736,7 +1736,9 @@ form option {
     padding-bottom: 50px; }
   .workshops .contact-us-card .without-yellow-line {
     padding-right: 0;
-    padding-top: 50px; } }
+    padding-top: 50px; }
+  .workshops .case-studies-card .client-photo {
+    top: -120px; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .workshops
@@ -1752,14 +1754,18 @@ form option {
     padding-bottom: 50px; }
   .workshops .contact-us-card .without-yellow-line {
     padding-right: 0;
-    padding-top: 50px; } }
+    padding-top: 50px; }
+  .workshops .case-studies-card .client-photo {
+    top: -120px; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .workshops
 .jumbotron.hero img {
     left: 30px;
     top: -100px;
-    width: 400px; } }
+    width: 400px; }
+  .workshops .case-studies-card .client-photo {
+    top: -120px; } }
 
 @media (min-width: 1200px) {
   .workshops .hero-image-container {
@@ -1767,7 +1773,9 @@ form option {
   .workshops
 .jumbotron.hero img {
     left: 30px;
-    top: -200px; } }
+    top: -200px; }
+  .workshops .case-studies-card .client-photo {
+    top: -120px; } }
 
 /************  Solutions page  ***************/
 .solutions

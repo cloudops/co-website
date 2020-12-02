@@ -12,6 +12,8 @@ class_name: "blog post"
 aliases: 
     - /2018/09/podcast-cloud-innovation-and-updates-from-google-next-2018/
     - /podcast-cloud-innovation-and-updates-from-google-next-2018/
+keywords: [google next 2018, ian rae]
+tags:
 ---
 
 <p><strong><i>Ian Rae, CloudOps’ CEO and founder,&nbsp;discussed&nbsp;cloud innovation with&nbsp;Rob Hirschfeld on the most recent episode of ‘<a href="https://soundcloud.com/user-410091210" target="_blank">L8ist Sh9y Podcast</a>’.</i></strong></p>
