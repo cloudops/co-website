@@ -4,7 +4,9 @@ date: "2020-03-27"
 author: "Ariel Zolezzi"
 resources:
 - name: "thumbnail"
-  src: "RemoteWork.png"
+  src: "RemoteWorkThumbnail.png"
+- name: "cover"
+  src: "RemoteWorkCover.png"
 class_name: "blog post"
 slug: /le-teletravail-une-belle-facon-de-soutenir-vos-employes
 aliases:

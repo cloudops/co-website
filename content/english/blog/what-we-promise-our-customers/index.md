@@ -5,7 +5,9 @@ author: "CloudOps"
 description: Our mission statement is to help customers own their destinies in the cloud. There are 4 key promises we make along the way.
 resources:
 - name: "thumbnail"
-  src: "Promises.png"
+  src: "PromiseThumbnail.png"
+- name: "cover"
+  src: "PromiseCover.png"
 class_name: "blog post"
 aliases:
   - /2019/12/what-we-promise-our-customers/

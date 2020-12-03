@@ -5,7 +5,9 @@ author: "CloudOps"
 description: As we step into the new decade, Ian Rae predicts how technology and the cloud computing industry will evolve.
 resources:
 - name: "thumbnail"
-  src: "MagicDove.jpg"
+  src: "MagicianThumbnail.png"
+- name: "cover"
+  src: "MagicianCover.png"
 class_name: "blog post"
 aliases:
   - /2020/02/welcome-to-2020/

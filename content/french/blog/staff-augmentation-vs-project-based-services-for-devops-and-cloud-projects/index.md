@@ -4,7 +4,9 @@ date: "2020-02-25"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Project-Based-Services.png"
+  src: "ProjectThumbnail.png"
+- name: "cover"
+  src: "ProjectCover.png"
 class_name: "blog post"
 slug: /projets-devops-et-infonuagiques-le-personnel-dappoint-ou-les-services-par-projets
 aliases:

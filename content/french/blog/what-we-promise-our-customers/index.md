@@ -4,7 +4,9 @@ date: "2019-12-02"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Promises.png"
+  src: "PromiseThumbnail.png"
+- name: "cover"
+  src: "PromiseCover.png"
 class_name: "blog post"
 slug: /nos-promesses-envers-notre-clientele
 aliases:

@@ -5,7 +5,9 @@ author: "CloudOps"
 description: It’s 2020, and DevOps is a requirement. When adopting DevOps, make sure your organization isn’t making one of these common mistakes.
 resources:
 - name: "thumbnail"
-  src: "WrongWay.png"
+  src: "MistakeThumbnail.png"
+- name: "cover"
+  src: "MistakeCover.png"
 class_name: "blog post"
 aliases:
   - /2020/01/top-10-mistakes-to-avoid-when-adopting-devops/

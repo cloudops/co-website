@@ -4,7 +4,9 @@ date: "2020-01-27"
 author: "Tristan Kosciuch"
 resources:
 - name: "thumbnail"
-  src: "Blog98.png"
+  src: "EcologyThumbnail.png"
+- name: "cover"
+  src: "EcologyCover.png"
 class_name: "blog post"
 slug: /teledetection-pipelines-de-donnees-kubernetes-et-reseaux-neuronaux-dans-le-domaine-de-lecologie
 aliases:

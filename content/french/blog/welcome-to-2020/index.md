@@ -4,7 +4,9 @@ date: "2020-02-12"
 author: "Ian Rae"
 resources:
 - name: "thumbnail"
-  src: "MagicDove.jpg"
+  src: "MagicianThumbnail.png"
+- name: "cover"
+  src: "MagicianCover.png"
 class_name: "blog post"
 slug: /bienvenue-en-2020
 aliases:

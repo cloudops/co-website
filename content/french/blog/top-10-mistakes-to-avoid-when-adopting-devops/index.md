@@ -4,7 +4,9 @@ date: "2020-01-13"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "WrongWay.png"
+  src: "MistakeThumbnail.png"
+- name: "cover"
+  src: "MistakeCover.png"
 class_name: "blog post"
 slug: /les-10-principales-erreurs-a-eviter-lors-de-ladoption-du-devops
 aliases:

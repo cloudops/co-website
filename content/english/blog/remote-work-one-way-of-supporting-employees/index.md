@@ -5,9 +5,9 @@ author: "Ariel Zolezzi"
 description: We rally around in support of one another in times of crisis and we can speak freely if we have concerns.
 resources:
 - name: "thumbnail"
-  src: "RemoteWork.png"
+  src: "RemoteWorkThumbnail.png"
 - name: "cover"
-  src: "RemoteWork-cover.png"
+  src: "RemoteWorkCover.png"
 class_name: "blog post"
 aliases:
     - /2020/03/remote-work-one-way-of-supporting-employees/
