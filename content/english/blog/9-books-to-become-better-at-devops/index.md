@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Our team of teams compiled their favourite books on DevOps for both beginners and advanced practitioners.
 resources:
 - name: "thumbnail"
-  src: "bookblogpost.jpg"
+  src: "BooksThumbnail.png"
 - name: "cover"
-  src: "bookblogpost-cover.jpg"
+  src: "BooksCover.png"
 class_name: "blog post"
 aliases:
   - /2019/09/9-books-to-become-better-at-devops/

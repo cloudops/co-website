@@ -4,7 +4,9 @@ date: "2019-11-18"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Radar.jpg"
+  src: "AssessThumbnail.png"
+- name: "cover"
+  src: "AssessCover.png"
 class_name: "blog post"
 slug: /evaluation-du-succes-avec-le-radar-de-la-sante-devops
 aliases:

@@ -5,9 +5,9 @@ author: "CloudOps"
 description: 2018 is coming to a close, and we’ve curated our best blog posts from the year.
 resources:
 - name: "thumbnail"
-  src: "TopBlogPostsfrom2019.png"
+  src: "FireworksThumbnail.png"
 - name: "cover"
-  src: "TopBlogPostsfrom2019-cover.png"
+  src: "FireworksCover.png"
 class_name: "blog post"
 aliases:
     - /2019/12/our-top-8-blog-posts-from-2019/

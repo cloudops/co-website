@@ -5,7 +5,9 @@ author: "CloudOps"
 description: Staff augmentation vs. consulting services vs. managed services. Which delivery model is best for your cloud and DevOps project?
 resources:
 - name: "thumbnail"
-  src: "Project-Based-Services.png"
+  src: "ProjectThumbnail.png"
+- name: "cover"
+  src: "ProjectCover.png"
 class_name: "blog post"
 aliases:
   - /2020/02/staff-augmentation-vs-project-based-services-for-devops-and-cloud-projects/

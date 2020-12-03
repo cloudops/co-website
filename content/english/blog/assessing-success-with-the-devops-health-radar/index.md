@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Crawling like a snail or flying like a unicorn through your software release cycles? Assess your agility with the DevOps Health Radar.
 resources:
 - name: "thumbnail"
-  src: "Radar.jpg"
+  src: "AssessThumbnail.png"
 - name: "cover"
-  src: "Radar-cover.jpg"
+  src: "AssessCover.png"
 class_name: "blog post"
 aliases:
   - /2019/11/assessing-success-with-the-devops-health-radar/

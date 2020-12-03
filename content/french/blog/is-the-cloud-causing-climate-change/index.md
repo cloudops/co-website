@@ -4,7 +4,9 @@ date: "2020-06-04"
 author: "Tristan Kosciuch"
 resources:
 - name: "thumbnail"
-  src: "ClimateChange.jpg"
+  src: "ClimateChangeThumbnail.png"
+- name: "cover"
+  src: "ClimateChangeCover.png"
 class_name: "blog post"
 slug: /le-nuage-cause-t-il-des-changements-climatiques
 aliases:
