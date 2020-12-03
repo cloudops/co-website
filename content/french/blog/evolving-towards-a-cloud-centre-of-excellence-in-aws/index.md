@@ -4,7 +4,9 @@ date: "2019-09-11"
 author: "Katharine Mikula"
 resources:
 - name: "thumbnail"
-  src: "FiveStarRating.png"
+  src: "ExcellenceThumbnail.png"
+- name: "cover"
+  src: "ExcellenceCover.png"
 class_name: "blog post"
 slug: /evolution-vers-un-centre-infonuagique-dexcellence-dans-aws
 aliases:

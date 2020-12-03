@@ -4,7 +4,9 @@ date: "2019-10-31"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Toolbox-Blog.jpg"
+  src: "ToolboxThumbnail.png"
+- name: "cover"
+  src: "ToolboxCover.png"
 class_name: "blog post"
 slug: /notre-coffre-a-outils-des-meilleurs-outils-infonuagiques-de-chaque-categorie
 aliases:

@@ -4,7 +4,9 @@ date: "2019-10-08"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "BizDevOps.jpg"
+  src: "LightbulbThumbnail.png"
+- name: "cover"
+  src: "LightbulbCover.png"
 class_name: "blog post"
 slug: /tout-ce-que-vous-devez-savoir-sur-le-bizdevops
 aliases:

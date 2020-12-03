@@ -5,9 +5,9 @@ author: "CloudOps"
 description: BizDevOps tools and practices promote agility by integrating business KPIs into software release cycles.
 resources:
 - name: "thumbnail"
-  src: "BizDevOps.jpg"
+  src: "LightbulbThumbnail.png"
 - name: "cover"
-  src: "BizDevOps-cover.jpg"
+  src: "LightbulbCover.png"
 class_name: "blog post"
 aliases:
   - /2019/10/everything-you-need-to-know-about-bizdevops/

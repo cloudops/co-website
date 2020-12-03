@@ -4,12 +4,10 @@ date: "2020-10-09"
 author: "Ian Rae"
 resources:
 - name: "thumbnail"
-  src: "Turkey Thumbnail.png"
+  src: "Turkey-Thumbnail.png"
 - name: "cover"
-  src: "Turkey Cover.png"
+  src: "Turkey-Cover.png"
 class_name: "blog post"
-keywords:
-tags:
 ---
 
 <h2>These remain extraordinary times.</h2>

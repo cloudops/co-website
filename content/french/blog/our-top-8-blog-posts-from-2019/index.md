@@ -4,7 +4,9 @@ date: "2019-12-18"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "TopBlogPostsfrom2019.png"
+  src: "FireworksThumbnail.png"
+- name: "cover"
+  src: "FireworksCover.png"
 class_name: "blog post"
 slug: /nos-8-meilleurs-articles-de-lannee
 aliases:

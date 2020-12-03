@@ -12,6 +12,8 @@ resources:
 class_name: "blog post"
 aliases:
   - /accelerating-digital-transformation-software-delivery-automation
+keywords: [sda, software delivery automation, sunil mavadia, cloudbees]
+tags:
 ---
 
 
@@ -24,6 +26,8 @@ aliases:
 <p>Improving a business’s operational excellence means improving its software management and delivery, whether built in-house or acquired. This is the CIO’s task at hand, and it is a difficult one, considering the numerous moving parts within the three different types of transformations, as shown in the figure below.</p>
 
 <p>As it stands, each transformation has its own challenges, opportunities, and solutions. One challenge that stands out prominently is the automation of software delivery pipelines, which is becoming critical for enterprises to meet market demands with speed and agility.</p>
+
+<img src="/images/blog/post/DigitalAgileDevOpsTransformations.png" alt="DigitalTransformation" width="100%">
 
 <p>There are a plethora of software delivery automation tools to choose from, and the number is growing day by day. The cloud native landscape is vast, chaotic, and full of competing and overlapping platforms and technologies. To navigate its complexities, CEOs and CIOs must work together to build technology stacks that use the right tools for the right jobs.</p>
 
@@ -64,6 +68,8 @@ aliases:
 
 <p>Breaking down the silos between development and operations is not only difficult, but in many cases impossible, due to strictly-defined responsibilities of roles and function in large organizations. Large organizations do, to an extent, depend on silos for clear delineations of duty, enforced by audits. But these silos can reduce the velocity of release cycles.</p>
 
+<img src="/images/blog/post/VennDiagramPeopleToolsProcess.png" alt="VennDiagramPeopleToolsProcess" width="100%">
+
 <p>SDA (Software Delivery Management) is at the center of digital transformation, and is essential for overcoming silos slowing down software release cycles. It brings together people, processes, and tools, as well as Digital Transformation, Agile Transformation and DevOps Transformation. By offering one cohesive platform, SDA:</p>
 
 <ul>
@@ -93,9 +99,14 @@ aliases:
 
 <p>CloudOps is cloud and tool agnostic but opinionated. Knowing they serve their customers best with a mix of open source and proprietary tools, they have partnered with industry leaders to develop smart defaults, shared components that can be replicated across different platforms. To build cloud native technology stacks, decision-makers must selectively customize, and rearrange their chosen defaults. When it comes to software delivery automation, Cloudbees CD is one tool that CloudOps’ team of teams leverage to help customers implement secure SDA systems.</p>
 
-<h3>Sunil Mavadia</h3>
+&nbsp;
 
+<img src="/images/blog/post/SunilMavadia.png" alt="SunilMavadia" width="225" class="alignleft">
+
+<h3>Sunil Mavadia</h3>
 <p>Sunil Mavadia is Director of Global Solutions Architecture at Cloudbees.  He has led a number of transformations and has been in the Release and Build Engineering industry for over 20 years. Throughout the past 10 years of his career, he has been a public speaker on DevOps and Digital Transformations, helping and guiding companies through their Digital Transformations.</p>
+
+&nbsp;
 
 <div style="text-align: center;">
 <!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-9a9feee6-3a5f-4335-93a4-b4964ab1ce5c"><span class="hs-cta-node hs-cta-9a9feee6-3a5f-4335-93a4-b4964ab1ce5c" id="hs-cta-9a9feee6-3a5f-4335-93a4-b4964ab1ce5c"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/732832/9a9feee6-3a5f-4335-93a4-b4964ab1ce5c"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-9a9feee6-3a5f-4335-93a4-b4964ab1ce5c" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/732832/9a9feee6-3a5f-4335-93a4-b4964ab1ce5c.png"  alt="New call-to-action"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(732832, '9a9feee6-3a5f-4335-93a4-b4964ab1ce5c', {}); </script></span><!-- end HubSpot Call-to-Action Code -->

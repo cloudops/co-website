@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Cloud and tool agnostic but opinionated, our full-stack solution of open source and proprietary technologies can be replicated and adapted. 
 resources:
 - name: "thumbnail"
-  src: "Toolbox-Blog.jpg"
+  src: "ToolboxThumbnail.png"
 - name: "cover"
-  src: "Toolbox-Blog-cover.jpg"
+  src: "ToolboxCover.png"
 class_name: "blog post"
 aliases:
   - /2019/10/a-best-of-breed-toolbox-for-using-cloud/

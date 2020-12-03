@@ -1,13 +1,13 @@
 ---
-title: "Remote Sensing, Data Pipelines, Kubernetes, and Neural Networks in Ecology"
+title: "Artifical Intelligence is Pioneering Advances in Ecology"
 date: "2020-01-27"
 author: "Tristan Kosciuch"
 description: With machine learning, ecologists can build data pipelines to analyze the vast amounts of data collected with remote viewing.
 resources:
 - name: "thumbnail"
-  src: "Blog98.png"
+  src: "EcologyThumbnail.png"
 - name: "cover"
-  src: "Blog98-cover.png"
+  src: "EcologyCover.png"
 class_name: "blog post"
 aliases:
   - /2020/01/remote-sensing-data-pipelines-kubernetes-and-neural-networks-in-ecology/

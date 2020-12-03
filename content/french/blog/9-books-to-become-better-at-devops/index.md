@@ -4,9 +4,9 @@ date: "2019-09-19"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Books-Thumbnail.png"
+  src: "BooksThumbnail.png"
 - name: "cover"
-  src: "Books-Cover.png"
+  src: "BooksCover.png"
 class_name: "blog post"
 slug: /9-livres-pour-mieux-connaitre-le-devops
 aliases:
