@@ -4,7 +4,9 @@ date: "2019-12-02"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Container_Social_1200x627_FR_V3.jpg"
+  src: "SecurityThumbnail.png"
+- name: "cover"
+  src: "SecurityCover.png"
 class_name: "blog post"
 slug: /quiz-dans-quelle-mesure-vos-conteneurs-sont-ils-securises-dans-azure
 aliases:

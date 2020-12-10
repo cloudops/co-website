@@ -5,9 +5,9 @@ author: "Chanpreet Kaur"
 description: Kubernetes provides first-class support for a range of different networking configurations. This 101 guide will get you started.
 resources:
 - name: "thumbnail"
-  src: "Kubernetes.jpg"
+  src: "NetworkingThumbnail.png"
 - name: "cover"
-  src: "Kubernetes-cover.jpg"
+  src: "NetworkingCover.png"
 class_name: "blog post"
 aliases:
   - /2020/06/kubernetes-networking-101/

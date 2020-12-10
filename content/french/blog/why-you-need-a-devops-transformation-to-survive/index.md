@@ -4,7 +4,9 @@ date: "2019-01-07"
 author: "Jesse Hurkens"
 resources:
 - name: "thumbnail"
-  src: "DevOpsUnicornBlessing-1.png"
+  src: "TransformationThumbnail.png"
+- name: "cover"
+  src: "TransformationCover.png"
 class_name: "blog post"
 slug: /pourquoi-vous-avez-besoin-dune-transformation-devops-pour-survivre
 aliases:

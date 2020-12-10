@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Gamers and developers alike are finally getting a glimpse of the not-too-distant future of cloud gaming.
 resources:
 - name: "thumbnail"
-  src: "Stadia.jpg"
+  src: "StadiaThumbnail.png"
 - name: "cover"
-  src: "Stadia-cover.jpg"
+  src: "StadiaCover.png"
 class_name: "blog post"
 aliases:
   - /2019/03/cloud-native-gaming-what-google-stadia-has-to-offer/

@@ -5,8 +5,9 @@ author: "CloudOps"
 description: Deploying Kubernetes in foreign locations can involve migrating workloads into hybrid-cloud architectures modernized with containers.
 resources:
 - name: "thumbnail"
-  src: "Russia.png"
-class_name: "blog post"
+  src: "RussiaThumbnail.png"
+- name: "cover"
+  src: "RussiaCover.png"
 aliases:
   - /2019/03/to-russia-with-love-deploying-kubernetes-in-foreign-locations/
   - /to-russia-with-love-deploying-kubernetes-in-foreign-locations/

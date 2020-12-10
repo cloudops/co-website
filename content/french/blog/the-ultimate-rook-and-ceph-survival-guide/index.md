@@ -4,7 +4,9 @@ date: "2019-12-02"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "RookCeph.jpg"
+  src: "GuideThumbnail.png"
+- name: "cover"
+  src: "GuideCover.png"
 class_name: "blog post"
 slug: /guide-de-survie-rook-et-ceph
 aliases:

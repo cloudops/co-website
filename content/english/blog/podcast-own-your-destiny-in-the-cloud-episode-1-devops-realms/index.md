@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Marc Paré and Jesse Hurkens discussed how DevOps impacts business value and can be found in three different realms of a technology stack.
 resources:
 - name: "thumbnail"
-  src: "cloudops-podcast.jpg"
+  src: "DevOpsThumbnail.png"
 - name: "cover"
-  src: "cloudops-podcast-cover.jpg"
+  src: "DevOpsCover.png"
 class_name: "blog post"
 aliases:
   - /2019/05/podcast-own-your-destiny-in-the-cloud-episode-1-devops-realms/

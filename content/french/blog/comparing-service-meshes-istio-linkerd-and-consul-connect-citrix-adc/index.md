@@ -4,7 +4,9 @@ date: "2020-06-02"
 author: "Syed Ahmed"
 resources:
 - name: "thumbnail"
-  src: "ServiceMesh.png"
+  src: "ServiceMeshThumbnail.png"
+- name: "cover"
+  src: "ServiceMeshCover.png"
 class_name: "blog post"
 slug: /comparaison-des-services-mailles-istio-linkerd-et-consul-connect
 aliases:

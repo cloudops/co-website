@@ -4,7 +4,9 @@ date: "2020-03-31"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "Anthos.jpg"
+  src: "AnthosThumbnail.png"
+- name: "cover"
+  src: "AnthosCover.png"
 class_name: "blog post"
 slug: /voici-anthos-et-voici-comment-elle-peut-vous-aider-a-moderniser-votre-application
 aliases:

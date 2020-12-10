@@ -5,9 +5,9 @@ author: "Alexandre Menezes"
 description: An introduction to the operator pattern in Kubernetes and the Operator Framework SDK for creating Go Operators.
 resources:
 - name: "thumbnail"
-  src: "kubernetes-operators-101.png"
+  src: "OperatorsThumbnail.png"
 - name: "cover"
-  src: "kubernetes-operators-101-cover.png"
+  src: "OperatorsCover.png"
 class_name: "blog post"
 keywords: [kubernetes operators, how to kubernetes, kubernetes 101, kubernetes guide, kubernetes]
 tags:

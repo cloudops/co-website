@@ -5,9 +5,9 @@ author: "Syed Ahmed"
 description: Service meshes help solve networking in microservice-based applications. Which one is best for your application?
 resources:
 - name: "thumbnail"
-  src: "ServiceMesh.png"
+  src: "ServiceMeshThumbnail.png"
 - name: "cover"
-  src: "ServiceMesh-cover.png"
+  src: "ServiceMeshCover.png"
 class_name: "blog post"
 aliases:
   - /2020/06/comparing-service-meshes-istio-linkerd-and-consul-connect-citrix-adc/
