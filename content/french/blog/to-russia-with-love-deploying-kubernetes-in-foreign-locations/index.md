@@ -4,7 +4,9 @@ date: "2019-03-20"
 author: "Michael Wojcikiewicz"
 resources:
 - name: "thumbnail"
-  src: "Russia.png"
+  src: "RussiaThumbnail.png"
+- name: "cover"
+  src: "RussiaCover.png"
 class_name: "blog post"
 slug: /a-la-russie-avec-amour-deployer-kubernetes-a-letranger
 aliases:

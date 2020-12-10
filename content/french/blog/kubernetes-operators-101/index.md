@@ -4,7 +4,9 @@ date: "2020-09-08"
 author: "Alexandre Menezes"
 resources:
 - name: "thumbnail"
-  src: "kubernetes-operators-101.png"
+  src: "OperatorsThumbnail.png"
+- name: "cover"
+  src: "OperatorsCover.png"
 class_name: "blog post"
 slug: /operateurs-kubernetes-101
 description:

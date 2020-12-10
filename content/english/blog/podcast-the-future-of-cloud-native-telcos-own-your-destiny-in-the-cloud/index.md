@@ -5,7 +5,9 @@ author: "CloudOps"
 description: Ian Rae and Maddison Long discuss the future of the telecommunication industry and the impact of open source and cloud native.
 resources:
 - name: "thumbnail"
-  src: "cloudops-podcast2.jpg"
+  src: "TelcosThumbnail.png"
+- name: "cover"
+  src: "TelcosCover.png"
 - name: "cover"
   src: "cloudops-podcast2-cover.jpg"
 class_name: "blog post"

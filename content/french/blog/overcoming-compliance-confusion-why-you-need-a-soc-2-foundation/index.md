@@ -4,7 +4,9 @@ date: "2018-06-04"
 author: "RJ Stangle"
 resources:
 - name: "thumbnail"
-  src: "SOC2.jpg"
+  src: "ComplianceThumbnail.png"
+- name: "cover"
+  src: "ComplianceCover.png"
 class_name: "blog post"
 slug: /incoherences-de-conformite-commencez-par-soc-2
 aliases:

@@ -4,7 +4,9 @@ date: "2020-06-03"
 author: "Chanpreet Kaur"
 resources:
 - name: "thumbnail"
-  src: "Kubernetes.jpg"
+  src: "AnthosThumbnail.png"
+- name: "cover"
+  src: "AnthosCover.png"
 class_name: "blog post"
 slug: /reseautage-kubernetes-101
 aliases:

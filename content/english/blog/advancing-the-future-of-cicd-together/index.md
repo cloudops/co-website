@@ -5,9 +5,9 @@ author: "Tracy Miranda"
 description: Continuous delivery is a critical part of modern software development, but there are key obstacles slowing its widespread adoption.
 resources:
 - name: "thumbnail"
-  src: "cd-foundation.png"
+  src: "CICDThumbnail.png"
 - name: "cover"
-  src: "cd-foundation-cover.png"
+  src: "CICDCover.png"
 class_name: "blog post"
 ---
 

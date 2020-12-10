@@ -4,7 +4,9 @@ date: "2019-03-26"
 author: "admin"
 resources:
 - name: "thumbnail"
-  src: "Stadia.jpg"
+  src: "StadiaThumbnail.png"
+- name: "cover"
+  src: "StadiaCover.png"
 class_name: "blog post"
 slug: /le-futur-du-jeu-video-infonuagique-natif-ce-que-propose-google-stadia
 aliases:

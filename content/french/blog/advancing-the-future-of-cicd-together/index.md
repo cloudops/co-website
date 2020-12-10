@@ -4,7 +4,9 @@ date: "2020-08-24"
 author: "Tracy Miranda"
 resources:
 - name: "thumbnail"
-  src: "cd-foundation.png"
+  src: "CICDThumbnail.png"
+- name: "cover"
+  src: "CICDCover.png"
 class_name: "blog post"
 slug: "ensemble-faisons-progresser-les-cicd-vers-le-futur"
 description:

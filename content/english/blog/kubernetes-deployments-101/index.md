@@ -5,9 +5,9 @@ author: "Chanpreet Kaur"
 description: Get started deploying Kubernetes in production with this 101 guide.
 resources:
 - name: "thumbnail"
-  src: "Kubernetes.jpg"
+  src: "DeploymentThumbnail.png"
 - name: "cover"
-  src: "Kubernetes-cover.jpg"
+  src: "Deployment.png"
 class_name: "blog post"
 aliases:
   - /2020/04/how-to-create-and-inspect-kubernetes-deployments/

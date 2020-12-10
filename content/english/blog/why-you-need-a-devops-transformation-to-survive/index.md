@@ -5,7 +5,9 @@ author: "CloudOps"
 description: DevOps transformations bring significant value but require different ways of thinking.
 resources:
 - name: "thumbnail"
-  src: "DevOpsUnicornBlessing-1.png"
+  src: "TransformationThumbnail.png"
+- name: "cover"
+  src: "TransformationCover.png"
 class_name: "blog post"
 aliases:
   - /2019/01/why-you-need-a-devops-transformation-to-survive/
