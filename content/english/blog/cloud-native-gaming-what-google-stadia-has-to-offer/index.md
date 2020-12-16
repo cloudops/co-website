@@ -1,7 +1,7 @@
 ---
 title: "Cloud Native Gaming: What Google Stadia has to offer"
 date: "2019-03-26"
-author: "CloudOps"
+author: "Carol Trang"
 description: Gamers and developers alike are finally getting a glimpse of the not-too-distant future of cloud gaming.
 resources:
 - name: "thumbnail"

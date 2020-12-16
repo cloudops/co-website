@@ -1,7 +1,7 @@
 ---
 title: "Why Kubernetes Ingresses aren’t as Difficult as You Think"
 date: "2018-06-08"
-author: "CloudOps"
+author: "Evan McIlroy"
 description: How to use Ingresses to Route your Services on a Vanilla K8s Deployment
 resources:
 - name: "thumbnail"

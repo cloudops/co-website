@@ -1,7 +1,7 @@
 ---
 title: "Bringing HR into the Cloud: The Remote Future of Interviewing"
 date: "2020-04-14"
-author: "CloudOps"
+author: "Jennifer Canty"
 description: Recruitment has often resisted the transition to remote work, but these virtual interview tips will help employers read through the screen.
 resources:
 - name: "thumbnail"

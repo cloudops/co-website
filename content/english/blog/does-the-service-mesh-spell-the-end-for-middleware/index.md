@@ -1,7 +1,7 @@
 ---
 title: "Does the Service Mesh spell the end for Middleware?"
 date: "2018-09-24"
-author: "CloudOps"
+author: "Flo Adam"
 description: Middleware is as Istio and other service meshes are adopted. Could middleware become irrelevant in today’s container-focused world?
 resources:
 - name: "thumbnail"

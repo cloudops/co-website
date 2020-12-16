@@ -1,7 +1,7 @@
 ---
 title: "The Ultimate Rook and Ceph Survival Guide"
 date: "2019-05-07"
-author: "CloudOps"
+author: "Michael Wojcikiewicz"
 description: Learn the basics of Rook and Ceph in this ultimate guide to implement cloud native storage solutions.
 resources:
 - name: "thumbnail"

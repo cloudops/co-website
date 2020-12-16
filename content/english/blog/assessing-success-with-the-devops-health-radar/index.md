@@ -1,7 +1,7 @@
 ---
 title: Assessing Success with the DevOps Health Radar
 date: "2019-11-12"
-author: "CloudOps"
+author: "Sunil Mavadia"
 description: Crawling like a snail or flying like a unicorn through your software release cycles? Assess your agility with the DevOps Health Radar.
 resources:
 - name: "thumbnail"
