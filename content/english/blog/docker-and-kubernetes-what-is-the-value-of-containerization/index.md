@@ -1,7 +1,7 @@
 ---
 title: "Docker and Kubernetes: What is the Value of Containerization?"
 date: "2017-07-28"
-author: "CloudOps"
+author: "Marc Pare"
 description: Containerization and microservices-based architectures have taken the DevOps community by storm.
 resources:
 - name: "thumbnail"
