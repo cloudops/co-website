@@ -22,7 +22,7 @@ keywords: [cloudops articles, cloud industry, cloudnews]
 
 <p>What is a Kubernetes Operator? How are they developed? What do they add to an application? How can they be published to an Operator hub? Learn the answers to these questions and more in this blog post by Alexandre Menezes from Red Hat.</p>
 
-<h3>The Biggest Myths of MultiCloud</h3>
+<h3>3. The Biggest Myths of MultiCloud</h3>
 
 <p>Against pushback from cloud vendors who sought to monopolize the industry, most large organizations are now willfully pursuing multi-cloud approaches. Cloud native has become the standard, but the IT industry is still in a state of confusion when it comes to multi-cloud. We’ve compiled a few of the most common myths surrounding multi-cloud in this blog post.</p>
 
