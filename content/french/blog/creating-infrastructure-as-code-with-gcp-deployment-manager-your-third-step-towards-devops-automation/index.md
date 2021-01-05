@@ -4,9 +4,9 @@ date: "2018-08-01"
 author: "Stacy Véronneau"
 resources:
 - name: "thumbnail"
-  src: "GCP-Thumbnail.png"
+  src: "GCP3-thumbnail.png"
 - name: "cover"
-  src: "GCP-Cover.png"
+  src: "GCP3-cover.png"
 class_name: "blog post"
 slug: /creation-dune-iac-la-troisieme-etape-vers-lautomatisation-devops
 aliases:

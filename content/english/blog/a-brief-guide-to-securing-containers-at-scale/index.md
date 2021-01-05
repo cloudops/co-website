@@ -5,7 +5,7 @@ author: "CloudOps"
 description: Keep your container deployments secure with these 5 key best practices.
 resources:
 - name: "thumbnail"
-  src: "ContainerSecurity.png"
+  src: "ContainerSecurity-thumbnail.png"
 - name: "cover"
   src: "ContainerSecurity-cover.png"
 class_name: "blog post"

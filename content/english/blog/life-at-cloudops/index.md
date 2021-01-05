@@ -5,7 +5,9 @@ author: "CloudOps"
 description: Our culture is a shared repository of technical knowledge with which we navigate the increasingly complex cloud native landscape.
 resources:
 - name: "thumbnail"
-  src: "life-atcloudops.jpg"
+  src: "Life-thumbnail.png"
+- name: "cover"
+  src: "Life-cover.png"
 - name: "cover"
   src: "life-atcloudops-cover.jpg"
 class_name: "blog post"

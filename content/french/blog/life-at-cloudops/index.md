@@ -4,7 +4,9 @@ date: "2019-09-06"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "life-atcloudops.jpg"
+  src: "Life-thumbnail.png"
+- name: "cover"
+  src: "Life-cover.png"
 class_name: "blog post"
 slug: /la-vie-chez-cloudops
 aliases:

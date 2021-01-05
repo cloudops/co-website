@@ -5,7 +5,9 @@ author: "CloudOps"
 description: The CloudOps delivery model involves building, operating and transferring value in the application platform.
 resources:
 - name: "thumbnail"
-  src: "CodeCollaboration.png"
+  src: "DeliveryModel-thumbnail.png"
+- name: "cover"
+  src: "DeliveryModel-cover.png"
 class_name: "blog post"
 aliases:
   - /2019/05/the-cloudops-delivery-model-accelerated-value-delivery-through-code-and-collaboration/

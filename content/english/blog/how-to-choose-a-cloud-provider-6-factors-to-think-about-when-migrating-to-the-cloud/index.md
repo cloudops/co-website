@@ -5,9 +5,9 @@ author: "CloudOps"
 description: There are 6 key considerations to make when designing your cloud native strategy.
 resources:
 - name: "thumbnail"
-  src: "cloudprovider.png"
+  src: "Choosing-Thumbnail.png"
 - name: "cover"
-  src: "cloudprovider-cover.png"
+  src: "Choosing-Cover.png"
 class_name: "blog post"
 aliases:
   - /2018/08/how-to-choose-a-cloud-provider-6-factors-to-think-about-when-migrating-to-the-cloud/

@@ -5,9 +5,9 @@ author: "CloudOps"
 description: A Comparative Summary of Kubernetes Tooling; Open Source, Distributions, and Managed Services.
 resources:
 - name: "thumbnail"
-  src: "helmsman.png"
+  src: "Kubernetes-thumbnail.png"
 - name: "cover"
-  src: "helmsman-cover.png"
+  src: "Kubernetes-cover.png"
 class_name: "blog post"
 aliases:
   - /2018/01/lost-at-sea-navigating-the-complexities-of-kubernetes/
