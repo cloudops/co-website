@@ -3,8 +3,10 @@ title: "Guide CNCF du débutant"
 date: "2018-10-26"
 author: "Ayrat Khayretdinov"
 resources:
-  - name: "thumbnail"
-    src: "CNCF.jpg"
+- name: "thumbnail"
+  src: "CNCF-thumbnail.png"
+- name: "cover"
+  src: "CNCF-cover.png"
 class_name: "blog post"
 slug: "guide-cncf-du-debutant"
 aliases:

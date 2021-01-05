@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Ian Rae discussed cloud innovation with Rob Hirschfeld on the most recent episode of ‘L8ist Sh9y Podcast’.
 resources:
 - name: "thumbnail"
-  src: "podcast.jpg"
+  src: "Podcast-thumbnail.png"
 - name: "cover"
-  src: "podcast-cover.jpg"
+  src: "Podcast-cover.png"
 class_name: "blog post"
 aliases: 
     - /2018/09/podcast-cloud-innovation-and-updates-from-google-next-2018/

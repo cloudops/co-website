@@ -4,7 +4,9 @@ date: "2018-08-01"
 author: "Robert Pepin"
 resources:
 - name: "thumbnail"
-  src: "cloudprovider.png"
+  src: "Choosing-Thumbnail.png"
+- name: "cover"
+  src: "Choosing-Cover.png"
 class_name: "blog post"
 slug: /comment-choisir-un-fournisseur-infonuagique-6-elements-sur-lesquels-se-concentrer-lors-de-la-migration-vers-un-nuage
 aliases:

@@ -4,7 +4,9 @@ date: "2019-01-29"
 author: "Michael Wojcikiewicz"
 resources:
 - name: "thumbnail"
-  src: "ContainerSecurity.png"
+  src: "ContainerSecurity-thumbnail.png"
+- name: "cover"
+  src: "ContainerSecurity-cover.png"
 class_name: "blog post"
 slug: /un-bref-guide-sur-la-securisation-des-conteneurs-a-grande-echelle
 aliases:

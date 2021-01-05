@@ -5,7 +5,7 @@ author: "CloudOps"
 description: I embarked on a small adventure to try networking together two different Kubernetes clusters with Tungsten Fabric.
 resources:
 - name: "thumbnail"
-  src: "TungstenFabric.png"
+  src: "TungstenFabric-thumbnail.png"
 - name: "cover"
   src: "TungstenFabric-cover.png"
 class_name: "blog post"

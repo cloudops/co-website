@@ -5,9 +5,9 @@ author: "Flo Adam"
 description: Middleware is as Istio and other service meshes are adopted. Could middleware become irrelevant in today’s container-focused world?
 resources:
 - name: "thumbnail"
-  src: "ServiceMesh.jpg"
+  src: "Middleware-thumbnail.png"
 - name: "cover"
-  src: "ServiceMesh-cover.jpg"
+  src: "Middleware-cover.png"
 class_name: "blog post"
 aliases:
   - /2018/09/does-the-service-mesh-spell-the-end-for-middleware/

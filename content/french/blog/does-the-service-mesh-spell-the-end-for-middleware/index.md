@@ -4,7 +4,9 @@ date: "2018-09-24"
 author: "Flo Adam"
 resources:
 - name: "thumbnail"
-  src: "ServiceMesh.jpg"
+  src: "Middleware-thumbnail.png"
+- name: "cover"
+  src: "Middleware-cover.png"
 class_name: "blog post"
 slug: /les-services-mailles-sonnent-ils-la-fin-des-intergiciels
 aliases:

@@ -4,7 +4,9 @@ date: "2018-11-21"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "CloudNative-2.png"
+  src: "WhyCloudNative-Thumbnail.png"
+- name: "cover"
+  src: "WhyCloudNative-Cover.png"
 class_name: "blog post"
 keywords: [cloud native, what is cloud native]
 tags:

@@ -4,9 +4,9 @@ date: "2019-07-03"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "DevSecOps.jpg"
+  src: "DevSecOps-thumbnail.png"
 - name: "cover"
-  src: "DevSecOps-cover.jpg"
+  src: "DevSecOps-cover.png"
 class_name: "blog post"
 aliases:
   - /2019/07/rethinking-cloud-security-with-devsecops/

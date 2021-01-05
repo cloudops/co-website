@@ -4,7 +4,9 @@ date: "2018-09-11"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: ""
+  src: "Podcast-thumbnail.png"
+- name: "cover"
+  src: "Podcast-cover.png"
 class_name: "blog post"
 slug: /baladodiffusion-infonuagique-innovation-et-mises-a-jour-de-google-next-2018
 aliases:

@@ -4,7 +4,9 @@ date: "2018-09-05"
 author: "Syed Ahmed"
 resources:
 - name: "thumbnail"
-  src: "Kubeflow.jpg"
+  src: "ML-thumbnail.png"
+- name: "cover"
+  src: "ML-cover.png"
 class_name: "blog post"
 slug: /tensorflow-kubernetes-et-kubeflow-la-conteneurisation-de-lapprentissage-machine
 aliases:

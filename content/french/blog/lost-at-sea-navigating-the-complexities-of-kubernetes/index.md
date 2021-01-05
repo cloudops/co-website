@@ -4,7 +4,9 @@ date: "2018-02-21"
 author: "Will Stevens"
 resources:
 - name: "thumbnail"
-  src: "vectorstock_8394430.jpg"
+  src: "Kubernetes-thumbnail.png"
+- name: "cover"
+  src: "Kubernetes-cover.png"
 class_name: "blog post"
 slug: /perdus-en-mer-comment-naviguer-sur-les-eaux-complexes-de-kubernetes
 aliases:

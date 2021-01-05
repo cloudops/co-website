@@ -4,7 +4,9 @@ date: "2019-05-21"
 author: "Marc Pare"
 resources:
 - name: "thumbnail"
-  src: "CodeCollaboration.png"
+  src: "DeliveryModel-thumbnail.png"
+- name: "cover"
+  src: "DeliveryModel-cover.png"
 class_name: "blog post"
 slug: /le-modele-de-livraison-cloudops-une-livraison-de-valeur-acceleree-grace-au-code-et-a-la-collaboration
 aliases:
