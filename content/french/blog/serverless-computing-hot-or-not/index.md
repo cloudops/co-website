@@ -4,7 +4,9 @@ date: "2018-02-23"
 author: "Donald Donovan"
 resources:
 - name: "thumbnail"
-  src: "Serverless-woman.png"
+  src: "Serverless-thumbnail.png"
+- name: "cover"
+  src: "Serverless-cover.png"
 class_name: "blog post"
 slug: /informatique-sans-serveur-on-aime-ou-pas
 aliases:

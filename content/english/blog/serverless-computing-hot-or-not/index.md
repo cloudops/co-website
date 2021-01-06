@@ -5,7 +5,9 @@ author: "CloudOps"
 description: There has been a remarkable increase in serverless computing platforms over the past few years.
 resources:
 - name: "thumbnail"
-  src: "serverless-woman-blog.png"
+  src: "Serverless-thumbnail.png"
+- name: "cover"
+  src: "Serverless-cover.png"
 class_name: "blog post"
 aliases:
     - /2018/02/serverless-computing-hot-or-not-2/

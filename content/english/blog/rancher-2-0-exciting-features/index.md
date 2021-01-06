@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Rancher 2.0 was made GA (generally available) on May 1st, and there is quite a bit to be excited about.
 resources:
 - name: "thumbnail"
-  src: "Rancher.jpg"
+  src: "Rancherfeatures-thumbnail.png"
 - name: "cover"
-  src: "Rancher-cover.jpg"
+  src: "Rancherfeatures-cover.png"
 class_name: "blog post"
 aliases:
   - /2018/07/rancher-2-0-exciting-features/

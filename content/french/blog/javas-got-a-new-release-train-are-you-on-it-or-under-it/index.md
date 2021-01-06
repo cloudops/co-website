@@ -4,7 +4,9 @@ date: "2018-05-23"
 author: "Nick Maiorano"
 resources:
 - name: "thumbnail"
-  src: "Java.jpg"
+  src: "Java-thumbnail.png"
+- name: "cover"
+  src: "Java-cover.png"
 class_name: "blog post"
 slug: /java-presente-son-nouveau-train-de-publication-embarquez-vous
 aliases:

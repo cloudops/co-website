@@ -5,7 +5,9 @@ author: "CloudOps"
 description: Red Hat OpenShift enables consistent and easy container orchestration, reducing the effort of deploying a Kubernetes platform.
 resources:
 - name: "thumbnail"
-  src: "OpenShift.jpg"
+  src: "OpenShift-thumbnail.png"
+- name: "cover"
+  src: "OpenShift-cover.png"
 class_name: "blog post"
 aliases:
     - /2018/04/the-value-of-openshift-for-the-enterprise-software-transformation/
