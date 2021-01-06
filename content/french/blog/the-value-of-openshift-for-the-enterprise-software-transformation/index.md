@@ -4,7 +4,9 @@ date: "2018-05-10"
 author: "Marc Pare"
 resources:
 - name: "thumbnail"
-  src: "Openshift.jpg"
+  src: "OpenShift-thumbnail.png"
+- name: "cover"
+  src: "OpenShift-cover.png"
 class_name: "blog post"
 slug: /la-valeur-dopenshift-pour-la-transformation-des-logiciels-dentreprise
 aliases:

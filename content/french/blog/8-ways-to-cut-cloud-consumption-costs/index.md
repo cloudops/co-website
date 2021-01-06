@@ -4,9 +4,9 @@ date: "2020-05-01"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "CloudCosts-Thumbnail.png"
+  src: "CloudCosts-thumbnail.png"
 - name: "cover"
-  src: "CloudCosts-Cover.png"
+  src: "CloudCosts-cover.png"
 class_name: "blog post"
 slug: /8-facons-de-reduire-les-couts-de-consommation-dans-le-nuage
 aliases:

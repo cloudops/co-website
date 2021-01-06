@@ -4,7 +4,9 @@ date: "2018-06-26"
 author: "Marc Pare"
 resources:
 - name: "thumbnail"
-  src: "Ansible.jpg"
+  src: "Ansible-thumbnail.png"
+- name: "cover"
+  src: "Ansible-cover.png"
 class_name: "blog post"
 slug: /pourquoi-choisir-ansible-pour-lautomatisation
 aliases:

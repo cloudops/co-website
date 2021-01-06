@@ -4,7 +4,9 @@ date: "2019-02-28"
 author: "Jesse Hurkens"
 resources:
 - name: "thumbnail"
-  src: "DevOps-Culture.png"
+  src: "Mindset-thumbnail.png"
+- name: "cover"
+  src: "Mindset-cover.png"
 class_name: "blog post"
 slug: /augmentation-de-la-vitesse-de-fonctionnalite-par-le-changement-culturel-le-devops-place-la-philosophie-avant-la-technologie
 aliases:

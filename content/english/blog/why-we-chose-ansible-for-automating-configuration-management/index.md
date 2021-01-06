@@ -5,7 +5,9 @@ author: "CloudOps"
 description: Ansible is an open source tool for automating configuration management, deployment, and orchestration.
 resources:
 - name: "thumbnail"
-  src: "Ansible.jpg"
+  src: "Ansible-thumbnail.png"
+- name: "cover"
+  src: "Ansible-cover.png"
 class_name: "blog post"
 aliases:
     - /2018/06/why-we-chose-ansible-for-automating-configuration-management/

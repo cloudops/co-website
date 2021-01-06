@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Oracle is taking a more contemporary approach to releasing new versions of the Java platform with the recent release of Java 10.
 resources:
 - name: "thumbnail"
-  src: "Java.jpg"
+  src: "Java-thumbnail.png"
 - name: "cover"
-  src: "Java-cover.jpg"
+  src: "Java-cover.png"
 class_name: "blog post"
 aliases:
     - /2018/04/javas-got-a-new-release-train-are-you-on-it-or-under-it/

@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Istio is an open source tool that provides operational control over the service mesh of an application as a whole.
 resources:
 - name: "thumbnail"
-  src: "Istio.jpg"
+  src: "Istio-thumbnail.png"
 - name: "cover"
-  src: "Istio-cover.jpg"
+  src: "Istio-cover.png"
 class_name: "blog post"
 aliases:
     - /2018/02/mesh-your-services-with-istio-solving-complexity-at-the-network-layer/

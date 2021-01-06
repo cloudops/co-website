@@ -4,9 +4,9 @@ date: "2018-03-30"
 author: "Stacy Véronneau"
 resources:
 - name: "thumbnail"
-  src: "GCP-Thumbnail.png"
+  src: "GCP2-thumbnail.png"
 - name: "cover"
-  src: "GCP-Cover.png"
+  src: "GCP2-cover.png"
 class_name: "blog post"
 slug: /creer-une-infrastructure-en-tant-que-code-dans-gcp-avec-packer-et-terraform-la-deuxieme-etape-vers-lautomatisation-devops
 aliases:

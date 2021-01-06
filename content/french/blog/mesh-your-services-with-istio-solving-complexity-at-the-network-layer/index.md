@@ -4,7 +4,9 @@ date: "2018-05-04"
 author: "Katharine Mikula"
 resources:
 - name: "thumbnail"
-  src: "Istio.jpg"
+  src: "Istio-thumbnail.png"
+- name: "cover"
+  src: "Istio-cover.png"
 class_name: "blog post"
 slug: /harmonisez-vos-services-avec-istio-resoudre-les-problemes-de-complexite-au-niveau-du-reseau
 aliases:

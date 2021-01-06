@@ -4,7 +4,9 @@ date: "2019-01-18"
 author: "Maddison Long"
 resources:
 - name: "thumbnail"
-  src: "MaddisonLongatConference.png"
+  src: "113-0-4.jpg"
+- name: "cover"
+  src: "MLong.png"
 class_name: "blog post"
 slug: /pourquoi-jai-rejoint-cloudops
 aliases:

@@ -5,9 +5,9 @@ author: "Stacy Véronneau"
 description: Automating your CI/CD pipelines is key to adopting Infrastructure as Code.
 resources:
 - name: "thumbnail"
-  src: "GCP-Thumbnail.png"
+  src: "GCP2-thumbnail.png"
 - name: "cover"
-  src: "GCP-Cover.png"
+  src: "GCP2-cover.png"
 class_name: "blog post"
 aliases:
     - /2018/03/creating-infrastructure-as-code-with-packer-and-terraform-on-gcp-your-second-step-towards-devops-automation/

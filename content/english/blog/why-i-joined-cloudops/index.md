@@ -5,7 +5,9 @@ author: "CloudOps"
 description: Maddison Long joins CloudOps as VP of Products for its culture that values people, community, and technology.
 resources:
 - name: "thumbnail"
-  src: "MaddisonLongatConference.png"
+  src: "113-0-4.jpg"
+- name: "cover"
+  src: "MaddisonLong-cover.png"
 class_name: "blog post"
 aliases:
     - /2019/01/why-i-joined-cloudops/

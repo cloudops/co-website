@@ -4,9 +4,9 @@ date: "2018-02-28"
 author: "Stacy Véronneau"
 resources:
 - name: "thumbnail"
-  src: "GCP-Thumbnail.png"
+  src: "GCP1-thumbnail.png"
 - name: "cover"
-  src: "GCP-Cover.png"
+  src: "GCP1-cover.png"
 class_name: "blog post"
 slug: /comment-deployer-consul-dans-gcp-en-utilisant-terraform-les-premieres-etapes-vers-lautomatisation-devops
 aliases:

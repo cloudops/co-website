@@ -5,7 +5,9 @@ author: "Evan McIlroy"
 description: How to use Ingresses to Route your Services on a Vanilla K8s Deployment
 resources:
 - name: "thumbnail"
-  src: "Kubernetes.jpg"
+  src: "Ingress-thumbnail.png"
+- name: "cover"
+  src: "Ingress-cover.png"
 class_name: "blog post"
 aliases:
   - /2018/06/why-kubernetes-ingresses-arent-as-difficult-as-you-think/

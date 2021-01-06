@@ -4,7 +4,9 @@ date: "2018-07-18"
 author: "Will Stevens"
 resources:
 - name: "thumbnail"
-  src: "BROWNIE.png"
+  src: "DevOpsSRE-thumbnail.png"
+- name: "cover"
+  src: "DevOpsSRE-cover.png"
 class_name: "blog post"
 slug: /la-sre-est-elle-la-cerise-sur-le-gateau-du-devops
 aliases:
