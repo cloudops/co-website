@@ -6096,7 +6096,7 @@ body .error-page {
 img {
   max-width: 350px; }
 
-.logo {
+.logo-404 {
   display: inline-block;
   width: 220px;
   text-align: center;
