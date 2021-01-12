@@ -1,0 +1,36 @@
+.inbound-leads
+.jumbotron.hero {
+    background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
+    border-top: 3px solid #005D91;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.inbound-leads
+.jumbotron.hero h1,
+.using-cloud
+.jumbotron.hero h2 {
+    text-align: left;
+}
+
+.inbound-leads
+.jumbotron.hero img {
+    position: absolute;
+    top: -140px;
+}
+
+.inbound-leads
+.brand-promises-card {
+    padding: 100px 0;
+    background-color: #FBFBFB;
+    background-image: url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg"), url("../images/dotted-triangles-yellow.svg"), url("../images/dotted-triangles-yellow.svg");
+    background-position: left bottom, right top, left center, right center;
+    background-repeat: no-repeat, no-repeat, repeat-y, repeat-y;
+}
+
+.inbound-leads .brand-promises-card h5 {
+    color: #005D91;
+    font-size: 28px;
+    line-height: 1.8;
+    font-weight: 400;
+}
