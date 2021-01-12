@@ -1,0 +1,38 @@
+---
+label: author biography
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: author
+  label: author
+- type: text
+  name: description
+  label: description
+- type: field_group_list
+  name: resources
+  label: resources
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: file
+    name: src
+    label: src
+- type: text
+  name: class_name
+  label: class_name
+- type: list
+  name: aliases
+  label: aliases
+- type: list
+  name: keywords
+  label: keywords
+- type: text
+  name: tags
+  label: tags
