@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Stephan Bureau and I will join a few hundred IT professionals from Québec for a day-long conference on cloud computing.
 resources:
 - name: "thumbnail"
-  src: "prlons.jpg"
+  src: "Parlons-thumbnail.png"
 - name: "cover"
-  src: "prlons-cover.jpg"
+  src: "Parlons-cover.png"
 class_name: "blog post"
 aliases:
     - /2014/04/parlons-en-cloud-2014-some-topics/

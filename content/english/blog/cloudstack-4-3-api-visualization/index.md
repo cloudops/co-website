@@ -5,9 +5,9 @@ author: "Will Stevens"
 description: A visualization of the CloudStack API based on the public documentation represents the request references from basic entities to other basic entities. 
 resources:
 - name: "thumbnail"
-  src: "vis_43.png"
+  src: "API-thumbnail.png"
 - name: "cover"
-  src: "vis_43-cover.png"
+  src: "API-cover.png"
 class_name: "blog post"
 aliases:
     - /2014/05/cloudstack-4-3-api-visualization/

@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Today, utility computing is a tool in the IT toolbox, and it consists of both on-premise and on-demand components.
 resources:
 - name: "thumbnail"
-  src: "Survey.jpg"
+  src: "Researching-thumbnail.png"
 - name: "cover"
-  src: "Survey-cover.jpg"
+  src: "Researching-cover.png"
 class_name: "blog post"
 aliases:
     - /2014/04/researching-cloud-adoption/

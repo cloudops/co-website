@@ -5,7 +5,9 @@ author: "Marc-André Jutras"
 description: How do I set up and prepare my development environment for CloudStack?
 resources:
 - name: "thumbnail"
-  src: "code.jpg"
+  src: "CloudStackDevEnvironment-thumbnail.png"
+- name: "cover"
+  src: "CloudStackDevEnvironment-cover.png"
 class_name: "blog post"
 aliases:
     - /2013/02/setting-up-an-ideal-cloudstack-development-environment/

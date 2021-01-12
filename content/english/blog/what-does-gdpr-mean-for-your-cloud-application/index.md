@@ -5,7 +5,9 @@ author: "CloudOps"
 description: GDPR came into effect on May 25th with wide sweeping implications for businesses everywhere.
 resources:
 - name: "thumbnail"
-  src: "GDPR-final-pic2.jpg"
+  src: "GDPR-thumbnail.png"
+- name: "cover"
+  src: "GDPR-cover.png"
 class_name: "blog post"
 aliases:
     - /2018/06/what-does-gdpr-mean-for-your-cloud-application/

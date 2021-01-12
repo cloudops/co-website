@@ -4,7 +4,9 @@ date: "2018-03-20"
 author: "Katharine Mikula"
 resources:
 - name: "thumbnail"
-  src: "ONAP.jpg"
+  src: "ONAP-thumbnail.png"
+- name: "cover"
+  src: "ONAP-cover.png"
 class_name: "blog post"
 slug: /conteneuriser-une-paro-plateforme-dautomatisation-de-reseau-ouverte-par-souci-defficacite-les-raisons-pour-lesquelles-bell-a-cree-la-gop-avec-kubernetes
 aliases:

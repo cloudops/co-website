@@ -5,9 +5,9 @@ author: "Pierre-Luc Dion"
 description: How to create an entire advanced networking zone from the API
 resources:
 - name: "thumbnail"
-  src: "Cloudstack.jpg"
+  src: "CloudStack-thumbnail.png"
 - name: "cover"
-  src: "Cloudstack-cover.jpg"
+  src: "CloudStack-cover.png"
 class_name: "blog post"
 aliases:
     - /2014/03/cloudstack-creating-advanced-networking-zone-using-api/

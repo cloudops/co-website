@@ -5,9 +5,9 @@ author: "Ian Rae"
 description: Ian Rae discusses how CloudOps was created to help others take advantage of the transformative opportunity of cloud computing
 resources:
 - name: "thumbnail"
-  src: "cloudops.jpg"
+  src: "CloudOpsStory-thumbnail.png"
 - name: "cover"
-  src: "cloudops-cover.jpg"
+  src: "CloudOpsStory-thumbnail.png"
 class_name: "blog post"
 aliases:
     - /2013/03/a-cloudops-story/
