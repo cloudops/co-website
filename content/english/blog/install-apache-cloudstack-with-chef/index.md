@@ -5,9 +5,9 @@ author: "Pierre-Luc Dion"
 description: Installation of Apache CloudStack and is dependencies using Opscode Chef community cookbooks.
 resources:
 - name: "thumbnail"
-  src: "Chef.jpg"
+  src: "Chef-thumbnail.png"
 - name: "cover"
-  src: "Chef-cover.jpg"
+  src: "Chef-cover.png"
 class_name: "blog post"
 aliases:
   - /2014/03/install-apache-cloudstack-with-chef/

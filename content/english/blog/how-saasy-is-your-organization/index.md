@@ -4,9 +4,9 @@ date: "2014-07-23"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "fastbusiness.jpg"
+  src: "SaaSy-thumbnail.png"
 - name: "cover"
-  src: "fastbusiness-cover.jpg"
+  src: "SaaSy-cover.png"
 class_name: "blog post"
 aliases:
     - /2014/07/how-saasy-is-your-organization/

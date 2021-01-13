@@ -5,7 +5,9 @@ author: "François Gaudreault"
 description: Web Application Firewalls (WAFs) are growing in the market, providing many benefits including the prevention zero-day exploits.
 resources:
 - name: "thumbnail"
-  src: "WAF.jpg"
+  src: "Firewall-thumbnail.png"
+- name: "cover"
+  src: "Firewall-cover.png"
 class_name: "blog post"
 aliases:
     - /2013/01/thinking-about-web-application-firewalls/

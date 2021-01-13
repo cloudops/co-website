@@ -5,7 +5,9 @@ author: "CloudOps"
 description: A setup guide to the official Apache CloudStack documentation for new features developed to integrate the Palo Alto Networks firewall into CloudStack.
 resources:
 - name: "thumbnail"
-  src: "PaloAlto.jpg"
+  src: "PaloAlto-thumbnail.png"
+- name: "cover"
+  src: "PaloAlto-cover.png"
 class_name: "blog post"
 aliases:
     - /2014/05/use-a-palo-alto-networks-firewall-with-cloudstack/

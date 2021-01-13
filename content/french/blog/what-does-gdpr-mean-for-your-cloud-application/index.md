@@ -4,7 +4,9 @@ date: "2018-06-26"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "GDPR-final-pic2.jpg"
+  src: "GDPR-thumbnail.png"
+- name: "cover"
+  src: "GDPR-cover.png"
 class_name: "blog post"
 slug: /comment-le-rgdp-affecte-t-il-votre-application-infonuagique
 aliases:

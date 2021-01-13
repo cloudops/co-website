@@ -5,9 +5,9 @@ author: "Ian Rae"
 description: Cloud computing is a revolutionary model for IT services delivery. Ian Rae discusses its operational model.
 resources:
 - name: "thumbnail"
-  src: "manifesto.png"
+  src: "Manifesto-thumbnail.png"
 - name: "cover"
-  src: "manifesto-cover.png"
+  src: "Manifesto-cover.png"
 class_name: "blog post"
 aliases:
     - /2015/12/cloudops-manifesto/

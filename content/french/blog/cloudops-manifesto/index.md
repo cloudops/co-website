@@ -4,7 +4,9 @@ date: "2015-12-03"
 author: "Ian Rae"
 resources:
 - name: "thumbnail"
-  src: "kindness.jpg"
+  src: "Manifesto-thumbnail.png"
+- name: "cover"
+  src: "Manifesto-cover.png"
 class_name: "blog post"
 slug: /manifeste-cloudops
 aliases:

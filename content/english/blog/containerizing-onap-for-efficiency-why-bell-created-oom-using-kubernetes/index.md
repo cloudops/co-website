@@ -5,9 +5,9 @@ author: "CloudOps"
 description: Bell Canada is the first telco to deploy an open source version of ONAP to automate its data centre network provisioning.
 resources:
 - name: "thumbnail"
-  src: "ONAP.jpg"
+  src: "ONAP-thumbnail.png"
 - name: "cover"
-  src: "ONAP-cover.jpg"
+  src: "ONAP-cover.png"
 class_name: "blog post"
 aliases:
     - /2018/01/containerizing-onap-for-efficiency-why-bell-created-oom-using-kubernetes/

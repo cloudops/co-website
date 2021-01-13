@@ -2,7 +2,7 @@
 title: "Accelerating Digital Transformation:
 What Every CEO Needs to Know About Software Delivery Automation"
 date: "2020-12-01"
-author: "CloudOps"
+author: "Sunil Mavadia"
 description: We have all heard the term "digital transformation," and we often ask ourselves why many companies struggle to define it?
 resources:
 - name: "thumbnail"
