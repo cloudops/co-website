@@ -1,0 +1,66 @@
+---
+label: author biography
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: author
+  label: author
+- type: text
+  name: description
+  label: description
+- type: field_group_list
+  name: resources
+  label: resources
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: file
+    name: src
+    label: src
+- type: text
+  name: class_name
+  label: class_name
+- type: list
+  name: aliases
+  label: aliases
+- type: list
+  name: keywords
+  label: keywords
+- type: text
+  name: tags
+  label: tags
+- name: biography
+  type: field_group
+  config: {}
+  fields:
+  - name: bio-picture
+    type: file
+    config:
+      maxSize: 64
+    label: Bio-Picture
+  - name: author
+    type: text
+    config:
+      required: false
+    label: Author
+    description: Name of the person responsible for the blog post
+  - name: biography
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Biography
+    description: short description of the author's life
+  label: Biography
+  description: Bio of the author of the blog post
+  hidden: false
