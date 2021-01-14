@@ -5,7 +5,9 @@ author: "Will Stevens"
 description: The CloudStack API is a very powerful tool for managing your infrastructure and is often not utilized to its full potential.
 resources:
 - name: "thumbnail"
-  src: "cloudstack_monkey.png"
+  src: "CloudStackAPI-thumbnail.png"
+- name: "cover"
+  src: "CloudStackAPI-cover.png"
 class_name: "blog post"
 aliases:
     - /2013/01/working-with-the-cloudstack-api/

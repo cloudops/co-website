@@ -4,7 +4,9 @@ date: "2018-08-03"
 author: "Marc Pare"
 resources:
 - name: "thumbnail"
-  src: "DockerKubernetes.jpg"
+  src: "Containerization-thumbnail.png"
+- name: "cover"
+  src: "Containerization-cover.png"
 class_name: "blog post"
 slug: /docker-et-kubernetes-quelle-est-la-valeur-de-la-conteneurisation
 aliases:

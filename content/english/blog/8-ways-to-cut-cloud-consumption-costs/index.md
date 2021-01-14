@@ -5,9 +5,9 @@ author: "CloudOps"
 description: The cloud does offer significant benefits that include cost-efficiency, but certain best practices must be followed.
 resources:
 - name: "thumbnail"
-  src: "CloudCosts-Thumbnail.png"
+  src: "Cut-thumbnail.png"
 - name: "cover"
-  src: "CloudCosts-Cover.png"
+  src: "Cut-cover.png"
 class_name: "blog post"
 aliases:
   - /2020/04/8-ways-to-cut-cloud-consumption-costs/

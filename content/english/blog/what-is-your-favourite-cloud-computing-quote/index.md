@@ -4,7 +4,9 @@ date: "2012-09-03"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "quotebubble.png"
+  src: "Quote-thumbnail.png"
+- name: "cover"
+  src: "Quote-cover.png"
 class_name: "blog post"
 aliases:
     - /2012/09/what-is-your-favourite-cloud-computing-quote/
