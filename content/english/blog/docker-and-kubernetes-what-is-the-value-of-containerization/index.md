@@ -5,9 +5,9 @@ author: "Marc Pare"
 description: Containerization and microservices-based architectures have taken the DevOps community by storm.
 resources:
 - name: "thumbnail"
-  src: "DockerKubernetes.jpg"
+  src: "Containerization-thumbnail.png"
 - name: "cover"
-  src: "DockerKubernetes-cover.jpg"
+  src: "Containerization-cover.png"
 class_name: "blog post"
 aliases:
     - /2017/07/docker-and-kubernetes-what-is-the-value-of-containerization/

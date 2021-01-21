@@ -5,7 +5,9 @@ author: "CloudOps"
 description: Commercial support of open source technologies allow CIOs to match item for item all the benefits claimed by large enterprise technology vendors.
 resources:
 - name: "thumbnail"
-  src: "cloud-success.png"
+  src: "Supported-thumbnail.png"
+- name: "cover"
+  src: "Supported-cover.png"
 class_name: "blog post"
 aliases:
     - /2012/11/why-you-should-consider-commercially-supported-open-source/

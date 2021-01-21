@@ -5,7 +5,9 @@ author: "CloudOps"
 description: A key principle of cloud-based development is that everything in that development environment – including infra — is offered as a service.
 resources:
 - name: "thumbnail"
-  src: "transformation.png"
+  src: "Balance-thumbnail.png"
+- name: "cover"
+  src: "Balance-cover.png"
 class_name: "blog post"
 aliases:
     - /2012/10/striking-the-balance-between-innovation-and-standardization-in-cloud-based-development/
