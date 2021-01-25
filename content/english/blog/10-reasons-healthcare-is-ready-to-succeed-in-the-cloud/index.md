@@ -60,7 +60,7 @@ tags: [business value, devops, cloud native]
 
 <p>A move to the cloud gives CIOs the opportunity to manage their IT most cost-effectively, shifting to an investment in operational costs rather than capital expenditures that will soon become obsolete. This helps organizations save money and become more agile</p>
 
-<p>Healthcare organizations are increasingly looking to succeed in the cloud, in order to deliver innovation and patient care in dynamic yet highly regulated environments. Cloud native applications are complex and can pose <a href="https://www.cloudops.com/blog/top-7-challenges-to-becoming-cloud-native/">challenges</a>. Today, healthcare organizations are ready to succeed in the cloud. Not only do decision-makers have the urgency, but they also have a clear pathway. Contact us to learn how CloudOps can help you on your journey.</p>
+<p>Healthcare organizations are increasingly looking to succeed in the cloud, in order to deliver innovation and patient care in dynamic yet highly regulated environments. Cloud native applications are complex and can pose <a href="https://www.cloudops.com/blog/top-7-challenges-to-becoming-cloud-native/">challenges</a>. Today, healthcare organizations are ready to succeed in the cloud. Not only do decision-makers have the urgency, but they also have a clear pathway. <a href="https://www.cloudops.com/contact-us/">Contact us</a> to learn how CloudOps can help you on your journey.</p>
 
 &nbsp;
 
