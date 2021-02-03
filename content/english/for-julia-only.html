@@ -232,7 +232,7 @@ class_name: "careers-page"
                     <section class="rw-wrapper">
                             <h4 class="rw-sentence">
                                 <span>We take our mission seriously and have fun along the way. Are you ready to embark on your </span>
-                                <div class="rw-words rw-words-2">
+                                <div class="rw-words">
                                     <span>Bold</span>
                                     <span>Righteous</span>
                                     <span>Noble</span>
@@ -298,7 +298,7 @@ section h4 {
     color: #404040;
 }
 .rw-wrapper {
-	width: 80%;
+	width: 100%;
 	position: relative;
 	padding: 10px;
     overflow: hidden;
@@ -312,7 +312,6 @@ section h4 {
 
 .rw-sentence span {
 	white-space: nowrap;
-	font-weight: normal;
 }
 
 .rw-words {
@@ -323,15 +322,12 @@ section h4 {
 .rw-words span {
 	position: absolute;
 	opacity: 0;
-	overflow: hidden;
 	width: 100%;
-}
-
-.rw-words-2 span {
-	animation: rotateWord 18s linear infinite 0s;
+    animation: rotateWord 18s linear infinite 0s;
     color: #005D91;
     font-weight: bold;
 }
+
 .rw-words span:nth-child(2) { 
 	animation-delay: 3s; 
 	color: #005D91;
