@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 238.6 238.6" enable-background="new 0 0 238.6 238.6" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<defs>
+				<circle id="SVGID_447_" cx="119.3" cy="119.3" r="119.3"/>
+			</defs>
+			<radialGradient id="SVGID_4_" cx="119.3" cy="119.3" r="119.3" gradientUnits="userSpaceOnUse">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="0.3942" style="stop-color:#F8F8F8"/>
+				<stop  offset="0.9739" style="stop-color:#E4E4E4"/>
+				<stop  offset="1" style="stop-color:#E3E3E3"/>
+			</radialGradient>
+			<use xlink:href="#SVGID_447_"  overflow="visible" fill="url(#SVGID_4_)"/>
+			<clipPath id="SVGID_6_">
+				<use xlink:href="#SVGID_447_"  overflow="visible"/>
+			</clipPath>
+			<radialGradient id="SVGID_8_" cx="119.3" cy="119.3" r="119.3" gradientUnits="userSpaceOnUse">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="0.3942" style="stop-color:#F8F8F8"/>
+				<stop  offset="0.9739" style="stop-color:#E4E4E4"/>
+				<stop  offset="1" style="stop-color:#E3E3E3"/>
+			</radialGradient>
+			
+				<circle opacity="0.5" clip-path="url(#SVGID_6_)" fill="url(#SVGID_8_)" enable-background="new    " cx="119.3" cy="119.3" r="119.3"/>
+		</g>
+	</g>
+	<radialGradient id="SVGID_9_" cx="119.3" cy="91.1249" r="75.8042" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#62ACDC"/>
+	</radialGradient>
+	<circle opacity="0.25" fill="url(#SVGID_9_)" cx="119.3" cy="91.125" r="75.804"/>
+	<radialGradient id="SVGID_10_" cx="119.3" cy="91.1249" r="50.5361" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#62ACDC"/>
+	</radialGradient>
+	<circle opacity="0.45" fill="url(#SVGID_10_)" cx="119.3" cy="91.125" r="50.536"/>
+	<radialGradient id="SVGID_12_" cx="119.3" cy="91.1249" r="25.2681" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#62ACDC"/>
+	</radialGradient>
+	<circle opacity="0.75" fill="url(#SVGID_12_)" cx="119.3" cy="91.125" r="25.268"/>
+	<line fill="none" stroke="#005D91" stroke-width="4" stroke-miterlimit="10" x1="119.3" y1="114.886" x2="119.3" y2="91.91"/>
+	<circle fill="#FFC87F" cx="119.3" cy="91.119" r="4.852"/>
+	<g>
+		<defs>
+			<circle id="SVGID_454_" cx="119.3" cy="119.3" r="119.3"/>
+		</defs>
+		<clipPath id="SVGID_13_">
+			<use xlink:href="#SVGID_454_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_13_)">
+			<polygon fill="none" stroke="#005D91" stroke-width="6" stroke-linejoin="round" stroke-miterlimit="10" points="
+				119.303,114.647 61.337,232.852 119.303,277.747 175.564,232.852 			"/>
+			<polyline fill="none" stroke="#005D91" stroke-width="4" stroke-linejoin="round" stroke-miterlimit="10" points="
+				108.206,137.319 139.932,157.921 85.906,182.739 165.524,211.823 73.467,244.01 			"/>
+			<polyline fill="none" stroke="#005D91" stroke-width="4" stroke-linejoin="round" stroke-miterlimit="10" points="
+				129.98,136.971 98.169,157.921 151.751,182.739 71.688,211.823 163.434,244.01 			"/>
+		</g>
+	</g>
+</g>
+</svg>
