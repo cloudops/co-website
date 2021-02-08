@@ -4,9 +4,9 @@ lastmod: "2020-11-16"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "skyscrapers thumbnail.png"
+  src: "skyscrapersthumbnail.png"
 - name: "cover"
-  src: "Skyscrapers.png"
+  src: "skyscraperscover.png"
 class_name: "blog post"
 aliases:
 description:

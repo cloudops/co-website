@@ -4,9 +4,9 @@ lastmod: "2020-11-16"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
-  src: "SkyscrapersThumbnail.png"
+  src: "skyscrapersthumbnail.png"
 - name: "cover"
-  src: "SkyscrapersCover.png"
+  src: "skyscraperscover.png"
 class_name: "blog post"
 aliases:
   - /8-factors-driving-cloud-adoption-financial-sector/
