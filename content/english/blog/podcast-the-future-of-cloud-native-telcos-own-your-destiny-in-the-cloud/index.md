@@ -12,6 +12,7 @@ resources:
   src: "cloudops-podcast2-cover.jpg"
 class_name: "blog post"
 aliases:
+  - /2019/07/the-future-of-cloud-native-telcos-own-your-destiny-in-the-cloud/
   - /2020/01/remote-sensing-data-pipelines-kubernetes-and-neural-networks-in-ecology/
   - /remote-sensing-data-pipelines-kubernetes-and-neural-networks-in-ecology/
   - /podcast-remote-sensing-data-pipelines-kubernetes-and-neural-networks-in-ecology/
