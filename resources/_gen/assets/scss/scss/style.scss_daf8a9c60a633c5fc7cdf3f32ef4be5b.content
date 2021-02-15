@@ -1651,7 +1651,7 @@ form option {
   box-shadow: #979797 0 2px 4px 0;
   color: #FFF;
   padding: 0 10px;
-  text-align: left;
+  text-align: center;
   font-family: 'Open Sans';
   font-size: 18px;
   transition-duration: 0.6s; }
@@ -1662,6 +1662,9 @@ form option {
   border-radius: 4px;
   box-shadow: none;
   color: #005D91; }
+
+.workshops .single-button {
+  text-align: center; }
 
 .workshops .contact-us-card .with-yellow-line {
   border-right: solid #FFE07F 2px; }
