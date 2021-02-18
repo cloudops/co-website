@@ -9,7 +9,7 @@ resources:
 - name: "cover"
   src: "Podcast-cover.png"
 class_name: "blog post"
-aliases: 
+aliases:
     - /2018/09/podcast-cloud-innovation-and-updates-from-google-next-2018/
     - /podcast-cloud-innovation-and-updates-from-google-next-2018/
 keywords: [google next 2018, ian rae]

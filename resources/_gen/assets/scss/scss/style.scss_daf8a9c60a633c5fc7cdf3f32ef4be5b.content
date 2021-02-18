@@ -1651,7 +1651,7 @@ form option {
   box-shadow: #979797 0 2px 4px 0;
   color: #FFF;
   padding: 0 10px;
-  text-align: left;
+  text-align: center;
   font-family: 'Open Sans';
   font-size: 18px;
   transition-duration: 0.6s; }
@@ -1662,6 +1662,9 @@ form option {
   border-radius: 4px;
   box-shadow: none;
   color: #005D91; }
+
+.workshops .single-button {
+  text-align: center; }
 
 .workshops .contact-us-card .with-yellow-line {
   border-right: solid #FFE07F 2px; }
@@ -2335,6 +2338,9 @@ body .our-team-card .row {
 
 .experts .contact-us-card {
   background-position: 25px 100px, left bottom, right top; }
+
+.experts .devops-case-study i {
+  color: #005D91; }
 
 @media (max-width: 575.98px) {
   .experts
@@ -6181,6 +6187,220 @@ i {
   font-size: 28px;
   line-height: 1.8;
   font-weight: 400; }
+
+.healthcare
+.jumbotron.hero {
+  background-image: linear-gradient(to bottom right, #62B5E5, #005D91);
+  border-top: 3px solid #005D91;
+  padding: 130px 0;
+  margin-bottom: 0; }
+
+.healthcare
+.brand-promises-card {
+  padding: 100px 0;
+  background-color: #FBFBFB;
+  background-image: url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg"), url("../images/dotted-triangles-yellow.svg"), url("../images/dotted-triangles-yellow.svg");
+  background-position: left bottom, right top, left center, right center;
+  background-repeat: no-repeat, no-repeat, repeat-y, repeat-y; }
+
+.healthcare .brand-promises-card h5 {
+  color: #005D91;
+  font-size: 28px;
+  line-height: 1.8;
+  font-weight: 400; }
+
+.healthcare .brand-promises-card h5 a {
+  font-size: 28px;
+  text-decoration: underline; }
+
+.healthcare .case-studies-card h2 {
+  text-align: center; }
+
+.healthcare
+.jumbotron.hero h1 {
+  text-align: left; }
+
+.healthcare
+.jumbotron.hero img {
+  position: absolute;
+  top: -120px;
+  left: 70px; }
+
+.healthcare .case-studies-card {
+  background-image: url(../images/grey-organized-dots.svg), url(../images/grey-organized-dots.svg);
+  background-position: left top,right top;
+  background-repeat: repeat-y,repeat-y; }
+
+.healthcare .case-studies-card img {
+  position: static;
+  height: 200px;
+  width: auto;
+  padding-bottom: 25px; }
+
+.healthcare .case-studies-card img.image-for-desktop {
+  width: 80%;
+  height: auto; }
+
+.healthcare .case-studies-card img.image-for-mobile {
+  position: static;
+  width: 130px;
+  height: auto; }
+
+.healthcare .case-studies-card .icons-container {
+  text-align: right; }
+
+.healthcare .case-studies-card img.icons {
+  width: 30px;
+  height: auto;
+  padding: 5px 0;
+  display: inline;
+  margin-top: 30px;
+  text-align: right; }
+
+.healthcare .case-studies-card .no-side-padding {
+  padding-left: 0;
+  padding-right: 0; }
+
+.healthcare .bot-img {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 25px; }
+
+.healthcare .case-studies-card .row {
+  margin-left: 0;
+  margin-right: 0; }
+
+.healthcare .case-studies-card .challenges-card h6 {
+  margin-top: 30px; }
+
+.healthcare .case-studies-card .with-bottom-line {
+  border-bottom: 2px solid #FFE07F;
+  margin-left: 16.666667%;
+  margin-right: 16.666667%;
+  margin-bottom: 100px;
+  padding-bottom: 100px; }
+
+.healthcare .case-studies-card .without-bottom-line {
+  padding-bottom: 100px; }
+
+.healthcare .three-round-images img {
+  margin-top: 30px; }
+
+.healthcare .case-studies-card ul li {
+  margin-left: 30px; }
+
+.healthcare .case-studies-card ul.dashes li:before {
+  content: '-';
+  position: absolute;
+  margin-left: -20px; }
+
+.healthcare .case-studies-card .devops-case-study {
+  border-bottom: 0;
+  padding-top: 80px; }
+
+.healthcare .case-studies-card .devops-case-study h2 {
+  text-align: left;
+  margin-bottom: 30px; }
+
+.healthcare .case-studies-card .three-round-images .no-padding-sides {
+  text-align: center; }
+
+@media (max-width: 575.98px) {
+  .healthcare
+.jumbotron.hero {
+    padding: 0 0 80px; }
+  .healthcare
+.jumbotron.hero h1 {
+    font-size: 50px;
+    text-align: left; }
+  .healthcare
+.jumbotron.hero h2 {
+    text-align: left;
+    font-size: 24px; }
+  .healthcare
+.jumbotron.hero img {
+    position: relative;
+    top: 30px;
+    width: 280px;
+    left: 0; }
+  .healthcare .hero-image-container {
+    text-align: left; }
+  .healthcare
+.brand-promises-card {
+    padding: 100px 15px;
+    background-color: #FBFBFB;
+    background-image: url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat; }
+  .healthcare .case-studies-card img {
+    height: 150px;
+    width: auto;
+    margin-top: 30px; }
+  .healthcare .case-studies-card .challenges-card h6 {
+    margin-top: 0; }
+  .healthcare .image-for-desktop {
+    display: none; }
+  .healthcare .bot-img {
+    text-align: center; }
+  .healthcare .case-studies-card .icons-container {
+    text-align: center; } }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .healthcare
+.jumbotron.hero img {
+    position: relative;
+    top: 30px;
+    width: 430px;
+    left: 0; }
+  .healthcare .hero-image-container {
+    text-align: left; }
+  .healthcare
+.brand-promises-card {
+    padding: 100px 15px;
+    background-color: #FBFBFB;
+    background-image: url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat, no-repeat; }
+  .healthcare .case-studies-card img {
+    height: 170px;
+    width: auto;
+    margin-top: 30px; }
+  .healthcare .image-for-desktop {
+    display: none; }
+  .healthcare .bot-img {
+    text-align: center; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .healthcare
+.jumbotron.hero img {
+    position: relative;
+    top: 30px;
+    left: 0; }
+  .healthcare .hero-image-container {
+    text-align: left; }
+  .healthcare .case-studies-card img {
+    height: 175px;
+    width: auto; }
+  .healthcare .image-for-mobile {
+    display: none; } }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .healthcare
+.jumbotron.hero img {
+    width: 400px; }
+  .healthcare .image-for-mobile {
+    display: none; } }
+
+@media (min-width: 1200px) {
+  .healthcare .hero-image-container {
+    text-align: left; }
+  .healthcare
+.jumbotron.hero img {
+    left: 20px;
+    top: -160px; }
+  .healthcare .image-for-mobile {
+    display: none; } }
 
 .iframe-container {
   position: relative;

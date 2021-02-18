@@ -1,6 +1,6 @@
 ---
 title: CloudOps Services
-ExternalLink: https://cdn2.hubspot.net/hubfs/732832/One-pagers/EN_CloudOps_OP_Services_.pdf
+ExternalLink: https://f.hubspotusercontent30.net/hubfs/732832/One-Pagers/EN_CloudOps_OP_Services_Overview_20-10-07.pdf
 resources:
 - name: "thumbnail"
   src: "cloudops-services.png"
