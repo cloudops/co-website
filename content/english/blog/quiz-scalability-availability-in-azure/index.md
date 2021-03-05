@@ -14,7 +14,9 @@ keywords: [aks, container security, azure security, kubernetes security]
 tags:
 ---
 
-<script>(function(t,e,s,n){var o,a,c;t.SMCX=t.SMCX||[],e.getElementById(n)||(o=e.getElementsByTagName(s),a=o[o.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=n,c.src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgdwrHNJd5WrMK_2FzHAx4JH8MZR7_2BRzNnR_2Fb_2FM6y7dZiKd5.js",a.parentNode.insertBefore(c,a))})(window,document,"script","smcx-sdk");</script><a style="font: 12px Helvetica, sans-serif; color: #999; text-decoration: none;" href=www.surveymonkey.com> Create your own user feedback survey </a>
+<p>
+<div class="smcx-widget smcx-embed smcx-show smcx-widget-dark"><div class="smcx-iframe-container"  style="width: 100%; max-width: 100%; height: 1000px;" ><iframe width="100%" height="100%" frameborder="0" allowtransparency="true" src="https://www.surveymonkey.com/r/LW3V7K9"></iframe></div></div>
+</p>
 
 Read our ebook <a href="https://www.cloudops.com/resources/white-papers/azure-kubernetes-services-container-security-for-a-cloud-native-world/" target="_blank" rel="noopener noreferrer">AKS: Container Security for a Cloud Native World</a> to learn about the biggest container security risks as well as how to optimize solutions with AKS.
 
