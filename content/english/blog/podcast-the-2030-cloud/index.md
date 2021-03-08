@@ -3,7 +3,6 @@ title: "Podcast: The 2030 Cloud"
 date: "2021-02-16"
 author: "CloudOps"
 description: Ian Rae made a guest appearance on the2030.cloud podcast. He spoke with Rob Hirschfeld about how we can build and manage complexity.
-
 resources:
 - name: "thumbnail"
   src: "CloudFuture-thumbnail.png"

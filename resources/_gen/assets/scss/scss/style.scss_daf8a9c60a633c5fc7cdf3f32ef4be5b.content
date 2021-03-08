@@ -6333,10 +6333,21 @@ i {
     background-image: url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
     background-position: left bottom, right top;
     background-repeat: no-repeat, no-repeat; }
+  .healthcare .case-studies-card {
+    background-image: none; }
   .healthcare .case-studies-card img {
     height: 150px;
     width: auto;
     margin-top: 30px; }
+  .healthcare .case-studies-card .with-bottom-line {
+    margin-left: 0;
+    margin-right: 0; }
+  .healthcare .case-studies-card .devops-case-study h2 {
+    text-align: center; }
+  .healthcare .case-studies-card .devops-case-study {
+    padding-top: 0; }
+  .healthcare .case-studies-card ul li {
+    margin-left: 0; }
   .healthcare .case-studies-card .challenges-card h6 {
     margin-top: 0; }
   .healthcare .image-for-desktop {
@@ -6362,6 +6373,10 @@ i {
     background-image: url("../images/bottom-left-yellow-swoosh.png"), url("../images/top-right-yellow-swoosh.svg");
     background-position: left bottom, right top;
     background-repeat: no-repeat, no-repeat; }
+  .healthcare .case-studies-card {
+    background-image: none; }
+  .healthcare .case-studies-card .devops-case-study {
+    padding-top: 0; }
   .healthcare .case-studies-card img {
     height: 170px;
     width: auto;
