@@ -13,10 +13,10 @@
             <a class="nav-link" id="community-news-tab" data-toggle="tab" href="#community-news" role="tab" aria-controls="community-news"
                 aria-selected="false">Community News</a>
         </li>
-        <!--<li class="nav-item">
+        <li class="nav-item">
             <a class="nav-link" id="cloudops-press-tab" data-toggle="tab" href="#cloudops-press" role="tab" aria-controls="cloudops-press"
                 aria-selected="false">CloudOps Press</a>
-        </li>-->
+        </li>
     </ul>
     <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="blog" role="tabpanel"
@@ -31,7 +31,7 @@
                   <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
                     <div class="card-deck">
                       <!-- Ranges through content/posts/*.md -->
-                      <!--{{ range where $.Site.RegularPages "Section" "blog" }}
+                      {{ range where $.Site.RegularPages "Section" "blog" }}
                      <div class="card mx-auto">
                         <a href="{{.Permalink}}">
                           <div class="card-body">
@@ -47,7 +47,7 @@
                           <div class="corner-triangle"></div>
                         </a>
                       </div>
-                      {{ end }}-->
+                      {{ end }}
                     </div>
                   </div>
                 </div>
@@ -87,7 +87,7 @@
                       </div>
                     </div>
                   </div>
-              <!-- <div class="tab-pane fade" id="cloudops-press" role="tabpanel"
+              <div class="tab-pane fade" id="cloudops-press" role="tabpanel"
               aria-labelledby="cloudops-press-tab">
               <div class="stand-out">
                   <div class="row">
@@ -97,9 +97,9 @@
                   </div>
                   <div class="row">
                     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12">
-                      <div class="card-deck">-->
+                      <div class="card-deck">
                         <!-- Ranges through content/posts/*.md -->
-                       <!-- {{ range where site.Pages "Section" "cloudops-press" }}
+                       {{ range where site.Pages "Section" "cloudops-press" }}
                        <div class="card mx-auto">
                           <a href="{{.Permalink}}">
                             <div class="card-body">
@@ -120,7 +120,7 @@
                     </div>
                   </div>
                 </div>
-              </div>-->
+              </div>
             </div>
     <!-- contact us -->
     <div class="contact-us-card general-stylings-more-content">
