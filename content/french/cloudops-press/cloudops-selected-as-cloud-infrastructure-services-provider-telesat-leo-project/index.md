@@ -12,7 +12,7 @@ keywords:
 tags:
 ---
 
-<p>CloudOps s’est associée à <a href="https://www.telesat.com/">Télésat</a> pour bâtir une plateforme de production de nuage hybride, de même que des plateformes de données opérationnelles et d’entreprise pour le traitement et l’analyse de données satellites historiques et en temps réel.</p>
+<p style="text-align: center;"><i style="color: #404040;">CloudOps s’est associée à <a href="https://www.telesat.com/">Télésat</a> pour bâtir une plateforme de production de nuage hybride, de même que des plateformes de données opérationnelles et d’entreprise pour le traitement et l’analyse de données satellites historiques et en temps réel.</i></p>
 
 <p><b>Montréal, Canada, 26 mars 2021 - </b>CloudOps est ravie de fournir à Télésat les services professionnels et de consultation en infonuagique pour soutenir le développement de son réseau de satellites en orbite terrestre basse (LEO) Télésat Lightspeed. Comptant plus de quinze ans d’expérience dans le domaine de l’infonuagique, de la mise en réseau et de solutions DevOps, CloudOps est judicieusement placée pour aider Télésat dans l’adoption d’approches dans le nuage natif et de plateformes de nuage hybride qui donneront un élan à l’avenir des communications.</p>
 
