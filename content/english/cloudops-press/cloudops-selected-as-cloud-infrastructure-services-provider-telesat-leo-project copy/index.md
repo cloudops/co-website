@@ -1,6 +1,6 @@
 ---
 title: "CloudOps Selected as Cloud Infrastructure Services Partner for the Development of Telesat Lightspeed LEO Network"
-date: "2021-03-26"
+date: "2021-03-30"
 author: "CloudOps"
 resources:
 - name: "thumbnail"
