@@ -6,7 +6,9 @@ resources:
 - name: "thumbnail"
   src: "LEO.png"
 class_name: "blog post"
+slug: /cloudops-est-selectionnee-a-titre-de-partenaire-de-services-d'infrastructure-infonuagique-pour-le-developpement-du-reseau-leo
 aliases:
+    - /fr/cloudops-press/cloudops-selected-as-cloud-infrastructure-services-provider-telesat-leo-project/
 description:
 keywords:
 tags:
