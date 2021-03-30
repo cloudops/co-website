@@ -12,7 +12,7 @@ keywords:
 tags:
 ---
 
-<p>CloudOps will partner with <a href="https://www.telesat.com/press/press-releases/telesat-selects-cloudops-to-develop-cloud-infrastructure-for-telesat-lightspeed-leo-network/">Telesat</a> to build a production hybrid cloud platform as well as enterprise and operational data platforms for real-time and historical satellite data analysis and processing. CloudOps will conduct a discovery of the project before building a pilot to be brought to production.</p>
+<p>CloudOps will partner with <a style="text-decoration: underline;" href="https://www.telesat.com/press/press-releases/telesat-selects-cloudops-to-develop-cloud-infrastructure-for-telesat-lightspeed-leo-network/">Telesat</a> to build a production hybrid cloud platform as well as enterprise and operational data platforms for real-time and historical satellite data analysis and processing. CloudOps will conduct a discovery of the project before building a pilot to be brought to production.</p>
 
 <p><b>Montreal, Canada, March 30, 2021 - </b>CloudOps is pleased to provide Telesat with cloud consulting and professional services to support the development of its Telesat Lightspeed Low Earth Orbit (LEO) satellite network. With over fifteen years of experience in cloud computing, networking, and DevOps solutions, CloudOps is in a unique position to help Telesat embrace cloud native approaches and hybrid cloud platforms that enable the future of communications.</p>
 
