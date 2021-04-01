@@ -1,5 +1,5 @@
 ---
-title: "How CloudOps is Supporting Healthcare Outcomes"
+title: "Comment CloudOps appuie les résultats dans les soins de santé"
 lastmod: "2021-03-31"
 author: "CloudOps"
 resources:
