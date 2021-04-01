@@ -24,6 +24,6 @@ tags:
     <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
     <a href="/resources/white-papers/azure-kubernetes-services-container-security-for-a-cloud-native-world/">
       <img src="/images/blog/cta/free-ebook.jpeg">
-    </a/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/>
+    </a>
     </div>
 </div>
