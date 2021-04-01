@@ -38,11 +38,3 @@ Canonical partners with Google to allow GKE worker nodes to leverage Canonical�
 <h2><strong>Navigating the Open Seas</strong></h2>
 <p>Kubernetes has proven itself to be a robust and reliable technology that will increase the agility and efficiency of your organization. Its installation and management can be complex, but there are tools to help. ‘Vanilla’ deployments offer flexibility, but the operational intricacy can be overwhelming for smaller, more inexperienced teams that don’t have to operate too many clusters. Distributions manage platform architectures and dependencies by prescribing deployments, which makes it faster for developers to push application code to source control repos. Managed services assume total responsibility for the operation of the Kubernetes management layer enabling developers to very quickly develop, deploy, and scale cloud applications with on-demand clusters. The process is easier but the flexibility limited and there’s a strong risk of vendor lock-in. Think about your organization’s requirements when choosing a solution for Kubernetes</p>
 <p>As a Certified Kubernetes Service Provider (KCSP), CloudOps offers hands-on <a href="/calendar" target="_blank" rel="noopener noreferrer">workshops and trainings</a> that focus on learning how to deploy Docker and Kubernetes technologies on <a href="/microservices-docker-kubernetes" target="_blank" rel="noopener noreferrer">public clouds</a>, including on <a href="/microservices-docker-kubernetes" target="_blank" rel="noopener noreferrer">GCP</a>. For those who are unsure about which route to take, we perform <a href="/devops-platform-practices-assessment" target="_blank" rel="noopener noreferrer">Application Platform Assessments</a> that evaluate the business and technical needs of your organization to help define the ideal solution.</p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/workshops">
-      <img src="/images/blog/cta/workshop-white.jpeg">
-      </a>
-    </div>
-</div>

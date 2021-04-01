@@ -60,9 +60,3 @@ tags:
 <p>Istio, Linkerd, Consul Connect, and Citrix ADC each have their benefits that may or may not match your technology stack’s requirements. Istio is the most advanced service mesh available, but can be complex and difficult to manage and scale. In contrast, Linkerd offers a straightforward service mesh that is easier to implement and operate but offers less flexibility. Consul Connect provides integrations with other HashiCorp solutions, notably Consul and Vault while Citrix ADC offers rich load balancing features and can handle heavy infrastructure networking traffic and offer scalable SSL offload for public traffic.&nbsp;</p>
 
 <p>To learn more about implementing service mesh solutions as part of a wider DevOps practice, sign up for one our <a href="https://www.cloudops.com/workshops/">DevOps workshops</a>. They can be taken in person or online and cover a wide variety of topics. For example, our hands-on, 3-day Docker and Kubernetes workshops include labs and will teach you everything needed to get containers started in production.</p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-      <img src="/images/blog/cta/devOpsWork.webp">
-    </div>
-</div>

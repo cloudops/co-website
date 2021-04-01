@@ -43,11 +43,3 @@ tags:
 <p>CloudOps is cloud and tool agnostic but opinionated, and we understand that a mixture of open source and proprietary tools are required to serve their customers best. For customers that require commercial solutions, we have partnered with industry leaders to create a <a href="/blog/a-best-of-breed-toolbox-for-using-cloud/">best-of-breed toolbox</a> for consuming cloud that can be replicated across a variety of platforms and adapted to a variety of customers.</p>
 
 <p>CloudOps is a cloud consulting and managed services company that helps customers own their destinies in the cloud, leveraging cloud infrastructures that suit their requirements while maintaining the freedom to pivot as needed. We help our customers <em>own their destinies in the cloud </em>by building, operating, and transferring value in the application platform. With over fifteen years of experience working with open source tools and communities, DevOps practices, and cloud platforms, we can help organizations innovate their cloud native technology stacks more quickly than they would on their own.&nbsp;</p>
-
-<p><a href="https://www.cloudops.com/contact-us/">Contact us</a> to learn how we can help your organization overcome its unique challenges and create a forward-thinking cloud strategy.</p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-      <img src="/images/blog/cta/white-paper.jpeg">
-    </div>
-</div>

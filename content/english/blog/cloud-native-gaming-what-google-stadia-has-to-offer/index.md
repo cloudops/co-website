@@ -43,11 +43,3 @@ tags:
 <p><strong>Carol Trang</strong></p>
 
 <p>Carol Trang is a community manager at CloudOps and organizer of the Eastern Canadian Kubernetes and Cloud Native Meetups. She is a co-host for the <a href="http://goodgamegeeks.podbean.com">Good Game Geeks Podcast </a>and lead organizer of the <a href="https://meetups.twitch.tv/montreal/">Montreal Community Meetup Powered by Twitch.</a></p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/workshops">
-      <img src="/images/blog/cta/devops-workshop.webp">
-    </a>
-    </div>
-</div>

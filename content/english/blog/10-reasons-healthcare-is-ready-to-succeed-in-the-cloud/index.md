@@ -61,9 +61,3 @@ tags: [business value, devops, cloud native]
 <p>A move to the cloud gives CIOs the opportunity to manage their IT most cost-effectively, shifting to an investment in operational costs rather than capital expenditures that will soon become obsolete. This helps organizations save money and become more agile</p>
 
 <p>Healthcare organizations are increasingly looking to succeed in the cloud, in order to deliver innovation and patient care in dynamic yet highly regulated environments. Cloud native applications are complex and can pose <a href="https://www.cloudops.com/blog/top-7-challenges-to-becoming-cloud-native/">challenges</a>. Today, healthcare organizations are ready to succeed in the cloud. Not only do decision-makers have the urgency, but they also have a clear pathway. <a href="https://www.cloudops.com/contact-us/">Contact us</a> to learn how CloudOps can help you on your journey.</p>
-
-&nbsp;
-
-<div style="text-align: center;">
-<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-9a9feee6-3a5f-4335-93a4-b4964ab1ce5c"><span class="hs-cta-node hs-cta-9a9feee6-3a5f-4335-93a4-b4964ab1ce5c" id="hs-cta-9a9feee6-3a5f-4335-93a4-b4964ab1ce5c"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/732832/9a9feee6-3a5f-4335-93a4-b4964ab1ce5c"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-9a9feee6-3a5f-4335-93a4-b4964ab1ce5c" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/732832/9a9feee6-3a5f-4335-93a4-b4964ab1ce5c.png"  alt="New call-to-action"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(732832, '9a9feee6-3a5f-4335-93a4-b4964ab1ce5c', {}); </script></span><!-- end HubSpot Call-to-Action Code -->
-</div>

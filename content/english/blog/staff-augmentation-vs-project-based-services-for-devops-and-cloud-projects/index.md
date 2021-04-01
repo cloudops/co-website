@@ -65,11 +65,3 @@ tags:
 <p>CloudOps’ <a href="https://www.cloudops.com/kubernetes-cloud-native/">consulting services</a> and professional services are both planned models. We’re accountable for the success of the solution, which we train our partners to use. With almost fifteen years of industry experience, our teams of experts have a wealth of collective knowledge that let us finish projects more quickly and efficiently than those starting DevOps journeys for the first time. We pride ourselves on remaining tool- and platform-agnostic, meaning we have the breadth of experience to implement whichever solutions are most suited to your unique requirements. We <a href="https://www.cloudops.com/2019/12/what-we-promise-our-customers/">promise</a> to help our customers <em>own their destinies in the cloud.</em></p>
 
 <p>To receive an actionable blueprint for accelerating your feature velocity, download our white paper ‘<a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">How to Initiate DevOps Transformation by Assessing Culture and Processes</a>.’</p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">
-      <img src="/images/blog/cta/white-paper.jpeg">
-    </a>
-    </div>
-</div>

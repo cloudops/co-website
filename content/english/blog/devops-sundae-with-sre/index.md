@@ -52,14 +52,6 @@ tags:
 
 <p>Empowering operations begins with training. Our DevOps workshops will equip your technical teams with the tools and practices needed to modernize application platforms. Application developers can learn how to use such platforms, platform operators how to manage, or SREs how to build. <a href="/workshops-information">Contact us</a> to request a private workshop customized to your organization’s unique requirements, or visit our <a href="/calendar">workshop calendar</a> to find out when our next public and online workshops are.</p>
 
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/workshops">
-      <img src="/images/blog/cta/workshop-white.jpeg">
-    </a>
-    </div>
-</div>
-
 <img class="alignleft" src="/images/blog/post/will.jpg" alt="Will Stevens, CTO" width="150">
 <h2>Will Stevens</h2>
 <p>As CloudOps’ first employee and current CTO, Will Stevens has experienced the significant shift of organizations adopting the cloud, both from a technical and business value perspective. With a background in development, Will has worked with multiple customers to facilitate the consumption of cloud services, as well as with service providers to deliver cloud solutions. Will was the VP of Apache CloudStack and is currently a member of the Open Source Advisory Council of Canada.</p>

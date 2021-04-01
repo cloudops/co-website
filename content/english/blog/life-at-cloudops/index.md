@@ -55,11 +55,3 @@ Life at CloudOps is ultimately about imagining a career that doesn’t yet exist
 Your work helps define you, but it shouldn’t be the only thing that defines you. We value our employees and are understanding of personal needs. We work sustainably. Flexible hours, the ability to work remotely, and a casual dress code all help sustain a healthy work-life balance. Many of our employees have passion projects on the side. Some even run their own startups, the data for which they store on cloud.ca, a regional, Canadian cloud that we partner with, at our cost. Having a fulfilling life outside of work is central to our lifestyle at CloudOps.
 
 We’re striving to empower passionate people to own their destinies in the cloud alongside us. Interested in joining our team? Check out our [careers page](/careers) or [send us a message!](/contact-us) We’d love to hear from you.
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-        <a href="/workshops">
-      <img src="/images/blog/cta/devops-workshop.webp">
-      </a>
-    </div>
-</div>

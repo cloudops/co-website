@@ -49,13 +49,3 @@ tags:
 <p>These are a few of the commercial partners we work with to deliver cloud solutions. We also work with customers that have investments in other solutions. It’s important to use the right tool for the right job, so you can build a toolbox of solutions that suit your unique business case.</p>
 
 <p>The first step to navigating the cloud native landscape is equipping yourself with the right tools. Our DevOps workshops will give your technical teams a variety of skills needed to survive, even thrive, amidst its complexities. Check out our <a href="calendar">workshop calendar</a> to view the dates of our upcoming public workshops. Our next online workshop will be on <a href="/devops-monitoring">DevOps Monitoring</a> – with so many changes happening, you need a monitoring system that will keep you ahead of the curve.</p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/devops-monitoring">
-      <img src="/images/blog/cta/monitoring-workshop.png">
-    </a>
-    </div>
-</div>
-
-<p><small>Featured image by Cesar Carlevarino Aragon</small></p>

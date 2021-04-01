@@ -41,11 +41,3 @@ tags:
 <p>Assessing your performance across these four phases of software releases will allow you to start overcoming your biggest roadblocks to high-velocity software release cycles.</p>
 
 <p>Always keep in mind that DevOps is not just about tools and processes, it’s also about culture. DevOps organizations are not monolithic or hierarchical in structure and are therefore not slow to pivot or deliver software releases. They are instead comprised of many small teams, each of which is multi-disciplinary and able to act quickly and autonomously. Only once leaders have shifted the culture of an organization can they focus on defining a blueprint for adopting tools and processes that will sustain accelerated software delivery.</p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">
-      <img src="/images/blog/cta/white-paper.jpeg">
-    </a>
-    </div>
-</div>

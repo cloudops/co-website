@@ -37,11 +37,3 @@ tags:
 <p>A CCoE represents the best way to actualize the benefits of cloud. By defining goals of what you wish to take from the cloud, you can identify what value you must create for yourself with open source tools. By outlining a framework for achieving those goals, you maximize your ability to benefit from AWS’ rich library of features while remaining in control of your long-term roadmap. Owning your destiny in the cloud means taking full advantage of whichever cloud platform you choose to leverage while minimizing the risk of vendor lock-in.</p>
 
 <p>To learn how to identify the gaps holding your cloud structure back from becoming a CCoE<strong> </strong>read our white paper called ‘<a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="https://info.cloudops.com/initiate-devops-transformation-by-assessing-culture-and-processes?utm_source=CCoE%20Blog%20Post&amp;utm_medium=Download%20this%20white%20paper%20text&amp;utm_campaign=DevOps%20Transformation%20white%20paper" target="_blank">How to Initiate DevOps Transformation by Assessing Culture and Processes.</a>’ By creating a clear strategy for aligning your technology around cloud and implementing best practices for doing so, you will enable your organization to benefit from the full ROI that AWS can offer.</p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">
-      <img src="/images/blog/cta/white-paper.jpeg">
-    </a>
-    </div>
-</div>

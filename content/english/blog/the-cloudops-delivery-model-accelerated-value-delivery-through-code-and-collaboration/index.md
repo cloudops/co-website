@@ -64,11 +64,3 @@ tags:
 <p>CloudOps’ <a href="https://www.cloudops.com/devops-platform-and-practices-assessment/">DevOps Platform and Practices Assessment (DPPA)</a> will analyse the existing systems in your technology stack and provide recommendations for building an application platform that takes your business and technical requirements into account. Whether you are getting ready to migrate your application into the cloud and need help crafting and executing a strategy, or you hope to optimize your existing solution in the cloud by adopting DevOps tools and processes, our DPPA will set you on the right track.</p>
 
 <p><a href="https://www.cloudops.com/about-us/contact-us/"><strong>Contact us</strong></a><strong> to learn more about how we can provide you with a blueprint for cloud migration, or download our white paper to start thinking about your current technology stack.</strong></p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes">
-      <img src="/images/blog/cta/white-paper.jpeg">
-    </a>
-    </div>
-</div>

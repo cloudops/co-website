@@ -29,7 +29,3 @@ tags:
 <img style="width: 150px;" src="/images/blog/post/CarloDeLaFuente.jpg" alt="" class="alignleft">
 <h4>Ariel Zolezzi</h4>
 <p>Ariel Zolezzi is the Office Manager at CloudOps who works hard keeping the team happy and healthy. She is a non-binary spirit who’s been having a human experience since the early 90s. Some of her hobbies include long walks around the city of Montreal, exploring her spiritual side and watching old Hollywood movies with her cats.</p>
-
-
-<p>&nbsp;</p>
-<p><small>Stock photo by&nbsp;<a href="https://www.pexels.com/@andrew?utm_content=attributionCopyText&amp;utm_medium=referral&amp;utm_source=pexels">Andrew Neel</a></small></p>
