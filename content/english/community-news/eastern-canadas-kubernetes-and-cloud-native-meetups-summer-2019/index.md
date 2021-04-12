@@ -34,30 +34,30 @@ tags:
 <h2>Carol Trang</h2>
 <p>Carol Trang is Community Manager at CloudOps and organizer of the Eastern Canadian Kubernetes and Cloud Native Meetups. She is also part of the organizing committee for DevOpsDays Montreal and Cloud Native Day Montreal. Community lead and organiser of Montreal Conmunity Meetups Powered by Twitch, Carol brings a background in gaming to the Cloud Native landscape. She looks forward to helping the community level-up before exploring the Cloud Native landscape.</p>
 
-<img src="/images/blog/post/TO-Connectedio-Q3-2019.jpg" class="main-blog-image">
+<img src="/images/blog/post/TO-Connectedio-Q3-2019.jpg" width="100%">
 <p></p>
-<img src="/images/blog/post/Survey-Monkey-OTT.jpeg" class="main-blog-image">
+<img src="/images/blog/post/Survey-Monkey-OTT.jpeg" width="100%">
 <p></p>
-<img src="/images/blog/post/QC-LECAMP.jpg" class="main-blog-image">
+<img src="/images/blog/post/QC-LECAMP.jpg" width="100%">
 <p></p>
-<img src="/images/blog/post/QC-LECAMP-1.jpg" class="main-blog-image">
+<img src="/images/blog/post/QC-LECAMP-1.jpg" width="100%">
 <p></p>
-<img src="/images/blog/post/OTT-Survey-Monkey.jpeg" class="main-blog-image">
+<img src="/images/blog/post/OTT-Survey-Monkey.jpeg" width="100%">
 <p></p>
-<img src="/images/blog/post/OTT-Scott-Cranton.jpeg" class="main-blog-image">
+<img src="/images/blog/post/OTT-Scott-Cranton.jpeg" width="100%">
 <p></p>
-<img src="/images/blog/post/MTL-Nuance.jpg" class="main-blog-image">
+<img src="/images/blog/post/MTL-Nuance.jpg" width="100%">
 <p></p>
-<img src="/images/blog/post/soloio.jpeg" class="main-blog-image">
+<img src="/images/blog/post/soloio.jpeg" width="100%">
 <p></p>
-<img src="/images/blog/post/LindseyTulloch.jpg" class="main-blog-image">
+<img src="/images/blog/post/LindseyTulloch.jpg" width="100%">
 <p></p>
-<img src="/images/blog/post/KW-Meetup-Q3-2019.jpg" class="main-blog-image">
+<img src="/images/blog/post/KW-Meetup-Q3-2019.jpg" width="100%">
 <p></p>
-<img src="/images/blog/post/20190827_193143-2.jpg" class="main-blog-image">
+<img src="/images/blog/post/20190827_193143-2.jpg" width="100%">
 <p></p>
-<img src="/images/blog/post/20190827_181739-2.jpg" class="main-blog-image">
+<img src="/images/blog/post/20190827_181739-2.jpg" width="100%">
 <p></p>
-<img src="/images/blog/post/KW-Meetup-Q3-2019-2.jpg" class="main-blog-image">
+<img src="/images/blog/post/KW-Meetup-Q3-2019-2.jpg" width="100%">
 <p></p>
-<img src="/images/blog/post/20190827_180625-2.jpg" class="main-blog-image">
+<img src="/images/blog/post/20190827_180625-2.jpg" width="100%">

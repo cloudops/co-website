@@ -27,7 +27,7 @@ First, let's step back just a little bit and try to understand it piece by piece
 
 Let's take a look at what the Kubernetes API gives to us:
 
-<a href="https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources" target="_blank" rel="no-follow"><img src="/images/blog/post/kubernetes-101.png"></a>
+<a href="https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources" target="_blank" rel="no-follow"><img src="/images/blog/post/kubernetes-101.png" width="100%"></a>
 
 All those features are shared between native Kubernetes objects. Many well-designed operations such as create, read, update and delete, the capability of watching endpoints, authentication and authorization, and much more.
 

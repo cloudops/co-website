@@ -7,6 +7,9 @@ aliases:
     - /fr/2012/05/interop-enterprise-cloud-summit-2/ 
     - /fr/tags/
     - /fr/categories/
+    - /fr/tags/devops/
+    - /fr/tags/business-value/
+    - /fr/tags/cloud-native/
 ---
 
 <div class="blog-main">

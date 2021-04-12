@@ -34,7 +34,7 @@ tags:
 
 <p>Software releases are delayed as any problem in the delivery pipeline has cascading effects. This results in an overall decrease in release velocity, code quality, and efficiency as well as a release cycle burdened with process. The final features or products released to customers are not in sync with market requirements, which can have dramatically negative impacts on the ability of a business to remain competitive.</p>
 
-<img src="/images/blog/post/Siloed-tasks-of-traditional-IT-separated-by-walls-of-confusion.png"><figcaption>Siloed tasks of traditional IT separated by walls of confusion</figcaption>
+<img src="/images/blog/post/Siloed-tasks-of-traditional-IT-separated-by-walls-of-confusion.png" width="100%"><figcaption>Siloed tasks of traditional IT separated by walls of confusion</figcaption>
 
 <h2><strong>DevOps </strong></h2>
 
@@ -64,7 +64,7 @@ tags:
 
 <p>By assessing your infrastructure and practices, devising a transformation plan, training your team, and providing support throughout the process, CloudOps can help you adopt future-proof solutions and processes in a matter of weeks. This will allow you to circumvent what could be a year of decision-making and experimentation, instead visiting a one-stop shop to optimize how your cloud services are consumed, delivered, and connected.</p>
 
-<img src="/images/blog/post/Journeying-to-CloudOps-with-or-without-CloudOps.png"><figcaption>Timeline of a Journey to DevOps</figcaption>
+<img src="/images/blog/post/Journeying-to-CloudOps-with-or-without-CloudOps.png" width="100%"><figcaption>Timeline of a Journey to DevOps</figcaption>
 
 <p><a href="/transformations/">Click here</a> to learn more about how CloudOps can help your organization move towards a DevOps Transformation.</p>
 

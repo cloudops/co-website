@@ -31,6 +31,9 @@ aliases:
     - /categories/
     - /category/news-releases/
     - /category/news-releases/page/1/
+    - /tags/devops/
+    - /tags/cloud-native/
+    - /tags/business-value/
 ---
 
 <div class="blog-main">
