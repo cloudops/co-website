@@ -28,7 +28,7 @@ Avant tout, prenons un peu de recul pour essayer de comprendre élément par él
 
 Jetons un œil à ce que nous apporte L'API Kubernetes:
 
-<a href="https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources" target="_blank" rel="no-follow"><img src="/images/blog/post/kubernetes-101.png"></a>
+<a href="https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources" target="_blank" rel="no-follow"><img src="/images/blog/post/kubernetes-101.png" width="100%"></a>
 
 Toutes ces fonctionnalités sont partagées entre les objets Kubernetes natifs. De nombreuses opérations bien conçues telles que créer, lire, mettre à jour et supprimer, la capacité de surveiller les extrémités, l'authentification et l'autorisation et plus encore.
 
