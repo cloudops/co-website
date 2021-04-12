@@ -69,11 +69,3 @@ tags:
 <p>A CI/CD pipeline with fancy tools and no culture change will not have the feature velocity that DevOps can provide. Tools may have the capacity to release software quickly, but it’s really culture and people processes that DevOps is all about. Change your culture before your tools so that your empowered teams can choose tools that most suit their use cases.</p>
 
 <p>Companies that weave these nine principles into their culture will accelerate their delivery of goods and services and be more able to respond to customer demand. Download our white paper below to receive an actionable blueprint for analyzing culture and processes as part of DevOps transformation.</p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">
-      <img src="/images/blog/cta/white-paper.jpeg">
-    </a>
-    </div>
-</div>

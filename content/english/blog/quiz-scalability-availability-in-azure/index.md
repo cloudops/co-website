@@ -19,12 +19,3 @@ tags:
 </p>
 
 Read our ebook <a href="https://www.cloudops.com/resources/white-papers/azure-kubernetes-services-container-security-for-a-cloud-native-world/" target="_blank" rel="noopener noreferrer">AKS: Container Security for a Cloud Native World</a> to learn about the biggest container security risks as well as how to optimize solutions with AKS.
-
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/resources/white-papers/azure-kubernetes-services-container-security-for-a-cloud-native-world">
-      <img src="/images/blog/cta/free-ebook.jpeg">
-    </a>
-    </div>
-</div>

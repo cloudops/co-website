@@ -46,11 +46,3 @@ tags:
 <p><strong>Containers are no less secure than VMs, but their security can require completely different processes and tools.</strong> Security must be made part of a wider DevOps practice that shifts responsibility left, reduces attack surfaces, uses container-specific and tools, groups containers, and automates as much as possible.</p>
 
 <p>Building your deployments around container-specific best practices is essential for securing your containerized application. It will provide you with opportunities to secure your software delivery pipelines at scale and better align your operational practices with your organization’s specific goals.</p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">
-      <img src="/images/blog/cta/white-paper.jpeg">
-    </a>
-    </div>
-</div>

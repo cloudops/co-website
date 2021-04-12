@@ -84,11 +84,3 @@ tags:
 <p>DevOps cultures are first and foremost learning cultures. To remain competitive, organizations must constantly reflect and improve, learning both about themselves and their markets – a topic which you can learn more about in our white paper called ‘<a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">How to Initiate DevOps Transformation by Assessing Culture and Processes</a>.’</p>
 
 <p>Books and white papers are great, but sometimes you need the insight only an experienced team of experts can provide. <a href="/devops-platform-practices-assessment/">Contact us to learn how our DevOps Platform and Practices Assessment (DPPA) can shed light on the unique strengths and weaknesses of your delivery pipelines</a>, providing recommendations that will launch you on the path toward application modernization.</p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">
-      <img src="/images/blog/cta/white-paper.jpeg">
-    </a>
-    </div>
-</div>

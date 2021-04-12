@@ -30,14 +30,4 @@ tags:
 
 <p>Welcome to 2020!</p><p>– Ian</p><img src="/images/blog/post/cloudops-by-eva-blue-097.jpg" alt="" class="align-left" width="298">
 
-<p></p>
-<br>
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/workshops">
-      <img src="/images/blog/cta/devops-workshop.webp">
-    </a>
-    </div>
-</div>
-
 <p><em>Featured image taken by Alfred Twj (<a href="https://unsplash.com/@alfredtwj">@alfredtwj</a>)</em></p>

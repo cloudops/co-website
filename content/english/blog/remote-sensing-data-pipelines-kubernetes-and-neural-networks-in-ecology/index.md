@@ -58,13 +58,6 @@ tags:
 
 <p>Kubernetes and cloud native technologies have allowed scientists to store and make sense of the data collected by remote sensing. Nonetheless, these technologies can be difficult to learn and master. CloudOps’ <a href="https://www.cloudops.com/workshops/">DevOps workshops</a> will deepen your understanding of cloud native technologies with hands-on training. Take our 3-day <a href="https://www.cloudops.com/workshops/https://www.cloudops.com/workshops/https://www.cloudops.com/workshops/#DockerK8s">Docker and Kubernetes workshop</a> to get started using containers in development or production, or our 2-day <a href="https://www.cloudops.com/workshops/#machineLearning">Machine Learning workshop</a> to make your ML workflows simple, portable, and scalable with Kubernetes and other open source tools.</p>
 
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/workshops">
-      <img src="/images/blog/cta/devops-workshop.webp">
-    </a>
-    </div>
-</div>
 <img class="alignleft" width="150px" src="/images/blog/post/tristan.jpg">
 <h4>Tristan Kosciuch</h4>
 <p>Tristan is an evolutionary biologist interested in the effects of landscape levels on genetic and phenotypic variation. He works in Vancouver Island on threespine stickleback and in the Lake Victoria basin on Nile perch and haplochromine cichlids. His work on stickleback uses remote sensing to quantify environments to test the predictability of evolution.</p>

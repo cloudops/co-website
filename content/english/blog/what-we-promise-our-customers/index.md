@@ -43,11 +43,3 @@ tags:
 <p>We promise to evolve your organization towards DevOps adoption, empowering your infrastructure and application platform to fully support your application development well into the future.</p>
 
 <p>Our <a href="/devops-platform-practices-assessment/">DevOps Platform and Practices Assessment</a> will give you visibility into your platform’s tools and processes and shine light on the path towards modernization. <a href="/contact-us">Contact us</a> for more information.</p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">
-      <img src="/images/blog/cta/white-paper.jpeg">
-      </a>
-    </div>
-</div>

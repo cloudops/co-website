@@ -54,11 +54,3 @@ tags:
 <p>To analyze your technology stack, read<a href="/resources/white-papers/a-checklist-for-your-cloud-migration-strategy/"> ‘A Checklist for Your Cloud Migration Strategy’</a>. You will receive a guide for understanding your hardware, OSes, middleware, and software, with an emphasis on translating legacy tools into cloud native equivalents.</p>
 
 <p>Take your first steps to a more economical cloud journey. Our <a href="/devops-platform-practices-assessment/">DevOps Platform and Practices Assessment</a> will provide you with visibility into your infrastructure. It will identify any key gaps and provide recommendations for increasing your feature velocity and efficiency.</p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">
-      <img src="/images/blog/cta/white-paper.jpeg">
-    </a>
-    </div>
-</div>

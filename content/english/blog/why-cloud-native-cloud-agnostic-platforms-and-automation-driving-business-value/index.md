@@ -49,13 +49,3 @@ tags:
 <p>Cloud native tools provide a rich set of automated APIs that can be deployed on any cloud platform. Their open standards mean that organizations can adopt PaaS services without locking themselves into a vendor. Cloud native platforms are cloud agnostic and allow applications to take full advantage of the cloud’s auto-provisioning, auto-scaling, and auto-redundant deliverables. They have optimized their cloud consumption and enable software developers to build great products faster.</p>
 
 <p>As a member of the CNCF and as a Kubernetes Certified Service Provider and Training Partner, CloudOps is in a unique position to help you better understand how to adopt cloud native practices and technologies. Sign up for a <a href="/calendar/" target="_blank" rel="noopener noreferrer">workshop</a> to learn more about DevOps practices and toolings or <a href="mailto:info@cloudops.com" target="_blank" rel="noopener noreferrer">contact us </a>for help assessing and optimizing your technology stack as part of a<a href="/transformation" target="_blank" rel="noopener noreferrer">DevOps Transformation.</a></p>
-
-<p><small><a href="https://www.aryaka.com/blog/cloud-evolution-drives-wan-evolution/" target="_blank" rel="noopener noreferrer">Photo credit</a></small></p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">
-      <img src="/images/blog/cta/white-paper.jpeg">
-    </a>
-    </div>
-</div>

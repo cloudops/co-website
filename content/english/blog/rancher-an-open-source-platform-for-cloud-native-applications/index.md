@@ -40,6 +40,4 @@ In <a href="https://www.cloudops.com/blog/the-biggest-myths-of-multi-cloud/?utm_
 
 <p>To learn CloudOps helps organizations build and operate cloud native technology stacks, read our white paper <a href="https://www.cloudops.com/resources/white-papers/securing-your-devops-platform-financial-institutions/" target="_blank">'Securing Your DevOps Platform'</a>.</p>
 
-<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-c03a0dc7-f125-466a-b050-adc55962091e"><span class="hs-cta-node hs-cta-c03a0dc7-f125-466a-b050-adc55962091e" id="hs-cta-c03a0dc7-f125-466a-b050-adc55962091e"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/732832/c03a0dc7-f125-466a-b050-adc55962091e"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-c03a0dc7-f125-466a-b050-adc55962091e" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/732832/c03a0dc7-f125-466a-b050-adc55962091e.png"  alt="New call-to-action"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(732832, 'c03a0dc7-f125-466a-b050-adc55962091e', {}); </script></span><!-- end HubSpot Call-to-Action Code -->
-
 </div>

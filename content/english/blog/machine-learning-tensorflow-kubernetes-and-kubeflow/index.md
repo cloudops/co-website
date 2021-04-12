@@ -42,12 +42,6 @@ tags:
 
 <p>There is a vast pool of information available in the cloud, but its extent has not been fully accessible to machine learning. Kubeflow 1.0 promises ML the ability to keep up with the constant growth of data in the cloud. It integrates ML into the layer of container orchestration, providing models with a greater ease of operations, scalability, and portability. It provides a complete, containerized stack that can be quickly and simplistically deployed. Kubeflow 1.0 allows computers to train themselves with many more sets of data using a reliable and comprehensive stack.<a href="https://www.cloudops.com/workshops/" target="_blank" rel="noopener noreferrer">Sign your technical teams up for one of our hands-on workshops to learn more about machine learning.</a></p>
 
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-      <img src="/images/blog/cta/workshop-white.jpeg">
-    </div>
-</div>
-
 <img class="alignleft" src="/images/blog/post/0.jpg" alt="" class="wp-image-5084" width="150">
 <h3>Syed Ahmed</h3>
 <p>Syed Ahmed is a software developer at CloudOps. He focuses on integrations and hard-to-solve problems. With extensive knowledge throughout both the hardware and software stacks, he adds a unique perspective to solving integration and orchestration challenges. Syed is an avid open source contributor, and a Commiter and PMC in the Apache Cloudstack project. Syed helps drive workshop content for CloudOps’ workshops, covering solutions including Docker and Kubernetes.</p>

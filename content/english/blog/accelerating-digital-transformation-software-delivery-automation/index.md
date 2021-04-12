@@ -105,9 +105,3 @@ tags:
 
 <h3>Sunil Mavadia</h3>
 <p>Sunil Mavadia is Director of Global Solutions Architecture at Cloudbees.  He has led a number of transformations and has been in the Release and Build Engineering industry for over 20 years. Throughout the past 10 years of his career, he has been a public speaker on DevOps and Digital Transformations, helping and guiding companies through their Digital Transformations.</p>
-
-&nbsp;
-
-<div style="text-align: center;">
-<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-9a9feee6-3a5f-4335-93a4-b4964ab1ce5c"><span class="hs-cta-node hs-cta-9a9feee6-3a5f-4335-93a4-b4964ab1ce5c" id="hs-cta-9a9feee6-3a5f-4335-93a4-b4964ab1ce5c"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/732832/9a9feee6-3a5f-4335-93a4-b4964ab1ce5c"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-9a9feee6-3a5f-4335-93a4-b4964ab1ce5c" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/732832/9a9feee6-3a5f-4335-93a4-b4964ab1ce5c.png"  alt="New call-to-action"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(732832, '9a9feee6-3a5f-4335-93a4-b4964ab1ce5c', {}); </script></span><!-- end HubSpot Call-to-Action Code -->
-</div>

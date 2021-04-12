@@ -292,9 +292,3 @@ Source+Code+Pro:300,600|Titillium+Web:400,600,700”
 ...</code></pre>
 
 <p>Now that you’ve been introduced to Kubernetes networking, it’s time to learn more. Our ebook&nbsp;<a href="https://info.cloudops.com/en/beginners-guide-to-kubernetes">The Beginner’s Guide to Kubernetes</a>&nbsp;will show you what else can be done with Kubernetes networking as well as provide resources into Kubernetes deployments, volumes, and security.</p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-      <img src="/images/blog/cta/kubernetes-learning.webp">
-    </div>
-</div>

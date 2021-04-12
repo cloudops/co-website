@@ -68,13 +68,5 @@ tags:
 
 <p><a href="/transformations/">Click here</a> to learn more about how CloudOps can help your organization move towards a DevOps Transformation.</p>
 
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">
-      <img src="/images/blog/cta/white-paper.jpeg">
-    </a>
-    </div>
-</div>
-
 <p>Resources:</p>
 <ul style="font-size: 10px;"><li> 1. Bessen, James E. <em>Automation and Jobs: When Technology Boosts Employment. </em>(Boston University School of Law), Law and Economics Paper, n. 17-09, 2017.</li><li>2. GartnerApps, November, 2016</li><li>3. Cloudbees, <em>Digital Darwinism: Driving Digital Transformation with DevOps and Continuous Delivery, </em>2018, https://s3-us-west-2.amazonaws.com/ab-media-prod-01/cloudbees-ab/2018/07/digital_darwinism_with_devops_and_continuous_delivery1.pdf</li><li>4. Panetta, Kasey, <a href="https://www.gartner.com/smarterwithgartner/2017-ceo-survey-infographic/"><em>Gartner CEO Survey</em></a>, 2017.</li><li>5. Klavens, Elinor, Robert Stroud, Eveline Oehrlich, Glenn O’Donnell, Amanda LeClair, Aaron Kinch, and Diane Kinch, <em>A Dangerous Disconnect: Executives Overestimate DevOps Maturity. </em>(Cambridge, MA), Forrester, 2017.</li><li></li></ul>

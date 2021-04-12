@@ -33,11 +33,3 @@ tags:
 <p>No two BizDevOps journeys are the same, and the biggest challenge is never technical but cultural. DevOps adoption is usually about 80% cultural and only 20% technical. Steps that evolve culture by promoting structures that are not hierarchical but instead flat and empowered, focusing on teams and people instead of projects, and preventing us against them mentalities or command and control management styles will be what truly enables BizDevOps adoption.</p>
 
 <p>Download our white paper called ‘<a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">How to Initiate DevOps Transformation by Assessing Culture and Processes</a>’ to learn more about launching your organization toward DevOps success. In addition to understanding what constitutes a DevOps culture, you will learn how to evaluate and measure processes.</p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/resources/white-papers/how-to-initiate-devops-transformation-by-assessing-culture-and-processes/">
-      <img src="/images/blog/cta/white-paper.jpeg">
-    </a>
-    </div>
-</div>

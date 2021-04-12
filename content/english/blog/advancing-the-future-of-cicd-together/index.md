@@ -39,7 +39,3 @@ You can be involved by signing up for the CDF <a href="https://cd.foundation/sta
 <h3>Tracy Miranda</h3>
 
 <p>Tracy Miranda is the director of Open Source at CloudBees and also the chair of the Continuous Delivery Foundation.</p>
-
-<div style="text-align: center;">
-<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-9a9feee6-3a5f-4335-93a4-b4964ab1ce5c"><span class="hs-cta-node hs-cta-9a9feee6-3a5f-4335-93a4-b4964ab1ce5c" id="hs-cta-9a9feee6-3a5f-4335-93a4-b4964ab1ce5c"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/732832/9a9feee6-3a5f-4335-93a4-b4964ab1ce5c"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-9a9feee6-3a5f-4335-93a4-b4964ab1ce5c" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/732832/9a9feee6-3a5f-4335-93a4-b4964ab1ce5c.png"  alt="New call-to-action"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(732832, '9a9feee6-3a5f-4335-93a4-b4964ab1ce5c', {}); </script></span><!-- end HubSpot Call-to-Action Code -->
-</div>

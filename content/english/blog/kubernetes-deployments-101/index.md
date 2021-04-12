@@ -197,11 +197,3 @@ example-deployment-7ffc49755-xj2d2      1/1            Running                  
 
 <p>Now that you’ve been introduced to Kubernetes deployments, it’s time to learn more. Our ebook     <a href="/resources/white-papers/beginners-guide-to-kubernetes/">
 The Beginner’s Guide to Kubernetes</a> will show you what else can be done with Kubernetes deployments as well as provide resources into Kubernetes networking, volumes, and security.</p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/resources/white-papers/beginners-guide-to-kubernetes/">
-      <img src="/images/blog/cta/k8s-ebook-cta.png" width="100%">
-    </a>
-    </div>
-</div>

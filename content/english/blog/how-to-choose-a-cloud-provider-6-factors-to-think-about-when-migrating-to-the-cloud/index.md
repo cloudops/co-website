@@ -55,11 +55,3 @@ tags:
 <p>A cloud migration strategy needs to be carefully thought about before implementation. An infrastructure must be uniquely suited to the business and technical requirements of an organization. Whichever cloud provider you choose, and whether you plan a single- or multi-cloud strategy, thinking about all the factors involved will ensure that you reap the benefits of the cloud without getting locked into an infrastructure you don’t want.</p>
 
 <p>Read our white paper, ‘A Checklist for Cloud Migration’ to learn how you can analyze your technology stack as you prepare for a cloud migration strategy.</p>
-
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-    <a href="/resources/white-papers/a-checklist-for-your-cloud-migration-strategy/">
-      <img src="/images/blog/cta/light-white-paper.jpeg">
-    </a>
-    </div>
-</div>
