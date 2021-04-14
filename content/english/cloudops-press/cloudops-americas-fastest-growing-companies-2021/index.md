@@ -14,7 +14,7 @@ keywords: financial times, americas fastest growing companies, cloudops, cloudop
 tags: financial times, americas fastest growing companies, cloudops, cloudops growth, cloud growth
 ---
 
-<p><b>Montreal, Quebec, April 14, 2020</b><span style="font-weight: 400;">: CloudOps today announced that it has ranked No. 396 on the 2021 list of the <a href="https://www.ft.com/content/ac773779-98ba-442d-a1f2-a14f1a67ddfe" target="_blank">Americas’ Fastest Growing Companies</a> by the Financial Times. This is the second year in a row CloudOps is pleased to be listed in this ranking.</p>
+<p><b>Montreal, Quebec, April 14, 2021</b><span style="font-weight: 400;">: CloudOps today announced that it has ranked No. 396 on the 2021 list of the <a href="https://www.ft.com/content/ac773779-98ba-442d-a1f2-a14f1a67ddfe" target="_blank">Americas’ Fastest Growing Companies</a> by the Financial Times. This is the second year in a row CloudOps is pleased to be listed in this ranking.</p>
 
 <p>This award is presented by The Financial Times and Statista Inc. It is the result of months of research where database material was scrutinized and tens of thousands of companies were contacted. There are millions of existing enterprises in North and South America, and only 500 grew quickly enough to enter the ranking. These companies are recognized for having contributed heavily to economic growth through innovation and creativity.</p>
 
