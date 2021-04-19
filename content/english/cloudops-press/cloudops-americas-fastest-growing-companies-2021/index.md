@@ -9,7 +9,8 @@ resources:
 - name: "cover"
   src: "America-cover.png"
 class_name: "blog post"
-aliases:
+aliases: 
+    - /tags/financial-times-americas-fastest-growing-companies-cloudops-cloudops-growth-cloud-growth/
 keywords: financial times, americas fastest growing companies, cloudops, cloudops growth, cloud growth
 tags: financial times, americas fastest growing companies, cloudops, cloudops growth, cloud growth
 ---
