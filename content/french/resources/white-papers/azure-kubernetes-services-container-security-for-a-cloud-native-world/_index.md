@@ -30,15 +30,6 @@ tags:
 </h2>                             
                     <p>Le monde infonuagique est venu bouleverser le domaine de la sécurité, car il exige des idées novatrices et des architectures assemblées selon des méthodes différentes des méthodes classiques conçues par les entreprises. Au fil des ans, de nombreux professionnels du développement ont commencé à faire preuve de complaisance face aux réseaux statiques et périmétriques. Cette architecture a évolué vers des modèles de sécurité qui protègent des grappes de serveurs dynamiques dont les adresses IP changent sans cesse.</p>
                     <p>Dans ce rapport, nous explorons cinq principaux problèmes de sécurité des conteneurs avec AKS. Ce document est idéal pour les chefs d’équipes techniques souhaitant améliorer la sécurité de leurs conteneurs.</p>
-                    <p>Vous y apprendrez:</p>
-                    <ul class="dashes">
-                    <li>Éléments à prendre en compte avant la création d’une grappe Kubernetes dans Azure</li>
-                    <li>Prochaines étapes une fois AKS opérationnel et intégré à Azure AD</li>
-                    <li>Configuration d’une grappe AKS pour intégrer des utilisateurs</li>
-                    <li>Sécurisation des charges de travail d’applications et de services AKS</li>
-                    <li>Ce que l’avenir nous réserve</li>
-                    </ul>
-                    <p><i>Inscrivez-vous et téléchargez ce livre électronique aujourd'hui!</i></p>
                 </div>
             </div>
                 <div class="col-xl-4 offset-xl-0 white-paper-image">
@@ -66,8 +57,9 @@ tags:
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
 <script>
   hbspt.forms.create({
-        portalId: "732832",
-        formId: "c2168fc5-21df-465e-bf3c-5becaab7e140"
+	region: "na1",
+	portalId: "732832",
+	formId: "f8663206-2eb3-4d2d-85e8-31a608177fab"
 });
 </script>
             </div>

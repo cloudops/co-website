@@ -1,12 +1,14 @@
 ---
-title: En route vers le SaaS
-date: 2020-06-28
+title: Éviter le piège des connaissances tribales
+date: 2020-06-29
+description: Innovation happens in the higher layers of technology, and tribal knowledge can affect infrastructure management.
 resources:
 - name: "thumbnail"
-  src: "road_to_saas.png"
-slug: "en-route-vers-le-saas"
-description:
-keywords:
+  src: "tribal_knowledge.png"
+aliases:
+    - /white-papers/operations-focus-and-tribal-knowledge/
+    - /operations-focus-and-tribal-knowledge/
+keywords: [cloud operations, tribal knowledge, organizational knowledge]
 tags:
 ---
 
@@ -17,7 +19,7 @@ tags:
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-6 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
-                    <h1 class="display-4">En route vers le SaaS</h1>
+                    <h1 class="display-4">Éviter le piège des connaissances tribales</h1>
                 </div>
             </div>
         </div>
@@ -26,14 +28,12 @@ tags:
         <div class="row">
             <div class="col-xl-4 offset-xl-2 without-bottom-line">
                 <div class="workshop-prerequisites">
-                    <h2>Un livre blanc conçu par CloudOps</h2>                             
-                    <p>Le combat est terminé et c’est le modèle SaaS qui l’a remporté. Les sociétés de logiciels qui attendent trop longtemps pour passer vers un modèle à la demande perdent des parts de marché importantes et deviennent rapidement déconnecté de leurs clients.</p>
-                    <p>En voilà des propos audacieux! Vous trouverez dans les pages qui suivent, des points importants concernant le passage vers un modèle à la demande (SaaS). Ce livre blanc est basé sur des entretiens avec des centaines de fondateurs d’entreprises, d’investisseurs et de centres d’affaires pour entreprises TI/Web en démarrage; ainsi que sur des projets que nous avons réalisés au fil des années pour des clients que nous avons aidé à faire le saut vers un modèle SaaS.</p>
-                    <p><i>Inscrivez-vous, et téléchargez votre livre blanc aujourd'hui!</i></p>
+                    <h2>La séparation des processus et des gens</h2>
+                    <p>L’environnement des TI d’aujourd’hui est radicalement différent de celui qu’il était il y a quelques années à peine. En faisant passer les plateformes technologiques d’une dépense en capital à un coût basé sur l’utilisation, l’infonuagique a eu des effets de grande envergure sur la façon dont les infrastructures sont déployées et exploitées.</p>
                 </div>
             </div>
                 <div class="col-xl-4 offset-xl-0 white-paper-image">
-                <img src="/images/white-papers/road-to-sass-fr.png">
+                <img src="/images/white-papers/operations-focus-tribal-knowledge.png">
             </div>
         </div>
             </div>
@@ -51,7 +51,7 @@ tags:
             </div>
             <div
                 class="col-xl-5 offset-xl-0 col-lg-6 offset-lg-1 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-xs-12 general-contact-form">
-                <!--[if lte IE 8]>
+<!--[if lte IE 8]>
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
 <![endif]-->
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
@@ -59,7 +59,7 @@ tags:
   hbspt.forms.create({
 	region: "na1",
 	portalId: "732832",
-	formId: "a54f72ff-5032-4ff2-a6a8-0a63170a3aa1"
+	formId: "82f2b8a4-ea80-4ac8-a10c-36db1af6b9c5"
 });
 </script>
             </div>

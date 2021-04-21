@@ -1,12 +1,13 @@
 ---
-title: En route vers le SaaS
-date: 2020-06-28
+title: Sécurisation de votre plateforme DevOps - Entreprises financières
+date: 2020-07-10
+description: Financial institutions make attractive targets for hackers. Industry standards like SOC 2 are essential for securing your DevOps platforms.
 resources:
 - name: "thumbnail"
-  src: "road_to_saas.png"
-slug: "en-route-vers-le-saas"
-description:
-keywords:
+  src: "Financial_WP.png"
+aliases:
+    - /financialkubernetes-0
+keywords: [devops platform, devops security, devops financial services]
 tags:
 ---
 
@@ -17,7 +18,7 @@ tags:
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-6 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
-                    <h1 class="display-4">En route vers le SaaS</h1>
+                    <h1 class="display-4">Sécurisation de votre plateforme DevOps</h1>
                 </div>
             </div>
         </div>
@@ -26,14 +27,12 @@ tags:
         <div class="row">
             <div class="col-xl-4 offset-xl-2 without-bottom-line">
                 <div class="workshop-prerequisites">
-                    <h2>Un livre blanc conçu par CloudOps</h2>                             
-                    <p>Le combat est terminé et c’est le modèle SaaS qui l’a remporté. Les sociétés de logiciels qui attendent trop longtemps pour passer vers un modèle à la demande perdent des parts de marché importantes et deviennent rapidement déconnecté de leurs clients.</p>
-                    <p>En voilà des propos audacieux! Vous trouverez dans les pages qui suivent, des points importants concernant le passage vers un modèle à la demande (SaaS). Ce livre blanc est basé sur des entretiens avec des centaines de fondateurs d’entreprises, d’investisseurs et de centres d’affaires pour entreprises TI/Web en démarrage; ainsi que sur des projets que nous avons réalisés au fil des années pour des clients que nous avons aidé à faire le saut vers un modèle SaaS.</p>
-                    <p><i>Inscrivez-vous, et téléchargez votre livre blanc aujourd'hui!</i></p>
+                    <h2>Pipelines de logiciel, d’intergiciel et d’infrastructure pour <b>les entreprises financières</b></h2>          <p>Les entreprises financières accumulent habituellement de grandes quantités de données, ce qui les rend particulièrement attrayantes auprès des pirates informatiques. Les institutions financières auxquelles les données personnelles sont confiées ont la responsabilité de traiter les enjeux de sécurité et de protéger les renseignements de sorte à minimiser les risques de violation.</p>
+                    <p>Au fur et à mesure que les clients prennent davantage conscience des risques liés à la sécurité des informations, ils se posent des questions.</p>
                 </div>
             </div>
                 <div class="col-xl-4 offset-xl-0 white-paper-image">
-                <img src="/images/white-papers/road-to-sass-fr.png">
+                <img src="/images/white-papers/devops-platform-financial.png">
             </div>
         </div>
             </div>
@@ -51,7 +50,7 @@ tags:
             </div>
             <div
                 class="col-xl-5 offset-xl-0 col-lg-6 offset-lg-1 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-xs-12 general-contact-form">
-                <!--[if lte IE 8]>
+<!--[if lte IE 8]>
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
 <![endif]-->
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
@@ -59,7 +58,7 @@ tags:
   hbspt.forms.create({
 	region: "na1",
 	portalId: "732832",
-	formId: "a54f72ff-5032-4ff2-a6a8-0a63170a3aa1"
+	formId: "9cd7af54-4092-4644-9728-3db915c671db"
 });
 </script>
             </div>

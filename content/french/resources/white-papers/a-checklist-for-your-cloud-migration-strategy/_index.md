@@ -29,16 +29,6 @@ tags:
                     <h2>Un document de CloudOps Recherche sur la migration d'applications patrimoniales vers le nuage</h2>                             
                     <p>Le nuage a permis la mise en place d'infrastructures de TI hautement évolutives et automatisées qui accélèrent les pipelines de livraison de logiciels, permettant aux organisations de répondre efficacement aux demandes des clients et de numériser leurs offres de produits. La migration des applications patrimoniales dans les environnements infonuagiques, qu'ils soient publics, privés ou hybrides, devient de plus en plus urgente, mais les stratégies de migration doivent être soigneusement planifiées afin de conduire à des architectures infonuagiques natives.</p>
                     <p>Dans ce rapport, nous explorons comment analyser les piles de technologies en vue de leur migration. Ce document est idéal pour les chefs d’équipes techniques souhaitant migrer leurs applications vers le nuage.</p>
-                    <p>Vous y apprendrez:</p>
-                    <ul class="dashes">
-                    <li>Comment analyser le matériel, les systèmes d’exploitation, l’intergiciel et le logiciel en vue de leur migration vers le nuage</li>
-                    <li>Quels sont les outils et propriétés des environnements d'application</li>
-                    <li>Quels sont les outils infonuagiques natifs équivalents aux outils patrimoniaux</li>
-                    <li>Quelles sont les étapes clés de toute stratégie de migration</li>
-                    <li>Comment intégrer l’automatisation dans la migration d’applications</li>
-                    </ul>
-                    <p><i>Lisez notre livre blanc intitulé "Aide-mémoire pour la migration infonuagique" afin de savoir comment analyser votre pile technologique pour préparer votre stratégie de migration vers le nuage.</i></p><p>&nbsp;</p>
-                    <p><i>Enregistrez-vous et téléchargez ce document de recherche aujourd'hui!</i></p>
                 </div>
             </div>
                 <div class="col-xl-4 offset-xl-0 white-paper-image">
@@ -66,8 +56,9 @@ tags:
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
 <script>
   hbspt.forms.create({
-        portalId: "732832",
-        formId: "f1d3edfa-a1ec-40c4-a415-1a063025c111"
+	region: "na1",
+	portalId: "732832",
+	formId: "a62028bd-65de-4ebb-b5b7-2fc7f5b6fbdc"
 });
 </script>
             </div>

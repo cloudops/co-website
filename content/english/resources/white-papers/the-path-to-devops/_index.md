@@ -1,5 +1,5 @@
 ---
-title: How to Initiate DevOps Transformation
+title: The Path to DevOps
 date: 2020-07-06
 description: Download this white paper to receive an actionable blueprint for adopting DevOps.
 resources:
@@ -19,7 +19,7 @@ tags:
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-6 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
-                    <h1 class="display-4">How to Initiate DevOps Transformation</h1>
+                    <h1 class="display-4">The Path to DevOps</h1>
                 </div>
             </div>
         </div>

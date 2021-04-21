@@ -1,12 +1,11 @@
 ---
-title: Sécurisation de votre plateforme DevOps avec sass
-date: 2020-07-02
+title: Sécurisation de votre plateforme DevOps - Enterprises
+date: 2020-07-08
+description: Enterprises make attractive targets for hackers. Industry standards like SOC 2 are essential for securing your DevOps platforms.
 resources:
 - name: "thumbnail"
-  src: "securing_devops_platform_saas.png"
-slug: "securisation-de-votre-plateforme-devops-saas"
-description:
-keywords:
+  src: "Forrester.png"
+keywords: [devops platform, devops security, devops enterprises]
 tags:
 ---
 
@@ -26,13 +25,14 @@ tags:
         <div class="row">
             <div class="col-xl-4 offset-xl-2 without-bottom-line">
                 <div class="workshop-prerequisites">
-                    <h2>Pipelines de logiciel, d'intergiciel, et d'infrastructure pour l'entreprise de logiciel en tant que service</h2>       <p>Les entreprises accumulent généralement de grandes quantités de données, ce qui peut les rendre particulièrement attirantes pour les pirates. Qu’elles offrent des services financiers, des assurances ou tout autre type de service, les entreprises accumulent inévitablement des informations sensibles qui peuvent être exploitées. Chargées de protéger les données personnelles, les entreprises ont la responsabilité de résoudre les problèmes de sécurité et de protéger les informations afin de minimiser le risque de brèches.</p>
-                    <p>Dans ce rapport, nous explorons comment sécuriser la plateforme de services.</p>
-                    <p><i>Enregistrez-vous et téléchargez ce document de recherche aujourd'hui!</i></p>
+                    <h2>Pipelines de logiciel, d’intergiciel et d’infrastructure pour l’entreprise moderne</h2>                    
+                    <p>Les grandes entreprises accumulent généralement de grandes quantités de données, ce qui peut les rendre particulièrement attirantes pour les pirates.</p>
+                    <p>Qu’elles offrent des services financiers, des assurances ou tout autre type de service, les entreprises accumulent inévitablement des informations sensibles qui peuvent être exploitées.</p>
+                    <p>Chargées de protéger les données personnelles, les entreprises ont la responsabilité de résoudre les problèmes de sécurité et de protéger les informations afin de minimiser le risque de brèches.</p>
                 </div>
             </div>
                 <div class="col-xl-4 offset-xl-0 white-paper-image">
-                <img src="/images/white-papers/securing-devops-platform-saas.png">
+                <img src="/images/white-papers/securing-devops-enterprise.png">
             </div>
         </div>
             </div>
@@ -56,8 +56,9 @@ tags:
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
 <script>
   hbspt.forms.create({
-        portalId: "732832",
-        formId: "77cbf04d-b3bc-494b-8d99-b21df54c09a8"
+	region: "na1",
+	portalId: "732832",
+	formId: "95b7b669-8fee-478a-82e2-4131719471ab"
 });
 </script>
             </div>

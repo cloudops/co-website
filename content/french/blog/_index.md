@@ -44,7 +44,7 @@ aliases:
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <img src="/images/community-news.svg">
                         <a href="/blog/community-news"><h3>Infolettre communautaire</h3></a>
-                        <p>Rejoignez nos communautés nuage natif et source libre! <a href="/inscription-infolettre-communaute">Inscrivez-vous</a> obtenir des informations sur les meetups (en ligne) à venir, les événements et d’autres moyens d’approfondir vos connaissances sur l’infonuagique.</p>
+                        <p>Rejoignez nos communautés nuage natif et logiciel libre! <a href="/inscription-infolettre-communaute">Inscrivez-vous</a> obtenir des informations sur les meetups (en ligne) à venir, les événements et d’autres moyens d’approfondir vos connaissances sur l’infonuagique.</p>
                     </div>
                 </div>
             </div>

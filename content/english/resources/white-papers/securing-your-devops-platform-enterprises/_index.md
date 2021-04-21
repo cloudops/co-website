@@ -1,12 +1,11 @@
 ---
-title: En route vers le SaaS
-date: 2020-06-28
+title: Securing Your DevOps Platform - Enterprises
+date: 2020-07-08
+description: Enterprises make attractive targets for hackers. Industry standards like SOC 2 are essential for securing your DevOps platforms.
 resources:
 - name: "thumbnail"
-  src: "road_to_saas.png"
-slug: "en-route-vers-le-saas"
-description:
-keywords:
+  src: "Forrester.png"
+keywords: [devops platform, devops security, devops enterprises]
 tags:
 ---
 
@@ -17,7 +16,7 @@ tags:
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-6 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
-                    <h1 class="display-4">En route vers le SaaS</h1>
+                    <h1 class="display-4">Securing your DevOps Platform</h1>
                 </div>
             </div>
         </div>
@@ -26,14 +25,15 @@ tags:
         <div class="row">
             <div class="col-xl-4 offset-xl-2 without-bottom-line">
                 <div class="workshop-prerequisites">
-                    <h2>Un livre blanc conçu par CloudOps</h2>                             
-                    <p>Le combat est terminé et c’est le modèle SaaS qui l’a remporté. Les sociétés de logiciels qui attendent trop longtemps pour passer vers un modèle à la demande perdent des parts de marché importantes et deviennent rapidement déconnecté de leurs clients.</p>
-                    <p>En voilà des propos audacieux! Vous trouverez dans les pages qui suivent, des points importants concernant le passage vers un modèle à la demande (SaaS). Ce livre blanc est basé sur des entretiens avec des centaines de fondateurs d’entreprises, d’investisseurs et de centres d’affaires pour entreprises TI/Web en démarrage; ainsi que sur des projets que nous avons réalisés au fil des années pour des clients que nous avons aidé à faire le saut vers un modèle SaaS.</p>
-                    <p><i>Inscrivez-vous, et téléchargez votre livre blanc aujourd'hui!</i></p>
+                    <h2>Software pipelines, middleware and infrastructure for <b>enterprises</b></h2>                    
+                    <p>Enterprises usually accumulate large amounts of data, which makes them particularly attractive targets for hackers. Entrusted to protect personal data, financial
+                    institutions have a responsibility to address security issues and safeguard information in order to minimize the risk of breaches. </p>
+                    <p>While enterprises try to prevent data breaches, their ecosystem is constantly changing. There are multiple factors that make this task even more difficult.</p>
+                    <p>In this white paper we will highlight how to secure your DevOps platform, especially for those operating under the enterprise umbrella.</p>
                 </div>
             </div>
                 <div class="col-xl-4 offset-xl-0 white-paper-image">
-                <img src="/images/white-papers/road-to-sass-fr.png">
+                <img src="/images/white-papers/securing-devops-enterprise.png">
             </div>
         </div>
             </div>
@@ -47,7 +47,7 @@ tags:
             </div>
             <div
                 class="col-xl-3 offset-xl-3 col-lg-3 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-xs-12">
-                <h2>Où devrions-nous envoyer ce livre blanc?</h2>
+                <h2>Where should we send this white paper?</h2>
             </div>
             <div
                 class="col-xl-5 offset-xl-0 col-lg-6 offset-lg-1 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-xs-12 general-contact-form">
@@ -59,7 +59,7 @@ tags:
   hbspt.forms.create({
 	region: "na1",
 	portalId: "732832",
-	formId: "a54f72ff-5032-4ff2-a6a8-0a63170a3aa1"
+	formId: "f8138b22-b65e-4359-a176-7b8f2ce53c4f"
 });
 </script>
             </div>

@@ -1,5 +1,5 @@
 ---
-title: Securing your DevOps platform for SaaS
+title: Securing your DevOps Platform - Cloud-based Software Companies
 date: 2020-07-02
 description: Hackers are becoming more creative each day. Industry standards like SOC 2 are essential for keeping your applications secure.
 resources:
@@ -21,7 +21,7 @@ tags:
             <div class="row">
                 <div class="col-xl-6 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
                     <h1 class="display-4">Securing your DevOps Platform</h1>
-                    <h2>Software Pipelines, Middleware, and Infrastructure for <b>Modern enterprise</b></h2> 
+                    <h2>Cloud-based Software Companies</h2> 
                 </div>
             </div>
         </div>
