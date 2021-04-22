@@ -19,7 +19,7 @@ tags:
 
 Le contexte des déploiements infonuagiques natifs peut paraître compliqué et
 porter à confusion. La vaste et dynamique communauté technologique contribue
-continuellement à une multitude de projets de source libre. La fondation Cloud
+continuellement à une multitude de projets de logiciel libre. La fondation Cloud
 Native Computing Foundation ([CNCF](https://www.cncf.io/)) a créé [une carte
 interactive](https://landscape.cncf.io/) démontrant l’éventail de solutions de
 déploiements infonuagiques natifs qui, pour la plupart, sont sous sa gouverne.
@@ -52,7 +52,7 @@ retrouver. **Les débuts de la fondation CNCF**
   />
 </figure>
 
-En 2014, Google a utilisé la source libre pour un projet interne, appelé Borg,
+En 2014, Google a utilisé le logiciel libre pour un projet interne, appelé Borg,
 dont l’utilité était l’orchestration de conteneurs. Comme ils n’avaient pas
 d’endroit pour loger leur projet, ils ont formé un partenariat avec la fondation
 Linux afin de créer la fondation Cloud Native Computing Foundation (CNCF), pour
@@ -62,7 +62,7 @@ réécrite en Go, renommée vers Kubernetes et le projet fut offert comme projet
 initiateur. Ce fut tout de suite clair que Kubernetes n’était que le début et
 qu’un foisonnement de nouveaux projets rejoindrait la CNCF et allait étendre la
 fonctionnalité de Kubernetes. **La mission de la CNCF** La CNCF encourage les
-projets de source libre en offrant des solutions viables aux communautés
+projets de logiciel libre en offrant des solutions viables aux communautés
 d’utilisateurs finaux afin de bâtir des applications à déploiements
 infonuagiques natifs. En encourageant les projets à collaborer entre eux, la
 CNCF espère favoriser les piles technologiques à part entière composées
@@ -311,7 +311,7 @@ aussi en développement comme solution aux côtés de Fluentd. Fluentbit est éc
 en C et n’utilise que quelques Ko de mémoire à l’exécution. Fluentbit est plus
 efficace en matière d’UCT et d’utilisation de mémoire, mais ses fonctionnalités
 sont plus limitées que Fluentd. À l’origine, Fluentd fut développé par
-Treasuredata en tant que projet de source libre. Fluentd est disponible en tant
+Treasuredata en tant que projet de logiciel libre. Fluentd est disponible en tant
 que module d’extension de Kubernetes et peut être déployé en version 0.12 ;
 c’est une version plus ancienne et plus stable qui est actuellement largement
 déployée en production. La nouvelle version (Version 1X), fut récemment
@@ -346,7 +346,7 @@ OpenTracing en tant que tel n’est pas un système de traçage qui exécute des
 traces afin d’analyser des intervalles de l’intérieur de l’IU. C’est un API qui
 fonctionne avec la logique commerciale d’une application, sa structure et son
 instrumentation existante afin de créer, de propager et d’étiqueter des
-intervalles. La plateforme s’intègre tant à la source libre (comme
+intervalles. La plateforme s’intègre tant au logiciel libre (comme
 [Jaeger](https://www.jaegertracing.io/), [Zipkin](https://zipkin.io/)) ou à des
 solutions de traçage commerciales (comme [Instana](https://www.instana.com/),
 [Datadog](https://docs.datadoghq.com/tracing/)), et crée des traces qui sont
@@ -368,7 +368,7 @@ et qui, à l’origine, fut développée et testée par Uber. Son nom se prononc
 yā′gər et signifie chasseur. Elle fut inspirée par
 [Dapper](https://research.google.com/pubs/pub36356.html), le système interne de
 traçage de Google et [Zipkin](http://zipkin.io/), un système alternatif de
-traçage de source libre écrit par Twitter, mais bâtit avec les normes
+traçage de logiciel libre écrit par Twitter, mais bâtit avec les normes
 d’OpenTracing en tête. Le soutien à l’intégration d’OpenTracing est limité pour
 Zipkin, mais Jaeger, lui, offre la rétrocompatibilité avec Zipkin en acceptant
 des intervalles en format Zipkin au-dessus de HTTP. Les cas d’utilisation de
@@ -408,17 +408,17 @@ microservices à déploiements infonuagiques natifs. ***Registres de conteneurs*
 </figure>
 
 **Harbor (bac à sable) –**[Harbor](https://goharbor.io/) est un registre de
-conteneurs fiable et de source libre qui stocke, signe et balaye les images
+conteneurs fiable et de logiciel libre qui stocke, signe et balaye les images
 Docker. Cette plateforme offre gratuitement des fonctionnalités et des capacités
 améliorées de registres Docker, par exemple une interface Web avec soutien au
 contrôle d’accès basé sur les rôles (CABR) et au protocole LDAP. Elle s’intègre
-à Clair, un projet de source libre développé par CoreOs pour le balayage de
+à Clair, un projet de logiciellibre développé par CoreOs pour le balayage de
 vulnérabilités ainsi qu’à Notary, un projet relatif à la fiabilité de contenu,
 en phase d’incubation à la CNCF et qui est décrit plus bas. Harbor offre la
 vérification d’activités, la gestion de Helm chart et réplique des images d’une
 instance de Harbor à une autre pour la haute disponibilité et la reprise après
 sinistre. À l’origine, Harbor fut développé par VMWare en tant que solution de
-source libre. Cette solution est maintenant utilisée par des entreprises de
+logiciel libre. Cette solution est maintenant utilisée par des entreprises de
 toutes tailles, incluant TrendMicro, Rancher, Pivotal, et AXA. ***Stockage et
 bases de données***
 
@@ -436,7 +436,7 @@ stockage de déploiements infonuagiques natifs pour Kubernetes. Grâce à Rook, 
 ce stockage afin de créer dynamiquement des volumes persistants (VP) dans
 Kubernetes pour déployer des applications comme Jenkins, WordPress et toute
 autre application qui exige un état. Ceph est un système de logiciel distribué
-(SDS) de source libre très populaire qui peut livrer vers plusieurs types de
+(SDS) de logiciel libre très populaire qui peut livrer vers plusieurs types de
 systèmes de stockage connus, comme Object et File System et qui fonctionne sur
 du matériel standard. Bien qu’il soit possible d’exécuter des grappes Ceph en
 dehors de Kubernetes et de les connecter à Kubernetes avec le [module
@@ -616,7 +616,7 @@ etcd, et facilitez les fonctionnalités et les intégrations dns avancées.
 </figure>
 
 **Linkerd (phase d’incubation)**– [Linkerd](https://linkerd.io/) un mandataire
-de réseaux de source libre conçu pour être déployé en tant que service maillé,
+de réseaux de logiciel libre conçu pour être déployé en tant que service maillé,
 celui-ci étant une couche réservée pour la gestion, le contrôle et la
 surveillance de la communication de service à service dans une application.
 Linkerd aide les développeurs à exécuter des microservices à l’échelle en
@@ -695,9 +695,9 @@ par le plan de gestion de Istio. Cette approche se compare au modèle DaemonSet,
 utilisé dans Linkerd v1, et qui offre la visibilité pour chaque service ainsi
 que la capacité de créer un protocole TLS sécuritaire pour chaque service dans
 Kubernetes ou même pour des cas de nuage hybride. Récemment Hashicorp a annoncé
-que Consul Connect, son projet de source libre utilisera Envoy pour établir des
+que Consul Connect, son projet de logiciel libre utilisera Envoy pour établir des
 connexions de protocoles TLS sûres entre les microservices. Aujourd’hui, Envoy a
-l’appui d’une vaste et active communauté de source libre qui n’est soutenue ni
+l’appui d’une vaste et active communauté de logiciel libre qui n’est soutenue ni
 par un fournisseur ni par un projet commercial. Si vous souhaitez commencer à
 utiliser Envoy, essayez Istio, Ambassador ou Contour ou rejoignez la communauté
 Envoy au Kubecon (Seattle, WA) le 10 décembre 2018 pour le tout premier
@@ -711,7 +711,7 @@ Envoy au Kubecon (Seattle, WA) le 10 décembre 2018 pour le tout premier
   />
 </figure>
 
-**Falco (bac à sable)** – Falco est un outil de source libre, développé par
+**Falco (bac à sable)** – Falco est un outil de logiciel libre, développé par
 Sysdig, qui voit à la sécurité du temps d’exécution. Il a été conçu pour
 détecter les anomalies dans les activités et les intrusions dans les systèmes
 orchestrés par Kubernetes. Falco est davantage un outil de vérification que de
@@ -800,10 +800,10 @@ jour), la délégation de confiance entre les utilisateurs ou la distribution
 fiable à travers des miroirs ou des canaux de transports non fiables. Bien que
 Tuf et Notary ne soient pas généralement utilisés par des utilisateurs finaux,
 leurs solutions s’intègrent à une variété de produits commerciaux ou à des
-projets de source libre pour la signature de contenu ou la signature d’images
+projets de logiciel libre pour la signature de contenu ou la signature d’images
 provenant de distribution fiable comme Harbor, Docker Enterprise Registry, Quay
-Enterprise et Aqua. Un autre projet de source libre qui est intéressant dans cet
-espace est Grafeas, c’est un API de source libre pour les métadonnées qui peut
+Enterprise et Aqua. Un autre projet de logiciel libre qui est intéressant dans cet
+espace est Grafeas, c’est un API de logiciel libre pour les métadonnées qui peut
 être utilisé pour stocker les « attestations » ou les signatures d’images,
 celles-ci peuvent ensuite être vérifiées dans le cadre du contrôle d’admission
 et utilisées dans des produits comme Container Analysis API, dans des

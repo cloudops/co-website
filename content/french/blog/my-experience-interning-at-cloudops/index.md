@@ -109,7 +109,7 @@ J'avais cinq objectifs en tête lorsque j'ai commencé mon stage.
 
 Une grande partie de mon temps chez CloudOps fut consacrée à l'atteinte de cet objectif. J'ai travaillé majoritairement à l'expansion de notre soutien pour Kubernetes (près de 200 heures de travail uniquement sur Kubernetes).
 
-Notez que : Kubernetes est un moteur d'orchestration de conteneurs de source libre pour l'automatisation de déploiements, la mise à l'échelle et les gestions d'applications conteneurisées. L'idée maîtresse de Kubernetes est d'abstraire davantage les machines, le stockage et les réseaux de leur implémentation physique vers le nuage.
+Notez que : Kubernetes est un moteur d'orchestration de conteneurs de logiciel libre pour l'automatisation de déploiements, la mise à l'échelle et les gestions d'applications conteneurisées. L'idée maîtresse de Kubernetes est d'abstraire davantage les machines, le stockage et les réseaux de leur implémentation physique vers le nuage.
 
 Au cours de mon stage, j'ai travaillé sur des fonctionnalités de Kubernetes telles que...
 

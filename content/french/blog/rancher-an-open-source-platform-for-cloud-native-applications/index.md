@@ -1,5 +1,5 @@
 ---
-title: "Rancher : Une plateforme de code source libre pour les applications en nuage natif"
+title: "Rancher : Une plateforme de code logiciel libre pour les applications en nuage natif"
 date: "2021-01-04"
 author: "CloudOps"
 description: Rancher est une plateforme de gestion de conteneurs qui aide les équipes DevOps à adopter Kubernetes de manière simple et évolutive.
@@ -15,7 +15,7 @@ tags: [Cloud Native, Business Value]
 
 <div class="post-content">
 
-<p><a href="https://rancher.com/" target="_blank">Rancher</a> est une plateforme de gestion de conteneurs qui aide les équipes DevOps à adopter Kubernetes de manière simple et évolutive. En effet, il offre une pile logicielle complète qui simplifie et améliore le processus de gestion des clusters Kubernetes dans plusieurs environnements de nuages, qu’ils soient publics, privés ou sur serveurs physiques. Rancher est une plateforme de code source libre bâtie sur Kubernetes qui soutient les applications en nuage natif.</p>
+<p><a href="https://rancher.com/" target="_blank">Rancher</a> est une plateforme de gestion de conteneurs qui aide les équipes DevOps à adopter Kubernetes de manière simple et évolutive. En effet, il offre une pile logicielle complète qui simplifie et améliore le processus de gestion des clusters Kubernetes dans plusieurs environnements de nuages, qu’ils soient publics, privés ou sur serveurs physiques. Rancher est une plateforme de code logiciel libre bâtie sur Kubernetes qui soutient les applications en nuage natif.</p>
 
 <p>Ultimement, Rancher vise à aider les leaders technologiques à exploiter le nuage et DevOps pour offrir rapidement des produits sur le marché dans le cadre d’une transformation numérique. La récente publication de Rancher 2.5 élargit une plateforme déjà robuste en offrant une foule de nouvelles fonctionnalités. Rancher peut aider plusieurs types d’organisations à accélérer leur stratégie en nuage natif, mais s’avère particulièrement utile pour trois types d’utilisation.</p>
 
@@ -23,7 +23,7 @@ tags: [Cloud Native, Business Value]
 
 <p>Un récent <a href="https://www.marketsandmarkets.com/Market-Reports/edge-computing-market-133384090.html#:~:text=[298%20Pages%20Report]%20MarketsandMarkets%20projects,34.1%25%20during%20the%20forecast%20period." target="_blank">sondage</a> (en anglais seulement) a prédit que le marché de l’informatique en périphérie s’accroîtra de 3,6 milliards $ US en 2020 à 15,7 milliards $ US d’ici 2025. Compte tenu de la demande grandissante pour l’Internet des objets, Rancher espère se spécialiser dans le soutien aux organisations qui exploitent Kubernetes dans des contextes de grande échelle et d’informatique en périphérie. Rancher 2.5 standardise l’offre de Kubernetes : des centres de données, aux nuages et en périphérie.</p>
 
-<p>Rancher fait un travail exceptionnel pour gérer les interactions avec des clusters multiples de sorte que les équipes DevOps peuvent relier des centaines de clusters différents en appuyant sur un bouton. Ces capacités ont été améliorées dans Rancher 2.5 avec l’intégration d’une fonction de livraison continue propulsée par le projet Fleet de source libre. La livraison continue permet aux utilisateurs de stocker et de gérer les applications et les configurations de ressources Kubernetes avec des dépôts Git. Rancher 2.5 permet aux organisations de faire évoluer leur gestion de clusters multiples à des endroits en périphérie.</p>
+<p>Rancher fait un travail exceptionnel pour gérer les interactions avec des clusters multiples de sorte que les équipes DevOps peuvent relier des centaines de clusters différents en appuyant sur un bouton. Ces capacités ont été améliorées dans Rancher 2.5 avec l’intégration d’une fonction de livraison continue propulsée par le projet Fleet de logiciel libre. La livraison continue permet aux utilisateurs de stocker et de gérer les applications et les configurations de ressources Kubernetes avec des dépôts Git. Rancher 2.5 permet aux organisations de faire évoluer leur gestion de clusters multiples à des endroits en périphérie.</p>
 
 <h3>2. Accessibilité pour des déploiements de nuages multiples et hybrides</h3>
 

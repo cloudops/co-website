@@ -81,7 +81,7 @@ tags:
 
 <p>Différentes options sont envisageables pour aider à construire un opérateur comme Kudo et KubeBuilder, mais je suggère d’utiliser Operator Frameworks.</p>
 
-<p>Operator Frameworks est une trousse d’outils de source libre créée pour aider à construire des opérateurs et prendre en charge les différentes phases de conception, d’opérationnalisation et de découverte des opérateurs. Voici les trois composantes d’Operator Frameworks et leur fonction.</p>
+<p>Operator Frameworks est une trousse d’outils de logiciel libre créée pour aider à construire des opérateurs et prendre en charge les différentes phases de conception, d’opérationnalisation et de découverte des opérateurs. Voici les trois composantes d’Operator Frameworks et leur fonction.</p>
 
 <p>Operator SDK permet au développeur de construire un opérateur en se basant sur son expertise sans nécessiter des connaissances approfondies sur l’API de Kubernetes. Il fournit les outils requis pour construire, tester et conditionner un opérateur, de même que l’échafaudage et le code générique requis pour amorcer rapidement un nouvel opérateur.</p>
 

@@ -19,7 +19,7 @@ tags:
 
 <blockquote><p>CloudOps a su démontrer une profonde connaissance de Kubernetes ainsi qu’une remarquable initiative au sein de la communauté des technologies infonuagiques. Nous sommes impatients de voir leur équipe rejoindre ce groupe spécialisé de partenaires de formation.</p></blockquote>
 
-<p>En tant que membre de la CNCF et du LF Networking Fund (LFN), CloudOps s’engage à accroître l’écosystème Kubernetes et à réduire l’écart entre le réseautage de source libre et les outils infonuagiques. Nous collaborons aussi avec le « Centre of Excellence for Next Generation Networks » (<a href="https://www.cengn.ca/" target="_blank">CENGN</a>) ainsi que « <a href="http://www.sdnessentials.com/" target="_blank">SDN Essentials</a> ».</p>
+<p>En tant que membre de la CNCF et du LF Networking Fund (LFN), CloudOps s’engage à accroître l’écosystème Kubernetes et à réduire l’écart entre le réseautage de logiciel libre et les outils infonuagiques. Nous collaborons aussi avec le « Centre of Excellence for Next Generation Networks » (<a href="https://www.cengn.ca/" target="_blank">CENGN</a>) ainsi que « <a href="http://www.sdnessentials.com/" target="_blank">SDN Essentials</a> ».</p>
 
 <p>Nous organisons régulièrement des meetups et des ateliers à travers le Canada et les États-Unis. Plus précisément, nous animons des ateliers pratiques axés sur les moyens de tirer profit de Docker et Kubernetes pour un flux de travail DevOps réussi.</p>
 
@@ -31,4 +31,4 @@ tags:
 
 <p>À propos de CloudOps</p>
 
-<p>CloudOps est une entreprise de consultation et de services axée sur la source libre, les plateformes infonuagiques et le réseautage. Nous aidons les entreprises à rester maîtres de leur destin infonuagique et à prospérer dans une économie logicielle grâce à l’adoption réussie et à l’exploitation de plateformes infonuagiques, et en facilitant le libre-service, l’économie utilitaire et la livraison continue des TI automatisée par API.</p>
+<p>CloudOps est une entreprise de consultation et de services axée sur le logiciel libre, les plateformes infonuagiques et le réseautage. Nous aidons les entreprises à rester maîtres de leur destin infonuagique et à prospérer dans une économie logicielle grâce à l’adoption réussie et à l’exploitation de plateformes infonuagiques, et en facilitant le libre-service, l’économie utilitaire et la livraison continue des TI automatisée par API.</p>

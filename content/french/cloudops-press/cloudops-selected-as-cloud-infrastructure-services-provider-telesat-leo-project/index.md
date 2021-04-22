@@ -33,7 +33,7 @@ tags:
 
 <h3>Au sujet de CloudOps : </h3>
 
-<p>CloudOps est une entreprise de services-conseils en infonuagique, de services gérés et de logiciels axée sur la source libre, les plateformes en nuage natif, la mise en réseau et le DevOps. L’approche de plateforme infonuagique et d’outils agnostiques de CloudOps mise sur plus de quinze ans d’expérience dans les domaines de l’infonuagique, du réseautage en nuage et de solutions DevOps. </p>
+<p>CloudOps est une entreprise de services-conseils en infonuagique, de services gérés et de logiciel libre, les plateformes en nuage natif, la mise en réseau et le DevOps. L’approche de plateforme infonuagique et d’outils agnostiques de CloudOps mise sur plus de quinze ans d’expérience dans les domaines de l’infonuagique, du réseautage en nuage et de solutions DevOps. </p>
 
 <p>CloudOps aide les clients à utiliser et à bâtir des plateformes infonuagiques en mettant l’accent sur le succès opérationnel et la connectivité de réseau. La mission est d’assurer que les clients sont maîtres de leur destinée dans le nuageMC. Cela comprend de miser sur la flexibilité du nuage tout en réservant le droit de modifier les technologies et les composants, sans jamais devenir captif d’un fournisseur, de sorte d’atteindre les objectifs d’affaires à mesure qu’ils évoluent dans le temps. </p>
 

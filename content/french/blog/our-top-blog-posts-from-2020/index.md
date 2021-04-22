@@ -40,6 +40,6 @@ keywords: [cloudops articles, cloud industry, cloudnews]
 
 <h3>7. <a href="https://www.cloudops.com/fr/blog/ensemble-faisons-progresser-les-cicd-vers-le-futur/">Ensemble, faisons progresser les CI/CD vers le futur</a></h3>
 
-<p>Depuis la montée des microservices et des architectures cloud native, la livraison continue devient de plus en plus nécessaire et les communautés de source libre se rassemblent afin de propulser son adoption. Toutefois, sa mise en œuvre peut être difficile. Tracy Miranda écrit sur la mise sur pied de la Continuous Delivery Foundation (livraison continue) pour aider à résoudre ces difficultés.</p>
+<p>Depuis la montée des microservices et des architectures cloud native, la livraison continue devient de plus en plus nécessaire et les communautés de logiciel libre se rassemblent afin de propulser son adoption. Toutefois, sa mise en œuvre peut être difficile. Tracy Miranda écrit sur la mise sur pied de la Continuous Delivery Foundation (livraison continue) pour aider à résoudre ces difficultés.</p>
 
 <p>Vous voulez être au courant de tous nos derniers contenus? <a href="https://www.cloudops.com/fr/inscription-infolettre/">Abonnez-vous à notre infolettre mensuelle pour recevoir les plus récents blogues et vous informer des événements à venir.</a> Nous promettons de ne pas envoyer de courriels indésirables et vous pouvez vous désabonner à tout moment.</p>
