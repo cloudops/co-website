@@ -38,12 +38,12 @@ aliases:
                 <div class="row no-gutters">
                     <div class="col-xl-6  col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <img src="/images/blog-posts.svg">
-                        <a href="/blog/blog-posts"><h3>Infolettre mensuelle</h3></a>
+                        <a href="/fr/inscription-infolettre/"><h3>Infolettre mensuelle</h3></a>
                         <p>Notre <a href="/inscription-infolettre">infolettre mensuelle</a> vous tiendra au courant de nos événements, nos récents articles et des nouvelles de l’industrie.</p>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <img src="/images/community-news.svg">
-                        <a href="/blog/community-news"><h3>Infolettre communautaire</h3></a>
+                        <a href="/fr/inscription-infolettre-communaute/"><h3>Infolettre communautaire</h3></a>
                         <p>Rejoignez nos communautés nuage natif et logiciel libre! <a href="/inscription-infolettre-communaute">Inscrivez-vous</a> obtenir des informations sur les meetups (en ligne) à venir, les événements et d’autres moyens d’approfondir vos connaissances sur l’infonuagique.</p>
                     </div>
                 </div>
