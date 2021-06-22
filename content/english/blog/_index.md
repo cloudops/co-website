@@ -67,7 +67,7 @@ aliases:
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <img src="/images/community-news.svg">
-                        <a href="/blog/community-newsletter-signup"><h3>Community News</h3></a>
+                        <a href="/community-newsletter-signup"><h3>Community News</h3></a>
                         <p>Early adopter or new to cloud native communities? Everyone is welcome! <a href="/community-newsletter-signup">Sign up for our cloud native newsletter</a> to hear about upcoming (online) meetups, events, and ways to deepen your open source skillset.</p>
                     </div>
                 </div>
