@@ -89,4 +89,4 @@ slug: /est-ce-que-le-sans-serveur-est-la-bonne-voie-vers-le-nuage
 &nbsp;
 
 <h4>Marc Boudreau</h4>
-<p>Marc Boudreau est architecte infonuagique chez CloudOps et possède une formation en développement pour le nuage. Il est particulièrement passionné à aider les gens à utiliser les technologies sans serveur pour accélérer le développement de nuages. Marc aime faire du vélo durant ses temps libres et a hâte de passer l’automne et l’hiver à faire du cyclo-cross en Belgique et aux Pays-Bas lorsqu’il sera possible de le faire de nouveau.</p>
+<p>Marc Boudreau est architecte infonuagique chez CloudOps et possède une formation en développement pour le nuage. Il est particulièrement passionné à aider les gens à utiliser les technologies sans serveur pour accélérer le développement de nuages. Marc aime faire du vélo durant ses temps libres et a hâte de passer l’automne et l’hiv er à faire du cyclo-cross en Belgique et aux Pays-Bas lorsqu’il sera possible de le faire de nouveau.</p>
