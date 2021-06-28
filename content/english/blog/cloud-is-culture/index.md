@@ -65,4 +65,4 @@ aliases:
 
 &nbsp;
 
-Cloud is culture. What do you think? How does embracing the cloud’s operational model transform the way your business works, and how is it a culture or a technology? Let us know your thoughts on social media.
+Cloud is culture. What do you think? How does embracing the cloud’s operational model transform the way your business works, and how is it a culture or a technology? <a href="https://www.linkedin.com/posts/cloudops_cloud-activity-6815292118505025536-FY34">Let us know your thoughts on social media.</a>

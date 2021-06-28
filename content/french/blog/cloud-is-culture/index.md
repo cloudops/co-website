@@ -66,4 +66,4 @@ aliases:
 
 &nbsp;
 
-Le nuage est la culture. Qu’en pensez-vous? De quelle manière l’adoption du modèle d’exploitation du nuage transforme-t-elle la manière dont votre entreprise fonctionne, et en quoi ce modèle est-il une culture ou une technologie? Faites-nous part de vos réflexions sur les médias sociaux.
+Le nuage est la culture. Qu’en pensez-vous? De quelle manière l’adoption du modèle d’exploitation du nuage transforme-t-elle la manière dont votre entreprise fonctionne, et en quoi ce modèle est-il une culture ou une technologie? <a href="https://www.linkedin.com/posts/cloudops_cloud-activity-6815292118505025536-FY34">Faites-nous part de vos réflexions sur les médias sociaux.</a>
