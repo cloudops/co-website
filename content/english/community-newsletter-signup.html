@@ -6,75 +6,16 @@ aliases:
   - /newsletter-cloud-native-communities
 ---
 
-<div class="landing-page">
+<div class="landing-page newsletter">
   <!-- hero -->
 
   <div class="hero jumbotron reading-landing jumbotron-fluid">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
-          <h1 class="display-4">Community Newsletter</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- brand promises -->
-  <div class="brand-promises-card">
-    <div class="row">
-      <div
-        class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-xs-12"
-      >
-        <h5>
-          Join our cloud native and open source communities! Get info about
-          upcoming (online) meetups, events, and ways to deepen your cloud
-          knowledge.
-        </h5>
-      </div>
-    </div>
-  </div>
-  <div class="main-content">
-    <div class="row no-gutters">
-      <div
-        class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 offset-sm-0"
-      >
-        <h2 style="text-align: center;">Newsletter Archives</h2>
-        <div class="card-deck">
-          <div class="card mx-auto">
-            <a
-              href="https://preview.hs-sites.com/_hcms/preview/content/23677906363?portalId=732832&_preview=true&cacheBust=0&preview_key=tDNbBpeP&from_buffer=false"
-              target="_blank"
-            >
-              <div class="card-body">
-                <img alt="" src="/images/newsletters/community-newsletter-1.png" />
-                <p></p>
-              </div>
-              <div class="corner-triangle"></div>
-            </a>
-          </div>
-          <div class="card mx-auto">
-            <a
-              href="https://cloudops-3.hs-sites.com/coming-up-this-month-/-%C3%A0-venir-ce-mois-ci"
-              target="_blank"
-            >
-              <div class="card-body">
-                <img alt="" src="/images/newsletters/community-newsletter-2.png" />
-                <p></p>
-                <div class="corner-triangle"></div>
-              </div>
-            </a>
-          </div>
-          <div class="card mx-auto">
-            <a
-              href="https://preview.hs-sites.com/_hcms/preview/content/24231380568?portalId=732832&_preview=true&cacheBust=0&preview_key=bOGjzONY&from_buffer=false"
-              target="_blank"
-            >
-              <div class="card-body">
-                <img alt="" src="/images/newsletters/community-newsletter-3.png" />
-                <p></p>
-                <div class="corner-triangle"></div>
-              </div>
-            </a>
-          </div>
+        <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1 col-md-12 col-sm-12 col-xs-12 g-0">
+          <h1 class="display-4">The CloudOps Monthly</h1>
+          <h2>Community highlights</h2>
+          <img class="triangles-image" src="/images/newsletters/newsletter-triangles-top.svg"/>
         </div>
       </div>
     </div>
@@ -82,20 +23,17 @@ aliases:
 
   <!-- contact us -->
   <div class="contact-us-card">
-    <div class="row">
-      <div
-        class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 col-sm-12 col-xs-12"
-      >
-        <img alt="" src="/images/single-line-arrows.png" />
-      </div>
-      <div
-        class="col-xl-2 offset-xl-4 col-lg-3 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-xs-12"
-      >
-        <h2 style="padding-top: 30px;">Sign up!</h2>
-      </div>
-      <div
-        class="col-xl-5 offset-xl-0 col-lg-6 offset-lg-1 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-xs-12 general-contact-form"
-      >
+    <div class="row no-gutters">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12 col-sm-12 col-xs-12 g-0">
+          <img class="background-img triangles-image" src="/images/newsletters/newsletter-triangles-bottom.svg"/>
+        <div class="row no-gutters pop-up-card">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-6 g-0 left-pop-up">
+            <img src="/images/newsletters/newsletter-blue.svg"/>
+          </div>
+          <div class="col-xl-4 offset-xl-1 col-lg-4 offset-lg-1 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-xs-10 offset-sm-1 g-0 right-pop-up">
+            <h2>Own your destiny in the cloud</h2>
+            <p>Be the first to know about upcoming events. Our community newsletter will keep you in the loop. This newsletter is sent sporadically.</p>
+            <div class="general-contact-form">
         <!--[if lte IE 8]>
           <script
             charset="utf-8"
@@ -114,7 +52,244 @@ aliases:
             formId: "c8c5f028-9f94-41a8-9f69-f8f1aaa34333"
           });
         </script>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+
+  <style>
+    .landing-page.newsletter .jumbotron.hero.reading-landing {
+        height: 500px;
+        overflow: hidden;
+    }
+
+    .landing-page.newsletter .jumbotron.hero.reading-landing h1 {
+        text-align: center;
+        padding: 0;
+        z-index: 200;
+        position: relative;
+    }
+
+    .landing-page.newsletter .jumbotron.hero.reading-landing h2 {
+        text-align: center;
+        padding: 0;
+        z-index: 200;
+        position: relative;
+    }
+
+    .landing-page.newsletter .jumbotron.hero.reading-landing img {
+      top: -50px;
+      right: -200px;
+      position: absolute;
+      width: 300px;
+    }
+
+    .landing-page.newsletter .contact-us-card {
+        height: 585px;
+    }
+
+    .landing-page.newsletter .contact-us-card img.background-img {
+      width: 300px;
+      top: 75px;
+      left: -320px;
+      position: absolute;
+      z-index: 1500;
+      }
+
+    .pop-up-card {
+        background-color: #FFF;
+        position: absolute;
+        top: -280px;
+        z-index: 500;
+        border-radius: 25px;
+        -webkit-box-shadow: 5px 5px 5px -2px rgba(64, 64, 64, 0.25);
+        box-shadow: 5px 5px 5px -2px rgba(64, 64, 64, 0.25);
+    }
+    .landing-page.newsletter .contact-us-card .pop-up-card .left-pop-up {
+        background-image: linear-gradient(to bottom right, #e9f5fb,#62b5e5);
+        -webkit-border-radius: 25px 0px 0px 25px;
+        -moz-border-radius: 25px 0px 0px 25px;
+        border-radius: 25px 0px 0px 25px;
+        position: relative;
+    }
+
+    .landing-page.newsletter .contact-us-card .pop-up-card .left-pop-up img {
+        padding: 0 50px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0;
+    }
+
+    .landing-page.newsletter .contact-us-card .pop-up-card .right-pop-up {
+      padding: 50px 0;
+    }
+
+    .pop-up-card p {
+      text-align: center;
+    }
+
+    .pop-up-card h2 {
+      text-align: center;
+      padding-top: 0;
+    }
+
+    .contact-us-card .pop-up-card .right-pop-up .general-contact-form .hs-fieldtype-text input {
+        width: 100%;
+    }
+
+    .contact-us-card .pop-up-card .right-pop-up .general-contact-form input.hs-button {
+        background-color: #D93963;
+        width: 100%;
+    }
+
+    .contact-us-card .pop-up-card .right-pop-up .general-contact-form input.hs-button:hover {
+        background-color: #FFF;
+        color: #D93963;
+        border: solid 1px #D93963;
+        transition-duration: 0.6s;
+    }
+
+    @media (max-width: 575.98px) {
+    .landing-page.newsletter .jumbotron.hero.reading-landing img {
+      display: none;
+    }
+    .newsletter .general-contact-form .hs-submit {
+        margin-left: 0;
+    }
+    .pop-up-card {
+      width: 80%;
+      margin-left: 10%;
+    }
+
+    .newsletter .contact-us-card h2 {
+      margin-right: 15px;
+    }
+
+    .newsletter .contact-us-card p {
+      margin-right: 15px;
+    }
+
+    .newsletter .contact-us-card .general-contact-form {
+      padding-left: 0px;
+    }
+
+    .landing-page.newsletter .contact-us-card {
+        height: 720px;
+    }
+
+    .landing-page.newsletter .contact-us-card .pop-up-card .left-pop-up {
+      height: 200px;
+      top: 0;
+      border-radius: 25px 25px 0px 0px;
+      -webkit-border-radius: 25px 25px 0 0;
+        -moz-border-radius: 25px 25px 0 0;
+    }
+
+    .landing-page.newsletter .contact-us-card .pop-up-card .left-pop-up img {
+        padding: 30px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0;
+    }
+
+    .landing-page.newsletter .jumbotron.hero.reading-landing h1 {
+      padding: 30px 0 30px 30px;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .landing-page.newsletter .jumbotron.hero.reading-landing img {
+      display: none;
+    }
+
+    .newsletter .general-contact-form .hs-submit {
+        margin-left: 0;
+    }
+
+    .pop-up-card {
+      width: 70%;
+      margin-left: 15%;
+      top: -325px;
+    }
+
+    .landing-page.newsletter .contact-us-card {
+        height: 720px;
+    }
+
+    .landing-page.newsletter .contact-us-card .pop-up-card .left-pop-up {
+      height: 275px;
+      top: 0;
+      border-radius: 25px 25px 0px 0px;
+      -webkit-border-radius: 25px 25px 0 0;
+        -moz-border-radius: 25px 25px 0 0;
+    }
+
+    .landing-page.newsletter .contact-us-card .pop-up-card .left-pop-up img {
+        padding: 30px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0;
+    }
+
+    .landing-page.newsletter .jumbotron.hero.reading-landing h1 {
+      padding: 30px 0 0 15px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .landing-page.newsletter .jumbotron.hero.reading-landing img {
+      display: none;
+    }
+
+    .contact-us-card .pop-up-card .right-pop-up .general-contact-form .hs-fieldtype-text input {
+        width: 100%;
+    }
+
+    .contact-us-card .pop-up-card .right-pop-up .general-contact-form input.hs-button {
+        width: 50%;
+    }
+
+    .pop-up-card {
+      width: 60%;
+      margin-left: 20%;
+      top: -250px;
+    }
+
+    .landing-page.newsletter .contact-us-card {
+        height: 830px;
+    }
+
+    .landing-page.newsletter .contact-us-card .pop-up-card .left-pop-up {
+      height: 275px;
+      top: 0;
+      border-radius: 25px 25px 0px 0px;
+      -webkit-border-radius: 25px 25px 0 0;
+        -moz-border-radius: 25px 25px 0 0;
+    }
+
+    .landing-page.newsletter .contact-us-card .pop-up-card .left-pop-up img {
+        padding: 30px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0;
+    }
+
+    .landing-page.newsletter .jumbotron.hero.reading-landing h1 {
+      padding: 30px 0 0 15px;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .pop-up-card {
+        top: -340px;
+    }
+  }
+  
+  </style>
 </div>
