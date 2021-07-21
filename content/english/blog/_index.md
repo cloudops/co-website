@@ -34,6 +34,8 @@ aliases:
     - /tags/devops/
     - /tags/cloud-native/
     - /tags/business-value/
+    - /tags/top-solution-providers-canada/
+    - /tags/financial-times-americas-fastest-growing-companies-cloudops-cloudops-growth-cloud-growth/
 ---
 
 <div class="blog-main">
