@@ -5,8 +5,8 @@ resources:
 - name: "thumbnail"
   src: "cloudmigration.png"
   slug: "petite-liste-de-verification-utile-avant-la-migration-vers-le-nuage"
-description:
-keywords:
+description: Ne transférez pas vos applications patrimoniales dans le nuage. Créez un plan détaillé pour trouver des équivalents en nuage natif.
+keywords: [stratégie de migration nuage, liste de vérification migration nuage, migration nuage]
 tags:
 ---
 

@@ -5,8 +5,8 @@ resources:
 - name: "thumbnail"
   src: "healthcare_isv.png"
 slug: "comment-les-consultants-en-infonuagique-sauvent-le-domaine-des-soins-de-sante-des-violations-de-donnees-couteuses"
-description:
-keywords:
+description: Les DLI dans les soins de santé sont des cibles attrayantes pour les pirates.  Les normes d'industrie comme SOC 2 sont essentielles pour maintenir vos applications en sécurité.
+keywords: [conseils nuage, cloudops, soins de santé cloudops, nuage soins de santé, protection violations données soins de santé]
 tags:
 ---
 

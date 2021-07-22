@@ -5,8 +5,8 @@ resources:
 - name: "thumbnail"
   src: "securing_devops_platform_saas.png"
 slug: "securisation-de-votre-plateforme-devops-saas"
-description:
-keywords:
+description: Les pirates sont de plus en plus créatifs chaque jour. Les normes d'industrie comme SOC 2 sont essentielles pour maintenir vos applications en sécurité.
+keywords: [logiciel devops, plateforme devops, devops pour saas, sécurité devops]
 tags:
 ---
 

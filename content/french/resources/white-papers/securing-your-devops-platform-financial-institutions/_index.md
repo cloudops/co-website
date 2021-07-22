@@ -1,13 +1,13 @@
 ---
 title: Sécurisation de votre plateforme DevOps - Entreprises financières
 date: 2020-07-10
-description: Financial institutions make attractive targets for hackers. Industry standards like SOC 2 are essential for securing your DevOps platforms.
+description: Les institutions financières sont des cibles attrayantes pour les pirates. Les normes d'industrie telles SOC 2 sont essentielles pour sécuriser vos plateformes DevOps.
 resources:
 - name: "thumbnail"
   src: "Financial_WP.png"
 aliases:
     - /financialkubernetes-0
-keywords: [devops platform, devops security, devops financial services]
+keywords: [plateforme devops, sécurité devops, services financiers devops]
 tags:
 ---
 

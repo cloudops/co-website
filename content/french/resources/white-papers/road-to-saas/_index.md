@@ -5,8 +5,8 @@ resources:
 - name: "thumbnail"
   src: "road_to_saas.png"
 slug: "en-route-vers-le-saas"
-description:
-keywords:
+description: Les entreprises qui ne sont pas encore passées au modèle à la demande continueront de perdre des parts de marché si elles ne s'adaptent pas.
+keywords: [architecture SaaS, logiciel à la demande, modèle SaaS]
 tags:
 ---
 

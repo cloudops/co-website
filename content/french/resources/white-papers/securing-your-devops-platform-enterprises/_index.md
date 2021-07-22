@@ -1,11 +1,11 @@
 ---
 title: Sécurisation de votre plateforme DevOps - Enterprises
 date: 2020-07-08
-description: Enterprises make attractive targets for hackers. Industry standards like SOC 2 are essential for securing your DevOps platforms.
+description: Les pirates sont de plus en plus créatifs chaque jour. Les normes d'industrie comme SOC 2 sont essentielles pour maintenir vos applications en sécurité. 
 resources:
 - name: "thumbnail"
   src: "Forrester.png"
-keywords: [devops platform, devops security, devops enterprises]
+keywords: [logiciel devops, plateforme devops, devops pour entreprises, sécurité devops]
 tags:
 ---
 

@@ -5,8 +5,8 @@ resources:
 - name: "thumbnail"
   src: "AKS.png"
 slug: "azure-kubernetes-services-la-securite-des-conteneurs-pour-un-monde-infonuagique"
-description:
-keywords:
+description: Un livre électronique de CloudOps et Microsoft sur la façon de sécuriser vos conteneurs dans Azure avec AKS.
+keywords: [aks, sécurité aks, sécurité conteneur, sécurité nuage natif]
 tags:
 ---
 
