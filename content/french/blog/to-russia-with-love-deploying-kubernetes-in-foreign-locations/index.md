@@ -12,9 +12,9 @@ slug: /a-la-russie-avec-amour-deployer-kubernetes-a-letranger
 aliases:
     - /fr/2019/03/a-la-russie-avec-amour-deployer-kubernetes-a-letranger/
     - /fr/a-la-russie-avec-amour-deployer-kubernetes-a-letranger
-description:
-keywords:
-tags:
+description: Déployer Kubernetes dans des endroits étrangers peut exiger la migration de charges de travail dans des architectures de nuages hybrides modernisées avec des conteneurs.
+keywords: [kubernetes, gcp, migration kubernetes]
+tags: [DevOps, Guide technique]
 ---
 
 <p>Il y a quelques années, CloudOps a commencé à travailler avec un gros client européen qui voulait migrer ses charges de travail dans GCP (Google Cloud Platform). Il cherchait à moderniser son application avec des conteneurs et à utiliser la distribution Kubernetes la plus mature du moment : Google Kubernetes Engine (GKE). Il voulait aussi que sa plateforme applicative utilise des bibliothèques de recettes d’automatisation basées sur Terraform et Ansible. CloudOps l’a accompagné à travers le processus de migration et l’architecture fut complétée en mars 2018.</p><h4><em>Déployer Kubernetes dans des environnements exotiques</em><br></h4><p>L’architecture en place, comme le montre l’image de gauche, avait un équilibreur de charge matériel, celui-ci a servi de point d’entrée et a pu desservir le contenu tant de notre RDC que de l’application exploitée dans Kubernetes. L’architecture était composée de nombreux éléments. Redis fut utilisé pour la mise en mémoire cache de la session. Fluentd était un conteneur d’enregistrement qui s’intégrait directement avec StackDriver de GCP. Nous avons créé un conteneur Fluentd sur mesure qui s’enregistrait dans une pile ELK sur mesure elle aussi. Tous ces éléments devaient être migré vers un fournisseur sur place, basé en Russie.</p>

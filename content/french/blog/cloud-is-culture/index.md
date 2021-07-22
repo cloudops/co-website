@@ -10,6 +10,9 @@ resources:
 class_name: "blog post"
 slug: /le-nuage-est-la-culture
 aliases:
+description:
+keywords:
+tags:
 ---
 
 <p><a href="https://twitter.com/ianrae">Ian Rae</a>, chef de la direction et fondateur de CloudOps, a posé des questions à <a href="https://twitter.com/Thumbtackhead">John Weigelt</a>, directeur national de la technologie chez Microsoft Canada, sur la façon dont le nuage a évolué pour devenir une culture. Lisez l’entrevue ci-dessous ou écoutez la conversation <a href="https://soundcloud.com/own-your-destiny/cloud-is-culture">ici</a>.</p>

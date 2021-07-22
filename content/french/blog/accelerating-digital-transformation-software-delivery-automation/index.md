@@ -11,7 +11,7 @@ resources:
 class_name: "blog post"
 slug: /accelerer-transformation-numerique-automatisation-de-livraison-de-logiciels
 keywords: [automatisation de livraison de logiciels, transformation numerique, transformation agile, transformation devops]
-tags:
+tags: [Valeur commerciale, DevOps]
 ---
 
 

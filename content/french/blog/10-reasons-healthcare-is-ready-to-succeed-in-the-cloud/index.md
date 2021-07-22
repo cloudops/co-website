@@ -11,8 +11,8 @@ resources:
 class_name: "blog post"
 aliases:
   - /accelerating-digital-transformation-software-delivery-automation
-keywords: [healthcare transformation, digital transformation, healthcare cloud, healthcare technology]
-tags: [business value, devops, cloud native]
+keywords: [transformation soins de santé,transformation digitale, nuage soins de santé, soins de santé technologie]
+tags: [Valeur commerciale, DevOps, Nuage natif]
 ---
 
 

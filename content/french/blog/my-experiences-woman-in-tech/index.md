@@ -12,7 +12,7 @@ resources:
 class_name: "blog post"
 aliases:
 keywords: [Journée internationale des femmes]
-tags:
+tags: [CloudOps, Culture]
 ---
 
 

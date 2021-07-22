@@ -12,9 +12,9 @@ slug: /bienvenue-en-2020
 aliases:
     - /fr/2020/02/bienvenue-en-2020%E2%80%89/
     - /fr/bienvenue-en-2020
-description:
-keywords:
-tags:
+description: Tandis que nous entrons dans une nouvelle décennie, Ian Rae prédit l'évolution de la technologie et de l'industrie de l'infonuagique.
+keywords: [prévisions nuage 2020, prévisions cloudops, ian rae]
+tags: [CloudOps]
 ---
 
 <blockquote class="wp-block-quote"><p><strong>« Toute technologie suffisamment avancée est indiscernable de la magie »</strong></p><p><cite><a href="https://fr.wikipedia.org/wiki/Trois_lois_de_Clarke">Arthur C. Clarke</a></cite></p></blockquote>

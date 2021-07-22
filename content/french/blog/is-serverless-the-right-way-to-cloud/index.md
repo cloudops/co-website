@@ -10,6 +10,9 @@ resources:
 class_name: "blog post"
 aliases:
 slug: /est-ce-que-le-sans-serveur-est-la-bonne-voie-vers-le-nuage
+description: Il y a eu une remarquable augmentation des plateformes infonuagiques sans serveur au cours des dernières années.
+keywords: [informatique sans serveur, donald donovan]
+tags: [DevOps, Guide technique]
 ---
 
 <p>L’informatique sans serveur prend son envol. Bien qu'il existe depuis l’annonce de Lambda par AWS en 2014, le sans serveur atteint finalement la maturité nécessaire pour propulser un changement de modèle.</p>

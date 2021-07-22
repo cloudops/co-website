@@ -12,9 +12,9 @@ slug: /questionnaire-etes-vous-une-licorne-kubernetes
 aliases:
     - /fr/2019/08/questionnaire-etes-vous-une-licorne-kubernetes%E2%80%89/
     - /fr/questionnaire-etes-vous-une-licorne-kubernetes
-description:
-keywords:
-tags:
+description: Testez vos connaissances sur Docker et Kubernetes pour savoir si vous êtes une perle rare.
+keywords: [questionnaire kubernetes, questionnaire nuage natif, test kubernetes]
+tags: [DevOps, Guide technique]
 ---
 
 <p>Testez vos connaissances de Kubernetes en répondant à ce questionnaire et découvrez si oui ou non, vous êtes une «&nbsp;perle rare&nbsp;» !</p>

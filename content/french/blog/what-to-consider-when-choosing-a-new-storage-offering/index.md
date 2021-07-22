@@ -11,9 +11,8 @@ resources:
 class_name: "blog post"
 aliases:
 keywords: [cloud ops, cloud storage, pure, portworx, cloud storage migration, cloud storage vendor]
-tags:
+tags: [Valeur commerciale, Guide technique]
 ---
-
 
 <p>Le nombre et la variété de services de stockage ont explosé au cours des dernières années, et plusieurs facteurs doivent être pris en considération lors du passage à une nouvelle plateforme de stockage. Que vous fassiez passer vos équipements de stockage à un système équivalent ou que vous optiez pour une stratégie complètement différente, CloudOps suggère généralement trois approches de stockage défini par logiciel à ses clients.</p>
 

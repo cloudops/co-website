@@ -10,7 +10,7 @@ resources:
   src: "Rancher-cover.png"
 class_name: "blog post"
 keywords: [rancher, rancher 2.5, cloud platform, cloud native platform]
-tags: [Cloud Native, Business Value]
+tags: [Nuage natif, Valeur commerciale]
 ---
 
 <div class="post-content">

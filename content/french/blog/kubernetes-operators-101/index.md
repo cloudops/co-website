@@ -9,9 +9,9 @@ resources:
   src: "OperatorsCover.png"
 class_name: "blog post"
 slug: /operateurs-kubernetes-101
-description:
-keywords:
-tags:
+description: Une introduction au modèle opérateur dans Kubernetes et l'infrastructure opérateur SDK pour la création d'opérateurs Go.
+keywords: [opérateurs kubernetes, comment kubernetes, kubernetes 101, guide kubernetes, kubernetes]
+tags: [DevOps, Guide technique]
 ---
 
 La plupart des applications nécessitent des ressources qui proviennent des environnements dans lesquels elles opèrent, comme de la mémoire, UCT, stockage, réseautage, etc. Selon l'application, beaucoup de ces ressources seront consommées facilement et de façon transparente, mais pas toutes. La majorité des applications doivent avoir été en partie préalablement configurées avant d'être déployées et auront ensuite besoin d'entretien particulier relativement aux sauvegardes, aux restaurations, aux compressions de fichiers, aux vérifications de haute disponibilité, au maintien de journaux, à la croissance de base de données, aux routines de bilan de santé, etc. Elles devront possiblement être mises dans un état spécial pendant la mise à jour pour s'assurer, par exemple, qu'elles ne laissent pas tomber les utilisateurs.

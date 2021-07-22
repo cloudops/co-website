@@ -2,7 +2,7 @@
 title: "Nos meilleurs articles de 2020"
 date: "2020-12-18"
 author: "CloudOps"
-description: With 2021 right around the corner, we decided to compile our top-performing blog posts from the past year.
+description: Avec l'arrivée imminente de 2021, nous avons compilé nos meilleurs articles de blog de l'année.
 resources:
 - name: "thumbnail"
   src: "Fireworks2020Thumbnail.png"
@@ -10,6 +10,7 @@ resources:
   src: "Fireworks2020Cover.png"
 class_name: "blog post"
 keywords: [cloudops articles, cloud industry, cloudnews]
+tags: [CloudOps]
 ---
 
 <p>Alors que 2020 touche à sa fin, voici nos meilleurs articles de l’année. Nous espérons qu’ils vous donneront un aperçu de l’état de l’industrie des technologies de l’information et de son avenir.</p>

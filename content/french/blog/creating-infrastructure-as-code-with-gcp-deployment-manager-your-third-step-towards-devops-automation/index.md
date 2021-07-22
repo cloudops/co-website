@@ -12,9 +12,9 @@ slug: /creation-dune-iac-la-troisieme-etape-vers-lautomatisation-devops
 aliases:
     - /fr/2018/08/creation-dune-iac-la-troisieme-etape-vers-lautomatisation-devops/
     - /fr/creation-dune-iac-la-troisieme-etape-vers-lautomatisation-devops
-description:
-keywords:
-tags:
+description: Directives étape par étape pour le déploiement de Consul à l'aide de Terraform et Ansible sur GCP.
+keywords: [infra en tant que code, terraform, gcp]
+tags: [DevOps, Guide technique]
 ---
 
 <div class="post-content"><p><span style="font-weight: 400;">

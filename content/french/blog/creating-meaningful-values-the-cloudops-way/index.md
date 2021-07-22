@@ -9,9 +9,9 @@ resources:
   src: "Values-Cover.png"
 class_name: "blog post"
 slug: "valeurs-significatives-a-la-maniere-de-cloudops"
-description:
-keywords:
-tags:
+description: Les valeurs façonnent le leadership, donnent un but et favorisent la cohésion entre les équipes. Comment créer des valeurs significatives qui motivent les gens?
+keywords: [valeurs cloudops, culture cloudops]
+tags: [Culture]
 ---
 
 En observant la croissance de CloudOps en tant qu’entreprise fournisseur de services, nous avons constaté deux choses : 1) notre priorité ce sont les gens, sans eux, notre organisation ne survivrait pas 2) le moment est venu d’identifier, de documenter et de communiquer <a href="https://blog.smarp.com/the-importance-of-company-values" target="_blank"> l’importance des valeurs</a> que nous incarnons, et d’en faire des points de référence pour nos décisions et nos actions.

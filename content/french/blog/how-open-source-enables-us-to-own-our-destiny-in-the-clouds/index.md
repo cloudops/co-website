@@ -9,9 +9,9 @@ resources:
   src: "OpenSource-Cover.png"
 class_name: "blog post"
 slug: "restons-maitres-de-notre-destin-dans-les-nuages-grace-au-logiciel-libre"
-description:
-keywords:
-tags:
+description: Le code source libre a toujours été au cœur de notre mission d'aider les clients à être maîtres de leur destin dans le nuage.
+keywords: [code source libre, cloudops, approche code source libre, définition code source libre, signification code source libre]
+tags: [CloudOps, Valeur commerciale, DevOps, Nuage natif, Culture]
 ---
 
 Ce blogue est extrait de l’exposé de Ian Rae lors de la Journée Cloud Native 2020, qui peut être écouté <a href="https://www.youtube.com/watch?v=X2WOkt6N8eE&list=PLCfLScXpEyAQ0k9pNr8SlGK42CSd-buYv&index=14" target="_blank">here</a>.

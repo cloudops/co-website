@@ -12,9 +12,9 @@ slug: /quiz-dans-quelle-mesure-vos-conteneurs-sont-ils-securises-dans-azure
 aliases:
     - /fr/2019/04/quiz-dans-quelle-mesure-vos-conteneurs-sont-ils-securises-dans-azure%E2%80%89/
     - /fr/quiz-dans-quelle-mesure-vos-conteneurs-sont-ils-securises-dans-azure
-description:
-keywords:
-tags:
+description: Testez vos connaissances sur la sécurité des conteneurs dans Azure et découvrez si vous suivez les pratiques gagnantes AKS.
+keywords: [aks, sécurité conteneur, sécurité azure, sécurité kubernetes]
+tags: [DevOps, Sécurité et conformité, Guide technique]
 ---
 
 <p>&nbsp;</p>

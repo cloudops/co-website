@@ -9,9 +9,9 @@ resources:
   src: "Julia-Cover-FR.png"
 class_name: "blog post"
 slug: /reflexions-sur-mon-stage-chez-cloudops
-description:
-keywords:
-tags:
+description: Julia Hohenadel fut stagiaire d'été chez CloudOps. De retour aux études, elle parle de son expérience de travail. 
+keywords: [stage cloudops, julia hohenadel, stagiaire cloudops, culture cloudops]
+tags: [Culture]
 ---
 
 On serait porté à croire qu'il est difficile de définir la culture d'une entreprise lorsque l'on n'a jamais mis les pieds sur place ni rencontré ses collègues en personne. Pourtant, chez CloudOps, on a réussi l’exploit de propager la culture même dans un environnement virtuel. 

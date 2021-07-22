@@ -12,9 +12,9 @@ slug: /pourquoi-vous-avez-besoin-dune-transformation-devops-pour-survivre
 aliases:
     - /fr/2019/01/pourquoi-vous-avez-besoin-dune-transformation-devops-pour-survivre/
     - /fr/pourquoi-vous-avez-besoin-dune-transformation-devops-pour-survivre
-description:
-keywords:
-tags:
+description: Les transformations DevOps apportent une valeur considérable, mais exigent de penser différemment.
+keywords: [devops, transformation numérique, nuage, outils devops, plateforme devops]
+tags: [DevOps, Valeur commerciale]
 ---
 
 <div class="post-content"><p><strong>Les logiciels dévorent le monde </strong>et les organisations s’orientent sans cesse vers des solutions logicielles pour résoudre les problèmes de leur domaine. Elles le font à travers des transformations numériques leur permettant d’obtenir de meilleures performances financières. <strong>Le nuage est le catalyseur </strong>de ce processus car il décompose les systèmes non-numériques et ouvre la voie à des processus et outils numériques avancés qui assurent une livraison en tant que service de façon continue.</p><p>Les organisations qui améliorent leur capacité à livrer des logiciels sont plus en mesure d’offrir de nouvelles fonctionnalités rapidement, de se réorienter si nécessaire, de se conformer aux réglementations et de réagir aux commentaires afin d’attirer de nouveaux clients et de satisfaire les clients existants. Elles peuvent générer plus de revenus avec la TI qu’en faisant des fusions et acquisitions ou par entrepreneuriat. Cette plus-value ne fait qu’accélérer la demande du marché pour le développement d’applications, qui devrait dépasser l’offre de cinq fois d’ici 2021.</p> 

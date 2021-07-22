@@ -12,9 +12,9 @@ slug: "guide-cncf-du-debutant"
 aliases:
   - /fr/2018/10/guide-cncf-du-debutant/
   - /fr/guide-cncf-du-debutant
-description:
-keywords:
-tags:
+description: Le paysage en nuage natif est chaotique. Ce guide pour débutants vous présentera les projets CNCF.
+keywords: [outils cncf, guide cncf, outils nuage natif, guide nuage natif]
+tags: [Nuage natif, Guide technique]
 ---
 
 Le contexte des déploiements infonuagiques natifs peut paraître compliqué et
