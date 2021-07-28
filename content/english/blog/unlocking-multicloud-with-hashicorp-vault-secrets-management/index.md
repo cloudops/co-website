@@ -44,6 +44,8 @@ tags:
 
 <p>Vault will enable your organization to integrate security into the innermost layers of its technology stack. How do you evolve your Secrets Management practice? First, understand where your organization is in the maturity model for secrets management. Are you resting, creeping, crawling, walking, or running along your implementation of Vault?</p>
 
+<img  src="/images/blog/post/secretsmanagementmaturitymodel.png" alt="SecretsManagementMaturityModel"  width="100%">
+
 <p><bold>Rest:</bold> Your organization encounters secrets sprawl but does not have any process or solution in place to resolve the associated risks.</p>
 
 <p><bold>Creep:</bold> Your organization decides to mitigate many of the security and operational risks associated with its secret sprawl. A public cloud key store option such as <a rel="noreferrer noopener" href="https://azure.microsoft.com/en-us/services/key-vault/" target="_blank">Azure Key Vault</a> is then leveraged. However, these solutions are not designed for modern multi-cloud architectures and can create operational challenges when scaled beyond your primary cloud.</p>
@@ -74,6 +76,6 @@ tags:
 
 <h2>Next Steps</h2>
 
-<p>A platinum partner of HashiCorp, CloudOps has in-depth experience in its solutions. <a rel="noreferrer noopener" href="https://f.hubspotusercontent30.net/hubfs/732832/New%20One-Pagers%20(rebranded)/Service%20Offerings%20HashiCorp%20Vault.pdf" target="_blank">Learn about CloudOps’ Vault Trainings and Workshops, Enterprise Vault Accelerator Program, and HCP Vault Accelerator Program</a>. We will equip your DevOps teams with the skills needed to securely build and operate cloud native architectures. <a rel="noreferrer noopener" href="https://www.cloudops.com/contact-us/" target="_blank">Contact us for more information</a>.</p>
+<p>A platinum partner of HashiCorp, CloudOps has in-depth experience in its solutions. <a rel="noreferrer noopener" href="https://bit.ly/3l3gfh3" target="_blank">Learn about CloudOps’ Vault Trainings and Workshops, Enterprise Vault Accelerator Program, and HCP Vault Accelerator Program</a>. We will equip your DevOps teams with the skills needed to securely build and operate cloud native architectures. <a rel="noreferrer noopener" href="https://bit.ly/3iN8KYy" target="_blank">Contact us for more information</a>.</p>
 
 <!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-1f31c427-e9b0-4a5a-be12-1dd3f0857fbc"><span class="hs-cta-node hs-cta-1f31c427-e9b0-4a5a-be12-1dd3f0857fbc" id="hs-cta-1f31c427-e9b0-4a5a-be12-1dd3f0857fbc"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/732832/1f31c427-e9b0-4a5a-be12-1dd3f0857fbc"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-1f31c427-e9b0-4a5a-be12-1dd3f0857fbc" style="border-width:0px; width:100%;" src="https://no-cache.hubspot.com/cta/default/732832/1f31c427-e9b0-4a5a-be12-1dd3f0857fbc.png"  alt="New call-to-action"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(732832, '1f31c427-e9b0-4a5a-be12-1dd3f0857fbc', {"region":"na1"}); </script></span><!-- end HubSpot Call-to-Action Code -->
