@@ -18,6 +18,8 @@ slug: /exploiter-les-architectures-multinuages-hashicorp-vault
 
 <p>L’environnement DevOps et des infrastructures de nuages comprend une multitude d’outils et de plateformes qui ont chacun leur propre cas d’utilisation idéale. Les organisations qui utilisent les meilleurs outils dans cet environnement pourront profiter de tous les avantages des architectures multinuages.</p>
 
+<img  src="/images/blog/post/lexpertisedevops.png" alt="ExpertiseDevOps"  width="100%">
+
 <h2>La mentalité de vérification systématique</h2>
 
 <p>Puisque ces outils et ces plateformes sont indispensables pour assurer le succès de votre organisation, il faut les protéger. La sécurité doit toujours être un élément fondamental des architectures hybrides et multinuages composées de plusieurs nuages et de centres de données privés sans périmètres de réseau clairs. Ces architectures requièrent de votre organisation d’adopter une mentalité de vérification systématique.</p>
@@ -70,4 +72,6 @@ slug: /exploiter-les-architectures-multinuages-hashicorp-vault
 
 <h2>Prochaines étapes</h2>
 
-<p>Partenaire platine d’HashiCorp, CloudOps offre des ateliers pratiques qui donneront aux équipes DevOps les compétences nécessaires pour exploiter les versions Vault HCP et Entreprise. <a rel="noreferrer noopener" href="https://www.cloudops.com/fr/contactez-nous/" target="_blank">Contactez-nous pour en savoir plus</a>.</p>
+<p>Partenaire platine d’HashiCorp, <a rel="noreferrer noopener" href="https://f.hubspotusercontent30.net/hubfs/732832/New%20One-Pagers%20(rebranded)/FR_HashiCorpVaultServiceOfferings.pdf" target="_blank">CloudOps offre des ateliers pratiques qui donneront aux équipes DevOps les compétences nécessaires pour exploiter les versions Vault HCP et Entreprise</a>. <a rel="noreferrer noopener" href="https://www.cloudops.com/fr/contactez-nous/" target="_blank">Contactez-nous pour en savoir plus</a>.</p>
+
+<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-7305336f-1871-4fd6-9075-4408aab5f8a9"><span class="hs-cta-node hs-cta-7305336f-1871-4fd6-9075-4408aab5f8a9" id="hs-cta-7305336f-1871-4fd6-9075-4408aab5f8a9"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/732832/7305336f-1871-4fd6-9075-4408aab5f8a9"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-7305336f-1871-4fd6-9075-4408aab5f8a9" style="border-width:0px; width:100%" src="https://no-cache.hubspot.com/cta/default/732832/7305336f-1871-4fd6-9075-4408aab5f8a9.png"  alt="New call-to-action"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(732832, '7305336f-1871-4fd6-9075-4408aab5f8a9', {"region":"na1"}); </script></span><!-- end HubSpot Call-to-Action Code -->
