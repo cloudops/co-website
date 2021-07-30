@@ -42,6 +42,8 @@ slug: /exploiter-les-architectures-multinuages-hashicorp-vault
 
 <p>Vault permettra à votre organisation d’intégrer la sécurité dans la couche la plus interne de sa pile technologique. Comment faire évoluer votre pratique de gestion des secrets? Premièrement, il faut comprendre la position de votre organisation dans le modèle de maturité pour la gestion des secrets. Est-elle au repos, progresse-t-elle lentement ou bien elle rampe, marche ou court dans votre mise en œuvre de Vault?</p>
 
+<img  src="/images/blog/post/gestiondessecretsmodele.png" alt="ExpertiseDevOps"  width="100%">
+
 <p><bold>Au repos :</bold> Votre organisation fait face à l’étalement des secrets, mais elle n’a pas de processus ni de solution en place pour résoudre les risques qui y sont associés. 
 </p>
 
