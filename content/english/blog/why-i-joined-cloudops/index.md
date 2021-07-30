@@ -1,7 +1,7 @@
 ---
 title: Why I Joined CloudOps
 date: "2019-01-18"
-author: "CloudOps"
+author: "Maddison Long"
 description: Maddison Long joins CloudOps as VP of Products for its culture that values people, community, and technology.
 resources:
 - name: "thumbnail"
@@ -59,7 +59,7 @@ tags:
 
 <p>That is why I’m here, excited and ready to build the future with a team one could only dream of!<p>
 
-<p><em>This&nbsp;blog&nbsp;post&nbsp;was&nbsp;written&nbsp;by&nbsp;Maddison&nbsp;Long.</em></p>
-
 <img style="width: 150px;" class="alignleft" src="/images/blog/post/MaddisonLong.jpg"><p>As VP of Products at CloudOps, Maddison is responsible for developing, implementing and managing the go-to-market strategy for the CloudOps’ Cloud Delivery line of business, including CloudMC. Maddison has a strong background in product management, sales and marketing. Prior to joining CloudOps, he scaled an open source network solutions startup from ground up to acquisition. He is active in various open source networking ecosystems, especially the Linux Foundation Networking (LFN) and Canada’s Centre of Excellence in Next Generation Networks (CENGN).</p>
+
+<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-0b3da4da-b49f-4661-b9f8-53984f616858"><span class="hs-cta-node hs-cta-0b3da4da-b49f-4661-b9f8-53984f616858" id="hs-cta-0b3da4da-b49f-4661-b9f8-53984f616858"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/732832/0b3da4da-b49f-4661-b9f8-53984f616858"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-0b3da4da-b49f-4661-b9f8-53984f616858" style="border-width:0px; width:100%;" src="https://no-cache.hubspot.com/cta/default/732832/0b3da4da-b49f-4661-b9f8-53984f616858.png"  alt="New call-to-action"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(732832, '0b3da4da-b49f-4661-b9f8-53984f616858', {"region":"na1"}); </script></span><!-- end HubSpot Call-to-Action Code -->
 

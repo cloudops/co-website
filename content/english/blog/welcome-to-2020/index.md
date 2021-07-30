@@ -31,3 +31,5 @@ tags:
 <p>Welcome to 2020!</p><p>– Ian</p><img src="/images/blog/post/cloudops-by-eva-blue-097.jpg" alt="" class="align-left" width="298">
 
 <p><em>Featured image taken by Alfred Twj (<a href="https://unsplash.com/@alfredtwj">@alfredtwj</a>)</em></p>
+
+<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-23bacd68-2a4e-4df1-b32e-abfe84760ba7"><span class="hs-cta-node hs-cta-23bacd68-2a4e-4df1-b32e-abfe84760ba7" id="hs-cta-23bacd68-2a4e-4df1-b32e-abfe84760ba7"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/732832/23bacd68-2a4e-4df1-b32e-abfe84760ba7"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-23bacd68-2a4e-4df1-b32e-abfe84760ba7" style="border-width:0px; width:100%;" src="https://no-cache.hubspot.com/cta/default/732832/23bacd68-2a4e-4df1-b32e-abfe84760ba7.png"  alt="New call-to-action"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(732832, '23bacd68-2a4e-4df1-b32e-abfe84760ba7', {"region":"na1"}); </script></span><!-- end HubSpot Call-to-Action Code -->
