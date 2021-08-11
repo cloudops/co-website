@@ -5,9 +5,9 @@ author: "CloudOps"
 description: A SOC 2 report demonstrates that an organization's system have been effectively designed and verified to keep data secure. A few challenges can delay the process.
 resources:
 - name: "thumbnail"
-  src: "LockingThumbnail.png"
+  src: "SOC2LockThumbnail.png"
 - name: "cover"
-  src: "LockingCover.png"
+  src: "SOC2Cover.png"
 class_name: "blog post"
 aliases:
 keywords: [soc 2, cybersecurity, cloud security, soc 2 compliance, soc 2 audit, soc 2 type 2, soc 2 report, soc 2 compliance]
