@@ -33,13 +33,13 @@ tags:
 
 <p>SOC 2 audits report on a long list of controls that are based on five trust service criteria.</p>
 
-<ol>
-  <li><i>Security</i> protects against unauthorized access, unauthorized disclosure, or damage to systems. </li>
-  </li><i>Availability</i> keeps systems operational and available at a level that meets stated business objectives.</li>
-  <li><i>Processing integrity</i> ensures systems perform in a predictable manner, free of accidental or unexplained errors.</li>
-  <li><i>Confidentiality</i> protects confidential information throughout its life cycle from collection and processing to disposal.</li>
-  <li><i>Privacy</i> protects personal information, especially when captured from customers.</li>
-</ol>
+<ul>
+  <li>1. <strong>Security</strong> protects against unauthorized access, unauthorized disclosure, or damage to systems. </li>
+  <li>2. <strong>Availability</strong> keeps systems operational and available at a level that meets stated business objectives.</li>
+  <li>3. <strong>Processing integrity</strong> ensures systems perform in a predictable manner, free of accidental or unexplained errors.</li>
+  <li>4. <strong>Confidentiality</strong> protects confidential information throughout its life cycle from collection and processing to disposal.</li>
+  <li>5. <strong>Privacy </strong>protects personal information, especially when captured from customers.</li>
+</ul>
 
 <p>When pursuing a SOC 2 report, while the Security criteria is required, organizations may choose to be audited on one, several, or all of the other trust service criteria.</p>
 
