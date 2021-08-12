@@ -1,13 +1,13 @@
 ---
 title: "Top 8 Challenges to Becoming SOC 2 Certified"
-date: "2021-09-11"
+date: "2021-08-11"
 author: "CloudOps"
 description: A SOC 2 report demonstrates that an organization's system have been effectively designed and verified to keep data secure. A few challenges can delay the process.
 resources:
 - name: "thumbnail"
   src: "SOC2LockThumbnail.png"
 - name: "cover"
-  src: "SOC2Cover.png"
+  src: "SOC2LockCover.png"
 class_name: "blog post"
 aliases:
 keywords: [soc 2, cybersecurity, cloud security, soc 2 compliance, soc 2 audit, soc 2 type 2, soc 2 report, soc 2 compliance]
