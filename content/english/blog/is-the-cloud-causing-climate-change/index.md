@@ -17,6 +17,8 @@ tags:
 ---
 
 
+<p><em>Combatting climate change requires action from all of us. That’s why we’re proud to be joining other leading organizations in signing the <a href="http://ciostrategycouncil.com/sustainable/">CIO Strategy Council’s Sustainable IT Pledge</a>. At CloudOps, we’re committing to reducing the environmental impact of our IT operations and use of digital technology, helping deliver a net-zero future..</em></p>
+
 <p>The effects of cloud computing on climate change are complex. Data centres consume energy and emit greenhouse gases in the process. The information and communications technology industry is projected to take 30% of the global demand for energy <a href="https://www.nature.com/articles/d41586-018-06610-y">by 2030</a>. Currently consuming 7% of the world’s energy supply, internet technology<a href="https://www.computerworld.com/article/3431148/why-data-centres-are-the-new-frontier-in-the-fight-against-climate-change.html"> has the same carbon footprint as the aviation industry.</a></p>
 
 <p>The source of 7% of the global energy demand will not make or break the fight against climate change. This has been hammered home recently as people stayed home to fight the spread of COVID-19. Never has the need to binge-watch Netflix been so critical for those fortunate enough to have a subscription. Yet the plummeting transportation and industry production has led to the lowest carbon emissions in years. The point:<strong> fighting climate change requires an “all of society” approach.</strong></p><p>“All of society” includes the emissions of cloud technology, making criticisms of cloud’s carbon footprint valid but reducing the footprint of cloud alone will not stop climate change.</p>
