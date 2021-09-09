@@ -21,7 +21,7 @@ tags:
     <div class="alignright">
         <img src="/images/blog/post/Hellscape2.jpg" width="258">
     </div>
-<p><a href="https://info.cloudops.com/resources/white-papers/the-path-to-devops/">There are no clearly defined blueprints for adopting DevOps processes</a> and building cloud native technology stacks, and organizations can spend months deciding upon and experimenting with different solutions.</p>
+<p><a href="https://cloudops.com/resources/white-papers/the-path-to-devops/">There are no clearly defined blueprints for adopting DevOps processes</a> and building cloud native technology stacks, and organizations can spend months deciding upon and experimenting with different solutions.</p>
 
 <p>Not only are some tools better than others, but different tools are more suited for different use cases and must be adapted accordingly. The best technology stacks are often built with the same smart defaults, shared components that can be replicated across different platforms. To build cloud native technology stacks, decision-makers must selectively customize, and rearrange their chosen defaults. They must <em>build like Lego and not like Playmobil</em>.&nbsp;</p>
     <div class="alignright">
