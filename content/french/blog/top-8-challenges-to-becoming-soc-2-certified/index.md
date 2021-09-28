@@ -34,11 +34,11 @@ tags:
 <p>Les rapports SOC 2 consistent en des centaines de contrôles et sont basés sur cinq principes de service de confiance.</p>
 
 <ul>
-<li><strong>Sécurité</strong> – protection contre l’accès non autorisé, la divulgation non autorisée ou les dommages aux systèmes.</li>
-<li><strong>Disponibilité</strong> – maintien de systèmes opérationnels et disponibles à un niveau qui répond aux objectifs déclarés de l’entreprise.</li>
-<li><strong>Intégrité du traitement</strong> – assurance que les systèmes fonctionnent de manière prévisible et exempte d’erreurs accidentelles ou non expliquées.</li>
-<li><strong>Confidentialité</strong> – protection des renseignements confidentiels tout le long de leur cycle de vie, de la collecte au traitement et à la destruction.</li>
-<li><strong>Vie privée</strong> – protection des renseignements personnels, surtout lorsqu’ils sont soumis par les clients.</li>
+<li><strong>- Sécurité</strong> – protection contre l’accès non autorisé, la divulgation non autorisée ou les dommages aux systèmes.</li>
+<li><strong>- Disponibilité</strong> – maintien de systèmes opérationnels et disponibles à un niveau qui répond aux objectifs déclarés de l’entreprise.</li>
+<li><strong>- Intégrité du traitement</strong> – assurance que les systèmes fonctionnent de manière prévisible et exempte d’erreurs accidentelles ou non expliquées.</li>
+<li><strong>- Confidentialité</strong> – protection des renseignements confidentiels tout le long de leur cycle de vie, de la collecte au traitement et à la destruction.</li>
+<li><strong>- Vie privée</strong> – protection des renseignements personnels, surtout lorsqu’ils sont soumis par les clients.</li>
 </ul>
 
 <p>Lors de l’exécution d’un rapport SOC 2, les organisations peuvent choisir de faire un audit sur un, plusieurs ou tous les principes de service de confiance.</p>
@@ -78,3 +78,5 @@ tags:
 <p>Obtenir un rapport d’audit SOC 2 est une grande réalisation, mais vous ne devez pas le considérer comme le but ultime. Maintenir une attestation SOC 2 de type 2 valide signifie que vous serez continuellement en période d’audit. Il ne doit pas y avoir de lacunes dans la couverture de la période d’audit. Demeurer conforme au SOC 2 exige de réévaluer et d’améliorer vos politiques, vos processus et vos outils sur une base continue. Il s’agit d’un parcours et non pas d’une destination.</p>
 
 <p>La gestion d’une équipe des opérations vient avec des défis, surtout lors de l’intégration de la sécurité dans les pratiques DevOps. Les services gérés de CloudOps ont fait l’objet d’un audit SOC 2, nous pouvons vous aider sur votre parcours SOC 2. Nous faisons équipe avec Securis pour son expertise en matière de gouvernance, de gestion des risques liés aux renseignements, d’audit, de réponse aux incidents, ainsi que dans divers domaines de la technologie, de l’architecture et de l’audit de sécurité. Peu importe la configuration de votre nuage ou de votre réseau, notre équipe expérimentée vous aidera à effectuer vos activités quotidiennes de manière sécuritaire et conforme. <a href="https://www.cloudops.com/fr/contactez-nous/">Contactez-nous</a> pour savoir comment nous pouvons soutenir votre organisation.</p>
+
+<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-fc12d30f-2fed-4e0f-9e33-9d47f1cd694a"><span class="hs-cta-node hs-cta-fc12d30f-2fed-4e0f-9e33-9d47f1cd694a" id="hs-cta-fc12d30f-2fed-4e0f-9e33-9d47f1cd694a"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/732832/fc12d30f-2fed-4e0f-9e33-9d47f1cd694a"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-fc12d30f-2fed-4e0f-9e33-9d47f1cd694a" style="border-width:0px; width:100%;” src="https://no-cache.hubspot.com/cta/default/732832/fc12d30f-2fed-4e0f-9e33-9d47f1cd694a.png"  alt="New call-to-action"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(732832, 'fc12d30f-2fed-4e0f-9e33-9d47f1cd694a', {"region":"na1"}); </script></span><!-- end HubSpot Call-to-Action Code -->

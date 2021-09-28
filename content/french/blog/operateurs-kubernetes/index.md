@@ -93,4 +93,6 @@ tags:
 
 <p>Souhaiteriez-vous apprendre sur les outils et les pratiques DevOps du confort de votre foyer ? Modernisez le bassin de compétences de votre équipe technique en l'inscrivant à notre prochain <a href="https://www.cloudops.com/fr/ateliers/">atelier pratique de trois jours sur Docker et Kubernetes</a></p>
 
+<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-b8109334-fb28-4d6b-9af7-b3db1a564873"><span class="hs-cta-node hs-cta-b8109334-fb28-4d6b-9af7-b3db1a564873" id="hs-cta-b8109334-fb28-4d6b-9af7-b3db1a564873"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/732832/b8109334-fb28-4d6b-9af7-b3db1a564873"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-b8109334-fb28-4d6b-9af7-b3db1a564873" style="border-width:0px; width:100%;" src="https://no-cache.hubspot.com/cta/default/732832/b8109334-fb28-4d6b-9af7-b3db1a564873.png"  alt="New call-to-action"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(732832, 'b8109334-fb28-4d6b-9af7-b3db1a564873', {"region":"na1"}); </script></span><!-- end HubSpot Call-to-Action Code -->
+
  
