@@ -149,8 +149,4 @@ https://192.168.122.188/
 Source+Code+Pro:300,600|Titillium+Web:400,600,700”
 ...</code></pre><p>Maintenant que vous avez découvert le réseau Kubernetes, il est temps d’en apprendre davantage. Notre ebook “<a href="https://info.cloudops.com/azure-kubernetes-services-la-securite-des-conteneurs-pour-un-monde-infonuagique-0">The Beginner’s Guide to Kubernetes</a>” vous montrera ce qui peut être fait de plus avec la mise en réseau Kubernetes et vous offrira des ressources à propos des déploiements, des volumes et de la sécurité de Kubernetes.</p>
 
-<div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 col-xs-12 cta-image">
-      <img src="/images/blog/cta/kubernetesfr.png">
-    </div>
-</div>
+<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-b8109334-fb28-4d6b-9af7-b3db1a564873"><span class="hs-cta-node hs-cta-b8109334-fb28-4d6b-9af7-b3db1a564873" id="hs-cta-b8109334-fb28-4d6b-9af7-b3db1a564873"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/732832/b8109334-fb28-4d6b-9af7-b3db1a564873"  target="_blank" ><img class="hs-cta-img" id="hs-cta-img-b8109334-fb28-4d6b-9af7-b3db1a564873" style="border-width:0px; width:100%;" src="https://no-cache.hubspot.com/cta/default/732832/b8109334-fb28-4d6b-9af7-b3db1a564873.png"  alt="New call-to-action"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(732832, 'b8109334-fb28-4d6b-9af7-b3db1a564873', {"region":"na1"}); </script></span><!-- end HubSpot Call-to-Action Code -->
