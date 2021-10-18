@@ -50,6 +50,9 @@ div.row {
   max-width: 100%; }
 
 /************  General Styles  ***************/
+html {
+  font-size: 20px; }
+
 body h1 {
   color: #FFF;
   font-family: 'Montserrat', sans-serif;
