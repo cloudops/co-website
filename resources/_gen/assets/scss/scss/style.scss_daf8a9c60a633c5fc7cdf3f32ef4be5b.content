@@ -5376,7 +5376,7 @@ blockquote {
   .careers .mobile-version {
     display: inline-block; }
   .careers .mobile-version h4.rw-sentence span {
-    font-size: 115%; }
+    font-size: 113%; }
   .careers .mobile-version .after-spinner {
     margin-left: 147px; }
   .careers .mobile-version .rw-words-1 span {
