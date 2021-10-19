@@ -5462,9 +5462,9 @@ blockquote {
   position: absolute;
   opacity: 0;
   color: #005D91;
-  -webkit-animation: rotateWord 12s cubic-bezier(0.35, 0.9, 0.9, 0.35) infinite 0s;
-  -ms-animation: rotateWord 12s cubic-bezier(0.35, 0.9, 0.9, 0.35) infinite 0s;
-  animation: rotateWord 12s cubic-bezier(0.35, 0.9, 0.9, 0.35) infinite 0s;
+  -webkit-animation: rotateWord 12s cubic-bezier(0.4, 0.99, 0.99, 0.4) infinite 0s;
+  -ms-animation: rotateWord 12s cubic-bezier(0.4, 0.99, 0.99, 0.4) infinite 0s;
+  animation: rotateWord 12s cubic-bezier(0.4, 0.99, 0.99, 0.4) infinite 0s;
   margin-left: auto;
   margin-right: auto;
   width: 200px; }
