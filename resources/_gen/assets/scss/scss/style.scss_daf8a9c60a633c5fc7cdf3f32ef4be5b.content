@@ -5133,7 +5133,8 @@ blockquote {
 
 .careers .community-card .card-deck .card img {
   padding: 15px 0;
-  height: 120px; }
+  height: 120px;
+  width: auto; }
 
 .careers .community-card .card-deck .card > a {
   margin-top: auto;
