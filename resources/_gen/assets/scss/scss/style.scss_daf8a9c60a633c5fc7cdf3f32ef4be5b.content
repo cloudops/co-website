@@ -4885,22 +4885,18 @@ blockquote {
     padding-left: 40px;
     padding-right: 40px; } }
 
-.careers
-.jumbotron.hero {
-  background-image: linear-gradient(to bottom right, #FFE07F, #FFD44C);
-  border-top: 3px solid #005D91;
+.careers .jumbotron.hero {
+  background-image: linear-gradient(to bottom right, #ffe07f, #ffd44c);
+  border-top: 3px solid #005d91;
   margin-bottom: 0;
   color: #fff; }
 
-.careers
-.jumbotron.hero h1,
-.careers
-.jumbotron.hero h2 {
+.careers .jumbotron.hero h1,
+.careers .jumbotron.hero h2 {
   text-align: right;
   color: #404040; }
 
-.careers
-.jumbotron.hero img {
+.careers .jumbotron.hero img {
   position: absolute;
   bottom: -80px;
   left: 0;
@@ -4910,7 +4906,7 @@ blockquote {
   padding-bottom: 30px; }
 
 .careers .case-studies-card .with-bottom-line {
-  border-bottom: 2px solid #FFE07F;
+  border-bottom: 2px solid #ffe07f;
   margin-left: 16.666667%;
   margin-right: 16.666667%;
   margin-bottom: 100px;
@@ -4959,7 +4955,7 @@ blockquote {
   margin-left: 30px; }
 
 .careers .contact-us-card ul.dashes li:before {
-  content: '-';
+  content: "-";
   position: absolute;
   margin-left: -20px; }
 
@@ -4968,15 +4964,15 @@ blockquote {
 
 .careers .social-following i {
   font-size: 40px;
-  color: #62B5E5;
+  color: #62b5e5;
   margin: 20px 10px 0 10px; }
 
 .careers .lever-integration {
   margin-right: 0; }
 
 .careers .lever-integration .card-deck .card {
-  background-color: #FFF;
-  box-shadow: 2px 2px 8px #E2E2E2;
+  background-color: #fff;
+  box-shadow: 2px 2px 8px #e2e2e2;
   border-radius: 0;
   border: 1px solid rgba(0, 0, 0, 0.125);
   margin: 15px auto;
@@ -4995,11 +4991,11 @@ blockquote {
 
 .careers #lever-jobs-container .lever-department-title {
   font-size: 26px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300; }
 
 .careers #lever-jobs-container .lever-team-title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #404040;
   font-size: 18px;
   font-weight: bold; }
@@ -5010,12 +5006,12 @@ blockquote {
 .careers #lever-jobs-container .lever-job-title {
   display: block;
   text-decoration: none;
-  color: #005D91;
+  color: #005d91;
   text-align: center; }
 
 .careers #lever-jobs-container .lever-job-title:hover {
   text-decoration: underline;
-  color: #005D91; }
+  color: #005d91; }
 
 .careers #lever-jobs-container li.lever-job {
   display: block;
@@ -5026,19 +5022,15 @@ blockquote {
   margin-right: 0; }
 
 @media (max-width: 575.98px) {
-  .careers
-.jumbotron.hero {
+  .careers .jumbotron.hero {
     padding-bottom: 80px; }
-  .careers
-.jumbotron.hero h1 {
+  .careers .jumbotron.hero h1 {
     font-size: 50px;
     text-align: left; }
-  .careers
-.jumbotron.hero h2 {
+  .careers .jumbotron.hero h2 {
     text-align: left;
     font-size: 24px; }
-  .careers
-.jumbotron.hero img {
+  .careers .jumbotron.hero img {
     position: relative;
     bottom: -80px;
     left: 0;
@@ -5078,8 +5070,7 @@ blockquote {
     margin-right: -15px; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .careers
-.jumbotron.hero img {
+  .careers .jumbotron.hero img {
     position: relative;
     bottom: -80px;
     left: 0;
@@ -5095,8 +5086,7 @@ blockquote {
     margin-bottom: 0; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .careers
-.jumbotron.hero img {
+  .careers .jumbotron.hero img {
     position: relative;
     bottom: -80px;
     left: 0;
@@ -5109,8 +5099,7 @@ blockquote {
     padding-right: 16.66666%; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .careers
-.jumbotron.hero img {
+  .careers .jumbotron.hero img {
     left: 0;
     bottom: -80px;
     width: 550px; }
@@ -5145,8 +5134,8 @@ blockquote {
   margin-bottom: auto; }
 
 .careers .community-card .card-deck .card {
-  background-color: #FFF;
-  box-shadow: 2px 2px 8px #E2E2E2;
+  background-color: #fff;
+  box-shadow: 2px 2px 8px #e2e2e2;
   border-radius: 0;
   border: 1px solid rgba(0, 0, 0, 0.125);
   vertical-align: middle;
@@ -5157,10 +5146,10 @@ blockquote {
   margin: 10px 20px 10px 0; }
 
 .careers .featured-role {
-  background-image: linear-gradient(to bottom right, #005D91, #62B5E5); }
+  background-image: linear-gradient(to bottom right, #005d91, #62b5e5); }
 
 .careers .featured-role h2 {
-  background-color: #FFD44C;
+  background-color: #ffd44c;
   color: #404040;
   padding: 30px;
   text-align: center; }
@@ -5171,25 +5160,25 @@ blockquote {
   height: 35px;
   border-radius: 4px;
   border-color: transparent;
-  color: #005D91;
+  color: #005d91;
   padding: 0;
   font-size: 14pt;
   box-shadow: none;
   margin: 20px 0 70px; }
 
 .careers .featured-role button:hover {
-  background-color: #005D91;
+  background-color: #005d91;
   color: #fff;
   border: solid 1px #fff;
-  transition-duration: .6s; }
+  transition-duration: 0.6s; }
 
 .careers .location-card {
   background-image: url(../images/blue-dots-LEFT.png), url(../images/yellow-dots-LEFT.png), url(../images/blue-dots-RIGHT.png), url(../images/yellow-dots-RIGHT.png);
-  background-position: left top,left top,right top,right top;
-  background-repeat: repeat-y,repeat-y,repeat-y,repeat-y; }
+  background-position: left top, left top, right top, right top;
+  background-repeat: repeat-y, repeat-y, repeat-y, repeat-y; }
 
 .careers .community-card {
-  background-color: #F2F5F7;
+  background-color: #f2f5f7;
   background-image: url("../images/bottom-left-swoosh.png"), url("../images/top-right-swoosh.png");
   background-position: left bottom, right top;
   background-repeat: no-repeat, no-repeat;
@@ -5248,12 +5237,12 @@ blockquote {
   padding: 60px; }
 
 .careers ul.bullets li:before {
-  content: '\00B7';
+  content: "\00B7";
   position: absolute;
   margin-left: -15px;
   margin-top: -15px;
   font-size: 40px;
-  color: #005D91; }
+  color: #005d91; }
 
 .careers ul.bullets {
   margin-top: 0;
@@ -5290,11 +5279,11 @@ blockquote {
   border-radius: 50%;
   margin-top: 2px;
   margin-left: 2px;
-  background-color: #005D91;
+  background-color: #005d91;
   opacity: 0.7; }
 
 .careers .carousel-card .carousel-indicators li.active {
-  background-color: #FFD44C;
+  background-color: #ffd44c;
   opacity: 1; }
 
 .careers .carousel-card .carousel-indicators li.active div {
@@ -5303,7 +5292,7 @@ blockquote {
   border-radius: 50%;
   margin-top: 2px;
   margin-left: 2px;
-  background-color: #FFD44C;
+  background-color: #ffd44c;
   opacity: 1; }
 
 .careers .carousel-card .carousel-indicators {
@@ -5329,29 +5318,36 @@ blockquote {
   box-shadow: 0px 4px 6px 0px rgba(64, 64, 64, 0.4); }
 
 .careers .table-of-contents ul {
-  margin: 0; }
+  margin: 0;
+  display: flex;
+  justify-content: center; }
 
 .careers .table-of-contents li {
-  display: inline-block;
-  width: 11%;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 20px 20px;
   border-bottom: transparent solid 5px; }
 
+.careers .table-of-contents li.grow {
+  flex-grow: 2; }
+
 .careers .table-of-contents li:hover {
-  border-bottom: #62B5E5 solid 5px; }
+  border-bottom: #62b5e5 solid 5px; }
+
+.careers .table-of-contents li.grow:hover {
+  border-bottom: transparent solid 5px; }
 
 .careers .table-of-contents li a:hover {
   text-decoration: none;
-  color: #005D91; }
+  color: #005d91; }
 
 .careers .table-of-contents li:last-child {
-  background-color: #005D91;
-  position: absolute;
-  right: 0;
-  height: 100%;
-  border: #005D91 2px solid; }
+  background-color: #005d91;
+  border: #005d91 2px solid;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 23px; }
 
 .careers .table-of-contents li:last-child a {
   color: white; }
@@ -5359,11 +5355,11 @@ blockquote {
 .careers .table-of-contents li:last-child:hover {
   transition-duration: 0.6s;
   background-color: white;
-  color: #005D91; }
+  color: #005d91; }
 
 .careers .table-of-contents li:last-child:hover a {
   transition-duration: 0.6s;
-  color: #005D91; }
+  color: #005d91; }
 
 .careers .mobile-version {
   display: none; }
@@ -5385,26 +5381,25 @@ blockquote {
     margin-left: 147px; }
   .careers .mobile-version .rw-words-1 span {
     width: 145px; }
+  .careers .table-of-contents ul {
+    display: block; }
+  .careers .table-of-contents ul li.grow {
+    display: none; }
   .careers .table-of-contents li {
     display: block;
     width: 100%;
     text-align: center;
-    height: 50px;
-    padding-top: 20px; }
+    border-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+  .careers .table-of-contents li:nth-child(2) {
+    padding-top: 30px; }
   .careers .table-of-contents li:hover {
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto; }
+    border-bottom: 0; }
   .careers .table-of-contents li:last-child {
-    background-color: #005D91;
-    color: white;
-    position: relative;
-    height: 100%;
-    padding-bottom: 20px;
-    width: 100%;
     margin-top: 20px; }
-  .careers .table-of-contents li:last-child a {
-    color: white; } }
+  .careers .table-of-contents li:last-child:hover {
+    border-bottom: 2px solid #005d91; } }
 
 .community-card h2 {
   padding: 0;
@@ -5414,10 +5409,10 @@ blockquote {
   padding: 30px 15px; }
 
 .social-media-card {
-  background-image: linear-gradient(to bottom right, #005D91, #62B5E5); }
+  background-image: linear-gradient(to bottom right, #005d91, #62b5e5); }
 
 .life-at-cloudops-card {
-  background-image: linear-gradient(to bottom right, #ffffff, #FFD44C); }
+  background-image: linear-gradient(to bottom right, #ffffff, #ffd44c); }
 
 .life-at-cloudops-card h2 {
   margin-top: 100px;
@@ -5425,7 +5420,7 @@ blockquote {
   font-size: 150%; }
 
 .carousel-card {
-  background-image: linear-gradient(to bottom right, #005D91, #62B5E5); }
+  background-image: linear-gradient(to bottom right, #005d91, #62b5e5); }
 
 .after-spinner {
   margin-left: 210px; }
@@ -5465,7 +5460,7 @@ blockquote {
   font-weight: bold;
   position: absolute;
   opacity: 0;
-  color: #005D91;
+  color: #005d91;
   -webkit-animation: rotateWord 12s cubic-bezier(0.4, 0.99, 0.99, 0.4) infinite 0s;
   -ms-animation: rotateWord 12s cubic-bezier(0.4, 0.99, 0.99, 0.4) infinite 0s;
   animation: rotateWord 12s cubic-bezier(0.4, 0.99, 0.99, 0.4) infinite 0s;
@@ -5477,31 +5472,31 @@ blockquote {
   -webkit-animation-delay: 2s;
   -ms-animation-delay: 2s;
   animation-delay: 2s;
-  color: #005D91; }
+  color: #005d91; }
 
 .rw-words-1 span:nth-child(3) {
   -webkit-animation-delay: 4s;
   -ms-animation-delay: 4s;
   animation-delay: 4s;
-  color: #005D91; }
+  color: #005d91; }
 
 .rw-words-1 span:nth-child(4) {
   -webkit-animation-delay: 6s;
   -ms-animation-delay: 6s;
   animation-delay: 6s;
-  color: #005D91; }
+  color: #005d91; }
 
 .rw-words-1 span:nth-child(5) {
   -webkit-animation-delay: 8s;
   -ms-animation-delay: 8s;
   animation-delay: 8s;
-  color: #005D91; }
+  color: #005d91; }
 
 .rw-words-1 span:nth-child(6) {
   -webkit-animation-delay: 10s;
   -ms-animation-delay: 10s;
   animation-delay: 10s;
-  color: #005D91; }
+  color: #005d91; }
 
 @-webkit-keyframes rotateWord {
   0% {
@@ -5584,7 +5579,7 @@ blockquote {
   .careers .carousel-card .carousel-inner .carousel-item h2::before {
     content: "\201F";
     padding-right: 6px;
-    color: #FFD44C; }
+    color: #ffd44c; }
   .careers .social-media-card i {
     font-size: 40px;
     padding: 8px;
@@ -5612,7 +5607,7 @@ blockquote {
     top: 180px;
     left: 20px;
     line-height: 1.2;
-    background-color: #47B7AF;
+    background-color: #47b7af;
     border-top: 15px solid #009187;
     padding: 5px 10px 10px;
     box-shadow: none;
@@ -5622,7 +5617,7 @@ blockquote {
     content: "";
     width: 70px;
     height: 20px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-60deg);
     position: absolute;
     top: -20px;
@@ -5631,7 +5626,7 @@ blockquote {
     content: "";
     width: 60px;
     height: 20px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-45deg);
     position: absolute;
     top: 108px;
@@ -5676,7 +5671,7 @@ blockquote {
     top: 30px;
     left: 155px;
     line-height: 1.2;
-    background-color: #47B7AF;
+    background-color: #47b7af;
     border-top: 15px solid #009187;
     padding: 5px 10px 10px;
     box-shadow: none;
@@ -5686,7 +5681,7 @@ blockquote {
     content: "";
     width: 60px;
     height: 20px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-24deg);
     position: absolute;
     top: -25px;
@@ -5695,7 +5690,7 @@ blockquote {
     content: "";
     width: 40px;
     height: 20px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-27deg);
     position: absolute;
     top: 116px;
@@ -5736,7 +5731,7 @@ blockquote {
     content: "";
     width: 60px;
     height: 20px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-25deg);
     position: absolute;
     top: -20px;
@@ -5745,7 +5740,7 @@ blockquote {
     content: "";
     width: 50px;
     height: 20px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-35deg);
     position: absolute;
     top: 110px;
@@ -5758,7 +5753,7 @@ blockquote {
     top: 20px;
     left: 20px;
     line-height: 1.2;
-    background-color: #47B7AF;
+    background-color: #47b7af;
     border-top: 10px solid #009187;
     padding: 5px 10px 10px;
     box-shadow: none;
@@ -5821,8 +5816,8 @@ blockquote {
   .careers .location-card {
     text-align: center;
     background-image: url(../images/blue-dots-RIGHT.png), url(../images/yellow-dots-RIGHT.png);
-    background-position: right top,right top;
-    background-repeat: repeat-y,repeat-y; }
+    background-position: right top, right top;
+    background-repeat: repeat-y, repeat-y; }
   .careers .location-card .text-location {
     padding: 50px 15px 0; }
   .careers .open-positions-card {
@@ -5851,8 +5846,8 @@ blockquote {
   .careers .location-card {
     text-align: center;
     background-image: url(../images/blue-dots-RIGHT.png), url(../images/yellow-dots-RIGHT.png);
-    background-position: right top,right top;
-    background-repeat: repeat-y,repeat-y; }
+    background-position: right top, right top;
+    background-repeat: repeat-y, repeat-y; }
   .careers .life-at-cloudops-card .carousel-inner.photos {
     height: 500px;
     width: 576px;
@@ -5871,7 +5866,7 @@ blockquote {
     top: 260px;
     left: 40px;
     line-height: 1.2;
-    background-color: #47B7AF;
+    background-color: #47b7af;
     border-top: 30px solid #009187;
     padding: 5px 20px 20px;
     box-shadow: none;
@@ -5881,7 +5876,7 @@ blockquote {
     content: "";
     width: 100px;
     height: 25px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-40deg);
     position: absolute;
     top: -30px;
@@ -5890,7 +5885,7 @@ blockquote {
     content: "";
     width: 90px;
     height: 25px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-45deg);
     position: absolute;
     top: 113px;
@@ -5935,7 +5930,7 @@ blockquote {
     top: 30px;
     left: 330px;
     line-height: 1.2;
-    background-color: #47B7AF;
+    background-color: #47b7af;
     border-top: 30px solid #009187;
     padding: 5px 20px 20px;
     box-shadow: none;
@@ -5945,7 +5940,7 @@ blockquote {
     content: "";
     width: 100px;
     height: 25px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-24deg);
     position: absolute;
     top: -30px;
@@ -5954,7 +5949,7 @@ blockquote {
     content: "";
     width: 100px;
     height: 25px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-27deg);
     position: absolute;
     top: 146px;
@@ -5995,7 +5990,7 @@ blockquote {
     content: "";
     width: 100px;
     height: 25px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-25deg);
     position: absolute;
     top: -30px;
@@ -6004,7 +5999,7 @@ blockquote {
     content: "";
     width: 80px;
     height: 25px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-35deg);
     position: absolute;
     top: 130px;
@@ -6017,7 +6012,7 @@ blockquote {
     top: 30px;
     left: 30px;
     line-height: 1.2;
-    background-color: #47B7AF;
+    background-color: #47b7af;
     border-top: 30px solid #009187;
     padding: 5px 20px 20px;
     box-shadow: none;
@@ -6098,7 +6093,7 @@ blockquote {
     top: 340px;
     left: 40px;
     line-height: 1.2;
-    background-color: #47B7AF;
+    background-color: #47b7af;
     border-top: 30px solid #009187;
     padding: 30px;
     box-shadow: none;
@@ -6108,7 +6103,7 @@ blockquote {
     content: "";
     width: 140px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-40deg);
     position: absolute;
     top: -30px;
@@ -6117,7 +6112,7 @@ blockquote {
     content: "";
     width: 120px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-45deg);
     position: absolute;
     top: 145px;
@@ -6162,7 +6157,7 @@ blockquote {
     top: 30px;
     left: 500px;
     line-height: 1.2;
-    background-color: #47B7AF;
+    background-color: #47b7af;
     border-top: 30px solid #009187;
     padding: 15px 30px 30px;
     box-shadow: none;
@@ -6172,7 +6167,7 @@ blockquote {
     content: "";
     width: 140px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-24deg);
     position: absolute;
     top: -30px;
@@ -6181,7 +6176,7 @@ blockquote {
     content: "";
     width: 190px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-27deg);
     position: absolute;
     top: 200px;
@@ -6222,7 +6217,7 @@ blockquote {
     content: "";
     width: 140px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-18deg);
     position: absolute;
     top: -30px;
@@ -6231,7 +6226,7 @@ blockquote {
     content: "";
     width: 140px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-27deg);
     position: absolute;
     top: 170px;
@@ -6244,7 +6239,7 @@ blockquote {
     top: 19px;
     left: 56px;
     line-height: 1.2;
-    background-color: #47B7AF;
+    background-color: #47b7af;
     border-top: 30px solid #009187;
     padding: 15px 30px 30px;
     box-shadow: none;
@@ -6320,7 +6315,7 @@ blockquote {
     top: 340px;
     left: 40px;
     line-height: 1.2;
-    background-color: #47B7AF;
+    background-color: #47b7af;
     border-top: 30px solid #009187;
     padding: 30px;
     box-shadow: none;
@@ -6330,7 +6325,7 @@ blockquote {
     content: "";
     width: 140px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-40deg);
     position: absolute;
     top: -30px;
@@ -6339,7 +6334,7 @@ blockquote {
     content: "";
     width: 120px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-45deg);
     position: absolute;
     top: 160px;
@@ -6384,7 +6379,7 @@ blockquote {
     top: 30px;
     left: 660px;
     line-height: 1.2;
-    background-color: #47B7AF;
+    background-color: #47b7af;
     border-top: 30px solid #009187;
     padding: 15px 30px 30px;
     box-shadow: none;
@@ -6394,7 +6389,7 @@ blockquote {
     content: "";
     width: 140px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-24deg);
     position: absolute;
     top: -30px;
@@ -6403,7 +6398,7 @@ blockquote {
     content: "";
     width: 190px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-27deg);
     position: absolute;
     top: 200px;
@@ -6444,7 +6439,7 @@ blockquote {
     content: "";
     width: 140px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-18deg);
     position: absolute;
     top: -30px;
@@ -6453,7 +6448,7 @@ blockquote {
     content: "";
     width: 170px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-27deg);
     position: absolute;
     top: 200px;
@@ -6466,7 +6461,7 @@ blockquote {
     top: 19px;
     left: 56px;
     line-height: 1.2;
-    background-color: #47B7AF;
+    background-color: #47b7af;
     border-top: 30px solid #009187;
     padding: 15px 30px 30px;
     box-shadow: none;
@@ -6545,7 +6540,7 @@ blockquote {
     top: 440px;
     left: 40px;
     line-height: 1.2;
-    background-color: #47B7AF;
+    background-color: #47b7af;
     border-top: 30px solid #009187;
     padding: 30px;
     box-shadow: none;
@@ -6555,7 +6550,7 @@ blockquote {
     content: "";
     width: 140px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-40deg);
     position: absolute;
     top: -30px;
@@ -6564,7 +6559,7 @@ blockquote {
     content: "";
     width: 120px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-45deg);
     position: absolute;
     top: 200px;
@@ -6617,7 +6612,7 @@ blockquote {
     top: 30px;
     left: 880px;
     line-height: 1.2;
-    background-color: #47B7AF;
+    background-color: #47b7af;
     border-top: 30px solid #009187;
     padding: 15px 30px 30px;
     box-shadow: none;
@@ -6627,7 +6622,7 @@ blockquote {
     content: "";
     width: 140px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-24deg);
     position: absolute;
     top: -30px;
@@ -6636,7 +6631,7 @@ blockquote {
     content: "";
     width: 190px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-27deg);
     position: absolute;
     top: 300px;
@@ -6685,7 +6680,7 @@ blockquote {
     content: "";
     width: 140px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-18deg);
     position: absolute;
     top: -30px;
@@ -6694,7 +6689,7 @@ blockquote {
     content: "";
     width: 170px;
     height: 30px;
-    background-color: #62B5E5;
+    background-color: #62b5e5;
     transform: rotate(-27deg);
     position: absolute;
     top: 200px;
@@ -6707,7 +6702,7 @@ blockquote {
     top: 19px;
     left: 56px;
     line-height: 1.2;
-    background-color: #47B7AF;
+    background-color: #47b7af;
     border-top: 30px solid #009187;
     padding: 15px 30px 30px;
     box-shadow: none;
