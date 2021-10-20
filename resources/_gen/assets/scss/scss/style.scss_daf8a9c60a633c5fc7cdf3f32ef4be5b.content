@@ -4923,6 +4923,10 @@ blockquote {
   width: 311px;
   height: auto; }
 
+.careers .case-studies-card .cloudops-values p {
+  padding-left: 15px;
+  padding-right: 15px; }
+
 .careers .case-studies-card .main-content-col {
   padding-left: 0;
   padding-right: 0; }
