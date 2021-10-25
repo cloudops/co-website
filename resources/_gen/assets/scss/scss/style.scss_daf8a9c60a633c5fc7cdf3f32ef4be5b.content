@@ -5615,13 +5615,13 @@ blockquote {
     z-index: 1000; }
   .life-at-cloudops-card p.pinboard-text-1::before {
     content: "";
-    width: 70px;
+    width: 40px;
     height: 20px;
     background-color: #62b5e5;
-    transform: rotate(-60deg);
+    transform: rotate(-45deg);
     position: absolute;
     top: -20px;
-    left: -25px; }
+    left: -10px; }
   .life-at-cloudops-card p.pinboard-text-1::after {
     content: "";
     width: 60px;
@@ -5693,8 +5693,8 @@ blockquote {
     background-color: #62b5e5;
     transform: rotate(-27deg);
     position: absolute;
-    top: 116px;
-    left: 122px; }
+    top: 122px;
+    left: 126px; }
   .careers .life-at-cloudops-card .framed-image.image-5-carousel {
     border: 7px solid #fff;
     box-shadow: 0 0 5px 2px rgba(65, 65, 65, 0.3);
