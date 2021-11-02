@@ -1,0 +1,84 @@
+Completely Translated 189
+English Translated 70
+French Translated 3
+
+
+English Only
+
+anthos-demo-and-learn-video.html
+anthos-demo-and-learn.html
+blog/a-cloudops-story/index.md
+blog/can-infor-and-netsuite-get-cloud-so-wrong/index.md
+blog/choosing-the-right-openstack-distribution/index.md
+blog/clouds-are-like-airlines/index.md
+blog/cloudstack-4-3-api-visualization/index.md
+blog/cloudstack-creating-advanced-networking-zone-using-api/index.md
+blog/cloudstack-vs-openstack-a-personal-experience/index.md
+blog/cloudstack-vs-openstack-is-there-really-a-winner/index.md
+blog/hosting-vs-clouds-humans-vs-machines/index.md
+blog/how-saasy-is-your-organization/index.md
+blog/how-to-get-a-job-in-the-cloud-industry/index.md
+blog/install-apache-cloudstack-with-chef/index.md
+blog/kubernetes-deployments-101/index.md
+blog/migrating-to-citrix-netscaler-from-cisco-ace-cloudops-can-help/index.md
+blog/moving-to-your-new-saasy-reality/index.md
+blog/parlons-en-cloud-2014-some-topics/index.md
+blog/podcast-own-your-destiny-in-the-cloud-episode-1-devops-realms/index.md
+blog/podcast-the-2030-cloud/index.md
+blog/podcast-the-future-of-cloud-native-telcos-own-your-destiny-in-the-cloud/index.md
+blog/quiz-scalability-availability-in-azure/index.md
+blog/rancher-2-0-exciting-features/index.md
+blog/researching-cloud-adoption/index.md
+blog/setting-up-an-ideal-cloudstack-development-environment/index.md
+blog/striking-the-balance-between-innovation-and-standardization-in-cloud-based-development/index.md
+blog/the-fight-is-over-and-saas-has-won/index.md
+blog/the-future-of-software-is-a-four-letter-word/index.md
+blog/thinking-about-web-application-firewalls/index.md
+blog/use-a-palo-alto-networks-firewall-with-cloudstack/index.md
+blog/vdi-per-lun/index.md
+blog/what-is-your-favourite-cloud-computing-quote/index.md
+blog/why-private-cloud-matters/index.md
+blog/why-the-cloud-is-and-needs-to-be-like-minecraft/index.md
+blog/why-you-should-consider-commercially-supported-open-source/index.md
+blog/working-with-the-cloudstack-api/index.md
+blog/youre-always-wrong-about-your-it-needs-and-here-is-why/index.md
+cloud-operating-model.html
+cloudops-press/announcing-cloud-ca/index.md
+cloudops-press/cloudops-announces-idc-vendor-profile/index.md
+cloudops-press/cloudops-becomes-the-first-canadian-citrix-specialist-in-networking-for-data-centre/index.md
+cloudops-press/cloudops-branham300-second-consecutive-year/index.md
+cloudops-press/cloudops-branham300/index.md
+cloudops-press/cloudops-ceo-featured-in-kpmgs-the-next-million/index.md
+cloudops-press/cloudops-datera-apache-cloudstack-integration/index.md
+cloudops-press/cloudops-is-in-the-top-100-cloud-solution-providers-in-canada/index.md
+cloudops-press/cloudops-named-one-of-deloittes-technology-fast-50tm-companies/index.md
+cloudops-press/cloudops-partners-with-mirantis/index.md
+cloudops-press/cloudops-ranks-305-on-2017-profit-500/index.md
+cloudops-press/cloudops-ranks-no-204-on-the-2015-profit-500/index.md
+cloudops-press/maddison-long-accepted-into-forbes-technology-council/index.md
+cloudops-press/partnership-with-netapp-propels-cloudmc-and-cloud-ca/index.md
+cloudops-press/sponsorship-for-apache-cloudstack-collab/index.md
+cloudops-press/will-stevens-apache-cloudstack-vice-president/index.md
+community-news/cloudops-to-host-apache-cloudstack-collab-june-1-3-2016/index.md
+community-news/eastern-canadas-kubernetes-and-cloud-native-meetups-winter-edition/index.md
+community-news/hashicorp-user-group-meetup/index.md
+community-news/lyfts-migration-to-envoy-1-9-update-cilium-networking-meetup/index.md
+inbound-leads.html
+no-nav/thank-you.html
+resources/infographics/company-values/_index.md
+resources/infographics/container-security-for-a-cloud-native-world/_index.md
+resources/infographics/cutting-cost-in-the-cloud/_index.md
+resources/infographics/what-is-a-cloud-center-of-excellence/_index.md
+resources/one-pagers/docker-kubernetes-workshop-curriculum/index.md
+resources/one-pagers/infrastucture-as-code-workshop/index.md
+resources/one-pagers/workshops-catalogue/index.md
+resources/white-papers/new-architectures-in-a-cloudy-world/_index.md
+resources/white-papers/practice-of-law-in-the-age-of-big-data/_index.md
+resources/white-papers/total-economic-impact-of-anthos/_index.md
+
+
+French Only
+
+blog/operateurs-kubernetes/index.md
+cloudops-press/cloudops-branham300-second-consecutive-year copy/index.md
+community-news/2018_ eastern-canadas-kubernetes-and-cloud-native-meetups-winter-edition/index.md
