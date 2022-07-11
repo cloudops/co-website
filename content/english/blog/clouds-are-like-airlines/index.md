@@ -2,12 +2,16 @@
 title: "Clouds are like airlines"
 date: "2014-04-07"
 author: "CloudOps"
-description: Certainly, clouds (at least, big public ones like Amazon Web Services and Google Compute Engine) have a lot in common with an electrical utility. 
+description: Certainly, clouds (at least, big public ones like Amazon Web Services and Google Compute Engine) have a lot in common with an electrical utility.
 resources:
+# - name: "thumbnail"
+#   src: "toy-airplane.jpg"
+# - name: "cover"
+#   src: "toy-airplane-cover.jpg"
 - name: "thumbnail"
-  src: "toy-airplane.jpg"
+  src: "UnlockingMultiCloud-Thumbnail.png"
 - name: "cover"
-  src: "toy-airplane-cover.jpg"
+  src: "UnlockingMultiCloud-Cover.png"
 class_name: "blog post"
 aliases:
     - /2014/04/clouds-are-like-airlines/
