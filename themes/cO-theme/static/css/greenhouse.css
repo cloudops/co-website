@@ -1,7 +1,42 @@
+#main {
+    padding:0;
+}
+
+#embedded_job_board_wrapper {
+    font-family: "Open Sans", sans-serif;
+}
+
 #embedded_job_board_wrapper h1 {
     display:none;
 }
 
 #embedded_job_board_wrapper #content {
     display:none;
+}
+
+#embedded_job_board_wrapper #board_title {
+    display:none;
+}
+
+#embedded_job_board_wrapper .level-0 {
+    text-align:center;
+}
+
+#embedded_job_board_wrapper .level-0 h3 {
+    display:none;
+}
+
+#embedded_job_board_wrapper .child.level-1 h4 {
+    color: #404040;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#embedded_job_board_wrapper .opening a {
+    text-decoration: none;
+    color: #005d91;
+}
+
+#embedded_job_board_wrapper .opening a:hover {
+    text-decoration: underline;
 }
