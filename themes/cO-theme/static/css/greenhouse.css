@@ -26,6 +26,10 @@
     display:none;
 }
 
+#embedded_job_board_wrapper .child {
+    margin:0;
+}
+
 #embedded_job_board_wrapper .child.level-1 h4 {
     color: #404040;
     font-size: 18px;
