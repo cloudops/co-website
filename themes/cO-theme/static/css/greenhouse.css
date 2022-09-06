@@ -1,0 +1,7 @@
+#embedded_job_board_wrapper h1 {
+    display:none;
+}
+
+#embedded_job_board_wrapper #content {
+    display:none;
+}
