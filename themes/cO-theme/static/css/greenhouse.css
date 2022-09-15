@@ -6,24 +6,16 @@
     font-family: "Open Sans", sans-serif;
 }
 
-#embedded_job_board_wrapper h1 {
-    display:none;
-}
-
-#embedded_job_board_wrapper #content {
-    display:none;
-}
-
-#embedded_job_board_wrapper #board_title {
+#embedded_job_board_wrapper h1,
+#embedded_job_board_wrapper #logo,
+#embedded_job_board_wrapper #content,
+#embedded_job_board_wrapper #board_title,
+#embedded_job_board_wrapper .level-0 h3 {
     display:none;
 }
 
 #embedded_job_board_wrapper .level-0 {
     text-align:center;
-}
-
-#embedded_job_board_wrapper .level-0 h3 {
-    display:none;
 }
 
 #embedded_job_board_wrapper .child {
