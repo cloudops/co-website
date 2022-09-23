@@ -1,6 +1,9 @@
 #main {
     padding:0;
 }
+#main #application {
+    margin-bottom:100px;
+}
 
 #embedded_job_board_wrapper {
     font-family: "Open Sans", sans-serif;
