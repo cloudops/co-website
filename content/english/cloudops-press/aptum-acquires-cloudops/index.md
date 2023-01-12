@@ -1,6 +1,6 @@
 ---
 title: "Aptum Strengthens its Hybrid Multi-Cloud MSP Position with the Acquisition of Montreal-based CloudOps, an AWS, Google and Edge-to-Cloud SaaS Orchestrator"
-date: "2023-01-11"
+date: "2023-01-12"
 author: "Ian Rae"
 resources:
 - name: "thumbnail"

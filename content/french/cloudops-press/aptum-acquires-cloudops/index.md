@@ -1,6 +1,6 @@
 ---
 title: "Aptum renforce sa position de fournisseur de services gérés multinuages hybrides avec l’acquisition de la société montréalaise CloudOps, un chef de file reconnu dans la fourniture des services AWS, Google et orchestrateur du cloud à la périphérie"
-date: "2023-01-11"
+date: "2023-01-12"
 author: "Ian Rae"
 resources:
 - name: "thumbnail"
