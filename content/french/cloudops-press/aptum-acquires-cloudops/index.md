@@ -104,9 +104,9 @@ société de portefeuille détenue par DigitalBridge, une société d’investis
 se consacre aux débouchés stratégiques dans le domaine de l’infrastructure numérique. 
 Pour obtenir de plus amples renseignements, visitez <a href="https://aptum.com/" target="_blank">www.aptum.com</a>.
 
-**Communiquez avec Aptum**<br />
+<strong>Communiquez avec Aptum</strong><br />
 <a href="https://aptum.com/blog/" target="_blank">Blog officiel</a> | <a href="https://www.linkedin.com/company/aptum/" target="_blank">LinkedIn</a> | <a href="https://twitter.com/aptumtech" target="_blank">Twitter</a>
 
-**Pour obtenir de plus amples renseignements, veuillez communiquer avec :**<br />
+<strong>Pour obtenir de plus amples renseignements, veuillez communiquer avec :</strong><br />
 Claudine Dumont<br />
 <a href="mailto:media@aptum.com">media@aptum.com</a>

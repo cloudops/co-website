@@ -96,9 +96,9 @@ America, Europe and the United Kingdom. Aptum is a portfolio company of
 DigitalBridge, a global investment firm dedicated to strategic opportunities in digital
 infrastructure. For more information, visit <a href="https://aptum.com/" target="_blank">www.aptum.com</a>.
 
-**Connect with Aptum**<br />
+<strong>Connect with Aptum</strong><br />
 <a href="https://aptum.com/blog/" target="_blank">Official Blog</a> | <a href="https://www.linkedin.com/company/aptum/" target="_blank">LinkedIn</a> | <a href="https://twitter.com/aptumtech" target="_blank">Twitter</a>
 
-**For more information, please contact:**<br />
+<strong>For more information, please contact:</strong><br />
 Claudine Dumont<br />
 <a href="mailto:media@aptum.com">media@aptum.com</a>
