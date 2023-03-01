@@ -9,7 +9,7 @@ resources:
   src: "press_release.png"
 class_name: "blog post"
 aliases:
-description:
+description: Aptum announces Multi-Tenant Cloud Solution providing data residency.
 keywords: {aptum, cloudops, mtc, multi-tenant cloud}
 tags:
 ---
