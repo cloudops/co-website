@@ -2,8 +2,11 @@
 <html lang="en">
   {{- partial "head.html" . -}}
   <body>
-    <!-- Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NV3J6MB"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
+
     {{- partial "header.html" . -}}
     <div class="container-fluid main-content">
       {{- block "main" . }}{{- end }}
