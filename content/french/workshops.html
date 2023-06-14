@@ -5,6 +5,13 @@ keywords: []
 class_name: "workshops-page"
 slug: "ateliers"
 ---
+<style>
+  #hs-contact-form {
+    width: 100%;
+    max-width: 800px; /* or any width you prefer */
+    margin: 0 auto;
+  }
+  </style>
 <div class="workshops">
 
   <!-- hero -->
@@ -280,17 +287,15 @@ slug: "ateliers"
         <h2>Faites-nous savoir où vous vous situez.</h2>
       </div>
     </div>
-    <div class="general-contact-form">
-<!--[if lte IE 8]>
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-<![endif]-->
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-<script>
-  hbspt.forms.create({
-        portalId: "732832",
-        formId: "0d9c7850-6cff-4c22-9aa7-ec12f8bdd94d"
-});
-</script>
+    <div class="general-contact-form" id="hs-contact-form"><br>
+      <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/embed/v2.js"></script>
+      <script>
+        hbspt.forms.create({
+          region: "na1",
+          portalId: "6195483",
+          formId: "3a3b64e2-5e1f-40da-bc2d-9269a95866f6"
+        });
+      </script>
     </div>
   </div>
 
