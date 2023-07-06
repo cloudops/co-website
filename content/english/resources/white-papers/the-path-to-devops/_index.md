@@ -59,17 +59,14 @@ tags:
                 class="col-xl-3 offset-xl-3 col-lg-3 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-xs-12">
                 <h2>Where should we send this white paper?</h2>
             </div>
-            <div
-                class="col-xl-5 offset-xl-0 col-lg-6 offset-lg-1 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-xs-12 general-contact-form">
-                <!--[if lte IE 8]>
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-<![endif]-->
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+            <div class="col-xl-5 offset-xl-0 col-lg-6 offset-lg-1 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-xs-12 general-contact-form"><br>
+           <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
 <script>
   hbspt.forms.create({
-	portalId: "732832",
-	formId: "f0d68bbc-ebdd-4918-ba26-b516f4268a28"
-});
+    region: "na1",
+    portalId: "6195483",
+    formId: "a3351c16-f49b-43bb-8bd8-9ffedf763024"
+  });
 </script>
             </div>
         </div>
