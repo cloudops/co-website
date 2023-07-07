@@ -49,18 +49,14 @@ tags:
                 class="col-xl-3 offset-xl-3 col-lg-3 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-xs-12">
                 <h2>Où devrions-nous envoyer ce livre blanc?</h2>
             </div>
-            <div
-                class="col-xl-5 offset-xl-0 col-lg-6 offset-lg-1 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-xs-12 general-contact-form">
-<!--[if lte IE 8]>
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-<![endif]-->
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+            <div class="col-xl-5 offset-xl-0 col-lg-6 offset-lg-1 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-xs-12 general-contact-form"><br>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
 <script>
   hbspt.forms.create({
-	region: "na1",
-	portalId: "732832",
-	formId: "f8663206-2eb3-4d2d-85e8-31a608177fab"
-});
+    region: "na1",
+    portalId: "6195483",
+    formId: "adda460c-2492-4dd2-ba73-9fd2b8ac3cef"
+  });
 </script>
             </div>
         </div>
