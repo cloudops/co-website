@@ -24,7 +24,7 @@ tags:
 
 <p><a href="https://www.cloudops.com/2017/07/docker-and-kubernetes-what-is-the-value-of-containerization/">Containerization has helped drive the development process.</a> It has opened the door for organizations to control cost and take charge of their destinies by leveraging open source tools – specific vendors may not be around forever, so relying on vendors for support instead of intellectual property can lead to more long-term success. By packaging software into standardized, lightweight containers, open source tools like Kubernetes enable software to be executed quickly and efficiently across multi-cloud environments.</p>
 
-<p>Containers are an integral part of <a href="https://www.cloudops.com/2018/11/why-cloud-native-cloud-agnostic-platforms-and-automation-driving-business-value/">cloud native applications</a>, which can be defined as applications that take full advantage of the cloud through being auto-provisioning, auto-scaling, and auto-redundant.</p>
+<p>Containers are an integral part of <a href="https://www.cloudops.com/blog/why-cloud-native-cloud-agnostic-platforms-and-automation-driving-business-value/">cloud native applications</a>, which can be defined as applications that take full advantage of the cloud through being auto-provisioning, auto-scaling, and auto-redundant.</p>
 
 <p>But the ability of containers to promote agility depends on the integration of DevOps cultural practices into CI/CD (continuous integration and delivery) pipelines. Many organizations that embraced containers as a first step to digital transformation are finding themselves held back by traditional IT operations that are unable to sustain the volatility of containerized applications.</p>
 
