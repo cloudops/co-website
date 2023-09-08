@@ -100,7 +100,7 @@ Hit refresh. You'll see that you are going randomly to your Apache servers.</cod
 
 <p><strong>Now go forth and Automate All The Things!</strong></p>
 
-<p>CloudOps offers DevOps solutions with a wide range of expertise. Check out our hands-on workshops on <a href="https://www.cloudops.com/infrastructure-as-code/" target="_blank">Infrastructure as Code</a>, and <a href="https://www.cloudops.com/about-us/contact-us/" target="_blank">contact us</a> to learn more about our expertise and what we can do for your organization.</p>
+<p>CloudOps offers DevOps solutions with a wide range of expertise. Check out our hands-on workshops on <a href="https://www.cloudops.com/infrastructure-as-code/" target="_blank">Infrastructure as Code</a>, and <a href="https://www.cloudops.com/contact-us/" target="_blank">contact us</a> to learn more about our expertise and what we can do for your organization.</p>
 
 
 <h3><img style="width: 130px; float: left; padding: 0 10px 10px 0;" class="size-full wp-image-749" title="Stacy Véronneau" src="/images/blog/post/unnamed.jpg" alt="" width="130" height="150">Stacy Véronneau</h3>

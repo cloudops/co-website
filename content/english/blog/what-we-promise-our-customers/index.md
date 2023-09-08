@@ -20,7 +20,7 @@ tags:
 
 <p>At CloudOps, we believe that the successful adoption of DevOps is required to survive, even thrive, in today’s software-differentiated economy. By evolving their tools, processes, and cultures, our customers can embark on a journey towards delivering great products faster.</p>
 
-<p>Our approach to DevOps is highlighted in our mission statement, to help customers own their destinies in the cloud. We empower our customers with DevOps, so they can make informed technology choices that reduce the risk of their investments and give them optionality and leverage over their suppliers. We help their applications take full advantage of the cloud’s operational model with containers, becoming <a href="https://www.cloudops.com/2018/11/why-cloud-native-cloud-agnostic-platforms-and-automation-driving-business-value/">cloud native</a> in the process. There are four key promises we give our customers along the way.</p>
+<p>Our approach to DevOps is highlighted in our mission statement, to help customers own their destinies in the cloud. We empower our customers with DevOps, so they can make informed technology choices that reduce the risk of their investments and give them optionality and leverage over their suppliers. We help their applications take full advantage of the cloud’s operational model with containers, becoming <a href="https://www.cloudops.com/blog/why-cloud-native-cloud-agnostic-platforms-and-automation-driving-business-value/">cloud native</a> in the process. There are four key promises we give our customers along the way.</p>
 
 <h3><em>Git </em>there faster</h3>
 

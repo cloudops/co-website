@@ -12,6 +12,7 @@ aliases:
     - /fr/tags/cloud-native/
     - /fr/tags/fournisseurs-de-solutions-au-canada/
     - /fr/tags/financial-times-americas-fastest-growing-companies-cloudops-cloudops-growth-cloud-growth/
+    - /fr/blogue/
 ---
 
 <div class="blog-main">

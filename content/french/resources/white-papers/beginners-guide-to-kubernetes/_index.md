@@ -8,6 +8,8 @@ slug: "guide-du-debutant-kubernetes"
 description: Kubernetes est la base de toute pratique technologique en nuage natif. Ce livre électronique vous enseignera les concepts de base des conteneurs.
 keywords: [kubernetes 101, guide kubernetes, intro kubernetes, guide kubernetes]
 tags:
+aliases:
+    - /fr/guide-du-debutant-kubernetes
 ---
 
 

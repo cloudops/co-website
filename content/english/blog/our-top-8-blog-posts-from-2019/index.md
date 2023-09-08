@@ -24,7 +24,7 @@ tags:
 
 <h3><strong>A Brief Guide to Securing Containers at Scale</strong></h3>
 
-<p>Containers have developed so quickly that their security has not always kept up, and traditional practices for securing VMs don’t always apply. But you can secure your pipeline at scale with containers so long as you change the way you approach security. <a href="https://www.cloudops.com/2019/01/a-brief-guide-to-securing-containers-at-scale/">Read how in this blog post.</a></p>
+<p>Containers have developed so quickly that their security has not always kept up, and traditional practices for securing VMs don’t always apply. But you can secure your pipeline at scale with containers so long as you change the way you approach security. <a href="https://www.cloudops.com/blog/a-brief-guide-to-securing-containers-at-scale/">Read how in this blog post.</a></p>
 
 <h3><strong>What We Promise Our Customers</strong></h3>
 

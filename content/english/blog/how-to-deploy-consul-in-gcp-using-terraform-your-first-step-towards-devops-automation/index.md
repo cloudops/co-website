@@ -72,7 +72,7 @@ tags:
 
 <p><strong>Now go forth and Automate All The Things!</strong></p>
 
-<p>CloudOps offers DevOps solutions and has a wide range of expertise. Check out our hands-on workshops on <a href="https://www.cloudops.com/infrastructure-as-code/" target="_blank">Infrastructure as Code</a>, and <a href="https://www.cloudops.com/about-us/contact-us/" target="_blank">contact us</a> to learn more about our expertise and what we can do for your organization.</p>
+<p>CloudOps offers DevOps solutions and has a wide range of expertise. Check out our hands-on workshops on <a href="https://www.cloudops.com/infrastructure-as-code/" target="_blank">Infrastructure as Code</a>, and <a href="https://www.cloudops.com/contact-us/" target="_blank">contact us</a> to learn more about our expertise and what we can do for your organization.</p>
 
 <p><strong>Check out these sites and repos to get you going:</strong></p>
 
