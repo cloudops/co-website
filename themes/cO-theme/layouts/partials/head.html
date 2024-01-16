@@ -110,4 +110,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {{ else }}
         <title>CloudOps - {{ .Title }}</title>
     {{ end }}
+  {{ with .Params.relcanonical }}
+    <link rel="canonical" href="{{ . | relLangURL }}" itemprop="url" />
+  {{ else -}}
+    <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+  {{ end -}}
 </head>
