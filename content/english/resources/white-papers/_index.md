@@ -1,6 +1,7 @@
 ---
 title: White Papers
 type: subpage-resources
+description: Master cloud complexity and cost management for successful digital transformation
 aliases:
     - /white-papers
 ---
