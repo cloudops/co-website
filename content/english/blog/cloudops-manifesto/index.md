@@ -57,9 +57,6 @@ tags:
 
 <p>8.<b> Expect the unexpected</b>– monitoring in depth is critical because clouds are extremely complicated and show emergent behaviour, like living things, ecosystems and weather. During incidents you will need lots of tools to collect lots of data and run analytics.</p>
 
-<img src="/images/blog/post/Surprise-monkey.jpg">
-<span style="font-size: 10px;"><br> source: <a  style="font-size: 10px;" href="http://funnystack.com/2014/04/23/surprised-funny-scared-monkey/" target="_blank">funnystack.com</a></span>
-
 <p>9.<b> Interchangeable commodity components</b>– build everything you can with replaceable commodity components, beware uniqueness unless it is your own tech that helps you differentiate and compete.</p>
 
 <img src="/images/blog/post/modular-components.jpg">
@@ -67,8 +64,6 @@ tags:
 
 <p>10.<b> 24x7x365</b>: you will need to change the tires while rolling down the highway, so design for that. Test constantly for the ability to do so because it is very easy to lose this capacity and almost impossible to get it back.</p>
 
-<a href="https://www.citylab.com/life/2013/09/so-apparently-its-cool-hang-out-moving-tilted-cars-saudi-arabia-now/7015/"><img src="/images/blog/post/change-tires-while-driving.jpg" style="max-width: 500px;"></a>
-<span style="font-size: 10px;"><br> source: <a  style="font-size: 10px;" href="http://www.businessinsider.com/saudi-arabia-sidewall-skiing-2013-4" target="_blank">businessinsider.com</a></span>
 
 <p><b>THIS LIST GOES UP TO 11… </b></p>
 
