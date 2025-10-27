@@ -11,7 +11,6 @@ slug: /devopsdays-montreal
 aliases:
     - /fr/2018/10/devopsdays-montreal/
     - /fr/devopsdays-montreal
-description:
 keywords:
 tags:
 ---
