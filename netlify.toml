@@ -29,17 +29,415 @@ HUGO_VERSION = "0.74.3"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
-# --- CloudOps -> Aptum 301 redirects (cloudops.com retirement) ---
-# PILOT: one blog post, per redirect map "Pattern rules" (/blog/* -> /blog/).
-# force = true is required: Hugo still builds this page into public/, so without
-# force Netlify serves the file and the redirect never fires.
-# ?ref=cloudops is the PROVISIONAL banner signal for aptum.com; confirm the
-# parameter name with Double Up before the full rollout.
+# ============================================================================
+# CloudOps -> Aptum 301 redirects (cloudops.com retirement)
+# ----------------------------------------------------------------------------
+# Netlify processes these TOP-TO-BOTTOM, FIRST MATCH WINS. Order is deliberate:
+#   specific paths first, then wildcards, then (eventually) the global catch-all.
+# force = true on every rule: Hugo still builds these pages into public/, so
+#   without force Netlify would serve the file and the redirect would not fire.
+# ?ref=cloudops is the PROVISIONAL banner signal for aptum.com. Confirm the
+#   parameter name with Double Up; changing it is one find/replace.
+# Rollout batches (see cloudops-aptum-redirect-map-updated.xlsx):
+#   A = specific 1:1 rules (THIS commit)   B = EN wildcards   C = French
+#   CloudMC is a SEPARATE host (cloudmc.cloudops.com) and is NOT handled here.
+#   The global /* -> / catch-all is intentionally NOT enabled yet -- it would
+#   force-redirect every asset and break any still-serving section. It goes in
+#   last, at full retirement.
+# ============================================================================
+
+# ===== BATCH A -- bespoke EN (specific 1:1) =====
+  # Homepage anchor (63% of backlinks)
+[[redirects]]
+  from = "/"
+  to = "https://aptum.com/?ref=cloudops"
+  status = 301
+  force = true
+
+  # #1 non-brand KW; no exact aptum page (gap)
+[[redirects]]
+  from = "/cloud-native-consulting/"
+  to = "https://aptum.com/services/human-support/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/transformations/"
+  to = "https://aptum.com/services/assessments/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/managed-services-augmented-support/"
+  to = "https://aptum.com/services/human-support/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cloud-migration/"
+  to = "https://aptum.com/services/assessments/cloud-repatriation-assessment/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/solutions/"
+  to = "https://aptum.com/services/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cloud-operating-model/"
+  to = "https://aptum.com/hybrid-cloud/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/using-cloud/"
+  to = "https://aptum.com/services/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/delivering-cloud/"
+  to = "https://aptum.com/services/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/delivering-cloud-consulting/"
+  to = "https://aptum.com/services/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cloud-building/"
+  to = "https://aptum.com/services/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/containers-kubernetes/"
+  to = "https://aptum.com/services/training-workshops/kubernetes-for-users-multi-cloud/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/advanced-containers-kubernetes/"
+  to = "https://aptum.com/services/training-workshops/kubernetes-for-users-multi-cloud/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/containers-kubernetes-eks/"
+  to = "https://aptum.com/services/training-workshops/kubernetes-for-users-multi-cloud/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/kubernetes-machine-learning/"
+  to = "https://aptum.com/services/training-workshops/kubernetes-for-users-multi-cloud/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ci-cd/"
+  to = "https://aptum.com/services/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/infrastructure-as-code/"
+  to = "https://aptum.com/services/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/devops-monitoring/"
+  to = "https://aptum.com/services/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/openshift/"
+  to = "https://aptum.com/services/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/secrets-management/"
+  to = "https://aptum.com/services/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/networking/"
+  to = "https://aptum.com/services/network/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/devops-platform-practices-assessment/"
+  to = "https://aptum.com/services/assessments/?ref=cloudops"
+  status = 301
+  force = true
+
+  # FLAG: no industry page on aptum; homepage fallback
+[[redirects]]
+  from = "/healthcare/"
+  to = "https://aptum.com/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/why-cloudops/"
+  to = "https://aptum.com/hybrid-cloud/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about-us/"
+  to = "https://aptum.com/our-story/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/contact-us/"
+  to = "https://aptum.com/contact/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/careers/"
+  to = "https://aptum.com/careers/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/partners/"
+  to = "https://aptum.com/our-partners/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/experts/"
+  to = "https://aptum.com/our-story/?ref=cloudops"
+  status = 301
+  force = true
+
+  # FLAG: verify real aptum privacy path (footer)
+[[redirects]]
+  from = "/privacy-policy/"
+  to = "https://aptum.com/legal/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/"
+  to = "https://aptum.com/resources/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/case-studies/"
+  to = "https://aptum.com/customer-stories/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/white-papers/"
+  to = "https://aptum.com/resources/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/one-pagers/"
+  to = "https://aptum.com/resources/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/infographics/"
+  to = "https://aptum.com/resources/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/cloud-impact-study/"
+  to = "https://aptum.com/cloud-impact-study/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cloudops-press/"
+  to = "https://aptum.com/news/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/community-news/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/workshops/"
+  to = "https://aptum.com/services/training-workshops/kubernetes-for-users-multi-cloud/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/workshops-information/"
+  to = "https://aptum.com/services/training-workshops/kubernetes-for-users-multi-cloud/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cka-ckad-exams/"
+  to = "https://aptum.com/services/training-workshops/kubernetes-for-users-multi-cloud/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/categories/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+
+# ===== BATCH A -- legacy/orphan EN (specific; best backlinks, incl. merged pilot) =====
+  # PILOT (already live via PR #170)
 [[redirects]]
   from = "/blog/7-things-cloudops-is-betting-on-in-2018/"
   to = "https://aptum.com/blog/?ref=cloudops"
   status = 301
   force = true
+
+  # highest-linked article
+[[redirects]]
+  from = "/2019/05/the-ultimate-rook-and-ceph-survival-guide/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2019/03/comparing-service-meshes-istio-linkerd-and-consul-connect/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+  # highest-authority link (cncf.io, DR19)
+[[redirects]]
+  from = "/2018/10/the-beginners-guide-to-the-cncf-landscape/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2018/09/does-the-service-mesh-spell-the-end-for-middleware/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2019/02/driving-feature-velocity-through-cultural-change-why-devops-puts-mindset-before-technology/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2018/10/takeaways-from-liz-rice-pop-up-meetup-on-container-security/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2014/05/cloud-adoption-success-in-7-easy-steps/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2020/01/top-10-mistakes-to-avoid-when-adopting-devops/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+  # press-style -> newsroom
+[[redirects]]
+  from = "/2017/05/cloudops-datera-apache-cloudstack-integration/"
+  to = "https://aptum.com/news/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2020/05/3-ways-to-prepare-remote-teams-for-devops-adoption/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2018/07/devops-sundae-with-sre/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2020/04/8-ways-to-cut-cloud-consumption-costs/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2019/01/a-brief-guide-to-securing-containers-at-scale/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2020/07/top-7-challenges-to-becoming-cloud-native/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+  # FLAG: orphan; GPU/AI angle undecided
+[[redirects]]
+  from = "/gpu-optimization"
+  to = "https://aptum.com/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docker-and-kubernetes-workshops/"
+  to = "https://aptum.com/services/training-workshops/kubernetes-for-users-multi-cloud/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/event/"
+  to = "https://aptum.com/events/?ref=cloudops"
+  status = 301
+  force = true
+
+  # orphan blog, in backlinks
+[[redirects]]
+  from = "/blog/red-hat-openshift-or-kubernetes-which-is-the-best-choice/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+# --- Batches B (EN wildcards) and C (French) land in later commits ---
 
 [[headers]]
   for = "/*"
