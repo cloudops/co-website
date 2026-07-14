@@ -29,6 +29,18 @@ HUGO_VERSION = "0.74.3"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
+# --- CloudOps -> Aptum 301 redirects (cloudops.com retirement) ---
+# PILOT: one blog post, per redirect map "Pattern rules" (/blog/* -> /blog/).
+# force = true is required: Hugo still builds this page into public/, so without
+# force Netlify serves the file and the redirect never fires.
+# ?ref=cloudops is the PROVISIONAL banner signal for aptum.com; confirm the
+# parameter name with Double Up before the full rollout.
+[[redirects]]
+  from = "/blog/7-things-cloudops-is-betting-on-in-2018/"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
