@@ -758,6 +758,29 @@ HUGO_ENABLEGITINFO = "true"
   force = true
 
 
+# ===== SEO passthrough -- keep serving; must precede /fr/* and the global /* =====
+  # Preserve the sitemap chain + robots so Search Console can still read the old
+  # sitemap and process the 301s. force=false so the real files are served.
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
+
+[[redirects]]
+  from = "/en/sitemap.xml"
+  to = "/en/sitemap.xml"
+  status = 200
+
+[[redirects]]
+  from = "/fr/sitemap.xml"
+  to = "/fr/sitemap.xml"
+  status = 200
+
+[[redirects]]
+  from = "/robots.txt"
+  to = "/robots.txt"
+  status = 200
+
 # ===== BATCH C -- French fallback catch-all (keep last of FR) =====
   # FR fallback: ~180 localized FR slugs not individually mapped -> FR home
 [[redirects]]
@@ -766,7 +789,14 @@ HUGO_ENABLEGITINFO = "true"
   status = 301
   force = true
 
-# --- Global /* catch-all + sitemap/robots passthrough land in the next commit ---
+# ===== GLOBAL CATCH-ALL -- FULL RETIREMENT switch (keep ABSOLUTELY last) =====
+  # Anything not matched above -> Aptum home. force=true so nothing 404s.
+  # Sits after /fr/* so French URLs have already landed on the FR home.
+[[redirects]]
+  from = "/*"
+  to = "https://aptum.com/?ref=cloudops"
+  status = 301
+  force = true
 
 [[headers]]
   for = "/*"
