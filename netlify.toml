@@ -582,7 +582,191 @@ HUGO_ENABLEGITINFO = "true"
   status = 301
   force = true
 
-# --- Batch C (French) + global /* catch-all land in later commits ---
+# ===== BATCH C -- French specific =====
+[[redirects]]
+  from = "/fr/"
+  to = "https://aptum.com/fr/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/consultation-en-nuage-natif/"
+  to = "https://aptum.com/fr/services/human-support/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/services-geres-soutien-avance/"
+  to = "https://aptum.com/fr/services/human-support/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/migration-vers-le-nuage/"
+  to = "https://aptum.com/fr/services/assessments/cloud-repatriation-assessment/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/transformations/"
+  to = "https://aptum.com/fr/services/assessments/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/services-et-produits/"
+  to = "https://aptum.com/fr/services/?ref=cloudops"
+  status = 301
+  force = true
+
+  # FLAG: confirm aptum FR about slug
+[[redirects]]
+  from = "/fr/a-propos/"
+  to = "https://aptum.com/fr/our-story/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/contactez-nous/"
+  to = "https://aptum.com/fr/contact/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/blog/"
+  to = "https://aptum.com/fr/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/ressources/"
+  to = "https://aptum.com/fr/resources/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/cloudops-press/"
+  to = "https://aptum.com/fr/news/?ref=cloudops"
+  status = 301
+  force = true
+
+  # FR legacy dated
+[[redirects]]
+  from = "/fr/2019/09/evolution-vers-un-centre-infonuagique-dexcellence-dans-aws/"
+  to = "https://aptum.com/fr/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+
+# ===== BATCH C -- French patterns =====
+[[redirects]]
+  from = "/fr/blog/*"
+  to = "https://aptum.com/fr/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/cloudops-press/*"
+  to = "https://aptum.com/fr/news/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/community-news/*"
+  to = "https://aptum.com/fr/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/ressources/*"
+  to = "https://aptum.com/fr/resources/?ref=cloudops"
+  status = 301
+  force = true
+
+
+# ===== BATCH C -- French dated /fr/YYYY/* catch-all =====
+[[redirects]]
+  from = "/fr/2011/*"
+  to = "https://aptum.com/fr/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/2012/*"
+  to = "https://aptum.com/fr/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/2013/*"
+  to = "https://aptum.com/fr/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/2014/*"
+  to = "https://aptum.com/fr/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/2015/*"
+  to = "https://aptum.com/fr/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/2016/*"
+  to = "https://aptum.com/fr/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/2017/*"
+  to = "https://aptum.com/fr/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/2018/*"
+  to = "https://aptum.com/fr/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/2019/*"
+  to = "https://aptum.com/fr/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/2020/*"
+  to = "https://aptum.com/fr/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/2021/*"
+  to = "https://aptum.com/fr/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fr/2022/*"
+  to = "https://aptum.com/fr/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+
+# ===== BATCH C -- French fallback catch-all (keep last of FR) =====
+  # FR fallback: ~180 localized FR slugs not individually mapped -> FR home
+[[redirects]]
+  from = "/fr/*"
+  to = "https://aptum.com/fr/?ref=cloudops"
+  status = 301
+  force = true
+
+# --- Global /* catch-all + sitemap/robots passthrough land in the next commit ---
 
 [[headers]]
   for = "/*"
