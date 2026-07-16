@@ -437,7 +437,152 @@ HUGO_ENABLEGITINFO = "true"
   status = 301
   force = true
 
-# --- Batches B (EN wildcards) and C (French) land in later commits ---
+# ===== BATCH B -- EN pattern rules (wildcards) =====
+  # long-tail blog archive; specific posts handled above
+[[redirects]]
+  from = "/blog/*"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cloudops-press/*"
+  to = "https://aptum.com/news/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/community-news/*"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/white-papers/*"
+  to = "https://aptum.com/resources/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/case-studies/*"
+  to = "https://aptum.com/customer-stories/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/one-pagers/*"
+  to = "https://aptum.com/resources/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/infographics/*"
+  to = "https://aptum.com/resources/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/cloud-impact-study/*"
+  to = "https://aptum.com/cloud-impact-study/?ref=cloudops"
+  status = 301
+  force = true
+
+  # FLAG: consider 410/noindex instead (SEO call)
+[[redirects]]
+  from = "/tags/*"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+  # FLAG: consider 410/noindex instead (SEO call)
+[[redirects]]
+  from = "/categories/*"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+  # old category archives
+[[redirects]]
+  from = "/category/*"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+
+# ===== BATCH B -- legacy dated /YYYY/* catch-all =====
+[[redirects]]
+  from = "/2011/*"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2012/*"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2013/*"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2014/*"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2015/*"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2016/*"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2017/*"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2018/*"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2019/*"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2020/*"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2021/*"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/2022/*"
+  to = "https://aptum.com/blog/?ref=cloudops"
+  status = 301
+  force = true
+
+# --- Batch C (French) + global /* catch-all land in later commits ---
 
 [[headers]]
   for = "/*"
