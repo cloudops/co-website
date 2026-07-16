@@ -36,8 +36,8 @@ HUGO_ENABLEGITINFO = "true"
 #   specific paths first, then wildcards, then (eventually) the global catch-all.
 # force = true on every rule: Hugo still builds these pages into public/, so
 #   without force Netlify would serve the file and the redirect would not fire.
-# ?ref=cloudops is the PROVISIONAL banner signal for aptum.com. Confirm the
-#   parameter name with Double Up; changing it is one find/replace.
+# ?ref=cloudops is the CONFIRMED banner signal for aptum.com: Double Up
+#   verified the banner fires on this parameter (2026-07-16).
 # Rollout batches (see cloudops-aptum-redirect-map-updated.xlsx):
 #   A = specific 1:1 rules (THIS commit)   B = EN wildcards   C = French
 #   CloudMC is a SEPARATE host (cloudmc.cloudops.com) and is NOT handled here.
